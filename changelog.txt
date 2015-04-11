@@ -9,6 +9,7 @@ Config Changes
 - Enabled Hardcore Diving Setting (Mariculture)
 - Enabled Baits for Vanilla Rod (Mariculture)
 - Start some balancing settings for Agricraft
+- Disabled Drums, EnderQuarry, SuperWateringCan (ExtraUtillities)
 
 Mod Updates
 Forest Day 1.4.0a to 1.4.0c
