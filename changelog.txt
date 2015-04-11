@@ -1,0 +1,15 @@
+============================================================
+Version 0.1.1
+============================================================
+Config Changes
+- Disabled OreGen (All) and OreBushes (Tinkers Construct)
+- Disabled Harvestcraft Bees
+- Disabled Mark of the Falling Tower (Blood Magic)
+- Disabled Ender Dragon Spawning (Mariculture)
+- Enabled Hardcore Diving Setting (Mariculture)
+- Enabled Baits for Vanilla Rod (Mariculture)
+- Start some balancing settings for Agricraft
+
+Mod Updates
+
+Mod Additions
