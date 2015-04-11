@@ -12,7 +12,8 @@ Config Changes
 - Disabled Drums, EnderQuarry, SuperWateringCan (ExtraUtillities)
 
 Mod Updates
-Forest Day 1.4.0a to 1.4.0c
-ExtraCells 1.7.10 2.2.67b NIGHTLY to 1.7.10 2.2.68b NIGHTLY
+- Forest Day 1.4.0a to 1.4.0c
+- ExtraCells 2.2.67b NIGHTLY to 2.2.68b NIGHTLY
 
 Mod Additions
+- INpureCore 1.0.0B9-54
