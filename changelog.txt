@@ -11,5 +11,7 @@ Config Changes
 - Start some balancing settings for Agricraft
 
 Mod Updates
+Forest Day 1.4.0a to 1.4.0c
+ExtraCells 1.7.10 2.2.67b NIGHTLY to 1.7.10 2.2.68b NIGHTLY
 
 Mod Additions
