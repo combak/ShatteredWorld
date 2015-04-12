@@ -9,7 +9,7 @@ var vanillaLogs = [
   <minecraft:log>,		/* Oak */
   <minecraft:log:1>,		/* Spruce */
   <minecraft:log:2>,		/* Birch */
-  <minecraft:log:2>,		/* Jungle */
+  <minecraft:log:3>,		/* Jungle */
   <minecraft:log2>,		/* Acacia */
   <minecraft:log2:1>		/* Dark Oak */
 ] as IItemStack[];
