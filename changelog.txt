@@ -2,8 +2,10 @@
 Version 0.1.2
 ============================================================
 Config Changes
-
-Mod Updates
+- Change Recipies 1 Log = 2 Planks = 2 Sticks
+- Balancing Stuff (Agricraft, Tinkers Construct/Iquana Tweaks)
+- Disabled EnderLilies (ExtraUtillities)
+- Disabled Redwood Trees (Natura)
 
 Mod Additions
 - GardenStuff 1.6.1
