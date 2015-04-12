@@ -24,6 +24,12 @@ var vanillaPlanks = [
   <minecraft:planks:5>		/* Dark Oak */
 ] as IItemStack[];
 
+#OreDict Plank
+var odPlank = <ore:plankWood>;
+
+#Stick
+var stick = <minecraft:stick>;
+
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -33,3 +39,9 @@ for i, log in vanillaLogs
   recipes.remove( plank );
   recipes.addShaped( plank * 2, [ [ log, null, null ], [ null, null, null ], [ null, null, null ] ] );
 }
+
+########################################
+# 2 Planks = 2 Sticks
+########################################
+recipes.remove( stick );
+recipes.addShaped( stick * 2, [ [ odPlank, null, null ], [ odPlank, null, null ], [ null, null, null ] ] );

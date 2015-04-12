@@ -40,6 +40,24 @@ var naturaPlanks = [
   <Natura:planks:12>		/* Fusewood */
 ] as IItemStack[];
 
+#Sticks
+var naturaSticks = [
+  <Natura:natura.stick>,	/* Eucalyptus */
+  <Natura:natura.stick:1>,	/* Sakura */
+  <Natura:natura.stick:2>,	/* Ghostwood */
+  <Natura:natura.stick:3>,	/* Redwood */
+  <Natura:natura.stick:4>,	/* Bloodwood */
+  <Natura:natura.stick:4>,	/* Bloodwood */
+  <Natura:natura.stick:5>,	/* Hopseed */
+  <Natura:natura.stick:6>,	/* Maple */
+  <Natura:natura.stick:7>,	/* Silverbell */
+  <Natura:natura.stick:8>,	/* Amaranth */
+  <Natura:natura.stick:9>,	/* Tigerwood */
+  <Natura:natura.stick:10>,	/* Willow */
+  <Natura:natura.stick:11>,	/* Darkwood */
+  <Natura:natura.stick:12>	/* Fusewood */
+] as IItemStack[];
+
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -51,3 +69,13 @@ for i, log in naturaLogs
 }
 # Bloodwood Plank
 recipes.addShaped( naturaPlanks[ 4 ] * 2, [ [ naturaLogs[ 4 ], null, null ], [ null, null, null ], [ null, null, null ] ] );
+
+########################################
+# 2 Planks = 2 Sticks
+########################################
+for i, plank in naturaPlanks
+{
+  var stick = naturaSticks[ i ];
+  recipes.remove( stick );
+  recipes.addShaped( stick * 2, [ [ plank, null, null ], [ plank, null, null ], [ null, null, null ] ] );
+}
