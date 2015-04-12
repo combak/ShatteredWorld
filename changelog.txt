@@ -8,6 +8,7 @@ Mod Updates
 Mod Additions
 - GardenStuff 1.6.1
 - TiC Tooltips 1.2.3
+- Ex-Nihilo 1.38-31
 
 ============================================================
 Version 0.1.1
