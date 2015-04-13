@@ -1,4 +1,3 @@
-////Imports
 import mods.agricraft.SeedMutation;
 import mods.agricraft.growing.Soil;
 import mods.agricraft.growing.FertileSoils;
@@ -7,214 +6,155 @@ import minetweaker.item.IItemStack;
 import mods.agricraft.CropProduct;
 import mods.agricraft.growing.Brightness;
 
-////Variable declarations
-//Vanilla
-val seedWheat = <minecraft:wheat_seeds>;
-val seedCarrot = <AgriCraft:seedCarrot>;
-val seedPotato = <AgriCraft:seedPotato>;
+########################################
+# Items
+########################################
+
+/* Not used yet?
 val seedSugarCane = <AgriCraft:seedSugarcane>;
 val seedCactus = <AgriCraft:seedCactus>;
-val seedPumpkin = <minecraft:pumpkin_seeds>;
-val seedMelon = <minecraft:melon_seeds>;
 val seedShroomRed = <AgriCraft:seedShroomRed>;
 val seedShroomBrown = <AgriCraft:seedShroomBrown>;
 val seedNetherWart = <minecraft:nether_wart>;
-//Flowers
-val seedPoppy = <AgriCraft:seedPoppy>;
-val seedDandelion = <AgriCraft:seedDandelion>;
-val seedOrchid = <AgriCraft:seedOrchid>;
-val seedAllium = <AgriCraft:seedAllium>;
-val seedTulipRed = <AgriCraft:seedTulipRed>;
-val seedTulipOrange = <AgriCraft:seedTulipOrange>;
-val seedTulipWhite = <AgriCraft:seedTulipWhite>;
-val seedTulipPink = <AgriCraft:seedTulipPink>;
-val seedDaisy = <AgriCraft:seedDaisy>;
-// Pams Harvestcraft
-val seedBlackberry = <harvestcraft:blackberryseedItem>;
-val seeBlueberry = <harvestcraft:blueberryseedItem>;
-val seedCandleberry = <harvestcraft:candleberryseedItem>;
-val seedRaspberry = <harvestcraft:raspberryseedItem>;
-val seedStrawberry = <harvestcraft:strawberryseedItem>;
-val seedCactus_Fruit = <harvestcraft:cactusfruitseedItem>;
-val seedAsparagus = <harvestcraft:asparagusseedItem>;
-val seedBarleyPam = <harvestcraft:barleyseedItem>;
-val seedOats = <harvestcraft:oatsseedItem>;
-val seedRye = <harvestcraft:ryeseedItem>;
-val seedCorn = <harvestcraft:cornseedItem>;
-val seedBamboo_Shoot = <harvestcraft:bambooshootseedItem>;
-val seedCantaloupe = <harvestcraft:cantaloupeseedItem>;
-val seedCucumber = <harvestcraft:cucumberseedItem>;
-val seedWinter_Squash = <harvestcraft:wintersquashseedItem>;
-val seedZucchini = <harvestcraft:zucchiniseedItem>;
-val seedBeet = <harvestcraft:beetseedItem>;
-val seedOnion = <harvestcraft:onionseedItem>;
-val seedParsnip = <harvestcraft:parsnipseedItem>;
-val seedPeanut = <harvestcraft:peanutseedItem>;
-val seedRadish = <harvestcraft:radishseedItem>;
-val seedRutabaga = <harvestcraft:rutabagaseedItem>;
-val seedSweet_Potato = <harvestcraft:sweetpotatoseedItem>;
-val seedTurnip = <harvestcraft:turnipseedItem>;
-val seedRhubarb = <harvestcraft:rhubarbseedItem>;
-val seedCelery = <harvestcraft:celeryseedItem>;
-val seedGarlic = <harvestcraft:garlicseedItem>;
-val seedGinger = <harvestcraft:gingerseedItem>;
-val seedSpice_Leaf = <harvestcraft:spiceleafseedItem>;
-val seedTea = <harvestcraft:teaseedItem>;
-val seedCoffee = <harvestcraft:coffeeseedItem>;
-val seedMustard = <harvestcraft:mustardseedItem>;
-val seedBroccoli = <harvestcraft:broccoliseedItem>;
-val seedCauliflower = <harvestcraft:cauliflowerseedItem>;
-val seedLeek = <harvestcraft:leekseedItem>;
-val seedLettuce = <harvestcraft:lettuceseedItem>;
-val seedScallion = <harvestcraft:scallionseedItem>;
-val seedArtichoke = <harvestcraft:artichokeseedItem>;
-val seedBrussel = <harvestcraft:brusselsproutseedItem>;
-val seedCabbage = <harvestcraft:cabbageseedItem>;
-val seedSpinach = <harvestcraft:spinachseedItem>;
-val seedWhite_Mushroom = <harvestcraft:whitemushroomseedItem>;
-val seedBean = <harvestcraft:beanseedItem>;
-val seedSoybean = <harvestcraft:soybeanseedItem>;
-val seedBellpepper = <harvestcraft:bellpepperseedItem>;
-val seedChili_Pepper = <harvestcraft:chilipepperseedItem>;
-val seedEggplant = <harvestcraft:eggplantseedItem>;
-val seedOkra = <harvestcraft:okraseedItem>;
-val seedPeas = <harvestcraft:peasseedItem>;
-val seedTomato = <harvestcraft:tomatoseedItem>;
-val seedCotton = <harvestcraft:cottonseedItem>;
-val seedPineapple = <harvestcraft:pineappleseedItem>;
-val seedGrape = <harvestcraft:grapeseedItem>;
-val seedKiwi = <harvestcraft:kiwiseedItem>;
-val seedCranberry = <harvestcraft:cranberryseedItem>;
-val seedRice = <harvestcraft:riceseedItem>;
-val seedSeaweed = <harvestcraft:seaweedseedItem>;
-val seedBarleyNatura = <Natura:barley.seed:0>;
-val seedCottonNatura = <Natura:barley.seed:1>;
-val foodseeds = [
-         seedWheat,
-		 seedCarrot,
-		 seedCotton,
-		 seedPumpkin,
-		 seedMelon,
-		 seedPotato,
-         seedBlackberry,
-         seeBlueberry,
-		 seedCandleberry,
-		 seedRaspberry,
-		 seedStrawberry,
-		 seedCactus_Fruit,
-		 seedAsparagus,
-		 seedBarleyPam,
-		 seedOats,
-		 seedRye,
-		 seedCorn,
-		 seedBamboo_Shoot,
-		 seedCantaloupe,
-		 seedCucumber,
-		 seedWinter_Squash,
-		 seedZucchini,
-		 seedBeet,
-		 seedOnion,
-		 seedParsnip,
-		 seedPeanut,
-		 seedRadish,
-		 seedRutabaga,
-		 seedSweet_Potato,
-		 seedTurnip,
-		 seedRhubarb,
-		 seedCelery,
-		 seedGarlic,
-		 seedGinger,
-		 seedSpice_Leaf,
-		 seedTea,
-		 seedCoffee,
-		 seedMustard,
-		 seedBroccoli,
-		 seedCauliflower,
-		 seedLeek,
-		 seedLettuce,
-		 seedScallion,
-		 seedArtichoke,
-		 seedBrussel,
-		 seedCabbage,
-		 seedSpinach,
-		 seedWhite_Mushroom,
-		 seedBean,
-		 seedSoybean,
-		 seedBellpepper,
-		 seedChili_Pepper,
-		 seedEggplant,
-		 seedOkra,
-		 seedPeas,
-		 seedTomato,
-		 seedCotton,
-		 seedPineapple,
-		 seedGrape,
-		 seedKiwi,
-		 seedCranberry,
-		 seedRice,
-		 seedSeaweed,
-		 seedBarleyNatura,
-         seedCottonNatura
-		 ] as IItemStack[];
-		 
-//Botania
-val seedBotaniaRed = <AgriCraft:seedBotaniaRed>;
-val seedBotaniaYellow = <AgriCraft:seedBotaniaYellow>;
-val seedBotaniaBlue = <AgriCraft:seedBotaniaBlue>;
-val seedBotaniaOrange = <AgriCraft:seedBotaniaOrange>;
-val seedBotaniaPurple = <AgriCraft:seedBotaniaPurple>;
-val seedBotaniaGreen = <AgriCraft:seedBotaniaGreen>;
-val seedBotaniaMagenta = <AgriCraft:seedBotaniaMagenta>;
-val seedBotaniaPink = <AgriCraft:seedBotaniaPink>;
-val seedBotaniaLime = <AgriCraft:seedBotaniaLime>;
-val seedBotaniaCyan = <AgriCraft:seedBotaniaCyan>;
-val seedBotaniaLightBlue = <AgriCraft:seedBotaniaLightBlue>;
-val seedBotaniaBlack = <AgriCraft:seedBotaniaBlack>;
-val seedBotaniaWhite = <AgriCraft:seedBotaniaWhite>;
-val seedBotaniaGray = <AgriCraft:seedBotaniaGray>;
-val seedBotaniaLightGray = <AgriCraft:seedBotaniaLightGray>;
-val seedBotaniaBrown = <AgriCraft:seedBotaniaBrown>;
-val flowerSeeds = [
-		seedBotaniaRed,
-		seedBotaniaYellow,
-		seedBotaniaBlue,
-		seedBotaniaOrange,
-		seedBotaniaPurple,
-		seedBotaniaGreen,
-		seedBotaniaMagenta,
-		seedBotaniaPink,
-		seedBotaniaLime,
-		seedBotaniaCyan,
-		seedBotaniaLightBlue,
-		seedBotaniaBlack,
-		seedBotaniaWhite,
-		seedBotaniaGray,
-		seedBotaniaLightGray,
-		seedBotaniaBrown,
-		seedPoppy,
-		seedDandelion,
-		seedOrchid,
-		seedAllium,
-		seedDaisy,
-		seedTulipWhite,
-		seedTulipRed,
-		seedTulipPink,
-		seedTulipOrange
-	] as IItemStack[];
-
-//Soil
-val tilledGardenSoil = <GardenCore:garden_farmland>;
-val gardenSoil = <GardenCore:garden_soil>;
-//Other
 val poisonPotato = <minecraft:poisonous_potato>;
+*/
 
-//define soilst
+val foodSeeds = [
+  /* Vanilla Index 0 - 2 */
+  <minecraft:wheat_seeds>,
+  <minecraft:pumpkin_seeds>,
+  <minecraft:melon_seeds>,
+  
+  /* AgriCraft / Index 3 + 4*/
+  <AgriCraft:seedCarrot>,
+  <AgriCraft:seedPotato>,
+  
+  /* HarvestCraft 5 - 61*/
+  <harvestcraft:cottonseedItem>,
+  <harvestcraft:blackberryseedItem>,
+  <harvestcraft:blueberryseedItem>,
+  <harvestcraft:candleberryseedItem>,
+  <harvestcraft:raspberryseedItem>,
+  /* 10 - 14 */
+  <harvestcraft:strawberryseedItem>,
+  <harvestcraft:cactusfruitseedItem>,
+  <harvestcraft:asparagusseedItem>,
+  <harvestcraft:barleyseedItem>,
+  <harvestcraft:oatsseedItem>,
+  /* 15 - 19 */
+  <harvestcraft:ryeseedItem>,
+  <harvestcraft:cornseedItem>,
+  <harvestcraft:bambooshootseedItem>,
+  <harvestcraft:cantaloupeseedItem>,
+  <harvestcraft:cucumberseedItem>,
+  /* 20 - 24 */
+  <harvestcraft:wintersquashseedItem>,
+  <harvestcraft:zucchiniseedItem>,
+  <harvestcraft:beetseedItem>,
+  <harvestcraft:onionseedItem>,
+  <harvestcraft:parsnipseedItem>,
+  /* 25 - 29 */
+  <harvestcraft:peanutseedItem>,
+  <harvestcraft:radishseedItem>,
+  <harvestcraft:rutabagaseedItem>,
+  <harvestcraft:sweetpotatoseedItem>,
+  <harvestcraft:turnipseedItem>,
+  /* 30 - 34 */
+  <harvestcraft:rhubarbseedItem>,
+  <harvestcraft:celeryseedItem>,
+  <harvestcraft:garlicseedItem>,
+  <harvestcraft:gingerseedItem>,
+  <harvestcraft:spiceleafseedItem>,
+  /* 35 - 39 */
+  <harvestcraft:teaseedItem>,
+  <harvestcraft:coffeeseedItem>,
+  <harvestcraft:mustardseedItem>,
+  <harvestcraft:broccoliseedItem>,
+  <harvestcraft:cauliflowerseedItem>,
+  /* 40 - 44 */
+  <harvestcraft:leekseedItem>,
+  <harvestcraft:lettuceseedItem>,
+  <harvestcraft:scallionseedItem>,
+  <harvestcraft:artichokeseedItem>,
+  <harvestcraft:brusselsproutseedItem>,
+  /* 45 - 49 */
+  <harvestcraft:cabbageseedItem>,
+  <harvestcraft:spinachseedItem>,
+  <harvestcraft:whitemushroomseedItem>,
+  <harvestcraft:beanseedItem>,  
+  <harvestcraft:soybeanseedItem>,
+  /* 50 - 54 */
+  <harvestcraft:bellpepperseedItem>,
+  <harvestcraft:chilipepperseedItem>,
+  <harvestcraft:eggplantseedItem>,
+  <harvestcraft:okraseedItem>,
+  <harvestcraft:peasseedItem>,
+  /* 55 - 59 */
+  <harvestcraft:tomatoseedItem>,
+  <harvestcraft:pineappleseedItem>,
+  <harvestcraft:grapeseedItem>,
+  <harvestcraft:kiwiseedItem>,
+  <harvestcraft:cranberryseedItem>,
+  /* 60 + 61 */
+  <harvestcraft:riceseedItem>,
+  <harvestcraft:seaweedseedItem>,
+  
+  /* Natura / Index 62 + 63 */
+  <Natura:barley.seed:0>,
+  <Natura:barley.seed:1>
+] as IItemStack[];
+
+val flowerSeeds = [
+  <AgriCraft:seedPoppy>,
+  <AgriCraft:seedDandelion>,
+  <AgriCraft:seedOrchid>,
+  <AgriCraft:seedAllium>,
+  <AgriCraft:seedTulipRed>,
+  /* 6 - 10 */
+  <AgriCraft:seedTulipOrange>,
+  <AgriCraft:seedTulipWhite>,
+  <AgriCraft:seedTulipPink>,
+  <AgriCraft:seedDaisy>,
+  <AgriCraft:seedBotaniaRed>,
+  /* 11 -15 */
+  <AgriCraft:seedBotaniaYellow>,
+  <AgriCraft:seedBotaniaBlue>,
+  <AgriCraft:seedBotaniaOrange>,
+  <AgriCraft:seedBotaniaPurple>,
+  <AgriCraft:seedBotaniaGreen>,
+  /* 16 - 20 */
+  <AgriCraft:seedBotaniaMagenta>,
+  <AgriCraft:seedBotaniaPink>,
+  <AgriCraft:seedBotaniaLime>,
+  <AgriCraft:seedBotaniaCyan>,
+  <AgriCraft:seedBotaniaLightBlue>,
+  /* 21 - 25 */
+  <AgriCraft:seedBotaniaBlack>,
+  <AgriCraft:seedBotaniaWhite>,
+  <AgriCraft:seedBotaniaGray>,
+  <AgriCraft:seedBotaniaLightGray>,
+  <AgriCraft:seedBotaniaBrown>	
+] as IItemStack[];
+
+########################################
+# Blocks
+########################################
+
+val tilledGardenSoil	= <GardenCore:garden_farmland>;
+val gardenSoil		= <GardenCore:garden_soil>;
+
+########################################
+# Adding Food and Flower Seeds to Soil
+########################################
 FertileSoils.add(tilledGardenSoil);
-for i, seed in foodseeds {
-	Soil.set(seed, tilledGardenSoil);
+
+for i, seed in foodSeeds 
+{
+  Soil.set(seed, tilledGardenSoil);
 }
-for i, flower in flowerSeeds {
-	Soil.set(flower, gardenSoil);
+for i, flower in flowerSeeds 
+{
+  Soil.set(flower, gardenSoil);
 }
 
 
