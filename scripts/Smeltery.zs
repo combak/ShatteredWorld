@@ -28,4 +28,4 @@ Casting.addBasinRecipe(blockRutile, <liquid:rutile.molten> * 1296, null, false, 
 Smeltery.addMelting(oreRutile, <liquid:rutile.molten> * 288, 800, oreRutile);
 
 //let essence berries be melted down to liquid XP
-Smeltery.addMelting(essenceBerry, <liquid:xp> * 15, 300, <magicalcrops:EssenceBlocks:11>);
+#Smeltery.addMelting(essenceBerry, <liquid:xp> * 15, 300, <magicalcrops:EssenceBlocks:11>);
