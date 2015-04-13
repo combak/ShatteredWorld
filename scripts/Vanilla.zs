@@ -5,7 +5,7 @@ import minetweaker.item.IItemStack;
 ########################################
 
 # Logs
-var vanillaLogs = [
+val vanillaLogs = [
   <minecraft:log>,		/* Oak */
   <minecraft:log:1>,		/* Spruce */
   <minecraft:log:2>,		/* Birch */
@@ -15,7 +15,7 @@ var vanillaLogs = [
 ] as IItemStack[];
 
 # Planks
-var vanillaPlanks = [
+val vanillaPlanks = [
   <minecraft:planks>,		/* Oak */
   <minecraft:planks:1>,		/* Spruce */
   <minecraft:planks:2>,		/* Birch */
@@ -25,10 +25,10 @@ var vanillaPlanks = [
 ] as IItemStack[];
 
 #OreDict Plank
-var odPlank = <ore:plankWood>;
+val odPlank = <ore:plankWood>;
 
 #Stick
-var stick = <minecraft:stick>;
+val stick = <minecraft:stick>;
 
 ########################################
 # 1 Log = 2 Planks

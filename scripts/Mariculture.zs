@@ -2,9 +2,9 @@
 # Blocks
 ########################################
 
-var polishedLog		= <Mariculture:woods:2>;
-var polishedPlanks 	= <Mariculture:woods:1>;
-var polishedStick 	= <Mariculture:crafting:3>;
+val polishedLog		= <Mariculture:woods:2>;
+val polishedPlanks 	= <Mariculture:woods:1>;
+val polishedStick 	= <Mariculture:crafting:3>;
 
 ########################################
 # 1 Log = 2 Planks

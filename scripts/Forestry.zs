@@ -5,7 +5,7 @@ import minetweaker.item.IItemStack;
 ########################################
 
 # Logs
-var forestryLogs = [
+val forestryLogs = [
   <Forestry:log1>,			/* Larch */
   <Forestry:log1:1>,			/* Teak */
   <Forestry:log1:2>,			/* Acacia */
@@ -68,7 +68,7 @@ var forestryLogs = [
 ] as IItemStack[];
 
 # Planks
-var forestryPlanks = [
+val forestryPlanks = [
   <Forestry:planks>,			/* Larch */
   <Forestry:planks:1>,			/* Teak */
   <Forestry:planks:2>,			/* Acacia */

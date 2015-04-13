@@ -5,7 +5,7 @@ import minetweaker.item.IItemStack;
 ########################################
 
 # Logs
-var naturaLogs = [
+val naturaLogs = [
   <Natura:tree>,		/* Eucalyptus */
   <Natura:tree:1>,		/* Sakura */
   <Natura:tree:2>,		/* Ghostwood */
@@ -23,7 +23,7 @@ var naturaLogs = [
 ] as IItemStack[];
 
 # Planks
-var naturaPlanks = [
+val naturaPlanks = [
   <Natura:planks>,		/* Eucalyptus */
   <Natura:planks:1>,		/* Sakura */
   <Natura:planks:2>,		/* Ghostwood */
@@ -41,7 +41,7 @@ var naturaPlanks = [
 ] as IItemStack[];
 
 #Sticks
-var naturaSticks = [
+val naturaSticks = [
   <Natura:natura.stick>,	/* Eucalyptus */
   <Natura:natura.stick:1>,	/* Sakura */
   <Natura:natura.stick:2>,	/* Ghostwood */
