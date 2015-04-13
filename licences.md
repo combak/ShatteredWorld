@@ -2,7 +2,7 @@
 
 ## A
 
-### Applied Energistics 2
+**Applied Energistics 2**
 > Can I use this in my private/public mod pack?
 > Yes, don't ask for permission. For proof send people to this FAQ.
 
