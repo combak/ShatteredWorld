@@ -11,7 +11,7 @@ val polishedStick 	= <Mariculture:crafting:3>;
 ########################################
 
 recipes.remove( polishedPlanks );
-recipes.addShaped( polishedPlanks * 2, [ [ polishedLog, null, null ], [ null, null, null ], [ null, null, null ] ] );
+recipes.addShapeless( polishedPlanks * 2, [ polishedLog ] );
   
 ########################################
 # 2 Planks = 2 Sticks

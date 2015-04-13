@@ -37,7 +37,7 @@ for i, log in vanillaLogs
 {
   var plank = vanillaPlanks[ i ];
   recipes.remove( plank );
-  recipes.addShaped( plank * 2, [ [ log, null, null ], [ null, null, null ], [ null, null, null ] ] );
+  recipes.addShapeless( plank * 2, [ log ] );
 }
 
 ########################################

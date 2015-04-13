@@ -65,10 +65,10 @@ for i, log in naturaLogs
 {
   var plank = naturaPlanks[ i ];
   recipes.remove( plank );
-  recipes.addShaped( plank * 2, [ [ log, null, null ], [ null, null, null ], [ null, null, null ] ] );
+  recipes.addShapeless( plank * 2, [ log  ] );
 }
 # Bloodwood Plank
-recipes.addShaped( naturaPlanks[ 4 ] * 2, [ [ naturaLogs[ 4 ], null, null ], [ null, null, null ], [ null, null, null ] ] );
+recipes.addShapeless( naturaPlanks[ 4 ] * 2, [ naturaLogs[ 4 ] ] );
 
 ########################################
 # 2 Planks = 2 Sticks
