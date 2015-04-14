@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), D, [E](#e)
+[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f)
 
 
 ## A
@@ -78,6 +78,21 @@
 
 - Files: http://minecraft.curseforge.com/mc-mods/225561-extra-utilities/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k
+
+## F
+
+**Forestry**
+> GNU Lesser General Public License
+
+- Files: http://minecraft.curseforge.com/mc-mods/59751-forestry/files
+- Licence: https://github.com/ForestryMC/ForestryMC/blob/dev/LICENSE.txt
+
+
+**Forest Day**
+> The MIT License (MIT)
+
+- Files: http://minecraft.curseforge.com/mc-mods/226149-forest-day-work-in-progress/files
+- Licence: https://github.com/ForestDay/Forest-Day/blob/1.7/License.txt
 
 ## T
 
