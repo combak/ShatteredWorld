@@ -24,5 +24,12 @@
 
 **Baubles**
 > Baubles is distributed under the Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) license.
+
 - Files: http://minecraft.curseforge.com/mc-mods/227083-baubles/files
 - Licence: https://github.com/Azanor/Baubles/blob/master/README.md
+
+**BiblioCraft**
+> As long as you provide proper credit to me for my work(s) and have a link back to www.bibliocraftmod.com,  you can use my mod(s) in your mod pack.
+
+- Files: http://www.bibliocraftmod.com/?page_id=48#MC1710
+- Permission: http://www.bibliocraftmod.com/?page_id=57#modpacks
