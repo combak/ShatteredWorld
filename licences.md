@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c)
+[A](#a), [B](#b), [C](#c), D, [E](#e)
 
 
 ## A
@@ -52,6 +52,14 @@
 - Included Mods: ChickenChunks, CodeChickenCore and NotEnoughItems.
 - Files: http://chickenbones.net/Pages/links.html
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods
+
+## E
+
+**Enchiridion**
+> The MIT License
+
+Files: http://minecraft.curseforge.com/mc-mods/76612-enchiridion-2/files
+Licence: https://github.com/joshiejack/Enchiridion/blob/master/LICENSE
 
 ## T
 
