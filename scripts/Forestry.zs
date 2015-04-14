@@ -130,6 +130,12 @@ val forestryPlanks = [
   <Forestry:fireproofPlanks2:12>	/* Zebrawood */  
 ] as IItemStack[];
 
+val forestryBlockOf = [
+  <Forestry:resourceStorage:1>,
+  <Forestry:resourceStorage:2>,
+  <Forestry:resourceStorage:3>
+] as IItemStack[];
+
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -138,4 +144,12 @@ for i, log in forestryLogs
   var plank = forestryPlanks[ i ];
   recipes.remove( plank );
   recipes.addShapeless( plank * 2, [ log ] );
+}
+
+########################################
+# Remove Block of Crafting Recipes
+########################################
+for i, block in forestryBlockOf
+{
+  recipes.remove( block );
 }
