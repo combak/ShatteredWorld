@@ -33,3 +33,10 @@
 
 - Files: http://www.bibliocraftmod.com/?page_id=48#MC1710
 - Permission: http://www.bibliocraftmod.com/?page_id=57#modpacks
+
+**Botania**
+> If you want to Distribute Botania:
+> "Distribution" refers to making available binaries or source of the mod available from the original sources as part of your modpack or otherwise.
+
+- Files: http://botaniamod.net/downloads.php
+- Licence: http://botaniamod.net/license.php
