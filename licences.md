@@ -8,7 +8,6 @@
 URL: https://github.com/InfinityRaider/AgriCraft/blob/master/LICENSE
 
 **Applied Energistics 2**
-> Can I use this in my private/public mod pack?
-> Yes, don't ask for permission. For proof send people to this FAQ.
+> GNU Lesser General Public License
 
-URL: http://ae-mod.info/Frequently-Asked-Questions/
+URL: https://github.com/AppliedEnergistics/Applied-Energistics-2/blob/rv2/LICENSE
