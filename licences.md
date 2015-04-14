@@ -5,9 +5,8 @@
 **AE2 Stuff*
 > Minecraft Mod Public License
 
-Files: http://minecraft.curseforge.com/mc-mods/225194-ae2-stuff/files
-
-Licence: https://github.com/bdew/ae2stuff/blob/master/MMPL-1.0.txt
++Files: http://minecraft.curseforge.com/mc-mods/225194-ae2-stuff/files
++Licence: https://github.com/bdew/ae2stuff/blob/master/MMPL-1.0.txt
 
 **AgriCraft**
 > The MIT License (MIT)
