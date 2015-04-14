@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f)
+[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f), [G](#g), [H](#h)
 
 
 ## A
@@ -87,12 +87,40 @@
 - Files: http://minecraft.curseforge.com/mc-mods/59751-forestry/files
 - Licence: https://github.com/ForestryMC/ForestryMC/blob/dev/LICENSE.txt
 
-
 **Forest Day**
 > The MIT License (MIT)
 
 - Files: http://minecraft.curseforge.com/mc-mods/226149-forest-day-work-in-progress/files
 - Licence: https://github.com/ForestDay/Forest-Day/blob/1.7/License.txt
+
+## G
+
+**Garden Stuff**
+> The MIT License (MIT)
+
+- Files: http://minecraft.curseforge.com/mc-mods/225903-garden-stuff/files
+- Licence: https://github.com/jaquadro/GardenCollection/blob/master/LICENSE
+
+## H
+
+**Hardcore Questing Mode**
+> Just give us a headsup, whether we reply or not, it's cool.
+
+- Files: http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode/files
+- Permission: http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode
+
+## M
+
+**Minecraft Forge**
+> The user of Minecraft Forge is allowed to redistribute Minecraft Forge in 
+partially, in totallity, or included in a distribution. When distributing 
+binaries or class files, the user must provide means to obtain the sources of
+the distributed version of Minecraft Forge at no costs. This includes the
+files as well as any dependency that the code may rely on, including patches to
+minecraft original sources.
+
+- Files:http://files.minecraftforge.net/#Downloads
+- Licence: https://github.com/MinecraftForge/MinecraftForge/blob/master/MinecraftForge-License.txt
 
 ## T
 
