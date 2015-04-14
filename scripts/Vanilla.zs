@@ -30,6 +30,9 @@ val odPlank = <ore:plankWood>;
 #Stick
 val stick = <minecraft:stick>;
 
+val vanillaBlockOf = [
+
+];
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -44,9 +47,15 @@ for i, log in vanillaLogs
 # 2 Planks = 2 Sticks
 ########################################
 recipes.remove( stick );
+
+#3x3 Crafting Grid
 recipes.addShaped( stick * 2, [ [ odPlank, null, null ], [ odPlank, null, null ], [ null, null, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, odPlank, null ], [ null, odPlank, null ], [ null, null, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, null, odPlank ], [ null, null, odPlank ], [ null, null, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, null, null ], [ odPlank, null, null ], [ odPlank, null, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, null, null ], [ null, odPlank, null ], [ null, odPlank, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, null, null ], [ null, null, odPlank ], [ null, null, odPlank ] ] );
+
+#2x2 Crafting Grid
+recipes.addShaped( stick * 2, [ [ odPlank, null ], [ odPlank, null ] ] );
+recipes.addShaped( stick * 2, [ [ null, odPlank ], [ null, odPlank ] ] );
