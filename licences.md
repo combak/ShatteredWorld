@@ -61,7 +61,7 @@
 - Files: http://minecraft.curseforge.com/mc-mods/76612-enchiridion-2/files
 - Licence: https://github.com/joshiejack/Enchiridion/blob/master/LICENSE
 
-**EnderTech*
+**EnderTech**
 > Yes, provided you meet the requirements listed in the README. Also, I request (but don't require) that you tell me you're including it in a modpack! Understand that I do my best to keep Promoted builds stable, but there might be issues while the mod is relatively new.
 
 - Files: http://minecraft.curseforge.com/mc-mods/223428-endertech/files
