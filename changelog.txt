@@ -1,6 +1,15 @@
 ============================================================
 Version 0.1.4
 ============================================================
+Config Changes
+- Removed simple Nugget, Ingot and Block Crafting Recipies
+- Corrected Sticks Crafting with 2x2 Crafting Grid
+
+Mod Additions
+- Fun World Generation 1.0.3
+
+Mod Droped
+- Mariculture
 
 ============================================================
 Version 0.1.3
