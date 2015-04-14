@@ -58,8 +58,26 @@
 **Enchiridion**
 > The MIT License
 
-Files: http://minecraft.curseforge.com/mc-mods/76612-enchiridion-2/files
-Licence: https://github.com/joshiejack/Enchiridion/blob/master/LICENSE
+- Files: http://minecraft.curseforge.com/mc-mods/76612-enchiridion-2/files
+- Licence: https://github.com/joshiejack/Enchiridion/blob/master/LICENSE
+
+**EnderTech*
+> Yes, provided you meet the requirements listed in the README. Also, I request (but don't require) that you tell me you're including it in a modpack! Understand that I do my best to keep Promoted builds stable, but there might be issues while the mod is relatively new.
+
+- Files: http://minecraft.curseforge.com/mc-mods/223428-endertech/files
+- Permission: https://github.com/voxelcarrot/EnderTech/wiki#can-i-include-this-mod-in-a-modpack
+
+**ExtraCells2**
+> The MIT License (MIT)
+
+- Files: http://minecraft.curseforge.com/mc-mods/229218-extracells2/files
+- Licence: https://github.com/ExtraCells/ExtraCells2/blob/rv2/License.txt
+
+**Extra Utilities**
+> You have my permission to use include this mod in any modpack, public or private, provided that credit is given, the source code is not modified and the overall mod pack is distributed free of charge.
+
+- Files: http://minecraft.curseforge.com/mc-mods/225561-extra-utilities/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k
 
 ## T
 
