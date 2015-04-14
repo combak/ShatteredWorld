@@ -31,8 +31,12 @@ val odPlank = <ore:plankWood>;
 val stick = <minecraft:stick>;
 
 val vanillaBlockOf = [
+  <minecraft:iron_block>,
+  <minecraft:gold_block>,
+  <minecraft:redstone_block>,
+  <minecraft:emerald_block>
+] as IItemStack[];
 
-];
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -59,3 +63,11 @@ recipes.addShaped( stick * 2, [ [ null, null, null ], [ null, null, odPlank ], [
 #2x2 Crafting Grid
 recipes.addShaped( stick * 2, [ [ odPlank, null ], [ odPlank, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, odPlank ], [ null, odPlank ] ] );
+
+########################################
+# Remove Block of Crafting Recipes
+########################################
+for i, block in vanillaBlockOf
+{
+  recipes.remove( block );
+}
