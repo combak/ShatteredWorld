@@ -27,14 +27,25 @@ val vanillaPlanks = [
 #OreDict Plank
 val odPlank = <ore:plankWood>;
 
-#Stick
-val stick = <minecraft:stick>;
-
 val vanillaBlockOf = [
   <minecraft:iron_block>,
   <minecraft:gold_block>,
   <minecraft:redstone_block>,
   <minecraft:emerald_block>
+] as IItemStack[];
+
+########################################
+# Item
+########################################
+
+#Stick
+val stick = <minecraft:stick>;
+
+val goldNugget = <minecraft:gold_nugget>;
+
+val vanillaIngots = [
+  <minecraft:iron_ingot>,
+  <minecraft:gold_ingot>
 ] as IItemStack[];
 
 ########################################
@@ -63,6 +74,19 @@ recipes.addShaped( stick * 2, [ [ null, null, null ], [ null, null, odPlank ], [
 #2x2 Crafting Grid
 recipes.addShaped( stick * 2, [ [ odPlank, null ], [ odPlank, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, odPlank ], [ null, odPlank ] ] );
+
+########################################
+# Remove Ingot to Nugget Crafting
+########################################
+recipes.remove( goldNugget );
+
+########################################
+# Remove Nugget/Block to Ingot Crafting
+########################################
+for i, ingot in vanillaIngots
+{
+  recipes.remove( ingot );
+}
 
 ########################################
 # Remove Block of Crafting Recipes

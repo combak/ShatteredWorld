@@ -137,6 +137,16 @@ val forestryBlockOf = [
 ] as IItemStack[];
 
 ########################################
+# Items
+########################################
+
+val forestryIngot = [
+  <Forestry:ingotCopper>,
+  <Forestry:ingotTin>,
+  <Forestry:ingotBronze>
+] as IItemStack[];
+
+########################################
 # 1 Log = 2 Planks
 ########################################
 for i, log in forestryLogs
@@ -147,7 +157,15 @@ for i, log in forestryLogs
 }
 
 ########################################
-# Remove Block of Crafting Recipes
+# Remove Nugget/Block to Ingot Crafting
+########################################
+for i, ingot in forestryIngot
+{
+  recipes.remove( ingot );
+}
+
+########################################
+# Remove Ingot to Block Crafting
 ########################################
 for i, block in forestryBlockOf
 {
