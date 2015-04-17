@@ -1,6 +1,16 @@
 ============================================================
 Version 0.1.5
 ============================================================
+Config Changes
+- Reduced Harvestcraft Garden Drops & Increased Garden Rarity
+- Tinkers Tier 2 Tools craftable
+- Disabled Barley & Cotton (Natura)
+- Disabled Entanglement & Villanger (Compact Machines)
+- Removed Shard of Laputa & Simple Block to Ingot Crafting (Botania
+- Enabled Withering Flowers (Botania)
+
+Mod Additions
+- Hardcore Darkness 1.4
 
 ============================================================
 Version 0.1.4

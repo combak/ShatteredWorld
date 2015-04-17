@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f), [G](#g), [H](#h)
+[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f), [G](#g), [H](#h), [I](#i)
 
 
 ## A
@@ -103,11 +103,31 @@
 
 ## H
 
+**Hardcore Darkness**
+> Feel free to use this mod in a modpack
+
+- Files: http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness/files
+- Permission: http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness
+
 **Hardcore Questing Mode**
 > Just give us a headsup, whether we reply or not, it's cool.
 
 - Files: http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode/files
 - Permission: http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode
+
+## I
+
+**INpureCore**
+> The IDGAF License
+
+- Files: http://minecraft.curseforge.com/mc-mods/223792-inpurecore/files
+- Licence: http://minecraft.curseforge.com/mc-mods/223792-inpurecore/license
+
+**Iron Chests**
+> GNU General Public License v3
+
+- Files: http://minecraft.curseforge.com/mc-mods/228756-iron-chests/files
+- Licence: https://github.com/progwml6/ironchest/blob/master/README.md
 
 ## M
 
