@@ -1,3 +1,3 @@
-# combak
+# Shattered World
 
-WIP Modpack without a name. ^^
+WIP Modpack
