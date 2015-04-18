@@ -27,5 +27,9 @@ ore dictionary.
 
 <AlloySmelterRecipes>
   <vanillaFurnaceRecipes enabled="false"/>    
+  
+  <recipeGroup name="Thermal Expansion">
+    <recipe name="Bronze" energyCost="4000" />
+  </recipeGroup>
 </AlloySmelterRecipes>  
 

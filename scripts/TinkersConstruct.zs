@@ -1,4 +1,5 @@
 import minetweaker.item.IItemStack;
+import minetweaker.liquid.ILiquidStack;
 
 ########################################
 # Blocks
@@ -50,6 +51,29 @@ val tinkersConstructIngots = [
   <TConstruct:materials:18>
 ] as IItemStack[];
 
+# Casts
+val castNugget = <TConstruct:metalPattern:27>;
+
+# Iron
+var moltenIron 		= <liquid:iron.molten>;
+val tinkersIronNugget 	= <TConstruct:materials:19>;
+val thermalIronNugget 	= <ThermalFoundation:material:8>;
+
+# Copper
+var moltenCopper 	= <liquid:copper.molten>;
+val tinkersCopperNugget = <TConstruct:materials:20>;
+val thermalCopperNugget = <ThermalFoundation:material:96>;
+
+# Tin
+var moltenTin 		= <liquid:tin.molten>;
+val tinkersTinNugget 	= <TConstruct:materials:21>;
+val thermalTinNugget 	= <ThermalFoundation:material:97>;
+
+# Bronze
+var moltenBronze 	= <liquid:bronze.molten>;
+val tinkersBronzeNugget = <TConstruct:materials:31>;
+val thermalBronzeNugget = <ThermalFoundation:material:105>;
+
 ########################################
 # Remove Ingot to Nugget Crafting
 ########################################
@@ -73,3 +97,23 @@ for i, block in tinkersConstructBlockOf
 {
   recipes.remove( block );
 }
+
+########################################
+# Smelting
+########################################
+
+# Iron Nugget casting
+mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
+mods.tconstruct.Casting.addTableRecipe( tinkersIronNugget, moltenIron * 16, castNugget, false, 20 );
+
+# Copper Nugget casting
+mods.tconstruct.Casting.removeTableRecipe( thermalCopperNugget );
+mods.tconstruct.Casting.addTableRecipe( tinkersCopperNugget, moltenCopper * 16, castNugget, false, 20 );
+
+# Tin Nugget casting
+mods.tconstruct.Casting.removeTableRecipe( thermalTinNugget );
+mods.tconstruct.Casting.addTableRecipe( tinkersTinNugget, moltenTin * 16, castNugget, false, 20 );
+
+# Bronze Nugget casting
+mods.tconstruct.Casting.removeTableRecipe( thermalBronzeNugget );
+mods.tconstruct.Casting.addTableRecipe( tinkersBronzeNugget, moltenBronze * 16, castNugget, false, 20 );

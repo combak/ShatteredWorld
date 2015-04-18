@@ -32,7 +32,7 @@ val forestDayNuggets = [
 ] as IItemStack[];
 
 val forestDayIngots = [
-  <Forestday:fd.item.ingot>,
+  <Forestday:fd.item.ingot>,		/* Copper */
   <Forestday:fd.item.ingot:1>,
   <Forestday:fd.item.ingot:2>,
   <Forestday:fd.item.ingot:3>,
@@ -71,3 +71,4 @@ for i, block in forestDayBlockOf
 {
   recipes.remove( block );
 }
+

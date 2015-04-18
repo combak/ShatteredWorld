@@ -48,6 +48,18 @@ val vanillaIngots = [
   <minecraft:gold_ingot>
 ] as IItemStack[];
 
+val removeSmelting = [
+  <Forestday:fd.item.ingot>,		/* Copper Ingot (Forest Day) */
+  <Forestry:ingotCopper>,		/* Copper Ingot (Forestry) */
+  <ThermalFoundation:material:64>,	/* Copper Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.copper_ingot>,	/* Copper Ingot (Ex Nihilo) */
+  <Forestday:fd.item.ingot:1>,		/* Tin Ingot (Forest Day) */
+  <Forestry:ingotTin>,			/* Tin Ingot (Forestry) */
+  <ThermalFoundation:material:65>,	/* Tin Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.tin_ingot>,		/* Tin Ingot (Ex Nihilo) */
+  <ThermalFoundation:material:73>	/* Bronze Ingot (Thermal Foundation) */
+] as IItemStack[];
+
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -95,3 +107,16 @@ for i, block in vanillaBlockOf
 {
   recipes.remove( block );
 }
+
+########################################
+# Smelting
+########################################
+for i, item in removeSmelting
+{
+  furnace.remove( item );
+}
+
+
+
+
+
