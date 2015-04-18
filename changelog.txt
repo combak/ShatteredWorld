@@ -10,6 +10,10 @@ Config Changes
 - Disabled Entanglement & Villanger (Compact Machines)
 - Removed Shard of Laputa & Simple Block to Ingot Crafting (Botania
 - Enabled Withering Flowers (Botania)
+- Enabled Barrel for Clay, Dirt and Slime (Ex Nihilo)
+- Enabled Hammers (Ex Nihilo)
+- Disabled Vanilla Furnace Recipies for Alloy Smelter (EnderIO)
+- Balancing Ore Processing 
 
 Mod Additions
 - Hardcore Darkness 1.4
