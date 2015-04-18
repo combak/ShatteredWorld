@@ -16,6 +16,8 @@ Mod Additions
 - Ars Magica 1.4.0.008
 - Lycanites Mobs 1.10.13.2
 - Draconic Evolution 1.0.1-RC-5
+- Immibis Core 59.0.8
+- Dimensional Anchors 59.0.2
 
 ============================================================
 Version 0.1.4

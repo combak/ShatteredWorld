@@ -148,6 +148,14 @@
 
 ## I
 
+**Immibis Mods**
+> The MIT License (MIT)
+
+- Author: Immibis
+- Included Mods: Immibis Core, Dimensional Anchors
+- Files: http://immibis.com/mcmoddl/
+- Licence: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281065-immibiss-mods-now-with-85-7-less-version-numbers
+
 **INpureCore**
 > The IDGAF License
 
