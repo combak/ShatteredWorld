@@ -26,6 +26,6 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
-  
+  <vanillaFurnaceRecipes enabled="false"/>    
 </AlloySmelterRecipes>  
 
