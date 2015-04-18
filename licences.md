@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), J, K, [L](#L), [M](#m), N, O, P, Q, R, S, [T](#t), U, V, W, X, Y, Z
+[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), J, K, [L](#L), [M](#m), N, O, P, Q, R, S, [T](#t), U, V, W, X, Y, Z
 
 
 ## A
@@ -16,6 +16,13 @@
 
 - Files: http://minecraft.curseforge.com/mc-mods/225635-agricraft/files
 - Licence: https://github.com/InfinityRaider/AgriCraft/blob/master/LICENSE
+
+**Animation API**
+> GNU Affero General Public License
+
+- Author: thehippomaster21
+- Files: http://minecraft.curseforge.com/mc-mods/77191-animationapi/files
+- Licence: http://minecraft.curseforge.com/mc-mods/77191-animationapi/license
 
 **Applied Energistics 2**
 > GNU Lesser General Public License
@@ -62,6 +69,20 @@
 - Included Mods: ChickenChunks, CodeChickenCore and NotEnoughItems.
 - Files: http://chickenbones.net/Pages/links.html
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods
+
+## D
+
+**Draconic Evolution**
+> You CAN:
+> - Use this mod in private or public non profit mod packs
+> - Give links that point DIRECTLY to this page or the curse download page
+> - If using in a modpack, I would greatly appreciate a note, pm, post, etc just so I know how it is being used.
+> You CANNOT:
+>  -Redistribute this mod on other websites
+
+- Authors: brandon3055 (Owner), GreatOrator (Artist)
+- Files: http://minecraft.curseforge.com/mc-mods/223565-draconic-evolution/files
+- Permission: http://www.tolkiencraft.com/draconic-evolution/
 
 ## E
 

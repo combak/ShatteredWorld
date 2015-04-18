@@ -1,6 +1,8 @@
 ============================================================
-Version 0.1.5
+Version 0.2.0
 ============================================================
+Modpack Name changed to "Shattered World"
+
 Config Changes
 - Reduced Harvestcraft Garden Drops & Increased Garden Rarity
 - Tinkers Tier 2 Tools craftable
@@ -13,6 +15,7 @@ Mod Additions
 - Hardcore Darkness 1.4
 - Ars Magica 1.4.0.008
 - Lycanites Mobs 1.10.13.2
+- Draconic Evolution 1.0.1-RC-5
 
 ============================================================
 Version 0.1.4
