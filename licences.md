@@ -23,6 +23,16 @@
 - Files: http://ae-mod.info/Downloads/
 - Licence: https://github.com/AppliedEnergistics/Applied-Energistics-2/blob/rv2/LICENSE
 
+**Ars Magica**
+> So here's the deal. You want Ars Magica in your mod pack? All you need to meet are three simple conditions:
+> * Your mod pack needs a link back to this forum post
+> * You cannot make any money off of the mod pack
+> * You cannot claim that you made any part of the mod, and you must give credit to the author of the mod (Mithion)
+
+- Author: Mithion
+- Files: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292222-ars-magica-2-version-1-4-0-008-updated-february-6
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292222-ars-magica-2-version-1-4-0-008-updated-february-6
+
 ## B
 
 **Baubles**
