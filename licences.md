@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f), [G](#g), [H](#h), [I](#i)
+[A](#a), [B](#b), [C](#c), D, [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), J, K, [L](#L), [M](#m), N, O, P, Q, R, S, [T](#t), U, V, W, X, Y, Z
 
 
 ## A
@@ -128,6 +128,14 @@
 
 - Files: http://minecraft.curseforge.com/mc-mods/228756-iron-chests/files
 - Licence: https://github.com/progwml6/ironchest/blob/master/README.md
+
+## L
+
+**Lycanite's Mobs**
+> Feel free to include this mod in your public/private mod pack! I strongly believe that all mods should be allowed in public packs as sharing should be in the spirit of the Minecraft community! Please provide credit to me (Lycanite) and a link to the mod website.
+
+- Files: http://minecraft.curseforge.com/mc-mods/224770-lycanites-mobs/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291613-lycanites-mobs-environmental-mobs-aggressive
 
 ## M
 
