@@ -1,6 +1,12 @@
 ============================================================
 Version 0.2.1
 ============================================================
+Config Changes
+- Enabed Hammer Recipies (Ex Nihilo)
+- Enabed Resource Crops (Agricraft)
+- Added Custom Molten Liquids for Nugget/Block Casts
+- Tier1+2 Weapons (Tinkers Construct)
+- Balancing Ore Processing 
 
 Mod Additions
 - CustomItems 1.0.9 beta
