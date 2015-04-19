@@ -19,12 +19,15 @@ val tinkersConstructBlockOf = [
 ] as IItemStack[];
 
 # Botania
-val botaniaBlockOfManasteel 	= <Botania:storage>;
-val botaniaBlockOfTerrasteel	= <Botania:storage:1>;
-val botaniaBlockOfElementium	= <Botania:storage:2>;
+val botaniaBlockOfManasteel 		= <Botania:storage>;
+val botaniaBlockOfTerrasteel		= <Botania:storage:1>;
+val botaniaBlockOfElementium		= <Botania:storage:2>;
 
 # Garden Stuff
-val gardenBlockOfWroughtIron	= <GardenStuff:metal_block>;
+val gardenBlockOfWroughtIron		= <GardenStuff:metal_block>;
+
+# Redstone Arsenal 
+val arsenalBlockOfFluxedElectrum	= <RedstoneArsenal:Storage>;
 
 ########################################
 # Items
@@ -88,18 +91,23 @@ val botaniaElementiumIngot	= <Botania:manaResource:7>;
 val gardenWroughtIronNugget	= <GardenStuff:wrought_iron_nugget>;
 val gardenWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
 
+# Redstone Arsenal 
+val arsenalFluxedElectrumNugget	= <RedstoneArsenal:material:64>;
+val arsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
+
 ########################################
 # Fluids
 ########################################
-val moltenIron 		= <liquid:iron.molten>;
-val moltenCopper 	= <liquid:copper.molten>;
-val moltenTin 		= <liquid:tin.molten>;
-val moltenBronze 	= <liquid:bronze.molten>;
-val moltenManasteel	= <liquid:molten_manasteel>;
-val moltenTerrasteel	= <liquid:molten_terrasteel>;
-val moltenElementium	= <liquid:molten_elementium>;
-val moltenWroughtIron	= <liquid:molten_wrought_iron>;
-val moltenGlass		= <liquid:glass.molten>;
+val moltenIron 			= <liquid:iron.molten>;
+val moltenCopper 		= <liquid:copper.molten>;
+val moltenTin 			= <liquid:tin.molten>;
+val moltenBronze 		= <liquid:bronze.molten>;
+val moltenManasteel		= <liquid:molten_manasteel>;
+val moltenTerrasteel		= <liquid:molten_terrasteel>;
+val moltenElementium		= <liquid:molten_elementium>;
+val moltenWroughtIron		= <liquid:molten_wrought_iron>;
+val moltenGlass			= <liquid:glass.molten>;
+var moltenFluxedElectrum	= <liquid:molten_fluxed_electrum>;
 
 ########################################
 # Remove Ingot to Nugget Crafting
@@ -155,6 +163,14 @@ mods.tconstruct.Smeltery.addMelting( gardenBlockOfWroughtIron, moltenWroughtIron
 mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronNugget, moltenWroughtIron * 16, castNugget, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronIngot, moltenWroughtIron * 144, castIngot, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, null, false, 20);
+
+# Fluxed Electrum
+mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, 500, arsenalBlockOfFluxedElectrum );
+mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, 500, arsenalBlockOfFluxedElectrum );
+mods.tconstruct.Smeltery.addMelting( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, 500, arsenalBlockOfFluxedElectrum );
+mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, castNugget, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, castIngot, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, null, false, 20);
 
 # Iron Nugget casting
 mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
