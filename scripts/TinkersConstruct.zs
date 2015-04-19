@@ -18,6 +18,11 @@ val tinkersConstructBlockOf = [
   <TConstruct:MetalBlock:9>
 ] as IItemStack[];
 
+# Botania
+val botaniaBlockOfManasteel 	= <Botania:storage>;
+val botaniaBlockOfTerrasteel	= <Botania:storage:1>;
+val botaniaBlockOfElementium	= <Botania:storage:2>;
+
 ########################################
 # Items
 ########################################
@@ -52,27 +57,40 @@ val tinkersConstructIngots = [
 ] as IItemStack[];
 
 # Casts
-val castNugget = <TConstruct:metalPattern:27>;
+val castIngot	= <TConstruct:metalPattern>;
+val castNugget 	= <TConstruct:metalPattern:27>;
 
 # Iron
-var moltenIron 		= <liquid:iron.molten>;
 val tinkersIronNugget 	= <TConstruct:materials:19>;
 val thermalIronNugget 	= <ThermalFoundation:material:8>;
 
 # Copper
-var moltenCopper 	= <liquid:copper.molten>;
 val tinkersCopperNugget = <TConstruct:materials:20>;
 val thermalCopperNugget = <ThermalFoundation:material:96>;
 
 # Tin
-var moltenTin 		= <liquid:tin.molten>;
 val tinkersTinNugget 	= <TConstruct:materials:21>;
 val thermalTinNugget 	= <ThermalFoundation:material:97>;
 
 # Bronze
-var moltenBronze 	= <liquid:bronze.molten>;
 val tinkersBronzeNugget = <TConstruct:materials:31>;
 val thermalBronzeNugget = <ThermalFoundation:material:105>;
+
+# Botania
+val botaniaManasteelIngot	= <Botania:manaResource>;
+val botaniaTerrasteelIngot	= <Botania:manaResource:4>;
+val botaniaElementiumIngot	= <Botania:manaResource:7>;
+
+########################################
+# Fluids
+########################################
+val moltenIron 		= <liquid:iron.molten>;
+val moltenCopper 	= <liquid:copper.molten>;
+val moltenTin 		= <liquid:tin.molten>;
+val moltenBronze 	= <liquid:bronze.molten>;
+val moltenManasteel	= <liquid:molten_manasteel>;
+val moltenTerrasteel	= <liquid:molten_terrasteel>;
+val moltenElementium	= <liquid:molten_elementium>;
 
 ########################################
 # Remove Ingot to Nugget Crafting
@@ -101,6 +119,24 @@ for i, block in tinkersConstructBlockOf
 ########################################
 # Smelting
 ########################################
+
+# Manasteel
+mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, moltenManasteel * 144, 500, botaniaBlockOfManasteel );
+mods.tconstruct.Smeltery.addMelting( botaniaBlockOfManasteel, moltenManasteel * 1296, 500, botaniaBlockOfManasteel );
+mods.tconstruct.Casting.addTableRecipe( botaniaManasteelIngot, moltenManasteel * 144, castIngot, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfManasteel, moltenManasteel * 1296, null, false, 20);
+
+# Terrasteel
+mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, moltenTerrasteel * 144, 500, botaniaBlockOfTerrasteel );
+mods.tconstruct.Smeltery.addMelting( botaniaBlockOfTerrasteel, moltenTerrasteel * 1296, 500, botaniaBlockOfTerrasteel );
+mods.tconstruct.Casting.addTableRecipe( botaniaTerrasteelIngot, moltenTerrasteel * 144, castIngot, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfTerrasteel, moltenTerrasteel * 1296, null, false, 20);
+
+# Elementium
+mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, moltenElementium * 144, 500, botaniaBlockOfElementium );
+mods.tconstruct.Smeltery.addMelting( botaniaBlockOfElementium, moltenElementium * 1296, 500, botaniaBlockOfElementium );
+mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, moltenElementium * 144, castIngot, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfElementium, moltenElementium * 1296, null, false, 20);
 
 # Iron Nugget casting
 mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
