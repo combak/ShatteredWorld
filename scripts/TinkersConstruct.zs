@@ -23,6 +23,9 @@ val botaniaBlockOfManasteel 	= <Botania:storage>;
 val botaniaBlockOfTerrasteel	= <Botania:storage:1>;
 val botaniaBlockOfElementium	= <Botania:storage:2>;
 
+# Garden Stuff
+val gardenBlockOfWroughtIron	= <GardenStuff:metal_block>;
+
 ########################################
 # Items
 ########################################
@@ -81,6 +84,10 @@ val botaniaManasteelIngot	= <Botania:manaResource>;
 val botaniaTerrasteelIngot	= <Botania:manaResource:4>;
 val botaniaElementiumIngot	= <Botania:manaResource:7>;
 
+# Garden Stuff
+val gardenWroughtIronNugget	= <GardenStuff:wrought_iron_nugget>;
+val gardenWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
+
 ########################################
 # Fluids
 ########################################
@@ -91,6 +98,8 @@ val moltenBronze 	= <liquid:bronze.molten>;
 val moltenManasteel	= <liquid:molten_manasteel>;
 val moltenTerrasteel	= <liquid:molten_terrasteel>;
 val moltenElementium	= <liquid:molten_elementium>;
+val moltenWroughtIron	= <liquid:molten_wrought_iron>;
+val moltenGlass		= <liquid:glass.molten>;
 
 ########################################
 # Remove Ingot to Nugget Crafting
@@ -137,6 +146,15 @@ mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, moltenElementium * 
 mods.tconstruct.Smeltery.addMelting( botaniaBlockOfElementium, moltenElementium * 1296, 500, botaniaBlockOfElementium );
 mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, moltenElementium * 144, castIngot, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfElementium, moltenElementium * 1296, null, false, 20);
+
+# Wrought Iron
+#mods.tconstruct.Smeltery.addAlloy( moltenWroughtIron * 144, [ moltenIron * 144, moltenGlass * 1296 ] ); /* Funktioniert noch nicht */
+mods.tconstruct.Smeltery.addMelting( gardenWroughtIronNugget, moltenWroughtIron * 16, 500, gardenBlockOfWroughtIron );
+mods.tconstruct.Smeltery.addMelting( gardenWroughtIronIngot, moltenWroughtIron * 144, 500, gardenBlockOfWroughtIron );
+mods.tconstruct.Smeltery.addMelting( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, 500, gardenBlockOfWroughtIron );
+mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronNugget, moltenWroughtIron * 16, castNugget, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronIngot, moltenWroughtIron * 144, castIngot, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, null, false, 20);
 
 # Iron Nugget casting
 mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
