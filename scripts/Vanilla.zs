@@ -24,9 +24,6 @@ val vanillaPlanks = [
   <minecraft:planks:5>		/* Dark Oak */
 ] as IItemStack[];
 
-#OreDict Plank
-val odPlank = <ore:plankWood>;
-
 val vanillaBlockOf = [
   <minecraft:iron_block>,
   <minecraft:gold_block>,
@@ -37,11 +34,9 @@ val vanillaBlockOf = [
 ########################################
 # Item
 ########################################
-
-#Stick
-val stick = <minecraft:stick>;
-
-val goldNugget = <minecraft:gold_nugget>;
+val stick 		= <minecraft:stick>;
+val goldNugget 		= <minecraft:gold_nugget>;
+val tinersCopperIngot 	= <TConstruct:materials:9>;
 
 val vanillaIngots = [
   <minecraft:iron_ingot>,
@@ -49,6 +44,9 @@ val vanillaIngots = [
 ] as IItemStack[];
 
 val removeSmelting = [
+  <TConstruct:materials:19>,		/* Iron Nugget (Tinkers Construct) */
+  <minecraft:gold_nugget>,		/* Gold Nugget (Vanilla) */
+  <TConstruct:materials:20>,		/* Copper Nugget (Tinkers Construct) */
   <Forestday:fd.item.ingot>,		/* Copper Ingot (Forest Day) */
   <Forestry:ingotCopper>,		/* Copper Ingot (Forestry) */
   <ThermalFoundation:material:64>,	/* Copper Ingot (Thermal Foundation) */
@@ -56,9 +54,15 @@ val removeSmelting = [
   <Forestday:fd.item.ingot:1>,		/* Tin Ingot (Forest Day) */
   <Forestry:ingotTin>,			/* Tin Ingot (Forestry) */
   <ThermalFoundation:material:65>,	/* Tin Ingot (Thermal Foundation) */
-  <exnihilo:exnihilo.tin_ingot>,		/* Tin Ingot (Ex Nihilo) */
+  <exnihilo:exnihilo.tin_ingot>,	/* Tin Ingot (Ex Nihilo) */
   <ThermalFoundation:material:73>	/* Bronze Ingot (Thermal Foundation) */
 ] as IItemStack[];
+
+########################################
+# Ore Dictionary
+########################################
+
+var odPlank 	= <ore:plankWood>;
 
 ########################################
 # 1 Log = 2 Planks
@@ -115,8 +119,3 @@ for i, item in removeSmelting
 {
   furnace.remove( item );
 }
-
-
-
-
-
