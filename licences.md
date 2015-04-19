@@ -70,6 +70,13 @@
 - Files: http://chickenbones.net/Pages/links.html
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods
 
+**CustomItems**
+> GNU General Public License
+
+- Author: Otho
+- Files: http://minecraft.curseforge.com/mc-mods/224312-customitems/files
+- Licence: https://github.com/0tho/CustomItems/wiki#license
+
 ## D
 
 **Draconic Evolution**
