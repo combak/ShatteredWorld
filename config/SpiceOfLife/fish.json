@@ -1,0 +1,10 @@
+{
+  "food": {
+    "oredict": [ "listAllfishcooked" ]
+  },
+  "name": "cookedfish",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

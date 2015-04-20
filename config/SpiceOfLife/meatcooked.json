@@ -1,0 +1,10 @@
+{
+  "food": {
+    "oredict": [ "listAllmeatcooked" ]
+  },
+  "name": "meetcooked",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

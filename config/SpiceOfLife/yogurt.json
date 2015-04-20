@@ -1,0 +1,10 @@
+{
+  "food": {
+    "oredict": [ "foodYogurt" ]
+  },
+  "name": "Yogurt",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
