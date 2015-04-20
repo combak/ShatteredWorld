@@ -29,6 +29,8 @@ val gardenBlockOfWroughtIron		= <GardenStuff:metal_block>;
 # Redstone Arsenal 
 val arsenalBlockOfFluxedElectrum	= <RedstoneArsenal:Storage>;
 
+# Vanilla
+val vanillaBlockOfRedstone		= <minecraft:redstone_block>;
 ########################################
 # Items
 ########################################
@@ -107,7 +109,8 @@ val moltenTerrasteel		= <liquid:molten_terrasteel>;
 val moltenElementium		= <liquid:molten_elementium>;
 val moltenWroughtIron		= <liquid:molten_wrought_iron>;
 val moltenGlass			= <liquid:glass.molten>;
-var moltenFluxedElectrum	= <liquid:molten_fluxed_electrum>;
+val moltenFluxedElectrum	= <liquid:molten_fluxed_electrum>;
+val moltenRedstone		= <liquid:redstone.molten>;
 
 ########################################
 # Remove Ingot to Nugget Crafting
@@ -187,3 +190,6 @@ mods.tconstruct.Casting.addTableRecipe( tinkersTinNugget, moltenTin * 16, castNu
 # Bronze Nugget casting
 mods.tconstruct.Casting.removeTableRecipe( thermalBronzeNugget );
 mods.tconstruct.Casting.addTableRecipe( tinkersBronzeNugget, moltenBronze * 16, castNugget, false, 20 );
+
+# Redstone Block
+mods.tconstruct.Casting.addBasinRecipe( vanillaBlockOfRedstone, moltenRedstone * 1296, null, false, 20);
