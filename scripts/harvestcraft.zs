@@ -1,4 +1,26 @@
 ########################################
+# Items
+########################################
+
+# Equipment
+val bakeware = <harvestcraft:bakewareItem>;
+
+# Food
+val stuffedeggplant = <harvestcraft:stuffedeggplantItem>;
+
+# Ingredients
+val eggplant 	= <harvestcraft:eggplantItem>;
+val onion 	= <harvestcraft:onionItem>;
+val bellpepper	= <harvestcraft:bellpepperItem>;
+val butter	= <harvestcraft:butterItem>;
+
+########################################
+# Ore Dictionary
+########################################
+
+val odEgg = <ore:listAllegg>;
+
+########################################
 # Adding to Ore Dictionary
 ########################################
 
@@ -205,3 +227,11 @@ jelly.add( <harvestcraft:apricotjellyItem> );
 jelly.add( <harvestcraft:figjellyItem> );
 jelly.add( <harvestcraft:grapefruitjellyItem> );
 jelly.add( <harvestcraft:persimmonjellyItem> );
+
+########################################
+# Cooking
+########################################
+
+# Stuffed Eggplant Hard Recipie only
+recipes.remove( stuffedeggplant );
+recipes.addShapeless( stuffedeggplant, [ bakeware, eggplant, onion, bellpepper, butter, odEgg ] );
