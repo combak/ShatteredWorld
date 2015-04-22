@@ -10,6 +10,9 @@ Config Changes
 - Reduced Aluminum Droprate (Ex Nihilo)
 - Added Sky Stone Recipie
 
+Mod Additions
+- Custom Main Menu 1.4
+
 Mod Updates
 - Minecraft Forge 10.13.3.1355 to 10.13.3.1389
 

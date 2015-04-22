@@ -117,6 +117,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/224312-customitems/files
 - Licence: https://github.com/0tho/CustomItems/wiki#license
 
+**Custom Main Menu**
+> Please notify me when you use this mod in a modpack, you don't have to wait for an answer (There won't actually be an answer unless you ask me something) just send me the name of your pack. 
+
+- Author: Lumien231
+- Files: http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu/files
+- Permission: http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu
+
 ## D
 
 **Draconic Evolution**
