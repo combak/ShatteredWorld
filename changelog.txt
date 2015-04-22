@@ -8,6 +8,7 @@ Config Changes
 - Changed Chunkloader Recipie (Dimensional Anchors)
 - Hard Stuffed Eggplant Recipie only (Harvestcraft)
 - Reduced Aluminum Droprate (Ex Nihilo)
+- Added Sky Stone Recipie
 
 Mod Updates
 - Minecraft Forge 10.13.3.1355 to 10.13.3.1389
