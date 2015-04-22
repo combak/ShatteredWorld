@@ -7,9 +7,13 @@ Config Changes
 - Chunk Loader requires Fuel (Solid Ender=5hours) and Online Player (Dimensional Anchors)
 - Changed Chunkloader Recipie (Dimensional Anchors)
 - Hard Stuffed Eggplant Recipie only (Harvestcraft)
+- Reduced Aluminum Droprate (Ex Nihilo)
 
 Mod Updates
 - Minecraft Forge 10.13.3.1355 to 10.13.3.1389
+
+Mod Removed
+- JourneyMap (Not allowed by licence)
 
 ============================================================
 Version 0.2.1
@@ -59,7 +63,7 @@ Config Changes
 Mod Additions
 - Fun World Generation 1.0.3
 
-Mod Droped
+Mod Removed
 - Mariculture
 
 ============================================================
