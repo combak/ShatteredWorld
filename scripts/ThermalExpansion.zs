@@ -5,12 +5,14 @@ import minetweaker.item.IItemStack;
 ########################################
 
 val vanillaSand = <minecraft:sand>;
-  
+val ae2SkyStone	= <appliedenergistics2:tile.BlockSkyStone>;
+
 ########################################
 # Item
 ########################################
 
 val thermalCopperNugget = <ThermalFoundation:material:96>;
+val ae2SkyStoneDust = <appliedenergistics2:item.ItemMultiMaterial:45>;
 
 # Remove Items/Recipies from the Redstone Furnace
 val removeFurnace = [
@@ -50,6 +52,9 @@ for i, item in removeInduction
 { 
   mods.thermalexpansion.Smelter.removeRecipe( item, vanillaSand );
 }
+
+#Sky Stone (AE2)
+mods.thermalexpansion.Smelter.addRecipe(4000, ae2SkyStoneDust * 4, vanillaSand, ae2SkyStone, null, 20 );
 
 ########################################
 # Pulverizer
