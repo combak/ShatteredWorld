@@ -171,8 +171,11 @@
 ## F
 
 **Fun World Gen**
-> TODO
+> Can I include FWG in my modpack? A Yes, as long as you don't make any money out of it. 
 
+- Author: ted80
+- Files: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281910-teds-world-gen-mods-realistic-world-gen-alpha-1-3
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281910-teds-world-gen-mods-realistic-world-gen-alpha-1-3
 
 **Forestry**
 > GNU Lesser General Public License
