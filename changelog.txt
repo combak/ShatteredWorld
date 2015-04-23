@@ -12,6 +12,13 @@ Config Changes
 
 Mod Additions
 - Custom Main Menu 1.4
+- Resource Loader 1.1
+- ttCore 0.1.0-67
+- Waila Plugins 0.0.1-14
+- Waila Harvestability 1.1.2
+- MobiusCore 1.2.5
+- Opis 1.2.5
+- Inventory Tweaks 1.58-147
 
 Mod Updates
 - Minecraft Forge 10.13.3.1355 to 10.13.3.1389

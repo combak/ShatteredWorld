@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#L), [M](#m), N, O, P, Q, R, [S](#s), [T](#t), U, V, W, X, Y, Z
+[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#L), [M](#m), N, O, P, Q, [R](#r), [S](#s), [T](#t), U, V, [W](#w), X, Y, Z
 
 
 ## A
@@ -247,6 +247,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/223792-inpurecore/files
 - Licence: http://minecraft.curseforge.com/mc-mods/223792-inpurecore/license
 
+**Inventory Tweaks**
+> The MIT License (MIT)
+
+- Author: jimeowan
+- Files: http://inventory-tweaks.readthedocs.org/en/latest/#download
+- Licence: https://github.com/mkalam-alami/inventory-tweaks/blob/develop/LICENSE.md
+
 **Iron Chests**
 > GNU General Public License v3
 
@@ -290,6 +297,32 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/224029-minetweaker3/files
 - Permission: https://github.com/stanhebben/MineTweaker3/blob/master/readme.md
 
+**MobiusCore**
+> Creative Commons Attribution 4.0 International License.
+
+- Author: ProfMobius
+- Required for: Opis
+- Files: http://minecraft.curseforge.com/mc-mods/76734-mobiuscore/files
+- Licence: http://minecraft.curseforge.com/mc-mods/76734-mobiuscore/license
+
+## O
+
+**Opis**
+> Creative Commons Attribution 4.0 International License.
+
+- Author: ProfMobius
+- Files: http://minecraft.curseforge.com/mc-mods/73832-opis/files
+- Licence: http://minecraft.curseforge.com/mc-mods/73832-opis/license
+
+## R
+
+**Resource Loader**
+> You can use this mod in any modpack without asking first
+
+- Author: Lumien
+- Files: http://minecraft.curseforge.com/mc-mods/226447-resource-loader/files
+- Permission: http://minecraft.curseforge.com/mc-mods/226447-resource-loader
+
 ## S
 
 
@@ -301,3 +334,34 @@ minecraft original sources.
 - Included Mods: CoFH Core, Thermal Foundation, Thermal Expansion, Thermal Dynamics and Redstone Arsenal
 - Files: http://teamcofh.com/downloads/
 - Permission: http://teamcofh.com/license/
+
+**ttCore**
+> Creative Commons Attribution 4.0 International License.
+
+- Author: tterrag1098
+- Required for: Waila Plugins
+- Files: http://minecraft.curseforge.com/mc-mods/226082-ttcore/files
+- Licence: https://github.com/tterrag1098/ttCore/blob/master/LICENSE
+
+## W
+
+**Waila**
+> Creative Commons Attribution 4.0 International License.
+
+- Author: ProfMobius
+- Files: http://minecraft.curseforge.com/mc-mods/73488-waila/files
+- Licence: http://minecraft.curseforge.com/mc-mods/73488-waila/license
+
+**Waila Harvestability**
+> Public Domain
+
+- Author: Squeek502
+- Files: http://minecraft.curseforge.com/mc-mods/79287-waila-harvestability/files
+- Licence: https://github.com/squeek502/WailaHarvestability/blob/1.7.x/LICENSE
+
+**Waila Plugins**
+> Creative Commons Attribution 4.0 International License.
+
+- Author: tterrag1098
+- Files: http://minecraft.curseforge.com/mc-mods/226119-waila-plugins/files
+- Licence: https://github.com/tterrag1098/WAILAPlugins/blob/master/LICENSE
