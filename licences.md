@@ -141,7 +141,7 @@
 ## E
 
 **Enchiridion**
-> The MIT License
+> The MIT License (MIT)
 
 - Author: joshiejack
 - Files: http://minecraft.curseforge.com/mc-mods/76612-enchiridion-2/files
@@ -160,6 +160,20 @@
 - Authors: Drayshak, Arkember, RWTema
 - Files: http://minecraft.curseforge.com/mc-mods/223428-endertech/files
 - Permission: https://github.com/voxelcarrot/EnderTech/wiki#can-i-include-this-mod-in-a-modpack
+
+**Ex Astris**
+> The MIT License (MIT)
+
+- Author: insaneau
+- Files: http://minecraft.curseforge.com/mc-mods/226340-ex-astris/files
+- Licence: http://minecraft.curseforge.com/mc-mods/226340-ex-astris/license
+
+**Ex Nihilo**
+> GNU General Public License
+
+- Author: Erasmus_Crowley, insaneau
+- Files: http://minecraft.curseforge.com/mc-mods/221696-ex-nihilo/files
+- Licence: http://minecraft.curseforge.com/mc-mods/221696-ex-nihilo/license
 
 **ExtraCells2**
 > The MIT License (MIT)
