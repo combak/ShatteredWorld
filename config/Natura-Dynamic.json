@@ -18,6 +18,9 @@
     },
     "Natura BuildCraft Compatibility": {
       "enabled": true
+    },
+    "Natura Thaumcraft Compatibility": {
+      "enabled": true
     }
   }
 }
