@@ -1,6 +1,9 @@
 ============================================================
 Version 0.4.1
 ============================================================
+Config Changes
+- Updated Custom Main Menu 
+- Allowed Fluxed Infused Hammer (Ex Astris)
 
 Mod Downgrades
 . Iron Chest MC 1.8 to 1.7.10 (my fault ^^)
@@ -11,6 +14,7 @@ Mod Removed
 ============================================================
 Version 0.4.0 
 ============================================================
+Config Changes
 - Balancing Ex Astris
 - Enabled Gravestone (OpenBlocks)
 - Disabled Harvestcraft Gardens and added some grass drops
