@@ -1,9 +1,14 @@
 ============================================================
-Version 0.3.1
+Version 0.4.0
 ============================================================
 
 Mod Additions
 - Ex Astris 1.16-31
+- Thaumcraft 4.2.3.5
+- Thaumcraft - Witching Gadgets 1.1.5
+- Thaumcraft - Travellers Gear 1.15.7
+- Thaumcraft - Forbidden Magic 0.562
+- Thaumcraft - Magicstics 0.7.6
 
 ============================================================
 Version 0.3.0c

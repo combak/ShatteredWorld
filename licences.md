@@ -349,6 +349,48 @@ minecraft original sources.
 - Files: http://teamcofh.com/downloads/
 - Permission: http://teamcofh.com/license/
 
+**Thaumcraft**
+> You want Thaumcraft in your mod pack? All you need to meet are five simple conditions:
+> 1. Your mod pack needs a link back to this forum post.
+> 2. You cannot make any money off of the mod pack.
+> 3. You cannot claim that you made any part of the mod, and you must give credit to the author of the mod (Azanor).
+> 4. If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
+> 5. Handle any queries and bug reports internally first. This is one of the main reasons I had such a strict anti-modpack policy for such a long time - people using modpacks would come here posting errors that have nothing to do with my mod or that have been fixed ages ago, but still occurs in the modpack because it is using an older 
+
+- Author: Azanor
+- Files: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft/files
+- Permission: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft
+
+**Thaumcraft - Forbidden Magic**
+> I like modpacks. A lot. Like, I can't even remember the last time I played a single mod by itself. I grant blanket permission to use my mod in any modpack, but reserve the right to change my mind.
+
+- Author: SpitefulFox
+- Files: http://minecraft.curseforge.com/mc-mods/224237-forbidden-magic/files
+- Permission: http://minecraft.curseforge.com/mc-mods/224237-forbidden-magic
+
+**Thaumcraft - Magistics**
+>  The GNU General Public License
+
+- Author: T145, HuggableCreep, Tuiren, wiiv
+- Files: http://minecraft.curseforge.com/mc-mods/222182-magistics/files
+- Licence: https://github.com/T145/magistics/blob/master/LICENSE.txt
+
+**Thaumcraft - Travellers Gear**
+> Public Domain
+
+- Author: BluSunrize
+- Files: http://minecraft.curseforge.com/mc-mods/224440-travellers-gear/files
+- Licence: http://minecraft.curseforge.com/mc-mods/224440-travellers-gear/license
+
+
+**Thaumcraft - Witching Gadgets**
+> The mod is open source and can be found on Github: https://github.com/BluSunrize/WitchingGadgets/
+Feel free to look at my code, and even take parts of it, but please follow Wheaton's Law and "Don't be a douche". If you use my code, be so kind and tell people where you got it.
+
+- Author: BluSunrize
+- Files: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/files
+- Licence: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/license
+
 **ttCore**
 > Creative Commons Attribution 4.0 International License.
 
