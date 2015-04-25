@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#L), [M](#m), N, O, P, Q, [R](#r), [S](#s), [T](#t), U, V, [W](#w), X, Y, Z
+[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#L), [M](#m), [N](#n), [O](#o), [P](#p), Q, [R](#r), [S](#s), [T](#t), U, V, [W](#w), X, Y, Z
 
 
 ## A
@@ -341,7 +341,51 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/76734-mobiuscore/files
 - Licence: http://minecraft.curseforge.com/mc-mods/76734-mobiuscore/license
 
+**ModTweaker2**
+> The MIT License (MIT)
+
+- Authors: jaredlll08, joshiejack, SpitefulFox
+- Files: http://minecraft.curseforge.com/mc-mods/220954-modtweaker/files
+- Licence: https://github.com/jaredlll08/ModTweaker2/blob/master/LICENSE
+
+## N
+
+**Natura**
+> Creative Commons Attribution 3.0 Unported License.
+
+- Authors: myDiyo, progwml6
+- Files: http://minecraft.curseforge.com/mc-mods/74120-natura/files
+- Licence: https://github.com/progwml6/Natura/blob/master/README.md
+
+**NEI Addons**
+> Minecraft Mod Public License
+
+- Author: bdew
+- Files: http://minecraft.curseforge.com/mc-mods/63352-nei-addons/files
+- Licence: https://github.com/bdew/neiaddons/blob/mc1710/MMPL-1.0.txt
+
+**NEI Integration**
+> The MIT License (MIT)
+
+- Author: Tonius
+- Files: http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files
+- Licence: https://github.com/Tonius/NEI-Integration/blob/master/LICENSE
+
 ## O
+
+**OpenBlocks**
+> The MIT License (MIT)
+
+- Author: OpenMods Team
+- Files: http://minecraft.curseforge.com/mc-mods/228816-openblocks/files
+- Licence: https://github.com/OpenMods/OpenBlocks/blob/master/LICENSE
+
+**OpenModsLib**
+> The MIT License (MIT)
+
+- Author: OpenMods Team
+- Files: http://minecraft.curseforge.com/mc-mods/228815-openmodslib/files
+- Licence: https://github.com/OpenMods/OpenModsLib/blob/master/LICENSE
 
 **Opis**
 > Creative Commons Attribution 4.0 International License.
@@ -349,6 +393,22 @@ minecraft original sources.
 - Author: ProfMobius
 - Files: http://minecraft.curseforge.com/mc-mods/73832-opis/files
 - Licence: http://minecraft.curseforge.com/mc-mods/73832-opis/license
+
+## P
+
+**Pam's HarvestCraft**
+> Can I include one of your mods in my modpack? YES! Just make sure to credit myself (Pam) and Rhodox of the Painterly Pack. Thanks!
+
+- Author: MatrexsVigil
+- Files: http://minecraft.curseforge.com/mc-mods/221857-pams-harvestcraft/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294413-pams-mods-april-8th-harvestcraft-1-7-10h-random#entry29809669
+
+**ProjectRed**
+> By default this Mod may only be distributed on its own by the Developers. It may be included in a mod pack with other mods, as long as it is (a)non-profit and (b)legal. URL shorteners or other attempts to make money is strictly forbidden without advance written permission.
+
+- Author: MrTJP
+- Files: http://projectredwiki.com/wiki/Version_archive#Downloads
+- Licence: https://github.com/MrTJP/ProjectRed/blob/master/LICENSE.md
 
 ## R
 
@@ -361,6 +421,19 @@ minecraft original sources.
 
 ## S
 
+**Simply Jetpacks**
+> The MIT License (MIT)
+
+- Author: Tonius
+- Files: http://minecraft.curseforge.com/mc-mods/79325-simply-jetpacks/files
+- Licence: https://github.com/Tonius/SimplyJetpacks/blob/master/LICENSE
+
+**Storage Drawers**
+> The MIT License (MIT)
+
+- Author: jaquadro
+- Files: http://minecraft.curseforge.com/mc-mods/223852-storage-drawers/files
+- Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
 
 ## T
 
@@ -412,6 +485,27 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 - Author: BluSunrize
 - Files: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/files
 - Licence: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/license
+
+**The Spice of Life**
+> Public Domain
+
+- Author: squeek502
+- Files: http://minecraft.curseforge.com/mc-mods/220811-the-spice-of-life/files
+- Licence: https://github.com/squeek502/SpiceOfLife/blob/1.7.10/LICENSE
+
+**TiC Tooltips**
+> Public Domain
+
+- Author: squeek502
+- Files: http://minecraft.curseforge.com/mc-mods/76845-tic-tooltips/files
+- Licence: https://github.com/squeek502/TiC-Tooltips/blob/1.7.10/LICENSE
+
+**Tinker's Construct**
+> Creative Commons Attribution 3.0 Unported License.
+
+- Authors: mDiyo, boni, jadedcat
+- Files: http://minecraft.curseforge.com/mc-mods/74072-tinkers-construct/files
+- Licence: https://github.com/SlimeKnights/TinkersConstruct/blob/master/README.md
 
 **ttCore**
 > Creative Commons Attribution 4.0 International License.
