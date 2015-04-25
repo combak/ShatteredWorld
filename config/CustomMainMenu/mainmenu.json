@@ -12,12 +12,12 @@
     },  
     "title":
     {
-      "image" : "custommainmenu:textures/gui/minecraft.png",
-      "posX" : -137,
-      "posY" : 30,
-      "width" : 512,
-      "height" : 512,
-      "alignment" : "top_center"
+      "image" : "shatteredworld:logo.png",
+      "posX" : 15,
+      "posY" : 5,
+      "width" : 90,
+      "height" : 90,
+      "alignment" : "top_left"
     }
   },
   
@@ -95,8 +95,8 @@
       {
 	  "type" : "quit"
       }
-    },
-    
+    }
+    /*
     "refresh":
     {
       "text" : "",
@@ -110,7 +110,7 @@
       {
 	  "type" : "refresh"
       }
-    }
+    }*/
   },
   
   "texts":
@@ -158,16 +158,7 @@
   },
   
   "other":
-  {
-    "splash-text":
-    {
-      "posX" : 90,
-      "posY" : 70,
-      "color" : -256,
-      "alignment" : "top_center",
-      "file" : "texts/splashes.txt"
-    },
-    
+  { 
     "panorama":
     {
       "images" : "shatteredworld:/background/panorama_%c.png",
