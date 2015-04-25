@@ -5,6 +5,9 @@ Version 0.4.1
 Mod Downgrades
 . Iron Chest MC 1.8 to 1.7.10 (my fault ^^)
 
+Mod Removed
+- No More Recipie Conflict (not supported anymore)
+
 ============================================================
 Version 0.4.0 
 ============================================================
