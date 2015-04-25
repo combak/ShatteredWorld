@@ -93,6 +93,20 @@
 - Files: http://botaniamod.net/downloads.php
 - Licence: http://botaniamod.net/license.php
 
+**BuildCraft Additions**
+> The GNU General Public License 
+
+- Author: AEnterprise
+- Files: http://minecraft.curseforge.com/mc-mods/221014-buildcraft-additions/files
+- Licence: https://github.com/AEnterprise/Buildcraft-Additions/blob/multiblockRefinery/LICENCE
+
+**BuildCraft Team Mods**
+> Minecraft Mod Public License
+
+- Included: BuildCraft & BuildCraftCompat
+- Files: http://www.mod-buildcraft.com/pages/download.html
+- Licence: https://github.com/BuildCraft/BuildCraft/blob/6.4.x/LICENSE
+
 ## C
 
 **Chicken Bones Mods**
@@ -160,6 +174,14 @@
 - Authors: Drayshak, Arkember, RWTema
 - Files: http://minecraft.curseforge.com/mc-mods/223428-endertech/files
 - Permission: https://github.com/voxelcarrot/EnderTech/wiki#can-i-include-this-mod-in-a-modpack
+
+**Eureka**
+> The GNU Lesser General Public License
+
+- Author: AEnterprise
+- Required for: BuildCraft Additions
+- Files: http://minecraft.curseforge.com/mc-mods/222995-eureka/files
+- Licence: https://github.com/AEnterprise/Eureka/blob/master/LICENCE
 
 **Ex Astris**
 > The MIT License (MIT)

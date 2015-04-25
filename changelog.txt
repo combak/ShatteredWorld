@@ -1,14 +1,24 @@
 ============================================================
 Version 0.4.0
 ============================================================
+- Balancing Ex Astris
+- Enabled Gravestone (OpenBlocks)
+- Disabled Harvestcraft Gardens and added some grass drops
 
 Mod Additions
+- BuildCraft 6.4,12
+- BuildCraftCompat 6.4.2
+- BuildCraft Additions 2.1.2
+- Eureka 3.0.1
 - Ex Astris 1.16-31
 - Thaumcraft 4.2.3.5
 - Thaumcraft - Witching Gadgets 1.1.5
 - Thaumcraft - Travellers Gear 1.15.7
 - Thaumcraft - Forbidden Magic 0.562
 - Thaumcraft - Magicstics 0.7.6
+
+Mod Updates
+- MineTweaker3 3.0.9 to 3.0.9C
 
 ============================================================
 Version 0.3.0c
