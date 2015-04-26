@@ -5,6 +5,13 @@
 
 ## A
 
+**Advanced Generators**
+> Minecraft Mod Public License
+
+- Author: bdew
+- Files: http://bdew.net/generators/
+- Licence: https://github.com/bdew/generators/blob/mc-1.7.10/MMPL-1.0.txt
+
 **AE2 Stuff**
 > Minecraft Mod Public License
 

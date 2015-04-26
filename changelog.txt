@@ -3,6 +3,7 @@ Version 0.5.0
 ============================================================
 
 Mod Additions
+- Adv. Generators 0.9.12.64
 - Carpenter's Blocks 3.3.6
 - Chisel2 2.3.10.37
 - FastCraft 1.21
