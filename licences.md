@@ -406,6 +406,13 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files
 - Licence: https://github.com/Tonius/NEI-Integration/blob/master/LICENSE
 
+**NotEnoughKeys**
+> Yes, yes, a thousand times YES, you can use this in your public/private modpack, just don't forget to let me know you've done it with a comment/tweet and don't fall behind on version updates :)
+
+- Author: dmodoomsirius, Country_Gamer, Parker8283
+- Files: http://minecraft.curseforge.com/mc-mods/224614-notenoughkeys/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292963-not-enough-keys-making-pressing-buttons-easier
+
 ## O
 
 **OpenBlocks**

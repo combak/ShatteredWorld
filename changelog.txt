@@ -10,7 +10,7 @@ Mod Additions
 - Forge Essentials Client 1.4.0 beta
 - Thaumcraft - Automagy 0.22.2
 - Thaumcraft NEI Plugin 1.7
-
+- NotEnoughKeys 1.0.0b29
 
 ============================================================
 Version 0.4.1
