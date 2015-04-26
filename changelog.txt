@@ -12,6 +12,7 @@ Mod Additions
 - Thaumcraft NEI Plugin 1.7
 - NotEnoughKeys 1.0.0b29
 - NEI - Not Enough Resources 0.1.0.95 alpha
+- Tinker's Mechworks 0.2.14.100
 
 ============================================================
 Version 0.4.1

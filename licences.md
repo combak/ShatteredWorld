@@ -578,6 +578,13 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 - Files: http://minecraft.curseforge.com/mc-mods/74072-tinkers-construct/files
 - Licence: https://github.com/SlimeKnights/TinkersConstruct/blob/master/README.md
 
+**Tinker's Mechworks**
+> Creative Commons Attribution 3.0 Unported License.
+
+- Author: mDiyo, boni, JeanGlassmaker
+- Files: http://minecraft.curseforge.com/mc-mods/78057-tinkers-mechworks/files
+- Licence: https://github.com/SlimeKnights/TinkersMechworks/blob/master/README.md
+
 **ttCore**
 > Creative Commons Attribution 4.0 International License.
 
