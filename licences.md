@@ -464,7 +464,7 @@ minecraft original sources.
 > 4. If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
 > 5. If the mod pack is to be made available to the public, then send me a PM on these forums to be given specific permission. (This isn't because I want to limit the addon from mod packs but because I want to be kept informed of where it is being used. This condition will quite likely be dropped in the future.) Exception: If your pack is released solely on the Feed The Beast and/or Curse launchers, the specific permission requirement is waived but I still ask that you send me a PM to let me know about the pack.
 
-I reserve the right to alter, remove, or add any conditions at any time and for any reason.
+> I reserve the right to alter, remove, or add any conditions at any time and for any reason.
 
 - Authors: Tuhljin, Draanor, Lorc
 - Files: http://minecraft.curseforge.com/mc-mods/222153-automagy/files
