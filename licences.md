@@ -406,7 +406,14 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files
 - Licence: https://github.com/Tonius/NEI-Integration/blob/master/LICENSE
 
-**NotEnoughKeys**
+**NEI Not Enough Resources**
+> “Don’t Be a Jerk” non-commercial care-free license.
+
+- Authors: Way2muchnoise, hilburn
+- Files: http://minecraft.curseforge.com/mc-mods/225815-notenoughresources/files
+- Licence: https://github.com/hilburn/NotEnoughResources/blob/master/LICENSE.md
+
+**Not Enough Keys**
 > Yes, yes, a thousand times YES, you can use this in your public/private modpack, just don't forget to let me know you've done it with a comment/tweet and don't fall behind on version updates :)
 
 - Author: dmodoomsirius, Country_Gamer, Parker8283

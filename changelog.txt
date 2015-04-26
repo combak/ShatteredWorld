@@ -11,6 +11,7 @@ Mod Additions
 - Thaumcraft - Automagy 0.22.2
 - Thaumcraft NEI Plugin 1.7
 - NotEnoughKeys 1.0.0b29
+- NEI - Not Enough Resources 0.1.0.95 alpha
 
 ============================================================
 Version 0.4.1
