@@ -456,6 +456,21 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft/files
 - Permission: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft
 
+**Thaumcraft - Automagy**
+> Want to include Automagy in your mod pack? Then the following conditions must be met, most of which are based on Thaumcraft's own:
+> 1. Your mod pack needs a link to this forum post.
+> 2. You cannot make any money off of the mod pack. (Donations made to entertainers such as streamers who are simply playing with the mod are fine.)
+> 3. You cannot claim that you made any part of this mod, and you must give credit to the author of the mod (Tuhljin).
+> 4. If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
+> 5. If the mod pack is to be made available to the public, then send me a PM on these forums to be given specific permission. (This isn't because I want to limit the addon from mod packs but because I want to be kept informed of where it is being used. This condition will quite likely be dropped in the future.) Exception: If your pack is released solely on the Feed The Beast and/or Curse launchers, the specific permission requirement is waived but I still ask that you send me a PM to let me know about the pack.
+
+I reserve the right to alter, remove, or add any conditions at any time and for any reason.
+
+- Authors: Tuhljin, Draanor, Lorc
+- Files: http://minecraft.curseforge.com/mc-mods/222153-automagy/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2125369-tc4-addon-automagy-automation-and-logistics-v0-22
+- Public Permission: https://github.com/combak/ShatteredWorld/blob/master/permissions/Thaumcraft-Automagy.png
+
 **Thaumcraft - Forbidden Magic**
 > I like modpacks. A lot. Like, I can't even remember the last time I played a single mod by itself. I grant blanket permission to use my mod in any modpack, but reserve the right to change my mind.
 
@@ -469,6 +484,13 @@ minecraft original sources.
 - Author: T145, HuggableCreep, Tuiren, wiiv
 - Files: http://minecraft.curseforge.com/mc-mods/222182-magistics/files
 - Licence: https://github.com/T145/magistics/blob/master/LICENSE.txt
+
+**Thaumcraft - NEI Plugin**
+> You have my permission to include "Thaumcraft NEI Plugin" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.
+
+- Author: DjGiannuzz
+- Files: http://minecraft.curseforge.com/mc-mods/225095-thaumcraft-nei-plugin/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2237271-1-6-4-1-7-10-thaumcraft-nei-plugin-nei
 
 **Thaumcraft - Travellers Gear**
 > Public Domain
