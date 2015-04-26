@@ -145,6 +145,14 @@
 - Files: http://minecraft.curseforge.com/mc-mods/224218-compact-machines/files
 - Licence: https://github.com/thraaawn/CompactMachines/blob/master/COPYING
 
+**CookieCore**
+> You're free to include this mod in any modpack
+
+- Author: ephys
+- Required for: Tinker's Steelworks
+- Files: http://minecraft.curseforge.com/mc-mods/222908-cookiecore/files
+- Permission: https://github.com/Ephys/CookieCore/blob/1.7/README.md
+
 **CustomItems**
 > GNU General Public License
 
@@ -584,6 +592,14 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 - Author: mDiyo, boni, JeanGlassmaker
 - Files: http://minecraft.curseforge.com/mc-mods/78057-tinkers-mechworks/files
 - Licence: https://github.com/SlimeKnights/TinkersMechworks/blob/master/README.md
+
+**Tinker's Steelworks**
+> Use it. Modpack it. Crack it open and experiment with its dangly parts. I care not. You do not need my permission to put it in a modpack, so just do it like Nike. To be safe, we'll just go with the same license Tinkers' Construct has.
+> Creative Commons Attribution 3.0 Unported License.
+
+- Author: Toops
+- Files: https://github.com/Ephys/TinkersSteelworks/releases
+- Permission/Licence: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445710-1-6-4-tinkers-steelworks
 
 **ttCore**
 > Creative Commons Attribution 4.0 International License.
