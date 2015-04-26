@@ -69,6 +69,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/227083-baubles/files
 - Licence: https://github.com/Azanor/Baubles/blob/master/README.md
 
+**Backpacks**
+> Feel free to include this mod in modpacks.
+
+- Author: Brad16840
+- Files: http://minecraft.curseforge.com/mc-mods/223957-backpacks/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291844-backpacks-by-brad16840
+
 **BdLib**
 > Minecraft Mod Public License
 
