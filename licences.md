@@ -85,6 +85,13 @@
 - Files: http://www.bibliocraftmod.com/?page_id=48#MC1710
 - Permission: http://www.bibliocraftmod.com/?page_id=57#modpacks
 
+**Binnie's Mods**
+> You do not need to seek explicit permission to use this mod under the sole condition that you have permission to use the Forestry mod (which is required), in regards to what the current license for Forestry is.
+
+- Author: Binnie567
+- Files: http://minecraft.curseforge.com/mc-mods/223525-binnies-mods/files
+- Permission: http://minecraft.curseforge.com/mc-mods/223525-binnies-mods
+
 **Blood Magic**
 >  Creative Commons Attribution 4.0 International License.
 
