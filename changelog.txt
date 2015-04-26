@@ -6,6 +6,7 @@ Mod Additions
 - Carpenter's Blocks 3.3.6
 - Chisel2 2.3.10.37
 - FastCraft 1.21
+- Forge Essentials Client 1.4.0 beta
 - Thaumcraft - Automagy 0.22.2
 - Thaumcraft NEI Plugin 1.7
 

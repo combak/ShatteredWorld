@@ -255,6 +255,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/226149-forest-day-work-in-progress/files
 - Licence: https://github.com/ForestDay/Forest-Day/blob/1.7/License.txt
 
+**Forge Essentials**
+> Eclipse Public License - v 1.0
+
+- Author: luacs1998, AbrarSyed, dries007, Malkierian, olee92
+- Files: http://minecraft.curseforge.com/mc-mods/74735-forge-essentials-74735/files
+- Licence: https://github.com/ForgeEssentials/ForgeEssentialsMain/blob/develop/LICENSE.TXT
+
 ## G
 
 **Garden Stuff**
