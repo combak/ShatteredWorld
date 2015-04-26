@@ -446,11 +446,11 @@ minecraft original sources.
 
 **Thaumcraft**
 > You want Thaumcraft in your mod pack? All you need to meet are five simple conditions:
-> 1. Your mod pack needs a link back to this forum post.
-> 2. You cannot make any money off of the mod pack.
-> 3. You cannot claim that you made any part of the mod, and you must give credit to the author of the mod (Azanor).
-> 4. If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
-> 5. Handle any queries and bug reports internally first. This is one of the main reasons I had such a strict anti-modpack policy for such a long time - people using modpacks would come here posting errors that have nothing to do with my mod or that have been fixed ages ago, but still occurs in the modpack because it is using an older 
+> - Your mod pack needs a link back to this forum post.
+> - You cannot make any money off of the mod pack.
+> - You cannot claim that you made any part of the mod, and you must give credit to the author of the mod (Azanor).
+> - If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
+> - Handle any queries and bug reports internally first. This is one of the main reasons I had such a strict anti-modpack policy for such a long time - people using modpacks would come here posting errors that have nothing to do with my mod or that have been fixed ages ago, but still occurs in the modpack because it is using an older 
 
 - Author: Azanor
 - Files: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft/files
@@ -458,11 +458,11 @@ minecraft original sources.
 
 **Thaumcraft - Automagy**
 > Want to include Automagy in your mod pack? Then the following conditions must be met, most of which are based on Thaumcraft's own:
-> 1. Your mod pack needs a link to this forum post.
-> 2. You cannot make any money off of the mod pack. (Donations made to entertainers such as streamers who are simply playing with the mod are fine.)
-> 3. You cannot claim that you made any part of this mod, and you must give credit to the author of the mod (Tuhljin).
-> 4. If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
-> 5. If the mod pack is to be made available to the public, then send me a PM on these forums to be given specific permission. (This isn't because I want to limit the addon from mod packs but because I want to be kept informed of where it is being used. This condition will quite likely be dropped in the future.) Exception: If your pack is released solely on the Feed The Beast and/or Curse launchers, the specific permission requirement is waived but I still ask that you send me a PM to let me know about the pack.
+> - Your mod pack needs a link to this forum post.
+> - You cannot make any money off of the mod pack. (Donations made to entertainers such as streamers who are simply playing with the mod are fine.)
+> - You cannot claim that you made any part of this mod, and you must give credit to the author of the mod (Tuhljin).
+> - If I ever ask you to remove my mod from your pack, for whatever reason, you do so.
+> - If the mod pack is to be made available to the public, then send me a PM on these forums to be given specific permission. (This isn't because I want to limit the addon from mod packs but because I want to be kept informed of where it is being used. This condition will quite likely be dropped in the future.) Exception: If your pack is released solely on the Feed The Beast and/or Curse launchers, the specific permission requirement is waived but I still ask that you send me a PM to let me know about the pack.
 
 > I reserve the right to alter, remove, or add any conditions at any time and for any reason.
 
