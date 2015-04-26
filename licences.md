@@ -227,6 +227,13 @@
 
 ## F
 
+**FastCraft**
+> This pack contains Fastcraft, by Player, enabled by default. Fastcraft enhances Minecraft with increased performance. Bug reports being made directly to Mod Authors should state Fastcraft is enabled.
+
+- Author: Player
+- Files: http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
+- Permission: http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
+
 **Fun World Gen**
 > Can I include FWG in my modpack? A Yes, as long as you don't make any money out of it. 
 
