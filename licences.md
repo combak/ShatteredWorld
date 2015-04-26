@@ -124,6 +124,13 @@
 - Files: http://chickenbones.net/Pages/links.html
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods
 
+**Chisel 2**
+> GNU General Public License
+
+- Authors: TheCricket26, Drullkus, tterrag1098, warlordjones
+- Files: http://minecraft.curseforge.com/mc-mods/225236-chisel-2/files
+- Licence: https://github.com/TheCricket/Chisel-2/blob/master/LICENSE
+
 **Compact Machines**
 > GNU General Public License
 
