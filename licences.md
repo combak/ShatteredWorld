@@ -109,6 +109,13 @@
 
 ## C
 
+**Carpenter's Blocks**
+> The Lesser General Public License
+
+- Author: Mineshopper
+- Files http://www.carpentersblocks.com/downloads.html
+- Licence: https://github.com/Mineshopper/carpentersblocks/blob/master/LICENSE-carpentersblocks.txt
+
 **Chicken Bones Mods**
 > You are welcome to include any of my mods in modpacks as long as you provide credit. My name and a link to this page is fine.
 
