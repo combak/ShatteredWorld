@@ -141,7 +141,7 @@
 > You are welcome to include any of my mods in modpacks as long as you provide credit. My name and a link to this page is fine.
 
 - Author: chicken_bones
-- Included Mods: ChickenChunks, CodeChickenCore and NotEnoughItems.
+- Included Mods: CodeChickenCore and NotEnoughItems.
 - Files: http://chickenbones.net/Pages/links.html
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods
 

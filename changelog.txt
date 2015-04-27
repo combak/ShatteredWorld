@@ -1,6 +1,13 @@
 ============================================================
 Version 0.5.1 
 ============================================================
+- Disabled Mining Well/Quarry (BuildCraft)
+
+Mod Updates
+- Forest Day 1.4c to 1.4.0f
+
+Mod Removed
+- ChickenChunks (Dimensional Anchors can be used as personal and server)
 
 ============================================================
 Version 0.5.0
