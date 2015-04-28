@@ -1,6 +1,15 @@
 ============================================================
 Version 0.5.2
 ============================================================
+Config Changes
+- AE2 Inscriber via BuildCraft Assembly Table
+- Fix some script errors in Thermal Expansion and Tinkers Construct (Ore Processing)
+- Removed Default Inscriber Press Recipies
+
+Mod Updates
+- CoFH Core 3.0.0RC7-243 to 3.0.2-262
+- Thermal Expansion 4.0.0RC7-164 to 4.0.1-182
+- Thermal Foundation 1.0.0RC7-77 to 1.0.0-81
 
 ============================================================
 Version 0.5.1 
