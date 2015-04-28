@@ -60,6 +60,13 @@
 - Files: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292222-ars-magica-2-version-1-4-0-008-updated-february-6
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292222-ars-magica-2-version-1-4-0-008-updated-february-6
 
+**AutoPackager
+> Apache License version 2.0
+
+- Author: mDiyo, boni, jadedcat
+- Files: http://minecraft.curseforge.com/mc-mods/74072-tinkers-construct/files
+- Licence: http://minecraft.curseforge.com/mc-mods/221457-autopackager/license
+
 ## B
 
 **Baubles**
