@@ -159,7 +159,7 @@ mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, moltenElementium
 mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfElementium, moltenElementium * 1296, null, false, 20);
 
 # Wrought Iron
-#mods.tconstruct.Smeltery.addAlloy( moltenWroughtIron * 144, [ moltenIron * 144, moltenGlass * 1296 ] ); /* Funktioniert noch nicht */
+mods.tconstruct.Smeltery.addAlloy( moltenWroughtIron * 144, [ moltenIron * 144, moltenGlass * 1296 ] ); /* Funktioniert noch nicht */
 mods.tconstruct.Smeltery.addMelting( gardenWroughtIronNugget, moltenWroughtIron * 16, 500, gardenBlockOfWroughtIron );
 mods.tconstruct.Smeltery.addMelting( gardenWroughtIronIngot, moltenWroughtIron * 144, 500, gardenBlockOfWroughtIron );
 mods.tconstruct.Smeltery.addMelting( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, 500, gardenBlockOfWroughtIron );
@@ -168,28 +168,28 @@ mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronIngot, moltenWroughtIro
 mods.tconstruct.Casting.addBasinRecipe( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, null, false, 20);
 
 # Fluxed Electrum
-mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, 500, arsenalBlockOfFluxedElectrum );
-mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, 500, arsenalBlockOfFluxedElectrum );
-mods.tconstruct.Smeltery.addMelting( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, 500, arsenalBlockOfFluxedElectrum );
-mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, castNugget, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, castIngot, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, null, false, 20);
+#mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, 500, arsenalBlockOfFluxedElectrum );
+#mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, 500, arsenalBlockOfFluxedElectrum );
+#mods.tconstruct.Smeltery.addMelting( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, 500, arsenalBlockOfFluxedElectrum );
+#mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, castIngot, false, 20 );
+#mods.tconstruct.Casting.addBasinRecipe( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, null, false, 20);
 
 # Iron Nugget casting
-mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
-mods.tconstruct.Casting.addTableRecipe( tinkersIronNugget, moltenIron * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
+#mods.tconstruct.Casting.addTableRecipe( tinkersIronNugget, moltenIron * 16, castNugget, false, 20 );
 
 # Copper Nugget casting
-mods.tconstruct.Casting.removeTableRecipe( thermalCopperNugget );
-mods.tconstruct.Casting.addTableRecipe( tinkersCopperNugget, moltenCopper * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermalCopperNugget );
+#mods.tconstruct.Casting.addTableRecipe( tinkersCopperNugget, moltenCopper * 16, castNugget, false, 20 );
 
 # Tin Nugget casting
-mods.tconstruct.Casting.removeTableRecipe( thermalTinNugget );
-mods.tconstruct.Casting.addTableRecipe( tinkersTinNugget, moltenTin * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermalTinNugget );
+#mods.tconstruct.Casting.addTableRecipe( tinkersTinNugget, moltenTin * 16, castNugget, false, 20 );
 
 # Bronze Nugget casting
-mods.tconstruct.Casting.removeTableRecipe( thermalBronzeNugget );
-mods.tconstruct.Casting.addTableRecipe( tinkersBronzeNugget, moltenBronze * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermalBronzeNugget );
+#mods.tconstruct.Casting.addTableRecipe( tinkersBronzeNugget, moltenBronze * 16, castNugget, false, 20 );
 
 # Redstone Block
 mods.tconstruct.Casting.addBasinRecipe( vanillaBlockOfRedstone, moltenRedstone * 1296, null, false, 20);

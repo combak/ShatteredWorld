@@ -27,7 +27,7 @@ val removeFurnace = [
 
 # Remove Items/Recipies from the Induction Smelter
 val removeInduction = [
-  <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
+ # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
   <ThermalFoundation:material:32>	/* Copper Dust to Ingot */
 ] as IItemStack[];
 
