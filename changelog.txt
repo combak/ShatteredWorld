@@ -2,9 +2,20 @@
 Version 0.5.1 
 ============================================================
 - Disabled Mining Well/Quarry (BuildCraft)
+- Disabled Genetics (Binnie Mods)
+- Raised Nodedensity and RP Scanning Soft Cap (Thaumcraft)
+- Disabled Sigil in Chests/Loot (Extra Utillities)
+- Allowed some ThaumcraftTools/Swords (by Iquana Tweaks for Tinkers)
+- Allowed Bound Tools/Weapons (by Iquana Tweaks for Tinkers)
+- Allowed TE Battlewrench&Draconic Evolution Stuff (by Iquana Tweaks for Tinkers)
+- Allowed Forbidden Magic Tools and Weapons (by Iquana Tweaks for Tinkers)
+- Allowed T2 Botania Tools and Weapons (by Iquana Tweaks for Tinkers)
+- Allowed RedstoneArsenal Tools&Weapons (by Iquana Tweaks for Tinkers)
+- Allowed The Ender& Unstable Weapons/tools Extra Utils (by Iquana Tweaks for Tinkers)
 
 Mod Updates
 - Forest Day 1.4c to 1.4.0f
+- Resource Loader 1.1 to 1.2
 
 Mod Removed
 - ChickenChunks (Dimensional Anchors can be used as personal and server)
