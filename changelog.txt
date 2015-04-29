@@ -5,6 +5,11 @@ Config Changes
 - AE2 Inscriber via BuildCraft Assembly Table
 - Fix some script errors in Thermal Expansion and Tinkers Construct (Ore Processing)
 - Removed Default Inscriber Press Recipies
+- Custom Chisel Recipie (Chisel Mod). Recipie Conflict with Iron/Dia Trowel (Botania)
+- Disabled Auto Repair
+- Custom BC Laser Recipie
+- Custom Piston Recipie
+- Custom Blood Altar Recipie
 
 Mod Additions
 - AutoPackager 1.5.3
