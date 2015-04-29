@@ -31,6 +31,8 @@ val vanillaBlockOf = [
   <minecraft:emerald_block>
 ] as IItemStack[];
 
+val vanillaPiston 	= <minecraft:piston>;
+val botaniaLivingRock	= <Botania:livingrock:1>;
 ########################################
 # Item
 ########################################
@@ -58,11 +60,15 @@ val removeSmelting = [
   <ThermalFoundation:material:73>	/* Bronze Ingot (Thermal Foundation) */
 ] as IItemStack[];
 
+val thermalServo = <ThermalExpansion:material>;
+
 ########################################
 # Ore Dictionary
 ########################################
 
-var odPlank 	= <ore:plankWood>;
+val odPlank 	= <ore:plankWood>;
+val odSlabWood	= <ore:slabWood>;
+val odIronRod	= <ore:ironRod>;
 
 ########################################
 # 1 Log = 2 Planks
@@ -90,6 +96,12 @@ recipes.addShaped( stick * 2, [ [ null, null, null ], [ null, null, odPlank ], [
 #2x2 Crafting Grid
 recipes.addShaped( stick * 2, [ [ odPlank, null ], [ odPlank, null ] ] );
 recipes.addShaped( stick * 2, [ [ null, odPlank ], [ null, odPlank ] ] );
+
+########################################
+# Custom Piston
+########################################
+recipes.remove( vanillaPiston );
+recipes.addShaped( vanillaPiston, [ [ odSlabWood, odSlabWood, odSlabWood ], [ botaniaLivingRock, odIronRod, botaniaLivingRock ], [ botaniaLivingRock, thermalServo, botaniaLivingRock ] ] );
 
 ########################################
 # Remove Ingot to Nugget Crafting
