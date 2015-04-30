@@ -525,7 +525,7 @@ minecraft original sources.
 **Team CoFH Mods**
 > This is the Internet. Even if you don’t like us (we still like you, really) for some reason, we can’t (and wouldn’t) stop you and maintain any semblance of a moral high ground, so have fun. Permission granted. This was made to be played, after all.
 
-- Included Mods: CoFH Core, Thermal Foundation, Thermal Expansion, Thermal Dynamics and Redstone Arsenal
+- Included Mods: CoFH Core, Thermal Foundation, Thermal Expansion, Thermal Dynamics, Redstone Arsenal and NetherOres
 - Files: http://teamcofh.com/downloads/
 - Permission: http://teamcofh.com/license/
 
