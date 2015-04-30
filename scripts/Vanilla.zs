@@ -61,6 +61,7 @@ val removeSmelting = [
 ] as IItemStack[];
 
 val thermalServo = <ThermalExpansion:material>;
+val vanillaBowl	= <minecraft:bowl>;
 
 ########################################
 # Ore Dictionary
@@ -102,6 +103,13 @@ recipes.addShaped( stick * 2, [ [ null, odPlank ], [ null, odPlank ] ] );
 ########################################
 recipes.remove( vanillaPiston );
 recipes.addShaped( vanillaPiston, [ [ odSlabWood, odSlabWood, odSlabWood ], [ botaniaLivingRock, odIronRod, botaniaLivingRock ], [ botaniaLivingRock, thermalServo, botaniaLivingRock ] ] );
+
+########################################
+# Custom Bowl
+########################################
+recipes.remove( vanillaBowl );
+recipes.addShaped( vanillaBowl, [ [ odSlabWood, null, odSlabWood ], [ null, odSlabWood, null ], [ null, null, null ] ] );
+recipes.addShaped( vanillaBowl, [ [ null, null, null ], [ odSlabWood, null, odSlabWood ], [ null, odSlabWood, null ] ] );
 
 ########################################
 # Remove Ingot to Nugget Crafting
