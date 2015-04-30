@@ -5,7 +5,7 @@
 val inscriberSilicon		= <appliedenergistics2:item.ItemMultiMaterial:19>;
 val inscriberLogic		= <appliedenergistics2:item.ItemMultiMaterial:15>;
 val inscriberCalculation	= <appliedenergistics2:item.ItemMultiMaterial:13>;
-val inscriberEnginering		= <appliedenergistics2:item.ItemMultiMaterial:14>;
+val inscriberEnginering	= <appliedenergistics2:item.ItemMultiMaterial:14>;
 
 ########################################
 # Inscriber
