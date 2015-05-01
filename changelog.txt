@@ -21,6 +21,7 @@ Mod Updates
 - Applied Energistics2- v2-alpha-29 to rv2-beta-31
 - ModTweaker2 0.7.5 to 0.8.1
 - Ex Nihilo 1.38-31 to 1.38-36
+- Forest-Day 1.4.0f to 1.4.0i
 
 ============================================================
 Version 0.5.2
