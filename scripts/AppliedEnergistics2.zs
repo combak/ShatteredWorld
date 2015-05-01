@@ -27,16 +27,6 @@ val appEngEngineerongProcessor	= <appliedenergistics2:item.ItemMultiMaterial:24>
 val vanillaIronIngot = <minecraft:iron_ingot>;
 
 ########################################################################################################################
-# Machine - Inscriber
-########################################################################################################################
-
-#Remove Copy Inscriber
-mods.appeng.Inscriber.removeRecipe( appEngInscriberSilicon );
-mods.appeng.Inscriber.removeRecipe( appEngInscriberLogic );
-mods.appeng.Inscriber.removeRecipe( appEngInscriberCalculation );
-mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
-
-########################################################################################################################
 # Custom Crafting Recipes - Shaped
 ########################################################################################################################
 
@@ -47,3 +37,13 @@ recipes.addShaped( appEngDrive, [ [ vanillaIronIngot, appEngCalculationProcessor
 # Molecular Assembler
 recipes.remove( appEngMolecularAssembler );
 recipes.addShaped( appEngMolecularAssembler, [ [ vanillaIronIngot, appEngQuartzGlass, vanillaIronIngot ], [ appEngEngineerongProcessor, vanillaCraftingTable, appEngEngineerongProcessor ], [ vanillaIronIngot, appEngQuartzGlass, vanillaIronIngot ] ] );
+
+########################################################################################################################
+# Machine - Inscriber
+########################################################################################################################
+
+#Remove Copy Inscriber
+mods.appeng.Inscriber.removeRecipe( appEngInscriberSilicon );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberLogic );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberCalculation );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
