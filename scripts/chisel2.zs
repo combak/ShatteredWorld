@@ -1,35 +1,38 @@
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val obsidian = <minecraft:obsidian>;
+# Vanilla
+val vanillaObsidian = <minecraft:obsidian>;
 
-########################################
-# Item
-########################################
+########################################################################################################################
+# Items
+########################################################################################################################
 
-val chiselIron 		= <chisel:chisel>;
-val chiselObsidian 	= <chisel:obsidianChisel>;
-val chiselDiamond 	= <chisel:diamondChisel>;
+# Chisel 2
+val chiselIronChisel 		= <chisel:chisel>;
+val chiselObsidianChisel 	= <chisel:obsidianChisel>;
+val chiselDiamondChisel 	= <chisel:diamondChisel>;
 
-val ironIngot		= <minecraft:iron_ingot>;
-val diamond		= <minecraft:diamond>;
+# Vanilla
+val vanillaIronIngot	= <minecraft:iron_ingot>;
+val vanillaDiamondGem	= <minecraft:diamond>;
 
-########################################
+########################################################################################################################
 # Ore Dictionary
-########################################
+########################################################################################################################
 
 val odStick = <ore:stickWood>;
 
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
 
-########################################
 # Chisel Custom Recipie
-########################################
+recipes.remove( chiselIronChisel );
+recipes.remove( chiselObsidianChisel );
+recipes.remove( chiselDiamondChisel );
 
-recipes.remove( chiselIron );
-recipes.remove( chiselObsidian );
-recipes.remove( chiselDiamond );
-
-recipes.addShaped( chiselIron, [ [ null, null, null ], [ null, ironIngot, null ], [ null, odStick, null ] ] );
-recipes.addShaped( chiselObsidian, [ [ null, null, null ], [ null, obsidian, null ], [ null, odStick, null ] ] );
-recipes.addShaped( chiselDiamond, [ [ null, null, null ], [ null, diamond, null ], [ null, odStick, null ] ] );
+recipes.addShaped( chiselIronChisel, [ [ null, null, null ], [ null, vanillaIronIngot, null ], [ null, odStick, null ] ] );
+recipes.addShaped( chiselObsidianChisel, [ [ null, null, null ], [ null, vanillaObsidian, null ], [ null, odStick, null ] ] );
+recipes.addShaped( chiselDiamondChisel, [ [ null, null, null ], [ null, vanillaDiamondGem, null ], [ null, odStick, null ] ] );
