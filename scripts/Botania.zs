@@ -1,30 +1,29 @@
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val botaniaSpreader          = <Botania:spreader>;
+# Ars Magica 2
 val arsMagicaParticleEmitter = <arsmagica2:ParticleEmitter>;
 
+# Botania
+val botaniaSpreader = <Botania:spreader>;
 
-
-# Logs
 val botaniaLogs = [
-  <Botania:livingwood>,		/* Living Wood */
-  <Botania:dreamwood>		/* Dream Wood */
+  <Botania:livingwood>,		/* 0 - Living Wood */
+  <Botania:dreamwood>		/* 1 - Dream Wood */
 ] as IItemStack[];
 
-# Planks
 val botaniaPlanks = [
-  <Botania:livingwood:1>,	/* Living Wood */
-  <Botania:dreamwood:1>		/* Dream Wood */
+  <Botania:livingwood:1>,	/* 0 - Living Wood */
+  <Botania:dreamwood:1>		/* 1 - Dream Wood */
 ] as IItemStack[];
 
 val botaniaIngots = [
-  <Botania:manaResource>,	/* Manasteel */
-  <Botania:manaResource:4>,	/* Terrasteel */
-  <Botania:manaResource:7>	/* Elementium */
+  <Botania:manaResource>,	/* 0 - Manasteel */
+  <Botania:manaResource:4>,	/* 1 - Terrasteel */
+  <Botania:manaResource:7>	/* 2 - Elementium */
 ] as IItemStack[];
 
 val botaniaBlockOf = [
@@ -35,38 +34,25 @@ val botaniaBlockOf = [
   <Botania:storage:4>
 ] as IItemStack[];
 
-########################################
-# Items
-########################################
-
-val thaumcraftThaumiumIngot  = <ore:ingotThaumium>;
-
-########################################
+########################################################################################################################
 # Oredict
-########################################
+########################################################################################################################
 
-val odLivingwood        = <ore:livingwood>;
+val odLivingwood	= <ore:livingwood>;
+val odThaumiumIngot	= <ore:ingotThaumium>;
 
-########################################
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
 # Remove Shard of Laputa
-########################################
-
 recipes.remove(<Botania:laputaShard>);
 recipes.remove(<Botania:laputaShard:4>);
 recipes.remove(<Botania:laputaShard:9>);
 recipes.remove(<Botania:laputaShard:14>);
 recipes.remove(<Botania:laputaShard:19>);
 
-################################
-#  Remove Standard ManaSpreader
-################################
-
-
-recipes.removeShaped(<Botania:spreader>);
-
-########################################
 # 1 Log = 2 Planks
-########################################
 for i, log in botaniaLogs
 {
   var plank = botaniaPlanks[ i ];
@@ -74,24 +60,18 @@ for i, log in botaniaLogs
   recipes.addShapeless( plank * 2, [ log ] );
 }
 
-########################################
 # Remove Block to Ingot Crafting
-########################################
 for i, ingot in botaniaIngots
 {
   recipes.remove( ingot );
 }
 
-########################################
 # Remove Ingot to Block Crafting
-########################################
 for i, block in botaniaBlockOf
 {
   recipes.remove( block );
 }
 
-################################
-# Add new Spreader Recipe
-################################
-
-recipes.addShaped(BotaniaSpreader, [[BotaniaLivingwood, BotaniaLivingwood, BotaniaLivingwood], [ThaumcraftThaumiumIngot, ArsMagicaParticleEmitter, null], [BotaniaLivingwood, BotaniaLivingwood, BotaniaLivingwood]]);
+# Custom Mana Spreader Recipie
+recipes.removeShaped( botaniaSpreader );
+recipes.addShaped( botaniaSpreader, [ [ botaniaLogs[0], botaniaLogs[0], botaniaLogs[0] ], [ odThaumiumIngot, arsMagicaParticleEmitter, null ], [ botaniaLogs[0], botaniaLogs[0], botaniaLogs[0] ] ] );
