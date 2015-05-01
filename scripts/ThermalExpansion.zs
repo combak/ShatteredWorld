@@ -1,18 +1,21 @@
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Block
-########################################
+########################################################################################################################
 
+# Applied Energistics
+val appEngSkyStoneBlock	= <appliedenergistics2:tile.BlockSkyStone>;
+
+# Vanilla
 val vanillaSand = <minecraft:sand>;
-val ae2SkyStone	= <appliedenergistics2:tile.BlockSkyStone>;
 
-########################################
+########################################################################################################################
 # Item
-########################################
+########################################################################################################################
 
-val thermalCopperNugget = <ThermalFoundation:material:96>;
-val ae2SkyStoneDust = <appliedenergistics2:item.ItemMultiMaterial:45>;
+# Applied Energistics
+val appEngSkyStoneDust = <appliedenergistics2:item.ItemMultiMaterial:45>;
 
 # Remove Items/Recipies from the Redstone Furnace
 val removeFurnace = [
@@ -37,28 +40,28 @@ val removePulverizer = [
   <ThermalDynamics:ThermalDynamics_16:1>	/* Temperate Fluiduct to Copper Nuggets */
 ] as IItemStack[];
 
-########################################
-# Redstone Furnace
-########################################
+########################################################################################################################
+# Machine - Redstone Furnace
+########################################################################################################################
 for i, item in removeFurnace
 {
   mods.thermalexpansion.Furnace.removeRecipe( item );
 }
 
-########################################
-# Induction Smelter
-########################################
+########################################################################################################################
+# Machine - Induction Smelter
+########################################################################################################################
 for i, item in removeInduction
 { 
   mods.thermalexpansion.Smelter.removeRecipe( item, vanillaSand );
 }
 
-#Sky Stone (AE2)
-mods.thermalexpansion.Smelter.addRecipe(4000, ae2SkyStoneDust * 4, vanillaSand, ae2SkyStone, null, 20 );
+# Producing Sky Stone form Sky Stone Dust
+mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSand, appEngSkyStoneBlock, null, 20 );
 
-########################################
-# Pulverizer
-########################################
+########################################################################################################################
+# Machine - Pulverizer
+########################################################################################################################
 for i, item in removePulverizer
 {
   mods.thermalexpansion.Pulverizer.removeRecipe( item );
