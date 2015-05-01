@@ -4,12 +4,9 @@ import minetweaker.item.IItemStack;
 # Blocks
 ########################################
 
-#Val by Grambosch
+val botaniaSpreader          = <Botania:spreader>;
+val arsMagicaParticleEmitter = <arsmagica2:ParticleEmitter>;
 
-val BotaniaSpreader          = <Botania:spreader>;
-val ThaumcraftThaumiumIngot  = <ore:ingotThaumium>;
-val ArsMagicaParticleEmitter = <arsmagica2:ParticleEmitter>;
-val BotaniaLivingwood        = <ore:livingwood>;
 
 
 # Logs
@@ -37,6 +34,18 @@ val botaniaBlockOf = [
   <Botania:storage:3>,
   <Botania:storage:4>
 ] as IItemStack[];
+
+########################################
+# Items
+########################################
+
+val thaumcraftThaumiumIngot  = <ore:ingotThaumium>;
+
+########################################
+# Oredict
+########################################
+
+val odLivingwood        = <ore:livingwood>;
 
 ########################################
 # Remove Shard of Laputa
