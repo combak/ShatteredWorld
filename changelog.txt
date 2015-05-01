@@ -7,6 +7,12 @@ Config Changes
 - Custom Vanilla Bowl Recipie
 - Enabled Crucible (Ex Nihilo)
 - Removed Crucible Lava Heat Source
+- Disabeld Achievement Firework
+- Custom Mana Spreader Recipie (Botania)
+- Custom ME Drive Recipie (AE2)
+- Custom Molecular Assembler Recipie (AE2)
+- Ex Nihilo Output Balacing
+- Reduced Nether Ore Gen 
 
 Mod Additions
 - Nether Ores 2.3.0-12
@@ -14,6 +20,7 @@ Mod Additions
 Mod Updates
 - Applied Energistics2- v2-alpha-29 to rv2-beta-31
 - ModTweaker2 0.7.5 to 0.8.1
+- Ex Nihilo 1.38-31 to 1.38-36
 
 ============================================================
 Version 0.5.2
