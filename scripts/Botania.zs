@@ -4,6 +4,14 @@ import minetweaker.item.IItemStack;
 # Blocks
 ########################################
 
+#Val by Grambosch
+
+val BotaniaSpreader          = <Botania:spreader>;
+val ThaumcraftThaumiumIngot  = <ore:ingotThaumium>;
+val ArsMagicaParticleEmitter = <arsmagica2:ParticleEmitter>;
+val BotaniaLivingwood        = <ore:livingwood>;
+
+
 # Logs
 val botaniaLogs = [
   <Botania:livingwood>,		/* Living Wood */
@@ -40,6 +48,13 @@ recipes.remove(<Botania:laputaShard:9>);
 recipes.remove(<Botania:laputaShard:14>);
 recipes.remove(<Botania:laputaShard:19>);
 
+################################
+#  Remove Standard ManaSpreader
+################################
+
+
+recipes.removeShaped(<Botania:spreader>);
+
 ########################################
 # 1 Log = 2 Planks
 ########################################
@@ -65,3 +80,9 @@ for i, block in botaniaBlockOf
 {
   recipes.remove( block );
 }
+
+################################
+# Add new Spreader Recipe
+################################
+
+recipes.addShaped(BotaniaSpreader, [[BotaniaLivingwood, BotaniaLivingwood, BotaniaLivingwood], [ThaumcraftThaumiumIngot, ArsMagicaParticleEmitter, null], [BotaniaLivingwood, BotaniaLivingwood, BotaniaLivingwood]]);
