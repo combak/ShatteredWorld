@@ -34,7 +34,8 @@ val rsArsenalFluxedElectrumBlock = <RedstoneArsenal:Storage>;
 val vanillaRedstoneBlock = <minecraft:redstone_block>;
 
 # EnderIO
-val enderioPulsatingIronBlock = <EnderIO:blockIngotStorage:5>;
+val enderioPulsatingIronBlock 	= <EnderIO:blockIngotStorage:5>;
+val enderioVibrantAlloyBlock	= <EnderIO:blockIngotStorage:2>;
 
 ########################################################################################################################
 # Items
@@ -95,6 +96,8 @@ val rsArsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
 # EnderIO
 val enderioPulsatingIronNugget	= <EnderIO:itemMaterial:3>;
 val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
+val enderioVibrantAlloyNugget	= <EnderIO:itemMaterial:4>;
+val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
 
 ########################################################################################################################
 # Fluid Registry
@@ -111,6 +114,7 @@ val frWroughtIron	= <liquid:molten_wrought_iron>;
 val frFluxedElectrum	= <liquid:molten_fluxed_electrum>;
 val frRedstone		= <liquid:redstone.molten>;
 val frPulsatingIron	= <liquid:molten_pulsating_iron>;
+val frVibrantAlloy	= <liquid:molten_vibrant_alloy>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -198,3 +202,11 @@ mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronBlock, frPulsatingIron 
 mods.tconstruct.Casting.addTableRecipe( enderioPulsatingIronNugget, frPulsatingIron * 16, tConstructNuggetCast, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( enderioPulsatingIronIngot, frPulsatingIron * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( enderioPulsatingIronBlock, frPulsatingIron * 1296, null, false, 20);
+
+# Vibrant Alloy
+mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyNugget, frVibrantAlloy * 16, 500, enderioVibrantAlloyBlock );
+mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyIngot, frVibrantAlloy * 144, 500, enderioVibrantAlloyBlock );
+mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, 500, enderioVibrantAlloyBlock );
+mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyNugget, frVibrantAlloy * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyIngot, frVibrantAlloy * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, null, false, 20);

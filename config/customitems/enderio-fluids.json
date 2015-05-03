@@ -12,6 +12,18 @@
       "lightLevel": 1.0,
       "isGas": false,
       "flowLength": 4
-    }
+    },
+    {
+      "name":"Molten Vibrant Alloy",
+      "textureName": "molten_vibrant_alloy",
+      "temperature": 200,
+      "material": lava,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "lightLevel": 1.0,
+      "isGas": false,
+      "flowLength": 4
+    }    
   ]
 }
