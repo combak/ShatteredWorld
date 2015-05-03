@@ -1,3 +1,4 @@
+
 {
   "fluids":[           
     {
@@ -11,5 +12,6 @@
       "lightLevel": 1.0,
       "isGas": false,
       "flowLength": 4
-    },
-]
+    }
+  ]
+}
