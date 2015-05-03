@@ -1,0 +1,17 @@
+
+{
+  "fluids":[           
+    {
+      "name":"Molten Pulsating Iron",
+      "textureName": "molten_pulsating_iron",
+      "temperature": 200,
+      "material": lava,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "lightLevel": 1.0,
+      "isGas": false,
+      "flowLength": 4
+    }
+  ]
+}
