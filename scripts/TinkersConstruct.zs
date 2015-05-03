@@ -1,88 +1,80 @@
 import minetweaker.item.IItemStack;
 import minetweaker.liquid.ILiquidStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val tinkersConstructBlockOf = [
-  <TConstruct:MetalBlock>,
-  <TConstruct:MetalBlock:1>,
-  <TConstruct:MetalBlock:2>,
-  <TConstruct:MetalBlock:3>,
-  <TConstruct:MetalBlock:4>,
-  <TConstruct:MetalBlock:5>,
-  <TConstruct:MetalBlock:6>,
-  <TConstruct:MetalBlock:7>,
-  <TConstruct:MetalBlock:8>,
-  <TConstruct:MetalBlock:9>
+# Tinkers
+val tConstructBlockOf = [
+  <TConstruct:MetalBlock>,	/* 0 - Cobalt */
+  <TConstruct:MetalBlock:1>,	/* 1 - Ardite */
+  <TConstruct:MetalBlock:2>,	/* 2 - Manyullyn */
+  <TConstruct:MetalBlock:3>,	/* 3 - Copper */
+  <TConstruct:MetalBlock:4>,	/* 4 - Bronze */
+  <TConstruct:MetalBlock:5>,	/* 5 - Tin */
+  <TConstruct:MetalBlock:6>,	/* 6 - Aluminum */
+  <TConstruct:MetalBlock:7>,	/* 7 - Aluminum Brass */
+  <TConstruct:MetalBlock:8>,	/* 8 - Alumite */
+  <TConstruct:MetalBlock:9>	/* 9 - Steel */
 ] as IItemStack[];
 
 # Botania
-val botaniaBlockOfManasteel 		= <Botania:storage>;
-val botaniaBlockOfTerrasteel		= <Botania:storage:1>;
-val botaniaBlockOfElementium		= <Botania:storage:2>;
+val botaniaManasteelBlock 	= <Botania:storage>;
+val botaniaTerrasteelBlock	= <Botania:storage:1>;
+val botaniaElementiumBlock	= <Botania:storage:2>;
 
 # Garden Stuff
-val gardenBlockOfWroughtIron		= <GardenStuff:metal_block>;
+val gardStuffWroughtIronBlock = <GardenStuff:metal_block>;
 
 # Redstone Arsenal 
-val arsenalBlockOfFluxedElectrum	= <RedstoneArsenal:Storage>;
+val rsArsenalFluxedElectrumBlock = <RedstoneArsenal:Storage>;
 
 # Vanilla
-val vanillaBlockOfRedstone		= <minecraft:redstone_block>;
-########################################
+val vanillaRedstoneBlock = <minecraft:redstone_block>;
+
+########################################################################################################################
 # Items
-########################################
+########################################################################################################################
 
-val tinkersConstructNuggets = [
-  <TConstruct:materials:19>,
-  <TConstruct:materials:20>,
-  <TConstruct:materials:21>,
-  <TConstruct:materials:22>,
-  <TConstruct:materials:24>,
-  <TConstruct:materials:27>,
-  <TConstruct:materials:28>,
-  <TConstruct:materials:29>,
-  <TConstruct:materials:30>,
-  <TConstruct:materials:31>,
-  <TConstruct:materials:32>,
-  <TConstruct:materials:33>
+# Tinkers
+val tConstructNuggets = [
+  <TConstruct:materials:19>,	/*  0 - Iron */
+  <TConstruct:materials:20>,	/*  1 - Copper */
+  <TConstruct:materials:21>,	/*  2 - Tin */
+  <TConstruct:materials:22>,	/*  3 - Aluminum */
+  <TConstruct:materials:24>,	/*  4 - Aluminum Brass */
+  <TConstruct:materials:27>,	/*  5 - Obsidian */
+  <TConstruct:materials:28>,	/*  6 - Cobalt */
+  <TConstruct:materials:29>,	/*  7 - Ardite */
+  <TConstruct:materials:30>,	/*  8 - Manyullyn */
+  <TConstruct:materials:31>,	/*  9 - Bronze */
+  <TConstruct:materials:32>,	/* 10 - Alumite */
+  <TConstruct:materials:33>	/* 11 - Steel */
 ] as IItemStack[];
 
-val tinkersConstructIngots = [
-  <TConstruct:materials:3>,
-  <TConstruct:materials:4>,
-  <TConstruct:materials:5>,
-  <TConstruct:materials:9>,
-  <TConstruct:materials:10>,
-  <TConstruct:materials:11>,
-  <TConstruct:materials:13>,
-  <TConstruct:materials:14>,
-  <TConstruct:materials:15>,
-  <TConstruct:materials:16>,
-  <TConstruct:materials:18>
+val tConstructIngots = [
+  <TConstruct:materials:3>,	/*  0 - Cobalt */
+  <TConstruct:materials:4>,	/*  1 - Ardite */
+  <TConstruct:materials:5>,	/*  2 - Manyullyn */
+  <TConstruct:materials:9>,	/*  3 - Copper */
+  <TConstruct:materials:10>,	/*  4 - Tin */
+  <TConstruct:materials:11>,	/*  5 - Aluminum */
+  <TConstruct:materials:13>,	/*  6 - Bronze */
+  <TConstruct:materials:14>,	/*  7 - Aluminum Brass */
+  <TConstruct:materials:15>,	/*  8 - Alumite */
+  <TConstruct:materials:16>,	/*  9 - Steel */
+  <TConstruct:materials:18>	/* 10 - Obsidian */
 ] as IItemStack[];
 
-# Casts
-val castIngot	= <TConstruct:metalPattern>;
-val castNugget 	= <TConstruct:metalPattern:27>;
+val tConstructIngotCast		= <TConstruct:metalPattern>;
+val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
 
-# Iron
-val tinkersIronNugget 	= <TConstruct:materials:19>;
-val thermalIronNugget 	= <ThermalFoundation:material:8>;
-
-# Copper
-val tinkersCopperNugget = <TConstruct:materials:20>;
-val thermalCopperNugget = <ThermalFoundation:material:96>;
-
-# Tin
-val tinkersTinNugget 	= <TConstruct:materials:21>;
-val thermalTinNugget 	= <ThermalFoundation:material:97>;
-
-# Bronze
-val tinkersBronzeNugget = <TConstruct:materials:31>;
-val thermalBronzeNugget = <ThermalFoundation:material:105>;
+# Thermal Foundation
+val thermFoundIronNugget 	= <ThermalFoundation:material:8>;
+val thermFoundCopperNugget 	= <ThermalFoundation:material:96>;
+val thermFoundTinNugget 	= <ThermalFoundation:material:97>;
+val thermFoundBronzeNugget	= <ThermalFoundation:material:105>;
 
 # Botania
 val botaniaManasteelIngot	= <Botania:manaResource>;
@@ -90,106 +82,103 @@ val botaniaTerrasteelIngot	= <Botania:manaResource:4>;
 val botaniaElementiumIngot	= <Botania:manaResource:7>;
 
 # Garden Stuff
-val gardenWroughtIronNugget	= <GardenStuff:wrought_iron_nugget>;
-val gardenWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
+val gardStuffWroughtIronNugget	= <GardenStuff:wrought_iron_nugget>;
+val gardStuffWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
 
 # Redstone Arsenal 
-val arsenalFluxedElectrumNugget	= <RedstoneArsenal:material:64>;
-val arsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
+val rsArsenalFluxedElectrumNugget	= <RedstoneArsenal:material:64>;
+val rsArsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
 
-########################################
-# Fluids
-########################################
-val moltenIron 			= <liquid:iron.molten>;
-val moltenCopper 		= <liquid:copper.molten>;
-val moltenTin 			= <liquid:tin.molten>;
-val moltenBronze 		= <liquid:bronze.molten>;
-val moltenManasteel		= <liquid:molten_manasteel>;
-val moltenTerrasteel		= <liquid:molten_terrasteel>;
-val moltenElementium		= <liquid:molten_elementium>;
-val moltenWroughtIron		= <liquid:molten_wrought_iron>;
-val moltenGlass			= <liquid:glass.molten>;
-val moltenFluxedElectrum	= <liquid:molten_fluxed_electrum>;
-val moltenRedstone		= <liquid:redstone.molten>;
+########################################################################################################################
+# Fluid Registry
+########################################################################################################################
 
-########################################
+val frIron 		= <liquid:iron.molten>;
+val frCopper 		= <liquid:copper.molten>;
+val frTin 		= <liquid:tin.molten>;
+val frBronze 		= <liquid:bronze.molten>;
+val frManasteel		= <liquid:molten_manasteel>;
+val frTerrasteel	= <liquid:molten_terrasteel>;
+val frElementium	= <liquid:molten_elementium>;
+val frWroughtIron	= <liquid:molten_wrought_iron>;
+val frFluxedElectrum	= <liquid:molten_fluxed_electrum>;
+val frRedstone		= <liquid:redstone.molten>;
+
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
 # Remove Ingot to Nugget Crafting
-########################################
-for i, nugget in tinkersConstructNuggets
+for i, nugget in tConstructNuggets
 {
   recipes.remove( nugget );
 }
 
-########################################
 # Remove Nugget/Block to Ingot Crafting
-########################################
-for i, ingot in tinkersConstructIngots
+for i, ingot in tConstructIngots
 {
   recipes.remove( ingot );
 }
 
-########################################
 # Remove Ingot to Block Crafting
-########################################
-for i, block in tinkersConstructBlockOf
+for i, block in tConstructBlockOf
 {
   recipes.remove( block );
 }
 
-########################################
-# Smelting
-########################################
+########################################################################################################################
+# Machine -  Smeltery
+########################################################################################################################
 
 # Manasteel
-mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, moltenManasteel * 144, 500, botaniaBlockOfManasteel );
-mods.tconstruct.Smeltery.addMelting( botaniaBlockOfManasteel, moltenManasteel * 1296, 500, botaniaBlockOfManasteel );
-mods.tconstruct.Casting.addTableRecipe( botaniaManasteelIngot, moltenManasteel * 144, castIngot, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfManasteel, moltenManasteel * 1296, null, false, 20);
+mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, frManasteel * 144, 500, botaniaManasteelBlock );
+mods.tconstruct.Smeltery.addMelting( botaniaManasteelBlock, frManasteel * 1296, 500, botaniaManasteelBlock );
+mods.tconstruct.Casting.addTableRecipe( botaniaManasteelIngot, frManasteel * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( botaniaManasteelBlock, frManasteel * 1296, null, false, 20);
 
 # Terrasteel
-mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, moltenTerrasteel * 144, 500, botaniaBlockOfTerrasteel );
-mods.tconstruct.Smeltery.addMelting( botaniaBlockOfTerrasteel, moltenTerrasteel * 1296, 500, botaniaBlockOfTerrasteel );
-mods.tconstruct.Casting.addTableRecipe( botaniaTerrasteelIngot, moltenTerrasteel * 144, castIngot, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfTerrasteel, moltenTerrasteel * 1296, null, false, 20);
+mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, frTerrasteel * 144, 500, botaniaTerrasteelBlock );
+mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelBlock, frTerrasteel * 1296, 500, botaniaTerrasteelBlock );
+mods.tconstruct.Casting.addTableRecipe( botaniaTerrasteelIngot, frTerrasteel * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( botaniaTerrasteelBlock, frTerrasteel * 1296, null, false, 20);
 
 # Elementium
-mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, moltenElementium * 144, 500, botaniaBlockOfElementium );
-mods.tconstruct.Smeltery.addMelting( botaniaBlockOfElementium, moltenElementium * 1296, 500, botaniaBlockOfElementium );
-mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, moltenElementium * 144, castIngot, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( botaniaBlockOfElementium, moltenElementium * 1296, null, false, 20);
+mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, frElementium * 144, 500, botaniaElementiumBlock );
+mods.tconstruct.Smeltery.addMelting( botaniaElementiumBlock, frElementium * 1296, 500, botaniaElementiumBlock );
+mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, frElementium * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( botaniaElementiumBlock, frElementium * 1296, null, false, 20);
 
 # Wrought Iron
-mods.tconstruct.Smeltery.addAlloy( moltenWroughtIron * 144, [ moltenIron * 144, moltenGlass * 1296 ] ); /* Funktioniert noch nicht */
-mods.tconstruct.Smeltery.addMelting( gardenWroughtIronNugget, moltenWroughtIron * 16, 500, gardenBlockOfWroughtIron );
-mods.tconstruct.Smeltery.addMelting( gardenWroughtIronIngot, moltenWroughtIron * 144, 500, gardenBlockOfWroughtIron );
-mods.tconstruct.Smeltery.addMelting( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, 500, gardenBlockOfWroughtIron );
-mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronNugget, moltenWroughtIron * 16, castNugget, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( gardenWroughtIronIngot, moltenWroughtIron * 144, castIngot, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( gardenBlockOfWroughtIron, moltenWroughtIron * 1296, null, false, 20);
+mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronNugget, frWroughtIron * 16, 500, gardStuffWroughtIronBlock );
+mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronIngot, frWroughtIron * 144, 500, gardStuffWroughtIronBlock );
+mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronBlock, frWroughtIron * 1296, 500, gardStuffWroughtIronBlock );
+mods.tconstruct.Casting.addTableRecipe( gardStuffWroughtIronNugget, frWroughtIron * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( gardStuffWroughtIronIngot, frWroughtIron * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( gardStuffWroughtIronBlock, frWroughtIron * 1296, null, false, 20);
 
 # Fluxed Electrum
-#mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, 500, arsenalBlockOfFluxedElectrum );
-#mods.tconstruct.Smeltery.addMelting( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, 500, arsenalBlockOfFluxedElectrum );
-#mods.tconstruct.Smeltery.addMelting( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, 500, arsenalBlockOfFluxedElectrum );
-#mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumNugget, moltenFluxedElectrum * 16, castNugget, false, 20 );
-#mods.tconstruct.Casting.addTableRecipe( arsenalFluxedElectrumIngot, moltenFluxedElectrum * 144, castIngot, false, 20 );
-#mods.tconstruct.Casting.addBasinRecipe( arsenalBlockOfFluxedElectrum, moltenFluxedElectrum * 1296, null, false, 20);
+#mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, 500, rsArsenalFluxedElectrumBlock );
+#mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, 500, rsArsenalFluxedElectrumBlock );
+#mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, 500, rsArsenalFluxedElectrumBlock );
+#mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, tConstructNuggetCast, false, 20 );
+#mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, tConstructIngotCast, false, 20 );
+#mods.tconstruct.Casting.addBasinRecipe( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, null, false, 20);
 
 # Iron Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermalIronNugget );
-#mods.tconstruct.Casting.addTableRecipe( tinkersIronNugget, moltenIron * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermFoundIronNugget );
+#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[0], frIron * 16, tConstructNuggetCast, false, 20 );
 
 # Copper Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermalCopperNugget );
-#mods.tconstruct.Casting.addTableRecipe( tinkersCopperNugget, moltenCopper * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermFoundCopperNugget );
+#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[1], frCopper * 16, tConstructNuggetCast, false, 20 );
 
 # Tin Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermalTinNugget );
-#mods.tconstruct.Casting.addTableRecipe( tinkersTinNugget, moltenTin * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermFoundTinNugget );
+#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[2], frTin * 16, tConstructNuggetCast, false, 20 );
 
 # Bronze Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermalBronzeNugget );
-#mods.tconstruct.Casting.addTableRecipe( tinkersBronzeNugget, moltenBronze * 16, castNugget, false, 20 );
+#mods.tconstruct.Casting.removeTableRecipe( thermFoundBronzeNugget );
+#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[9], frBronze * 16, tConstructNuggetCast, false, 20 );
 
 # Redstone Block
-mods.tconstruct.Casting.addBasinRecipe( vanillaBlockOfRedstone, moltenRedstone * 1296, null, false, 20);
+mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 1296, null, false, 20);
