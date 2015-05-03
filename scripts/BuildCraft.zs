@@ -58,6 +58,13 @@ val ingotAluminum      = <TConstruct:materials:11>;
 val TFPyrotheum        = <ThermalFoundation:material:512>;
 val vanillaStone       = <minecraft:stone>;
 
+val bcGear = [
+  <BuildCraft|Core:goldGearItem>,
+  <BuildCraft|Core:ironGearItem>,
+  <BuildCraft|Core:woodenGearItem>,
+  <BuildCraft|Core:stoneGearItem>,
+] as IItemStack[];
+
 ########################################
 # Ore Dictionary
 ########################################
@@ -71,6 +78,14 @@ val odFluxCrystal	= <ore:gemCrystalFlux>;
 # Laser
 recipes.remove( bcLaser );
 recipes.addShaped( bcLaser, [ [ bcaKineticBuffer, extraObsiGlass, extraObsiGlass ], [ odFluxCrystal, botaniaManaLens, extraObsiGlass ], [ bcaKineticBuffer, extraObsiGlass, extraObsiGlass ] ] );
+
+########################################
+# Remove Gear Recipies
+########################################
+for i, gear in bcGear
+{
+  recipes.remove( gear );
+}
 
 ########################################
 # AE2 Inscriber

@@ -57,12 +57,38 @@ val thermalFoundationIngots = [
   <ThermalFoundation:material:76>,
 ] as IItemStack[];
 
+val thermalFoundationGears = [
+  <ThermalFoundation:material:12>,
+  <ThermalFoundation:material:13>,
+  <ThermalFoundation:material:128>,
+  <ThermalFoundation:material:129>,
+  <ThermalFoundation:material:130>,
+  <ThermalFoundation:material:131>,
+  <ThermalFoundation:material:132>,
+  <ThermalFoundation:material:133>,
+  <ThermalFoundation:material:134>,
+  <ThermalFoundation:material:135>,
+  <ThermalFoundation:material:136>,
+  <ThermalFoundation:material:137>,
+  <ThermalFoundation:material:138>,
+  <ThermalFoundation:material:139>,
+  <ThermalFoundation:material:140>,
+] as IItemStack[];
+
 ########################################
 # Remove Ingot to Nugget Crafting
 ########################################
 for i, nugget in thermalFoundationNuggets
 {
   recipes.remove( nugget );
+}
+
+########################################
+# Remove Gears Crafting
+########################################
+for i, gear in thermalFoundationGears
+{
+  recipes.remove( gear );
 }
 
 ########################################

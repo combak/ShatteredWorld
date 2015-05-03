@@ -36,12 +36,27 @@ val enderIOIngots = [
 ] as IItemStack[];
 
 ########################################
+# Ore Dictionary
+########################################
+
+val cobblestone = <ore:cobblestone>;
+
+########################################
 # Remove Ingot to Nugget Crafting
 ########################################
 for i, nugget in enderIONuggets
 {
   recipes.remove( nugget );
 }
+
+########################################
+# Changed Gear Crafting
+########################################
+recipes.remove( <EnderIO:itemMachinePart:1> );
+recipes.addShaped(<EnderIO:itemMachinePart:1>,
+ [[null, cobblestone, null],
+  [cobblestone, <Forestday:fd.item.gear.wood:1>, cobblestone],
+  [null, cobblestone, null]]);
 
 ########################################
 # Remove Nugget/Block to Ingot Crafting
