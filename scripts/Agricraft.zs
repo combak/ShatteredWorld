@@ -139,20 +139,20 @@ val flowerSeeds = [
 val ressourceseeds  = [
 /* Agricraft Index 0 - 4 */
 <AgriCraft:seedSilverweed>,
-<Agricraft:seedJaslumine>,
-<Agricraft:seedNiccissus>,
-<Agricraft:seedPlatious>,
-<Agricraft:seedFerranium>,
+<AgriCraft:seedJaslumine>,
+<AgriCraft:seedNiccissus>,
+<AgriCraft:seedPlatiolus>,
+<AgriCraft:seedFerranium>,
 /* 5 - 9*/
-<Agricraft:seedDiamahlia>,
-<Agricraft:seedLapender>,
-<Agricraft:seedPlombean>,
-<Agricraft:seedPetinia>,
-<Agricraft:seedCuprosia>,
+<AgriCraft:seedDiamahlia>,
+<AgriCraft:seedLapender>,
+<AgriCraft:seedPlombean>,
+<AgriCraft:seedPetinia>,
+<AgriCraft:seedCuprosia>,
 /* 10 - 12*/
-<Agricraft:seedRedstodendron>,
-<Agricraft:seedEmeryllis>,
-<Agricraft:seedAurigold>,
+<AgriCraft:seedRedstodendron>,
+<AgriCraft:seedEmeryllis>,
+<AgriCraft:seedAurigold>,
 ] as IItemStack[];
 
 ########################################
