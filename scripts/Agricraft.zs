@@ -136,6 +136,25 @@ val flowerSeeds = [
   <AgriCraft:seedBotaniaBrown>	
 ] as IItemStack[];
 
+val ressourceseeds  = [
+/* Agricraft Index 0 - 4 */
+<AgriCraft:seedSilverweed>,
+<Agricraft:seedJaslumine>,
+<Agricraft:seedNiccissus>,
+<Agricraft:seedPlatious>,
+<Agricraft:seedFerranium>,
+/* 5 - 9*/
+<Agricraft:seedDiamahlia>,
+<Agricraft:seedLapender>,
+<Agricraft:seedPlombean>,
+<Agricraft:seedPetinia>,
+<Agricraft:seedCuprosia>,
+/* 10 - 12*/
+<Agricraft:seedRedstodendron>,
+<Agricraft:seedEmeryllis>,
+<Agricraft:seedAurigold>,
+] as IItemStack[];
+
 ########################################
 # Blocks
 ########################################
@@ -156,5 +175,8 @@ for i, flower in flowerSeeds
 {
   Soil.set(flower, gardenSoil);
 }
-
+for i, seed in ressourceseeds 
+{
+  Soil.set(seed, tilledGardenSoil);
+}
 
