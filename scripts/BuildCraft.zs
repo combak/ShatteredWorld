@@ -1,4 +1,5 @@
 import mods.buildcraft.AssemblyTable;
+import minetweaker.item.IItemStack;
 
 ########################################
 # Blocks
