@@ -33,6 +33,9 @@ val rsArsenalFluxedElectrumBlock = <RedstoneArsenal:Storage>;
 # Vanilla
 val vanillaRedstoneBlock = <minecraft:redstone_block>;
 
+# EnderIO
+val enderioPulsatingIronBlock = <EnderIO:blockIngotStorage:5>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -89,6 +92,10 @@ val gardStuffWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
 val rsArsenalFluxedElectrumNugget	= <RedstoneArsenal:material:64>;
 val rsArsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
 
+# EnderIO
+val enderioPulsatingIronNugget	= <EnderIO:itemMaterial:3>;
+val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
+
 ########################################################################################################################
 # Fluid Registry
 ########################################################################################################################
@@ -103,6 +110,7 @@ val frElementium	= <liquid:molten_elementium>;
 val frWroughtIron	= <liquid:molten_wrought_iron>;
 val frFluxedElectrum	= <liquid:molten_fluxed_electrum>;
 val frRedstone		= <liquid:redstone.molten>;
+val frPulsatingIron	= <liquid:molten_pulsating_iron>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -182,3 +190,11 @@ mods.tconstruct.Casting.addBasinRecipe( gardStuffWroughtIronBlock, frWroughtIron
 
 # Redstone Block
 mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 1296, null, false, 20);
+
+# Pulsating Iron
+mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronNugget, frPulsatingIron * 16, 500, enderioPulsatingIronBlock );
+mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronIngot, frPulsatingIron * 144, 500, enderioPulsatingIronBlock );
+mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronBlock, frPulsatingIron * 1296, 500, enderioPulsatingIronBlock );
+mods.tconstruct.Casting.addTableRecipe( enderioPulsatingIronNugget, frPulsatingIron * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( enderioPulsatingIronIngot, frPulsatingIron * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( enderioPulsatingIronBlock, frPulsatingIron * 1296, null, false, 20);
