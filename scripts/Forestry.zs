@@ -148,14 +148,6 @@ val forestryIngot = [
 # Custom Crafting Recipes - Shaped
 ########################################################################################################################
 
-# 1 Log = 2 Planks
-for i, log in forestryLogs
-{
-  var plank = forestryPlanks[ i ];
-  recipes.remove( plank );
-  recipes.addShapeless( plank * 2, [ log ] );
-}
-
 # Remove Nugget/Block to Ingot Crafting
 for i, ingot in forestryIngot
 {
@@ -166,4 +158,16 @@ for i, ingot in forestryIngot
 for i, block in forestryBlockOf
 {
   recipes.remove( block );
+}
+
+########################################################################################################################
+# Custom Crafting Recipes - Shapeless
+########################################################################################################################
+
+# 1 Log = 2 Planks
+for i, log in forestryLogs
+{
+  var plank = forestryPlanks[ i ];
+  recipes.remove( plank );
+  recipes.addShapeless( plank * 2, [ log ] );
 }
