@@ -1,0 +1,93 @@
+- 1.7.10_AM2-1.4.0.008.jar
+- ae2stuff-mc1710-0.1.7.17.jar
+- AgriCraft-1.7.10-1.3.1.jar
+- AnimationAPI-1.7.10-1.2.4.jar
+- AppleCore-mc1.7.10-1.1.0.jar
+- appliedenergistics2-rv2-beta-31.jar
+- Automagy-1.7.10-0.22.2.jar
+- autopackager-1.5.3.jar
+- bdlib-mc1710-1.7.0.70.jar
+- BiblioCraft[v1.10.2][MC1.7.10].jar
+- binnie-mods-2.0-pre8.jar
+- BloodMagic-1.7.10-1.3.1-7.jar
+- Botania r1.6-174.jar
+- buildcraft-6.4.12.jar
+- BuildcraftAdditions-1.7.10-2.1.2.jar
+- buildcraft-compat-6.4.2.jar
+- Carpenter's Blocks v3.3.6 - MC 1.7.10.jar
+- Chisel2-2.3.10.37.jar
+- CodeChickenCore-1.7.10-1.0.4.35-universal.jar
+- CoFHCore-[1.7.10]3.0.2-262.jar
+- compactmachines-1.7.10-1.18.jar
+- CookieCore-1.7.10-1.3.1-7.jar
+- customitems-1.0.9_beta_1.7.10.jar
+- CustomMainMenu-MC1.7.10-1.4.jar
+- dimensional-anchor-59.0.2.jar
+- Draconic-Evolution-1.7.10-v1.0.1-RC-5.jar
+- Enchiridion-1.7.X-1.2b.jar
+- EnderIO-1.7.10-2.2.8.367.jar
+- EnderTech-1.7.10-0.3.2.375.jar
+- Eureka-1.7.10-3.0.1.jar
+- Ex-Astris-MC1.7.10-1.16-31.jar
+- Ex-Nihilo-1.38-36.jar
+- ExtraCells-1.7.10-2.2.68bNIGHTLY.jar
+- extrautilities-1.2.4a.jar
+- fastcraft-1.21.jar
+- Forbidden Magic-1.7.10-0.562.jar
+- Forest-Day-1.4.0i.jar
+- forestry_1.7.10-3.5.4.13.jar
+- forgeessentials-1.7.10-1.4.0-beta3-client.jar
+- FWG-1.0.3.jar
+- GardenStuff-1.7.10-1.6.1.jar
+- generators-mc1710-0.9.12.64.jar
+- HardcoreDarkness-1.4.jar
+- HQM-The Journey (4.2.1).jar
+- IguanaTinkerTweaks-1.7.10-2.1.4.jar
+- immibis-core-59.0.8.jar
+- INpureCore-[1.7.10]1.0.0B9-54.jar
+- InventoryTweaks-1.58-147.jar
+- ironchest-1.7.10-6.0.62.742-universal.jar
+- LycanitesMobsComplete 1.10.13.2 [1.7.10].jar
+- magicbees-1.7.10-2.2.3.jar
+- Magistics-1.7.10-0.7.6.jar
+- Mantle-1.7.10-0.3.2.jar
+- MineTweaker3-1.7.10-3.0.9C.jar
+- MineTweakerRecipeMaker-1.7.10-1.1.0.11.jar
+- MobiusCore-1.2.5_1.7.10.jar
+- ModTweaker 2-0.8.1.jar
+- natura-1.7.10-2.2.0.1.jar
+- neiaddons-mc1710-1.12.5.17.jar
+- NEIIntegration-MC1.7.10-1.0.7.jar
+- NetherOres-[1.7.10]2.3.0-12.jar
+- NotEnoughItems-1.7.10-1.0.4.95-universal.jar
+- NotEnoughKeys-1.7.10-1.0.0b29.jar
+- NotEnoughResources-1.7.10-0.1.0.95.jar
+- OpenBlocks-1.7.10-1.4.jar
+- OpenModsLib-1.7.10-0.7.jar
+- Opis-1.2.5_1.7.10.jar
+- Pam's HarvestCraft 1.7.10h.jar
+- ProjectRed-1.7.10-4.5.15.75-Base.jar
+- ProjectRed-1.7.10-4.5.15.75-Compat.jar
+- ProjectRed-1.7.10-4.5.15.75-Integration.jar
+- ProjectRed-1.7.10-4.5.15.75-Lighting.jar
+- RedstoneArsenal-[1.7.10]1.1.0RC7-74.jar
+- ResourceLoader-1.2.jar
+- SimplyJetpacks-MC1.7.10-1.4.1.jar
+- SpiceOfLife-mc1.7.10-1.2.3.jar
+- StorageDrawers-1.7.10-1.3.7.jar
+- TConstruct-1.7.10-1.8.4a.jar
+- Thaumcraft-1.7.10-4.2.3.5.jar
+- thaumcraftneiplugin-1.7.10-1.7.jar
+- ThermalDynamics-[1.7.10]1.0.0-122.jar
+- ThermalExpansion-[1.7.10]4.0.1-182.jar
+- ThermalFoundation-[1.7.10]1.0.0-81.jar
+- TiCTooltips-mc1.7.10-1.2.3.jar
+- TMechworks-1.7.10-0.2.14.100.jar
+- TravellersGear-1.7.10-1.15.7.jar
+- TSteelworks-1.7.10-1.1.0-13.jar
+- ttCore-MC1.7.10-0.1.0-67.jar
+- Waila-1.5.10_1.7.10.jar
+- WailaHarvestability-mc1.7.x-1.1.2.jar
+- WAILAPlugins-MC1.7.10-0.0.1-14.jar
+- WitchingGadgets-1.7.10-1.1.5.jar
+- zz-backpacks 1.7.10 - 3.0.3.jar
