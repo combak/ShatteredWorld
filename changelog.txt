@@ -1,7 +1,22 @@
 ============================================================
 Version 0.5.4
 ============================================================
+- Fixed Mana Spreader Recipie & Code Style
+- Raised Tank Capacity (EnderTech)
+- Whitelisted Forbidden Magic Tools and Weapons (Iquana Tweaks for Tinkers)
+- Added Soil for Res. Crops
 - Changed / Removed Gear Recipes
+- Smelting Pulsating Iron + Nugget, Ingot & Block Cast
+- Smelting Vibrant Alloy + Nugget, Ingot & Block Cast
+- Disabled Fire & Nitor as Crucible Heat Source
+- 1 Log = 2 Planks (Extra Trees)
+
+Mod Updates
+- Applied energistics2 rv2-beta-31 to rv2-stable-1
+- CodeChickenCore 1.0.4.35 to 1.0.6.43
+- NEI Addons 1.12.5.17 to 1.12.7.21
+- NEI Integration 1.0.7 to 
+- NotEnoughItems 1.0.4.95 to 1.0.4.106
 
 ============================================================
 Version 0.5.3
