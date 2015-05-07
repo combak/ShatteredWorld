@@ -3,7 +3,7 @@
 - AgriCraft-1.7.10-1.3.1.jar
 - AnimationAPI-1.7.10-1.2.4.jar
 - AppleCore-mc1.7.10-1.1.0.jar
-- appliedenergistics2-rv2-beta-31.jar
+- appliedenergistics2-rv2-stable-1.jar
 - Automagy-1.7.10-0.22.2.jar
 - autopackager-1.5.3.jar
 - bdlib-mc1710-1.7.0.70.jar
@@ -16,7 +16,7 @@
 - buildcraft-compat-6.4.2.jar
 - Carpenter's Blocks v3.3.6 - MC 1.7.10.jar
 - Chisel2-2.3.10.37.jar
-- CodeChickenCore-1.7.10-1.0.4.35-universal.jar
+- CodeChickenCore-1.7.10-1.0.6.43-universal.jar
 - CoFHCore-[1.7.10]3.0.2-262.jar
 - compactmachines-1.7.10-1.18.jar
 - CookieCore-1.7.10-1.3.1-7.jar
@@ -56,10 +56,10 @@
 - MobiusCore-1.2.5_1.7.10.jar
 - ModTweaker 2-0.8.1.jar
 - natura-1.7.10-2.2.0.1.jar
-- neiaddons-mc1710-1.12.5.17.jar
-- NEIIntegration-MC1.7.10-1.0.7.jar
+- neiaddons-mc1710-1.12.7.21.jar
+- NEIIntegration-MC1.7.10-1.0.9.jar
 - NetherOres-[1.7.10]2.3.0-12.jar
-- NotEnoughItems-1.7.10-1.0.4.95-universal.jar
+- NotEnoughItems-1.7.10-1.0.4.106-universal.jar
 - NotEnoughKeys-1.7.10-1.0.0b29.jar
 - NotEnoughResources-1.7.10-0.1.0.95.jar
 - OpenBlocks-1.7.10-1.4.jar
