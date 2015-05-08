@@ -1,237 +1,222 @@
-########################################
+########################################################################################################################
 # Items
-########################################
+########################################################################################################################
 
-# Equipment
-val bakeware = <harvestcraft:bakewareItem>;
+val harvCraftBakeware = <harvestcraft:bakewareItem>;
+val harvCraftStuffedeggplant = <harvestcraft:stuffedeggplantItem>;
 
-# Food
-val stuffedeggplant = <harvestcraft:stuffedeggplantItem>;
+val harvCraftEggplant 	= <harvestcraft:eggplantItem>;
+val harvCraftOnion 	= <harvestcraft:onionItem>;
+val harvCraftBellpepper	= <harvestcraft:bellpepperItem>;
+val harvCraftButter	= <harvestcraft:butterItem>;
 
-# Ingredients
-val eggplant 	= <harvestcraft:eggplantItem>;
-val onion 	= <harvestcraft:onionItem>;
-val bellpepper	= <harvestcraft:bellpepperItem>;
-val butter	= <harvestcraft:butterItem>;
-
-########################################
+########################################################################################################################
 # Ore Dictionary
-########################################
+########################################################################################################################
 
 val odEgg = <ore:listAllegg>;
+val odSpagetti = <ore:foodSpagetti>;
+val odSoup = <ore:foodSoup>;
+val odBurger = <ore:foodBurger>;
+val odSmoothie = <ore:foodSmoothie>;
+val odYogurt = <ore:foodYogurt>;
+val odSandwich = <ore:foodSandwich>;
+val odSalad = <ore:foodSalad>;
+val odJuice = <ore:listAlljuice>;
+val odSoda = <ore:foodSoda>;
+val odIceCream = <ore:listAllicecream>;
+val odJelly = <ore:listAlljelly>;
 
-########################################
-# Adding to Ore Dictionary
-########################################
+########################################################################################################################
+# Ore Dictionary Changes
+########################################################################################################################
 
 # Spagetti
-var spagetti = <ore:foodSpagetti>;
-
-spagetti.add( <harvestcraft:spagettiItem> );
-spagetti.add( <harvestcraft:spagettiandmeatballsItem> );
+odSpagetti.add( <harvestcraft:spagettiItem> );
+odSpagetti.add( <harvestcraft:spagettiandmeatballsItem> );
 
 # Soup
-var soup = <ore:foodSoup>;
-
-soup.add( <harvestcraft:pumpkinsoupItem> );
-soup.add( <harvestcraft:carrotsoupItem> );
-soup.add( <harvestcraft:potatosoupItem> );
-soup.add( <harvestcraft:chickennoodlesoupItem> );
-soup.add( <harvestcraft:spidereyesoupItem> );
-soup.add( <harvestcraft:vegetablesoupItem> );
-soup.add( <harvestcraft:tomatosoupItem> );
-soup.add( <harvestcraft:onionsoupItem> );
-soup.add( <harvestcraft:cucumbersoupItem> );
-soup.add( <harvestcraft:ricesoupItem> );
-soup.add( <harvestcraft:beetsoupItem> );
-soup.add( <harvestcraft:creamedbroccolisoupItem> );
-soup.add( <harvestcraft:splitpeasoupItem> );
-soup.add( <harvestcraft:turnipsoupItem> );
-soup.add( <harvestcraft:celerysoupItem> );
-soup.add( <harvestcraft:asparagussoupItem> );
-soup.add( <harvestcraft:creamofavocadosoupItem> );
-soup.add( <harvestcraft:cactussoupItem> );
-soup.add( <harvestcraft:seedsoupItem> );
-soup.add( <harvestcraft:gardensoupItem> );
-soup.add( <harvestcraft:oldworldveggiesoupItem> );
-soup.add( <harvestcraft:lambbarleysoupItem> );
-soup.add( <harvestcraft:leekbaconsoupItem> );
+odSoup.add( <harvestcraft:pumpkinsoupItem> );
+odSoup.add( <harvestcraft:carrotsoupItem> );
+odSoup.add( <harvestcraft:potatosoupItem> );
+odSoup.add( <harvestcraft:chickennoodlesoupItem> );
+odSoup.add( <harvestcraft:spidereyesoupItem> );
+odSoup.add( <harvestcraft:vegetablesoupItem> );
+odSoup.add( <harvestcraft:tomatosoupItem> );
+odSoup.add( <harvestcraft:onionsoupItem> );
+odSoup.add( <harvestcraft:cucumbersoupItem> );
+odSoup.add( <harvestcraft:ricesoupItem> );
+odSoup.add( <harvestcraft:beetsoupItem> );
+odSoup.add( <harvestcraft:creamedbroccolisoupItem> );
+odSoup.add( <harvestcraft:splitpeasoupItem> );
+odSoup.add( <harvestcraft:turnipsoupItem> );
+odSoup.add( <harvestcraft:celerysoupItem> );
+odSoup.add( <harvestcraft:asparagussoupItem> );
+odSoup.add( <harvestcraft:creamofavocadosoupItem> );
+odSoup.add( <harvestcraft:cactussoupItem> );
+odSoup.add( <harvestcraft:seedsoupItem> );
+odSoup.add( <harvestcraft:gardensoupItem> );
+odSoup.add( <harvestcraft:oldworldveggiesoupItem> );
+odSoup.add( <harvestcraft:lambbarleysoupItem> );
+odSoup.add( <harvestcraft:leekbaconsoupItem> );
 
 # Burger
-var burger = <ore:foodBurger>;
-
-burger.add( <harvestcraft:hamburgerItem> );
-burger.add( <harvestcraft:cheeseburgerItem> );
-burger.add( <harvestcraft:baconcheeseburgerItem> );
-burger.add( <harvestcraft:deluxecheeseburgerItem> );
-burger.add( <harvestcraft:delightedmealItem> );
-burger.add( <harvestcraft:baconmushroomburgerItem> );
-burger.add( <harvestcraft:chickensandwichItem> );
-burger.add( <harvestcraft:fishsandwichItem> );
-burger.add( <harvestcraft:leafychickensandwichItem> );
-burger.add( <harvestcraft:leafyfishsandwichItem> );
-burger.add( <harvestcraft:bltItem> );
+odBurger.add( <harvestcraft:hamburgerItem> );
+odBurger.add( <harvestcraft:cheeseburgerItem> );
+odBurger.add( <harvestcraft:baconcheeseburgerItem> );
+odBurger.add( <harvestcraft:deluxecheeseburgerItem> );
+odBurger.add( <harvestcraft:delightedmealItem> );
+odBurger.add( <harvestcraft:baconmushroomburgerItem> );
+odBurger.add( <harvestcraft:chickensandwichItem> );
+odBurger.add( <harvestcraft:fishsandwichItem> );
+odBurger.add( <harvestcraft:leafychickensandwichItem> );
+odBurger.add( <harvestcraft:leafyfishsandwichItem> );
+odBurger.add( <harvestcraft:bltItem> );
 
 # Smoothie
-var smoothie = <ore:foodSmoothie>;
-
-smoothie.add( <harvestcraft:melonsmoothieItem> );
-smoothie.add( <harvestcraft:strawberrysmoothieItem> );
-smoothie.add( <harvestcraft:lemonsmoothieItem> );
-smoothie.add( <harvestcraft:blueberrysmoothieItem> );
-smoothie.add( <harvestcraft:cherrysmoothieItem> );
-smoothie.add( <harvestcraft:papayasmoothieItem> );
-smoothie.add( <harvestcraft:starfruitsmoothieItem> );
-smoothie.add( <harvestcraft:bananasmoothieItem> );
-smoothie.add( <harvestcraft:orangesmoothieItem> );
-smoothie.add( <harvestcraft:peachsmoothieItem> );
-smoothie.add( <harvestcraft:limesmoothieItem> );
-smoothie.add( <harvestcraft:mangosmoothieItem> );
-smoothie.add( <harvestcraft:pomegranatesmoothieItem> );
-smoothie.add( <harvestcraft:blackberrysmoothieItem> );
-smoothie.add( <harvestcraft:raspberrysmoothieItem> );
-smoothie.add( <harvestcraft:kiwismoothieItem> );
-smoothie.add( <harvestcraft:apricotsmoothieItem> );
-smoothie.add( <harvestcraft:figsmoothieItem> );
-smoothie.add( <harvestcraft:grapefruitsmoothieItem> );
-smoothie.add( <harvestcraft:persimmonsmoothieItem> );
+odSmoothie.add( <harvestcraft:melonsmoothieItem> );
+odSmoothie.add( <harvestcraft:strawberrysmoothieItem> );
+odSmoothie.add( <harvestcraft:lemonsmoothieItem> );
+odSmoothie.add( <harvestcraft:blueberrysmoothieItem> );
+odSmoothie.add( <harvestcraft:cherrysmoothieItem> );
+odSmoothie.add( <harvestcraft:papayasmoothieItem> );
+odSmoothie.add( <harvestcraft:starfruitsmoothieItem> );
+odSmoothie.add( <harvestcraft:bananasmoothieItem> );
+odSmoothie.add( <harvestcraft:orangesmoothieItem> );
+odSmoothie.add( <harvestcraft:peachsmoothieItem> );
+odSmoothie.add( <harvestcraft:limesmoothieItem> );
+odSmoothie.add( <harvestcraft:mangosmoothieItem> );
+odSmoothie.add( <harvestcraft:pomegranatesmoothieItem> );
+odSmoothie.add( <harvestcraft:blackberrysmoothieItem> );
+odSmoothie.add( <harvestcraft:raspberrysmoothieItem> );
+odSmoothie.add( <harvestcraft:kiwismoothieItem> );
+odSmoothie.add( <harvestcraft:apricotsmoothieItem> );
+odSmoothie.add( <harvestcraft:figsmoothieItem> );
+odSmoothie.add( <harvestcraft:grapefruitsmoothieItem> );
+odSmoothie.add( <harvestcraft:persimmonsmoothieItem> );
 
 # Yogurt
-var yogurt = <ore:foodYogurt>;
-
-yogurt.add( <harvestcraft:pineappleyogurtItem> );
-yogurt.add( <harvestcraft:papayayogurtItem> );
-yogurt.add( <harvestcraft:starfruityogurtItem> );
-yogurt.add( <harvestcraft:pearyogurtItem> );
-yogurt.add( <harvestcraft:plumyogurtItem> );
-yogurt.add( <harvestcraft:bananayogurtItem> );
-yogurt.add( <harvestcraft:coconutyogurtItem> );
-yogurt.add( <harvestcraft:orangeyogurtItem> );
-yogurt.add( <harvestcraft:peachyogurtItem> );
-yogurt.add( <harvestcraft:limeyogurtItem> );
-yogurt.add( <harvestcraft:mangoyogurtItem> );
-yogurt.add( <harvestcraft:pomegranateyogurtItem> );
-yogurt.add( <harvestcraft:vanillayogurtItem> );
-yogurt.add( <harvestcraft:blueberryyogurtItem> );
-yogurt.add( <harvestcraft:lemonyogurtItem> );
-yogurt.add( <harvestcraft:cherryyogurtItem> );
-yogurt.add( <harvestcraft:strawberryyogurtItem> );
-yogurt.add( <harvestcraft:grapeyogurtItem> );
-yogurt.add( <harvestcraft:chocolateyogurtItem> );
-yogurt.add( <harvestcraft:blackberryyogurtItem> );
-yogurt.add( <harvestcraft:pumpkinyogurtItem> );
-yogurt.add( <harvestcraft:raspberryyogurtItem> );
-yogurt.add( <harvestcraft:melonyogurtItem> );
-yogurt.add( <harvestcraft:kiwiyogurtItem> );
-yogurt.add( <harvestcraft:appleyogurtItem> );
-yogurt.add( <harvestcraft:apricotyogurtItem> );
-yogurt.add( <harvestcraft:figyogurtItem> );
-yogurt.add( <harvestcraft:grapefruityogurtItem> );
-yogurt.add( <harvestcraft:persimmonyogurtItem> );
-yogurt.add( <harvestcraft:plainyogurtItem> );
+odYogurt.add( <harvestcraft:pineappleyogurtItem> );
+odYogurt.add( <harvestcraft:papayayogurtItem> );
+odYogurt.add( <harvestcraft:starfruityogurtItem> );
+odYogurt.add( <harvestcraft:pearyogurtItem> );
+odYogurt.add( <harvestcraft:plumyogurtItem> );
+odYogurt.add( <harvestcraft:bananayogurtItem> );
+odYogurt.add( <harvestcraft:coconutyogurtItem> );
+odYogurt.add( <harvestcraft:orangeyogurtItem> );
+odYogurt.add( <harvestcraft:peachyogurtItem> );
+odYogurt.add( <harvestcraft:limeyogurtItem> );
+odYogurt.add( <harvestcraft:mangoyogurtItem> );
+odYogurt.add( <harvestcraft:pomegranateyogurtItem> );
+odYogurt.add( <harvestcraft:vanillayogurtItem> );
+odYogurt.add( <harvestcraft:blueberryyogurtItem> );
+odYogurt.add( <harvestcraft:lemonyogurtItem> );
+odYogurt.add( <harvestcraft:cherryyogurtItem> );
+odYogurt.add( <harvestcraft:strawberryyogurtItem> );
+odYogurt.add( <harvestcraft:grapeyogurtItem> );
+odYogurt.add( <harvestcraft:chocolateyogurtItem> );
+odYogurt.add( <harvestcraft:blackberryyogurtItem> );
+odYogurt.add( <harvestcraft:pumpkinyogurtItem> );
+odYogurt.add( <harvestcraft:raspberryyogurtItem> );
+odYogurt.add( <harvestcraft:melonyogurtItem> );
+odYogurt.add( <harvestcraft:kiwiyogurtItem> );
+odYogurt.add( <harvestcraft:appleyogurtItem> );
+odYogurt.add( <harvestcraft:apricotyogurtItem> );
+odYogurt.add( <harvestcraft:figyogurtItem> );
+odYogurt.add( <harvestcraft:grapefruityogurtItem> );
+odYogurt.add( <harvestcraft:persimmonyogurtItem> );
+odYogurt.add( <harvestcraft:plainyogurtItem> );
 
 # Sandwich
-var sandwich = <ore:foodSandwich>;
-
-sandwich.add( <harvestcraft:applejellysandwichItem> );
-sandwich.add( <harvestcraft:blackberryjellysandwichItem> );
-sandwich.add( <harvestcraft:blueberryjellysandwichItem> );
-sandwich.add( <harvestcraft:cherryjellysandwichItem> );
-sandwich.add( <harvestcraft:cranberryjellysandwichItem> );
-sandwich.add( <harvestcraft:kiwijellysandwichItem> );
-sandwich.add( <harvestcraft:lemonjellysandwichItem> );
-sandwich.add( <harvestcraft:limejellysandwichItem> );
-sandwich.add( <harvestcraft:mangojellysandwichItem> );
-sandwich.add( <harvestcraft:orangejellysandwichItem> );
-sandwich.add( <harvestcraft:papayajellysandwichItem> );
-sandwich.add( <harvestcraft:peachjellysandwichItem> );
-sandwich.add( <harvestcraft:pomegranatejellysandwichItem> );
-sandwich.add( <harvestcraft:raspberryjellysandwichItem> );
-sandwich.add( <harvestcraft:starfruitjellysandwichItem> );
-sandwich.add( <harvestcraft:strawberryjellysandwichItem> );
-sandwich.add( <harvestcraft:watermelonjellysandwichItem> );
-sandwich.add( <harvestcraft:apricotjellysandwichItem> );
-sandwich.add( <harvestcraft:figjellysandwichItem> );
-sandwich.add( <harvestcraft:grapefruitjellysandwichItem> );
-sandwich.add( <harvestcraft:persimmonjellysandwichItem> );
-sandwich.add( <harvestcraft:pbandjItem> );
+odSandwich.add( <harvestcraft:applejellysandwichItem> );
+odSandwich.add( <harvestcraft:blackberryjellysandwichItem> );
+odSandwich.add( <harvestcraft:blueberryjellysandwichItem> );
+odSandwich.add( <harvestcraft:cherryjellysandwichItem> );
+odSandwich.add( <harvestcraft:cranberryjellysandwichItem> );
+odSandwich.add( <harvestcraft:kiwijellysandwichItem> );
+odSandwich.add( <harvestcraft:lemonjellysandwichItem> );
+odSandwich.add( <harvestcraft:limejellysandwichItem> );
+odSandwich.add( <harvestcraft:mangojellysandwichItem> );
+odSandwich.add( <harvestcraft:orangejellysandwichItem> );
+odSandwich.add( <harvestcraft:papayajellysandwichItem> );
+odSandwich.add( <harvestcraft:peachjellysandwichItem> );
+odSandwich.add( <harvestcraft:pomegranatejellysandwichItem> );
+odSandwich.add( <harvestcraft:raspberryjellysandwichItem> );
+odSandwich.add( <harvestcraft:starfruitjellysandwichItem> );
+odSandwich.add( <harvestcraft:strawberryjellysandwichItem> );
+odSandwich.add( <harvestcraft:watermelonjellysandwichItem> );
+odSandwich.add( <harvestcraft:apricotjellysandwichItem> );
+odSandwich.add( <harvestcraft:figjellysandwichItem> );
+odSandwich.add( <harvestcraft:grapefruitjellysandwichItem> );
+odSandwich.add( <harvestcraft:persimmonjellysandwichItem> );
+odSandwich.add( <harvestcraft:pbandjItem> );
 
 # Salad
-var salad = <ore:foodSalad>;
-
-salad.add( <harvestcraft:potatosaladItem> );
-salad.add( <harvestcraft:eggsaladItem> );
-salad.add( <harvestcraft:fruitsaladItem> );
-salad.add( <harvestcraft:springsaladItem> );
-salad.add( <harvestcraft:strawberrysaladItem> );
-salad.add( <harvestcraft:grapesaladItem> );
-salad.add( <harvestcraft:cucumbersaladItem> );
-salad.add( <harvestcraft:beetsaladItem> );
-salad.add( <harvestcraft:summerradishsaladItem> );
-salad.add( <harvestcraft:sunflowerbroccolisaladItem> );
-salad.add( <harvestcraft:mixedsaladItem> );
-salad.add( <harvestcraft:citrussaladItem> );
+odSalad.add( <harvestcraft:potatosaladItem> );
+odSalad.add( <harvestcraft:eggsaladItem> );
+odSalad.add( <harvestcraft:fruitsaladItem> );
+odSalad.add( <harvestcraft:springsaladItem> );
+odSalad.add( <harvestcraft:strawberrysaladItem> );
+odSalad.add( <harvestcraft:grapesaladItem> );
+odSalad.add( <harvestcraft:cucumbersaladItem> );
+odSalad.add( <harvestcraft:beetsaladItem> );
+odSalad.add( <harvestcraft:summerradishsaladItem> );
+odSalad.add( <harvestcraft:sunflowerbroccolisaladItem> );
+odSalad.add( <harvestcraft:mixedsaladItem> );
+odSalad.add( <harvestcraft:citrussaladItem> );
 
 # Juice
-var juice = <ore:listAlljuice>;
-
-juice.add( <harvestcraft:grapefruitjuiceItem> );
+odJuice.add( <harvestcraft:grapefruitjuiceItem> );
 
 # Soda
-var soda = <ore:foodSoda>;
-
-soda.add( <harvestcraft:cherrysodaItem> );
-soda.add( <harvestcraft:colasodaItem> );
-soda.add( <harvestcraft:gingersodaItem> );
-soda.add( <harvestcraft:grapesodaItem> );
-soda.add( <harvestcraft:lemonlimesodaItem> );
-soda.add( <harvestcraft:orangesodaItem> );
-soda.add( <harvestcraft:rootbeersodaItem> );
-soda.add( <harvestcraft:strawberrysodaItem> );
-soda.add( <harvestcraft:grapefruitsodaItem> );
+odSoda.add( <harvestcraft:cherrysodaItem> );
+odSoda.add( <harvestcraft:colasodaItem> );
+odSoda.add( <harvestcraft:gingersodaItem> );
+odSoda.add( <harvestcraft:grapesodaItem> );
+odSoda.add( <harvestcraft:lemonlimesodaItem> );
+odSoda.add( <harvestcraft:orangesodaItem> );
+odSoda.add( <harvestcraft:rootbeersodaItem> );
+odSoda.add( <harvestcraft:strawberrysodaItem> );
+odSoda.add( <harvestcraft:grapefruitsodaItem> );
 
 # Ice Cream
-var ice = <ore:listAllicecream>;
-
-ice.add( <harvestcraft:icecreamItem> );
-ice.add( <harvestcraft:chocolateicecreamItem> );
-ice.add( <harvestcraft:mochaicecreamItem> );
-ice.add( <harvestcraft:bananasplitItem> );
-ice.add( <harvestcraft:caramelicecreamItem> );
-ice.add( <harvestcraft:mintchocolatechipicemcreamItem> );
-ice.add( <harvestcraft:strawberryicecreamItem> );
-ice.add( <harvestcraft:vanillaicecreamItem> );
+odIceCream.add( <harvestcraft:icecreamItem> );
+odIceCream.add( <harvestcraft:chocolateicecreamItem> );
+odIceCream.add( <harvestcraft:mochaicecreamItem> );
+odIceCream.add( <harvestcraft:bananasplitItem> );
+odIceCream.add( <harvestcraft:caramelicecreamItem> );
+odIceCream.add( <harvestcraft:mintchocolatechipicemcreamItem> );
+odIceCream.add( <harvestcraft:strawberryicecreamItem> );
+odIceCream.add( <harvestcraft:vanillaicecreamItem> );
 
 # Jelly
-var jelly = <ore:listAlljelly>;
+odJelly.add( <harvestcraft:grapejellyItem> );
+odJelly.add( <harvestcraft:applejellyItem> );
+odJelly.add( <harvestcraft:blackberryjellyItem> );
+odJelly.add( <harvestcraft:blueberryjellyItem> );
+odJelly.add( <harvestcraft:cherryjellyItem> );
+odJelly.add( <harvestcraft:cranberryjellyItem> );
+odJelly.add( <harvestcraft:kiwijellyItem> );
+odJelly.add( <harvestcraft:lemonjellyItem> );
+odJelly.add( <harvestcraft:limejellyItem> );
+odJelly.add( <harvestcraft:mangojellyItem> );
+odJelly.add( <harvestcraft:orangejellyItem> );
+odJelly.add( <harvestcraft:papayajellyItem> );
+odJelly.add( <harvestcraft:peachjellyItem> );
+odJelly.add( <harvestcraft:pomegranatejellyItem> );
+odJelly.add( <harvestcraft:raspberryjellyItem> );
+odJelly.add( <harvestcraft:starfruitjellyItem> );
+odJelly.add( <harvestcraft:strawberryjellyItem> );
+odJelly.add( <harvestcraft:watermelonjellyItem> );
+odJelly.add( <harvestcraft:apricotjellyItem> );
+odJelly.add( <harvestcraft:figjellyItem> );
+odJelly.add( <harvestcraft:grapefruitjellyItem> );
+odJelly.add( <harvestcraft:persimmonjellyItem> );
 
-jelly.add( <harvestcraft:grapejellyItem> );
-jelly.add( <harvestcraft:applejellyItem> );
-jelly.add( <harvestcraft:blackberryjellyItem> );
-jelly.add( <harvestcraft:blueberryjellyItem> );
-jelly.add( <harvestcraft:cherryjellyItem> );
-jelly.add( <harvestcraft:cranberryjellyItem> );
-jelly.add( <harvestcraft:kiwijellyItem> );
-jelly.add( <harvestcraft:lemonjellyItem> );
-jelly.add( <harvestcraft:limejellyItem> );
-jelly.add( <harvestcraft:mangojellyItem> );
-jelly.add( <harvestcraft:orangejellyItem> );
-jelly.add( <harvestcraft:papayajellyItem> );
-jelly.add( <harvestcraft:peachjellyItem> );
-jelly.add( <harvestcraft:pomegranatejellyItem> );
-jelly.add( <harvestcraft:raspberryjellyItem> );
-jelly.add( <harvestcraft:starfruitjellyItem> );
-jelly.add( <harvestcraft:strawberryjellyItem> );
-jelly.add( <harvestcraft:watermelonjellyItem> );
-jelly.add( <harvestcraft:apricotjellyItem> );
-jelly.add( <harvestcraft:figjellyItem> );
-jelly.add( <harvestcraft:grapefruitjellyItem> );
-jelly.add( <harvestcraft:persimmonjellyItem> );
-
-########################################
-# Cooking
-########################################
+########################################################################################################################
+# Custom Crafting Recipies - Shapeless
+########################################################################################################################
 
 # Stuffed Eggplant Hard Recipie only
-recipes.remove( stuffedeggplant );
-recipes.addShapeless( stuffedeggplant, [ bakeware, eggplant, onion, bellpepper, butter, odEgg ] );
+recipes.remove( harvCraftStuffedeggplant );
+recipes.addShapeless( harvCraftStuffedeggplant, [ harvCraftBakeware, harvCraftEggplant, harvCraftOnion, harvCraftBellpepper, harvCraftButter, odEgg ] );
