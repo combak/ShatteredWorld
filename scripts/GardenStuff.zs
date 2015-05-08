@@ -1,36 +1,34 @@
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val blockOfWroughtIron = <GardenStuff:metal_block>;
+val gardStuffWroughtIronBlock = <GardenStuff:metal_block>;
 
-########################################
+########################################################################################################################
 # Items
-########################################
+########################################################################################################################
 
-val gardenStuffNuggets = [
-  <GardenStuff:iron_nugget>,
-  <GardenStuff:wrought_iron_nugget>
+val gardStuffNuggets = [
+  <GardenStuff:iron_nugget>,		/* 0 - Iron */
+  <GardenStuff:wrought_iron_nugget>	/* 1 - Wrought Iron */
 ] as IItemStack[];
 
-val wroughtIronIngot = <GardenStuff:wrought_iron_ingot>;
+val gardStuffwroughtIronIngot = <GardenStuff:wrought_iron_ingot>;
 
-########################################
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
 # Remove Ingot to Nugget Crafting
-########################################
-for i, nugget in gardenStuffNuggets
+for i, nugget in gardStuffNuggets
 {
   recipes.remove( nugget );
 }
 
-########################################
 # Remove Nugget/Block to Ingot Crafting
-########################################
-recipes.remove( wroughtIronIngot );
+recipes.remove( gardStuffwroughtIronIngot );
 
-########################################
 # Remove Ingot to Block Crafting
-########################################
-recipes.remove( blockOfWroughtIron );
+recipes.remove( gardStuffWroughtIronBlock );
