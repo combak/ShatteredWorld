@@ -1,76 +1,78 @@
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val enderIOBlockOf = [
-  <EnderIO:blockIngotStorage>,
-  <EnderIO:blockIngotStorage:1>,
-  <EnderIO:blockIngotStorage:2>,
-  <EnderIO:blockIngotStorage:3>,
-  <EnderIO:blockIngotStorage:4>,
-  <EnderIO:blockIngotStorage:5>,
-  <EnderIO:blockIngotStorage:6>,
-  <EnderIO:blockIngotStorage:7>
+val enderioBlockOf = [
+  <EnderIO:blockIngotStorage>,		/* 0 - Electrical Steel */
+  <EnderIO:blockIngotStorage:1>,	/* 1 - Energetic Alloy */
+  <EnderIO:blockIngotStorage:2>,	/* 2 - Vibrant Alloy */
+  <EnderIO:blockIngotStorage:3>,	/* 3 - Redstone Alloy */
+  <EnderIO:blockIngotStorage:4>,	/* 4 - Conductive Iron */
+  <EnderIO:blockIngotStorage:5>,	/* 5 - Pulsating Iron */
+  <EnderIO:blockIngotStorage:6>,	/* 6 - Dark Steel */
+  <EnderIO:blockIngotStorage:7>		/* 7 - Soularium */
 ] as IItemStack[];
 
-########################################
+########################################################################################################################
 # Items
-########################################
+########################################################################################################################
 
-val enderIONuggets = [
-  <EnderIO:itemMaterial:3>,
-  <EnderIO:itemMaterial:4>
+val enderioNuggets = [
+  <EnderIO:itemMaterial:3>,	/* 0 - Pulsating Iron */
+  <EnderIO:itemMaterial:4>	/* 1 - Vibrant Alloy */
 ] as IItemStack[];
 
-val enderIOIngots = [
-  <EnderIO:itemAlloy>,
-  <EnderIO:itemAlloy:1>,
-  <EnderIO:itemAlloy:2>,
-  <EnderIO:itemAlloy:3>,
-  <EnderIO:itemAlloy:4>,
-  <EnderIO:itemAlloy:5>,
-  <EnderIO:itemAlloy:6>,
-  <EnderIO:itemAlloy:7>
+val enderioIngots = [
+  <EnderIO:itemAlloy>,		/* 0 - Electrical Steel */
+  <EnderIO:itemAlloy:1>,	/* 1 - Energetic Alloy */
+  <EnderIO:itemAlloy:2>,	/* 2 - Vibrant Alloy */
+  <EnderIO:itemAlloy:3>,	/* 3 - Redstone Alloy */
+  <EnderIO:itemAlloy:4>,	/* 4 - Conductive Iron */
+  <EnderIO:itemAlloy:5>,	/* 5 - Pulsating Iron */
+  <EnderIO:itemAlloy:6>,	/* 6 - Dark Steel */
+  <EnderIO:itemAlloy:7>		/* 7 - Soularium */
 ] as IItemStack[];
 
-########################################
+val enderioBasicGear = <EnderIO:itemMachinePart:1>;
+
+# Forest Day
+val forestDayWoodGear = <Forestday:fd.item.gear.wood:1>;
+
+########################################################################################################################
 # Ore Dictionary
-########################################
+########################################################################################################################
 
-val cobblestone = <ore:cobblestone>;
+val odCobblestone = <ore:cobblestone>;
 
-########################################
-# Remove Ingot to Nugget Crafting
-########################################
-for i, nugget in enderIONuggets
-{
-  recipes.remove( nugget );
-}
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
 
-########################################
-# Changed Gear Crafting
-########################################
-recipes.remove( <EnderIO:itemMachinePart:1> );
-recipes.addShaped(<EnderIO:itemMachinePart:1>,
- [[null, cobblestone, null],
-  [cobblestone, <Forestday:fd.item.gear.wood:1>, cobblestone],
-  [null, cobblestone, null]]);
-
-########################################
 # Remove Nugget/Block to Ingot Crafting
-########################################
-for i, ingot in enderIOIngots
+for i, ingot in enderioIngots
 {
   recipes.remove( ingot );
 }
 
-########################################
 # Remove Ingot to Block Crafting
-########################################
-for i, block in enderIOBlockOf
+for i, block in enderioBlockOf
 {
   recipes.remove( block );
+}
+
+# Changed Gear Crafting
+recipes.remove( enderioBasicGear );
+recipes.addShaped( enderioBasicGear, [ [ null, odCobblestone, null ], [ odCobblestone, forestDayWoodGear, odCobblestone ], [ null, odCobblestone, null ] ]);
+
+########################################################################################################################
+# Custom Crafting Recipies - Shapeless
+########################################################################################################################
+
+# Remove Ingot to Nugget Crafting
+for i, nugget in enderioNuggets
+{
+  recipes.remove( nugget );
 }
 
