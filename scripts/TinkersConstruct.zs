@@ -99,6 +99,9 @@ val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
 val enderioVibrantAlloyNugget	= <EnderIO:itemMaterial:4>;
 val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
 
+# Thaumcraft
+val thaumcraftIronNugget = <Thaumcraft:ItemNugget>;
+
 ########################################################################################################################
 # Fluid Registry
 ########################################################################################################################
@@ -141,6 +144,9 @@ for i, block in tConstructBlockOf
 ########################################################################################################################
 # Machine -  Smeltery
 ########################################################################################################################
+
+# Removed Thaumcraft Iron Nugget
+mods.tconstruct.Casting.removeTableRecipe( thaumcraftIronNugget );
 
 # Manasteel
 mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, frManasteel * 144, 500, botaniaManasteelBlock );
