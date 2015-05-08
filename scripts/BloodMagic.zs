@@ -1,20 +1,22 @@
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
 val bloodMagicAltar	= <AWWayofTime:Altar>;
-val arsmagica2Everstone = <arsmagica2:everstone>;
+val arsMagicaEverstone 	= <arsmagica2:everstone>;
 val thaumcraftFurnace	= <Thaumcraft:blockStoneDevice>;
 
-########################################
+########################################################################################################################
 # Ore Dictionary
-########################################
+########################################################################################################################
 
 val odGoldIngot = <ore:ingotGold>;
 val odManaDia	= <ore:manaDiamond>;
 
-########################################
-# Altar
-########################################
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
+# Alter
 recipes.remove( bloodMagicAltar );
-recipes.addShaped( bloodMagicAltar, [ [ arsmagica2Everstone, null, arsmagica2Everstone ], [ arsmagica2Everstone, thaumcraftFurnace, arsmagica2Everstone ], [ odGoldIngot, odManaDia, odGoldIngot ] ] );
+recipes.addShaped( bloodMagicAltar, [ [ arsMagicaEverstone, null, arsMagicaEverstone ], [ arsMagicaEverstone, thaumcraftFurnace, arsMagicaEverstone ], [ odGoldIngot, odManaDia, odGoldIngot ] ] );
