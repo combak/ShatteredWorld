@@ -1,29 +1,27 @@
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val blockOfFluxedElectrum = <RedstoneArsenal:Storage>;
+val rsArsenalFluxedElectrumBlock = <RedstoneArsenal:Storage>;
 
-########################################
+########################################################################################################################
 # items
-########################################
+########################################################################################################################
 
-val fluxedElectrumNugget = <RedstoneArsenal:material:64>;
-val fluxedElectrumIngot = <RedstoneArsenal:material:32>;
+val rsArsenalFluxedElectrumNugget = <RedstoneArsenal:material:64>;
+val rsArsenalFluxedElectrumIngot = <RedstoneArsenal:material:32>;
 
-########################################
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
 # Remove Ingot to Nugget Crafting
-########################################
-recipes.remove( fluxedElectrumNugget );
+recipes.remove( rsArsenalFluxedElectrumNugget );
 
-########################################
 # Remove Nugget/Block to Ingot Crafting
-########################################
-recipes.remove( fluxedElectrumIngot );
+recipes.remove( rsArsenalFluxedElectrumIngot );
 
-########################################
 # Remove Ingot to Block Crafting
-########################################
-recipes.remove( blockOfFluxedElectrum );
+recipes.remove( rsArsenalFluxedElectrumBlock );
