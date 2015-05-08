@@ -1,116 +1,133 @@
 import mods.buildcraft.AssemblyTable;
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
-val vanillaBlockOfIron 	= <minecraft:iron_block>;
-val bcLaser		= <BuildCraft|Silicon:laserBlock>;
-val extraObsiGlass	= <ExtraUtilities:decorativeBlock2:5>;
-val bcaKineticBuffer	= <bcadditions:KEBT1>;
-#Ab hier Grambosch 
-val OreLapis           = <minecraft:lapis_ore>;
-val OreDiamond         = <minecraft:diamond_ore>;
-val OreGold            = <minecraft:gold_ore>;
-val OreEmerald         = <minecraft:emerald_ore>;
-val OreIron            = <minecraft:iron_ore>;
-val OreRedstone        = <minecraft:redstone_ore>;
-val OreLead            = <ThermalFoundation:Ore:3>;
-val OreNickel          = <ThermalFoundation:Ore:4>;
-val OrePlatin          = <ThermalFoundation:Ore:5>;
-val OreSilver          = <ThermalFoundation:Ore:2>;
-val OreCopper          = <Forestry:resources:2>;
-val OreTin             = <Forestry:resources:1>;
-val OreAluminum        = <TConstruct:SearedBrick:5>;
+# Vanilla
+val vanillaIronBlock 	= <minecraft:iron_block>;
+val vanillaLapisOre	= <minecraft:lapis_ore>;
+val vanillaDiamondOre	= <minecraft:diamond_ore>;
+val vanillaGoldOre	= <minecraft:gold_ore>;
+val vanillaEmeraldOre	= <minecraft:emerald_ore>;
+val vanillaIronOre	= <minecraft:iron_ore>;
+val vanillaRedstoneOre	= <minecraft:redstone_ore>;
+val vanillaStone	= <minecraft:stone>;
 
-########################################
+# BuildCraft
+val buildCraftLaser 		= <BuildCraft|Silicon:laserBlock>;
+val bcAdditionKineticBuffer	= <bcadditions:KEBT1>;
+
+# Extra Utilities
+val extUtilObsiGlass	= <ExtraUtilities:decorativeBlock2:5>;
+
+# Thermal Foundation
+val thermFoundLeadOre		= <ThermalFoundation:Ore:3>;
+val thermFoundNickelOre		= <ThermalFoundation:Ore:4>;
+val thermFoundPlatinumOre	= <ThermalFoundation:Ore:5>;
+val thermFoundSilverOre		= <ThermalFoundation:Ore:2>;
+
+# Forestry
+val forestryCopperOre	= <Forestry:resources:2>;
+val forestryTinOre	= <Forestry:resources:1>;
+
+# Tinkers 
+val tConstructAluminumOre = <TConstruct:SearedBrick:5>;
+
+########################################################################################################################
 # Items
-########################################
+########################################################################################################################
 
-val inscriberSilicon		= <appliedenergistics2:item.ItemMultiMaterial:19>;
-val inscriberLogic		= <appliedenergistics2:item.ItemMultiMaterial:15>;
-val inscriberCalculation	= <appliedenergistics2:item.ItemMultiMaterial:13>;
-val inscriberEnginering		= <appliedenergistics2:item.ItemMultiMaterial:14>;
+# AppEng
+val appEngInscriberSilicon	= <appliedenergistics2:item.ItemMultiMaterial:19>;
+val appEngInscriberLogic	= <appliedenergistics2:item.ItemMultiMaterial:15>;
+val appEngInscriberCalculation	= <appliedenergistics2:item.ItemMultiMaterial:13>;
+val appEngInscriberEnginering	= <appliedenergistics2:item.ItemMultiMaterial:14>;
 
+# EnderIO
 val enderioSilicon		= <EnderIO:itemMaterial>;
-val vanillaGold			= <minecraft:gold_ingot>;
-val thermalEnderium		= <ThermalFoundation:material:76>;
-val bcRedstoneCrystal		= <BuildCraft|Silicon:redstoneCrystal>;
-val vanillaNetherstar		= <minecraft:nether_star>;
-val deDraconiumIngot		= <DraconicEvolution:draconiumIngot>;
 
-val botaniaManaLens		= <Botania:lens:2>;
+# Vanilla
+val vanillaGold		= <minecraft:gold_ingot>;
+val vanillaNetherstar	= <minecraft:nether_star>;
+val vanillaLapis	= <minecraft:dye:4>;
+val vanillaDiamond	= <minecraft:diamond>;
+val vanillaGoldIngot	= <minecraft:gold_ingot>;
+val vanillaEmerald	= <minecraft:emerald>;
+val vanillaIronIngot	= <minecraft:iron_ingot>;
+val vanillaRedstone	= <minecraft:redstone>;
 
-#ab hier Grambosch
-val vanillaLapis       = <minecraft:dye:4>;
-val vanillaDiamond     = <minecraft:diamond>;
-val vanillaGoldIngot   = <minecraft:gold_ingot>;
-val vanillaEmerald     = <minecraft:emerald>;
-val vanillaIronIngot   = <minecraft:iron_ingot>;
-val vanillaRedstone    = <minecraft:redstone>;
-val ingotLead          = <ThermalFoundation:material:67>;
-val ingotNickel        = <ThermalFoundation:material:68>;
-val ingotPlatin        = <ThermalFoundation:material:69>;
-val ingotSilver        = <ThermalFoundation:material:66>;
-val ingotCopper        = <TConstruct:materials:9>;
-val ingotTin           = <TConstruct:materials:10>;
-val ingotAluminum      = <TConstruct:materials:11>;
-val TFPyrotheum        = <ThermalFoundation:material:512>;
-val vanillaStone       = <minecraft:stone>;
+# Thermal Foundation
+val thermFoundEnderium	= <ThermalFoundation:material:76>;
+val thermFoundLeadIngot          = <ThermalFoundation:material:67>;
+val thermFoundNickelIngot        = <ThermalFoundation:material:68>;
+val thermFoundPlatinumIngot        = <ThermalFoundation:material:69>;
+val thermFoundSilverIngot        = <ThermalFoundation:material:66>;
+val thermFoundPyrotheum        = <ThermalFoundation:material:512>;
 
-val bcGear = [
-  <BuildCraft|Core:goldGearItem>,
-  <BuildCraft|Core:ironGearItem>,
-  <BuildCraft|Core:woodenGearItem>,
-  <BuildCraft|Core:stoneGearItem>,
+# BuildCraft
+val buildCraftRedstoneCrystal = <BuildCraft|Silicon:redstoneCrystal>;
+
+val buildCraftGears = [
+  <BuildCraft|Core:goldGearItem>,	/* 0 - Gold */
+  <BuildCraft|Core:ironGearItem>,	/* 1 - Iron */
+  <BuildCraft|Core:woodenGearItem>,	/* 2 - Wooden */
+  <BuildCraft|Core:stoneGearItem>,	/* 3 - Stone */
 ] as IItemStack[];
 
-########################################
+# Draconic Evolution
+val dracEvoDraconiumIngot = <DraconicEvolution:draconiumIngot>;
+
+# Botania
+val botaniaManaLens = <Botania:lens:2>;
+
+# Tinkers
+val tConstructCopperIngot	= <TConstruct:materials:9>;
+val tConstructTinIngot		= <TConstruct:materials:10>;
+val tConstructAluminumIngot	= <TConstruct:materials:11>;
+
+########################################################################################################################
 # Ore Dictionary
-########################################
+########################################################################################################################
 
-val odFluxCrystal	= <ore:gemCrystalFlux>;
+val odFluxCrystal = <ore:gemCrystalFlux>;
 
-########################################
-# Changed Recipies
-########################################
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
 
 # Laser
-recipes.remove( bcLaser );
-recipes.addShaped( bcLaser, [ [ bcaKineticBuffer, extraObsiGlass, extraObsiGlass ], [ odFluxCrystal, botaniaManaLens, extraObsiGlass ], [ bcaKineticBuffer, extraObsiGlass, extraObsiGlass ] ] );
+recipes.remove( buildCraftLaser );
+recipes.addShaped( buildCraftLaser, [ [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ], [ odFluxCrystal, botaniaManaLens, extUtilObsiGlass ], [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ] ] );
 
-########################################
 # Remove Gear Recipies
-########################################
-for i, gear in bcGear
+for i, gear in buildCraftGears
 {
   recipes.remove( gear );
 }
 
-########################################
-# AE2 Inscriber
-########################################
+########################################################################################################################
+# Machine - AssemblyTable
+########################################################################################################################
 
-AssemblyTable.addRecipe( inscriberSilicon, 50000, [ vanillaBlockOfIron, enderioSilicon ] );
-AssemblyTable.addRecipe( inscriberLogic, 100000, [ vanillaBlockOfIron, enderioSilicon * 2, vanillaGold * 4 ] );
-AssemblyTable.addRecipe( inscriberCalculation, 200000, [ vanillaBlockOfIron, bcRedstoneCrystal * 2, thermalEnderium * 4 ] );
-AssemblyTable.addRecipe( inscriberEnginering, 400000, [ vanillaBlockOfIron, vanillaNetherstar * 2, deDraconiumIngot * 4 ] );
+# AppEng Inscriber
+AssemblyTable.addRecipe( appEngInscriberSilicon, 50000, [ vanillaIronBlock, enderioSilicon ] );
+AssemblyTable.addRecipe( appEngInscriberLogic, 100000, [ vanillaIronBlock, enderioSilicon * 2, vanillaGold * 4 ] );
+AssemblyTable.addRecipe( appEngInscriberCalculation, 200000, [ vanillaIronBlock, buildCraftRedstoneCrystal * 2, thermFoundEnderium * 4 ] );
+AssemblyTable.addRecipe( appEngInscriberEnginering, 400000, [ vanillaIronBlock, vanillaNetherstar * 2, dracEvoDraconiumIngot * 4 ] );
 
-############################
-# Ore Block Recipe (Grambosch)
-############################
-
-AssemblyTable.addRecipe( OreLapis, 250000, [ vanillaLapis*128, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreDiamond, 250000, [ vanillaDiamond*64, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreGold , 250000, [ vanillaGoldIngot*128, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreEmerald , 250000, [ vanillaEmerald*64, TFPyrotheum*8,vanillaStone ] );
-AssemblyTable.addRecipe( OreIron, 250000, [ vanillaIronIngot, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreRedstone, 250000, [ vanillaRedstone*128, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreLead, 250000, [ ingotLead*128, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreNickel, 250000, [ ingotNickel*128, TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OrePlatin, 250000, [ ingotPlatin*128 , TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreSilver, 250000, [ ingotSilver*128 , TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreCopper, 250000, [ ingotCopper*128 , TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreTin, 250000, [ ingotTin*128 , TFPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( OreAluminum, 250000, [ ingotAluminum*128 , TFPyrotheum*8, vanillaStone ] );
+# Ore Block Recipe 
+AssemblyTable.addRecipe( vanillaLapisOre, 250000, [ vanillaLapis*128, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaDiamondOre, 250000, [ vanillaDiamond*64, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaGoldOre , 250000, [ vanillaGoldIngot*128, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaEmeraldOre , 250000, [ vanillaEmerald*64, thermFoundPyrotheum*8,vanillaStone ] );
+AssemblyTable.addRecipe( vanillaIronOre, 250000, [ vanillaIronIngot, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaRedstoneOre, 250000, [ vanillaRedstone*128, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundLeadOre, 250000, [ thermFoundLeadIngot*128, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundNickelOre, 250000, [ thermFoundNickelIngot*128, thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundPlatinumOre, 250000, [ thermFoundPlatinumIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundSilverOre, 250000, [ thermFoundSilverIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( forestryCopperOre, 250000, [ tConstructCopperIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( forestryTinOre, 250000, [ tConstructTinIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( tConstructAluminumOre, 250000, [ tConstructAluminumIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
