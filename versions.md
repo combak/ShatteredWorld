@@ -1,3 +1,7 @@
+## Forge
+- forge-1.7.10-10.13.3.1391-1710ls
+
+## mods
 - 1.7.10_AM2-1.4.0.008.jar
 - ae2stuff-mc1710-0.1.7.17.jar
 - AgriCraft-1.7.10-1.3.1.jar
@@ -22,6 +26,7 @@
 - CookieCore-1.7.10-1.3.1-7.jar
 - customitems-1.0.9_beta_1.7.10.jar
 - CustomMainMenu-MC1.7.10-1.4.jar
+- CustomNPCs_1.7.10d.jar
 - dimensional-anchor-59.0.2.jar
 - Draconic-Evolution-1.7.10-v1.0.1-RC-5.jar
 - Enchiridion-1.7.X-1.2b.jar
@@ -48,7 +53,6 @@
 - InventoryTweaks-1.58-147.jar
 - ironchest-1.7.10-6.0.62.742-universal.jar
 - LycanitesMobsComplete 1.10.13.2 [1.7.10].jar
-- magicbees-1.7.10-2.2.3.jar
 - Magistics-1.7.10-0.7.6.jar
 - Mantle-1.7.10-0.3.2.jar
 - MineTweaker3-1.7.10-3.0.9C.jar
@@ -77,6 +81,7 @@
 - StorageDrawers-1.7.10-1.3.7.jar
 - TConstruct-1.7.10-1.8.4a.jar
 - Thaumcraft-1.7.10-4.2.3.5.jar
+- ThaumcraftMobAspects-1.7.2-2A.jar
 - thaumcraftneiplugin-1.7.10-1.7.jar
 - ThermalDynamics-[1.7.10]1.0.0-122.jar
 - ThermalExpansion-[1.7.10]4.0.1-182.jar
