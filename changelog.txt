@@ -1,6 +1,11 @@
 ============================================================
 Version 0.5.5
 ==========================================================
+Config Changes
+- Increased Auto Sieve Energy Cost (Ex Astris)
+- Disabled Draconic Staff of Power (Draconic Evolution)
+- Custom AutoPackager Recipe
+- Decreased Draconium dropchance (Ex Astris)
 
 Mod Additions
 - Thaumcraft Mob Aspects 1.7.2-2A
@@ -12,7 +17,8 @@ Mod Removed
 ============================================================
 Version 0.5.4
 ============================================================
-- Fixed Mana Spreader Recipie & Code Style
+Config Changes
+- Fixed Mana Spreader Recipe & Code Style
 - Raised Tank Capacity (EnderTech)
 - Whitelisted Forbidden Magic Tools and Weapons (Iquana Tweaks for Tinkers)
 - Added Soil for Res. Crops
@@ -34,14 +40,14 @@ Version 0.5.3
 ============================================================
 Config Changes
 - Reworked Iquana Tweaks Tool restrictions
-- Added Crafting Ore Block Recipies via BC Laser
-- Custom Vanilla Bowl Recipie
+- Added Crafting Ore Block Recipes via BC Laser
+- Custom Vanilla Bowl Recipe
 - Enabled Crucible (Ex Nihilo)
 - Removed Crucible Lava Heat Source
 - Disabeld Achievement Firework
-- Custom Mana Spreader Recipie (Botania)
-- Custom ME Drive Recipie (AE2)
-- Custom Molecular Assembler Recipie (AE2)
+- Custom Mana Spreader Recipe (Botania)
+- Custom ME Drive Recipe (AE2)
+- Custom Molecular Assembler Recipe (AE2)
 - Ex Nihilo Output Balacing
 - Reduced Nether Ore Gen 
 
@@ -60,12 +66,12 @@ Version 0.5.2
 Config Changes
 - AE2 Inscriber via BuildCraft Assembly Table
 - Fix some script errors in Thermal Expansion and Tinkers Construct (Ore Processing)
-- Removed Default Inscriber Press Recipies
-- Custom Chisel Recipie (Chisel Mod). Recipie Conflict with Iron/Dia Trowel (Botania)
+- Removed Default Inscriber Press Recipes
+- Custom Chisel Recipe (Chisel Mod). Recipe Conflict with Iron/Dia Trowel (Botania)
 - Disabled Auto Repair
-- Custom BC Laser Recipie
-- Custom Piston Recipie
-- Custom Blood Altar Recipie
+- Custom BC Laser Recipe
+- Custom Piston Recipe
+- Custom Blood Altar Recipe
 
 Mod Additions
 - AutoPackager 1.5.3
@@ -132,7 +138,7 @@ Mod Downgrades
 . Iron Chest MC 1.8 to 1.7.10 (my fault ^^)
 
 Mod Removed
-- No More Recipie Conflict (not supported anymore)
+- No More Recipe Conflict (not supported anymore)
 
 ============================================================
 Version 0.4.0 
@@ -180,10 +186,10 @@ Config Changes
 - Added Redstone Block Cast
 - Added Food Groups
 - Chunk Loader requires Fuel (Solid Ender=5hours) and Online Player (Dimensional Anchors)
-- Changed Chunkloader Recipie (Dimensional Anchors)
-- Hard Stuffed Eggplant Recipie only (Harvestcraft)
+- Changed Chunkloader Recipe (Dimensional Anchors)
+- Hard Stuffed Eggplant Recipe only (Harvestcraft)
 - Reduced Aluminum Droprate (Ex Nihilo)
-- Added Sky Stone Recipie
+- Added Sky Stone Recipe
 
 Mod Additions
 - Custom Main Menu 1.4
@@ -205,7 +211,7 @@ Mod Removed
 Version 0.2.1
 ============================================================
 Config Changes
-- Enabed Hammer Recipies (Ex Nihilo)
+- Enabed Hammer Recipes (Ex Nihilo)
 - Enabed Resource Crops (Agricraft)
 - Added Custom Molten Liquids for Nugget/Block Casts
 - Tier1+2 Weapons (Tinkers Construct)
@@ -228,7 +234,7 @@ Config Changes
 - Enabled Withering Flowers (Botania)
 - Enabled Barrel for Clay, Dirt and Slime (Ex Nihilo)
 - Enabled Hammers (Ex Nihilo)
-- Disabled Vanilla Furnace Recipies for Alloy Smelter (EnderIO)
+- Disabled Vanilla Furnace Recipes for Alloy Smelter (EnderIO)
 - Balancing Ore Processing 
 
 Mod Additions
@@ -243,7 +249,7 @@ Mod Additions
 Version 0.1.4
 ============================================================
 Config Changes
-- Removed simple Nugget, Ingot and Block Crafting Recipies
+- Removed simple Nugget, Ingot and Block Crafting Recipes
 - Corrected Sticks Crafting with 2x2 Crafting Grid
 
 Mod Additions
@@ -257,7 +263,7 @@ Version 0.1.3
 ============================================================
 Config Changes
 - Corrected Logs Shaped to Shapless Crafting
-- Added Custom Tinkers Smelting Recipies
+- Added Custom Tinkers Smelting Recipes
 - Tinkers Tier 1 Tools craftable
 - Disabled Barrel, Crook, Crucible, Hammer & Silkworm (Ex Nihilo)
 - Doubled EnderTech Tank Capacity
@@ -269,7 +275,7 @@ Mod Additions
 Version 0.1.2
 ============================================================
 Config Changes
-- Change Recipies 1 Log = 2 Planks = 2 Sticks
+- Change Recipes 1 Log = 2 Planks = 2 Sticks
 - Balancing Stuff (Agricraft, Tinkers Construct/Iquana Tweaks)
 - Disabled EnderLilies (ExtraUtillities)
 - Disabled Redwood Trees (Natura)
