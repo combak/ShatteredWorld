@@ -379,13 +379,6 @@
 
 ## M
 
-**Magic Bees**
-> DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-
-- Author: MysteriousAges, Arkandos, mezz
-- Files: http://minecraft.curseforge.com/mc-mods/65764-magic-bees/files
-- Licence: https://github.com/MagicBees/MagicBees/blob/master/LICENSE
-
 **Mantle**
 > The MIT License
 
