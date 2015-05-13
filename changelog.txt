@@ -2,6 +2,35 @@
 Version 0.5.6
 ============================================================
 
+Mod Updates
+- Minecraft Forge 10.13.3.1391 to 10.13.3.1403
+
+- Botania r1.6-174 to r1.6-188
+- BdLib 1.7.0.70 to 1.7.1.71
+- BiblioCraft 1.10.2 to 1.10.4
+- Blood Magic 1.3.1-7 to 1.3.2-1
+- Buildcraft Additions 2.1.2 to 2.1.3
+- BuildCraft 6.4.12 to 6.4.15
+- Draconic Evolution 1.0.1-RC-5 to 1.0.1c
+- EnderTech 0.3.2.375 to 0.3.2.386
+- Eureka 3.0.1 to 3.0.2
+- Ex Astris 1.16-31 to 1.16-35
+- Extra Utilities 1.2.4a to 1.2.4c
+- Forestry 3.5.4.13 to 3.5.6.15
+- HQM The Journey 4.2.1 to 4.2.4
+- Iguana Tinker Tweaks 2.1.4 to 2.1.5
+- Immibis Core 59.0.8 to 59.1.1
+- INpureCore 1.0.0B9-54 to 1.0.0B9-60
+- LycanitesMobsComplete 1.10.13.2 to 1.10.14.0
+- NEI Addons 1.12.7.21 to 1.12.8.29
+- OpenBlocks 1.4 to 1.4.3
+- OpenModsLib 10-0.7 to 10-0.7.3
+- ProjectRed -Base, Compat, Integration & Lighting 4.5.15.75 to 4.6.0.79
+- Storage Drawers 1.3.7 to 1.4.6
+- Thaumcraft - TravellersGear 1.15.7 to 1.16.3
+- Thaumcraft - WitchingGadgets 1.1.5 to 1.1.6
+- TiCTooltips 1.2.3 to 1.2.4
+- Tinkers Construct 1.8.4a to 1.8.5
 
 ============================================================
 Version 0.5.5
