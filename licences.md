@@ -188,6 +188,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu/files
 - Permission: http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu
 
+**Custom NPCs**
+> If you want to use it for a modpack, include a link to this thread
+
+- Author: Noppes
+- Files: http://minecraft.curseforge.com/mc-mods/221826-custom-npcs/files
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278956-custom-npcs
+
 ## D
 
 **Draconic Evolution**
@@ -569,6 +576,13 @@ minecraft original sources.
 - Author: T145, HuggableCreep, Tuiren, wiiv
 - Files: http://minecraft.curseforge.com/mc-mods/222182-magistics/files
 - Licence: https://github.com/T145/magistics/blob/master/LICENSE.txt
+
+**Thaumcraft - Mob Aspects**
+> Public Domain
+
+- Author: Parker8283
+- Files: http://minecraft.curseforge.com/mc-mods/221389-thaumcraft-mob-aspects/files
+- Licence: https://github.com/Parker8283/ThaumcraftMobAspects/blob/master/LICENSE
 
 **Thaumcraft - NEI Plugin**
 > You have my permission to include "Thaumcraft NEI Plugin" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.

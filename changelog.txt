@@ -2,6 +2,9 @@
 Version 0.5.5
 ==========================================================
 
+Mod Additions
+- Thaumcraft Mob Aspects 1.7.2-2A
+- Custom NPCs 1.7.10d
 
 Mod Removed
 - Magic Bees
