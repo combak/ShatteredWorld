@@ -18,6 +18,9 @@ val vanillaStone	= <minecraft:stone>;
 # BuildCraft
 val buildCraftLaser 		= <BuildCraft|Silicon:laserBlock>;
 val bcAdditionKineticBuffer	= <bcadditions:KEBT1>;
+val buildCraftEngineRedstone        = <BuildCraft|Energy:engineBlock>;
+val buildCraftEngineStirling        = <BuildCraft|Energy:engineBlock:1>;
+val buildCraftEngineCombustion      = <BuildCraft|Energy:engineBlock:2>;
 
 # Extra Utilities
 val extUtilObsiGlass	= <ExtraUtilities:decorativeBlock2:5>;
@@ -34,6 +37,9 @@ val forestryTinOre	= <Forestry:resources:1>;
 
 # Tinkers 
 val tConstructAluminumOre = <TConstruct:SearedBrick:5>;
+
+# EnderIO
+val enderioChassis                  = <EnderIO:itemMachinePart>;
 
 ########################################################################################################################
 # Items
@@ -68,6 +74,12 @@ val thermFoundPyrotheum        = <ThermalFoundation:material:512>;
 
 # BuildCraft
 val buildCraftRedstoneCrystal = <BuildCraft|Silicon:redstoneCrystal>;
+val buildCraftPipePowerIron         = <BuildCraft|Transport:item.buildcraftPipe.pipepoweriron>;
+val buildCraftPipePowerGold         = <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>;
+val buildCraftPipePowerDiamond      = <BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>;
+
+# Thermal Expansion
+val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
 
 val buildCraftGears = [
   <BuildCraft|Core:goldGearItem>,	/* 0 - Gold */
@@ -92,6 +104,9 @@ val tConstructAluminumIngot	= <TConstruct:materials:11>;
 ########################################################################################################################
 
 val odFluxCrystal = <ore:gemCrystalFlux>;
+val odIngotTin                      = <ore:ingotTin>;
+val odIngotIron                     = <ore:ingotIron>;
+val odIngotGold                     = <ore:ingotGold>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -106,6 +121,26 @@ for i, gear in buildCraftGears
 {
   recipes.remove( gear );
 }
+
+# RF Generators Recipes
+recipes.remove(buildCraftEngineRedstone);
+recipes.addShaped
+                 (buildCraftEngineRedstone,[
+				    [odIngotTin, odIngotTin, odIngotTin],
+				    [null, enderioChassis, null],
+				    [buildCraftPipePowerIron, thermExpTransmissionCoil, buildCraftPipePowerIron]]);
+recipes.remove(buildCraftEngineStirling);
+recipes.addShaped
+                 (buildCraftEngineStirling,[
+				    [odIngotIron, odIngotIron, odIngotIron],
+					[null, enderioChassis, null],
+					[buildCraftPipePowerGold, thermExpTransmissionCoil, buildCraftPipePowerGold]]);
+recipes.remove(buildCraftEngineCombustion);				  
+recipes.addShaped
+                 (buildCraftEngineCombustion,[
+				    [odIngotGold, odIngotGold, odIngotGold],
+					[null, enderioChassis, null],
+					[buildCraftPipePowerDiamond, thermExpTransmissionCoil, buildCraftPipePowerDiamond]]);
 
 ########################################################################################################################
 # Machine - AssemblyTable
