@@ -58,17 +58,14 @@ val enderioIngots = [
   <EnderIO:itemAlloy:7>		/* 7 - Soularium */
 ] as IItemStack[];
 
-val enderioBasicGear = <EnderIO:itemMachinePart:1>;
+val enderioBasicGear 		= <EnderIO:itemMachinePart:1>;
+val enderioZombieElectrode      = <EnderIO:itemFrankenSkull>;
 
 # Forest Day
 val forestDayWoodGear = <Forestday:fd.item.gear.wood:1>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
-
-# EnderIO
-val enderioZombieElectrode          = <EnderIO:itemFrankenSkull>
-val enderioBasicGear = <EnderIO:itemMachinePart:1>;
 
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
