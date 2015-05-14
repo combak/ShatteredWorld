@@ -45,6 +45,12 @@ val botaniaBlockOf = [
 # Thaumcraft
 val thaumcraftVisRelay              = <Thaumcraft:blockMetalDevice:14>;
 
+# Project Red
+val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
+
+# Advanced Generators               
+val advGenePowerIO                  = <advgenerators:PowerIO>;
+
 ########################################################################################################################
 # Oredict
 ########################################################################################################################
@@ -92,5 +98,5 @@ recipes.remove(botaniaFluxfield);
 recipes.addShaped
                  (botaniaFluxfield,[
 				    [botaniaBrickLivingrock, arsMagicaManaBattery , botaniaBrickLivingrock],
-					  [projectRedConductivePlate, advGenePowerIO, projectRedConductivePlate], 
-					  [botaniaBrickLivingrock, thaumcraftVisRelay, botaniaBrickLivingrock]]);
+			            [projectRedConductivePlate, advGenePowerIO, projectRedConductivePlate], 
+			            [botaniaBrickLivingrock, thaumcraftVisRelay, botaniaBrickLivingrock]]);
