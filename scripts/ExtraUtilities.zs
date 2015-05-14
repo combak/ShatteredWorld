@@ -1,6 +1,7 @@
 #####################################################################################################################################
-#Blocks
+# Blocks
 #####################################################################################################################################
+
 # Vanilla
 val vanillaCobblestone              = <minecraft:cobblestone>;
 val vanillaTNT                      = <minecraft:tnt>;
@@ -46,9 +47,11 @@ val forestDayFurnaceCoke            = <Forestday:machine.furnace>;
 
 # Tinkers Construct
 val tConstructSlabSeared            = <TConstruct:SearedSlab>;
+
 #####################################################################################################################################
 # Items
 #####################################################################################################################################
+
 # Vanilla
 val vanillaSkullWither              = <minecraft:skull:1>;
 val vanillaNetherStar               = <minecraft:nether_star>;
@@ -64,79 +67,44 @@ val forestDayObsidianPlate          = <Forestday:fd.item.build.materials.plate:3
 
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
+
 #####################################################################################################################################
 # Custom Recipes Shaped
 #####################################################################################################################################
 
-recipes.remove(extUtilGeneratorSurvivalist);				 
-recipes.addShaped
-                 (extUtilGeneratorSurvivalist,[
-				    [vanillaCobblestone, advGenePowerIO , vanillaCobblestone],
-					[projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate], 
-					[vanillaCobblestone, forestDayFurnaceCoke, vanillaCobblestone]]);
-recipes.remove(extUtilGeneratorFurnace);				 
-recipes.addShaped
-                 (extUtilGeneratorFurnace, [
-				    [tConstructSlabSeared, advGenePowerIO , tConstructSlabSeared],
-					[projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorLava);				 
-recipes.addShaped
-                 (extUtilGeneratorLava,[
-				    [enderioTankPressurized, advGenePowerIO , enderioTankPressurized],
-					[projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorEnder);				 
-recipes.addShaped
-                 (extUtilGeneratorEnder,[
-				    [enderioPulsatingIronNugget, advGenePowerIO , enderioPulsatingIronNugget],
-					[projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate], 
-					[extUtilObsidianInfused, forestDayFurnaceCoke, extUtilObsidianInfused]]);
-recipes.remove(extUtilGeneratorCulinary);				 
-recipes.addShaped
-                 (extUtilGeneratorCulinary,[
-				    [buildcraftHopper, advGenePowerIO , buildcraftHopper],
-					[projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorPotion);				 
-recipes.addShaped
-                 (extUtilGeneratorPotion, [
-				    [forestDayObsidianPlate, advGenePowerIO , forestDayObsidianPlate],
-					[projectRedConductivePlate, enderioEnchanter, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorSolar);				 
-recipes.addShaped
-                 (extUtilGeneratorSolar,[
-				    [enderioFusedQuartz, advGenePowerIO , enderioFusedQuartz],
-					[projectRedConductivePlate, extUtilMatrix, projectRedConductivePlate], 
-					[enderioSolarpanelsmall, forestDayFurnaceCoke, enderioSolarpanelsmall]]);
-recipes.remove(extUtilGeneratorTNT);				 
-recipes.addShaped
-                 (extUtilGeneratorTNT,[
-				    [vanillaTNT, advGenePowerIO , vanillaTNT],
-					[projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorPink);				 
-recipes.addShaped
-                 (extUtilGeneratorPink,[
-				    [botanyCeramicDeepPink, advGenePowerIO , botanyCeramicDeepPink],
-					[projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorHighTemp);		 
-recipes.addShaped
-                 (extUtilGeneratorHighTemp,[
-				    [bcAdditionCoilLava, advGenePowerIO , bcAdditionCoilLava],
-					[projectRedConductivePlate, extUtilGeneratorFurnace, projectRedConductivePlate], 
-					[enderioChassis, bcAdditionHeatedFurnace, enderioChassis]]);
-recipes.remove(extUtilGeneratorNether);
-recipes.addShaped
-                 (extUtilGeneratorNether,[
-				    [vanillaSkullWither, advGenePowerIO , vanillaSkullWither],
-					[projectRedConductivePlate, vanillaNetherStar, projectRedConductivePlate], 
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);
-recipes.remove(extUtilGeneratorHeatedRedstone);				 
-recipes.addShaped
-                 (extUtilGeneratorHeatedRedstone,[
-				    [bcAdditionCoilLava, advGenePowerIO , bcAdditionCoilLava],
-					[projectRedConductivePlate, extUtilGeneratorLava, projectRedConductivePlate], 
-					[enderioTankPressurized, bcAdditionHeatedFurnace, enderioTankPressurized]]);
+# RF Generators
+recipes.remove( extUtilGeneratorSurvivalist );
+recipes.addShaped( extUtilGeneratorSurvivalist, [ [ vanillaCobblestone, advGenePowerIO , vanillaCobblestone ], [ projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate ], [ vanillaCobblestone, forestDayFurnaceCoke, vanillaCobblestone ] ]);
+
+recipes.remove( extUtilGeneratorFurnace );
+recipes.addShaped( extUtilGeneratorFurnace, [ [ tConstructSlabSeared, advGenePowerIO , tConstructSlabSeared ], [ projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorLava );
+recipes.addShaped( extUtilGeneratorLava, [ [ enderioTankPressurized, advGenePowerIO , enderioTankPressurized], [ projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorEnder );
+recipes.addShaped( extUtilGeneratorEnder, [ [ enderioPulsatingIronNugget, advGenePowerIO , enderioPulsatingIronNugget ], [ projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate ], [ extUtilObsidianInfused, forestDayFurnaceCoke, extUtilObsidianInfused ] ]);
+
+recipes.remove( extUtilGeneratorCulinary );
+recipes.addShaped( extUtilGeneratorCulinary, [ [ buildcraftHopper, advGenePowerIO , buildcraftHopper], [ projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorPotion );
+recipes.addShaped( extUtilGeneratorPotion, [ [ forestDayObsidianPlate, advGenePowerIO , forestDayObsidianPlate ], [ projectRedConductivePlate, enderioEnchanter, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorSolar );
+recipes.addShaped( extUtilGeneratorSolar, [ [ enderioFusedQuartz, advGenePowerIO , enderioFusedQuartz ], [ projectRedConductivePlate, extUtilMatrix, projectRedConductivePlate ], [ enderioSolarpanelsmall, forestDayFurnaceCoke, enderioSolarpanelsmall ] ]);
+
+recipes.remove( extUtilGeneratorTNT );
+recipes.addShaped( extUtilGeneratorTNT, [ [ vanillaTNT, advGenePowerIO , vanillaTNT ], [ projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorPink );
+recipes.addShaped( extUtilGeneratorPink, [ [ botanyCeramicDeepPink, advGenePowerIO , botanyCeramicDeepPink ], [ projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorHighTemp );
+recipes.addShaped( extUtilGeneratorHighTemp, [ [ bcAdditionCoilLava, advGenePowerIO , bcAdditionCoilLava], [ projectRedConductivePlate, extUtilGeneratorFurnace, projectRedConductivePlate ], [ enderioChassis, bcAdditionHeatedFurnace, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorNether );
+recipes.addShaped( extUtilGeneratorNether, [ [ vanillaSkullWither, advGenePowerIO , vanillaSkullWither ], [ projectRedConductivePlate, vanillaNetherStar, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+
+recipes.remove( extUtilGeneratorHeatedRedstone );				 
+recipes.addShaped( extUtilGeneratorHeatedRedstone, [ [ bcAdditionCoilLava, advGenePowerIO , bcAdditionCoilLava ], [ projectRedConductivePlate, extUtilGeneratorLava, projectRedConductivePlate ], [ enderioTankPressurized, bcAdditionHeatedFurnace, enderioTankPressurized ] ]);

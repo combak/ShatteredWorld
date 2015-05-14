@@ -108,36 +108,21 @@ recipes.remove( enderioBasicGear );
 recipes.addShaped( enderioBasicGear, [ [ null, odCobblestone, null ], [ odCobblestone, forestDayWoodGear, odCobblestone ], [ null, odCobblestone, null ] ]);
 
 # RF Generators
-recipes.remove(enderioGeneratorStirling);				 
-recipes.addShaped
-                 (enderioGeneratorStirling,[
-				    [bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic],
-					[projectRedConductivePlate, buildcraftGearIron, projectRedConductivePlate],
-					[enderioChassis, forestDayFurnaceCoke, enderioChassis]]);				 
+recipes.remove(enderioGeneratorStirling);
+recipes.addShaped( enderioGeneratorStirling, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftGearIron, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);				 
+
 recipes.remove(enderioGeneratorCombustion);				 
-recipes.addShaped
-                 (enderioGeneratorCombustion, [
-				    [bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic],
-					[projectRedConductivePlate, buildcraftFluidPipeIron, projectRedConductivePlate],
-					[enderioTank, forestDayFurnaceCoke, enderioTank]]);
+recipes.addShaped( enderioGeneratorCombustion, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftFluidPipeIron, projectRedConductivePlate ], [ enderioTank, forestDayFurnaceCoke, enderioTank ] ]);
+
 recipes.remove(enderioGeneratorZombie);				 
-recipes.addShaped
-                 (enderioGeneratorZombie,[
-				    [bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic],
-					[projectRedConductivePlate, enderioZombieElectrode, projectRedConductivePlate], 
-					[extUtilGlassThickened, forestDayFurnaceCoke, extUtilGlassThickened]]);
+recipes.addShaped( enderioGeneratorZombie, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, enderioZombieElectrode, projectRedConductivePlate ], [ extUtilGlassThickened, forestDayFurnaceCoke, extUtilGlassThickened ] ]);
+
 recipes.remove(enderioSolarpanelsmall);
-recipes.addShaped
-                 (enderioSolarpanelsmall,[
-				    [projectRedChipEnergized, botanyGlassDeepBlue , projectRedChipEnergized],
-					[buildCraftChipComp, botanyGlassDeepBlue, buildCraftChipComp], 
-					[projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ]]);
+recipes.addShaped( enderioSolarpanelsmall, [ [ projectRedChipEnergized, botanyGlassDeepBlue , projectRedChipEnergized ], [ buildCraftChipComp, botanyGlassDeepBlue, buildCraftChipComp ], [ projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ] ]);
+
 recipes.remove(enderioSolarpanel);
-recipes.addShaped
-                 (enderioSolarpanel,[
-				    [buildCraftChipPulsating, thermExpGlassLumiumHardened , buildCraftChipPulsating],
-					[rsArsenalFluxCrystal, thermExpGlassLumiumHardened, rsArsenalFluxCrystal], 
-					[enderioSolarpanelsmall, advGenePowerIO, enderioSolarpanelsmall]]);
+recipes.addShaped( enderioSolarpanel, [ [ buildCraftChipPulsating, thermExpGlassLumiumHardened , buildCraftChipPulsating ], [ rsArsenalFluxCrystal, thermExpGlassLumiumHardened, rsArsenalFluxCrystal ], [ enderioSolarpanelsmall, advGenePowerIO, enderioSolarpanelsmall ] ]);
+
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
 ########################################################################################################################

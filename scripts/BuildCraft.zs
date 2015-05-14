@@ -123,24 +123,14 @@ for i, gear in buildCraftGears
 }
 
 # RF Generators Recipes
-recipes.remove(buildCraftEngineRedstone);
-recipes.addShaped
-                 (buildCraftEngineRedstone,[
-				    [odIngotTin, odIngotTin, odIngotTin],
-				    [null, enderioChassis, null],
-				    [buildCraftPipePowerIron, thermExpTransmissionCoil, buildCraftPipePowerIron]]);
-recipes.remove(buildCraftEngineStirling);
-recipes.addShaped
-                 (buildCraftEngineStirling,[
-				    [odIngotIron, odIngotIron, odIngotIron],
-					[null, enderioChassis, null],
-					[buildCraftPipePowerGold, thermExpTransmissionCoil, buildCraftPipePowerGold]]);
-recipes.remove(buildCraftEngineCombustion);				  
-recipes.addShaped
-                 (buildCraftEngineCombustion,[
-				    [odIngotGold, odIngotGold, odIngotGold],
-					[null, enderioChassis, null],
-					[buildCraftPipePowerDiamond, thermExpTransmissionCoil, buildCraftPipePowerDiamond]]);
+recipes.remove( buildCraftEngineRedstone );
+recipes.addShaped( buildCraftEngineRedstone, [ [ odIngotTin, odIngotTin, odIngotTin ], [ null, enderioChassis, null ], [ buildCraftPipePowerIron, thermExpTransmissionCoil, buildCraftPipePowerIron ] ]);
+
+recipes.remove( buildCraftEngineStirling );
+recipes.addShaped( buildCraftEngineStirling, [ [odIngotIron, odIngotIron, odIngotIron ], [ null, enderioChassis, null ], [ buildCraftPipePowerGold, thermExpTransmissionCoil, buildCraftPipePowerGold ] ]);
+
+recipes.remove( buildCraftEngineCombustion );
+recipes.addShaped( buildCraftEngineCombustion, [ [ odIngotGold, odIngotGold, odIngotGold ], [ null, enderioChassis, null ], [ buildCraftPipePowerDiamond, thermExpTransmissionCoil, buildCraftPipePowerDiamond ] ]);
 
 ########################################################################################################################
 # Machine - AssemblyTable
