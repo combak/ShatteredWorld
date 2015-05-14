@@ -134,6 +134,14 @@ val forestryBlockOf = [
   <Forestry:resourceStorage:3> 		/* 2 - Bronze */
 ] as IItemStack[];
 
+# Forestry
+val forestryEngineClockwork         = <Forestry:engine:1>;
+val forestryEnginePeat              = <Forestry:engine:2>;
+val forestryEngineBiogas            = <Forestry:engine:4>;
+
+# EnderIO
+val enderioChassis                  = <EnderIO:itemMachinePart>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -143,6 +151,21 @@ val forestryIngot = [
   <Forestry:ingotTin>,		/* 1 - Tin */
   <Forestry:ingotBronze>	/* 2 - Bronze */
 ] as IItemStack[];
+
+# BuildCraft
+val buildCraftPipePowerStone        = <BuildCraft|Transport:item.buildcraftPipe.pipepowerstone>;
+val buildCraftPipePowerSandstone    = <BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone>;
+val buildCraftPipePowerEmerald      = <BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald>;
+
+# Thermal Expansion
+val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
+
+######################################################################################################################
+# Oredict
+######################################################################################################################
+val odIngotSilver                   = <ore:ingotSilver>;
+val odIngotGildedRedMetal           = <ore:ingotGildedRedMetal>;
+val odIngotAluminum                 = <ore:ingotAluminum>;
 
 ########################################################################################################################
 # Custom Crafting Recipes - Shaped
@@ -159,6 +182,26 @@ for i, block in forestryBlockOf
 {
   recipes.remove( block );
 }
+
+# RF Generators
+recipes.remove(forestryEngineClockwork);				  
+recipes.addShaped
+                 (forestryEngineClockwork, [
+				   [odIngotSilver, odIngotSilver, odIngotSilver],
+				   [null, enderioChassis, null],
+				   [buildCraftPipePowerStone, thermExpTransmissionCoil, buildCraftPipePowerStone]]);
+recipes.remove(forestryEnginePeat);								  
+recipes.addShaped
+                 (forestryEnginePeat,[
+				    [odIngotAluminum, odIngotAluminum, odIngotAluminum],
+					[null, enderioChassis, null],
+					[buildCraftPipePowerSandstone,thermExpTransmissionCoil, buildCraftPipePowerSandstone]]);
+recipes.remove(forestryEngineBiogas);
+recipes.addShaped
+                 (forestryEngineBiogas, [
+				    [odIngotGildedRedMetal, odIngotGildedRedMetal, odIngotGildedRedMetal],
+					[null, enderioChassis, null],
+					[buildCraftPipePowerEmerald, thermExpTransmissionCoil, buildCraftPipePowerEmerald]]);
 
 ########################################################################################################################
 # Custom Crafting Recipes - Shapeless
