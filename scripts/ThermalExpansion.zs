@@ -10,12 +10,38 @@ val appEngSkyStoneBlock	= <appliedenergistics2:tile.BlockSkyStone>;
 # Vanilla
 val vanillaSand = <minecraft:sand>;
 
+# Thermal Expansion
+val thermExpFrameBasic              = <ThermalExpansion:Frame>;
+val thermExpDynamoCompression       = <ThermalExpansion:Dynamo:2>;
+val thermExpDynamoSteam             = <ThermalExpansion:Dynamo>;
+val thermExpDynamoReactant          = <ThermalExpansion:Dynamo:3>;
+val thermExpDynamoEnervation        = <ThermalExpansion:Dynamo:4>;
+val thermExpDynamoMagmatic          = <ThermalExpansion:Dynamo:5>;
+
+# Buildcraft Additions
+val bcAdditionCoilLava              = <bcadditions:blockCoilLava>;
+
 ########################################################################################################################
 # Item
 ########################################################################################################################
 
 # Applied Energistics
 val appEngSkyStoneDust = <appliedenergistics2:item.ItemMultiMaterial:45>;
+
+# Thermal Foundation
+val thermFoundGearSilver            = <ThermalFoundation:material:130>;
+val thermFoundGearInvar             = <ThermalFoundation:material:136>;
+val thermFoundGearFerrous           = <ThermalFoundation:material:132>;
+val thermFoundGearElectrum          = <ThermalFoundation:material:135>;
+
+# Project Red
+val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
+
+# BuildCraft
+val buildcraftGearGold              = <BuildCraft|Core:goldGearItem>;
+
+# Advanced Generators               
+val advGenePowerIO                  = <advgenerators:PowerIO>;
 
 # Remove Items/Recipies from the Redstone Furnace
 val removeFurnace = [
@@ -66,4 +92,41 @@ for i, item in removePulverizer
 {
   mods.thermalexpansion.Pulverizer.removeRecipe( item );
 }
+
+########################################################################################################################
+# Custom Recipes Shaped
+########################################################################################################################
+
+# RF Generators
+recipes.remove(thermExpDynamoCompression);
+recipes.addShaped
+                 (thermExpDynamoCompression,[
+				    [null, advGenePowerIO , null],
+					[buildcraftGearGold, bcAdditionCoilLava, buildcraftGearGold], 
+					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
+recipes.remove(thermExpDynamoSteam);
+recipes.addShaped
+                 (thermExpDynamoSteam,[
+				    [null, advGenePowerIO , null],
+					[thermFoundGearSilver, bcAdditionCoilLava, thermFoundGearSilver], 
+					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
+recipes.remove(thermExpDynamoReactant);
+recipes.addShaped
+                 (thermExpDynamoReactant,[
+				    [null, advGenePowerIO , null],
+					[thermFoundGearFerrous, bcAdditionCoilLava, thermFoundGearFerrous], 
+					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
+recipes.remove(thermExpDynamoEnervation);
+recipes.addShaped
+                 (thermExpDynamoEnervation,[
+				    [null, advGenePowerIO , null],
+					[thermFoundGearElectrum, bcAdditionCoilLava, thermFoundGearElectrum], 
+					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
+# Geht noch nicht
+#recipes.remove(thermExpDynamoMagmatic);
+#recipes.addShaped
+#                 (thermExpDynamoMagmatic,[
+#				    [null, advGenePowerIO , null],
+#					[thermFoundGearInvar, bcAdditionCoilLava, thermFoundGearInvar], 
+#					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 
