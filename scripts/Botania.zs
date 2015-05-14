@@ -6,9 +6,13 @@ import minetweaker.item.IItemStack;
 
 # Ars Magica 2
 val arsMagicaParticleEmitter = <arsmagica2:ParticleEmitter>;
+val arsMagicaManaBattery     = <arsmagica2:manaBattery>;
+
 
 # Botania
-val botaniaSpreader = <Botania:spreader>;
+val botaniaSpreader                 = <Botania:spreader>;
+val botaniaBrickLivingrock          = <Botania:livingrock:1>;
+val botaniaFluxfield                = <Botania:rfGenerator>;
 
 val botaniaLogs = [
   <Botania:livingwood>,		/* 0 - Living Wood */
@@ -33,6 +37,13 @@ val botaniaBlockOf = [
   <Botania:storage:3>,
   <Botania:storage:4>
 ] as IItemStack[];
+
+########################################################################################################################
+# Items
+########################################################################################################################
+
+# Thaumcraft
+val thaumcraftVisRelay              = <Thaumcraft:blockMetalDevice:14>;
 
 ########################################################################################################################
 # Oredict
@@ -75,3 +86,11 @@ for i, block in botaniaBlockOf
 # Custom Mana Spreader Recipie
 recipes.removeShaped( botaniaSpreader );
 recipes.addShaped( botaniaSpreader, [ [ botaniaLogs[0], botaniaLogs[0], botaniaLogs[0] ], [ odThaumiumIngot, arsMagicaParticleEmitter, null ], [ botaniaLogs[0], botaniaLogs[0], botaniaLogs[0] ] ] );
+
+# Custom Fluxfield Recipe
+recipes.remove(botaniaFluxfield); 
+recipes.addShaped
+                 (botaniaFluxfield,[
+				    [botaniaBrickLivingrock, arsMagicaManaBattery , botaniaBrickLivingrock],
+					  [projectRedConductivePlate, advGenePowerIO, projectRedConductivePlate], 
+					  [botaniaBrickLivingrock, thaumcraftVisRelay, botaniaBrickLivingrock]]);
