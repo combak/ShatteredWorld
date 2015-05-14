@@ -1,6 +1,13 @@
 ============================================================
 Version 0.5.6
 ============================================================
+Config Changes
+- Changed to ops only. Disabled Update Notification and ChatBubbles (Custom NPCs)
+- Disabled Block Breaker & Placer (OpenBlocks)
+- Disabled Annihilation & Formation Plane (Applied Energistics2)
+- Removed Fluid Annihilation & Formation Plane Recipe (ExtraCells)
+- Disabled TransferNode as CobbleGen and TransferNode Particles (Extra Utilities)
+- Custom RF Generators Recipes for Advanced Generators, BuildCraft, EnderIO, Extra Utilities
 
 Mod Updates
 - Minecraft Forge 10.13.3.1391 to 10.13.3.1403
