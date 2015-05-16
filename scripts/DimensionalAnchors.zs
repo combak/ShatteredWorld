@@ -22,8 +22,4 @@ val enderTechResonantExchanger	= <EnderTech:endertech.exchanger:2>;
 
 # Custom Chunk Loader
 recipes.remove( dimAnchorChunkLoader );
-recipes.addShaped( dimAnchorChunkLoader, [ 
-  [ enderTechResonantExchanger, botaniaOverseer, enderTechResonantExchanger ], 
-  [ enderioEnderCrystal, thermExpResonantFrame, enderioEnderCrystal ], 
-  [ appEngCalculationProcessor, forestryIntricateCircuit, appEngEngineeringProcessor ] 
-] );
+recipes.addShaped( dimAnchorChunkLoader, [ [ enderTechResonantExchanger, botaniaOverseer, enderTechResonantExchanger ], [ enderioEnderCrystal, thermExpResonantFrame, enderioEnderCrystal ], [ appEngCalculationProcessor, forestryIntricateCircuit, appEngEngineeringProcessor ] ]);
