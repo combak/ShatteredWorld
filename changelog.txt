@@ -1,6 +1,15 @@
 ============================================================
 Version 0.5.7
 ============================================================
+Config Changes
+- Added Mob Aspects (Thaumcraft - MobAspects)
+- Disabled Nether Quartz Override (Nether Ores)
+- Disabeld QED (Extra Utilities)
+- Added QED Recipes via BC Laser
+
+Mod Additions
+- Darkcore 0.22-24
+- TARDIS Mod 0.9825-98
 
 ============================================================
 Version 0.5.6

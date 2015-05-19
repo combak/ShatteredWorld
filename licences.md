@@ -197,6 +197,20 @@
 
 ## D
 
+**Darkcore**
+> You can:
+> - Distribute jars downloaded from Curse provided this license is applied to those downloads
+> - Decompile and modify the mod for your own Personal use
+> You can't without written permission of the author:
+> - Distribute modified versions of the jars
+> - Make any money from this mod, including via an adwall
+> - Make any money from a work including this mod
+
+- Author: ShaneDarkholme
+- Required for: TARDIS Mod
+- Files: http://minecraft.curseforge.com/mc-mods/230156-darkcore/files
+- Permission: http://minecraft.curseforge.com/mc-mods/230156-darkcore/license
+
 **Draconic Evolution**
 > You CAN:
 > - Use this mod in private or public non profit mod packs
@@ -521,6 +535,19 @@ minecraft original sources.
 - Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
 
 ## T
+
+**TARDIS Mod**
+> You can:
+> - Distribute jars downloaded from Curse provided this license is applied to those
+> - Decompile and modify the mod for your own Personal use
+> You can't without written permission of the author:
+> - Distribute modified versions of the jars
+> - Make any money from this mod
+> - Make any money from any work which includes this mod.
+
+- Author: ShaneDarkholme
+- Files: 
+- Licence: http://minecraft.curseforge.com/mc-mods/230170-tardis-mod/license
 
 **Team CoFH Mods**
 > This is the Internet. Even if you don’t like us (we still like you, really) for some reason, we can’t (and wouldn’t) stop you and maintain any semblance of a moral high ground, so have fun. Permission granted. This was made to be played, after all.
