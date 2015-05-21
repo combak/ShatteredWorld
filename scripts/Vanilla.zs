@@ -73,7 +73,30 @@ val removeSmelting = [
   <ThermalFoundation:material:65>,	/* 13 - Tin Ingot (Thermal Foundation) */
   <TConstruct:materials:10>,		/* 14 - Tin Ingot (Tinkers Construct) */
   <exnihilo:exnihilo.tin_ingot>,	/* 15 - Tin Ingot (Ex Nihilo) */
-  <ThermalFoundation:material:73>	/* 16 - Bronze Ingot (Thermal Foundation) */
+  <ThermalFoundation:material:73>,	/* 16 - Bronze Ingot (Thermal Foundation) */
+  <TConstruct:materials:4>,		/* 17 - Ardite Ingot (Tinkers Construct) */
+  <TConstruct:materials:3>,		/* 18 - Cobalt Ingot (Tinkers Construct) */
+  <TConstruct:materials:5>,		/* 19 - Manyullyn Ingot (Tinkers Construct) */
+  <TConstruct:materials:22>,		/* 20 - Aluminum Nugget (Tinkers Construct) */
+  <TConstruct:materials:11>,		/* 21 - Aluminum Ingot (Tinkers Construct) */
+  <exnihilo:exnihilo.aluminum_ingot>,	/* 22 - Aluminum Ingot (Ex Nihilo) */
+  <TConstruct:materials:14>,		/* 23 - Aluminum Brass Ingot (Tinkers Construct) */
+  <TConstruct:materials:15>,		/* 24 - Alumite Ingot (Tinkers Construct) */
+  <ThermalFoundation:material:66>,	/* 25 - Silver Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.silver_ingot>,	/* 26 - Silver Ingot (Ex Nihilo) */
+  <ThermalFoundation:material:67>,	/* 27 - Lead Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.lead_ingot>,	/* 28 - Lead Ingot (Ex Nihilo) */
+  <ThermalFoundation:material:68>,	/* 29 - Ferrous Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.nickel_ingot>,	/* 30 - Nickel Ingot (Ex Nihilo) */
+  <ThermalFoundation:material:69>,	/* 31 - Shiny Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.platinum_ingot>,	/* 32 - Platinum Ingot (Ex Nihilo) */
+  <ThermalFoundation:material:70>,	/* 33 - Mana Infused Ingot (Thermal Foundation) */
+  <ThermalFoundation:material:71>,	/* 34 - Electrum Ingot (Thermal Foundation) */
+  <ThermalFoundation:material:72>,	/* 35 - Invar Ingot (Thermal Foundation) */
+  <ThermalFoundation:material:74>,	/* 36 - Signalum Ingot (Thermal Foundation) */
+  <ThermalFoundation:material:75>,	/* 37 - Lumium Ingot (Thermal Foundation) */
+  <EnderIO:itemAlloy:5>,		/* 38 - Pulsating Iron (EnderIO) */
+  <EnderIO:itemAlloy:2>			/* 39 - Vibrant Alloy (EnderIO) */
 ] as IItemStack[];
 
 ########################################################################################################################

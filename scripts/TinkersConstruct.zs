@@ -79,6 +79,9 @@ val thermFoundIronNugget 	= <ThermalFoundation:material:8>;
 val thermFoundCopperNugget 	= <ThermalFoundation:material:96>;
 #val thermFoundTinNugget 	= <ThermalFoundation:material:97>;
 val thermFoundBronzeNugget	= <ThermalFoundation:material:105>;
+val thermFoundSilverNugget	= <ThermalFoundation:material:98>;
+val thermFoundLeadNugget	= <ThermalFoundation:material:99>;
+val thermFoundManaInfusedIngot	= <ThermalFoundation:material:70>;
 
 # Botania
 val botaniaManasteelIngot	= <Botania:manaResource>;
@@ -101,7 +104,9 @@ val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
 
 val removeTableRecipes = [
   <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
-  <Thaumcraft:ItemNugget:2>	/* 1 - Tin Nugget */
+  <Thaumcraft:ItemNugget:2>,	/* 1 - Tin Nugget */
+  <Thaumcraft:ItemNugget:3>,	/* 2 - Silver Nugget */
+  <Thaumcraft:ItemNugget:4>	/* 3 - Lead Nugget */
 ] as IItemStack[];
 
 ########################################################################################################################
@@ -120,6 +125,9 @@ val frFluxedElectrum	= <liquid:molten_fluxed_electrum>;
 val frRedstone		= <liquid:redstone.molten>;
 val frPulsatingIron	= <liquid:molten_pulsating_iron>;
 val frVibrantAlloy	= <liquid:molten_vibrant_alloy>;
+val frSilver		= <liquid:silver.molten>;
+val frLead		= <liquid:lead.molten>;
+val frManaInfusedMetal	= <liquid:mithril.molten>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -202,6 +210,15 @@ mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[2], frTin * 16, tConst
 # Bronze Nugget casting
 #mods.tconstruct.Casting.removeTableRecipe( thermFoundBronzeNugget );
 #mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[9], frBronze * 16, tConstructNuggetCast, false, 20 );
+
+# Silver Nugget casting
+mods.tconstruct.Casting.addTableRecipe( thermFoundSilverNugget, frSilver * 16, tConstructNuggetCast, false, 20 );
+
+# Lead Nugget casting
+mods.tconstruct.Casting.addTableRecipe( thermFoundLeadNugget, frLead * 16, tConstructNuggetCast, false, 20 );
+
+# Mana Infused Ingut casting
+mods.tconstruct.Casting.addTableRecipe( thermFoundManaInfusedIngot, frManaInfusedMetal * 144, tConstructIngotCast, false, 20 );
 
 # Redstone Block
 mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 1296, null, false, 20);

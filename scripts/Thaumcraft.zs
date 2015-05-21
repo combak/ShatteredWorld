@@ -6,7 +6,9 @@ import minetweaker.item.IItemStack;
 
 val ThaumcraftNuggets = [
   <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
-  <Thaumcraft:ItemNugget:2>	/* 1 - Tin Nugget */
+  <Thaumcraft:ItemNugget:2>,	/* 1 - Tin Nugget */
+  <Thaumcraft:ItemNugget:3>,	/* 2 - Silver Nugget */
+  <Thaumcraft:ItemNugget:4>	/* 3 - Lead Nugget */
 ] as IItemStack[];
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
