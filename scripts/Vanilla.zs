@@ -58,17 +58,19 @@ val tinersCopperIngot 	= <TConstruct:materials:9>;
 # Remove from Furnace
 val removeSmelting = [
   <TConstruct:materials:19>,		/*  0 - Iron Nugget (Tinkers Construct) */
-  <minecraft:gold_nugget>,		/*  1 - Gold Nugget (Vanilla) */
-  <TConstruct:materials:20>,		/*  2 - Copper Nugget (Tinkers Construct) */
-  <Forestday:fd.item.ingot>,		/*  3 - Copper Ingot (Forest Day) */
-  <Forestry:ingotCopper>,		/*  4 - Copper Ingot (Forestry) */
-  <ThermalFoundation:material:64>,	/*  5 - Copper Ingot (Thermal Foundation) */
-  <exnihilo:exnihilo.copper_ingot>,	/*  6 - Copper Ingot (Ex Nihilo) */
-  <Forestday:fd.item.ingot:1>,		/*  7 - Tin Ingot (Forest Day) */
-  <Forestry:ingotTin>,			/*  8 - Tin Ingot (Forestry) */
-  <ThermalFoundation:material:65>,	/*  9 - Tin Ingot (Thermal Foundation) */
-  <exnihilo:exnihilo.tin_ingot>,	/* 10 - Tin Ingot (Ex Nihilo) */
-  <ThermalFoundation:material:73>	/* 11 - Bronze Ingot (Thermal Foundation) */
+  <minecraft:iron_ingot>,		/*  1 - Iron Ingot (Vanilla) */
+  <minecraft:gold_nugget>,		/*  2 - Gold Nugget (Vanilla) */
+  <minecraft:gold_ingot>,		/*  3 - Gold Ingot (Vanilla) */
+  <TConstruct:materials:20>,		/*  4 - Copper Nugget (Tinkers Construct) */
+  <Forestday:fd.item.ingot>,		/*  5 - Copper Ingot (Forest Day) */
+  <Forestry:ingotCopper>,		/*  6 - Copper Ingot (Forestry) */
+  <ThermalFoundation:material:64>,	/*  7 - Copper Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.copper_ingot>,	/*  8 - Copper Ingot (Ex Nihilo) */
+  <Forestday:fd.item.ingot:1>,		/*  9 - Tin Ingot (Forest Day) */
+  <Forestry:ingotTin>,			/* 10 - Tin Ingot (Forestry) */
+  <ThermalFoundation:material:65>,	/* 11 - Tin Ingot (Thermal Foundation) */
+  <exnihilo:exnihilo.tin_ingot>,	/* 12 - Tin Ingot (Ex Nihilo) */
+  <ThermalFoundation:material:73>	/* 13 - Bronze Ingot (Thermal Foundation) */
 ] as IItemStack[];
 
 ########################################################################################################################
