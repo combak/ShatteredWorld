@@ -1,13 +1,19 @@
+import minetweaker.item.IItemStack;
 
 ########################################################################################################################
 # Items
 ########################################################################################################################
 
-val thaumcraftIronNugget = <Thaumcraft:ItemNugget>;
-
+val ThaumcraftNuggets = [
+  <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
+  <Thaumcraft:ItemNugget:2>	/* 1 - Tin Nugget */
+] as IItemStack[];
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
 
-#Removed Iron Ingot to Nugget
-recipes.remove( thaumcraftIronNugget );
+# Remove Ingot to Nugget Crafting
+for i, nugget in ThaumcraftNuggets
+{
+  recipes.remove( nugget );
+}

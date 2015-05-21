@@ -77,7 +77,7 @@ val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
 # Thermal Foundation
 val thermFoundIronNugget 	= <ThermalFoundation:material:8>;
 val thermFoundCopperNugget 	= <ThermalFoundation:material:96>;
-val thermFoundTinNugget 	= <ThermalFoundation:material:97>;
+#val thermFoundTinNugget 	= <ThermalFoundation:material:97>;
 val thermFoundBronzeNugget	= <ThermalFoundation:material:105>;
 
 # Botania
@@ -99,8 +99,10 @@ val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
 val enderioVibrantAlloyNugget	= <EnderIO:itemMaterial:4>;
 val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
 
-# Thaumcraft
-val thaumcraftIronNugget = <Thaumcraft:ItemNugget>;
+val removeTableRecipes = [
+  <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
+  <Thaumcraft:ItemNugget:2>	/* 1 - Tin Nugget */
+] as IItemStack[];
 
 ########################################################################################################################
 # Fluid Registry
@@ -145,8 +147,11 @@ for i, block in tConstructBlockOf
 # Machine -  Smeltery
 ########################################################################################################################
 
-# Removed Thaumcraft Iron Nugget
-mods.tconstruct.Casting.removeTableRecipe( thaumcraftIronNugget );
+# Remove Table Casting
+for i, cast in removeTableRecipes
+{
+  mods.tconstruct.Casting.removeTableRecipe( cast );
+}
 
 # Manasteel
 mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, frManasteel * 144, 500, botaniaManasteelBlock );
@@ -192,7 +197,7 @@ mods.tconstruct.Casting.addBasinRecipe( gardStuffWroughtIronBlock, frWroughtIron
 
 # Tin Nugget casting
 #mods.tconstruct.Casting.removeTableRecipe( thermFoundTinNugget );
-#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[2], frTin * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[2], frTin * 16, tConstructNuggetCast, false, 20 );
 
 # Bronze Nugget casting
 #mods.tconstruct.Casting.removeTableRecipe( thermFoundBronzeNugget );
