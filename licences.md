@@ -546,7 +546,7 @@ minecraft original sources.
 > - Make any money from any work which includes this mod.
 
 - Author: ShaneDarkholme
-- Files: 
+- Files: http://minecraft.curseforge.com/mc-mods/230170-tardis-mod/files
 - Licence: http://minecraft.curseforge.com/mc-mods/230170-tardis-mod/license
 
 **Team CoFH Mods**
