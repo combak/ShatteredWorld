@@ -6,6 +6,7 @@ Config Changes
 - Disabled Nether Quartz Override (Nether Ores)
 - Disabeld QED (Extra Utilities)
 - Added QED Recipes via BC Laser
+- Removed Tardis Recipes (OP only)
 
 Mod Additions
 - Darkcore 0.22-24

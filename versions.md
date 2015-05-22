@@ -27,6 +27,7 @@
 - customitems-1.0.9_beta_1.7.10.jar
 - CustomMainMenu-MC1.7.10-1.4.jar
 - CustomNPCs_1.7.10d.jar
+- darkcore-0.22-24.jar
 - dimensional-anchor-59.0.2.jar
 - Draconic-Evolution-1.7.10-1.0.1c.jar
 - Enchiridion-1.7.X-1.2b.jar
@@ -79,6 +80,7 @@
 - SimplyJetpacks-MC1.7.10-1.4.1.jar
 - SpiceOfLife-mc1.7.10-1.2.3.jar
 - StorageDrawers-1.7.10-1.4.6.jar
+- tardismod-1.7.10-0.9825-98.jar
 - TConstruct-1.7.10-1.8.5.jar
 - Thaumcraft-1.7.10-4.2.3.5.jar
 - ThaumcraftMobAspects-1.7.2-2A.jar
