@@ -14,18 +14,19 @@ val harvCraftButter	= <harvestcraft:butterItem>;
 # Ore Dictionary
 ########################################################################################################################
 
-val odEgg = <ore:listAllegg>;
-val odSpagetti = <ore:foodSpagetti>;
-val odSoup = <ore:foodSoup>;
-val odBurger = <ore:foodBurger>;
-val odSmoothie = <ore:foodSmoothie>;
-val odYogurt = <ore:foodYogurt>;
-val odSandwich = <ore:foodSandwich>;
-val odSalad = <ore:foodSalad>;
-val odJuice = <ore:listAlljuice>;
-val odSoda = <ore:foodSoda>;
-val odIceCream = <ore:listAllicecream>;
-val odJelly = <ore:listAlljelly>;
+val odEgg	= <ore:listAllegg>;
+val odSpagetti	= <ore:foodSpagetti>;
+val odSoup	= <ore:foodSoup>;
+val odBurger	= <ore:foodBurger>;
+val odSmoothie	= <ore:foodSmoothie>;
+val odYogurt	= <ore:foodYogurt>;
+val odSandwich	= <ore:foodSandwich>;
+val odSalad	= <ore:foodSalad>;
+val odJuice	= <ore:listAlljuice>;
+val odSoda	= <ore:foodSoda>;
+val odIceCream	= <ore:listAllicecream>;
+val odJelly	= <ore:listAlljelly>;
+val odFruit	= <ore:listAllfruit>;
 
 ########################################################################################################################
 # Ore Dictionary Changes
@@ -212,6 +213,9 @@ odJelly.add( <harvestcraft:apricotjellyItem> );
 odJelly.add( <harvestcraft:figjellyItem> );
 odJelly.add( <harvestcraft:grapefruitjellyItem> );
 odJelly.add( <harvestcraft:persimmonjellyItem> );
+
+# Fruit
+odFruit.add( <minecraft:melon> );
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
