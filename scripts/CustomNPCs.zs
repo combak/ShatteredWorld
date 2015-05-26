@@ -2,10 +2,10 @@
 # Items
 ###################################################################################################################
 
-val CustNPCbulletDia = <customnpcs:npcDiamondBullet>;
+val custNPCbulletDia = <customnpcs:npcDiamondBullet>;
 
 ###################################################################################################################
 # Recipe Removals
 ###################################################################################################################
 
-recipes.remove ( CustNPCbulletDia );
+recipes.remove ( custNPCbulletDia );
