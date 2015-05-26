@@ -196,20 +196,17 @@ mods.tconstruct.Casting.addBasinRecipe( gardStuffWroughtIronBlock, frWroughtIron
 #mods.tconstruct.Casting.addBasinRecipe( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, null, false, 20);
 
 # Iron Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermFoundIronNugget );
-#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[0], frIron * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[0], frIron * 16, tConstructNuggetCast, false, 20 );
 
 # Copper Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermFoundCopperNugget );
-#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[1], frCopper * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[1], frCopper * 16, tConstructNuggetCast, false, 20 );
 
 # Tin Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermFoundTinNugget );
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[2], frTin * 16, tConstructNuggetCast, false, 20 );
 
 # Bronze Nugget casting
-#mods.tconstruct.Casting.removeTableRecipe( thermFoundBronzeNugget );
-#mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[9], frBronze * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.removeTableRecipe( thermFoundBronzeNugget );
+mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[9], frBronze * 16, tConstructNuggetCast, false, 20 );
 
 # Silver Nugget casting
 mods.tconstruct.Casting.addTableRecipe( thermFoundSilverNugget, frSilver * 16, tConstructNuggetCast, false, 20 );
