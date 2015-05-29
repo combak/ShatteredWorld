@@ -102,6 +102,9 @@ val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
 val enderioVibrantAlloyNugget	= <EnderIO:itemMaterial:4>;
 val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
 
+# AgriCraft
+val agriCraftDiamondNugget = <AgriCraft:nuggetDiamond>;
+
 val removeTableRecipes = [
   <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
   <Thaumcraft:ItemNugget:2>,	/* 1 - Tin Nugget */
@@ -128,6 +131,7 @@ val frVibrantAlloy	= <liquid:molten_vibrant_alloy>;
 val frSilver		= <liquid:silver.molten>;
 val frLead		= <liquid:lead.molten>;
 val frManaInfusedMetal	= <liquid:mithril.molten>;
+val frAluminumBrass	= <liquid:aluminumbrass.molten>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -235,3 +239,6 @@ mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyBlock, frVibrantAlloy * 
 mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyNugget, frVibrantAlloy * 16, tConstructNuggetCast, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyIngot, frVibrantAlloy * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, null, false, 20);
+
+# Nugget Cast with Diamond Nugget
+mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
