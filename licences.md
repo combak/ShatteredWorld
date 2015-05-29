@@ -159,13 +159,6 @@
 - Files: http://minecraft.curseforge.com/mc-mods/225236-chisel-2/files
 - Licence: https://github.com/TheCricket/Chisel-2/blob/master/LICENSE
 
-**Compact Machines**
-> GNU General Public License
-
-- Author: Davenonymous
-- Files: http://minecraft.curseforge.com/mc-mods/224218-compact-machines/files
-- Licence: https://github.com/thraaawn/CompactMachines/blob/master/COPYING
-
 **CookieCore**
 > You're free to include this mod in any modpack
 
@@ -383,6 +376,14 @@
 - Licence: https://github.com/progwml6/ironchest/blob/master/README.md
 
 ## L
+
+**Limited Resources**
+> GNU Lesser General Public License v3
+
+- Author: DerOli82
+- Files: Coming soon
+- Licence: Coming soon
+
 
 **Lycanite's Mobs**
 > Feel free to include this mod in your public/private mod pack! I strongly believe that all mods should be allowed in public packs as sharing should be in the spirit of the Minecraft community! Please provide credit to me (Lycanite) and a link to the mod website.

@@ -8,6 +8,14 @@ Config Changes
 - 1 Log = 2 Planks Great-/Silverwood (Thaumcraft)
 - 1 Log = 2 Planks Witchwood (Ars Magica2)
 - Added Nugget Cast Recipie with Diamond Nugget (Tinkers Construct)
+- Added Carrot, Plum, Pear, Apricot, Fig and Persimmon Juice to Food Group
+- Added Limited Resources 2xCrucible (Ex Nihilo) per Player
+- Added Limited Resources 3xAutomatic Sieves (Ex Astris) per Player
+- Added Limited Resources 1xAutimatic Hammerer (Ex Astris)per Player
+- Added Limited Resources 1xIqneous Extruder (Thermal Expansion) per Player
+
+Mod Additions
+- Limited Resources 0.8.0
 
 Mod Removed
 - Compact Machines
