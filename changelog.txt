@@ -1,6 +1,16 @@
 ============================================================
 Version 0.5.8
 ============================================================
+Config Changes
+- Added Melons to Foodgroup Fruit (Spice of Life)
+- Removed Diamond Bullet (CustomNPCs)
+- Raised Aluminumdrop (Ex Nihilo)
+- 1 Log = 2 Planks Great-/Silverwood (Thaumcraft)
+- 1 Log = 2 Planks Witchwood (Ars Magica2)
+- Added Nugget Cast Recipie with Diamond Nugget (Tinkers Construct)
+
+Mod Removed
+- Compact Machines
 
 ============================================================
 Version 0.5.7
