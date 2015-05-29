@@ -168,6 +168,12 @@ odSalad.add( <harvestcraft:citrussaladItem> );
 
 # Juice
 odJuice.add( <harvestcraft:grapefruitjuiceItem> );
+odJuice.add( <harvestcraft:carrotjuiceItem> );
+odJuice.add( <harvestcraft:plumjuiceItem> );
+odJuice.add( <harvestcraft:pearjuiceItem> );
+odJuice.add( <harvestcraft:apricotjuiceItem> );
+odJuice.add( <harvestcraft:figjuiceItem> );
+odJuice.add( <harvestcraft:persimmonjuiceItem> );
 
 # Soda
 odSoda.add( <harvestcraft:cherrysodaItem> );
