@@ -132,6 +132,7 @@ val frSilver		= <liquid:silver.molten>;
 val frLead		= <liquid:lead.molten>;
 val frManaInfusedMetal	= <liquid:mithril.molten>;
 val frAluminumBrass	= <liquid:aluminumbrass.molten>;
+val frGold		= <liquid:gold.molten>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -242,3 +243,4 @@ mods.tconstruct.Casting.addBasinRecipe( enderioVibrantAlloyBlock, frVibrantAlloy
 
 # Nugget Cast with Diamond Nugget
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
+mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frGold * 288, agriCraftDiamondNugget, true, 20 );
