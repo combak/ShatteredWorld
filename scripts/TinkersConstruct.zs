@@ -192,12 +192,12 @@ mods.tconstruct.Casting.addTableRecipe( gardStuffWroughtIronIngot, frWroughtIron
 mods.tconstruct.Casting.addBasinRecipe( gardStuffWroughtIronBlock, frWroughtIron * 1296, null, false, 20);
 
 # Fluxed Electrum
-#mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, 500, rsArsenalFluxedElectrumBlock );
-#mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, 500, rsArsenalFluxedElectrumBlock );
-#mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, 500, rsArsenalFluxedElectrumBlock );
-#mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, tConstructNuggetCast, false, 20 );
-#mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, tConstructIngotCast, false, 20 );
-#mods.tconstruct.Casting.addBasinRecipe( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, null, false, 20);
+mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, 500, rsArsenalFluxedElectrumBlock );
+mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, 500, rsArsenalFluxedElectrumBlock );
+mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, 500, rsArsenalFluxedElectrumBlock );
+mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, null, false, 20);
 
 # Iron Nugget casting
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[0], frIron * 16, tConstructNuggetCast, false, 20 );
