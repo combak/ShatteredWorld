@@ -14,6 +14,9 @@ Config Changes
 - Added Limited Resources 1xAutimatic Hammerer (Ex Astris)per Player
 - Added Limited Resources 1xIqneous Extruder (Thermal Expansion) per Player
 
+Mod Updates
+- Minecraft Forge 10.13.3.1403 to 10.13.3.1408
+
 Mod Additions
 - Limited Resources 0.8.0
 
