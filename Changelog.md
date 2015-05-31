@@ -1,7 +1,8 @@
-============================================================
-Version 0.5.8
-============================================================
-Config Changes
+# Changelog
+
+# Version 0.5.8
+
+**Config Changes**
 - Added Melons to Foodgroup Fruit (Spice of Life)
 - Removed Diamond Bullet (CustomNPCs)
 - Raised Aluminumdrop (Ex Nihilo)
@@ -14,33 +15,33 @@ Config Changes
 - Added Limited Resources 1xAutimatic Hammerer (Ex Astris)per Player
 - Added Limited Resources 1xIqneous Extruder (Thermal Expansion) per Player
 
-Mod Updates
+**Mod Updates**
 - Minecraft Forge 10.13.3.1403 to 10.13.3.1408
 
-Mod Additions
+**Mod Additions**
 - Limited Resources 0.8.0
 
-Mod Removed
+**Mod Removed**
 - Compact Machines
 
-============================================================
-Version 0.5.7
-============================================================
-Config Changes
+
+# Version 0.5.7
+
+**Config Changes**
 - Added Mob Aspects (Thaumcraft - MobAspects)
 - Disabled Nether Quartz Override (Nether Ores)
 - Disabeld QED (Extra Utilities)
 - Added QED Recipes via BC Laser
 - Removed Tardis Recipes (OP only)
 
-Mod Additions
+**Mod Additions**
 - Darkcore 0.22-24
 - TARDIS Mod 0.9825-98
 
-============================================================
-Version 0.5.6
-============================================================
-Config Changes
+
+# Version 0.5.6
+
+**Config Changes**
 - Changed to ops only. Disabled Update Notification and ChatBubbles (Custom NPCs)
 - Disabled Block Breaker & Placer (OpenBlocks)
 - Disabled Annihilation & Formation Plane (Applied Energistics2)
@@ -48,7 +49,7 @@ Config Changes
 - Disabled TransferNode as CobbleGen and TransferNode Particles (Extra Utilities)
 - Custom RF Generators Recipes for Advanced Generators, BuildCraft, EnderIO, Extra Utilities
 
-Mod Updates
+**Mod Updates**
 - Minecraft Forge 10.13.3.1391 to 10.13.3.1403
 
 - Botania r1.6-174 to r1.6-188
@@ -77,26 +78,26 @@ Mod Updates
 - TiCTooltips 1.2.3 to 1.2.4
 - Tinkers Construct 1.8.4a to 1.8.5
 
-============================================================
-Version 0.5.5
-============================================================
-Config Changes
+
+# Version 0.5.5
+
+**Config Changes**
 - Increased Auto Sieve Energy Cost (Ex Astris)
 - Disabled Draconic Staff of Power (Draconic Evolution)
 - Custom AutoPackager Recipe
 - Decreased Draconium dropchance (Ex Astris)
 
-Mod Additions
+**Mod Additions**
 - Thaumcraft Mob Aspects 1.7.2-2A
 - Custom NPCs 1.7.10d
 
-Mod Removed
+**Mod Removed**
 - Magic Bees
 
-============================================================
-Version 0.5.4
-============================================================
-Config Changes
+
+# Version 0.5.4
+
+**Config Changes**
 - Fixed Mana Spreader Recipe & Code Style
 - Raised Tank Capacity (EnderTech)
 - Whitelisted Forbidden Magic Tools and Weapons (Iquana Tweaks for Tinkers)
@@ -107,17 +108,17 @@ Config Changes
 - Disabled Fire & Nitor as Crucible Heat Source
 - 1 Log = 2 Planks (Extra Trees)
 
-Mod Updates
+**Mod Updates**
 - Applied energistics2 rv2-beta-31 to rv2-stable-1
 - CodeChickenCore 1.0.4.35 to 1.0.6.43
 - NEI Addons 1.12.5.17 to 1.12.7.21
 - NEI Integration 1.0.7 to 
 - NotEnoughItems 1.0.4.95 to 1.0.4.106
 
-============================================================
-Version 0.5.3
-============================================================
-Config Changes
+
+# Version 0.5.3
+
+**Config Changes**
 - Reworked Iquana Tweaks Tool restrictions
 - Added Crafting Ore Block Recipes via BC Laser
 - Custom Vanilla Bowl Recipe
@@ -130,19 +131,19 @@ Config Changes
 - Ex Nihilo Output Balacing
 - Reduced Nether Ore Gen 
 
-Mod Additions
+**Mod Additions**
 - Nether Ores 2.3.0-12
 
-Mod Updates
+**Mod Updates**
 - Applied Energistics2- v2-alpha-29 to rv2-beta-31
 - ModTweaker2 0.7.5 to 0.8.1
 - Ex Nihilo 1.38-31 to 1.38-36
 - Forest-Day 1.4.0f to 1.4.0i
 
-============================================================
-Version 0.5.2
-============================================================
-Config Changes
+
+# Version 0.5.2
+
+**Config Changes**
 - AE2 Inscriber via BuildCraft Assembly Table
 - Fix some script errors in Thermal Expansion and Tinkers Construct (Ore Processing)
 - Removed Default Inscriber Press Recipes
@@ -152,10 +153,10 @@ Config Changes
 - Custom Piston Recipe
 - Custom Blood Altar Recipe
 
-Mod Additions
+**Mod Additions**
 - AutoPackager 1.5.3
 
-Mod Updates
+**Mod Updates**
 - CoFH Core 3.0.0RC7-243 to 3.0.2-262
 - Thermal Expansion 4.0.0RC7-164 to 4.0.1-182
 - Thermal Foundation 1.0.0RC7-77 to 1.0.0-81
@@ -163,9 +164,9 @@ Mod Updates
 - Tinker's Construct 1.8.3b to 1.8.4a
 - Forestry 3.5.3.11 to 3.5.4.13
 
-============================================================
-Version 0.5.1 
-============================================================
+
+# Version 0.5.1 
+
 - Disabled Mining Well/Quarry (BuildCraft)
 - Disabled Genetics (Binnie Mods)
 - Raised Nodedensity and RP Scanning Soft Cap (Thaumcraft)
@@ -178,18 +179,18 @@ Version 0.5.1
 - Allowed RedstoneArsenal Tools&Weapons (by Iquana Tweaks for Tinkers)
 - Allowed The Ender& Unstable Weapons/tools Extra Utils (by Iquana Tweaks for Tinkers)
 
-Mod Updates
+**Mod Updates**
 - Forest Day 1.4c to 1.4.0f
 - Resource Loader 1.1 to 1.2
 
-Mod Removed
+**Mod Removed**
 - ChickenChunks (Dimensional Anchors can be used as personal and server)
 
-============================================================
-Version 0.5.0
-============================================================
 
-Mod Additions
+# Version 0.5.0
+
+
+**Mod Additions**
 - Adv. Generators 0.9.12.64
 - Carpenter's Blocks 3.3.6
 - Chisel2 2.3.10.37
@@ -206,28 +207,28 @@ Mod Additions
 - Magic Bees 2.2.3
 - Backpacks 3.0.3
 
-============================================================
-Version 0.4.1
-============================================================
-Config Changes
+
+# Version 0.4.1
+
+**Config Changes**
 - Updated Custom Main Menu 
 - Allowed Fluxed Infused Hammer (Ex Astris)
 
-Mod Downgrades
+**Mod Downgrades**
 . Iron Chest MC 1.8 to 1.7.10 (my fault ^^)
 
-Mod Removed
+**Mod Removed**
 - No More Recipe Conflict (not supported anymore)
 
-============================================================
-Version 0.4.0 
-============================================================
-Config Changes
+
+# Version 0.4.0 
+
+**Config Changes**
 - Balancing Ex Astris
 - Enabled Gravestone (OpenBlocks)
 - Disabled Harvestcraft Gardens and added some grass drops
 
-Mod Additions
+**Mod Additions**
 - BuildCraft 6.4,12
 - BuildCraftCompat 6.4.2
 - BuildCraft Additions 2.1.2
@@ -239,29 +240,29 @@ Mod Additions
 - Thaumcraft - Forbidden Magic 0.562
 - Thaumcraft - Magicstics 0.7.6
 
-Mod Updates
+**Mod Updates**
 - MineTweaker3 3.0.9 to 3.0.9C
 
-============================================================
-Version 0.3.0c
-============================================================
+
+# Version 0.3.0c
+
 - Added 1.7.10.json to request Guava Libs v16
 
-============================================================
-Version 0.3.0b
-============================================================
-Mod Updates
+
+# Version 0.3.0b
+
+**Mod Updates**
 - Minecraft Forge 10.13.3.1389 to 10.13.3.1391
 
-============================================================
-Version 0.3.0a
-============================================================
+
+# Version 0.3.0a
+
 - Fixed wrong packaging
 
-============================================================
-Version 0.3.0
-============================================================
-Config Changes
+
+# Version 0.3.0
+
+**Config Changes**
 - Added Redstone Block Cast
 - Added Food Groups
 - Chunk Loader requires Fuel (Solid Ender=5hours) and Online Player (Dimensional Anchors)
@@ -270,7 +271,7 @@ Config Changes
 - Reduced Aluminum Droprate (Ex Nihilo)
 - Added Sky Stone Recipe
 
-Mod Additions
+**Mod Additions**
 - Custom Main Menu 1.4
 - Resource Loader 1.1
 - ttCore 0.1.0-67
@@ -280,31 +281,31 @@ Mod Additions
 - Opis 1.2.5
 - Inventory Tweaks 1.58-147
 
-Mod Updates
+**Mod Updates**
 - Minecraft Forge 10.13.3.1355 to 10.13.3.1389
 
-Mod Removed
+**Mod Removed**
 - JourneyMap (Not allowed by licence)
 
-============================================================
-Version 0.2.1
-============================================================
-Config Changes
+
+# Version 0.2.1
+
+**Config Changes**
 - Enabed Hammer Recipes (Ex Nihilo)
 - Enabed Resource Crops (Agricraft)
 - Added Custom Molten Liquids for Nugget/Block Casts
 - Tier1+2 Weapons (Tinkers Construct)
 - Balancing Ore Processing 
 
-Mod Additions
+**Mod Additions**
 - CustomItems 1.0.9 beta
 
-============================================================
-Version 0.2.0 
-============================================================
+
+# Version 0.2.0 
+
 Modpack Name changed to "Shattered World"
 
-Config Changes
+**Config Changes**
 - Reduced Harvestcraft Garden Drops & Increased Garden Rarity
 - Tinkers Tier 2 Tools craftable
 - Disabled Barley & Cotton (Natura)
@@ -316,7 +317,7 @@ Config Changes
 - Disabled Vanilla Furnace Recipes for Alloy Smelter (EnderIO)
 - Balancing Ore Processing 
 
-Mod Additions
+**Mod Additions**
 - Hardcore Darkness 1.4
 - Ars Magica 1.4.0.008
 - Lycanites Mobs 1.10.13.2
@@ -324,50 +325,50 @@ Mod Additions
 - Immibis Core 59.0.8
 - Dimensional Anchors 59.0.2
 
-============================================================
-Version 0.1.4
-============================================================
-Config Changes
+
+# Version 0.1.4
+
+**Config Changes**
 - Removed simple Nugget, Ingot and Block Crafting Recipes
 - Corrected Sticks Crafting with 2x2 Crafting Grid
 
-Mod Additions
+**Mod Additions**
 - Fun World Generation 1.0.3
 
-Mod Removed
+**Mod Removed**
 - Mariculture
 
-============================================================
-Version 0.1.3
-============================================================
-Config Changes
+
+# Version 0.1.3
+
+**Config Changes**
 - Corrected Logs Shaped to Shapless Crafting
 - Added Custom Tinkers Smelting Recipes
 - Tinkers Tier 1 Tools craftable
 - Disabled Barrel, Crook, Crucible, Hammer & Silkworm (Ex Nihilo)
 - Doubled EnderTech Tank Capacity
 
-Mod Additions
+**Mod Additions**
 -  JourneyMap 5.0.1 Unlimited
 
-============================================================
-Version 0.1.2
-============================================================
-Config Changes
+
+# Version 0.1.2
+
+**Config Changes**
 - Change Recipes 1 Log = 2 Planks = 2 Sticks
 - Balancing Stuff (Agricraft, Tinkers Construct/Iquana Tweaks)
 - Disabled EnderLilies (ExtraUtillities)
 - Disabled Redwood Trees (Natura)
 
-Mod Additions
+**Mod Additions**
 - GardenStuff 1.6.1
 - TiC Tooltips 1.2.3
 - Ex-Nihilo 1.38-31
 
-============================================================
-Version 0.1.1
-============================================================
-Config Changes
+
+# Version 0.1.1
+
+**Config Changes**
 - Disabled OreGen (All) and OreBushes (Tinkers Construct)
 - Disabled Harvestcraft Bees
 - Disabled Mark of the Falling Tower (Blood Magic)
@@ -377,9 +378,9 @@ Config Changes
 - Start some balancing settings for Agricraft
 - Disabled Drums, EnderQuarry, SuperWateringCan (ExtraUtillities)
 
-Mod Updates
+**Mod Updates**
 - Forest Day 1.4.0a to 1.4.0c
 - ExtraCells 2.2.67b NIGHTLY to 2.2.68b NIGHTLY
 
-Mod Additions
+**Mod Additions**
 - INpureCore 1.0.0B9-54
