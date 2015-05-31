@@ -382,7 +382,7 @@
 
 - Author: DerOli82
 - Files: Coming soon
-- Licence: Coming soon
+- Licence: https://github.com/DerOli82/LimitedResources/blob/master/Licence.md
 
 
 **Lycanite's Mobs**
