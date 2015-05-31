@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#L), [M](#m), [N](#n), [O](#o), [P](#p), Q, [R](#r), [S](#s), [T](#t), U, V, [W](#w), X, Y, Z
+[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#l), [M](#m), [N](#n), [O](#o), [P](#p), Q, [R](#r), [S](#s), [T](#t), U, V, [W](#w), X, Y, Z
 
 
 ## A
