@@ -1,5 +1,5 @@
 ## Forge
-- forge-1.7.10-10.13.3.1408-1.7.10
+- forge-1.7.10-10.13.3.1403-1.7.10
 
 ## mods
 - ae2stuff-1.7.10-0.1.7.17.jar
@@ -22,6 +22,7 @@
 - chisel2-1.7.10-2.3.10.37.jar
 - codechickencore-1.7.10-1.0.6.43.jar
 - cofhcore-1.7.10-3.0.2-262.jar
+- compactmachines-1.7.10-1.18.jar
 - cookiecore-1.7.10-1.3.1-7.jar
 - customitems-1.7.10-1.0.9beta.jar
 - custommainmenu-1.7.10-1.4.jar
@@ -52,7 +53,6 @@
 - inpurecore-1.7.10-1.0.0B9-60.jar
 - inventorytweaks-1.7.10-1.58-147.jar
 - ironchest-1.7.10-6.0.62.742.jar
-- limitedresources-1.7.10-0.8.0.jar
 - lycanitesmobscomplete-1.7.10-1.10.14.0.jar
 - magistics-1.7.10-0.7.6.jar
 - mantle-1.7.10-0.3.2.jar
