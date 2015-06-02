@@ -17,6 +17,7 @@
 
 **Mod Updates**
 - Minecraft Forge 10.13.3.1403 to 10.13.3.1408
+-- Lycanites Mobs 1.10.14.0 to 10-1.11.0.1
 
 **Mod Additions**
 - Limited Resources 0.8.0
