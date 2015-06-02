@@ -381,7 +381,7 @@
 > GNU Lesser General Public License v3
 
 - Author: DerOli82
-- Files: Coming soon
+- Files: http://minecraft.curseforge.com/mc-mods/231186-limited-resources/files
 - Licence: https://github.com/DerOli82/LimitedResources/blob/master/Licence.md
 
 
