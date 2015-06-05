@@ -6,6 +6,7 @@ import minetweaker.item.IItemStack;
 
 # Vanilla
 val vanillaPiston = <minecraft:piston>;
+val vanillaBrewingStand = <minecraft:brewing_stand> ;
 
 val vanillaLogs = [
   <minecraft:log>,		/* 0 - Oak */
@@ -35,6 +36,9 @@ val vanillaBlockOf = [
 # Botania
 val botaniaLivingRock	= <Botania:livingrock:1>;
 
+# Thaumcraft
+val thaumCraftArcaneBrick = <Thaumcraft:blockCosmeticSolid:7>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -53,7 +57,8 @@ val vanillaIngots = [
 val thermalServo = <ThermalExpansion:material>;
 
 # Tinkers
-val tinersCopperIngot 	= <TConstruct:materials:9>;
+val tinersCopperIngot 	= <TConstruct:materials:9>; #Wofür ist der , Oli?#
+val TConstructToughRodSilver = <TConstruct:toughRod:1023> ;
 
 # Remove from Furnace
 val removeSmelting = [
@@ -130,6 +135,10 @@ recipes.addShaped( stick * 2, [ [ null, odPlank ], [ null, odPlank ] ] );
 # Custom Piston
 recipes.remove( vanillaPiston );
 recipes.addShaped( vanillaPiston, [ [ odSlabWood, odSlabWood, odSlabWood ], [ botaniaLivingRock, odIronRod, botaniaLivingRock ], [ botaniaLivingRock, thermalServo, botaniaLivingRock ] ] );
+
+# Custom Brewing Stand
+recipes.remove ( vanillaBrewingStand );
+recipes.addShaped ( vanillaBrewingStand, [ [ null, TConstructToughRodSilver, null ], [ thaumCraftArcaneBrick, thaumCraftArcaneBrick, thaumCraftArcaneBrick ], [ null, null, null ] ] );
 
 # Custom Bowl
 recipes.remove( vanillaBowl );
