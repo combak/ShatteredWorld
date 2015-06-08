@@ -205,7 +205,16 @@ val foodGroupJelly = [
 ] as IItemStack[];
 
 val foodGroupFruit = [
-  <minecraft:melon>				/*  0 - Melon */
+  <minecraft:melon>,				/* 0 - Melon */
+  <Natura:berry.nether>,			/* 1 - Blightberry */
+  <Natura:berry.nether:1>,			/* 2 - Duskberry */
+  <Natura:berry.nether:2>,			/* 3 - Skyberry */
+  <Natura:berry.nether:3>,			/* 4 - Stingberry */
+  <Natura:berry>,				/* 5 - Raspberry */
+  <Natura:berry:1>,				/* 6 - Blueberry */
+  <Natura:berry:2>,				/* 7 - Blackberry */
+  <Natura:berry:3>,				/* 8 - Maloberry */
+  <Natura:berryMedley>				/* 9 - Berry Medlay */
 ] as IItemStack[];
 
 ########################################################################################################################
