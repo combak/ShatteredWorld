@@ -33,6 +33,8 @@ val vanillaBlockOf = [
   <minecraft:emerald_block>	/* 3 - Emerald */
 ] as IItemStack[];
 
+val vanillaChest = <minecraft:chest>;
+
 # Botania
 val botaniaLivingRock	= <Botania:livingrock:1>;
 
@@ -108,6 +110,7 @@ val removeSmelting = [
 # Ore Dictionary
 ########################################################################################################################
 
+val odLog	= <ore:logWood>;
 val odPlank 	= <ore:plankWood>;
 val odSlabWood	= <ore:slabWood>;
 val odIronRod	= <ore:ironRod>;
@@ -159,6 +162,11 @@ for i, block in vanillaBlockOf
 {
   recipes.remove( block );
 }
+
+# Chest. 8 Planks = 1 Chest & 8 Logs = 2 Chests
+recipes.remove( vanillaChest );
+recipes.addShaped( vanillaChest, [ [ odPlank, odPlank, odPlank ], [ odPlank, null, odPlank ], [ odPlank, odPlank, odPlank ] ] );
+recipes.addShaped( vanillaChest * 2, [ [ odLog, odLog, odLog ], [ odLog, null, odLog ], [ odLog, odLog, odLog ] ] );
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
