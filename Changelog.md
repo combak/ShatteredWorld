@@ -2,6 +2,23 @@
 
 # Version 0.5.9
 
+**Config Changes**
+- Disabled Torch Griefing (Lycanites Mobs)
+- Changed Brewingstand Recipe
+- Enabled Silver Large Rod for Crafting purposes (Tinkers Construct)
+- Change 8 Logs = 4 Chests to 2 Chests
+- Added Natura Berry to Fruit Food Group
+- Removed Mana Cookie
+
+** Mod Updates**
+- Ex Nihilo 1.38-36 to 1.38-41
+
+**Mod Additions**
+- Ex Astris Rebirth 1.01-42
+
+**Mod Removed**
+- Ex Astris
+
 # Version 0.5.8
 
 **Config Changes**
@@ -10,7 +27,7 @@
 - Raised Aluminumdrop (Ex Nihilo)
 - 1 Log = 2 Planks Great-/Silverwood (Thaumcraft)
 - 1 Log = 2 Planks Witchwood (Ars Magica2)
-- Added Nugget Cast Recipie with Diamond Nugget (Tinkers Construct)
+- Added Nugget Cast Recipe with Diamond Nugget (Tinkers Construct)
 - Added Carrot, Plum, Pear, Apricot, Fig and Persimmon Juice to Food Group
 - Added Limited Resources 2xCrucible (Ex Nihilo) per Player
 - Added Limited Resources 3xAutomatic Sieves (Ex Astris) per Player

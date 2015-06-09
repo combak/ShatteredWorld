@@ -247,12 +247,12 @@
 - Files: http://minecraft.curseforge.com/mc-mods/222995-eureka/files
 - Licence: https://github.com/AEnterprise/Eureka/blob/master/LICENCE
 
-**Ex Astris**
-> The MIT License (MIT)
+**Ex Astris Rebirth**
+> You don't have to ask for my permission to include this mod in your modpack. Add it, eat it, fry it, lick it, toss it around, it's all yours. 
 
-- Author: insaneau
-- Files: http://minecraft.curseforge.com/mc-mods/226340-ex-astris/files
-- Licence: http://minecraft.curseforge.com/mc-mods/226340-ex-astris/license
+- Author: LoveHoly
+- Files: https://github.com/Ex-Astris-Rebirth/Ex-Astris-Rebirth/releases
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2424837-ex-astris-rebirth-mod-compatability-for-your
 
 **Ex Nihilo**
 > GNU General Public License
