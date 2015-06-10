@@ -19,9 +19,9 @@ val vanillaOakLog	= <minecraft:log>;
 # BuildCraft
 val buildCraftLaser 		= <BuildCraft|Silicon:laserBlock>;
 val bcAdditionKineticBuffer	= <bcadditions:KEBT1>;
-val buildCraftEngineRedstone        = <BuildCraft|Energy:engineBlock>;
-val buildCraftEngineStirling        = <BuildCraft|Energy:engineBlock:1>;
-val buildCraftEngineCombustion      = <BuildCraft|Energy:engineBlock:2>;
+val buildCraftEngineRedstone        = <BuildCraft|Core:engineBlock>;
+val buildCraftEngineStirling        = <BuildCraft|Core:engineBlock:1>;
+val buildCraftEngineCombustion      = <BuildCraft|Core:engineBlock:2>;
 
 # Extra Utilities
 val extUtilObsiGlass	= <ExtraUtilities:decorativeBlock2:5>;
