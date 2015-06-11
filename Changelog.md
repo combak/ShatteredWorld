@@ -35,7 +35,7 @@
 - GardenStuff 1.6.1 to 1.6.3
 - Hardcore Darkness 1.4 to 1.5
 - INpureCore 1.0.0B9-60 to 1.0.0B9-62
-- Limited Resources 0.8.0 to 0.9.0
+- Limited Resources 0.8.0 to 0.10.0
 - ModTweaker 2-0.8.1 to 2-0.8.2
 - NEI Addons 1.12.8.29 to 1.12.9.32
 - NotEnoughItems 1.0.4.106 to 1.0.5.110
