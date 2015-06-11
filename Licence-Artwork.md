@@ -3,7 +3,7 @@
 - English: https://creativecommons.org/licenses/by-nc-sa/4.0/
 - German: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
-This Licence is for all our Artworks/Images in the following folders:
+This Licence is for all our Artworks/Images under the following folders:
 - arts/
 - resources/shatteredworld/
 
