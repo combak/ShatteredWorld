@@ -535,6 +535,20 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/223852-storage-drawers/files
 - Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
 
+**Storage Drawers - Forestry Addon Pack**
+> The MIT License (MIT)
+
+- Author: jaquadro
+- Files: http://minecraft.curseforge.com/mc-mods/231147-storage-drawers-forestry-pack/files
+- Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
+
+**Storage Drawers - Natura Addon Pack**
+> The MIT License (MIT)
+
+- Author: jaquadro
+- Files: http://minecraft.curseforge.com/mc-mods/230642-storage-drawers-natura-pack/files
+- Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
+
 ## T
 
 **TARDIS Mod**

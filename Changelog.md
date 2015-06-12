@@ -10,7 +10,7 @@
 - Added Natura Berry to Fruit Food Group
 - Removed Mana Cookie
 
-** Mod Updates**
+**Mod Updates**
 - Minecraft Forge 10.13.3.1408 to 10.13.3.1428
 
 - Advanced Generators 0.9.12.64 to 0.9.13.72
@@ -21,9 +21,9 @@
 - BdLib 1.7.1.71 to 1.8.1.87
 - BloodMagic 1.3.2-1 to 1.3.3-4
 - Botania r1.6-188 to -r1.6-192
-- BuildCraft 6.4.15 to 7.0.8
+- BuildCraft 6.4.15 to 7.0.9
 - BuildCraft Additions 2.1.2 to 2.1.4
-- BuildCraft Compat 6.4.2 to 7.0.7
+- BuildCraft Compat 6.4.2 to 7.0.8
 - CodeChickenCore 1.0.6.43 to 1.0.7.46
 - CustomMainMenu 1.4 to 1.5
 - Darkcore 0.22-24 to 0.25-30
@@ -53,6 +53,8 @@
 
 **Mod Additions**
 - Ex Astris Rebirth 1.01-42
+- Storage Drawers - Forestry Addon Pack 1.0.1
+- Storage Drawers - Natura Addon Pack 1.0.2
 
 **Mod Removed**
 - Ex Astris
