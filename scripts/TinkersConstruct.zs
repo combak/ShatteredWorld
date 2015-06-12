@@ -112,6 +112,9 @@ val removeTableRecipes = [
   <Thaumcraft:ItemNugget:4>	/* 3 - Lead Nugget */
 ] as IItemStack[];
 
+# Vanilla
+val vanillaRedstone = <minecraft:redstone>;
+
 ########################################################################################################################
 # Fluid Registry
 ########################################################################################################################
@@ -125,7 +128,7 @@ val frTerrasteel	= <liquid:molten_terrasteel>;
 val frElementium	= <liquid:molten_elementium>;
 val frWroughtIron	= <liquid:molten_wrought_iron>;
 val frFluxedElectrum	= <liquid:molten_fluxed_electrum>;
-val frRedstone		= <liquid:redstone.molten>;
+val frRedstone		= <liquid:redstone>;
 val frPulsatingIron	= <liquid:molten_pulsating_iron>;
 val frVibrantAlloy	= <liquid:molten_vibrant_alloy>;
 val frSilver		= <liquid:silver.molten>;
@@ -222,7 +225,11 @@ mods.tconstruct.Casting.addTableRecipe( thermFoundLeadNugget, frLead * 16, tCons
 # Mana Infused Ingut casting
 mods.tconstruct.Casting.addTableRecipe( thermFoundManaInfusedIngot, frManaInfusedMetal * 144, tConstructIngotCast, false, 20 );
 
-# Redstone Block
+# Redstone Melting -> Destabilized Redstone & Redstone Block
+mods.tconstruct.Smeltery.removeMelting( vanillaRedstone );
+mods.tconstruct.Smeltery.removeMelting( vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 144, 500, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 1296, 500, vanillaRedstoneBlock );
 mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 1296, null, false, 20);
 
 # Pulsating Iron
