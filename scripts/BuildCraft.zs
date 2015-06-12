@@ -19,9 +19,11 @@ val vanillaOakLog	= <minecraft:log>;
 # BuildCraft
 val buildCraftLaser 		= <BuildCraft|Silicon:laserBlock>;
 val bcAdditionKineticBuffer	= <bcadditions:KEBT1>;
-val buildCraftEngineRedstone        = <BuildCraft|Core:engineBlock>;
-val buildCraftEngineStirling        = <BuildCraft|Core:engineBlock:1>;
-val buildCraftEngineCombustion      = <BuildCraft|Core:engineBlock:2>;
+val buildCraftEngineRedstone	= <BuildCraft|Core:engineBlock>;
+val buildCraftEngineStirling	= <BuildCraft|Core:engineBlock:1>;
+val buildCraftEngineCombustion	= <BuildCraft|Core:engineBlock:2>;
+val buildCraftQuarry		= <BuildCraft|Builders:machineBlock>;
+val buildCraftMiningWell	= <BuildCraft|Factory:miningWellBlock>;
 
 # Extra Utilities
 val extUtilObsiGlass	= <ExtraUtilities:decorativeBlock2:5>;
@@ -131,6 +133,10 @@ val odIngotGold		= <ore:ingotGold>;
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
+
+# Remove Quarry & Mining Well
+recipes.remove( buildCraftQuarry );
+recipes.remove( buildCraftMiningWell );
 
 # Laser
 recipes.remove( buildCraftLaser );
