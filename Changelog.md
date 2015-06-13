@@ -9,6 +9,9 @@
 - Change 8 Logs = 4 Chests to 2 Chests
 - Added Natura Berry to Fruit Food Group
 - Removed Mana Cookie
+- Removed Quarry & Mining Well Recipes (BuildCraft)
+. Replace molten redstone with destabilized redstone (Tinkers Construct)
+- Added Limited Resources 1x Thaumic Stone Extruder (Witching Gadgets) per Player
 
 **Mod Updates**
 - Minecraft Forge 10.13.3.1408 to 10.13.3.1428
