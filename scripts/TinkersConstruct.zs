@@ -37,6 +37,12 @@ val vanillaRedstoneBlock = <minecraft:redstone_block>;
 val enderioPulsatingIronBlock 	= <EnderIO:blockIngotStorage:5>;
 val enderioVibrantAlloyBlock	= <EnderIO:blockIngotStorage:2>;
 
+# Thaumcraft
+val thaumcraftThaumiumBlock = <Thaumcraft:blockCosmeticSolid:4>;
+
+# Witching Gadgets
+val witchGadVoidMetalBlock = <WitchingGadgets:tile.WG_MetalDevice.name:7>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -107,13 +113,20 @@ val agriCraftDiamondNugget = <AgriCraft:nuggetDiamond>;
 
 val removeTableRecipes = [
   <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
-  <Thaumcraft:ItemNugget:2>,	/* 1 - Tin Nugget */
-  <Thaumcraft:ItemNugget:3>,	/* 2 - Silver Nugget */
-  <Thaumcraft:ItemNugget:4>	/* 3 - Lead Nugget */
+  <Thaumcraft:ItemNugget:1>,	/* 1 - Copper Nugget */
+  <Thaumcraft:ItemNugget:2>,	/* 2 - Tin Nugget */
+  <Thaumcraft:ItemNugget:3>,	/* 3 - Silver Nugget */
+  <Thaumcraft:ItemNugget:4>	/* 4 - Lead Nugget */
 ] as IItemStack[];
 
 # Vanilla
 val vanillaRedstone = <minecraft:redstone>;
+
+# Thaumcraft
+val thaumcraftThaumiumNugget	= <Thaumcraft:ItemNugget:6>;
+val thaumcraftThaumiumIngot	= <Thaumcraft:ItemResource:2>;
+val thaumcraftVoidMetalNugget	= <Thaumcraft:ItemNugget:7>;
+val thaumcraftVoidMetalIngot	= <Thaumcraft:ItemResource:16>;
 
 ########################################################################################################################
 # Fluid Registry
@@ -136,6 +149,8 @@ val frLead		= <liquid:lead.molten>;
 val frManaInfusedMetal	= <liquid:mithril.molten>;
 val frAluminumBrass	= <liquid:aluminumbrass.molten>;
 val frGold		= <liquid:gold.molten>;
+val frThaumium		= <liquid:molten_thaumium>;
+val frVoidMetal		= <liquid:molten_void_metal>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -251,3 +266,20 @@ mods.tconstruct.Casting.addBasinRecipe( enderioVibrantAlloyBlock, frVibrantAlloy
 # Nugget Cast with Diamond Nugget
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frGold * 288, agriCraftDiamondNugget, true, 20 );
+
+# Thaumium
+mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumNugget, frThaumium * 16, 500, thaumcraftThaumiumBlock );
+mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumIngot, frThaumium * 144, 500, thaumcraftThaumiumBlock );
+mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumBlock, frThaumium * 1296, 500, thaumcraftThaumiumBlock );
+mods.tconstruct.Casting.addTableRecipe( thaumcraftThaumiumNugget, frThaumium * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( thaumcraftThaumiumIngot, frThaumium * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( thaumcraftThaumiumBlock, frThaumium * 1296, null, false, 20);
+
+# Void Metal
+mods.tconstruct.Smeltery.addMelting( thaumcraftVoidMetalNugget, frVoidMetal * 16, 500, witchGadVoidMetalBlock );
+mods.tconstruct.Smeltery.addMelting( thaumcraftVoidMetalIngot, frVoidMetal * 144, 500, witchGadVoidMetalBlock );
+mods.tconstruct.Smeltery.addMelting( witchGadVoidMetalBlock, frVoidMetal * 1296, 500, witchGadVoidMetalBlock );
+mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalNugget, frVoidMetal * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalIngot, frVoidMetal * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( witchGadVoidMetalBlock, frVoidMetal * 1296, null, false, 20);
+
