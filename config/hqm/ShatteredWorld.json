@@ -3404,13 +3404,13 @@
       },
       {
          "id" : 167,
-         "name" : "Blood Magic Blume",
-         "description" : null,
+         "name" : "Lexica Botania",
+         "description" : "Unnamed quest",
          "x" : 22,
-         "y" : 20,
+         "y" : 40,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:lexicon size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3418,19 +3418,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:lexicon size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 168,
-         "name" : "Blood Magic Altar",
+         "name" : "Mystical Flower",
          "description" : null,
-         "x" : 46,
+         "x" : 34,
          "y" : 20,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:flower size(1) dmg(1)",
+         "requirements" : [
+            "167 - Lexica Botania"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3438,19 +3453,63 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:flower size(1) dmg(0)",
+                     "required" : 10,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Petal",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:petal size(1) dmg(0)",
+                     "required" : 10,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Powder",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:pestleAndMortar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:dye size(1) dmg(0)",
+                     "required" : 10,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 169,
-         "name" : "Pure Daisy",
+         "name" : "Petal Apothecary",
          "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "x" : 34,
+         "y" : 60,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:altar size(1) dmg(0)",
+         "requirements" : [
+            "167 - Lexica Botania"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3458,19 +3517,35 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:altar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 170,
-         "name" : "Mana Pool",
+         "name" : "Pure Daisy",
          "description" : null,
-         "x" : 94,
-         "y" : 20,
+         "x" : 46,
+         "y" : 40,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "requirements" : [
+            "168 - Mystical Flower",
+            "169 - Petal Apothecary"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3478,19 +3553,51 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:livingwood size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:livingrock size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 171,
-         "name" : "Runic Altar",
+         "name" : "Hydroangeas",
          "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "x" : 58,
+         "y" : 60,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "requirements" : [
+            "169 - Petal Apothecary"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3498,19 +3605,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 172,
-         "name" : "Redstone Mana Control",
-         "description" : null,
-         "x" : 142,
-         "y" : 20,
+         "name" : "Endoflame",
+         "description" : "Unnamed quest",
+         "x" : 46,
+         "y" : 80,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "requirements" : [
+            "169 - Petal Apothecary"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3518,19 +3640,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 173,
-         "name" : "Brewing",
-         "description" : null,
-         "x" : 166,
+         "name" : "Horn of the Wild",
+         "description" : "Unnamed quest",
+         "x" : 58,
          "y" : 20,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:grassHorn size(1) dmg(0)",
+         "requirements" : [
+            "170 - Pure Daisy"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3538,19 +3675,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:grassHorn size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 174,
-         "name" : "Elven Portal",
-         "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "name" : "Livingrock Twig",
+         "description" : "Unnamed quest",
+         "x" : 70,
+         "y" : 40,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:twigWand size(1) dmg(0)",
+         "requirements" : [
+            "170 - Pure Daisy"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3558,19 +3710,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:twigWand size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:spreader size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:pool size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 175,
-         "name" : "Daybloom",
+         "name" : "Mana Produktion",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 106,
+         "y" : 40,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "requirements" : [
+            "174 - Livingrock Twig"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3578,19 +3755,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 176,
-         "name" : "Hydrogena",
-         "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "name" : "Mana Pool",
+         "description" : "Unnamed quest",
+         "x" : 130,
+         "y" : 40,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:pool size(1) dmg(0)",
+         "requirements" : [
+            "175 - Mana Produktion"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3598,19 +3795,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:pool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 177,
-         "name" : "Hopperhock",
-         "description" : null,
-         "x" : 262,
+         "name" : "Mana Tools",
+         "description" : "Unnamed quest",
+         "x" : 166,
          "y" : 20,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:manaTablet size(1) dmg(0)",
+         "requirements" : [
+            "178 - Mana Items"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3618,19 +3830,49 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:distributor size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manaVoid size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manaDetector size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manaTablet size(1) dmg(10000)",
+                     "required" : 1,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 178,
-         "name" : "Daffomill",
-         "description" : null,
-         "x" : 286,
-         "y" : 20,
+         "name" : "Mana Items",
+         "description" : "Unnamed quest",
+         "x" : 154,
+         "y" : 40,
          "big" : false,
          "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "icon" : "Botania:manaResource size(1) dmg(0)",
+         "requirements" : [
+            "176 - Mana Pool"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3638,12 +3880,1179 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task Steel",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task Dia Pearl",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 179,
+         "name" : "Manasteel Armor",
+         "description" : "Unnamed quest",
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manasteelChest size(1) dmg(0)",
+         "requirements" : [
+            "178 - Mana Items"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manasteelHelmReveal size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manasteelChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manasteelLegs size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manasteelBoots size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 180,
+         "name" : "Mana Lens",
+         "description" : "Unnamed quest",
+         "x" : 166,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:lens size(1) dmg(0)",
+         "requirements" : [
+            "178 - Mana Items"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:lens size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task special",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:lens size(1) dmg(10)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:lens size(1) dmg(9)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:lens size(1) dmg(16)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:lens size(1) dmg(15)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:lens size(1) dmg(17)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 181,
+         "name" : "Ring of Magnetization",
+         "description" : "Unnamed quest",
+         "x" : 178,
+         "y" : 80,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:magnetRing size(1) dmg(0)",
+         "requirements" : [
+            "180 - Mana Lens"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:magnetRing size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 182,
+         "name" : "Runic Altar",
+         "description" : null,
+         "x" : 178,
+         "y" : 40,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:runeAltar size(1) dmg(0)",
+         "requirements" : [
+            "178 - Mana Items"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:runeAltar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 183,
+         "name" : "Runen der 5 Elemente",
+         "description" : "Unnamed quest",
+         "x" : 202,
+         "y" : 40,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:rune size(1) dmg(8)",
+         "requirements" : [
+            "182 - Runic Altar"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:rune size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(8)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 184,
+         "name" : "Runen der 4 Jahreszeiten",
+         "description" : "Unnamed quest",
+         "x" : 214,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:rune size(1) dmg(5)",
+         "requirements" : [
+            "183 - Runen der 5 Elemente"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:rune size(1) dmg(4)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(6)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 185,
+         "name" : "Runen der Glückseligkeiten",
+         "description" : "Unnamed quest",
+         "x" : 226,
+         "y" : 80,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:rune size(1) dmg(12)",
+         "requirements" : [
+            "184 - Runen der 4 Jahreszeiten"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:rune size(1) dmg(9)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(10)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(11)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(12)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(13)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(14)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:rune size(1) dmg(15)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 186,
+         "name" : "Welt der Stäbe",
+         "description" : "Unnamed quest",
+         "x" : 226,
+         "y" : 40,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:dirtRod size(1) dmg(0)",
+         "requirements" : [
+            "183 - Runen der 5 Elemente"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:dirtRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:cobbleRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:smeltRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:waterRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:tornadoRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:fireRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:diviningRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 187,
+         "name" : "Botanische Brauerei",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:brewery size(1) dmg(0)",
+         "requirements" : [
+            "178 - Mana Items"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:brewery size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:vial size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 188,
+         "name" : "Terrasteel Ingot",
+         "description" : "Unnamed quest",
+         "x" : 110,
+         "y" : 110,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(4)",
+         "requirements" : [
+            "178 - Mana Items"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:terraPlate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(4)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 189,
+         "name" : "Terrasteel Armor",
+         "description" : "Unnamed quest",
+         "x" : 98,
+         "y" : 90,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:terrasteelChest size(1) dmg(0)",
+         "requirements" : [
+            "188 - Terrasteel Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:terrasteelHelm size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:terrasteelChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:terrasteelLegs size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:terrasteelBoots size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 190,
+         "name" : "Rod of the Terra Firma",
+         "description" : "Unnamed quest",
+         "x" : 134,
+         "y" : 110,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:terraformRod size(1) dmg(0)",
+         "requirements" : [
+            "188 - Terrasteel Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:terraformRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 191,
+         "name" : "Elven Portal",
+         "description" : null,
+         "x" : 122,
+         "y" : 130,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:alfheimPortal size(1) dmg(0)",
+         "requirements" : [
+            "188 - Terrasteel Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:alfheimPortal size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:pylon size(1) dmg(1)",
+                     "required" : 2,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 192,
+         "name" : "Elementium Ingot",
+         "description" : "Unnamed quest",
+         "x" : 110,
+         "y" : 150,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(7)",
+         "requirements" : [
+            "191 - Elven Portal"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 193,
+         "name" : "Elementium Armor",
+         "description" : "Unnamed quest",
+         "x" : 86,
+         "y" : 150,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:elementiumChest size(1) dmg(0)",
+         "requirements" : [
+            "192 - Elementium Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:elementiumHelm size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:elementiumChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:elementiumLegs size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:elementiumBoots size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 194,
+         "name" : "Elementium Items",
+         "description" : "Unnamed quest",
+         "x" : 122,
+         "y" : 170,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(8)",
+         "requirements" : [
+            "192 - Elementium Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(8)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(9)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:dreamwood size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 195,
+         "name" : "Elven Rods",
+         "description" : "Unnamed quest",
+         "x" : 98,
+         "y" : 170,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:skyDirtRod size(1) dmg(0)",
+         "requirements" : [
+            "192 - Elementium Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:skyDirtRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:gravityRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 196,
+         "name" : "Spark Augment",
+         "description" : "Unnamed quest",
+         "x" : 146,
+         "y" : 170,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
+         "requirements" : [
+            "194 - Elementium Items"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:sparkUpgrade size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:sparkUpgrade size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:sparkUpgrade size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:sparkUpgrade size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 197,
+         "name" : "Ritual of Gaia",
+         "description" : "Unnamed quest",
+         "x" : 134,
+         "y" : 150,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(5)",
+         "requirements" : [
+            "192 - Elementium Ingot"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:pylon size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 198,
+         "name" : "Gaia Items",
+         "description" : "Unnamed quest",
+         "x" : 146,
+         "y" : 130,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(14)",
+         "requirements" : [
+            "197 - Ritual of Gaia"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:spreader size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(14)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 199,
+         "name" : "Gaia Rod",
+         "description" : "Unnamed quest",
+         "x" : 158,
+         "y" : 150,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:rainbowRod size(1) dmg(0)",
+         "requirements" : [
+            "197 - Ritual of Gaia"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:rainbowRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:missileRod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 200,
+         "name" : "Ender Air Bottle",
+         "description" : "Unnamed quest",
+         "x" : 286,
+         "y" : 180,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(15)",
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(15)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 201,
+         "name" : "Flügel Tiara",
+         "description" : "Unnamed quest",
+         "x" : 262,
+         "y" : 180,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:flightTiara size(1) dmg(0)",
+         "requirements" : [
+            "200 - Ender Air Bottle"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:flightTiara size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 202,
+         "name" : "Red String",
+         "description" : "Unnamed quest",
+         "x" : 274,
+         "y" : 160,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:manaResource size(1) dmg(12)",
+         "requirements" : [
+            "200 - Ender Air Bottle"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:manaResource size(1) dmg(12)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 203,
+         "name" : "Red String Items",
+         "description" : "Unnamed quest",
+         "x" : 262,
+         "y" : 140,
+         "big" : false,
+         "setID" : "008 - Eine Wiese voller Blumen",
+         "icon" : "Botania:redStringRelay size(1) dmg(0)",
+         "requirements" : [
+            "202 - Red String"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Botania:redStringContainer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:redStringComparator size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:redStringDispenser size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:redStringRelay size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Botania:redStringFertilizer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 204,
          "name" : "Opfere dich selbst",
          "description" : "Altar \/ Sacrificial Knife herstellen",
          "x" : 14,
@@ -3687,7 +5096,7 @@
          ]
       },
       {
-         "id" : 180,
+         "id" : 205,
          "name" : "Blanck Slate",
          "description" : null,
          "x" : 66,
@@ -3696,7 +5105,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
          "requirements" : [
-            "179 - Opfere dich selbst"
+            "204 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3722,7 +5131,7 @@
          ]
       },
       {
-         "id" : 181,
+         "id" : 206,
          "name" : "Altar Level 1 Orb",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -3731,7 +5140,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "179 - Opfere dich selbst"
+            "204 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3757,7 +5166,7 @@
          ]
       },
       {
-         "id" : 182,
+         "id" : 207,
          "name" : "Divination Sigil",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -3766,8 +5175,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
          "requirements" : [
-            "180 - Blanck Slate",
-            "181 - Altar Level 1 Orb"
+            "205 - Blanck Slate",
+            "206 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3793,7 +5202,7 @@
          ]
       },
       {
-         "id" : 183,
+         "id" : 208,
          "name" : "erste Sigils",
          "description" : "Unnamed quest",
          "x" : 54,
@@ -3802,8 +5211,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
          "requirements" : [
-            "180 - Blanck Slate",
-            "181 - Altar Level 1 Orb"
+            "205 - Blanck Slate",
+            "206 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3834,16 +5243,16 @@
          ]
       },
       {
-         "id" : 184,
+         "id" : 209,
          "name" : "Alchemic Chemistry Set",
          "description" : "Unnamed quest",
-         "x" : 34,
+         "x" : 22,
          "y" : 115,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
          "requirements" : [
-            "181 - Altar Level 1 Orb"
+            "206 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3886,7 +5295,7 @@
          ]
       },
       {
-         "id" : 185,
+         "id" : 210,
          "name" : "Reinforced Slate",
          "description" : null,
          "x" : 98,
@@ -3895,7 +5304,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
          "requirements" : [
-            "180 - Blanck Slate"
+            "205 - Blanck Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3921,7 +5330,7 @@
          ]
       },
       {
-         "id" : 186,
+         "id" : 211,
          "name" : "Altar Level 2 Orb",
          "description" : null,
          "x" : 74,
@@ -3930,7 +5339,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "181 - Altar Level 1 Orb"
+            "206 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3956,7 +5365,7 @@
          ]
       },
       {
-         "id" : 187,
+         "id" : 212,
          "name" : "mehr Sigils",
          "description" : "Unnamed quest",
          "x" : 86,
@@ -3965,8 +5374,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
          "requirements" : [
-            "185 - Reinforced Slate",
-            "186 - Altar Level 2 Orb"
+            "210 - Reinforced Slate",
+            "211 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4026,17 +5435,17 @@
          ]
       },
       {
-         "id" : 188,
+         "id" : 213,
          "name" : "Basis Essenzen",
          "description" : "Unnamed quest",
-         "x" : 46,
-         "y" : 135,
+         "x" : 50,
+         "y" : 115,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:aether size(1) dmg(0)",
          "requirements" : [
-            "184 - Alchemic Chemistry Set",
-            "186 - Altar Level 2 Orb"
+            "209 - Alchemic Chemistry Set",
+            "211 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4102,7 +5511,7 @@
          ]
       },
       {
-         "id" : 189,
+         "id" : 214,
          "name" : "Imbued Slate",
          "description" : null,
          "x" : 130,
@@ -4111,7 +5520,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
          "requirements" : [
-            "185 - Reinforced Slate"
+            "210 - Reinforced Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4137,7 +5546,7 @@
          ]
       },
       {
-         "id" : 190,
+         "id" : 215,
          "name" : "Altar Level 3 Orb",
          "description" : null,
          "x" : 106,
@@ -4146,7 +5555,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "186 - Altar Level 2 Orb"
+            "211 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4172,7 +5581,7 @@
          ]
       },
       {
-         "id" : 191,
+         "id" : 216,
          "name" : "noch mehr Sigils",
          "description" : null,
          "x" : 118,
@@ -4181,8 +5590,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
          "requirements" : [
-            "189 - Imbued Slate",
-            "190 - Altar Level 3 Orb"
+            "214 - Imbued Slate",
+            "215 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4256,7 +5665,7 @@
          ]
       },
       {
-         "id" : 192,
+         "id" : 217,
          "name" : "Inscription Tools",
          "description" : null,
          "x" : 122,
@@ -4265,7 +5674,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
          "requirements" : [
-            "190 - Altar Level 3 Orb"
+            "215 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4306,7 +5715,7 @@
          ]
       },
       {
-         "id" : 193,
+         "id" : 218,
          "name" : "Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -4315,7 +5724,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
          "requirements" : [
-            "192 - Inscription Tools"
+            "217 - Inscription Tools"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4341,16 +5750,16 @@
          ]
       },
       {
-         "id" : 194,
+         "id" : 219,
          "name" : "Start der Rituale",
          "description" : null,
-         "x" : 110,
-         "y" : 130,
+         "x" : 98,
+         "y" : 150,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
          "requirements" : [
-            "190 - Altar Level 3 Orb"
+            "215 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4381,7 +5790,7 @@
          ]
       },
       {
-         "id" : 195,
+         "id" : 220,
          "name" : "Ritual of Binding",
          "description" : null,
          "x" : 122,
@@ -4390,8 +5799,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:energySword size(1) dmg(0)",
          "requirements" : [
-            "194 - Start der Rituale",
-            "193 - Ritual Diviner"
+            "219 - Start der Rituale",
+            "218 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4417,16 +5826,16 @@
          ]
       },
       {
-         "id" : 196,
+         "id" : 221,
          "name" : "Weak Blood Shard",
          "description" : null,
-         "x" : 170,
+         "x" : 146,
          "y" : 150,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
          "requirements" : [
-            "195 - Ritual of Binding"
+            "220 - Ritual of Binding"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4452,16 +5861,16 @@
          ]
       },
       {
-         "id" : 197,
+         "id" : 222,
          "name" : "Bound Armor",
          "description" : null,
-         "x" : 182,
+         "x" : 158,
          "y" : 170,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
          "requirements" : [
-            "196 - Weak Blood Shard"
+            "221 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4519,17 +5928,17 @@
          ]
       },
       {
-         "id" : 198,
+         "id" : 223,
          "name" : "bessere Essenzen",
          "description" : null,
-         "x" : 70,
-         "y" : 135,
+         "x" : 78,
+         "y" : 115,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
          "requirements" : [
-            "188 - Basis Essenzen",
-            "190 - Altar Level 3 Orb"
+            "213 - Basis Essenzen",
+            "215 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4580,16 +5989,16 @@
          ]
       },
       {
-         "id" : 199,
+         "id" : 224,
          "name" : "Dämonen Zirkel",
          "description" : null,
-         "x" : 194,
+         "x" : 182,
          "y" : 150,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
          "requirements" : [
-            "196 - Weak Blood Shard"
+            "221 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4620,16 +6029,16 @@
          ]
       },
       {
-         "id" : 200,
+         "id" : 225,
          "name" : "Dämonen Kontrolle",
          "description" : null,
-         "x" : 218,
+         "x" : 206,
          "y" : 150,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
          "requirements" : [
-            "199 - Dämonen Zirkel"
+            "224 - Dämonen Zirkel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4655,7 +6064,7 @@
          ]
       },
       {
-         "id" : 201,
+         "id" : 226,
          "name" : "Demonic Slate",
          "description" : "Unnamed quest",
          "x" : 162,
@@ -4664,7 +6073,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
          "requirements" : [
-            "189 - Imbued Slate"
+            "214 - Imbued Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4678,7 +6087,7 @@
          ]
       },
       {
-         "id" : 202,
+         "id" : 227,
          "name" : "Altar Level 4 Orb",
          "description" : null,
          "x" : 138,
@@ -4687,7 +6096,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "190 - Altar Level 3 Orb"
+            "215 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4713,7 +6122,7 @@
          ]
       },
       {
-         "id" : 203,
+         "id" : 228,
          "name" : "jetzt reichts aber mit Sigils",
          "description" : null,
          "x" : 150,
@@ -4722,8 +6131,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
          "requirements" : [
-            "201 - Demonic Slate",
-            "202 - Altar Level 4 Orb"
+            "226 - Demonic Slate",
+            "227 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4797,7 +6206,7 @@
          ]
       },
       {
-         "id" : 204,
+         "id" : 229,
          "name" : "besserer Ritual Diviner",
          "description" : null,
          "x" : 146,
@@ -4806,8 +6215,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
          "requirements" : [
-            "202 - Altar Level 4 Orb",
-            "193 - Ritual Diviner"
+            "227 - Altar Level 4 Orb",
+            "218 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4845,16 +6254,16 @@
          ]
       },
       {
-         "id" : 205,
+         "id" : 230,
          "name" : "Kristall Tank",
          "description" : null,
-         "x" : 170,
+         "x" : 174,
          "y" : 110,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
          "requirements" : [
-            "202 - Altar Level 4 Orb"
+            "227 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4900,16 +6309,16 @@
          ]
       },
       {
-         "id" : 206,
+         "id" : 231,
          "name" : "Dämonen Jäger",
          "description" : null,
-         "x" : 194,
+         "x" : 198,
          "y" : 110,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
          "requirements" : [
-            "205 - Kristall Tank"
+            "230 - Kristall Tank"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4940,7 +6349,7 @@
          ]
       },
       {
-         "id" : 207,
+         "id" : 232,
          "name" : "Ethereal Slate",
          "description" : null,
          "x" : 194,
@@ -4949,7 +6358,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
          "requirements" : [
-            "201 - Demonic Slate"
+            "226 - Demonic Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4963,7 +6372,7 @@
          ]
       },
       {
-         "id" : 208,
+         "id" : 233,
          "name" : "Altar Level 5 Orb",
          "description" : null,
          "x" : 170,
@@ -4972,7 +6381,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "202 - Altar Level 4 Orb"
+            "227 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4998,7 +6407,7 @@
          ]
       },
       {
-         "id" : 209,
+         "id" : 234,
          "name" : "aber jetzt das letzte Sigils",
          "description" : "Unnamed quest",
          "x" : 182,
@@ -5007,8 +6416,8 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
          "requirements" : [
-            "207 - Ethereal Slate",
-            "208 - Altar Level 5 Orb"
+            "232 - Ethereal Slate",
+            "233 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5034,7 +6443,7 @@
          ]
       },
       {
-         "id" : 210,
+         "id" : 235,
          "name" : "Altar Level 6 Orb",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -5043,7 +6452,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "208 - Altar Level 5 Orb"
+            "233 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5057,16 +6466,16 @@
          ]
       },
       {
-         "id" : 211,
+         "id" : 236,
          "name" : "noch besserer Ritual Diviner",
          "description" : "Unnamed quest",
-         "x" : 218,
+         "x" : 226,
          "y" : 110,
          "big" : false,
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
          "requirements" : [
-            "210 - Altar Level 6 Orb"
+            "235 - Altar Level 6 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
