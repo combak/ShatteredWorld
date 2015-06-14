@@ -8,4 +8,4 @@ val custNPCbulletDia = <customnpcs:npcDiamondBullet>;
 # Recipe Removals
 ###################################################################################################################
 
-recipes.remove ( custNPCbulletDia );
+recipes.remove( custNPCbulletDia );

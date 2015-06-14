@@ -27,6 +27,9 @@ val extUtilGlassThickened           = <ExtraUtilities:decorativeBlock2>;
 # Thermal Expansion
 val thermExpGlassLumiumHardened     = <ThermalExpansion:Glass:1>;
 
+# Vanilla
+val vanillaIronBar                  = <minecraft:iron_bars>;
+
 val enderioBlockOf = [
   <EnderIO:blockIngotStorage>,		/* 0 - Electrical Steel */
   <EnderIO:blockIngotStorage:1>,	/* 1 - Energetic Alloy */
@@ -86,6 +89,7 @@ val rsArsenalFluxCrystal            = <RedstoneArsenal:material:96>;
 ########################################################################################################################
 
 val odCobblestone = <ore:cobblestone>;
+val odAluminumIngot                 = <ore:ingotAluminum>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -106,6 +110,10 @@ for i, block in enderioBlockOf
 # Changed Gear Crafting
 recipes.remove( enderioBasicGear );
 recipes.addShaped( enderioBasicGear, [ [ null, odCobblestone, null ], [ odCobblestone, forestDayWoodGear, odCobblestone ], [ null, odCobblestone, null ] ]);
+
+# Changed Chassis
+recipes.remove ( enderioChassis );
+recipes.addShaped( enderioChassis, [ [ vanillaIronBar, odAluminumIngot,vanillaIronBar ],[ odAluminumIngot, bcAdditionCoilBasic, odAluminumIngot ],[ vanillaIronBar, odAluminumIngot, vanillaIronBar ] ]);
 
 # RF Generators
 recipes.remove(enderioGeneratorStirling);

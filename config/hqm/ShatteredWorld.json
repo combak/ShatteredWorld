@@ -1,0 +1,3630 @@
+{
+   "version" : "REPUTATION_KILL",
+   "decription" : "Hallo D:",
+   "questSetCatalog" : [
+      {
+         "name" : "Aller Anfang ist schwer",
+         "decription" : null
+      },
+      {
+         "name" : "Das große Fressen",
+         "decription" : null
+      },
+      {
+         "name" : "Der Kreislauf der Gesteine",
+         "decription" : null
+      },
+      {
+         "name" : "Das Genie und das Chaos",
+         "decription" : null
+      },
+      {
+         "name" : "Das holographische Wunder",
+         "decription" : null
+      },
+      {
+         "name" : "Die Geister die ich rief",
+         "decription" : null
+      },
+      {
+         "name" : "Das heilige Blut",
+         "decription" : null
+      },
+      {
+         "name" : "Eine Wiese voller Blumen",
+         "decription" : null
+      },
+      {
+         "name" : "Der Geist in der Maschine",
+         "decription" : null
+      },
+      {
+         "name" : "Es grünt so grün, wenn ...",
+         "decription" : null
+      },
+      {
+         "name" : "Auf zur Safari",
+         "decription" : null
+      },
+      {
+         "name" : "Drachen töten leicht gemacht",
+         "decription" : null
+      },
+      {
+         "name" : "Fast ein Gott",
+         "decription" : null
+      }
+   ],
+   "reputationCatalog" : [
+   ],
+   "quests" : [
+      {
+         "id" : 0,
+         "name" : "Holz fällen",
+         "description" : null,
+         "x" : 26,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 1,
+         "name" : "Werkbänke",
+         "description" : null,
+         "x" : 50,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 2,
+         "name" : "Ofen",
+         "description" : null,
+         "x" : 74,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 3,
+         "name" : "Minen",
+         "description" : null,
+         "x" : 98,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 4,
+         "name" : "Licht",
+         "description" : null,
+         "x" : 122,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 5,
+         "name" : "Farmland vorbereiten",
+         "description" : null,
+         "x" : 146,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 6,
+         "name" : "Wilde Tiere",
+         "description" : null,
+         "x" : 170,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 7,
+         "name" : "Nahrung vorbereiten",
+         "description" : null,
+         "x" : 194,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 8,
+         "name" : "Sichere Nacht",
+         "description" : null,
+         "x" : 218,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 9,
+         "name" : "Alles kurz und klein schlagen",
+         "description" : null,
+         "x" : 242,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 10,
+         "name" : "Sieben bis der Arzt kommt",
+         "description" : null,
+         "x" : 266,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 11,
+         "name" : "Töpfers ist so schön",
+         "description" : null,
+         "x" : 290,
+         "y" : 15,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 12,
+         "name" : "Brot für die Welt",
+         "description" : null,
+         "x" : 38,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 13,
+         "name" : "Unbesiegbar",
+         "description" : null,
+         "x" : 62,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 14,
+         "name" : "In der Ruhe liegt die Kraft",
+         "description" : null,
+         "x" : 86,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 15,
+         "name" : "Ein guter Koch kennt seine Rezpete",
+         "description" : null,
+         "x" : 110,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 16,
+         "name" : "Wie die Axt im Wald",
+         "description" : null,
+         "x" : 134,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 17,
+         "name" : "Dummheit schafft Freiraum",
+         "description" : null,
+         "x" : 158,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 18,
+         "name" : "Herrschaft des Feuers",
+         "description" : null,
+         "x" : 182,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 19,
+         "name" : "Wenn die Hölle zufriert",
+         "description" : null,
+         "x" : 206,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 20,
+         "name" : "In der Ruhe liegt die Kraft",
+         "description" : null,
+         "x" : 230,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 21,
+         "name" : "Wer hat Angst vor dem bösen Mann",
+         "description" : null,
+         "x" : 254,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 22,
+         "name" : "Der Held der Automatisierung",
+         "description" : null,
+         "x" : 278,
+         "y" : 35,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 23,
+         "name" : "Im Vorbeigehen mitnehmen",
+         "description" : null,
+         "x" : 26,
+         "y" : 55,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 24,
+         "name" : "Das ist alles für den Arsch",
+         "description" : null,
+         "x" : 50,
+         "y" : 55,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 25,
+         "name" : "Aus dem Nichts erschaffen",
+         "description" : null,
+         "x" : 74,
+         "y" : 55,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 26,
+         "name" : "Der Weltwanderer",
+         "description" : null,
+         "x" : 98,
+         "y" : 55,
+         "big" : false,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 27,
+         "name" : "Das wird doch nie was",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 28,
+         "name" : "Die Topper Party",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 29,
+         "name" : "Der Schnellkochtopf",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 30,
+         "name" : "Milch macht müde Männer munter",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 31,
+         "name" : "Die Baumschule",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 32,
+         "name" : "Darwin hatte recht",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 33,
+         "name" : "Die Wunder der Genetic",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 34,
+         "name" : "Auf dem Weg zur eigenen Burgerkette",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 35,
+         "name" : "Die Erntemaschine",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 36,
+         "name" : "Der grüne Daumen",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 37,
+         "name" : "vegetarische Kost schmeckt so guuut",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 38,
+         "name" : "sag es mit Blumen",
+         "description" : null,
+         "x" : 286,
+         "y" : 20,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 39,
+         "name" : "wie werde ich ein Bauer",
+         "description" : null,
+         "x" : 34,
+         "y" : 40,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 40,
+         "name" : "wie werde ich ein Großbauer",
+         "description" : null,
+         "x" : 58,
+         "y" : 40,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 41,
+         "name" : "wie werde ich ein Händler",
+         "description" : null,
+         "x" : 82,
+         "y" : 40,
+         "big" : false,
+         "setID" : "001 - Das große Fressen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 42,
+         "name" : "Heute koch ich, morgen brau ich, übermorgen...",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 43,
+         "name" : "Das kleinste Rädchen im Getriebe",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 44,
+         "name" : "Ironman",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 45,
+         "name" : "Kupferdraht",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 46,
+         "name" : "wie im Mittelalter",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 47,
+         "name" : "das goldene Zeitalter",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 48,
+         "name" : "der silberne Löffel",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 49,
+         "name" : "im Vulkan geboren",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 50,
+         "name" : "härter als Stahl",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 51,
+         "name" : "das weiße Metall",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 52,
+         "name" : "das findest du nie",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 53,
+         "name" : "schwerer als Nickel",
+         "description" : null,
+         "x" : 286,
+         "y" : 20,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 54,
+         "name" : "das Unmögliche mit dem Unwarscheinlichen verbinden",
+         "description" : null,
+         "x" : 34,
+         "y" : 40,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 55,
+         "name" : "endlich mal was Handfestes",
+         "description" : null,
+         "x" : 58,
+         "y" : 40,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 56,
+         "name" : "wovon träumst du Nachts",
+         "description" : null,
+         "x" : 82,
+         "y" : 40,
+         "big" : false,
+         "setID" : "002 - Der Kreislauf der Gesteine",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 57,
+         "name" : "wer Ordnung hält ist nur zu faul zum Suchen",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 58,
+         "name" : "mehr ist immer besser",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 59,
+         "name" : "wie man einen See versetzt",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 60,
+         "name" : "wie man ein Meer versetzt",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 61,
+         "name" : "wie man einen Ozean speichert",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 62,
+         "name" : "alles in Einem",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 63,
+         "name" : "mein Schatz",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 64,
+         "name" : "wie passt nur alles da rein",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 65,
+         "name" : "teilen will gelernt sein",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 66,
+         "name" : "der Quell des Lebens",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 67,
+         "name" : "Schweizer Taschenmesser",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 68,
+         "name" : "Ritter Runkel",
+         "description" : null,
+         "x" : 286,
+         "y" : 20,
+         "big" : false,
+         "setID" : "003 - Das Genie und das Chaos",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 69,
+         "name" : "vom Himmel hoch",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 70,
+         "name" : "der Man für das Grobe",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 71,
+         "name" : "der Herr der Kristalle",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 72,
+         "name" : "es glitzert so schön",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 73,
+         "name" : "der Graveur",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 74,
+         "name" : "klein aber fein",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 75,
+         "name" : "alles im Überblick",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 76,
+         "name" : "wie von Zauberhand",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 77,
+         "name" : "ein Faß ohne Boden",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 78,
+         "name" : "der Geist in der Flasche",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 79,
+         "name" : "der virtuelle Zaubertisch",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "004 - Das holographische Wunder",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 80,
+         "name" : "in Stab sie alle zu Binden",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 81,
+         "name" : "der Meisterstab 2",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 82,
+         "name" : "der Meisterstab 3",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 83,
+         "name" : "der Meisterstab 4",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 84,
+         "name" : "Dreamy Staff ???",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 85,
+         "name" : "Livingwood Wand ???",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 86,
+         "name" : "Wand Caps",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 87,
+         "name" : "Pink Caps",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 88,
+         "name" : "Manasteel Caps",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 89,
+         "name" : "durch die rosa Brille",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 90,
+         "name" : "Passive Scanning",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 91,
+         "name" : "Infused Stone",
+         "description" : null,
+         "x" : 286,
+         "y" : 20,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 92,
+         "name" : "Balanced Shards",
+         "description" : null,
+         "x" : 34,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 93,
+         "name" : "Sinful Shards",
+         "description" : null,
+         "x" : 58,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 94,
+         "name" : "der gedultige Forscher",
+         "description" : null,
+         "x" : 82,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 95,
+         "name" : "Explosives Licht",
+         "description" : null,
+         "x" : 106,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 96,
+         "name" : "magisches Metall",
+         "description" : null,
+         "x" : 130,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 97,
+         "name" : "die Wunderlampe",
+         "description" : null,
+         "x" : 154,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 98,
+         "name" : "ins Nichts",
+         "description" : null,
+         "x" : 178,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 99,
+         "name" : "das Monster",
+         "description" : null,
+         "x" : 202,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 100,
+         "name" : "Label Printing",
+         "description" : null,
+         "x" : 226,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 101,
+         "name" : "der Zaubertisch",
+         "description" : null,
+         "x" : 250,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 102,
+         "name" : "die Hexenküche",
+         "description" : null,
+         "x" : 274,
+         "y" : 40,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 103,
+         "name" : "die Destillerie",
+         "description" : null,
+         "x" : 22,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 104,
+         "name" : "der Kristallisierer",
+         "description" : null,
+         "x" : 46,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 105,
+         "name" : "der Wunderofen",
+         "description" : null,
+         "x" : 70,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 106,
+         "name" : "der Dampfkessel",
+         "description" : null,
+         "x" : 94,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 107,
+         "name" : "es geht immer mal was daneben",
+         "description" : null,
+         "x" : 118,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 108,
+         "name" : "schneller wachsen 1",
+         "description" : null,
+         "x" : 142,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 109,
+         "name" : "schneller wachsen 2",
+         "description" : null,
+         "x" : 166,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 110,
+         "name" : "Romantic Mood Lighting ???",
+         "description" : null,
+         "x" : 190,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 111,
+         "name" : "Fancy Floral Fabrication ???",
+         "description" : null,
+         "x" : 214,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 112,
+         "name" : "Focal Manipulator ???",
+         "description" : null,
+         "x" : 238,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 113,
+         "name" : "Vis Relay ???",
+         "description" : null,
+         "x" : 262,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 114,
+         "name" : "Vis Charge Relay ???",
+         "description" : null,
+         "x" : 286,
+         "y" : 60,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 115,
+         "name" : "Phancy Phials ???",
+         "description" : null,
+         "x" : 34,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 116,
+         "name" : "Arcane Pedestal ???",
+         "description" : null,
+         "x" : 58,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 117,
+         "name" : "Wand Charger ???",
+         "description" : null,
+         "x" : 82,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 118,
+         "name" : "Flux Scrubber ???",
+         "description" : null,
+         "x" : 106,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 119,
+         "name" : "Thirsty Work ???",
+         "description" : null,
+         "x" : 130,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 120,
+         "name" : "Treecapitator ???",
+         "description" : null,
+         "x" : 154,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 121,
+         "name" : "Magical Mushrooms ???",
+         "description" : null,
+         "x" : 178,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 122,
+         "name" : "Tainted Botany ???",
+         "description" : null,
+         "x" : 202,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 123,
+         "name" : "Crystaline Eye ???",
+         "description" : null,
+         "x" : 226,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 124,
+         "name" : "Redstone Vis ???",
+         "description" : null,
+         "x" : 250,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 125,
+         "name" : "Ethereal Flower ???",
+         "description" : null,
+         "x" : 274,
+         "y" : 80,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 126,
+         "name" : "Schleudertrauma",
+         "description" : null,
+         "x" : 22,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 127,
+         "name" : "Greatwood",
+         "description" : null,
+         "x" : 46,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 128,
+         "name" : "Silverwood",
+         "description" : null,
+         "x" : 70,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 129,
+         "name" : "Tubes",
+         "description" : null,
+         "x" : 94,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 130,
+         "name" : "Advanced Tubes",
+         "description" : null,
+         "x" : 118,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 131,
+         "name" : "Ex-Astris Objecte1",
+         "description" : null,
+         "x" : 142,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 132,
+         "name" : "Ex-Astris Objecte2",
+         "description" : null,
+         "x" : 166,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 133,
+         "name" : "Eldritch Dimension",
+         "description" : null,
+         "x" : 190,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 134,
+         "name" : "Minions",
+         "description" : null,
+         "x" : 214,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 135,
+         "name" : "des Glöckens Klang",
+         "description" : null,
+         "x" : 238,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 136,
+         "name" : "Landbau Minions",
+         "description" : null,
+         "x" : 262,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 137,
+         "name" : "Fleischer Minion",
+         "description" : null,
+         "x" : 286,
+         "y" : 100,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 138,
+         "name" : "Thaumic Minion",
+         "description" : null,
+         "x" : 34,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 139,
+         "name" : "Holz Minion",
+         "description" : null,
+         "x" : 58,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 140,
+         "name" : "Perfekter Sklave",
+         "description" : null,
+         "x" : 82,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 141,
+         "name" : "Tonsoldat",
+         "description" : null,
+         "x" : 106,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 142,
+         "name" : "Steinsoldat",
+         "description" : null,
+         "x" : 130,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 143,
+         "name" : "Schönheitskönigin",
+         "description" : null,
+         "x" : 154,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 144,
+         "name" : "Intelligenter Soldat",
+         "description" : null,
+         "x" : 178,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 145,
+         "name" : "fleißiges Bienchen",
+         "description" : null,
+         "x" : 202,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 146,
+         "name" : "leicht wie eine Feder",
+         "description" : null,
+         "x" : 226,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 147,
+         "name" : "Minion Power",
+         "description" : null,
+         "x" : 250,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 148,
+         "name" : "Minion Craftsman",
+         "description" : null,
+         "x" : 274,
+         "y" : 120,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 149,
+         "name" : "Minion Craftsman 2",
+         "description" : null,
+         "x" : 22,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 150,
+         "name" : "Animation",
+         "description" : null,
+         "x" : 46,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 151,
+         "name" : "Automating Inventory",
+         "description" : null,
+         "x" : 70,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 152,
+         "name" : "Infuse Yourself",
+         "description" : null,
+         "x" : 94,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 153,
+         "name" : "Biome Changing",
+         "description" : null,
+         "x" : 118,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 154,
+         "name" : "Alles behalten",
+         "description" : null,
+         "x" : 142,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 155,
+         "name" : "Alles sehen",
+         "description" : null,
+         "x" : 166,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 156,
+         "name" : "Cloak",
+         "description" : null,
+         "x" : 190,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 157,
+         "name" : "Magic Cobble",
+         "description" : null,
+         "x" : 214,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 158,
+         "name" : "Ethereal Walls",
+         "description" : null,
+         "x" : 238,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 159,
+         "name" : "Chameleon ???",
+         "description" : null,
+         "x" : 262,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 160,
+         "name" : "Boost Nutrition ???",
+         "description" : null,
+         "x" : 286,
+         "y" : 140,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 161,
+         "name" : "SubCollar ???",
+         "description" : null,
+         "x" : 34,
+         "y" : 160,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 162,
+         "name" : "Inventory Tracking ???",
+         "description" : null,
+         "x" : 58,
+         "y" : 160,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 163,
+         "name" : "Upgrading Capacity ???",
+         "description" : null,
+         "x" : 82,
+         "y" : 160,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 164,
+         "name" : "Scrivener's Oculus ???",
+         "description" : null,
+         "x" : 106,
+         "y" : 160,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 165,
+         "name" : "Luring Lemmings ???",
+         "description" : null,
+         "x" : 130,
+         "y" : 160,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 166,
+         "name" : "Construct more Pylons ???",
+         "description" : null,
+         "x" : 154,
+         "y" : 160,
+         "big" : false,
+         "setID" : "005 - Die Geister die ich rief",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 167,
+         "name" : "Opfere dich selbst",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 168,
+         "name" : "Blank Slate",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 169,
+         "name" : "Reinforced Slate",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 170,
+         "name" : "Self-Sacrifice  Rune",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 171,
+         "name" : "Capacity  Rune",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 172,
+         "name" : "Speed Rune",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 173,
+         "name" : "Efficient Rune",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 174,
+         "name" : "Blood Orb",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 175,
+         "name" : "Master Blood Orb",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 176,
+         "name" : "Altar Level 2",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 177,
+         "name" : "Altar Level 3",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 178,
+         "name" : "Chemistry Set",
+         "description" : null,
+         "x" : 286,
+         "y" : 20,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 179,
+         "name" : "Chemistry Set",
+         "description" : null,
+         "x" : 34,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 180,
+         "name" : "Master Ritual Stone",
+         "description" : null,
+         "x" : 58,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 181,
+         "name" : "Divination Sigil",
+         "description" : null,
+         "x" : 82,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 182,
+         "name" : "Water Sigil",
+         "description" : null,
+         "x" : 106,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 183,
+         "name" : "Sigil of Light",
+         "description" : null,
+         "x" : 130,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 184,
+         "name" : "Sigil of the Green Grove",
+         "description" : null,
+         "x" : 154,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 185,
+         "name" : "Blood Stone",
+         "description" : null,
+         "x" : 178,
+         "y" : 40,
+         "big" : false,
+         "setID" : "006 - Das heilige Blut",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 186,
+         "name" : "Blood Magic Blume",
+         "description" : null,
+         "x" : 22,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 187,
+         "name" : "Blood Magic Altar",
+         "description" : null,
+         "x" : 46,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 188,
+         "name" : "Pure Daisy",
+         "description" : null,
+         "x" : 70,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 189,
+         "name" : "Mana Pool",
+         "description" : null,
+         "x" : 94,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 190,
+         "name" : "Runic Altar",
+         "description" : null,
+         "x" : 118,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 191,
+         "name" : "Redstone Mana Control",
+         "description" : null,
+         "x" : 142,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 192,
+         "name" : "Brewing",
+         "description" : null,
+         "x" : 166,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 193,
+         "name" : "Elven Portal",
+         "description" : null,
+         "x" : 190,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 194,
+         "name" : "Daybloom",
+         "description" : null,
+         "x" : 214,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 195,
+         "name" : "Hydrogena",
+         "description" : null,
+         "x" : 238,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 196,
+         "name" : "Hopperhock",
+         "description" : null,
+         "x" : 262,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 197,
+         "name" : "Daffomill",
+         "description" : null,
+         "x" : 286,
+         "y" : 20,
+         "big" : false,
+         "setID" : "007 - Eine Wiese voller Blumen",
+         "icon" : null,
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      }
+   ],
+   "groupTierCatalog" : [
+   ],
+   "groupCatalog" : [
+   ]
+}
