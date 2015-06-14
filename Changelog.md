@@ -1,6 +1,66 @@
 # Changelog
 
-# Version 0.5.9
+# Version 0.6.0
+
+**Config Changes**
+- Disabled Torch Griefing (Lycanites Mobs)
+- Changed Brewingstand Recipe
+- Enabled Silver Large Rod for Crafting purposes (Tinkers Construct)
+- Change 8 Logs = 4 Chests to 2 Chests
+- Added Natura Berry to Fruit Food Group
+- Removed Mana Cookie
+- Removed Quarry & Mining Well Recipes (BuildCraft)
+. Replace molten redstone with destabilized redstone (Tinkers Construct)
+- Added Limited Resources 1x Thaumic Stone Extruder (Witching Gadgets) per Player
+
+**Mod Updates**
+- Minecraft Forge 10.13.3.1408 to 10.13.3.1428
+
+- Advanced Generators 0.9.12.64 to 0.9.13.72
+- AE2 Stuff 0.1.7.17 to 0.3.1.33
+- Applied Energistics2 rv2-stable-1 to rv2-stable-5
+- AutoPackager 1.5.3 to 1.5.4
+- Backpacks 3.0.3 to 3.0.4
+- BdLib 1.7.1.71 to 1.8.1.87
+- BloodMagic 1.3.2-1 to 1.3.3-4
+- Botania r1.6-188 to -r1.6-192
+- BuildCraft 6.4.15 to 7.0.9
+- BuildCraft Additions 2.1.2 to 2.1.4
+- BuildCraft Compat 6.4.2 to 7.0.8
+- CodeChickenCore 1.0.6.43 to 1.0.7.46
+- CustomMainMenu 1.4 to 1.5
+- Darkcore 0.22-24 to 0.25-30
+- Dimensional Anchor 59.0.2 to 59.0.3
+- EnderIO 2.2.8.367 to 2.2.8.381
+- EnderTech 0.3.2.386 to 0.3.2.388
+- Ex Nihilo 1.38-36 to 1.38-41
+- Forestry 3.5.6.15 to 3.5.7.16
+- GardenStuff 1.6.1 to 1.6.3
+- Hardcore Darkness 1.4 to 1.5
+- INpureCore 1.0.0B9-60 to 1.0.0B9-62
+- Limited Resources 0.8.0 to 0.10.0
+- ModTweaker 2-0.8.1 to 2-0.8.2
+- NEI Addons 1.12.8.29 to 1.12.9.32
+- NotEnoughItems 1.0.4.106 to 1.0.5.110
+- Pams HarvestCraft h to i
+- ProjectRed Base 4.6.0.79 to 4.6.2.82
+- ProjectRed Compat 4.6.0.79 to 4.6.2.82
+- ProjectRed Integration 4.6.0.79 to 4.6.2.82
+- ProjectRed Lighting 4.6.0.79 to 4.6.2.82
+- SimplyJetpacks 1.4.1 to 1.5.1
+- Storage Drawers 1.4.6 to 1.5.5
+- Tardis Mod 0.9825-98 to 0.985-150
+- Thaumcraft NEI Plugin 1.7 to 1.7a
+- TravellersGear 1.16.3 to 1.16.4
+- WitchingGadgets 1.1.6 to 1.1.9
+
+**Mod Additions**
+- Ex Astris Rebirth 1.01-42
+- Storage Drawers - Forestry Addon Pack 1.0.1
+- Storage Drawers - Natura Addon Pack 1.0.2
+
+**Mod Removed**
+- Ex Astris
 
 # Version 0.5.8
 
@@ -10,7 +70,7 @@
 - Raised Aluminumdrop (Ex Nihilo)
 - 1 Log = 2 Planks Great-/Silverwood (Thaumcraft)
 - 1 Log = 2 Planks Witchwood (Ars Magica2)
-- Added Nugget Cast Recipie with Diamond Nugget (Tinkers Construct)
+- Added Nugget Cast Recipe with Diamond Nugget (Tinkers Construct)
 - Added Carrot, Plum, Pear, Apricot, Fig and Persimmon Juice to Food Group
 - Added Limited Resources 2xCrucible (Ex Nihilo) per Player
 - Added Limited Resources 3xAutomatic Sieves (Ex Astris) per Player

@@ -42,14 +42,17 @@ val botaniaBlockOf = [
 # Items
 ########################################################################################################################
 
+# Botania
+val botaniaManaCookie = <Botania:manaCookie>;
+
 # Thaumcraft
-val thaumcraftVisRelay              = <Thaumcraft:blockMetalDevice:14>;
+val thaumcraftVisRelay = <Thaumcraft:blockMetalDevice:14>;
 
 # Project Red
-val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
+val projectRedConductivePlate = <ProjRed|Core:projectred.core.part:1>;
 
 # Advanced Generators               
-val advGenePowerIO                  = <advgenerators:PowerIO>;
+val advGenePowerIO = <advgenerators:PowerIO>;
 
 ########################################################################################################################
 # Oredict
@@ -95,8 +98,7 @@ recipes.addShaped( botaniaSpreader, [ [ botaniaLogs[0], botaniaLogs[0], botaniaL
 
 # Custom Fluxfield Recipe
 recipes.remove(botaniaFluxfield); 
-recipes.addShaped
-                 (botaniaFluxfield,[
-				    [botaniaBrickLivingrock, arsMagicaManaBattery , botaniaBrickLivingrock],
-			            [projectRedConductivePlate, advGenePowerIO, projectRedConductivePlate], 
-			            [botaniaBrickLivingrock, thaumcraftVisRelay, botaniaBrickLivingrock]]);
+recipes.addShaped( botaniaFluxfield,[ [ botaniaBrickLivingrock, arsMagicaManaBattery , botaniaBrickLivingrock ], [ projectRedConductivePlate, advGenePowerIO, projectRedConductivePlate ], [ botaniaBrickLivingrock, thaumcraftVisRelay, botaniaBrickLivingrock ] ]);
+
+# Remove Mana Cookie
+mods.botania.ManaInfusion.removeRecipe( botaniaManaCookie );
