@@ -4,55 +4,59 @@
    "questSetCatalog" : [
       {
          "name" : "Aller Anfang ist schwer",
-         "decription" : null
+         "decription" : "etwas Tinker, Pam, Ernergie, Ex-Nihilo \/ Ex-Astris"
       },
       {
          "name" : "Das große Fressen",
-         "decription" : null
+         "decription" : "alles zu Agricraft, Pam und Forestry\n"
       },
       {
          "name" : "Der Kreislauf der Gesteine",
-         "decription" : null
+         "decription" : "alles zu Tinker und Erzen"
       },
       {
          "name" : "Das Genie und das Chaos",
-         "decription" : null
-      },
-      {
-         "name" : "Das holographische Wunder",
-         "decription" : null
-      },
-      {
-         "name" : "Die Geister die ich rief",
-         "decription" : null
-      },
-      {
-         "name" : "Das heilige Blut",
-         "decription" : null
-      },
-      {
-         "name" : "Eine Wiese voller Blumen",
-         "decription" : null
+         "decription" : "alles zu Storage Drawer, Rucksäcke, Kisten, Tanks, usw."
       },
       {
          "name" : "Der Geist in der Maschine",
-         "decription" : null
+         "decription" : "alles zu Thermal Expansion, Buildcraft\n"
+      },
+      {
+         "name" : "Das holographische Wunder",
+         "decription" : "alles zu AE2"
+      },
+      {
+         "name" : "Der Zauberlehrling",
+         "decription" : "alles zu Ars Magica 2"
+      },
+      {
+         "name" : "Die Geister die ich rief",
+         "decription" : "alles zu Thaumcraft\n"
+      },
+      {
+         "name" : "Eine Wiese voller Blumen",
+         "decription" : "alles zu Botania"
+      },
+      {
+         "name" : "Die Blutbank",
+         "decription" : "alles zu Blood Magic"
       },
       {
          "name" : "Es grünt so grün, wenn ...",
-         "decription" : null
+         "decription" : "alles zu Bienen und Bäumen\n"
       },
       {
-         "name" : "Auf zur Safari",
-         "decription" : null
+         "name" : "Die Safari deines Lebens",
+         "decription" : "alles zu Lycanites Mobs"
       },
       {
          "name" : "Drachen töten leicht gemacht",
-         "decription" : null
+         "decription" : "alles zu Draconic Evolution"
       },
       {
          "name" : "Fast ein Gott",
-         "decription" : null
+         "decription" : "unmögliche Quests"
       }
    ],
    "reputationCatalog" : [
@@ -71,6 +75,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -89,6 +95,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -107,6 +115,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -125,6 +135,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -143,6 +155,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -161,6 +175,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -179,6 +195,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -197,6 +215,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -215,6 +235,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -233,6 +255,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -251,6 +275,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -269,6 +295,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -287,6 +315,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -305,6 +335,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -323,6 +355,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -341,6 +375,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -359,6 +395,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -377,6 +415,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -395,6 +435,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -413,6 +455,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -431,6 +475,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -449,6 +495,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -467,6 +515,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -485,6 +535,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -503,6 +555,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -521,6 +575,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -539,6 +595,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -557,6 +615,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -575,6 +635,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -593,6 +655,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -611,6 +675,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -629,6 +695,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -647,6 +715,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -665,6 +735,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -683,6 +755,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -701,6 +775,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -719,6 +795,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -737,6 +815,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -755,6 +835,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -773,6 +855,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -791,6 +875,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -809,6 +895,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -827,6 +915,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -845,6 +935,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -863,6 +955,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -881,6 +975,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -899,6 +995,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -917,6 +1015,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -935,6 +1035,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -953,6 +1055,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -971,6 +1075,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -989,6 +1095,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1007,6 +1115,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1025,6 +1135,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1043,6 +1155,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1061,6 +1175,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1079,6 +1195,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1097,6 +1215,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1115,6 +1235,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1133,6 +1255,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1151,6 +1275,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1169,6 +1295,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1187,6 +1315,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1205,6 +1335,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1223,6 +1355,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1241,6 +1375,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1259,6 +1395,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1277,6 +1415,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1295,6 +1435,8 @@
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1307,12 +1449,14 @@
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1325,12 +1469,14 @@
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1343,12 +1489,14 @@
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1361,12 +1509,14 @@
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1379,12 +1529,14 @@
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1397,12 +1549,14 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1415,12 +1569,14 @@
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1433,12 +1589,14 @@
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1451,12 +1609,14 @@
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1469,12 +1629,14 @@
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1487,12 +1649,14 @@
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "004 - Das holographische Wunder",
+         "setID" : "005 - Das holographische Wunder",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1500,17 +1664,19 @@
       },
       {
          "id" : 80,
-         "name" : "in Stab sie alle zu Binden",
+         "name" : "ein Stab sie alle zu Binden",
          "description" : null,
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1523,12 +1689,14 @@
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1541,12 +1709,14 @@
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1559,12 +1729,14 @@
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1577,12 +1749,14 @@
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1595,12 +1769,14 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1613,12 +1789,14 @@
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1631,12 +1809,14 @@
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1649,12 +1829,14 @@
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1667,12 +1849,14 @@
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1685,12 +1869,14 @@
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1703,12 +1889,14 @@
          "x" : 286,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1721,12 +1909,14 @@
          "x" : 34,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1739,12 +1929,14 @@
          "x" : 58,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1757,12 +1949,14 @@
          "x" : 82,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1775,12 +1969,14 @@
          "x" : 106,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1793,12 +1989,14 @@
          "x" : 130,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1811,12 +2009,14 @@
          "x" : 154,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1829,12 +2029,14 @@
          "x" : 178,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1847,12 +2049,14 @@
          "x" : 202,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1865,12 +2069,14 @@
          "x" : 226,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1883,12 +2089,14 @@
          "x" : 250,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1901,12 +2109,14 @@
          "x" : 274,
          "y" : 40,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1919,12 +2129,14 @@
          "x" : 22,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1937,12 +2149,14 @@
          "x" : 46,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1955,12 +2169,14 @@
          "x" : 70,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1973,12 +2189,14 @@
          "x" : 94,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -1991,12 +2209,14 @@
          "x" : 118,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2009,12 +2229,14 @@
          "x" : 142,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2027,12 +2249,14 @@
          "x" : 166,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2045,12 +2269,14 @@
          "x" : 190,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2063,12 +2289,14 @@
          "x" : 214,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2081,12 +2309,14 @@
          "x" : 238,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2099,12 +2329,14 @@
          "x" : 262,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2117,12 +2349,14 @@
          "x" : 286,
          "y" : 60,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2135,12 +2369,14 @@
          "x" : 34,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2153,12 +2389,14 @@
          "x" : 58,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2171,12 +2409,14 @@
          "x" : 82,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2189,12 +2429,14 @@
          "x" : 106,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2207,12 +2449,14 @@
          "x" : 130,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2225,12 +2469,14 @@
          "x" : 154,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2243,12 +2489,14 @@
          "x" : 178,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2261,12 +2509,14 @@
          "x" : 202,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2279,12 +2529,14 @@
          "x" : 226,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2297,12 +2549,14 @@
          "x" : 250,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2315,12 +2569,14 @@
          "x" : 274,
          "y" : 80,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2333,12 +2589,14 @@
          "x" : 22,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2351,12 +2609,14 @@
          "x" : 46,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2369,12 +2629,14 @@
          "x" : 70,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2387,12 +2649,14 @@
          "x" : 94,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2405,12 +2669,14 @@
          "x" : 118,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2423,12 +2689,14 @@
          "x" : 142,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2441,12 +2709,14 @@
          "x" : 166,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2459,12 +2729,14 @@
          "x" : 190,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2477,12 +2749,14 @@
          "x" : 214,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2495,12 +2769,14 @@
          "x" : 238,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2513,12 +2789,14 @@
          "x" : 262,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2531,12 +2809,14 @@
          "x" : 286,
          "y" : 100,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2549,12 +2829,14 @@
          "x" : 34,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2567,12 +2849,14 @@
          "x" : 58,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2585,12 +2869,14 @@
          "x" : 82,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2603,12 +2889,14 @@
          "x" : 106,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2621,12 +2909,14 @@
          "x" : 130,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2639,12 +2929,14 @@
          "x" : 154,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2657,12 +2949,14 @@
          "x" : 178,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2675,12 +2969,14 @@
          "x" : 202,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2693,12 +2989,14 @@
          "x" : 226,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2711,12 +3009,14 @@
          "x" : 250,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2729,12 +3029,14 @@
          "x" : 274,
          "y" : 120,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2747,12 +3049,14 @@
          "x" : 22,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2765,12 +3069,14 @@
          "x" : 46,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2783,12 +3089,14 @@
          "x" : 70,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2801,12 +3109,14 @@
          "x" : 94,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2819,12 +3129,14 @@
          "x" : 118,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2837,12 +3149,14 @@
          "x" : 142,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2855,12 +3169,14 @@
          "x" : 166,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2873,12 +3189,14 @@
          "x" : 190,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2891,12 +3209,14 @@
          "x" : 214,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2909,12 +3229,14 @@
          "x" : 238,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2927,12 +3249,14 @@
          "x" : 262,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2945,12 +3269,14 @@
          "x" : 286,
          "y" : 140,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2963,12 +3289,14 @@
          "x" : 34,
          "y" : 160,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2981,12 +3309,14 @@
          "x" : 58,
          "y" : 160,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -2999,12 +3329,14 @@
          "x" : 82,
          "y" : 160,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3017,12 +3349,14 @@
          "x" : 106,
          "y" : 160,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3035,12 +3369,14 @@
          "x" : 130,
          "y" : 160,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3053,12 +3389,14 @@
          "x" : 154,
          "y" : 160,
          "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
+         "setID" : "007 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3066,17 +3404,19 @@
       },
       {
          "id" : 167,
-         "name" : "Opfere dich selbst",
+         "name" : "Blood Magic Blume",
          "description" : null,
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3084,17 +3424,19 @@
       },
       {
          "id" : 168,
-         "name" : "Blank Slate",
+         "name" : "Blood Magic Altar",
          "description" : null,
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3102,17 +3444,19 @@
       },
       {
          "id" : 169,
-         "name" : "Reinforced Slate",
+         "name" : "Pure Daisy",
          "description" : null,
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3120,17 +3464,19 @@
       },
       {
          "id" : 170,
-         "name" : "Self-Sacrifice  Rune",
+         "name" : "Mana Pool",
          "description" : null,
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3138,17 +3484,19 @@
       },
       {
          "id" : 171,
-         "name" : "Capacity  Rune",
+         "name" : "Runic Altar",
          "description" : null,
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3156,17 +3504,19 @@
       },
       {
          "id" : 172,
-         "name" : "Speed Rune",
+         "name" : "Redstone Mana Control",
          "description" : null,
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3174,17 +3524,19 @@
       },
       {
          "id" : 173,
-         "name" : "Efficient Rune",
+         "name" : "Brewing",
          "description" : null,
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3192,17 +3544,19 @@
       },
       {
          "id" : 174,
-         "name" : "Blood Orb",
+         "name" : "Elven Portal",
          "description" : null,
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3210,17 +3564,19 @@
       },
       {
          "id" : 175,
-         "name" : "Master Blood Orb",
+         "name" : "Daybloom",
          "description" : null,
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3228,17 +3584,19 @@
       },
       {
          "id" : 176,
-         "name" : "Altar Level 2",
+         "name" : "Hydrogena",
          "description" : null,
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3246,17 +3604,19 @@
       },
       {
          "id" : 177,
-         "name" : "Altar Level 3",
+         "name" : "Hopperhock",
          "description" : null,
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3264,17 +3624,19 @@
       },
       {
          "id" : 178,
-         "name" : "Chemistry Set",
+         "name" : "Daffomill",
          "description" : null,
          "x" : 286,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
+         "setID" : "008 - Eine Wiese voller Blumen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
          ],
          "reputations" : [
@@ -3282,342 +3644,1461 @@
       },
       {
          "id" : 179,
-         "name" : "Chemistry Set",
-         "description" : null,
-         "x" : 34,
-         "y" : 40,
+         "name" : "Opfere dich selbst",
+         "description" : "Altar \/ Sacrificial Knife herstellen",
+         "x" : 14,
+         "y" : 10,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:Altar size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:Altar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sacrificialKnife size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 180,
-         "name" : "Master Ritual Stone",
+         "name" : "Blanck Slate",
          "description" : null,
-         "x" : 58,
-         "y" : 40,
+         "x" : 66,
+         "y" : 35,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
+         "requirements" : [
+            "179 - Opfere dich selbst"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:blankSlate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 181,
-         "name" : "Divination Sigil",
-         "description" : null,
-         "x" : 82,
-         "y" : 40,
+         "name" : "Altar Level 1 Orb",
+         "description" : "Unnamed quest",
+         "x" : 42,
+         "y" : 75,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
+         "requirements" : [
+            "179 - Opfere dich selbst"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 182,
-         "name" : "Water Sigil",
-         "description" : null,
-         "x" : 106,
-         "y" : 40,
+         "name" : "Divination Sigil",
+         "description" : "Unnamed quest",
+         "x" : 42,
+         "y" : 35,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
+         "requirements" : [
+            "180 - Blanck Slate",
+            "181 - Altar Level 1 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:divinationSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 183,
-         "name" : "Sigil of Light",
-         "description" : null,
-         "x" : 130,
-         "y" : 40,
+         "name" : "erste Sigils",
+         "description" : "Unnamed quest",
+         "x" : 54,
+         "y" : 55,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
+         "requirements" : [
+            "180 - Blanck Slate",
+            "181 - Altar Level 1 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:lavaSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:waterSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 184,
-         "name" : "Sigil of the Green Grove",
-         "description" : null,
-         "x" : 154,
-         "y" : 40,
+         "name" : "Alchemic Chemistry Set",
+         "description" : "Unnamed quest",
+         "x" : 34,
+         "y" : 115,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
+         "requirements" : [
+            "181 - Altar Level 1 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:simpleCatalyst size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 185,
-         "name" : "Blood Stone",
+         "name" : "Reinforced Slate",
          "description" : null,
-         "x" : 178,
-         "y" : 40,
+         "x" : 98,
+         "y" : 35,
          "big" : false,
-         "setID" : "006 - Das heilige Blut",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
+         "requirements" : [
+            "180 - Blanck Slate"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 186,
-         "name" : "Blood Magic Blume",
+         "name" : "Altar Level 2 Orb",
          "description" : null,
-         "x" : 22,
-         "y" : 20,
+         "x" : 74,
+         "y" : 75,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
+         "requirements" : [
+            "181 - Altar Level 1 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 187,
-         "name" : "Blood Magic Altar",
-         "description" : null,
-         "x" : 46,
-         "y" : 20,
+         "name" : "mehr Sigils",
+         "description" : "Unnamed quest",
+         "x" : 86,
+         "y" : 55,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
+         "requirements" : [
+            "185 - Reinforced Slate",
+            "186 - Altar Level 2 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:airSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:seerSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfTheFastMiner size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:growthSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:voidSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 188,
-         "name" : "Pure Daisy",
-         "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "name" : "Basis Essenzen",
+         "description" : "Unnamed quest",
+         "x" : 46,
+         "y" : 135,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:aether size(1) dmg(0)",
+         "requirements" : [
+            "184 - Alchemic Chemistry Set",
+            "186 - Altar Level 2 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:aether size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:aquasalus size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:crepitous size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:crystallos size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:incendium size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:magicales size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:sanctus size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:tennebrae size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:terrae size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 189,
-         "name" : "Mana Pool",
+         "name" : "Imbued Slate",
          "description" : null,
-         "x" : 94,
-         "y" : 20,
+         "x" : 130,
+         "y" : 35,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
+         "requirements" : [
+            "185 - Reinforced Slate"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 190,
-         "name" : "Runic Altar",
+         "name" : "Altar Level 3 Orb",
          "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "x" : 106,
+         "y" : 75,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
+         "requirements" : [
+            "186 - Altar Level 2 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 191,
-         "name" : "Redstone Mana Control",
+         "name" : "noch mehr Sigils",
          "description" : null,
-         "x" : 142,
-         "y" : 20,
+         "x" : 118,
+         "y" : 55,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
+         "requirements" : [
+            "189 - Imbued Slate",
+            "190 - Altar Level 3 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Affinity",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Magnetism",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfMagnetism size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Lamp",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:itemBloodLightSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Bridge",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfTheBridge size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Holding",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfHolding size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 192,
-         "name" : "Brewing",
+         "name" : "Inscription Tools",
          "description" : null,
-         "x" : 166,
-         "y" : 20,
+         "x" : 122,
+         "y" : 110,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
+         "requirements" : [
+            "190 - Altar Level 3 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:waterScribeTool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:earthScribeTool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:airScribeTool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 193,
-         "name" : "Elven Portal",
-         "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "name" : "Ritual Diviner",
+         "description" : "Unnamed quest",
+         "x" : 134,
+         "y" : 130,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
+         "requirements" : [
+            "192 - Inscription Tools"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 194,
-         "name" : "Daybloom",
+         "name" : "Start der Rituale",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 110,
+         "y" : 130,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
+         "requirements" : [
+            "190 - Altar Level 3 Orb"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:ritualStone size(1) dmg(0)",
+                     "required" : 16,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:masterStone size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 195,
-         "name" : "Hydrogena",
+         "name" : "Ritual of Binding",
          "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "x" : 122,
+         "y" : 150,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:energySword size(1) dmg(0)",
+         "requirements" : [
+            "194 - Start der Rituale",
+            "193 - Ritual Diviner"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:energySword size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 196,
-         "name" : "Hopperhock",
+         "name" : "Weak Blood Shard",
          "description" : null,
-         "x" : 262,
-         "y" : 20,
+         "x" : 170,
+         "y" : 150,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
+         "requirements" : [
+            "195 - Ritual of Binding"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 197,
-         "name" : "Daffomill",
+         "name" : "Bound Armor",
          "description" : null,
-         "x" : 286,
-         "y" : 20,
+         "x" : 182,
+         "y" : 170,
          "big" : false,
-         "setID" : "007 - Eine Wiese voller Blumen",
-         "icon" : null,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
+         "requirements" : [
+            "196 - Weak Blood Shard"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
          "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:bloodSocket size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:armourForge size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:boundHelmet size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:boundPlate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:boundLeggings size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:boundBoots size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 198,
+         "name" : "bessere Essenzen",
+         "description" : null,
+         "x" : 70,
+         "y" : 135,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
+         "requirements" : [
+            "188 - Basis Essenzen",
+            "190 - Altar Level 3 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(8)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(6)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 199,
+         "name" : "Dämonen Zirkel",
+         "description" : null,
+         "x" : 194,
+         "y" : 150,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
+         "requirements" : [
+            "196 - Weak Blood Shard"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:blockPedestal size(1) dmg(0)",
+                     "required" : 6,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:blockPlinth size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 200,
+         "name" : "Dämonen Kontrolle",
+         "description" : null,
+         "x" : 218,
+         "y" : 150,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
+         "requirements" : [
+            "199 - Dämonen Zirkel"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 201,
+         "name" : "Demonic Slate",
+         "description" : "Unnamed quest",
+         "x" : 162,
+         "y" : 35,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
+         "requirements" : [
+            "189 - Imbued Slate"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 202,
+         "name" : "Altar Level 4 Orb",
+         "description" : null,
+         "x" : 138,
+         "y" : 75,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
+         "requirements" : [
+            "190 - Altar Level 3 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 203,
+         "name" : "jetzt reichts aber mit Sigils",
+         "description" : null,
+         "x" : 150,
+         "y" : 55,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
+         "requirements" : [
+            "201 - Demonic Slate",
+            "202 - Altar Level 4 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Compress",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Ender",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfEnderSeverance size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Haste",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfHaste size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Whirlwind",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfWind size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Supression",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:sigilOfSupression size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 204,
+         "name" : "besserer Ritual Diviner",
+         "description" : null,
+         "x" : 146,
+         "y" : 110,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
+         "requirements" : [
+            "202 - Altar Level 4 Orb",
+            "193 - Ritual Diviner"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:itemRitualDiviner size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 205,
+         "name" : "Kristall Tank",
+         "description" : null,
+         "x" : 170,
+         "y" : 110,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
+         "requirements" : [
+            "202 - Altar Level 4 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:blockAlchemicCalcinator size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:itemDestinationClearer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:itemTankSegmenter size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:blockCrystalBelljar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 206,
+         "name" : "Dämonen Jäger",
+         "description" : null,
+         "x" : 194,
+         "y" : 110,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
+         "requirements" : [
+            "205 - Kristall Tank"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(29)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 207,
+         "name" : "Ethereal Slate",
+         "description" : null,
+         "x" : 194,
+         "y" : 35,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
+         "requirements" : [
+            "201 - Demonic Slate"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 208,
+         "name" : "Altar Level 5 Orb",
+         "description" : null,
+         "x" : 170,
+         "y" : 75,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
+         "requirements" : [
+            "202 - Altar Level 4 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 209,
+         "name" : "aber jetzt das letzte Sigils",
+         "description" : "Unnamed quest",
+         "x" : 182,
+         "y" : 55,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
+         "requirements" : [
+            "207 - Ethereal Slate",
+            "208 - Altar Level 5 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 210,
+         "name" : "Altar Level 6 Orb",
+         "description" : "Unnamed quest",
+         "x" : 202,
+         "y" : 75,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
+         "requirements" : [
+            "208 - Altar Level 5 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 211,
+         "name" : "noch besserer Ritual Diviner",
+         "description" : "Unnamed quest",
+         "x" : 218,
+         "y" : 110,
+         "big" : false,
+         "setID" : "009 - Die Blutbank",
+         "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
+         "requirements" : [
+            "210 - Altar Level 6 Orb"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:itemRitualDiviner size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
