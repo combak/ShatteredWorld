@@ -7,23 +7,23 @@
          "decription" : "etwas Tinker, Pam, Ernergie, Ex-Nihilo \/ Ex-Astris"
       },
       {
-         "name" : "Das große Fressen",
+         "name" : "Das grosse Fressen",
          "decription" : "alles zu Agricraft, Pam und Forestry\n"
       },
       {
-         "name" : "Der Kreislauf der Gesteine",
+         "name" : "Kreislauf der Gesteine",
          "decription" : "alles zu Tinker und Erzen"
       },
       {
-         "name" : "Das Genie und das Chaos",
-         "decription" : "alles zu Storage Drawer, Rucksäcke, Kisten, Tanks, usw."
+         "name" : "Genie und Chaos",
+         "decription" : "alles zu Storage Drawer, Rucksaecke, Kisten, Tanks, usw."
       },
       {
-         "name" : "Der Geist in der Maschine",
+         "name" : "Geist in der Maschine",
          "decription" : "alles zu Thermal Expansion, Buildcraft\n"
       },
       {
-         "name" : "Das holographische Wunder",
+         "name" : "Das Hologramm",
          "decription" : "alles zu AE2"
       },
       {
@@ -35,7 +35,7 @@
          "decription" : "alles zu Thaumcraft\n"
       },
       {
-         "name" : "Eine Wiese voller Blumen",
+         "name" : "Wiese voller Blumen",
          "decription" : "alles zu Botania"
       },
       {
@@ -43,20 +43,20 @@
          "decription" : "alles zu Blood Magic"
       },
       {
-         "name" : "Es grünt so grün, wenn ...",
-         "decription" : "alles zu Bienen und Bäumen\n"
+         "name" : "Gruenes Monster",
+         "decription" : "alles zu Bienen und B�umen\n"
       },
       {
-         "name" : "Die Safari deines Lebens",
+         "name" : "Safari des Lebens",
          "decription" : "alles zu Lycanites Mobs"
       },
       {
-         "name" : "Drachen töten leicht gemacht",
+         "name" : "Drachentoeter",
          "decription" : "alles zu Draconic Evolution"
       },
       {
          "name" : "Fast ein Gott",
-         "decription" : "unmögliche Quests"
+         "decription" : "unm�gliche Quests"
       }
    ],
    "reputationCatalog" : [
@@ -64,7 +64,7 @@
    "quests" : [
       {
          "id" : 0,
-         "name" : "Holz fällen",
+         "name" : "Holz faellen",
          "description" : null,
          "x" : 26,
          "y" : 15,
@@ -84,7 +84,7 @@
       },
       {
          "id" : 1,
-         "name" : "Werkbänke",
+         "name" : "Werkbaenke",
          "description" : null,
          "x" : 50,
          "y" : 15,
@@ -284,7 +284,7 @@
       },
       {
          "id" : 11,
-         "name" : "Töpfers ist so schön",
+         "name" : "Toepfers ist so schoen",
          "description" : null,
          "x" : 290,
          "y" : 15,
@@ -304,7 +304,7 @@
       },
       {
          "id" : 12,
-         "name" : "Brot für die Welt",
+         "name" : "Brot fuer die Welt",
          "description" : null,
          "x" : 38,
          "y" : 35,
@@ -364,7 +364,7 @@
       },
       {
          "id" : 15,
-         "name" : "Ein guter Koch kennt seine Rezpete",
+         "name" : "Ein guter Koch kennt seine Rezp",
          "description" : null,
          "x" : 110,
          "y" : 35,
@@ -444,7 +444,7 @@
       },
       {
          "id" : 19,
-         "name" : "Wenn die Hölle zufriert",
+         "name" : "Wenn die Hoelle zufriert",
          "description" : null,
          "x" : 206,
          "y" : 35,
@@ -484,7 +484,7 @@
       },
       {
          "id" : 21,
-         "name" : "Wer hat Angst vor dem bösen Mann",
+         "name" : "Wer hat Angst vor dem boesen Man",
          "description" : null,
          "x" : 254,
          "y" : 35,
@@ -544,7 +544,7 @@
       },
       {
          "id" : 24,
-         "name" : "Das ist alles für den Arsch",
+         "name" : "Das ist alles fuer den Arsch",
          "description" : null,
          "x" : 50,
          "y" : 55,
@@ -609,7 +609,7 @@
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -629,7 +629,7 @@
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -649,7 +649,7 @@
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -664,12 +664,12 @@
       },
       {
          "id" : 30,
-         "name" : "Milch macht müde Männer munter",
+         "name" : "Milch macht muede Maenner munter",
          "description" : null,
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -689,7 +689,7 @@
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -709,7 +709,7 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -729,7 +729,7 @@
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -744,12 +744,12 @@
       },
       {
          "id" : 34,
-         "name" : "Auf dem Weg zur eigenen Burgerkette",
+         "name" : "Die eigenen Burgerkette",
          "description" : null,
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -769,7 +769,7 @@
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -784,12 +784,12 @@
       },
       {
          "id" : 36,
-         "name" : "Der grüne Daumen",
+         "name" : "Der gruene Daumen",
          "description" : null,
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -804,12 +804,12 @@
       },
       {
          "id" : 37,
-         "name" : "vegetarische Kost schmeckt so guuut",
+         "name" : "vegetarische Kost",
          "description" : null,
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -829,7 +829,7 @@
          "x" : 286,
          "y" : 20,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -849,7 +849,7 @@
          "x" : 34,
          "y" : 40,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -864,12 +864,12 @@
       },
       {
          "id" : 40,
-         "name" : "wie werde ich ein Großbauer",
+         "name" : "wie werde ich ein Grossbauer",
          "description" : null,
          "x" : 58,
          "y" : 40,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -884,12 +884,12 @@
       },
       {
          "id" : 41,
-         "name" : "wie werde ich ein Händler",
+         "name" : "wie werde ich ein Haendler",
          "description" : null,
          "x" : 82,
          "y" : 40,
          "big" : false,
-         "setID" : "001 - Das große Fressen",
+         "setID" : "001 - Das grosse Fressen",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -904,12 +904,12 @@
       },
       {
          "id" : 42,
-         "name" : "Heute koch ich, morgen brau ich, übermorgen...",
+         "name" : "Heute koch ich, morgen ...",
          "description" : null,
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -924,12 +924,12 @@
       },
       {
          "id" : 43,
-         "name" : "Das kleinste Rädchen im Getriebe",
+         "name" : "Das kleinste Raedchen",
          "description" : null,
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -949,7 +949,7 @@
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -969,7 +969,7 @@
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -989,7 +989,7 @@
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1009,7 +1009,7 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1024,12 +1024,12 @@
       },
       {
          "id" : 48,
-         "name" : "der silberne Löffel",
+         "name" : "der silberne Loeffel",
          "description" : null,
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1049,7 +1049,7 @@
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1064,12 +1064,12 @@
       },
       {
          "id" : 50,
-         "name" : "härter als Stahl",
+         "name" : "haerter als Stahl",
          "description" : null,
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1084,12 +1084,12 @@
       },
       {
          "id" : 51,
-         "name" : "das weiße Metall",
+         "name" : "das weisse Metall",
          "description" : null,
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1109,7 +1109,7 @@
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1129,7 +1129,7 @@
          "x" : 286,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1144,12 +1144,12 @@
       },
       {
          "id" : 54,
-         "name" : "das Unmögliche mit dem Unwarscheinlichen verbinden",
+         "name" : "das Unmoegliche",
          "description" : null,
          "x" : 34,
          "y" : 40,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1169,7 +1169,7 @@
          "x" : 58,
          "y" : 40,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1184,12 +1184,12 @@
       },
       {
          "id" : 56,
-         "name" : "wovon träumst du Nachts",
+         "name" : "wovon traeumst du Nachts",
          "description" : null,
          "x" : 82,
          "y" : 40,
          "big" : false,
-         "setID" : "002 - Der Kreislauf der Gesteine",
+         "setID" : "002 - Kreislauf der Gesteine",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1204,12 +1204,12 @@
       },
       {
          "id" : 57,
-         "name" : "wer Ordnung hält ist nur zu faul zum Suchen",
+         "name" : "wer Ordnung haelt ist ...",
          "description" : null,
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1229,7 +1229,7 @@
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1249,7 +1249,7 @@
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1269,7 +1269,7 @@
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1289,7 +1289,7 @@
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1309,7 +1309,7 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1329,7 +1329,7 @@
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1349,7 +1349,7 @@
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1369,7 +1369,7 @@
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1389,7 +1389,7 @@
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1409,7 +1409,7 @@
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1429,7 +1429,7 @@
          "x" : 286,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Das Genie und das Chaos",
+         "setID" : "003 - Genie und Chaos",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1449,7 +1449,7 @@
          "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1464,12 +1464,12 @@
       },
       {
          "id" : 70,
-         "name" : "der Man für das Grobe",
+         "name" : "der Man fuer das Grobe",
          "description" : null,
          "x" : 46,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1489,7 +1489,7 @@
          "x" : 70,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1504,12 +1504,12 @@
       },
       {
          "id" : 72,
-         "name" : "es glitzert so schön",
+         "name" : "es glitzert so schoen",
          "description" : null,
          "x" : 94,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1529,7 +1529,7 @@
          "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1549,7 +1549,7 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1564,12 +1564,12 @@
       },
       {
          "id" : 75,
-         "name" : "alles im Überblick",
+         "name" : "alles im Ueberblick",
          "description" : null,
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1589,7 +1589,7 @@
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1604,12 +1604,12 @@
       },
       {
          "id" : 77,
-         "name" : "ein Faß ohne Boden",
+         "name" : "ein Fass ohne Boden",
          "description" : null,
          "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1629,7 +1629,7 @@
          "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1649,7 +1649,7 @@
          "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "005 - Das holographische Wunder",
+         "setID" : "005 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2104,7 +2104,7 @@
       },
       {
          "id" : 102,
-         "name" : "die Hexenküche",
+         "name" : "die Hexenk�",
          "description" : null,
          "x" : 274,
          "y" : 40,
@@ -2764,7 +2764,7 @@
       },
       {
          "id" : 135,
-         "name" : "des Glöckens Klang",
+         "name" : "des Gloeckens Klang",
          "description" : null,
          "x" : 238,
          "y" : 100,
@@ -2924,7 +2924,7 @@
       },
       {
          "id" : 143,
-         "name" : "Schönheitskönigin",
+         "name" : "Schoenheitskoenigin",
          "description" : null,
          "x" : 154,
          "y" : 120,
@@ -2964,7 +2964,7 @@
       },
       {
          "id" : 145,
-         "name" : "fleißiges Bienchen",
+         "name" : "fleissiges Bienchen",
          "description" : null,
          "x" : 202,
          "y" : 120,
@@ -3409,7 +3409,7 @@
          "x" : 22,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:lexicon size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -3441,7 +3441,7 @@
          "x" : 34,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:flower size(1) dmg(1)",
          "requirements" : [
             "167 - Lexica Botania"
@@ -3505,7 +3505,7 @@
          "x" : 34,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:altar size(1) dmg(0)",
          "requirements" : [
             "167 - Lexica Botania"
@@ -3540,8 +3540,11 @@
          "x" : 46,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:specialFlower size(1) dmg(0)",
+            "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
+         },
          "requirements" : [
             "168 - Mystical Flower",
             "169 - Petal Apothecary"
@@ -3560,6 +3563,7 @@
                "requirements" : [
                   {
                      "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('puredaisy') )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -3593,8 +3597,11 @@
          "x" : 58,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:specialFlower size(1) dmg(0)",
+            "nbt" : "=COMPOUND( type=STRING('hydroangeas') )"
+         },
          "requirements" : [
             "169 - Petal Apothecary"
          ],
@@ -3612,6 +3619,7 @@
                "requirements" : [
                   {
                      "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('hydroangeas') )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -3628,8 +3636,11 @@
          "x" : 46,
          "y" : 80,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:specialFlower size(1) dmg(0)",
+            "nbt" : "=COMPOUND( type=STRING('endoflame') )"
+         },
          "requirements" : [
             "169 - Petal Apothecary"
          ],
@@ -3647,6 +3658,7 @@
                "requirements" : [
                   {
                      "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('endoflame') )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -3663,7 +3675,7 @@
          "x" : 58,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:grassHorn size(1) dmg(0)",
          "requirements" : [
             "170 - Pure Daisy"
@@ -3698,8 +3710,11 @@
          "x" : 70,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:twigWand size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:twigWand size(1) dmg(0)",
+            "nbt" : "=COMPOUND(  )"
+         },
          "requirements" : [
             "170 - Pure Daisy"
          ],
@@ -3717,6 +3732,7 @@
                "requirements" : [
                   {
                      "item" : "Botania:twigWand size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
@@ -3743,8 +3759,11 @@
          "x" : 106,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:specialFlower size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:specialFlower size(1) dmg(0)",
+            "nbt" : "=COMPOUND( type=STRING('daybloom') )"
+         },
          "requirements" : [
             "174 - Livingrock Twig"
          ],
@@ -3762,11 +3781,13 @@
                "requirements" : [
                   {
                      "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('daybloom') )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
                   {
                      "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('nightshade') )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -3783,7 +3804,7 @@
          "x" : 130,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:pool size(1) dmg(0)",
          "requirements" : [
             "175 - Mana Produktion"
@@ -3818,7 +3839,7 @@
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaTablet size(1) dmg(0)",
          "requirements" : [
             "178 - Mana Items"
@@ -3851,7 +3872,8 @@
                      "precision" : "PRECISE"
                   },
                   {
-                     "item" : "Botania:manaTablet size(1) dmg(10000)",
+                     "item" : "Botania:manaTablet size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "FUZZY"
                   }
@@ -3868,7 +3890,7 @@
          "x" : 154,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(0)",
          "requirements" : [
             "176 - Mana Pool"
@@ -3920,7 +3942,7 @@
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manasteelChest size(1) dmg(0)",
          "requirements" : [
             "178 - Mana Items"
@@ -3970,8 +3992,11 @@
          "x" : 166,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:lens size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:lens size(1) dmg(0)",
+            "nbt" : "=COMPOUND(  )"
+         },
          "requirements" : [
             "178 - Mana Items"
          ],
@@ -3989,6 +4014,7 @@
                "requirements" : [
                   {
                      "item" : "Botania:lens size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -4001,26 +4027,31 @@
                "requirements" : [
                   {
                      "item" : "Botania:lens size(1) dmg(10)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
                   {
                      "item" : "Botania:lens size(1) dmg(9)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
                   {
                      "item" : "Botania:lens size(1) dmg(16)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
                   {
                      "item" : "Botania:lens size(1) dmg(15)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
                   {
                      "item" : "Botania:lens size(1) dmg(17)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -4037,8 +4068,11 @@
          "x" : 178,
          "y" : 80,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
-         "icon" : "Botania:magnetRing size(1) dmg(0)",
+         "setID" : "008 - Wiese voller Blumen",
+         "icon" : {
+            "item" : "Botania:magnetRing size(1) dmg(0)",
+            "nbt" : "=COMPOUND(  )"
+         },
          "requirements" : [
             "180 - Mana Lens"
          ],
@@ -4056,6 +4090,7 @@
                "requirements" : [
                   {
                      "item" : "Botania:magnetRing size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -4072,7 +4107,7 @@
          "x" : 178,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:runeAltar size(1) dmg(0)",
          "requirements" : [
             "178 - Mana Items"
@@ -4107,7 +4142,7 @@
          "x" : 202,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(8)",
          "requirements" : [
             "182 - Runic Altar"
@@ -4162,7 +4197,7 @@
          "x" : 214,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(5)",
          "requirements" : [
             "183 - Runen der 5 Elemente"
@@ -4207,12 +4242,12 @@
       },
       {
          "id" : 185,
-         "name" : "Runen der Glückseligkeiten",
+         "name" : "Runen der Gl�ckseligkeiten",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 80,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(12)",
          "requirements" : [
             "184 - Runen der 4 Jahreszeiten"
@@ -4272,12 +4307,12 @@
       },
       {
          "id" : 186,
-         "name" : "Welt der Stäbe",
+         "name" : "Welt der St�be",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:dirtRod size(1) dmg(0)",
          "requirements" : [
             "183 - Runen der 5 Elemente"
@@ -4316,6 +4351,7 @@
                   },
                   {
                      "item" : "Botania:tornadoRod size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
@@ -4342,7 +4378,7 @@
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:brewery size(1) dmg(0)",
          "requirements" : [
             "178 - Mana Items"
@@ -4382,7 +4418,7 @@
          "x" : 110,
          "y" : 110,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(4)",
          "requirements" : [
             "178 - Mana Items"
@@ -4429,7 +4465,7 @@
          "x" : 98,
          "y" : 90,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:terrasteelChest size(1) dmg(0)",
          "requirements" : [
             "188 - Terrasteel Ingot"
@@ -4479,7 +4515,7 @@
          "x" : 134,
          "y" : 110,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:terraformRod size(1) dmg(0)",
          "requirements" : [
             "188 - Terrasteel Ingot"
@@ -4514,7 +4550,7 @@
          "x" : 122,
          "y" : 130,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:alfheimPortal size(1) dmg(0)",
          "requirements" : [
             "188 - Terrasteel Ingot"
@@ -4554,7 +4590,7 @@
          "x" : 110,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(7)",
          "requirements" : [
             "191 - Elven Portal"
@@ -4589,7 +4625,7 @@
          "x" : 86,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:elementiumChest size(1) dmg(0)",
          "requirements" : [
             "192 - Elementium Ingot"
@@ -4639,7 +4675,7 @@
          "x" : 122,
          "y" : 170,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(8)",
          "requirements" : [
             "192 - Elementium Ingot"
@@ -4684,7 +4720,7 @@
          "x" : 98,
          "y" : 170,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:skyDirtRod size(1) dmg(0)",
          "requirements" : [
             "192 - Elementium Ingot"
@@ -4724,7 +4760,7 @@
          "x" : 146,
          "y" : 170,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
          "requirements" : [
             "194 - Elementium Items"
@@ -4774,7 +4810,7 @@
          "x" : 134,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(5)",
          "requirements" : [
             "192 - Elementium Ingot"
@@ -4821,7 +4857,7 @@
          "x" : 146,
          "y" : 130,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(14)",
          "requirements" : [
             "197 - Ritual of Gaia"
@@ -4861,7 +4897,7 @@
          "x" : 158,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:rainbowRod size(1) dmg(0)",
          "requirements" : [
             "197 - Ritual of Gaia"
@@ -4901,7 +4937,7 @@
          "x" : 286,
          "y" : 180,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(15)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -4928,12 +4964,12 @@
       },
       {
          "id" : 201,
-         "name" : "Flügel Tiara",
+         "name" : "Fluegel Tiara",
          "description" : "Unnamed quest",
          "x" : 262,
          "y" : 180,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:flightTiara size(1) dmg(0)",
          "requirements" : [
             "200 - Ender Air Bottle"
@@ -4968,7 +5004,7 @@
          "x" : 274,
          "y" : 160,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(12)",
          "requirements" : [
             "200 - Ender Air Bottle"
@@ -5003,7 +5039,7 @@
          "x" : 262,
          "y" : 140,
          "big" : false,
-         "setID" : "008 - Eine Wiese voller Blumen",
+         "setID" : "008 - Wiese voller Blumen",
          "icon" : "Botania:redStringRelay size(1) dmg(0)",
          "requirements" : [
             "202 - Red String"
@@ -5990,7 +6026,7 @@
       },
       {
          "id" : 224,
-         "name" : "Dämonen Zirkel",
+         "name" : "Daemonen Zirkel",
          "description" : null,
          "x" : 182,
          "y" : 150,
@@ -6030,7 +6066,7 @@
       },
       {
          "id" : 225,
-         "name" : "Dämonen Kontrolle",
+         "name" : "Daemonen Kontrolle",
          "description" : null,
          "x" : 206,
          "y" : 150,
@@ -6038,7 +6074,7 @@
          "setID" : "009 - Die Blutbank",
          "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
          "requirements" : [
-            "224 - Dämonen Zirkel"
+            "224 - Daemonen Zirkel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6082,6 +6118,18 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:demonicSlate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
@@ -6261,7 +6309,10 @@
          "y" : 110,
          "big" : false,
          "setID" : "009 - Die Blutbank",
-         "icon" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
+         "icon" : {
+            "item" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
+            "nbt" : "=COMPOUND(  )"
+         },
          "requirements" : [
             "227 - Altar Level 4 Orb"
          ],
@@ -6289,11 +6340,13 @@
                   },
                   {
                      "item" : "AWWayofTime:itemTankSegmenter size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
                   {
                      "item" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
@@ -6310,7 +6363,7 @@
       },
       {
          "id" : 231,
-         "name" : "Dämonen Jäger",
+         "name" : "Daemonen Jaeger",
          "description" : null,
          "x" : 198,
          "y" : 110,
@@ -6367,6 +6420,18 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
