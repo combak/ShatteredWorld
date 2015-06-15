@@ -129,6 +129,21 @@ val ressourceseeds  = [
   <AgriCraft:seedAurigold>		/* 12 - Aurigold */
 ] as IItemStack[];
 
+val agriCraftDiamondNugget = <AgriCraft:nuggetDiamond>;
+
+# Vanilla
+val vanillaDiamond = <minecraft:diamond>;
+
+# Witching Gadgets
+val witchGadGemcutter = <WitchingGadgets:item.WG_Material:8>;
+
+########################################################################################################################
+# Custom Crafting Recipies - Shapeless
+########################################################################################################################
+
+recipes.remove( agriCraftDiamondNugget );
+recipes.addShapeless( agriCraftDiamondNugget * 9, [ vanillaDiamond, witchGadGemcutter ] );
+
 ########################################################################################################################
 # Adding Seeds to Soil
 ########################################################################################################################
