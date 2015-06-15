@@ -133,6 +133,9 @@ val thaumcraftThaumiumIngot	= <Thaumcraft:ItemResource:2>;
 val thaumcraftVoidMetalNugget	= <Thaumcraft:ItemNugget:7>;
 val thaumcraftVoidMetalIngot	= <Thaumcraft:ItemResource:16>;
 
+# Thaumcraft - Forbidden Magic
+val forbMagicElementiumNugget = <ForbiddenMagic:FMResource:4>;
+
 ########################################################################################################################
 # Fluid Registry
 ########################################################################################################################
@@ -203,8 +206,10 @@ mods.tconstruct.Casting.addTableRecipe( botaniaTerrasteelIngot, frTerrasteel * 1
 mods.tconstruct.Casting.addBasinRecipe( botaniaTerrasteelBlock, frTerrasteel * 1296, null, false, 20);
 
 # Elementium
+mods.tconstruct.Smeltery.addMelting( forbMagicElementiumNugget, frElementium * 16, 500, botaniaElementiumBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, frElementium * 144, 500, botaniaElementiumBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaElementiumBlock, frElementium * 1296, 500, botaniaElementiumBlock );
+mods.tconstruct.Casting.addTableRecipe( forbMagicElementiumNugget, frElementium * 16, tConstructNuggetCast, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, frElementium * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( botaniaElementiumBlock, frElementium * 1296, null, false, 20);
 
