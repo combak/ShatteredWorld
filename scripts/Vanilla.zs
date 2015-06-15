@@ -103,7 +103,8 @@ val removeSmelting = [
   <ThermalFoundation:material:74>,	/* 36 - Signalum Ingot (Thermal Foundation) */
   <ThermalFoundation:material:75>,	/* 37 - Lumium Ingot (Thermal Foundation) */
   <EnderIO:itemAlloy:5>,		/* 38 - Pulsating Iron (EnderIO) */
-  <EnderIO:itemAlloy:2>			/* 39 - Vibrant Alloy (EnderIO) */
+  <EnderIO:itemAlloy:2>,		/* 39 - Vibrant Alloy (EnderIO) */
+  <EnderIO:itemAlloy>			/* 40 - Electrical Steel */
 ] as IItemStack[];
 
 ########################################################################################################################

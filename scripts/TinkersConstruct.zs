@@ -36,6 +36,7 @@ val vanillaRedstoneBlock = <minecraft:redstone_block>;
 # EnderIO
 val enderioPulsatingIronBlock 	= <EnderIO:blockIngotStorage:5>;
 val enderioVibrantAlloyBlock	= <EnderIO:blockIngotStorage:2>;
+val enderioElectricalSteelBlock	= <EnderIO:blockIngotStorage>;
 
 # Thaumcraft
 val thaumcraftThaumiumBlock = <Thaumcraft:blockCosmeticSolid:4>;
@@ -107,6 +108,10 @@ val enderioPulsatingIronNugget	= <EnderIO:itemMaterial:3>;
 val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
 val enderioVibrantAlloyNugget	= <EnderIO:itemMaterial:4>;
 val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
+val enderioElectricalSteelIngot	= <EnderIO:itemAlloy>;
+
+# Ex Astris
+val exAstrisElectricalSteelNugget = <exastrisrebirth:itemNuggetElectricalSteel>;
 
 # AgriCraft
 val agriCraftDiamondNugget = <AgriCraft:nuggetDiamond>;
@@ -151,6 +156,7 @@ val frAluminumBrass	= <liquid:aluminumbrass.molten>;
 val frGold		= <liquid:gold.molten>;
 val frThaumium		= <liquid:molten_thaumium>;
 val frVoidMetal		= <liquid:molten_void_metal>;
+val frElectricalSteel	= <liquid:molten_electrical_steel>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -262,6 +268,14 @@ mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyBlock, frVibrantAlloy * 
 mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyNugget, frVibrantAlloy * 16, tConstructNuggetCast, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyIngot, frVibrantAlloy * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, null, false, 20);
+
+#Electrical Steel
+mods.tconstruct.Smeltery.addMelting( exAstrisElectricalSteelNugget, frElectricalSteel * 16, 500, enderioElectricalSteelBlock );
+mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelIngot, frElectricalSteel * 144, 500, enderioElectricalSteelBlock );
+mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelBlock, frElectricalSteel * 1296, 500, enderioElectricalSteelBlock );
+mods.tconstruct.Casting.addTableRecipe( exAstrisElectricalSteelNugget, frElectricalSteel * 16, tConstructNuggetCast, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( enderioElectricalSteelIngot, frElectricalSteel * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( enderioElectricalSteelBlock, frElectricalSteel * 1296, null, false, 20);
 
 # Nugget Cast with Diamond Nugget
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
