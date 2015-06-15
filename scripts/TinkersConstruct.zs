@@ -134,7 +134,8 @@ val thaumcraftVoidMetalNugget	= <Thaumcraft:ItemNugget:7>;
 val thaumcraftVoidMetalIngot	= <Thaumcraft:ItemResource:16>;
 
 # Thaumcraft - Forbidden Magic
-val forbMagicElementiumNugget = <ForbiddenMagic:FMResource:4>;
+val forbMagicElementiumNugget	= <ForbiddenMagic:FMResource:4>;
+val forbMagicManasteelNugget	= <ForbiddenMagic:FMResource:2>;
 
 ########################################################################################################################
 # Fluid Registry
@@ -194,8 +195,10 @@ for i, cast in removeTableRecipes
 }
 
 # Manasteel
+mods.tconstruct.Smeltery.addMelting( forbMagicManasteelNugget, frManasteel * 16, 500, botaniaManasteelBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, frManasteel * 144, 500, botaniaManasteelBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaManasteelBlock, frManasteel * 1296, 500, botaniaManasteelBlock );
+mods.tconstruct.Casting.addTableRecipe( forbMagicManasteelNugget, frManasteel * 16, tConstructNuggetCast, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( botaniaManasteelIngot, frManasteel * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( botaniaManasteelBlock, frManasteel * 1296, null, false, 20);
 
