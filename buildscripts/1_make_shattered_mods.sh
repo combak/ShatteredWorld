@@ -98,7 +98,7 @@ echo "## Config Files aus Github packen"
 rm ~/minecraft_versions/solder/modpack/tempdir/mods/projectphoenixconfig/projectphoenixconfig-new.zip 1> /dev/null 2>&1
 mkdir ~/minecraft_versions/solder/modpack/tempdir/mods/projectphoenixconfig/ 1> /dev/null 2>&1
 cd ~/minecraft_versions/Entwicklung/ShatteredWorld
-zip -r ~/minecraft_versions/solder/modpack/tempdir/mods/projectphoenixconfig/projectphoenixconfig-new.zip config Changelog.txt ShatteredWorld*.txt licences.md versions.md scripts resources 1>/dev/null 2>&1
+zip -r ~/minecraft_versions/solder/modpack/tempdir/mods/projectphoenixconfig/projectphoenixconfig-new.zip config Changelog.md customnpcs Licence-Artwork.md Licences.md permissions README.md resources scripts Version.md  1>/dev/null 2>&1
 echo "--" ~/minecraft_versions/solder/modpack/tempdir/mods/shatterdworldconfig/shatterdworldconfig-new.zip
 cd -
 
