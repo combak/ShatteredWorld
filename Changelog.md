@@ -3,6 +3,7 @@
 # Version 0.6.1
 **Mod Removed**
 - MineTweaker Recipe Maker
+
 # Version 0.6.0
 
 **Config Changes**
