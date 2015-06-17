@@ -23,7 +23,6 @@
 - codechickencore-1.7.10-1.0.7.46.jar
 - cofhcore-1.7.10-3.0.2-262.jar
 - cookiecore-1.7.10-1.3.1-7.jar
-- customitems-1.7.10-1.0.9beta.jar
 - custommainmenu-1.7.10-1.5.jar
 - customnpcs-1.7.10-1.7.10d.jar
 - darkcore-1.7.10-0.25-30.jar
@@ -57,7 +56,6 @@
 - magistics-1.7.10-0.7.6.jar
 - mantle-1.7.10-0.3.2.jar
 - minetweaker3-1.7.10-3.0.9C.jar
-- minetweakerrecipemaker-1.7.10-1.1.0.11.jar
 - mobiuscore-1.7.10-1.2.5.jar
 - modtweaker-1.7.10-2-0.8.2.jar
 - natura-1.7.10-2.2.0.1.jar

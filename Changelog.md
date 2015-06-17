@@ -1,8 +1,10 @@
 # Changelog
 
 # Version 0.6.1
+
 **Mod Removed**
 - MineTweaker Recipe Maker
+- CustomItems ( temporary see:https://github.com/combak/ShatteredWorld/issues/89 )
 
 # Version 0.6.0
 
