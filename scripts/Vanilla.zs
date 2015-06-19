@@ -49,6 +49,7 @@ val thaumCraftArcaneBrick = <Thaumcraft:blockCosmeticSolid:7>;
 val stick 	= <minecraft:stick>;
 val goldNugget 	= <minecraft:gold_nugget>;
 val vanillaBowl	= <minecraft:bowl>;
+val vanillaBucket	= <minecraft:bucket>;
 
 val vanillaIngots = [
   <minecraft:iron_ingot>,	/* 0 - Iron */
@@ -60,6 +61,7 @@ val thermalServo = <ThermalExpansion:material>;
 
 # Tinkers
 val tinersCopperIngot 	= <TConstruct:materials:9>; #Wofür ist der , Oli?#
+val TConstructAluIngot  = <TConstruct:materials:11>;
 val TConstructToughRodSilver = <TConstruct:toughRod:1023> ;
 
 # Remove from Furnace
@@ -168,6 +170,7 @@ for i, block in vanillaBlockOf
 recipes.remove( vanillaChest );
 recipes.addShaped( vanillaChest, [ [ odPlank, odPlank, odPlank ], [ odPlank, null, odPlank ], [ odPlank, odPlank, odPlank ] ] );
 recipes.addShaped( vanillaChest * 2, [ [ odLog, odLog, odLog ], [ odLog, null, odLog ], [ odLog, odLog, odLog ] ] );
+recipes.addShaped( vanillaBucket , [ [ TConstructAluIngot, null, TConstructAluIngot ], [ null, TConstructAluIngot, null ] ] );
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
