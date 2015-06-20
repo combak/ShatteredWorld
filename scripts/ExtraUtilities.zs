@@ -43,7 +43,7 @@ val extUtilObsidianInfused          = <ExtraUtilities:decorativeBlock1:1>;
 val extUtilMatrix                   = <ExtraUtilities:decorativeBlock1:12>;
 
 # Forest Day
-val forestDayFurnaceCoke            = <Forestday:machine.furnace>;
+val forestDayFurnaceCoke            = <Forestday:forest.fd.block.furnace>;
 
 # Tinkers Construct
 val tConstructSlabSeared            = <TConstruct:SearedSlab>;
@@ -63,7 +63,7 @@ val advGenePowerIO                  = <advgenerators:PowerIO>;
 val enderioPulsatingIronNugget      = <EnderIO:itemMaterial:3>;
 
 # Forest Day
-val forestDayObsidianPlate          = <Forestday:fd.item.build.materials.plate:3>;
+val forestDayObsidianPlate          = <TConstruct:heavyPlate:6>;
 
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
