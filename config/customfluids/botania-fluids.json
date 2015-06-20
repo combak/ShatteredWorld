@@ -1,0 +1,41 @@
+{
+  "fluids":[           
+    {
+      "name":"Molten Manasteel",
+      "textureName": "molten_manasteel",
+      "material": lava,
+      "flowLength": 4,
+      "temperature": 200,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "isGas": false,
+      "hasBucket" : false
+      
+    }, 
+    {
+      "name":"Molten Terrasteel",
+      "textureName": "molten_terrasteel",
+      "material": lava,
+      "flowLength": 4,
+      "temperature": 200,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "isGas": false,
+      "hasBucket" : false
+    }, 
+    {
+      "name":"Molten Elementium",
+      "textureName": "molten_elementium",
+      "material": lava,
+      "flowLength": 4,
+      "temperature": 200,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "isGas": false,
+      "hasBucket" : false
+    }
+  ]
+}

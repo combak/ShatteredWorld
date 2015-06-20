@@ -1,0 +1,41 @@
+
+{
+  "fluids":[           
+    {
+      "name":"Molten Pulsating Iron",
+      "textureName": "molten_pulsatingiron",
+      "material": lava,
+      "flowLength": 4,
+      "temperature": 200,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "isGas": false,
+      "hasBucket" : false
+    },
+    {
+      "name":"Molten Vibrant Alloy",
+      "textureName": "molten_vibrantalloy",
+      "material": lava,
+      "flowLength": 4,
+      "temperature": 200,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "isGas": false,
+      "hasBucket" : false
+    },
+    {
+      "name":"Molten Electrical Steel",
+      "textureName": "molten_electricalsteel",
+      "material": lava,
+      "flowLength": 4,
+      "temperature": 200,
+      "density": 2000,
+      "viscosity": 6000,
+      "luminosity": 5,
+      "isGas": false,
+      "hasBucket" : false
+    }    
+  ]
+}
