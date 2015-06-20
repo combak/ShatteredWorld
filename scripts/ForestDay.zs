@@ -1,28 +1,63 @@
 import minetweaker.item.IItemStack;
 
 ########################################################################################################################
+# Blocks
+########################################################################################################################
+
+val forestDayBlockOf = [
+  <Forestday:metalBlock>,	/*  0 - Copper */
+  <Forestday:metalBlock:1>,	/*  1 - Tin */
+  <Forestday:metalBlock:2>,	/*  2 - Bronze */
+  <Forestday:metalBlock:3>,	/*  3 - Red Alloy */
+  <Forestday:metalBlock:4>,	/*  4 - Blue Alloy */
+  <Forestday:metalBlock:5>,	/*  5 - Dark Blue Alloy */
+  <Forestday:metalBlock:6>,	/*  6 - Yellow Alloy */
+  <Forestday:metalBlock:7>,	/*  7 - Brown Alloy */
+  <Forestday:metalBlock:8>,	/*  8 - Green Alloy */
+  <Forestday:metalBlock:9>,	/*  9 - Steel */
+  <Forestday:metalBlock:10>,	/* 10 - Light Steel */
+  <Forestday:metalBlock:11>,	/* 11 - Dark Steel */
+  <Forestday:metalBlock:12>,	/* 12 - Obsidian Metal */
+  <Forestday:metalBlock:13>	/* 13 - Enderium */
+] as IItemStack[];
+
+########################################################################################################################
 # Items
 ########################################################################################################################
 
 val forestDayNuggets = [
-  <Forestday:forest.fd.item.nugget>,		/*  0 - Copper */
-  <Forestday:forest.fd.item.nugget:1>,		/*  1 - Tin */
-  <Forestday:forest.fd.item.nugget:2>,		/*  2 - Bronze */
-  <Forestday:forest.fd.item.nugget:3>,		/*  3 - Redstone Alloy*/
-  <Forestday:forest.fd.item.nugget:4>,		/*  4 - Black Alloy */
-  <Forestday:forest.fd.item.nugget:5>,		/*  5 - Steel */
-  <Forestday:forest.fd.item.nugget:6>,		/*  6 - Forest Steel */
+  <Forestday:fd.item.nuggets>,		/* 0 - Copper */
+  <Forestday:fd.item.nuggets:1>,	/* 1 - Tin */
+  <Forestday:fd.item.nuggets:2>		/* 2 - Bronze */
 ] as IItemStack[];
 
 val forestDayIngots = [
-  <Forestday:forest.fd.item.ingot>,		/*  0 - Copper */
-  <Forestday:forest.fd.item.ingot:1>,		/*  1 - Tin */
-  <Forestday:forest.fd.item.ingot:2>,		/*  2 - Bronze */
-  <Forestday:forest.fd.item.ingot:3>,		/*  3 - Redstone Alloy*/
-  <Forestday:forest.fd.item.ingot:4>,		/*  4 - Black Alloy */
-  <Forestday:forest.fd.item.ingot:5>,		/*  5 - Steel */
-  <Forestday:forest.fd.item.ingot:6>,		/*  6 - Forest Steel */
+  <Forestday:fd.item.ingot>,		/*  0 - Copper */
+  <Forestday:fd.item.ingot:1>,		/*  1 - Tin */
+  <Forestday:fd.item.ingot:2>,		/*  2 - Bronze */
+  <Forestday:fd.item.ingot:3>,		/*  3 - Red Alloy */
+  <Forestday:fd.item.ingot:4>,		/*  4 - Blue Alloy */
+  <Forestday:fd.item.ingot:5>,		/*  5 - Dark Blue Alloy */
+  <Forestday:fd.item.ingot:6>,		/*  6 - Yellow Alloy */
+  <Forestday:fd.item.ingot:7>,		/*  7 - Brown Alloy */
+  <Forestday:fd.item.ingot:8>,		/*  8 - Green Alloy */
+  <Forestday:fd.item.ingot:9>,		/*  9 - Steel */
+  <Forestday:fd.item.ingot:10>,		/* 10 - Light Steel */
+  <Forestday:fd.item.ingot:11>,		/* 11 - Dark Steel */
+  <Forestday:fd.item.ingot:12>,		/* 12 - Obsidian Metal */
+  <Forestday:fd.item.ingot:13>		/* 13 - Enderium */
 ] as IItemStack[];
+
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
+
+# Remove Ingot to Block Crafting
+for i, block in forestDayBlockOf
+{
+  recipes.remove( block );
+}
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
