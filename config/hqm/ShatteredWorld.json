@@ -65,7 +65,7 @@
       {
          "id" : 0,
          "name" : "Holz faellen",
-         "description" : null,
+         "description" : "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit dem gekonnten Handkantenschlag zerlegen wir einen Baum in seine Einzelteile.",
          "x" : 26,
          "y" : 15,
          "big" : false,
@@ -85,7 +85,7 @@
       {
          "id" : 1,
          "name" : "Werkbaenke",
-         "description" : null,
+         "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\n\nDafuer muessen wir uns zunaechst mal eine Werkbank (Crafting Table) bauen.",
          "x" : 50,
          "y" : 15,
          "big" : false,
@@ -105,7 +105,7 @@
       {
          "id" : 2,
          "name" : "Ofen",
-         "description" : null,
+         "description" : "Da muss es doch noch was geben, was man sich aus den schnoeden Steinen bauen kann. Und siehe da, man kann sich daraus einen Ofen bauen.",
          "x" : 74,
          "y" : 15,
          "big" : false,
@@ -125,7 +125,7 @@
       {
          "id" : 3,
          "name" : "Minen",
-         "description" : null,
+         "description" : "Wo kommt man am besten an die guten Steine, man geht unter Tage. Dazu sollte man aber auch eine kleine Spitzhake dabei haben.",
          "x" : 98,
          "y" : 15,
          "big" : false,
@@ -145,7 +145,7 @@
       {
          "id" : 4,
          "name" : "Licht",
-         "description" : null,
+         "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
          "x" : 122,
          "y" : 15,
          "big" : false,
@@ -165,7 +165,7 @@
       {
          "id" : 5,
          "name" : "Farmland vorbereiten",
-         "description" : null,
+         "description" : "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns bereits mal ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
          "x" : 146,
          "y" : 15,
          "big" : false,
@@ -185,7 +185,7 @@
       {
          "id" : 6,
          "name" : "Wilde Tiere",
-         "description" : null,
+         "description" : "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die Meisten sind nicht gut auf mich zu sprechen, leben sie doch schon laenger hier als ich.",
          "x" : 170,
          "y" : 15,
          "big" : false,
@@ -205,7 +205,7 @@
       {
          "id" : 7,
          "name" : "Nahrung vorbereiten",
-         "description" : null,
+         "description" : "Aus meinem Appetitt von vorhin wird langsam ein ausgewachsener Hunger. Jetzt ist es an der Zeit das Feld zu bestellen und etwas anzupflanzen",
          "x" : 194,
          "y" : 15,
          "big" : false,
@@ -225,7 +225,7 @@
       {
          "id" : 8,
          "name" : "Sichere Nacht",
-         "description" : null,
+         "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
          "x" : 218,
          "y" : 15,
          "big" : false,
@@ -245,7 +245,7 @@
       {
          "id" : 9,
          "name" : "Alles kurz und klein schlagen",
-         "description" : null,
+         "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steins besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
          "x" : 242,
          "y" : 15,
          "big" : false,
@@ -265,7 +265,7 @@
       {
          "id" : 10,
          "name" : "Sieben bis der Arzt kommt",
-         "description" : null,
+         "description" : "Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?",
          "x" : 266,
          "y" : 15,
          "big" : false,
@@ -285,7 +285,7 @@
       {
          "id" : 11,
          "name" : "Toepfers ist so schoen",
-         "description" : null,
+         "description" : "Jetzt brauchen wir nur noch Wasser und etwas mit dem wir Wasser von einem Punkt A zu einem Punkt B bringen koennen. ",
          "x" : 290,
          "y" : 15,
          "big" : false,
@@ -305,7 +305,7 @@
       {
          "id" : 12,
          "name" : "Brot fuer die Welt",
-         "description" : null,
+         "description" : "Nachdem wir ein so schoenes Feld haben, sollten wir Weizen anbauen. Mit dem koennen wir uns nahrhaftes Brot herstellen",
          "x" : 38,
          "y" : 35,
          "big" : false,
@@ -325,7 +325,7 @@
       {
          "id" : 13,
          "name" : "Unbesiegbar",
-         "description" : null,
+         "description" : "Zum Glueck leben wir in einer kleinen Behausung, manche sagen auch Loch dazu. Aber was wollen die ganzen boesen Gesellen von mir da draussen. Ich gehe mal raus und frage sie.",
          "x" : 62,
          "y" : 35,
          "big" : false,
@@ -345,7 +345,7 @@
       {
          "id" : 14,
          "name" : "In der Ruhe liegt die Kraft",
-         "description" : null,
+         "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenen Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
          "x" : 86,
          "y" : 35,
          "big" : false,
@@ -365,7 +365,7 @@
       {
          "id" : 15,
          "name" : "Ein guter Koch kennt seine Rezp",
-         "description" : null,
+         "description" : "Ok, jetzt haben wir etwas Fisch, etwas Brot. Aber fuer eine gesunde Ernaehrung fehlt hier noch die Abwechslung. Vielleicht sollten wir uns ja an ausgefalleneren Rezepten versuchen. Jetzt brauchen wir dafuer noch ein paar Kuechen Utensilien. Mit denen machen wir uns dann Mehl und daraus stellen wir uns einen Teig her. Das klingt doch nach einem Plan",
          "x" : 110,
          "y" : 35,
          "big" : false,
@@ -385,7 +385,7 @@
       {
          "id" : 16,
          "name" : "Wie die Axt im Wald",
-         "description" : null,
+         "description" : "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
          "x" : 134,
          "y" : 35,
          "big" : false,
@@ -405,7 +405,7 @@
       {
          "id" : 17,
          "name" : "Dummheit schafft Freiraum",
-         "description" : null,
+         "description" : "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und auch noch selber sich um die Steine kuemmern ... das muss doch viel einfacher gehen.",
          "x" : 158,
          "y" : 35,
          "big" : false,
@@ -425,7 +425,7 @@
       {
          "id" : 18,
          "name" : "Herrschaft des Feuers",
-         "description" : null,
+         "description" : "Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.",
          "x" : 182,
          "y" : 35,
          "big" : false,
@@ -445,7 +445,7 @@
       {
          "id" : 19,
          "name" : "Wenn die Hoelle zufriert",
-         "description" : null,
+         "description" : "In der Hoelle soll es ja mal ganz viele tolle Sachen geben. Durch ein Portal soll man da laufen um dort hin zu gelangen.",
          "x" : 206,
          "y" : 35,
          "big" : false,
@@ -464,8 +464,8 @@
       },
       {
          "id" : 20,
-         "name" : "In der Ruhe liegt die Kraft",
-         "description" : null,
+         "name" : "Endlich keine Muskelkraft mehr",
+         "description" : "Vom ganzen Arbeiten tuen mir die Arme, Haende, Ruecken und die Fuesse weh. Ich brauche etwas, was mir einige Arbeiten erleichtert. Aber dafuer brauche ich Energie.",
          "x" : 230,
          "y" : 35,
          "big" : false,
@@ -485,7 +485,7 @@
       {
          "id" : 21,
          "name" : "Wer hat Angst vor dem boesen Man",
-         "description" : null,
+         "description" : "Manchmal habe ich in der Nacht so komische Geraeusche draussen gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
          "x" : 254,
          "y" : 35,
          "big" : false,
@@ -505,7 +505,7 @@
       {
          "id" : 22,
          "name" : "Der Held der Automatisierung",
-         "description" : null,
+         "description" : "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen. Auch koennte man sich mal einen komfortablen Arbeitsplatz bauen. Ach und wenn man den noch verbessern kann, dann waere das richtig super.",
          "x" : 278,
          "y" : 35,
          "big" : false,
@@ -525,7 +525,7 @@
       {
          "id" : 23,
          "name" : "Im Vorbeigehen mitnehmen",
-         "description" : null,
+         "description" : "Ein paar der Werkzeuge halten ja wirklich nicht lange, die muss man sich immer wieder herstellen. Aber dafuer koennen wir uns nun ein paar extrem nuetzliche Rahmen herstellen.",
          "x" : 26,
          "y" : 55,
          "big" : false,
@@ -545,7 +545,7 @@
       {
          "id" : 24,
          "name" : "Das ist alles fuer den Arsch",
-         "description" : null,
+         "description" : "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir hier auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
          "x" : 50,
          "y" : 55,
          "big" : false,
@@ -565,7 +565,7 @@
       {
          "id" : 25,
          "name" : "Aus dem Nichts erschaffen",
-         "description" : null,
+         "description" : "Wasser haben wir in kleinen Mengen. Es soll eine Wundermaschine geben, die aus wenig Wasser viel macht und das fast umsonst. Klingt nach einer unmoeglichen Werbung aber das gibt es wirklich",
          "x" : 74,
          "y" : 55,
          "big" : false,
@@ -585,7 +585,7 @@
       {
          "id" : 26,
          "name" : "Der Weltwanderer",
-         "description" : null,
+         "description" : "Die Insel hier ist ja schoen und gut. Aber wenn man in 45 Minuten die Insel umrunden kann und dabei noch in der Zeit viele Pausen machen kann, dann bekommt man doch irgendwann einen Inselkoller. OK, man kann in die Hoelle gehen, aber da gefaellt es mir doch hier besser. Gibt es noch andere Orte, die ich besuchen sollte?",
          "x" : 98,
          "y" : 55,
          "big" : false,

@@ -21,6 +21,11 @@ val forestDayBlockOf = [
   <Forestday:metalBlock:13>	/* 13 - Enderium */
 ] as IItemStack[];
 
+val forestDayStoneGrindingCoilHolder = <Forestday:structure.coil.grinding:1>;
+
+# Clean stone
+val odStone = <ore:stone>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -47,6 +52,7 @@ val forestDayIngots = [
   <Forestday:fd.item.ingot:12>,		/* 12 - Obsidian Metal */
   <Forestday:fd.item.ingot:13>		/* 13 - Enderium */
 ] as IItemStack[];
+
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -75,5 +81,7 @@ for i, ingot in forestDayIngots
   recipes.remove( ingot );
 }
 
-
+# Workaround fuer StoneSlab Overlay
+recipes.remove( forestDayStoneGrindingCoilHolder );
+recipes.addShaped( forestDayStoneGrindingCoilHolder * 1, [ [null, null, null],[odStone, odStone, odStone] ]);
 
