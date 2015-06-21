@@ -19,7 +19,7 @@ val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
 # Forest Day
-val forestDayFurnaceCoke            = <Forestday:forest.fd.block.furnace>;
+val forestDayFurnaceCoke            = <Forestday:machine.furnace>;
 
 # Extra Utilities
 val extUtilGlassThickened           = <ExtraUtilities:decorativeBlock2>;
@@ -65,7 +65,7 @@ val enderioBasicGear 		= <EnderIO:itemMachinePart:1>;
 val enderioZombieElectrode      = <EnderIO:itemFrankenSkull>;
 
 # Forest Day
-val forestDayWoodGear               = <Forestday:forest.fd.item.gearWood:1>;
+val forestDayWoodGear = <Forestday:fd.item.gear.wood:1>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;

@@ -11,7 +11,7 @@ val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
 # Forest Day
-val forestDayFan                    = <minecraft:redstone_block>;
+val forestDayFan                    = <Forestday:machine.fan>;
 
 # Thermal Expansion
 val thermExpCellResonant            = <ThermalExpansion:Cell:4>;

@@ -69,13 +69,13 @@ val removeSmelting = [
   <minecraft:gold_nugget>,		/*  2 - Gold Nugget (Vanilla) */
   <minecraft:gold_ingot>,		/*  3 - Gold Ingot (Vanilla) */
   <TConstruct:materials:20>,		/*  4 - Copper Nugget (Tinkers Construct) */
-  <Forestday:forest.fd.item.ingot>,		/*  5 - Copper Ingot (Forest Day) */
+  <Forestday:fd.item.ingot>,		/*  5 - Copper Ingot (Forest Day) */
   <Forestry:ingotCopper>,		/*  6 - Copper Ingot (Forestry) */
   <ThermalFoundation:material:64>,	/*  7 - Copper Ingot (Thermal Foundation) */
   <TConstruct:materials:9>,		/*  8 - Copper Ingot (Tinkers Construct) */
   <exnihilo:exnihilo.copper_ingot>,	/*  9 - Copper Ingot (Ex Nihilo) */
   <TConstruct:materials:21>,		/* 10 - Tin Nugget (Tinkers Construct) */
-  <Forestday:forest.fd.item.ingot:1>,		/* 11 - Tin Ingot (Forest Day) */
+  <Forestday:fd.item.ingot:1>,		/* 11 - Tin Ingot (Forest Day) */
   <Forestry:ingotTin>,			/* 12 - Tin Ingot (Forestry) */
   <ThermalFoundation:material:65>,	/* 13 - Tin Ingot (Thermal Foundation) */
   <TConstruct:materials:10>,		/* 14 - Tin Ingot (Tinkers Construct) */
