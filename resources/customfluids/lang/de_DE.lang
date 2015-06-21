@@ -4,16 +4,16 @@ tile.customfluids:molten_terrasteel.name=Geschmolzener Terrastahl
 tile.customfluids:molten_elementium.name=Geschmolzenes Elementium
 
 # EnderIO
-tile.customfluids:molten_electrical_steel.name=Geschmolzener elektrischer Stahl
-tile.customfluids:molten_pulsating_iron.name=Geschmolzenes pulsierendes Eisen
-tile.customfluids:molten_vibrant_alloy.name=Geschmolzene dynamische Legierung
+tile.customfluids:molten_electricalsteel.name=Geschmolzener elektrischer Stahl
+tile.customfluids:molten_pulsatingiron.name=Geschmolzenes pulsierendes Eisen
+tile.customfluids:molten_vibrantalloy.name=Geschmolzene dynamische Legierung
 
 # GardenStuff
-tile.customfluids:molten_wrought_iron.name=Geschmolzenes Schmiedeeisen
+tile.customfluids:molten_wroughtiron.name=Geschmolzenes Schmiedeeisen
 
 # Redstone Arsenal
-tile.customfluids:molten_fluxed_electrum.name=Geschmolzenes fluxierendes Elektrum
+tile.customfluids:molten_fluxedelectrum.name=Geschmolzenes fluxierendes Elektrum
 
 # Thaumcraft
 tile.customfluids:molten_thaumium.name=Geschmolzenes Thaumium
-tile.customfluids:molten_void_metal.name=Geschmolzenes Leermetall
+tile.customfluids:molten_voidmetal.name=Geschmolzenes Leermetall
