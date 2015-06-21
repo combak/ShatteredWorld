@@ -148,19 +148,19 @@ val frBronze 		= <liquid:bronze.molten>;
 val frManasteel		= <liquid:molten_manasteel>;
 val frTerrasteel	= <liquid:molten_terrasteel>;
 val frElementium	= <liquid:molten_elementium>;
-val frWroughtIron	= <liquid:molten_wrought_iron>;
-val frFluxedElectrum	= <liquid:molten_fluxed_electrum>;
+val frWroughtIron	= <liquid:molten_wroughtiron>;
+val frFluxedElectrum	= <liquid:molten_fluxedelectrum>;
 val frRedstone		= <liquid:redstone>;
-val frPulsatingIron	= <liquid:molten_pulsating_iron>;
-val frVibrantAlloy	= <liquid:molten_vibrant_alloy>;
+val frPulsatingIron	= <liquid:molten_pulsatingiron>;
+val frVibrantAlloy	= <liquid:molten_vibrantalloy>;
 val frSilver		= <liquid:silver.molten>;
 val frLead		= <liquid:lead.molten>;
 val frManaInfusedMetal	= <liquid:mithril.molten>;
 val frAluminumBrass	= <liquid:aluminumbrass.molten>;
 val frGold		= <liquid:gold.molten>;
 val frThaumium		= <liquid:molten_thaumium>;
-val frVoidMetal		= <liquid:molten_void_metal>;
-val frElectricalSteel	= <liquid:molten_electrical_steel>;
+val frVoidMetal		= <liquid:molten_voidmetal>;
+val frElectricalSteel	= <liquid:molten_electricalsteel>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
