@@ -2,8 +2,7 @@
 {
   "fluids":[           
     {
-      "name":"Molten Thaumium",
-      "textureName": "molten_thaumium",
+      "name": "molten_thaumium",
       "material": lava,
       "flowLength": 4,
       "temperature": 200,
@@ -14,8 +13,7 @@
       "hasBucket" : false
     },
     {
-      "name":"Molten Void Metal",
-      "textureName": "molten_voidmetal",
+      "name": "molten_voidmetal",
       "material": lava,
       "flowLength": 4,
       "temperature": 200,

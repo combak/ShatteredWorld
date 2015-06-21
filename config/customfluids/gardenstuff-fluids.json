@@ -1,8 +1,7 @@
 {
   "fluids":[           
     {
-      "name":"Molten Wrought Iron",
-      "textureName": "molten_wroughtiron",
+      "name": "molten_wroughtiron",
       "material": lava,
       "flowLength": 4,
       "temperature": 200,

@@ -1,8 +1,7 @@
 {
   "fluids":[           
     {
-      "name":"Molten Manasteel",
-      "textureName": "molten_manasteel",
+      "name": "molten_manasteel",
       "material": lava,
       "flowLength": 4,
       "temperature": 200,
@@ -14,8 +13,7 @@
       
     }, 
     {
-      "name":"Molten Terrasteel",
-      "textureName": "molten_terrasteel",
+      "name": "molten_terrasteel",
       "material": lava,
       "flowLength": 4,
       "temperature": 200,
@@ -26,8 +24,7 @@
       "hasBucket" : false
     }, 
     {
-      "name":"Molten Elementium",
-      "textureName": "molten_elementium",
+      "name": "molten_elementium",
       "material": lava,
       "flowLength": 4,
       "temperature": 200,
