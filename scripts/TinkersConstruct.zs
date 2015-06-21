@@ -257,9 +257,9 @@ mods.tconstruct.Casting.addTableRecipe( thermFoundManaInfusedIngot, frManaInfuse
 # Redstone Melting -> Destabilized Redstone & Redstone Block
 mods.tconstruct.Smeltery.removeMelting( vanillaRedstone );
 mods.tconstruct.Smeltery.removeMelting( vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 144, 500, vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 1296, 500, vanillaRedstoneBlock );
-mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 1296, null, false, 20);
+mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 500, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 500, vanillaRedstoneBlock );
+mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 900, null, false, 20);
 
 # Pulsating Iron
 mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronNugget, frPulsatingIron * 16, 500, enderioPulsatingIronBlock );
