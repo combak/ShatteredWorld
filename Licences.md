@@ -167,12 +167,12 @@
 - Files: http://minecraft.curseforge.com/mc-mods/222908-cookiecore/files
 - Permission: https://github.com/Ephys/CookieCore/blob/1.7/README.md
 
-**CustomItems**
-> GNU General Public License
+**Custom Fluids**
+> GNU Lesser General Public License v3
 
-- Author: Otho
-- Files: http://minecraft.curseforge.com/mc-mods/224312-customitems/files
-- Licence: https://github.com/0tho/CustomItems/wiki#license
+- Author: DerOli82
+- Files: coming soon
+- Licence: https://github.com/DerOli82/CustomFluids/blob/master/Licence.md
 
 **Custom Main Menu**
 > Please notify me when you use this mod in a modpack, you don't have to wait for an answer (There won't actually be an answer unless you ask me something) just send me the name of your pack. 

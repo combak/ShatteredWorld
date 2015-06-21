@@ -1,5 +1,5 @@
 ## Forge
-- forge-1.7.10-10.13.3.1428-1.7.10
+- forge-1.7.10-10.13.4.1448-1.7.10
 
 ## mods
 - ae2stuff-1.7.10-0.3.1.33.jar
@@ -23,6 +23,7 @@
 - codechickencore-1.7.10-1.0.7.46.jar
 - cofhcore-1.7.10-3.0.2-262.jar
 - cookiecore-1.7.10-1.3.1-7.jar
+- customfluids-1.7.10-1.0.5beta.jar
 - custommainmenu-1.7.10-1.5.jar
 - customnpcs-1.7.10-1.7.10d.jar
 - darkcore-1.7.10-0.25-30.jar

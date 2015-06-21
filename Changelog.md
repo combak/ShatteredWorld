@@ -2,6 +2,12 @@
 
 # Version 0.6.2
 
+**Mod Updates**
+- Minecraft Forge 10.13.3.1428 to 10.13.4.1448
+
+**Mod Additions**
+- CustomFluids 1.0.5 beta ( replaces CustomItems )
+
 # Version 0.6.1
 
 **Mod Removed**
