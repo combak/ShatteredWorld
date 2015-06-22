@@ -137,6 +137,12 @@ val thaumcraftVoidMetalIngot	= <Thaumcraft:ItemResource:16>;
 val forbMagicElementiumNugget	= <ForbiddenMagic:FMResource:4>;
 val forbMagicManasteelNugget	= <ForbiddenMagic:FMResource:2>;
 
+# Pams Harvestcraft
+val pamsSaucePan         = <harvestcraft:saucepanItem>;
+val pamsPot              = <harvestcraft:potItem>;
+val iguUnfiredClayBucket = <IguanaTweaksTConstruct:clayBucketUnfired>;
+val iguFiredClayBucket   = <IguanaTweaksTConstruct:clayBucketFired>;
+
 ########################################################################################################################
 # Fluid Registry
 ########################################################################################################################
@@ -156,6 +162,7 @@ val frVibrantAlloy	= <liquid:molten_vibrantalloy>;
 val frSilver		= <liquid:silver.molten>;
 val frLead		= <liquid:lead.molten>;
 val frManaInfusedMetal	= <liquid:mithril.molten>;
+val frAluminum		= <liquid:aluminum.molten>;
 val frAluminumBrass	= <liquid:aluminumbrass.molten>;
 val frGold		= <liquid:gold.molten>;
 val frThaumium		= <liquid:molten_thaumium>;
@@ -305,3 +312,8 @@ mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalNugget, frVoidMetal *
 mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalIngot, frVoidMetal * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( witchGadVoidMetalBlock, frVoidMetal * 1296, null, false, 20);
 
+# Pams Harvestcraft
+recipes.remove( pamsSaucePan );
+mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, iguUnfiredClayBucket, false, 20 );
+recipes.remove( pamsPot );
+mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, false, 20 );
