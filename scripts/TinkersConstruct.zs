@@ -317,3 +317,15 @@ recipes.remove( pamsSaucePan );
 mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, iguUnfiredClayBucket, false, 20 );
 recipes.remove( pamsPot );
 mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, false, 20 );
+
+
+########################################################################################################################
+# Bonus / Gag
+########################################################################################################################
+
+val frMush      = <liquid:fluidmushroom>;
+mods.tconstruct.Smeltery.addMelting( <minecraft:brown_mushroom> * 1 , frMush * 144, 180, <minecraft:brown_mushroom_block> );
+mods.tconstruct.Smeltery.addMelting( <minecraft:red_mushroom> * 1 , frMush * 144, 180, <minecraft:red_mushroom_block> );
+mods.tconstruct.Smeltery.addMelting( <harvestcraft:whitemushroomItem> * 1 , frMush * 144, 180, <minecraft:brown_mushroom_block> );
+mods.tconstruct.Smeltery.addMelting( <Forestry:mushroom> * 1 , frMush * 144, 180, <minecraft:brown_mushroom_block> );
+mods.tconstruct.Casting.addTableRecipe( <minecraft:mushroom_stew> * 1 , frMush * 288, <minecraft:bowl>, false, 20 );
