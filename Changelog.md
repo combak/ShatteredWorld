@@ -2,6 +2,37 @@
 
 # Version 0.6.3
 
+**Config Changes**
+- Disabeld water springs worldgen
+- Balancing Spawn behavior (Lycanites Mobs)
+- Change Pot and Saucepan Recipe. It now requires a smeltery (Harvestcraft)
+- Disabeld MFR Support (Thermal Foundation)
+- Adding Compressed Sand to Compacting Drawer (Storage Drawers)
+- Adding Ex Nihilo Gravel, Sand and Dust Resources to Compacting Drawer (Storage Drawers)
+- Adding Bucket Recipe wie Aluminum Ingots
+- Workaround Stone Slab ( see: https://github.com/combak/ShatteredWorld/issues/36 )
+- Workaround Sky Stone Block ( see: https://github.com/combak/ShatteredWorld/issues/38 )
+- Adding Special Smeltery Mushroom Soup
+- Disabeld Deep Dark and Last Millenium
+- Temporary removed Animal/Fish Trap until duplication bug is fixed ( see: https://github.com/combak/ShatteredWorld/issues/97 )
+- Removed Market (HarvestCraft)
+- Removed Autonomous Activator (Thermal Expansion)
+- Adding Crucible Heat Sources. Lava=1.33, Fire=1.66 and Nitor=2.0 (Ex Nihilo)
+- Increased Automatic Hammer limit form 1 to 3
+- Adding Limited Resources 3x Iron Ore Block ( Vanilla ) per Player
+- Adding Limited Resources 3x Gold Ore Block ( Vanilla ) per Player
+- Adding Limited Resources 3x Diamond Ore Block ( Vanilla ) per Player
+- Adding Limited Resources 3x Emerald Ore Block ( Vanilla ) per Player
+- Adding Limited Resources 3x Lapis Ore Block ( Vanilla ) per Player
+- Adding Limited Resources 3x Redstone Ore Block ( Vanilla ) per Player
+- Adding Limited Resources 3x Tin Ore Block ( Forestry ) per Player
+- Adding Limited Resources 3x Copper Ore Block ( Forestry ) per Player
+- Adding Limited Resources 3x Silver Ore Block ( Thermal Foundation ) per Player
+- Adding Limited Resources 3x Lead Ore Block ( Thermal Foundation ) per Player
+- Adding Limited Resources 3x Nickel Ore Block ( Thermal Foundation ) per Player
+- Adding Limited Resources 3x Platinum/Shiny Ore Block ( Thermal Foundation ) per Player
+- Adding Gemcutter ( Witching Gadgets ) Recipe with Certus Quartz instead of Nether Quartz
+
 # Version 0.6.2
 
 **Mod Updates**
@@ -23,11 +54,11 @@
 - Changed Brewingstand Recipe
 - Enabled Silver Large Rod for Crafting purposes (Tinkers Construct)
 - Change 8 Logs = 4 Chests to 2 Chests
-- Added Natura Berry to Fruit Food Group
+- Adding Natura Berry to Fruit Food Group
 - Removed Mana Cookie
 - Removed Quarry & Mining Well Recipes (BuildCraft)
 . Replace molten redstone with destabilized redstone (Tinkers Construct)
-- Added Limited Resources 1x Thaumic Stone Extruder (Witching Gadgets) per Player
+- Adding Limited Resources 1x Thaumic Stone Extruder (Witching Gadgets) per Player
 
 **Mod Updates**
 - Minecraft Forge 10.13.3.1408 to 10.13.3.1428
@@ -81,17 +112,17 @@
 # Version 0.5.8
 
 **Config Changes**
-- Added Melons to Foodgroup Fruit (Spice of Life)
+- Adding Melons to Foodgroup Fruit (Spice of Life)
 - Removed Diamond Bullet (CustomNPCs)
 - Raised Aluminumdrop (Ex Nihilo)
 - 1 Log = 2 Planks Great-/Silverwood (Thaumcraft)
 - 1 Log = 2 Planks Witchwood (Ars Magica2)
-- Added Nugget Cast Recipe with Diamond Nugget (Tinkers Construct)
-- Added Carrot, Plum, Pear, Apricot, Fig and Persimmon Juice to Food Group
-- Added Limited Resources 2xCrucible (Ex Nihilo) per Player
-- Added Limited Resources 3xAutomatic Sieves (Ex Astris) per Player
-- Added Limited Resources 1xAutimatic Hammerer (Ex Astris)per Player
-- Added Limited Resources 1xIqneous Extruder (Thermal Expansion) per Player
+- Adding Nugget Cast Recipe with Diamond Nugget (Tinkers Construct)
+- Adding Carrot, Plum, Pear, Apricot, Fig and Persimmon Juice to Food Group
+- Adding Limited Resources 2xCrucible (Ex Nihilo) per Player
+- Adding Limited Resources 3xAutomatic Sieves (Ex Astris) per Player
+- Adding Limited Resources 1xAutimatic Hammerer (Ex Astris)per Player
+- Adding Limited Resources 1xIqneous Extruder (Thermal Expansion) per Player
 
 **Mod Updates**
 - Minecraft Forge 10.13.3.1403 to 10.13.3.1408
@@ -107,10 +138,10 @@
 # Version 0.5.7
 
 **Config Changes**
-- Added Mob Aspects (Thaumcraft - MobAspects)
+- Adding Mob Aspects (Thaumcraft - MobAspects)
 - Disabled Nether Quartz Override (Nether Ores)
 - Disabeld QED (Extra Utilities)
-- Added QED Recipes via BC Laser
+- Adding QED Recipes via BC Laser
 - Removed Tardis Recipes (OP only)
 
 **Mod Additions**
@@ -180,7 +211,7 @@
 - Fixed Mana Spreader Recipe & Code Style
 - Raised Tank Capacity (EnderTech)
 - Whitelisted Forbidden Magic Tools and Weapons (Iquana Tweaks for Tinkers)
-- Added Soil for Res. Crops
+- Adding Soil for Res. Crops
 - Changed / Removed Gear Recipes
 - Smelting Pulsating Iron + Nugget, Ingot & Block Cast
 - Smelting Vibrant Alloy + Nugget, Ingot & Block Cast
@@ -199,7 +230,7 @@
 
 **Config Changes**
 - Reworked Iquana Tweaks Tool restrictions
-- Added Crafting Ore Block Recipes via BC Laser
+- Adding Crafting Ore Block Recipes via BC Laser
 - Custom Vanilla Bowl Recipe
 - Enabled Crucible (Ex Nihilo)
 - Removed Crucible Lava Heat Source
@@ -325,7 +356,7 @@
 
 # Version 0.3.0c
 
-- Added 1.7.10.json to request Guava Libs v16
+- Adding 1.7.10.json to request Guava Libs v16
 
 
 # Version 0.3.0b
@@ -342,13 +373,13 @@
 # Version 0.3.0
 
 **Config Changes**
-- Added Redstone Block Cast
-- Added Food Groups
+- Adding Redstone Block Cast
+- Adding Food Groups
 - Chunk Loader requires Fuel (Solid Ender=5hours) and Online Player (Dimensional Anchors)
 - Changed Chunkloader Recipe (Dimensional Anchors)
 - Hard Stuffed Eggplant Recipe only (Harvestcraft)
 - Reduced Aluminum Droprate (Ex Nihilo)
-- Added Sky Stone Recipe
+- Adding Sky Stone Recipe
 
 **Mod Additions**
 - Custom Main Menu 1.4
@@ -372,7 +403,7 @@
 **Config Changes**
 - Enabed Hammer Recipes (Ex Nihilo)
 - Enabed Resource Crops (Agricraft)
-- Added Custom Molten Liquids for Nugget/Block Casts
+- Adding Custom Molten Liquids for Nugget/Block Casts
 - Tier1+2 Weapons (Tinkers Construct)
 - Balancing Ore Processing 
 
@@ -422,7 +453,7 @@ Modpack Name changed to "Shattered World"
 
 **Config Changes**
 - Corrected Logs Shaped to Shapless Crafting
-- Added Custom Tinkers Smelting Recipes
+- Adding Custom Tinkers Smelting Recipes
 - Tinkers Tier 1 Tools craftable
 - Disabled Barrel, Crook, Crucible, Hammer & Silkworm (Ex Nihilo)
 - Doubled EnderTech Tank Capacity
