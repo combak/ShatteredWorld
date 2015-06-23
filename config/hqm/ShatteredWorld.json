@@ -1885,13 +1885,13 @@
       },
       {
          "id" : 42,
-         "name" : "vom Himmel hoch",
+         "name" : "Der Staub der Sterne",
          "description" : null,
-         "x" : 50,
-         "y" : 190,
+         "x" : 22,
+         "y" : 20,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(7)",
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -1899,19 +1899,56 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(7)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(8)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(3)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockQuartzGlass size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 43,
-         "name" : "der Man fuer das Grobe",
-         "description" : null,
-         "x" : 74,
-         "y" : 190,
+         "name" : "Der geladene Kristall",
+         "description" : "Unnamed quest",
+         "x" : 38,
+         "y" : 45,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:tile.BlockCharger size(1) dmg(0)",
+         "requirements" : [
+            "042 - Der Staub der Sterne"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -1919,19 +1956,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockCharger size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 44,
-         "name" : "der Herr der Kristalle",
+         "name" : "Die Wachstumsblasen",
          "description" : null,
-         "x" : 98,
-         "y" : 190,
+         "x" : 66,
+         "y" : 45,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:tile.BlockQuartzGrowthAccelerator size(1) dmg(0)",
+         "requirements" : [
+            "043 - Der geladene Kristall"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -1939,19 +1991,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockEnergyAcceptor size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:tile.BlockQuartzGrowthAccelerator size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 45,
-         "name" : "es glitzert so schoen",
-         "description" : null,
-         "x" : 122,
-         "y" : 190,
+         "name" : "Der Herr der Kristalle",
+         "description" : "Unnamed quest",
+         "x" : 94,
+         "y" : 45,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(10)",
+         "requirements" : [
+            "044 - Die Wachstumsblasen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -1959,6 +2031,50 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(600)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(1200)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(10)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(11)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(12)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
@@ -1967,11 +2083,14 @@
          "id" : 46,
          "name" : "der Graveur",
          "description" : null,
-         "x" : 146,
-         "y" : 190,
+         "x" : 122,
+         "y" : 45,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:tile.BlockInscriber size(1) dmg(0)",
+         "requirements" : [
+            "045 - Der Herr der Kristalle"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -1979,19 +2098,51 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockInscriber size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(19)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(15)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 47,
-         "name" : "klein aber fein",
-         "description" : null,
-         "x" : 170,
-         "y" : 190,
+         "name" : "Der Microchip",
+         "description" : "Unnamed quest",
+         "x" : 122,
+         "y" : 75,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(22)",
+         "requirements" : [
+            "046 - der Graveur"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -1999,19 +2150,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(22)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 48,
-         "name" : "alles im Ueberblick",
-         "description" : null,
-         "x" : 194,
-         "y" : 190,
+         "name" : "Der Innere Kern",
+         "description" : "Unnamed quest",
+         "x" : 150,
+         "y" : 65,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(44)",
+         "requirements" : [
+            "047 - Der Microchip"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2019,19 +2185,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(44)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(43)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 49,
-         "name" : "wie von Zauberhand",
-         "description" : null,
-         "x" : 218,
-         "y" : 190,
+         "name" : "Die Umlagerung",
+         "description" : "Unnamed quest",
+         "x" : 178,
+         "y" : 50,
          "big" : false,
          "setID" : "003 - Das Hologramm",
-         "icon" : null,
+         "icon" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
+         "requirements" : [
+            "048 - Der Innere Kern"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2039,12 +2225,595 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 50,
+         "name" : "Das Fenster in die Seele",
+         "description" : "Unnamed quest",
+         "x" : 150,
+         "y" : 15,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(380)",
+         "requirements" : [
+            "048 - Der Innere Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(380)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 51,
+         "name" : "Der Kabelbinder",
+         "description" : "Unnamed quest",
+         "x" : 94,
+         "y" : 15,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
+         "requirements" : [
+            "045 - Der Herr der Kristalle"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 52,
+         "name" : "Der kleine Speicher",
+         "description" : "Unnamed quest",
+         "x" : 122,
+         "y" : 15,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:tile.BlockChest size(1) dmg(0)",
+         "requirements" : [
+            "051 - Der Kabelbinder",
+            "050 - Das Fenster in die Seele"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemBasicStorageCell.1k size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 53,
+         "name" : "klein aber fein",
+         "description" : null,
+         "x" : 178,
+         "y" : 80,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
+         "requirements" : [
+            "048 - Der Innere Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(260)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(220)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:tile.BlockInterface size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 54,
+         "name" : "Der Microprocessor",
+         "description" : "Unnamed quest",
+         "x" : 122,
+         "y" : 125,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(23)",
+         "requirements" : [
+            "047 - Der Microchip"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(23)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 55,
+         "name" : "Der grosse Speicher",
+         "description" : "Unnamed quest",
+         "x" : 110,
+         "y" : 150,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
+         "requirements" : [
+            "054 - Der Microprocessor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 56,
+         "name" : "Die Steckkarten",
+         "description" : "Unnamed quest",
+         "x" : 106,
+         "y" : 100,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(25)",
+         "requirements" : [
+            "054 - Der Microprocessor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(25)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(28)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 57,
+         "name" : "Der Formatierer",
+         "description" : "Unnamed quest",
+         "x" : 94,
+         "y" : 125,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:tile.BlockCellWorkbench size(1) dmg(0)",
+         "requirements" : [
+            "054 - Der Microprocessor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockCellWorkbench size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 58,
+         "name" : "Der Erbauer",
+         "description" : null,
+         "x" : 138,
+         "y" : 150,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(360)",
+         "requirements" : [
+            "054 - Der Microprocessor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(360)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 59,
+         "name" : "Die helfende Hand",
+         "description" : "Unnamed quest",
+         "x" : 142,
+         "y" : 100,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(280)",
+         "requirements" : [
+            "054 - Der Microprocessor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(280)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 60,
+         "name" : "Der Microcomputer",
+         "description" : "Unnamed quest",
+         "x" : 230,
+         "y" : 125,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(24)",
+         "requirements" : [
+            "054 - Der Microprocessor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(24)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 61,
+         "name" : "Der Meister",
+         "description" : "Unnamed quest",
+         "x" : 214,
+         "y" : 100,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
+         "requirements" : [
+            "060 - Der Microcomputer"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 62,
+         "name" : "Der Zauberer",
+         "description" : null,
+         "x" : 246,
+         "y" : 100,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:tile.BlockMolecularAssembler size(1) dmg(0)",
+         "requirements" : [
+            "060 - Der Microcomputer"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockMolecularAssembler size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 63,
+         "name" : "Der Grossrechner",
+         "description" : "Unnamed quest",
+         "x" : 262,
+         "y" : 75,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:tile.BlockCraftingUnit size(1) dmg(0)",
+         "requirements" : [
+            "062 - Der Zauberer"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:tile.BlockCraftingUnit size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:tile.BlockCraftingUnit size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:tile.BlockCraftingStorage size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:tile.BlockCraftingMonitor size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 64,
+         "name" : "Der Administrator",
+         "description" : "Unnamed quest",
+         "x" : 262,
+         "y" : 125,
+         "big" : false,
+         "setID" : "003 - Das Hologramm",
+         "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
+         "requirements" : [
+            "060 - Der Microcomputer"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(340)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 65,
          "name" : "ein Fass ohne Boden",
          "description" : null,
          "x" : 242,
@@ -2064,7 +2833,7 @@
          ]
       },
       {
-         "id" : 51,
+         "id" : 66,
          "name" : "der Geist in der Flasche",
          "description" : null,
          "x" : 266,
@@ -2084,7 +2853,7 @@
          ]
       },
       {
-         "id" : 52,
+         "id" : 67,
          "name" : "der virtuelle Zaubertisch",
          "description" : null,
          "x" : 290,
@@ -2104,7 +2873,7 @@
          ]
       },
       {
-         "id" : 53,
+         "id" : 68,
          "name" : "ein Stab sie alle zu Binden",
          "description" : null,
          "x" : 22,
@@ -2124,7 +2893,7 @@
          ]
       },
       {
-         "id" : 54,
+         "id" : 69,
          "name" : "der Meisterstab 2",
          "description" : null,
          "x" : 46,
@@ -2144,7 +2913,7 @@
          ]
       },
       {
-         "id" : 55,
+         "id" : 70,
          "name" : "der Meisterstab 3",
          "description" : null,
          "x" : 70,
@@ -2164,7 +2933,7 @@
          ]
       },
       {
-         "id" : 56,
+         "id" : 71,
          "name" : "der Meisterstab 4",
          "description" : null,
          "x" : 94,
@@ -2184,7 +2953,7 @@
          ]
       },
       {
-         "id" : 57,
+         "id" : 72,
          "name" : "Dreamy Staff ???",
          "description" : null,
          "x" : 118,
@@ -2204,7 +2973,7 @@
          ]
       },
       {
-         "id" : 58,
+         "id" : 73,
          "name" : "Livingwood Wand ???",
          "description" : null,
          "x" : 142,
@@ -2224,7 +2993,7 @@
          ]
       },
       {
-         "id" : 59,
+         "id" : 74,
          "name" : "Wand Caps",
          "description" : null,
          "x" : 166,
@@ -2244,7 +3013,7 @@
          ]
       },
       {
-         "id" : 60,
+         "id" : 75,
          "name" : "Pink Caps",
          "description" : null,
          "x" : 190,
@@ -2264,7 +3033,7 @@
          ]
       },
       {
-         "id" : 61,
+         "id" : 76,
          "name" : "Manasteel Caps",
          "description" : null,
          "x" : 214,
@@ -2284,7 +3053,7 @@
          ]
       },
       {
-         "id" : 62,
+         "id" : 77,
          "name" : "durch die rosa Brille",
          "description" : null,
          "x" : 238,
@@ -2304,7 +3073,7 @@
          ]
       },
       {
-         "id" : 63,
+         "id" : 78,
          "name" : "Passive Scanning",
          "description" : null,
          "x" : 262,
@@ -2324,7 +3093,7 @@
          ]
       },
       {
-         "id" : 64,
+         "id" : 79,
          "name" : "Infused Stone",
          "description" : null,
          "x" : 286,
@@ -2344,7 +3113,7 @@
          ]
       },
       {
-         "id" : 65,
+         "id" : 80,
          "name" : "Balanced Shards",
          "description" : null,
          "x" : 34,
@@ -2364,7 +3133,7 @@
          ]
       },
       {
-         "id" : 66,
+         "id" : 81,
          "name" : "Sinful Shards",
          "description" : null,
          "x" : 58,
@@ -2384,7 +3153,7 @@
          ]
       },
       {
-         "id" : 67,
+         "id" : 82,
          "name" : "der gedultige Forscher",
          "description" : null,
          "x" : 82,
@@ -2404,7 +3173,7 @@
          ]
       },
       {
-         "id" : 68,
+         "id" : 83,
          "name" : "Explosives Licht",
          "description" : null,
          "x" : 106,
@@ -2424,7 +3193,7 @@
          ]
       },
       {
-         "id" : 69,
+         "id" : 84,
          "name" : "magisches Metall",
          "description" : null,
          "x" : 130,
@@ -2444,7 +3213,7 @@
          ]
       },
       {
-         "id" : 70,
+         "id" : 85,
          "name" : "die Wunderlampe",
          "description" : null,
          "x" : 154,
@@ -2464,7 +3233,7 @@
          ]
       },
       {
-         "id" : 71,
+         "id" : 86,
          "name" : "ins Nichts",
          "description" : null,
          "x" : 178,
@@ -2484,7 +3253,7 @@
          ]
       },
       {
-         "id" : 72,
+         "id" : 87,
          "name" : "das Monster",
          "description" : null,
          "x" : 202,
@@ -2504,7 +3273,7 @@
          ]
       },
       {
-         "id" : 73,
+         "id" : 88,
          "name" : "Label Printing",
          "description" : null,
          "x" : 226,
@@ -2524,7 +3293,7 @@
          ]
       },
       {
-         "id" : 74,
+         "id" : 89,
          "name" : "der Zaubertisch",
          "description" : null,
          "x" : 250,
@@ -2544,7 +3313,7 @@
          ]
       },
       {
-         "id" : 75,
+         "id" : 90,
          "name" : "die Hexenk�",
          "description" : null,
          "x" : 274,
@@ -2564,7 +3333,7 @@
          ]
       },
       {
-         "id" : 76,
+         "id" : 91,
          "name" : "die Destillerie",
          "description" : null,
          "x" : 22,
@@ -2584,7 +3353,7 @@
          ]
       },
       {
-         "id" : 77,
+         "id" : 92,
          "name" : "der Kristallisierer",
          "description" : null,
          "x" : 46,
@@ -2604,7 +3373,7 @@
          ]
       },
       {
-         "id" : 78,
+         "id" : 93,
          "name" : "der Wunderofen",
          "description" : null,
          "x" : 70,
@@ -2624,7 +3393,7 @@
          ]
       },
       {
-         "id" : 79,
+         "id" : 94,
          "name" : "der Dampfkessel",
          "description" : null,
          "x" : 94,
@@ -2644,7 +3413,7 @@
          ]
       },
       {
-         "id" : 80,
+         "id" : 95,
          "name" : "es geht immer mal was daneben",
          "description" : null,
          "x" : 118,
@@ -2664,7 +3433,7 @@
          ]
       },
       {
-         "id" : 81,
+         "id" : 96,
          "name" : "schneller wachsen 1",
          "description" : null,
          "x" : 142,
@@ -2684,7 +3453,7 @@
          ]
       },
       {
-         "id" : 82,
+         "id" : 97,
          "name" : "schneller wachsen 2",
          "description" : null,
          "x" : 166,
@@ -2704,7 +3473,7 @@
          ]
       },
       {
-         "id" : 83,
+         "id" : 98,
          "name" : "Romantic Mood Lighting ???",
          "description" : null,
          "x" : 190,
@@ -2724,7 +3493,7 @@
          ]
       },
       {
-         "id" : 84,
+         "id" : 99,
          "name" : "Fancy Floral Fabrication ???",
          "description" : null,
          "x" : 214,
@@ -2744,7 +3513,7 @@
          ]
       },
       {
-         "id" : 85,
+         "id" : 100,
          "name" : "Focal Manipulator ???",
          "description" : null,
          "x" : 238,
@@ -2764,7 +3533,7 @@
          ]
       },
       {
-         "id" : 86,
+         "id" : 101,
          "name" : "Vis Relay ???",
          "description" : null,
          "x" : 262,
@@ -2784,7 +3553,7 @@
          ]
       },
       {
-         "id" : 87,
+         "id" : 102,
          "name" : "Vis Charge Relay ???",
          "description" : null,
          "x" : 286,
@@ -2804,7 +3573,7 @@
          ]
       },
       {
-         "id" : 88,
+         "id" : 103,
          "name" : "Phancy Phials ???",
          "description" : null,
          "x" : 34,
@@ -2824,7 +3593,7 @@
          ]
       },
       {
-         "id" : 89,
+         "id" : 104,
          "name" : "Arcane Pedestal ???",
          "description" : null,
          "x" : 58,
@@ -2844,7 +3613,7 @@
          ]
       },
       {
-         "id" : 90,
+         "id" : 105,
          "name" : "Wand Charger ???",
          "description" : null,
          "x" : 82,
@@ -2864,7 +3633,7 @@
          ]
       },
       {
-         "id" : 91,
+         "id" : 106,
          "name" : "Flux Scrubber ???",
          "description" : null,
          "x" : 106,
@@ -2884,7 +3653,7 @@
          ]
       },
       {
-         "id" : 92,
+         "id" : 107,
          "name" : "Thirsty Work ???",
          "description" : null,
          "x" : 130,
@@ -2904,7 +3673,7 @@
          ]
       },
       {
-         "id" : 93,
+         "id" : 108,
          "name" : "Treecapitator ???",
          "description" : null,
          "x" : 154,
@@ -2924,7 +3693,7 @@
          ]
       },
       {
-         "id" : 94,
+         "id" : 109,
          "name" : "Magical Mushrooms ???",
          "description" : null,
          "x" : 178,
@@ -2944,7 +3713,7 @@
          ]
       },
       {
-         "id" : 95,
+         "id" : 110,
          "name" : "Tainted Botany ???",
          "description" : null,
          "x" : 202,
@@ -2964,7 +3733,7 @@
          ]
       },
       {
-         "id" : 96,
+         "id" : 111,
          "name" : "Crystaline Eye ???",
          "description" : null,
          "x" : 226,
@@ -2984,7 +3753,7 @@
          ]
       },
       {
-         "id" : 97,
+         "id" : 112,
          "name" : "Redstone Vis ???",
          "description" : null,
          "x" : 250,
@@ -3004,7 +3773,7 @@
          ]
       },
       {
-         "id" : 98,
+         "id" : 113,
          "name" : "Ethereal Flower ???",
          "description" : null,
          "x" : 274,
@@ -3024,7 +3793,7 @@
          ]
       },
       {
-         "id" : 99,
+         "id" : 114,
          "name" : "Schleudertrauma",
          "description" : null,
          "x" : 22,
@@ -3044,7 +3813,7 @@
          ]
       },
       {
-         "id" : 100,
+         "id" : 115,
          "name" : "Greatwood",
          "description" : null,
          "x" : 46,
@@ -3064,7 +3833,7 @@
          ]
       },
       {
-         "id" : 101,
+         "id" : 116,
          "name" : "Silverwood",
          "description" : null,
          "x" : 70,
@@ -3084,7 +3853,7 @@
          ]
       },
       {
-         "id" : 102,
+         "id" : 117,
          "name" : "Tubes",
          "description" : null,
          "x" : 94,
@@ -3104,7 +3873,7 @@
          ]
       },
       {
-         "id" : 103,
+         "id" : 118,
          "name" : "Advanced Tubes",
          "description" : null,
          "x" : 118,
@@ -3124,7 +3893,7 @@
          ]
       },
       {
-         "id" : 104,
+         "id" : 119,
          "name" : "Ex-Astris Objecte1",
          "description" : null,
          "x" : 142,
@@ -3144,7 +3913,7 @@
          ]
       },
       {
-         "id" : 105,
+         "id" : 120,
          "name" : "Ex-Astris Objecte2",
          "description" : null,
          "x" : 166,
@@ -3164,7 +3933,7 @@
          ]
       },
       {
-         "id" : 106,
+         "id" : 121,
          "name" : "Eldritch Dimension",
          "description" : null,
          "x" : 190,
@@ -3184,7 +3953,7 @@
          ]
       },
       {
-         "id" : 107,
+         "id" : 122,
          "name" : "Minions",
          "description" : null,
          "x" : 214,
@@ -3204,7 +3973,7 @@
          ]
       },
       {
-         "id" : 108,
+         "id" : 123,
          "name" : "des Gloeckens Klang",
          "description" : null,
          "x" : 238,
@@ -3224,7 +3993,7 @@
          ]
       },
       {
-         "id" : 109,
+         "id" : 124,
          "name" : "Landbau Minions",
          "description" : null,
          "x" : 262,
@@ -3244,7 +4013,7 @@
          ]
       },
       {
-         "id" : 110,
+         "id" : 125,
          "name" : "Fleischer Minion",
          "description" : null,
          "x" : 286,
@@ -3264,7 +4033,7 @@
          ]
       },
       {
-         "id" : 111,
+         "id" : 126,
          "name" : "Thaumic Minion",
          "description" : null,
          "x" : 34,
@@ -3284,7 +4053,7 @@
          ]
       },
       {
-         "id" : 112,
+         "id" : 127,
          "name" : "Holz Minion",
          "description" : null,
          "x" : 58,
@@ -3304,7 +4073,7 @@
          ]
       },
       {
-         "id" : 113,
+         "id" : 128,
          "name" : "Perfekter Sklave",
          "description" : null,
          "x" : 82,
@@ -3324,7 +4093,7 @@
          ]
       },
       {
-         "id" : 114,
+         "id" : 129,
          "name" : "Tonsoldat",
          "description" : null,
          "x" : 106,
@@ -3344,7 +4113,7 @@
          ]
       },
       {
-         "id" : 115,
+         "id" : 130,
          "name" : "Steinsoldat",
          "description" : null,
          "x" : 130,
@@ -3364,7 +4133,7 @@
          ]
       },
       {
-         "id" : 116,
+         "id" : 131,
          "name" : "Schoenheitskoenigin",
          "description" : null,
          "x" : 154,
@@ -3384,7 +4153,7 @@
          ]
       },
       {
-         "id" : 117,
+         "id" : 132,
          "name" : "Intelligenter Soldat",
          "description" : null,
          "x" : 178,
@@ -3404,7 +4173,7 @@
          ]
       },
       {
-         "id" : 118,
+         "id" : 133,
          "name" : "fleissiges Bienchen",
          "description" : null,
          "x" : 202,
@@ -3424,7 +4193,7 @@
          ]
       },
       {
-         "id" : 119,
+         "id" : 134,
          "name" : "leicht wie eine Feder",
          "description" : null,
          "x" : 226,
@@ -3444,7 +4213,7 @@
          ]
       },
       {
-         "id" : 120,
+         "id" : 135,
          "name" : "Minion Power",
          "description" : null,
          "x" : 250,
@@ -3464,7 +4233,7 @@
          ]
       },
       {
-         "id" : 121,
+         "id" : 136,
          "name" : "Minion Craftsman",
          "description" : null,
          "x" : 274,
@@ -3484,7 +4253,7 @@
          ]
       },
       {
-         "id" : 122,
+         "id" : 137,
          "name" : "Minion Craftsman 2",
          "description" : null,
          "x" : 22,
@@ -3504,7 +4273,7 @@
          ]
       },
       {
-         "id" : 123,
+         "id" : 138,
          "name" : "Animation",
          "description" : null,
          "x" : 46,
@@ -3524,7 +4293,7 @@
          ]
       },
       {
-         "id" : 124,
+         "id" : 139,
          "name" : "Automating Inventory",
          "description" : null,
          "x" : 70,
@@ -3544,7 +4313,7 @@
          ]
       },
       {
-         "id" : 125,
+         "id" : 140,
          "name" : "Infuse Yourself",
          "description" : null,
          "x" : 94,
@@ -3564,7 +4333,7 @@
          ]
       },
       {
-         "id" : 126,
+         "id" : 141,
          "name" : "Biome Changing",
          "description" : null,
          "x" : 118,
@@ -3584,7 +4353,7 @@
          ]
       },
       {
-         "id" : 127,
+         "id" : 142,
          "name" : "Alles behalten",
          "description" : null,
          "x" : 142,
@@ -3604,7 +4373,7 @@
          ]
       },
       {
-         "id" : 128,
+         "id" : 143,
          "name" : "Alles sehen",
          "description" : null,
          "x" : 166,
@@ -3624,7 +4393,7 @@
          ]
       },
       {
-         "id" : 129,
+         "id" : 144,
          "name" : "Cloak",
          "description" : null,
          "x" : 190,
@@ -3644,7 +4413,7 @@
          ]
       },
       {
-         "id" : 130,
+         "id" : 145,
          "name" : "Magic Cobble",
          "description" : null,
          "x" : 214,
@@ -3664,7 +4433,7 @@
          ]
       },
       {
-         "id" : 131,
+         "id" : 146,
          "name" : "Ethereal Walls",
          "description" : null,
          "x" : 238,
@@ -3684,7 +4453,7 @@
          ]
       },
       {
-         "id" : 132,
+         "id" : 147,
          "name" : "Chameleon ???",
          "description" : null,
          "x" : 262,
@@ -3704,7 +4473,7 @@
          ]
       },
       {
-         "id" : 133,
+         "id" : 148,
          "name" : "Boost Nutrition ???",
          "description" : null,
          "x" : 286,
@@ -3724,7 +4493,7 @@
          ]
       },
       {
-         "id" : 134,
+         "id" : 149,
          "name" : "SubCollar ???",
          "description" : null,
          "x" : 34,
@@ -3744,7 +4513,7 @@
          ]
       },
       {
-         "id" : 135,
+         "id" : 150,
          "name" : "Inventory Tracking ???",
          "description" : null,
          "x" : 58,
@@ -3764,7 +4533,7 @@
          ]
       },
       {
-         "id" : 136,
+         "id" : 151,
          "name" : "Upgrading Capacity ???",
          "description" : null,
          "x" : 82,
@@ -3784,7 +4553,7 @@
          ]
       },
       {
-         "id" : 137,
+         "id" : 152,
          "name" : "Scrivener's Oculus ???",
          "description" : null,
          "x" : 106,
@@ -3804,7 +4573,7 @@
          ]
       },
       {
-         "id" : 138,
+         "id" : 153,
          "name" : "Luring Lemmings ???",
          "description" : null,
          "x" : 130,
@@ -3824,7 +4593,7 @@
          ]
       },
       {
-         "id" : 139,
+         "id" : 154,
          "name" : "Construct more Pylons ???",
          "description" : null,
          "x" : 154,
@@ -3844,7 +4613,7 @@
          ]
       },
       {
-         "id" : 140,
+         "id" : 155,
          "name" : "Lexica Botania",
          "description" : "Unnamed quest",
          "x" : 22,
@@ -3876,7 +4645,7 @@
          ]
       },
       {
-         "id" : 141,
+         "id" : 156,
          "name" : "Mystical Flower",
          "description" : null,
          "x" : 34,
@@ -3885,7 +4654,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:flower size(1) dmg(1)",
          "requirements" : [
-            "140 - Lexica Botania"
+            "155 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3940,7 +4709,7 @@
          ]
       },
       {
-         "id" : 142,
+         "id" : 157,
          "name" : "Petal Apothecary",
          "description" : null,
          "x" : 34,
@@ -3949,7 +4718,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:altar size(1) dmg(0)",
          "requirements" : [
-            "140 - Lexica Botania"
+            "155 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3975,7 +4744,7 @@
          ]
       },
       {
-         "id" : 143,
+         "id" : 158,
          "name" : "Pure Daisy",
          "description" : null,
          "x" : 46,
@@ -3987,8 +4756,8 @@
             "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
          },
          "requirements" : [
-            "141 - Mystical Flower",
-            "142 - Petal Apothecary"
+            "156 - Mystical Flower",
+            "157 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4032,7 +4801,7 @@
          ]
       },
       {
-         "id" : 144,
+         "id" : 159,
          "name" : "Hydroangeas",
          "description" : null,
          "x" : 58,
@@ -4044,7 +4813,7 @@
             "nbt" : "=COMPOUND( type=STRING('hydroangeas') )"
          },
          "requirements" : [
-            "142 - Petal Apothecary"
+            "157 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4071,7 +4840,7 @@
          ]
       },
       {
-         "id" : 145,
+         "id" : 160,
          "name" : "Endoflame",
          "description" : "Unnamed quest",
          "x" : 46,
@@ -4083,7 +4852,7 @@
             "nbt" : "=COMPOUND( type=STRING('endoflame') )"
          },
          "requirements" : [
-            "142 - Petal Apothecary"
+            "157 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4110,7 +4879,7 @@
          ]
       },
       {
-         "id" : 146,
+         "id" : 161,
          "name" : "Horn of the Wild",
          "description" : "Unnamed quest",
          "x" : 58,
@@ -4119,7 +4888,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:grassHorn size(1) dmg(0)",
          "requirements" : [
-            "143 - Pure Daisy"
+            "158 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4145,7 +4914,7 @@
          ]
       },
       {
-         "id" : 147,
+         "id" : 162,
          "name" : "Livingrock Twig",
          "description" : "Unnamed quest",
          "x" : 70,
@@ -4157,7 +4926,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "143 - Pure Daisy"
+            "158 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4194,7 +4963,7 @@
          ]
       },
       {
-         "id" : 148,
+         "id" : 163,
          "name" : "Mana Produktion",
          "description" : null,
          "x" : 106,
@@ -4206,7 +4975,7 @@
             "nbt" : "=COMPOUND( type=STRING('daybloom') )"
          },
          "requirements" : [
-            "147 - Livingrock Twig"
+            "162 - Livingrock Twig"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4239,7 +5008,7 @@
          ]
       },
       {
-         "id" : 149,
+         "id" : 164,
          "name" : "Mana Pool",
          "description" : "Unnamed quest",
          "x" : 130,
@@ -4248,7 +5017,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:pool size(1) dmg(0)",
          "requirements" : [
-            "148 - Mana Produktion"
+            "163 - Mana Produktion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4274,7 +5043,7 @@
          ]
       },
       {
-         "id" : 150,
+         "id" : 165,
          "name" : "Mana Tools",
          "description" : "Unnamed quest",
          "x" : 166,
@@ -4283,7 +5052,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaTablet size(1) dmg(0)",
          "requirements" : [
-            "151 - Mana Items"
+            "166 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4325,7 +5094,7 @@
          ]
       },
       {
-         "id" : 151,
+         "id" : 166,
          "name" : "Mana Items",
          "description" : "Unnamed quest",
          "x" : 154,
@@ -4334,7 +5103,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(0)",
          "requirements" : [
-            "149 - Mana Pool"
+            "164 - Mana Pool"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4377,7 +5146,7 @@
          ]
       },
       {
-         "id" : 152,
+         "id" : 167,
          "name" : "Manasteel Armor",
          "description" : "Unnamed quest",
          "x" : 142,
@@ -4386,7 +5155,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manasteelChest size(1) dmg(0)",
          "requirements" : [
-            "151 - Mana Items"
+            "166 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4427,7 +5196,7 @@
          ]
       },
       {
-         "id" : 153,
+         "id" : 168,
          "name" : "Mana Lens",
          "description" : "Unnamed quest",
          "x" : 166,
@@ -4439,7 +5208,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "151 - Mana Items"
+            "166 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4503,7 +5272,7 @@
          ]
       },
       {
-         "id" : 154,
+         "id" : 169,
          "name" : "Ring of Magnetization",
          "description" : "Unnamed quest",
          "x" : 178,
@@ -4515,7 +5284,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "153 - Mana Lens"
+            "168 - Mana Lens"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4542,7 +5311,7 @@
          ]
       },
       {
-         "id" : 155,
+         "id" : 170,
          "name" : "Runic Altar",
          "description" : null,
          "x" : 178,
@@ -4551,7 +5320,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:runeAltar size(1) dmg(0)",
          "requirements" : [
-            "151 - Mana Items"
+            "166 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4577,7 +5346,7 @@
          ]
       },
       {
-         "id" : 156,
+         "id" : 171,
          "name" : "Runen der 5 Elemente",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -4586,7 +5355,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(8)",
          "requirements" : [
-            "155 - Runic Altar"
+            "170 - Runic Altar"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4632,7 +5401,7 @@
          ]
       },
       {
-         "id" : 157,
+         "id" : 172,
          "name" : "Runen der 4 Jahreszeiten",
          "description" : "Unnamed quest",
          "x" : 214,
@@ -4641,7 +5410,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(5)",
          "requirements" : [
-            "156 - Runen der 5 Elemente"
+            "171 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4682,7 +5451,7 @@
          ]
       },
       {
-         "id" : 158,
+         "id" : 173,
          "name" : "Runen der Gl�ckseligkeiten",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -4691,7 +5460,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(12)",
          "requirements" : [
-            "157 - Runen der 4 Jahreszeiten"
+            "172 - Runen der 4 Jahreszeiten"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4747,7 +5516,7 @@
          ]
       },
       {
-         "id" : 159,
+         "id" : 174,
          "name" : "Welt der St�be",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -4756,7 +5525,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:dirtRod size(1) dmg(0)",
          "requirements" : [
-            "156 - Runen der 5 Elemente"
+            "171 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4813,7 +5582,7 @@
          ]
       },
       {
-         "id" : 160,
+         "id" : 175,
          "name" : "Botanische Brauerei",
          "description" : null,
          "x" : 190,
@@ -4822,7 +5591,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:brewery size(1) dmg(0)",
          "requirements" : [
-            "151 - Mana Items"
+            "166 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4853,7 +5622,7 @@
          ]
       },
       {
-         "id" : 161,
+         "id" : 176,
          "name" : "Terrasteel Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
@@ -4862,7 +5631,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(4)",
          "requirements" : [
-            "151 - Mana Items"
+            "166 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4900,7 +5669,7 @@
          ]
       },
       {
-         "id" : 162,
+         "id" : 177,
          "name" : "Terrasteel Armor",
          "description" : "Unnamed quest",
          "x" : 98,
@@ -4909,7 +5678,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:terrasteelChest size(1) dmg(0)",
          "requirements" : [
-            "161 - Terrasteel Ingot"
+            "176 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4950,7 +5719,7 @@
          ]
       },
       {
-         "id" : 163,
+         "id" : 178,
          "name" : "Rod of the Terra Firma",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -4959,7 +5728,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:terraformRod size(1) dmg(0)",
          "requirements" : [
-            "161 - Terrasteel Ingot"
+            "176 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4985,7 +5754,7 @@
          ]
       },
       {
-         "id" : 164,
+         "id" : 179,
          "name" : "Elven Portal",
          "description" : null,
          "x" : 122,
@@ -4994,7 +5763,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:alfheimPortal size(1) dmg(0)",
          "requirements" : [
-            "161 - Terrasteel Ingot"
+            "176 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5025,7 +5794,7 @@
          ]
       },
       {
-         "id" : 165,
+         "id" : 180,
          "name" : "Elementium Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
@@ -5034,7 +5803,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(7)",
          "requirements" : [
-            "164 - Elven Portal"
+            "179 - Elven Portal"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5060,7 +5829,7 @@
          ]
       },
       {
-         "id" : 166,
+         "id" : 181,
          "name" : "Elementium Armor",
          "description" : "Unnamed quest",
          "x" : 86,
@@ -5069,7 +5838,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:elementiumChest size(1) dmg(0)",
          "requirements" : [
-            "165 - Elementium Ingot"
+            "180 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5110,7 +5879,7 @@
          ]
       },
       {
-         "id" : 167,
+         "id" : 182,
          "name" : "Elementium Items",
          "description" : "Unnamed quest",
          "x" : 122,
@@ -5119,7 +5888,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(8)",
          "requirements" : [
-            "165 - Elementium Ingot"
+            "180 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5155,7 +5924,7 @@
          ]
       },
       {
-         "id" : 168,
+         "id" : 183,
          "name" : "Elven Rods",
          "description" : "Unnamed quest",
          "x" : 98,
@@ -5164,7 +5933,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:skyDirtRod size(1) dmg(0)",
          "requirements" : [
-            "165 - Elementium Ingot"
+            "180 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5195,7 +5964,7 @@
          ]
       },
       {
-         "id" : 169,
+         "id" : 184,
          "name" : "Spark Augment",
          "description" : "Unnamed quest",
          "x" : 146,
@@ -5204,7 +5973,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
          "requirements" : [
-            "167 - Elementium Items"
+            "182 - Elementium Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5245,7 +6014,7 @@
          ]
       },
       {
-         "id" : 170,
+         "id" : 185,
          "name" : "Ritual of Gaia",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -5254,7 +6023,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(5)",
          "requirements" : [
-            "165 - Elementium Ingot"
+            "180 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5292,7 +6061,7 @@
          ]
       },
       {
-         "id" : 171,
+         "id" : 186,
          "name" : "Gaia Items",
          "description" : "Unnamed quest",
          "x" : 146,
@@ -5301,7 +6070,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(14)",
          "requirements" : [
-            "170 - Ritual of Gaia"
+            "185 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5332,7 +6101,7 @@
          ]
       },
       {
-         "id" : 172,
+         "id" : 187,
          "name" : "Gaia Rod",
          "description" : "Unnamed quest",
          "x" : 158,
@@ -5341,7 +6110,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rainbowRod size(1) dmg(0)",
          "requirements" : [
-            "170 - Ritual of Gaia"
+            "185 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5372,7 +6141,7 @@
          ]
       },
       {
-         "id" : 173,
+         "id" : 188,
          "name" : "Ender Air Bottle",
          "description" : "Unnamed quest",
          "x" : 286,
@@ -5404,7 +6173,7 @@
          ]
       },
       {
-         "id" : 174,
+         "id" : 189,
          "name" : "Fluegel Tiara",
          "description" : "Unnamed quest",
          "x" : 262,
@@ -5413,7 +6182,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:flightTiara size(1) dmg(0)",
          "requirements" : [
-            "173 - Ender Air Bottle"
+            "188 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5439,7 +6208,7 @@
          ]
       },
       {
-         "id" : 175,
+         "id" : 190,
          "name" : "Red String",
          "description" : "Unnamed quest",
          "x" : 274,
@@ -5448,7 +6217,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(12)",
          "requirements" : [
-            "173 - Ender Air Bottle"
+            "188 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5474,7 +6243,7 @@
          ]
       },
       {
-         "id" : 176,
+         "id" : 191,
          "name" : "Red String Items",
          "description" : "Unnamed quest",
          "x" : 262,
@@ -5483,7 +6252,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:redStringRelay size(1) dmg(0)",
          "requirements" : [
-            "175 - Red String"
+            "190 - Red String"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5529,7 +6298,7 @@
          ]
       },
       {
-         "id" : 177,
+         "id" : 192,
          "name" : "Opfere dich selbst",
          "description" : "Altar \/ Sacrificial Knife herstellen",
          "x" : 14,
@@ -5573,7 +6342,7 @@
          ]
       },
       {
-         "id" : 178,
+         "id" : 193,
          "name" : "Blanck Slate",
          "description" : null,
          "x" : 66,
@@ -5582,7 +6351,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
          "requirements" : [
-            "177 - Opfere dich selbst"
+            "192 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5608,7 +6377,7 @@
          ]
       },
       {
-         "id" : 179,
+         "id" : 194,
          "name" : "Altar Level 1 Orb",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -5617,7 +6386,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "177 - Opfere dich selbst"
+            "192 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5643,7 +6412,7 @@
          ]
       },
       {
-         "id" : 180,
+         "id" : 195,
          "name" : "Divination Sigil",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -5652,8 +6421,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
          "requirements" : [
-            "178 - Blanck Slate",
-            "179 - Altar Level 1 Orb"
+            "193 - Blanck Slate",
+            "194 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5679,7 +6448,7 @@
          ]
       },
       {
-         "id" : 181,
+         "id" : 196,
          "name" : "erste Sigils",
          "description" : "Unnamed quest",
          "x" : 54,
@@ -5688,8 +6457,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
          "requirements" : [
-            "178 - Blanck Slate",
-            "179 - Altar Level 1 Orb"
+            "193 - Blanck Slate",
+            "194 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5720,7 +6489,7 @@
          ]
       },
       {
-         "id" : 182,
+         "id" : 197,
          "name" : "Alchemic Chemistry Set",
          "description" : "Unnamed quest",
          "x" : 22,
@@ -5729,7 +6498,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
          "requirements" : [
-            "179 - Altar Level 1 Orb"
+            "194 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5772,7 +6541,7 @@
          ]
       },
       {
-         "id" : 183,
+         "id" : 198,
          "name" : "Reinforced Slate",
          "description" : null,
          "x" : 98,
@@ -5781,7 +6550,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
          "requirements" : [
-            "178 - Blanck Slate"
+            "193 - Blanck Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5807,7 +6576,7 @@
          ]
       },
       {
-         "id" : 184,
+         "id" : 199,
          "name" : "Altar Level 2 Orb",
          "description" : null,
          "x" : 74,
@@ -5816,7 +6585,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "179 - Altar Level 1 Orb"
+            "194 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5842,7 +6611,7 @@
          ]
       },
       {
-         "id" : 185,
+         "id" : 200,
          "name" : "mehr Sigils",
          "description" : "Unnamed quest",
          "x" : 86,
@@ -5851,8 +6620,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
          "requirements" : [
-            "183 - Reinforced Slate",
-            "184 - Altar Level 2 Orb"
+            "198 - Reinforced Slate",
+            "199 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5912,7 +6681,7 @@
          ]
       },
       {
-         "id" : 186,
+         "id" : 201,
          "name" : "Basis Essenzen",
          "description" : "Unnamed quest",
          "x" : 50,
@@ -5921,8 +6690,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:aether size(1) dmg(0)",
          "requirements" : [
-            "182 - Alchemic Chemistry Set",
-            "184 - Altar Level 2 Orb"
+            "197 - Alchemic Chemistry Set",
+            "199 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5988,7 +6757,7 @@
          ]
       },
       {
-         "id" : 187,
+         "id" : 202,
          "name" : "Imbued Slate",
          "description" : null,
          "x" : 130,
@@ -5997,7 +6766,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
          "requirements" : [
-            "183 - Reinforced Slate"
+            "198 - Reinforced Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6023,7 +6792,7 @@
          ]
       },
       {
-         "id" : 188,
+         "id" : 203,
          "name" : "Altar Level 3 Orb",
          "description" : null,
          "x" : 106,
@@ -6032,7 +6801,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "184 - Altar Level 2 Orb"
+            "199 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6058,7 +6827,7 @@
          ]
       },
       {
-         "id" : 189,
+         "id" : 204,
          "name" : "noch mehr Sigils",
          "description" : null,
          "x" : 118,
@@ -6067,8 +6836,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
          "requirements" : [
-            "187 - Imbued Slate",
-            "188 - Altar Level 3 Orb"
+            "202 - Imbued Slate",
+            "203 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6142,7 +6911,7 @@
          ]
       },
       {
-         "id" : 190,
+         "id" : 205,
          "name" : "Inscription Tools",
          "description" : null,
          "x" : 122,
@@ -6151,7 +6920,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
          "requirements" : [
-            "188 - Altar Level 3 Orb"
+            "203 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6192,7 +6961,7 @@
          ]
       },
       {
-         "id" : 191,
+         "id" : 206,
          "name" : "Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -6201,7 +6970,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
          "requirements" : [
-            "190 - Inscription Tools"
+            "205 - Inscription Tools"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6227,7 +6996,7 @@
          ]
       },
       {
-         "id" : 192,
+         "id" : 207,
          "name" : "Start der Rituale",
          "description" : null,
          "x" : 98,
@@ -6236,7 +7005,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
          "requirements" : [
-            "188 - Altar Level 3 Orb"
+            "203 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6267,7 +7036,7 @@
          ]
       },
       {
-         "id" : 193,
+         "id" : 208,
          "name" : "Ritual of Binding",
          "description" : null,
          "x" : 122,
@@ -6276,8 +7045,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:energySword size(1) dmg(0)",
          "requirements" : [
-            "192 - Start der Rituale",
-            "191 - Ritual Diviner"
+            "207 - Start der Rituale",
+            "206 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6303,7 +7072,7 @@
          ]
       },
       {
-         "id" : 194,
+         "id" : 209,
          "name" : "Weak Blood Shard",
          "description" : null,
          "x" : 146,
@@ -6312,7 +7081,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
          "requirements" : [
-            "193 - Ritual of Binding"
+            "208 - Ritual of Binding"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6338,7 +7107,7 @@
          ]
       },
       {
-         "id" : 195,
+         "id" : 210,
          "name" : "Bound Armor",
          "description" : null,
          "x" : 158,
@@ -6347,7 +7116,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
          "requirements" : [
-            "194 - Weak Blood Shard"
+            "209 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6405,7 +7174,7 @@
          ]
       },
       {
-         "id" : 196,
+         "id" : 211,
          "name" : "bessere Essenzen",
          "description" : null,
          "x" : 78,
@@ -6414,8 +7183,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
          "requirements" : [
-            "186 - Basis Essenzen",
-            "188 - Altar Level 3 Orb"
+            "201 - Basis Essenzen",
+            "203 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6466,7 +7235,7 @@
          ]
       },
       {
-         "id" : 197,
+         "id" : 212,
          "name" : "Daemonen Zirkel",
          "description" : null,
          "x" : 182,
@@ -6475,7 +7244,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
          "requirements" : [
-            "194 - Weak Blood Shard"
+            "209 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6506,7 +7275,7 @@
          ]
       },
       {
-         "id" : 198,
+         "id" : 213,
          "name" : "Daemonen Kontrolle",
          "description" : null,
          "x" : 206,
@@ -6515,7 +7284,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
          "requirements" : [
-            "197 - Daemonen Zirkel"
+            "212 - Daemonen Zirkel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6541,7 +7310,7 @@
          ]
       },
       {
-         "id" : 199,
+         "id" : 214,
          "name" : "Demonic Slate",
          "description" : "Unnamed quest",
          "x" : 162,
@@ -6550,7 +7319,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
          "requirements" : [
-            "187 - Imbued Slate"
+            "202 - Imbued Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6576,7 +7345,7 @@
          ]
       },
       {
-         "id" : 200,
+         "id" : 215,
          "name" : "Altar Level 4 Orb",
          "description" : null,
          "x" : 138,
@@ -6585,7 +7354,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "188 - Altar Level 3 Orb"
+            "203 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6611,7 +7380,7 @@
          ]
       },
       {
-         "id" : 201,
+         "id" : 216,
          "name" : "jetzt reichts aber mit Sigils",
          "description" : null,
          "x" : 150,
@@ -6620,8 +7389,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
          "requirements" : [
-            "199 - Demonic Slate",
-            "200 - Altar Level 4 Orb"
+            "214 - Demonic Slate",
+            "215 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6695,7 +7464,7 @@
          ]
       },
       {
-         "id" : 202,
+         "id" : 217,
          "name" : "besserer Ritual Diviner",
          "description" : null,
          "x" : 146,
@@ -6704,8 +7473,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
          "requirements" : [
-            "200 - Altar Level 4 Orb",
-            "191 - Ritual Diviner"
+            "215 - Altar Level 4 Orb",
+            "206 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6743,7 +7512,7 @@
          ]
       },
       {
-         "id" : 203,
+         "id" : 218,
          "name" : "Kristall Tank",
          "description" : null,
          "x" : 174,
@@ -6755,7 +7524,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "200 - Altar Level 4 Orb"
+            "215 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6803,7 +7572,7 @@
          ]
       },
       {
-         "id" : 204,
+         "id" : 219,
          "name" : "Daemonen Jaeger",
          "description" : null,
          "x" : 198,
@@ -6812,7 +7581,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
          "requirements" : [
-            "203 - Kristall Tank"
+            "218 - Kristall Tank"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6843,7 +7612,7 @@
          ]
       },
       {
-         "id" : 205,
+         "id" : 220,
          "name" : "Ethereal Slate",
          "description" : null,
          "x" : 194,
@@ -6852,7 +7621,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
          "requirements" : [
-            "199 - Demonic Slate"
+            "214 - Demonic Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6878,7 +7647,7 @@
          ]
       },
       {
-         "id" : 206,
+         "id" : 221,
          "name" : "Altar Level 5 Orb",
          "description" : null,
          "x" : 170,
@@ -6887,7 +7656,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "200 - Altar Level 4 Orb"
+            "215 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6913,7 +7682,7 @@
          ]
       },
       {
-         "id" : 207,
+         "id" : 222,
          "name" : "aber jetzt das letzte Sigils",
          "description" : "Unnamed quest",
          "x" : 182,
@@ -6922,8 +7691,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
          "requirements" : [
-            "205 - Ethereal Slate",
-            "206 - Altar Level 5 Orb"
+            "220 - Ethereal Slate",
+            "221 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6949,7 +7718,7 @@
          ]
       },
       {
-         "id" : 208,
+         "id" : 223,
          "name" : "Altar Level 6 Orb",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -6958,7 +7727,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "206 - Altar Level 5 Orb"
+            "221 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6972,7 +7741,7 @@
          ]
       },
       {
-         "id" : 209,
+         "id" : 224,
          "name" : "noch besserer Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -6981,7 +7750,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
          "requirements" : [
-            "208 - Altar Level 6 Orb"
+            "223 - Altar Level 6 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
