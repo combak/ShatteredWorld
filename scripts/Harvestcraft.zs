@@ -11,6 +11,11 @@ val harvCraftButter		= <harvestcraft:butterItem>;
 val harvCraftAnimalTrap		= <harvestcraft:animaltrap>;
 val harvCraftFishTrap		= <harvestcraft:fishtrap>;
 val harvCraftMarket		= <harvestcraft:market>;
+val harvCraftMortarandPestle	= <harvestcraft:mortarandpestleItem>;
+val harvCraftFlour		= <harvestcraft:flourItem>;
+
+# Natura
+val naturaBarlay = <Natura:barleyFood>;
 
 ########################################################################################################################
 # Ore Dictionary
@@ -33,3 +38,5 @@ recipes.remove( harvCraftMarket );
 recipes.remove( harvCraftAnimalTrap );
 recipes.remove( harvCraftFishTrap );
 
+# Natura Barlay to Flour
+recipes.addShapeless( harvCraftFlour, [ harvCraftMortarandPestle, naturaBarlay ] );

@@ -106,8 +106,12 @@ val removeSmelting = [
   <ThermalFoundation:material:75>,	/* 37 - Lumium Ingot (Thermal Foundation) */
   <EnderIO:itemAlloy:5>,		/* 38 - Pulsating Iron (EnderIO) */
   <EnderIO:itemAlloy:2>,		/* 39 - Vibrant Alloy (EnderIO) */
-  <EnderIO:itemAlloy>			/* 40 - Electrical Steel */
+  <EnderIO:itemAlloy>,			/* 40 - Electrical Steel */
+  <minecraft:bread>			/* 41 - Bread */
 ] as IItemStack[];
+
+# HarvestCraft
+val harvCraftDough = <harvestcraft:doughItem>;
 
 ########################################################################################################################
 # Ore Dictionary
@@ -174,6 +178,9 @@ recipes.addShaped( vanillaChest * 2, [ [ odLog, odLog, odLog ], [ odLog, null, o
 # Aluminium Bucket
 recipes.addShaped( vanillaBucket , [ [ TConstructAluIngot, null, TConstructAluIngot ], [ null, TConstructAluIngot, null ] ] );
 
+# Remove simple bread recipes
+recipes.remove( removeSmelting[ 41 ] );
+
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
 ########################################################################################################################
@@ -195,3 +202,5 @@ for i, item in removeSmelting
 {
   furnace.remove( item );
 }
+# Adding HarvestCraft Dough to Bread
+furnace.addRecipe( removeSmelting[ 41 ], harvCraftDough, 0 );

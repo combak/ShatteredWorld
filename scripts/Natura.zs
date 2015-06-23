@@ -1,8 +1,8 @@
 import minetweaker.item.IItemStack;
 
-########################################
+########################################################################################################################
 # Blocks
-########################################
+########################################################################################################################
 
 # Logs
 val naturaLogs = [
@@ -58,9 +58,18 @@ val naturaSticks = [
   <Natura:natura.stick:12>	/* Fusewood */
 ] as IItemStack[];
 
-########################################
+########################################################################################################################
+# Items
+########################################################################################################################
+
+val naturaBarleyFlour	= <Natura:barleyFood:1>;
+val naturaWheatFlour	= <Natura:barleyFood:2>;
+
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
+
 # 1 Log = 2 Planks
-########################################
 for i, log in naturaLogs
 {
   var plank = naturaPlanks[ i ];
@@ -70,12 +79,14 @@ for i, log in naturaLogs
 # Bloodwood Plank
 recipes.addShapeless( naturaPlanks[ 4 ] * 2, [ naturaLogs[ 4 ] ] );
 
-########################################
 # 2 Planks = 2 Sticks
-########################################
 for i, plank in naturaPlanks
 {
   var stick = naturaSticks[ i ];
   recipes.remove( stick );
   recipes.addShaped( stick * 2, [ [ plank, null, null ], [ plank, null, null ], [ null, null, null ] ] );
 }
+
+# Remove simple flour crafting
+recipes.remove( naturaBarleyFlour );
+recipes.remove( naturaWheatFlour );
