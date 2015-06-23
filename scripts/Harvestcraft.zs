@@ -8,6 +8,8 @@ val harvCraftEggplant 		= <harvestcraft:eggplantItem>;
 val harvCraftOnion 		= <harvestcraft:onionItem>;
 val harvCraftBellpepper		= <harvestcraft:bellpepperItem>;
 val harvCraftButter		= <harvestcraft:butterItem>;
+val harvCraftAnimalTrap		= <harvestcraft:animaltrap>;
+val harvCraftFishTrap		= <harvestcraft:fishtrap>;
 
 ########################################################################################################################
 # Ore Dictionary
@@ -22,3 +24,8 @@ val odEgg	= <ore:listAllegg>;
 # Stuffed Eggplant Hard Recipie only
 recipes.remove( harvCraftStuffedeggplant );
 recipes.addShapeless( harvCraftStuffedeggplant, [ harvCraftBakeware, harvCraftEggplant, harvCraftOnion, harvCraftBellpepper, harvCraftButter, odEgg ] );
+
+
+# Remove Trap Recipes until duplication bug is fixed
+recipes.remove( harvCraftAnimalTrap );
+recipes.remove( harvCraftFishTrap );
