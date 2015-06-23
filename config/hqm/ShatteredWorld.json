@@ -11,14 +11,6 @@
          "decription" : "alles zu Agricraft, Pam und Forestry\n"
       },
       {
-         "name" : "Kreislauf der Gesteine",
-         "decription" : "alles zu Tinker und Erzen"
-      },
-      {
-         "name" : "Genie und Chaos",
-         "decription" : "alles zu Storage Drawer, Rucksaecke, Kisten, Tanks, usw."
-      },
-      {
          "name" : "Geist in der Maschine",
          "decription" : "alles zu Thermal Expansion, Buildcraft\n"
       },
@@ -66,11 +58,11 @@
          "id" : 0,
          "name" : "Holz faellen",
          "description" : "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit dem gekonnten Handkantenschlag zerlegen wir einen Baum in seine Einzelteile.",
-         "x" : 26,
-         "y" : 15,
+         "x" : 58,
+         "y" : 40,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:log size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -78,19 +70,46 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:log size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "ORE_DICTIONARY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:planks size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 1,
-         "name" : "Werkbaenke",
+         "name" : "Die Toolstation",
          "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\n\nDafuer muessen wir uns zunaechst mal eine Werkbank (Crafting Table) bauen.",
-         "x" : 50,
-         "y" : 15,
+         "x" : 94,
+         "y" : 40,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "TConstruct:ToolStationBlock size(1) dmg(0)",
+         "requirements" : [
+            "000 - Holz faellen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -98,19 +117,49 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:ToolStationBlock size(1) dmg(10)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:ToolStationBlock size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:ToolStationBlock size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:ToolStationBlock size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 2,
-         "name" : "Ofen",
-         "description" : "Da muss es doch noch was geben, was man sich aus den schnoeden Steinen bauen kann. Und siehe da, man kann sich daraus einen Ofen bauen.",
+         "name" : "Der beste Ordnungssinn",
+         "description" : null,
          "x" : 74,
-         "y" : 15,
+         "y" : 10,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "StorageDrawersForestry:fullDrawers2B size(1) dmg(12)",
+         "requirements" : [
+            "000 - Holz faellen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -118,19 +167,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "StorageDrawers:fullDrawers1 size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "FUZZY"
+                  },
+                  {
+                     "item" : "StorageDrawers:fullDrawers2 size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "FUZZY"
+                  },
+                  {
+                     "item" : "StorageDrawers:fullDrawers4 size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 3,
-         "name" : "Minen",
-         "description" : "Wo kommt man am besten an die guten Steine, man geht unter Tage. Dazu sollte man aber auch eine kleine Spitzhake dabei haben.",
-         "x" : 98,
-         "y" : 15,
+         "name" : "mehr ist immer besser",
+         "description" : null,
+         "x" : 102,
+         "y" : 10,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "StorageDrawers:upgrade size(1) dmg(2)",
+         "requirements" : [
+            "002 - Der beste Ordnungssinn"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -138,19 +212,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "StorageDrawers:upgradeTemplate size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "StorageDrawers:upgrade size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 4,
-         "name" : "Licht",
-         "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
-         "x" : 122,
-         "y" : 15,
+         "name" : "Die Werkbank",
+         "description" : "Unnamed quest",
+         "x" : 58,
+         "y" : 80,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "Forestday:machine.workbanch size(1) dmg(0)",
+         "requirements" : [
+            "000 - Holz faellen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -158,19 +252,51 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestday:machine.workbanch size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestday:fd.item.tool.file.stone size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Forestday:fd.item.gear.wood size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 5,
-         "name" : "Farmland vorbereiten",
-         "description" : "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns bereits mal ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
-         "x" : 146,
-         "y" : 15,
+         "name" : "Minen",
+         "description" : "Wo kommt man am besten an die guten Steine, man geht unter Tage. Dazu sollte man aber auch eine kleine Spitzhake dabei haben.",
+         "x" : 114,
+         "y" : 70,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:cobblestone size(1) dmg(0)",
+         "requirements" : [
+            "001 - Die Toolstation"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -178,19 +304,58 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Flint",
+               "description" : "4 Gravel in L-Form angeordnet",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:flint size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task Pickaxe",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:pickaxe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "NBT_FUZZY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:cobblestone size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 6,
-         "name" : "Wilde Tiere",
-         "description" : "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die Meisten sind nicht gut auf mich zu sprechen, leben sie doch schon laenger hier als ich.",
-         "x" : 170,
-         "y" : 15,
+         "name" : "Ofen",
+         "description" : "Da muss es doch noch was geben, was man sich aus den schnoeden Steinen bauen kann. Und siehe da, man kann sich daraus einen Ofen bauen.",
+         "x" : 142,
+         "y" : 70,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:furnace size(1) dmg(0)",
+         "requirements" : [
+            "005 - Minen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -198,19 +363,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:furnace size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 7,
-         "name" : "Nahrung vorbereiten",
-         "description" : "Aus meinem Appetitt von vorhin wird langsam ein ausgewachsener Hunger. Jetzt ist es an der Zeit das Feld zu bestellen und etwas anzupflanzen",
-         "x" : 194,
-         "y" : 15,
+         "name" : "Licht",
+         "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
+         "x" : 170,
+         "y" : 70,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:torch size(1) dmg(0)",
+         "requirements" : [
+            "006 - Ofen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -218,19 +398,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:torch size(1) dmg(0)",
+                     "required" : 16,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 8,
-         "name" : "Sichere Nacht",
-         "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
-         "x" : 218,
-         "y" : 15,
+         "name" : "Das ist alles fuer den Popo",
+         "description" : "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir hier auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
+         "x" : 86,
+         "y" : 70,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "ExtraUtilities:trashcan size(1) dmg(0)",
+         "requirements" : [
+            "005 - Minen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -238,19 +433,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "ExtraUtilities:trashcan size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 9,
-         "name" : "Alles kurz und klein schlagen",
-         "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steins besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
-         "x" : 242,
-         "y" : 15,
+         "name" : "Der Metallkoch",
+         "description" : null,
+         "x" : 98,
+         "y" : 95,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "TConstruct:Smeltery size(1) dmg(0)",
+         "requirements" : [
+            "005 - Minen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -258,19 +468,60 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:Smeltery size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:LavaTank size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:Smeltery size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:SearedBlock size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:SearedBlock size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:SearedBlock size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 10,
-         "name" : "Sieben bis der Arzt kommt",
-         "description" : "Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?",
-         "x" : 266,
-         "y" : 15,
+         "name" : "Die Giesserei",
+         "description" : null,
+         "x" : 78,
+         "y" : 125,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "TConstruct:blankPattern size(1) dmg(1)",
+         "requirements" : [
+            "009 - Der Metallkoch",
+            "004 - Die Werkbank"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -278,19 +529,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:Cast size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:gearCast size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 11,
-         "name" : "Toepfers ist so schoen",
-         "description" : "Jetzt brauchen wir nur noch Wasser und etwas mit dem wir Wasser von einem Punkt A zu einem Punkt B bringen koennen. ",
-         "x" : 290,
-         "y" : 15,
+         "name" : "Farmland vorbereiten",
+         "description" : "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns bereits mal ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
+         "x" : 26,
+         "y" : 65,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "GardenCore:compost_bin size(1) dmg(0)",
+         "requirements" : [
+            "000 - Holz faellen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -298,19 +569,58 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "GardenCore:compost_bin size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:mattock size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "NBT_FUZZY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "GardenCore:garden_soil size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 12,
-         "name" : "Brot fuer die Welt",
-         "description" : "Nachdem wir ein so schoenes Feld haben, sollten wir Weizen anbauen. Mit dem koennen wir uns nahrhaftes Brot herstellen",
-         "x" : 38,
-         "y" : 35,
+         "name" : "Nahrung vorbereiten",
+         "description" : "Aus meinem Appetitt von vorhin wird langsam ein ausgewachsener Hunger. Jetzt ist es an der Zeit das Feld zu bestellen und etwas anzupflanzen",
+         "x" : 26,
+         "y" : 95,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:wheat size(1) dmg(0)",
+         "requirements" : [
+            "011 - Farmland vorbereiten"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -318,19 +628,56 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:cropsItem size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:wheat size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "minecraft:potato size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "minecraft:carrot size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 13,
-         "name" : "Unbesiegbar",
-         "description" : "Zum Glueck leben wir in einer kleinen Behausung, manche sagen auch Loch dazu. Aber was wollen die ganzen boesen Gesellen von mir da draussen. Ich gehe mal raus und frage sie.",
-         "x" : 62,
-         "y" : 35,
+         "name" : "Wilde Tiere",
+         "description" : "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die Meisten sind nicht gut auf mich zu sprechen, leben sie doch schon laenger hier als ich.",
+         "x" : 126,
+         "y" : 40,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "TConstruct:broadsword size(1) dmg(0)",
+         "requirements" : [
+            "001 - Die Toolstation"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -338,19 +685,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:longsword size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "NBT_FUZZY"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 14,
-         "name" : "In der Ruhe liegt die Kraft",
-         "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenen Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
-         "x" : 86,
-         "y" : 35,
+         "name" : "Sichere Nacht",
+         "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
+         "x" : 42,
+         "y" : 10,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:bed size(1) dmg(0)",
+         "requirements" : [
+            "000 - Holz faellen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -358,19 +720,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:bed size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 15,
-         "name" : "Ein guter Koch kennt seine Rezp",
-         "description" : "Ok, jetzt haben wir etwas Fisch, etwas Brot. Aber fuer eine gesunde Ernaehrung fehlt hier noch die Abwechslung. Vielleicht sollten wir uns ja an ausgefalleneren Rezepten versuchen. Jetzt brauchen wir dafuer noch ein paar Kuechen Utensilien. Mit denen machen wir uns dann Mehl und daraus stellen wir uns einen Teig her. Das klingt doch nach einem Plan",
-         "x" : 110,
-         "y" : 35,
+         "name" : "Alles kurz und klein schlagen",
+         "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steins besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
+         "x" : 130,
+         "y" : 95,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "exnihilo:hammer_stone size(1) dmg(0)",
+         "requirements" : [
+            "005 - Minen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -378,19 +755,56 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "exnihilo:hammer_stone size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task Gravel",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:gravel size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "minecraft:sand size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "exnihilo:dust size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 16,
-         "name" : "Wie die Axt im Wald",
-         "description" : "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
-         "x" : 134,
-         "y" : 35,
+         "name" : "Sieben bis der Arzt kommt",
+         "description" : "Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?",
+         "x" : 110,
+         "y" : 125,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "exnihilo:sifting_table size(1) dmg(0)",
+         "requirements" : [
+            "015 - Alles kurz und klein schlagen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -398,19 +812,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "exnihilo:sifting_table size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 17,
-         "name" : "Dummheit schafft Freiraum",
-         "description" : "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und auch noch selber sich um die Steine kuemmern ... das muss doch viel einfacher gehen.",
-         "x" : 158,
-         "y" : 35,
+         "name" : "Das neue Zeitalter",
+         "description" : "Unnamed quest",
+         "x" : 110,
+         "y" : 155,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:iron_ingot size(1) dmg(0)",
+         "requirements" : [
+            "016 - Sieben bis der Arzt kommt"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -418,19 +847,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:iron_ingot size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:materials size(1) dmg(9)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "TConstruct:materials size(1) dmg(10)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 18,
-         "name" : "Herrschaft des Feuers",
-         "description" : "Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.",
-         "x" : 182,
-         "y" : 35,
+         "name" : "wie man einen See versetzt",
+         "description" : null,
+         "x" : 142,
+         "y" : 140,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "ThermalExpansion:Tank size(1) dmg(0)",
+         "requirements" : [
+            "017 - Das neue Zeitalter"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -438,19 +892,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "ThermalExpansion:Tank size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 19,
-         "name" : "Wenn die Hoelle zufriert",
-         "description" : "In der Hoelle soll es ja mal ganz viele tolle Sachen geben. Durch ein Portal soll man da laufen um dort hin zu gelangen.",
-         "x" : 206,
-         "y" : 35,
+         "name" : "wie passt nur alles da rein",
+         "description" : null,
+         "x" : 94,
+         "y" : 180,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "backpacks16840:backpack size(1) dmg(3)",
+         "requirements" : [
+            "017 - Das neue Zeitalter"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -458,19 +927,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "backpacks16840:backpack size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "backpacks16840:backpack_pouch size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 20,
-         "name" : "Endlich keine Muskelkraft mehr",
-         "description" : "Vom ganzen Arbeiten tuen mir die Arme, Haende, Ruecken und die Fuesse weh. Ich brauche etwas, was mir einige Arbeiten erleichtert. Aber dafuer brauche ich Energie.",
-         "x" : 230,
-         "y" : 35,
+         "name" : "Dummheit schafft Freiraum",
+         "description" : "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und auch noch selber sich um die Steine kuemmern ... das muss doch viel einfacher gehen.",
+         "x" : 142,
+         "y" : 170,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
+         "requirements" : [
+            "017 - Das neue Zeitalter"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -478,19 +967,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "exastrisrebirth:blockSieveAutomatic size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 21,
-         "name" : "Wer hat Angst vor dem boesen Man",
-         "description" : "Manchmal habe ich in der Nacht so komische Geraeusche draussen gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
-         "x" : 254,
-         "y" : 35,
+         "name" : "Der Held der Automatisierung",
+         "description" : "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen. Auch koennte man sich mal einen komfortablen Arbeitsplatz bauen. Ach und wenn man den noch verbessern kann, dann waere das richtig super.",
+         "x" : 174,
+         "y" : 170,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "autopackager:packagerBlock size(1) dmg(0)",
+         "requirements" : [
+            "020 - Dummheit schafft Freiraum"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -498,19 +1007,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "autopackager:packagerBlock size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 22,
-         "name" : "Der Held der Automatisierung",
-         "description" : "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen. Auch koennte man sich mal einen komfortablen Arbeitsplatz bauen. Ach und wenn man den noch verbessern kann, dann waere das richtig super.",
-         "x" : 278,
-         "y" : 35,
+         "name" : "Toepfers ist so schoen",
+         "description" : "Jetzt brauchen wir nur noch Wasser und etwas mit dem wir Wasser von einem Punkt A zu einem Punkt B bringen koennen. ",
+         "x" : 158,
+         "y" : 115,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
+         "requirements" : [
+            "015 - Alles kurz und klein schlagen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -518,19 +1042,51 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "exastrisrebirth:blockBarrelTweak size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:clay size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 23,
-         "name" : "Im Vorbeigehen mitnehmen",
-         "description" : "Ein paar der Werkzeuge halten ja wirklich nicht lange, die muss man sich immer wieder herstellen. Aber dafuer koennen wir uns nun ein paar extrem nuetzliche Rahmen herstellen.",
+         "name" : "Brot fuer die Welt",
+         "description" : "Nachdem wir ein so schoenes Feld haben, sollten wir Weizen anbauen. Mit dem koennen wir uns nahrhaftes Brot herstellen",
          "x" : 26,
-         "y" : 55,
+         "y" : 125,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:bread size(1) dmg(0)",
+         "requirements" : [
+            "012 - Nahrung vorbereiten"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -538,19 +1094,56 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:mortarandpestleItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:doughItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:bread size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:toastItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 24,
-         "name" : "Das ist alles fuer den Arsch",
-         "description" : "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir hier auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
-         "x" : 50,
-         "y" : 55,
+         "name" : "Unbesiegbar",
+         "description" : "Zum Glueck leben wir in einer kleinen Behausung, manche sagen auch Loch dazu. Aber was wollen die ganzen boesen Gesellen von mir da draussen. Ich gehe mal raus und frage sie.",
+         "x" : 154,
+         "y" : 40,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:skull size(1) dmg(4)",
+         "requirements" : [
+            "013 - Wilde Tiere"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -558,19 +1151,43 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_MOB",
+               "name" : "Killing Task",
+               "description" : "A task where the player has to kill certain monsters.",
+               "mobs" : [
+                  {
+                     "name" : "Skeleton",
+                     "icon" : "minecraft:skull size(1) dmg(0)",
+                     "mob" : "Skeleton",
+                     "count" : 1,
+                     "exact" : true
+                  },
+                  {
+                     "name" : "Zombie",
+                     "icon" : "minecraft:skull size(1) dmg(2)",
+                     "mob" : "Zombie",
+                     "count" : 1,
+                     "exact" : true
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 25,
-         "name" : "Aus dem Nichts erschaffen",
-         "description" : "Wasser haben wir in kleinen Mengen. Es soll eine Wundermaschine geben, die aus wenig Wasser viel macht und das fast umsonst. Klingt nach einer unmoeglichen Werbung aber das gibt es wirklich",
-         "x" : 74,
-         "y" : 55,
+         "name" : "Wer hat Angst vor dem boesen Ma",
+         "description" : "Manchmal habe ich in der Nacht so komische Geraeusche draussen gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
+         "x" : 142,
+         "y" : 15,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:ender_pearl size(1) dmg(0)",
+         "requirements" : [
+            "013 - Wilde Tiere"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -578,19 +1195,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:ender_pearl size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 26,
-         "name" : "Der Weltwanderer",
-         "description" : "Die Insel hier ist ja schoen und gut. Aber wenn man in 45 Minuten die Insel umrunden kann und dabei noch in der Zeit viele Pausen machen kann, dann bekommt man doch irgendwann einen Inselkoller. OK, man kann in die Hoelle gehen, aber da gefaellt es mir doch hier besser. Gibt es noch andere Orte, die ich besuchen sollte?",
-         "x" : 98,
-         "y" : 55,
+         "name" : "In der Ruhe liegt die Kraft",
+         "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenen Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
+         "x" : 26,
+         "y" : 35,
          "big" : false,
          "setID" : "000 - Aller Anfang ist schwer",
-         "icon" : null,
+         "icon" : "minecraft:cooked_fished size(1) dmg(0)",
+         "requirements" : [
+            "000 - Holz faellen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -598,19 +1230,46 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:fishing_rod size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:fish size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 27,
-         "name" : "Das wird doch nie was",
-         "description" : null,
-         "x" : 22,
-         "y" : 20,
+         "name" : "Kochen will gelernt sein",
+         "description" : "Ok, jetzt haben wir etwas Fisch, etwas Brot. Aber fuer eine gesunde Ernaehrung fehlt hier noch die Abwechslung. Vielleicht sollten wir uns ja an ausgefalleneren Rezepten versuchen. Jetzt brauchen wir dafuer noch ein paar Kuechen Utensilien. Mit denen machen wir uns dann Mehl und daraus stellen wir uns einen Teig her. Das klingt doch nach einem Plan",
+         "x" : 26,
+         "y" : 155,
          "big" : false,
-         "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : "harvestcraft:mixingbowlItem size(1) dmg(0)",
+         "requirements" : [
+            "023 - Brot fuer die Welt"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -618,19 +1277,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:mixingbowlItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:juicerItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:bakewareItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 28,
-         "name" : "Die Topper Party",
-         "description" : null,
-         "x" : 46,
-         "y" : 20,
+         "name" : "Herrschaft des Feuers",
+         "description" : "Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.",
+         "x" : 186,
+         "y" : 115,
          "big" : false,
-         "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
+         "requirements" : [
+            "022 - Toepfers ist so schoen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -638,19 +1322,40 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "exnihilo:crucible size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 29,
-         "name" : "Der Schnellkochtopf",
-         "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "name" : "Wie die Axt im Wald",
+         "description" : "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
+         "x" : 78,
+         "y" : 155,
          "big" : false,
-         "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "setID" : "000 - Aller Anfang ist schwer",
+         "icon" : "TConstruct:lumberaxe size(1) dmg(0)",
+         "requirements" : [
+            "010 - Die Giesserei",
+            "017 - Das neue Zeitalter"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -658,18 +1363,42 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:ToolForgeBlock size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "FUZZY"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "TConstruct:lumberaxe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "NBT_FUZZY"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 30,
-         "name" : "Milch macht muede Maenner munter",
-         "description" : null,
-         "x" : 94,
-         "y" : 20,
+         "name" : "Aus dem Nichts erschaffen",
+         "description" : "Wasser haben wir in kleinen Mengen. Es soll eine Wundermaschine geben, die aus wenig Wasser viel macht und das fast umsonst. Klingt nach einer unmoeglichen Werbung aber das gibt es wirklich",
+         "x" : 270,
+         "y" : 195,
          "big" : false,
-         "setID" : "001 - Das grosse Fressen",
+         "setID" : "000 - Aller Anfang ist schwer",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -684,12 +1413,12 @@
       },
       {
          "id" : 31,
-         "name" : "Die Baumschule",
-         "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "name" : "Der Weltwanderer",
+         "description" : "Die Insel hier ist ja schoen und gut. Aber wenn man in 45 Minuten die Insel umrunden kann und dabei noch in der Zeit viele Pausen machen kann, dann bekommt man doch irgendwann einen Inselkoller. OK, man kann in die Hoelle gehen, aber da gefaellt es mir doch hier besser. Gibt es noch andere Orte, die ich besuchen sollte?",
+         "x" : 294,
+         "y" : 195,
          "big" : false,
-         "setID" : "001 - Das grosse Fressen",
+         "setID" : "000 - Aller Anfang ist schwer",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -704,13 +1433,13 @@
       },
       {
          "id" : 32,
-         "name" : "Darwin hatte recht",
+         "name" : "Der Schnellkochtopf",
          "description" : null,
-         "x" : 142,
+         "x" : 22,
          "y" : 20,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "harvestcraft:potItem size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -718,19 +1447,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:potItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:skilletItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:saucepanItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 33,
-         "name" : "Die Wunder der Genetic",
+         "name" : "Milch macht muede Maenner munter",
          "description" : null,
-         "x" : 166,
+         "x" : 54,
          "y" : 20,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "IguanaTweaksTConstruct:clayBucketMilk size(1) dmg(0)",
+         "requirements" : [
+            "032 - Der Schnellkochtopf"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -738,19 +1492,46 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "minecraft:milk_bucket size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:freshmilkItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 34,
-         "name" : "Die eigenen Burgerkette",
+         "name" : "Darwin hatte recht",
          "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "x" : 38,
+         "y" : 45,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "AgriCraft:seedAnalyzer size(1) dmg(0)",
+         "requirements" : [
+            "032 - Der Schnellkochtopf"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -758,19 +1539,56 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:seedAnalyzer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:journal size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:seedSugarcane size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "minecraft:pumpkin_seeds size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 35,
-         "name" : "Die Erntemaschine",
+         "name" : "sag es mit Blumen",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 54,
+         "y" : 70,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "AgriCraft:seedPoppy size(1) dmg(0)",
+         "requirements" : [
+            "034 - Darwin hatte recht"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -778,19 +1596,66 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task Blumen",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:seedPoppy size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:seedDandelion size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:seedTulipWhite size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task Botania",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:seedBotaniaRed size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:seedBotaniaYellow size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:seedBotaniaWhite size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 36,
-         "name" : "Der gruene Daumen",
+         "name" : "Die Wunder der Genetic",
          "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "x" : 70,
+         "y" : 95,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "AgriCraft:seedRedstodendron size(1) dmg(0)",
+         "requirements" : [
+            "035 - sag es mit Blumen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -798,19 +1663,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:seedRedstodendron size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:seedCuprosia size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:seedPetinia size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 37,
-         "name" : "vegetarische Kost",
+         "name" : "Die eigenen Burgerkette",
          "description" : null,
-         "x" : 262,
-         "y" : 20,
+         "x" : 66,
+         "y" : 45,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "harvestcraft:tomatoItem size(1) dmg(0)",
+         "requirements" : [
+            "034 - Darwin hatte recht"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -818,19 +1708,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:tomatoseedItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:lettuceseedItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 38,
-         "name" : "sag es mit Blumen",
+         "name" : "vegetarische Kost",
          "description" : null,
-         "x" : 286,
-         "y" : 20,
+         "x" : 94,
+         "y" : 45,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "harvestcraft:soybeanItem size(1) dmg(0)",
+         "requirements" : [
+            "037 - Die eigenen Burgerkette"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -838,19 +1748,68 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:soybeanseedItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:presser size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "harvestcraft:soymilkItem size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:silkentofuItem size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "harvestcraft:firmtofuItem size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 39,
-         "name" : "wie werde ich ein Bauer",
+         "name" : "Der gruene Daumen",
          "description" : null,
-         "x" : 34,
-         "y" : 40,
+         "x" : 22,
+         "y" : 70,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
-         "icon" : null,
+         "icon" : "AgriCraft:sprinklerItem size(1) dmg(0)",
+         "requirements" : [
+            "034 - Darwin hatte recht"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -858,16 +1817,38 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "AgriCraft:waterTank size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:waterChannel size(1) dmg(0)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "AgriCraft:sprinklerItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 40,
-         "name" : "wie werde ich ein Grossbauer",
+         "name" : "wie werde ich ein Bauer",
          "description" : null,
-         "x" : 58,
-         "y" : 40,
+         "x" : 238,
+         "y" : 190,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
          "icon" : null,
@@ -884,10 +1865,10 @@
       },
       {
          "id" : 41,
-         "name" : "wie werde ich ein Haendler",
+         "name" : "wie werde ich ein Grossbauer",
          "description" : null,
-         "x" : 82,
-         "y" : 40,
+         "x" : 262,
+         "y" : 190,
          "big" : false,
          "setID" : "001 - Das grosse Fressen",
          "icon" : null,
@@ -904,12 +1885,12 @@
       },
       {
          "id" : 42,
-         "name" : "Heute koch ich, morgen ...",
+         "name" : "vom Himmel hoch",
          "description" : null,
-         "x" : 22,
-         "y" : 20,
+         "x" : 50,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -924,12 +1905,12 @@
       },
       {
          "id" : 43,
-         "name" : "Das kleinste Raedchen",
+         "name" : "der Man fuer das Grobe",
          "description" : null,
-         "x" : 46,
-         "y" : 20,
+         "x" : 74,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -944,12 +1925,12 @@
       },
       {
          "id" : 44,
-         "name" : "Ironman",
+         "name" : "der Herr der Kristalle",
          "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "x" : 98,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -964,12 +1945,12 @@
       },
       {
          "id" : 45,
-         "name" : "Kupferdraht",
+         "name" : "es glitzert so schoen",
          "description" : null,
-         "x" : 94,
-         "y" : 20,
+         "x" : 122,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -984,12 +1965,12 @@
       },
       {
          "id" : 46,
-         "name" : "wie im Mittelalter",
+         "name" : "der Graveur",
          "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "x" : 146,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1004,12 +1985,12 @@
       },
       {
          "id" : 47,
-         "name" : "das goldene Zeitalter",
+         "name" : "klein aber fein",
          "description" : null,
-         "x" : 142,
-         "y" : 20,
+         "x" : 170,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1024,12 +2005,12 @@
       },
       {
          "id" : 48,
-         "name" : "der silberne Loeffel",
+         "name" : "alles im Ueberblick",
          "description" : null,
-         "x" : 166,
-         "y" : 20,
+         "x" : 194,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1044,12 +2025,12 @@
       },
       {
          "id" : 49,
-         "name" : "im Vulkan geboren",
+         "name" : "wie von Zauberhand",
          "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "x" : 218,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1064,12 +2045,12 @@
       },
       {
          "id" : 50,
-         "name" : "haerter als Stahl",
+         "name" : "ein Fass ohne Boden",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 242,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1084,12 +2065,12 @@
       },
       {
          "id" : 51,
-         "name" : "das weisse Metall",
+         "name" : "der Geist in der Flasche",
          "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "x" : 266,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1104,12 +2085,12 @@
       },
       {
          "id" : 52,
-         "name" : "das findest du nie",
+         "name" : "der virtuelle Zaubertisch",
          "description" : null,
-         "x" : 262,
-         "y" : 20,
+         "x" : 290,
+         "y" : 190,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "003 - Das Hologramm",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1124,12 +2105,12 @@
       },
       {
          "id" : 53,
-         "name" : "schwerer als Nickel",
+         "name" : "ein Stab sie alle zu Binden",
          "description" : null,
-         "x" : 286,
+         "x" : 22,
          "y" : 20,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1144,12 +2125,12 @@
       },
       {
          "id" : 54,
-         "name" : "das Unmoegliche",
+         "name" : "der Meisterstab 2",
          "description" : null,
-         "x" : 34,
-         "y" : 40,
+         "x" : 46,
+         "y" : 20,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1164,12 +2145,12 @@
       },
       {
          "id" : 55,
-         "name" : "endlich mal was Handfestes",
+         "name" : "der Meisterstab 3",
          "description" : null,
-         "x" : 58,
-         "y" : 40,
+         "x" : 70,
+         "y" : 20,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1184,12 +2165,12 @@
       },
       {
          "id" : 56,
-         "name" : "wovon traeumst du Nachts",
+         "name" : "der Meisterstab 4",
          "description" : null,
-         "x" : 82,
-         "y" : 40,
+         "x" : 94,
+         "y" : 20,
          "big" : false,
-         "setID" : "002 - Kreislauf der Gesteine",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1204,12 +2185,12 @@
       },
       {
          "id" : 57,
-         "name" : "wer Ordnung haelt ist ...",
+         "name" : "Dreamy Staff ???",
          "description" : null,
-         "x" : 22,
+         "x" : 118,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1224,12 +2205,12 @@
       },
       {
          "id" : 58,
-         "name" : "mehr ist immer besser",
+         "name" : "Livingwood Wand ???",
          "description" : null,
-         "x" : 46,
+         "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1244,12 +2225,12 @@
       },
       {
          "id" : 59,
-         "name" : "wie man einen See versetzt",
+         "name" : "Wand Caps",
          "description" : null,
-         "x" : 70,
+         "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1264,12 +2245,12 @@
       },
       {
          "id" : 60,
-         "name" : "wie man ein Meer versetzt",
+         "name" : "Pink Caps",
          "description" : null,
-         "x" : 94,
+         "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1284,12 +2265,12 @@
       },
       {
          "id" : 61,
-         "name" : "wie man einen Ozean speichert",
+         "name" : "Manasteel Caps",
          "description" : null,
-         "x" : 118,
+         "x" : 214,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1304,12 +2285,12 @@
       },
       {
          "id" : 62,
-         "name" : "alles in Einem",
+         "name" : "durch die rosa Brille",
          "description" : null,
-         "x" : 142,
+         "x" : 238,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1324,12 +2305,12 @@
       },
       {
          "id" : 63,
-         "name" : "mein Schatz",
+         "name" : "Passive Scanning",
          "description" : null,
-         "x" : 166,
+         "x" : 262,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1344,12 +2325,12 @@
       },
       {
          "id" : 64,
-         "name" : "wie passt nur alles da rein",
+         "name" : "Infused Stone",
          "description" : null,
-         "x" : 190,
+         "x" : 286,
          "y" : 20,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1364,12 +2345,12 @@
       },
       {
          "id" : 65,
-         "name" : "teilen will gelernt sein",
+         "name" : "Balanced Shards",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 34,
+         "y" : 40,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1384,12 +2365,12 @@
       },
       {
          "id" : 66,
-         "name" : "der Quell des Lebens",
+         "name" : "Sinful Shards",
          "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "x" : 58,
+         "y" : 40,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1404,12 +2385,12 @@
       },
       {
          "id" : 67,
-         "name" : "Schweizer Taschenmesser",
+         "name" : "der gedultige Forscher",
          "description" : null,
-         "x" : 262,
-         "y" : 20,
+         "x" : 82,
+         "y" : 40,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1424,12 +2405,12 @@
       },
       {
          "id" : 68,
-         "name" : "Ritter Runkel",
+         "name" : "Explosives Licht",
          "description" : null,
-         "x" : 286,
-         "y" : 20,
+         "x" : 106,
+         "y" : 40,
          "big" : false,
-         "setID" : "003 - Genie und Chaos",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1444,12 +2425,12 @@
       },
       {
          "id" : 69,
-         "name" : "vom Himmel hoch",
+         "name" : "magisches Metall",
          "description" : null,
-         "x" : 22,
-         "y" : 20,
+         "x" : 130,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1464,12 +2445,12 @@
       },
       {
          "id" : 70,
-         "name" : "der Man fuer das Grobe",
+         "name" : "die Wunderlampe",
          "description" : null,
-         "x" : 46,
-         "y" : 20,
+         "x" : 154,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1484,12 +2465,12 @@
       },
       {
          "id" : 71,
-         "name" : "der Herr der Kristalle",
+         "name" : "ins Nichts",
          "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "x" : 178,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1504,12 +2485,12 @@
       },
       {
          "id" : 72,
-         "name" : "es glitzert so schoen",
+         "name" : "das Monster",
          "description" : null,
-         "x" : 94,
-         "y" : 20,
+         "x" : 202,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1524,12 +2505,12 @@
       },
       {
          "id" : 73,
-         "name" : "der Graveur",
+         "name" : "Label Printing",
          "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "x" : 226,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1544,12 +2525,12 @@
       },
       {
          "id" : 74,
-         "name" : "klein aber fein",
+         "name" : "der Zaubertisch",
          "description" : null,
-         "x" : 142,
-         "y" : 20,
+         "x" : 250,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1564,12 +2545,12 @@
       },
       {
          "id" : 75,
-         "name" : "alles im Ueberblick",
+         "name" : "die Hexenk�",
          "description" : null,
-         "x" : 166,
-         "y" : 20,
+         "x" : 274,
+         "y" : 40,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1584,12 +2565,12 @@
       },
       {
          "id" : 76,
-         "name" : "wie von Zauberhand",
+         "name" : "die Destillerie",
          "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "x" : 22,
+         "y" : 60,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1604,12 +2585,12 @@
       },
       {
          "id" : 77,
-         "name" : "ein Fass ohne Boden",
+         "name" : "der Kristallisierer",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 46,
+         "y" : 60,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1624,12 +2605,12 @@
       },
       {
          "id" : 78,
-         "name" : "der Geist in der Flasche",
+         "name" : "der Wunderofen",
          "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "x" : 70,
+         "y" : 60,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1644,12 +2625,12 @@
       },
       {
          "id" : 79,
-         "name" : "der virtuelle Zaubertisch",
+         "name" : "der Dampfkessel",
          "description" : null,
-         "x" : 262,
-         "y" : 20,
+         "x" : 94,
+         "y" : 60,
          "big" : false,
-         "setID" : "005 - Das Hologramm",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1664,12 +2645,12 @@
       },
       {
          "id" : 80,
-         "name" : "ein Stab sie alle zu Binden",
+         "name" : "es geht immer mal was daneben",
          "description" : null,
-         "x" : 22,
-         "y" : 20,
+         "x" : 118,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1684,12 +2665,12 @@
       },
       {
          "id" : 81,
-         "name" : "der Meisterstab 2",
+         "name" : "schneller wachsen 1",
          "description" : null,
-         "x" : 46,
-         "y" : 20,
+         "x" : 142,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1704,12 +2685,12 @@
       },
       {
          "id" : 82,
-         "name" : "der Meisterstab 3",
+         "name" : "schneller wachsen 2",
          "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "x" : 166,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1724,12 +2705,12 @@
       },
       {
          "id" : 83,
-         "name" : "der Meisterstab 4",
+         "name" : "Romantic Mood Lighting ???",
          "description" : null,
-         "x" : 94,
-         "y" : 20,
+         "x" : 190,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1744,12 +2725,12 @@
       },
       {
          "id" : 84,
-         "name" : "Dreamy Staff ???",
+         "name" : "Fancy Floral Fabrication ???",
          "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "x" : 214,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1764,12 +2745,12 @@
       },
       {
          "id" : 85,
-         "name" : "Livingwood Wand ???",
+         "name" : "Focal Manipulator ???",
          "description" : null,
-         "x" : 142,
-         "y" : 20,
+         "x" : 238,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1784,12 +2765,12 @@
       },
       {
          "id" : 86,
-         "name" : "Wand Caps",
+         "name" : "Vis Relay ???",
          "description" : null,
-         "x" : 166,
-         "y" : 20,
+         "x" : 262,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1804,12 +2785,12 @@
       },
       {
          "id" : 87,
-         "name" : "Pink Caps",
+         "name" : "Vis Charge Relay ???",
          "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "x" : 286,
+         "y" : 60,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1824,12 +2805,12 @@
       },
       {
          "id" : 88,
-         "name" : "Manasteel Caps",
+         "name" : "Phancy Phials ???",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 34,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1844,12 +2825,12 @@
       },
       {
          "id" : 89,
-         "name" : "durch die rosa Brille",
+         "name" : "Arcane Pedestal ???",
          "description" : null,
-         "x" : 238,
-         "y" : 20,
+         "x" : 58,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1864,12 +2845,12 @@
       },
       {
          "id" : 90,
-         "name" : "Passive Scanning",
+         "name" : "Wand Charger ???",
          "description" : null,
-         "x" : 262,
-         "y" : 20,
+         "x" : 82,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1884,12 +2865,12 @@
       },
       {
          "id" : 91,
-         "name" : "Infused Stone",
+         "name" : "Flux Scrubber ???",
          "description" : null,
-         "x" : 286,
-         "y" : 20,
+         "x" : 106,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1904,12 +2885,12 @@
       },
       {
          "id" : 92,
-         "name" : "Balanced Shards",
+         "name" : "Thirsty Work ???",
          "description" : null,
-         "x" : 34,
-         "y" : 40,
+         "x" : 130,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1924,12 +2905,12 @@
       },
       {
          "id" : 93,
-         "name" : "Sinful Shards",
+         "name" : "Treecapitator ???",
          "description" : null,
-         "x" : 58,
-         "y" : 40,
+         "x" : 154,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1944,12 +2925,12 @@
       },
       {
          "id" : 94,
-         "name" : "der gedultige Forscher",
+         "name" : "Magical Mushrooms ???",
          "description" : null,
-         "x" : 82,
-         "y" : 40,
+         "x" : 178,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1964,12 +2945,12 @@
       },
       {
          "id" : 95,
-         "name" : "Explosives Licht",
+         "name" : "Tainted Botany ???",
          "description" : null,
-         "x" : 106,
-         "y" : 40,
+         "x" : 202,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -1984,12 +2965,12 @@
       },
       {
          "id" : 96,
-         "name" : "magisches Metall",
+         "name" : "Crystaline Eye ???",
          "description" : null,
-         "x" : 130,
-         "y" : 40,
+         "x" : 226,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2004,12 +2985,12 @@
       },
       {
          "id" : 97,
-         "name" : "die Wunderlampe",
+         "name" : "Redstone Vis ???",
          "description" : null,
-         "x" : 154,
-         "y" : 40,
+         "x" : 250,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2024,12 +3005,12 @@
       },
       {
          "id" : 98,
-         "name" : "ins Nichts",
+         "name" : "Ethereal Flower ???",
          "description" : null,
-         "x" : 178,
-         "y" : 40,
+         "x" : 274,
+         "y" : 80,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2044,12 +3025,12 @@
       },
       {
          "id" : 99,
-         "name" : "das Monster",
+         "name" : "Schleudertrauma",
          "description" : null,
-         "x" : 202,
-         "y" : 40,
+         "x" : 22,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2064,12 +3045,12 @@
       },
       {
          "id" : 100,
-         "name" : "Label Printing",
+         "name" : "Greatwood",
          "description" : null,
-         "x" : 226,
-         "y" : 40,
+         "x" : 46,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2084,12 +3065,12 @@
       },
       {
          "id" : 101,
-         "name" : "der Zaubertisch",
+         "name" : "Silverwood",
          "description" : null,
-         "x" : 250,
-         "y" : 40,
+         "x" : 70,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2104,12 +3085,12 @@
       },
       {
          "id" : 102,
-         "name" : "die Hexenk�",
+         "name" : "Tubes",
          "description" : null,
-         "x" : 274,
-         "y" : 40,
+         "x" : 94,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2124,12 +3105,12 @@
       },
       {
          "id" : 103,
-         "name" : "die Destillerie",
+         "name" : "Advanced Tubes",
          "description" : null,
-         "x" : 22,
-         "y" : 60,
+         "x" : 118,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2144,12 +3125,12 @@
       },
       {
          "id" : 104,
-         "name" : "der Kristallisierer",
+         "name" : "Ex-Astris Objecte1",
          "description" : null,
-         "x" : 46,
-         "y" : 60,
+         "x" : 142,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2164,12 +3145,12 @@
       },
       {
          "id" : 105,
-         "name" : "der Wunderofen",
+         "name" : "Ex-Astris Objecte2",
          "description" : null,
-         "x" : 70,
-         "y" : 60,
+         "x" : 166,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2184,12 +3165,12 @@
       },
       {
          "id" : 106,
-         "name" : "der Dampfkessel",
+         "name" : "Eldritch Dimension",
          "description" : null,
-         "x" : 94,
-         "y" : 60,
+         "x" : 190,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2204,12 +3185,12 @@
       },
       {
          "id" : 107,
-         "name" : "es geht immer mal was daneben",
+         "name" : "Minions",
          "description" : null,
-         "x" : 118,
-         "y" : 60,
+         "x" : 214,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2224,12 +3205,12 @@
       },
       {
          "id" : 108,
-         "name" : "schneller wachsen 1",
+         "name" : "des Gloeckens Klang",
          "description" : null,
-         "x" : 142,
-         "y" : 60,
+         "x" : 238,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2244,12 +3225,12 @@
       },
       {
          "id" : 109,
-         "name" : "schneller wachsen 2",
+         "name" : "Landbau Minions",
          "description" : null,
-         "x" : 166,
-         "y" : 60,
+         "x" : 262,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2264,12 +3245,12 @@
       },
       {
          "id" : 110,
-         "name" : "Romantic Mood Lighting ???",
+         "name" : "Fleischer Minion",
          "description" : null,
-         "x" : 190,
-         "y" : 60,
+         "x" : 286,
+         "y" : 100,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2284,12 +3265,12 @@
       },
       {
          "id" : 111,
-         "name" : "Fancy Floral Fabrication ???",
+         "name" : "Thaumic Minion",
          "description" : null,
-         "x" : 214,
-         "y" : 60,
+         "x" : 34,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2304,12 +3285,12 @@
       },
       {
          "id" : 112,
-         "name" : "Focal Manipulator ???",
+         "name" : "Holz Minion",
          "description" : null,
-         "x" : 238,
-         "y" : 60,
+         "x" : 58,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2324,12 +3305,12 @@
       },
       {
          "id" : 113,
-         "name" : "Vis Relay ???",
+         "name" : "Perfekter Sklave",
          "description" : null,
-         "x" : 262,
-         "y" : 60,
+         "x" : 82,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2344,12 +3325,12 @@
       },
       {
          "id" : 114,
-         "name" : "Vis Charge Relay ???",
+         "name" : "Tonsoldat",
          "description" : null,
-         "x" : 286,
-         "y" : 60,
+         "x" : 106,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2364,12 +3345,12 @@
       },
       {
          "id" : 115,
-         "name" : "Phancy Phials ???",
+         "name" : "Steinsoldat",
          "description" : null,
-         "x" : 34,
-         "y" : 80,
+         "x" : 130,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2384,12 +3365,12 @@
       },
       {
          "id" : 116,
-         "name" : "Arcane Pedestal ???",
+         "name" : "Schoenheitskoenigin",
          "description" : null,
-         "x" : 58,
-         "y" : 80,
+         "x" : 154,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2404,12 +3385,12 @@
       },
       {
          "id" : 117,
-         "name" : "Wand Charger ???",
+         "name" : "Intelligenter Soldat",
          "description" : null,
-         "x" : 82,
-         "y" : 80,
+         "x" : 178,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2424,12 +3405,12 @@
       },
       {
          "id" : 118,
-         "name" : "Flux Scrubber ???",
+         "name" : "fleissiges Bienchen",
          "description" : null,
-         "x" : 106,
-         "y" : 80,
+         "x" : 202,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2444,12 +3425,12 @@
       },
       {
          "id" : 119,
-         "name" : "Thirsty Work ???",
+         "name" : "leicht wie eine Feder",
          "description" : null,
-         "x" : 130,
-         "y" : 80,
+         "x" : 226,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2464,12 +3445,12 @@
       },
       {
          "id" : 120,
-         "name" : "Treecapitator ???",
+         "name" : "Minion Power",
          "description" : null,
-         "x" : 154,
-         "y" : 80,
+         "x" : 250,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2484,12 +3465,12 @@
       },
       {
          "id" : 121,
-         "name" : "Magical Mushrooms ???",
+         "name" : "Minion Craftsman",
          "description" : null,
-         "x" : 178,
-         "y" : 80,
+         "x" : 274,
+         "y" : 120,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2504,12 +3485,12 @@
       },
       {
          "id" : 122,
-         "name" : "Tainted Botany ???",
+         "name" : "Minion Craftsman 2",
          "description" : null,
-         "x" : 202,
-         "y" : 80,
+         "x" : 22,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2524,12 +3505,12 @@
       },
       {
          "id" : 123,
-         "name" : "Crystaline Eye ???",
+         "name" : "Animation",
          "description" : null,
-         "x" : 226,
-         "y" : 80,
+         "x" : 46,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2544,12 +3525,12 @@
       },
       {
          "id" : 124,
-         "name" : "Redstone Vis ???",
+         "name" : "Automating Inventory",
          "description" : null,
-         "x" : 250,
-         "y" : 80,
+         "x" : 70,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2564,12 +3545,12 @@
       },
       {
          "id" : 125,
-         "name" : "Ethereal Flower ???",
+         "name" : "Infuse Yourself",
          "description" : null,
-         "x" : 274,
-         "y" : 80,
+         "x" : 94,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2584,12 +3565,12 @@
       },
       {
          "id" : 126,
-         "name" : "Schleudertrauma",
+         "name" : "Biome Changing",
          "description" : null,
-         "x" : 22,
-         "y" : 100,
+         "x" : 118,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2604,12 +3585,12 @@
       },
       {
          "id" : 127,
-         "name" : "Greatwood",
+         "name" : "Alles behalten",
          "description" : null,
-         "x" : 46,
-         "y" : 100,
+         "x" : 142,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2624,12 +3605,12 @@
       },
       {
          "id" : 128,
-         "name" : "Silverwood",
+         "name" : "Alles sehen",
          "description" : null,
-         "x" : 70,
-         "y" : 100,
+         "x" : 166,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2644,12 +3625,12 @@
       },
       {
          "id" : 129,
-         "name" : "Tubes",
+         "name" : "Cloak",
          "description" : null,
-         "x" : 94,
-         "y" : 100,
+         "x" : 190,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2664,12 +3645,12 @@
       },
       {
          "id" : 130,
-         "name" : "Advanced Tubes",
+         "name" : "Magic Cobble",
          "description" : null,
-         "x" : 118,
-         "y" : 100,
+         "x" : 214,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2684,12 +3665,12 @@
       },
       {
          "id" : 131,
-         "name" : "Ex-Astris Objecte1",
+         "name" : "Ethereal Walls",
          "description" : null,
-         "x" : 142,
-         "y" : 100,
+         "x" : 238,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2704,12 +3685,12 @@
       },
       {
          "id" : 132,
-         "name" : "Ex-Astris Objecte2",
+         "name" : "Chameleon ???",
          "description" : null,
-         "x" : 166,
-         "y" : 100,
+         "x" : 262,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2724,12 +3705,12 @@
       },
       {
          "id" : 133,
-         "name" : "Eldritch Dimension",
+         "name" : "Boost Nutrition ???",
          "description" : null,
-         "x" : 190,
-         "y" : 100,
+         "x" : 286,
+         "y" : 140,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2744,12 +3725,12 @@
       },
       {
          "id" : 134,
-         "name" : "Minions",
+         "name" : "SubCollar ???",
          "description" : null,
-         "x" : 214,
-         "y" : 100,
+         "x" : 34,
+         "y" : 160,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2764,12 +3745,12 @@
       },
       {
          "id" : 135,
-         "name" : "des Gloeckens Klang",
+         "name" : "Inventory Tracking ???",
          "description" : null,
-         "x" : 238,
-         "y" : 100,
+         "x" : 58,
+         "y" : 160,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2784,12 +3765,12 @@
       },
       {
          "id" : 136,
-         "name" : "Landbau Minions",
+         "name" : "Upgrading Capacity ???",
          "description" : null,
-         "x" : 262,
-         "y" : 100,
+         "x" : 82,
+         "y" : 160,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2804,12 +3785,12 @@
       },
       {
          "id" : 137,
-         "name" : "Fleischer Minion",
+         "name" : "Scrivener's Oculus ???",
          "description" : null,
-         "x" : 286,
-         "y" : 100,
+         "x" : 106,
+         "y" : 160,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2824,12 +3805,12 @@
       },
       {
          "id" : 138,
-         "name" : "Thaumic Minion",
+         "name" : "Luring Lemmings ???",
          "description" : null,
-         "x" : 34,
-         "y" : 120,
+         "x" : 130,
+         "y" : 160,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2844,12 +3825,12 @@
       },
       {
          "id" : 139,
-         "name" : "Holz Minion",
+         "name" : "Construct more Pylons ???",
          "description" : null,
-         "x" : 58,
-         "y" : 120,
+         "x" : 154,
+         "y" : 160,
          "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
+         "setID" : "005 - Die Geister die ich rief",
          "icon" : null,
          "repeatInfo" : {
             "type" : "NONE"
@@ -2864,552 +3845,12 @@
       },
       {
          "id" : 140,
-         "name" : "Perfekter Sklave",
-         "description" : null,
-         "x" : 82,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 141,
-         "name" : "Tonsoldat",
-         "description" : null,
-         "x" : 106,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 142,
-         "name" : "Steinsoldat",
-         "description" : null,
-         "x" : 130,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 143,
-         "name" : "Schoenheitskoenigin",
-         "description" : null,
-         "x" : 154,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 144,
-         "name" : "Intelligenter Soldat",
-         "description" : null,
-         "x" : 178,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 145,
-         "name" : "fleissiges Bienchen",
-         "description" : null,
-         "x" : 202,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 146,
-         "name" : "leicht wie eine Feder",
-         "description" : null,
-         "x" : 226,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 147,
-         "name" : "Minion Power",
-         "description" : null,
-         "x" : 250,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 148,
-         "name" : "Minion Craftsman",
-         "description" : null,
-         "x" : 274,
-         "y" : 120,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 149,
-         "name" : "Minion Craftsman 2",
-         "description" : null,
-         "x" : 22,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 150,
-         "name" : "Animation",
-         "description" : null,
-         "x" : 46,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 151,
-         "name" : "Automating Inventory",
-         "description" : null,
-         "x" : 70,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 152,
-         "name" : "Infuse Yourself",
-         "description" : null,
-         "x" : 94,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 153,
-         "name" : "Biome Changing",
-         "description" : null,
-         "x" : 118,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 154,
-         "name" : "Alles behalten",
-         "description" : null,
-         "x" : 142,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 155,
-         "name" : "Alles sehen",
-         "description" : null,
-         "x" : 166,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 156,
-         "name" : "Cloak",
-         "description" : null,
-         "x" : 190,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 157,
-         "name" : "Magic Cobble",
-         "description" : null,
-         "x" : 214,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 158,
-         "name" : "Ethereal Walls",
-         "description" : null,
-         "x" : 238,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 159,
-         "name" : "Chameleon ???",
-         "description" : null,
-         "x" : 262,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 160,
-         "name" : "Boost Nutrition ???",
-         "description" : null,
-         "x" : 286,
-         "y" : 140,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 161,
-         "name" : "SubCollar ???",
-         "description" : null,
-         "x" : 34,
-         "y" : 160,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 162,
-         "name" : "Inventory Tracking ???",
-         "description" : null,
-         "x" : 58,
-         "y" : 160,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 163,
-         "name" : "Upgrading Capacity ???",
-         "description" : null,
-         "x" : 82,
-         "y" : 160,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 164,
-         "name" : "Scrivener's Oculus ???",
-         "description" : null,
-         "x" : 106,
-         "y" : 160,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 165,
-         "name" : "Luring Lemmings ???",
-         "description" : null,
-         "x" : 130,
-         "y" : 160,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 166,
-         "name" : "Construct more Pylons ???",
-         "description" : null,
-         "x" : 154,
-         "y" : 160,
-         "big" : false,
-         "setID" : "007 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 167,
          "name" : "Lexica Botania",
          "description" : "Unnamed quest",
          "x" : 22,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:lexicon size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -3435,16 +3876,16 @@
          ]
       },
       {
-         "id" : 168,
+         "id" : 141,
          "name" : "Mystical Flower",
          "description" : null,
          "x" : 34,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:flower size(1) dmg(1)",
          "requirements" : [
-            "167 - Lexica Botania"
+            "140 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3499,16 +3940,16 @@
          ]
       },
       {
-         "id" : 169,
+         "id" : 142,
          "name" : "Petal Apothecary",
          "description" : null,
          "x" : 34,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:altar size(1) dmg(0)",
          "requirements" : [
-            "167 - Lexica Botania"
+            "140 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3534,20 +3975,20 @@
          ]
       },
       {
-         "id" : 170,
+         "id" : 143,
          "name" : "Pure Daisy",
          "description" : null,
          "x" : 46,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
          },
          "requirements" : [
-            "168 - Mystical Flower",
-            "169 - Petal Apothecary"
+            "141 - Mystical Flower",
+            "142 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3591,19 +4032,19 @@
          ]
       },
       {
-         "id" : 171,
+         "id" : 144,
          "name" : "Hydroangeas",
          "description" : null,
          "x" : 58,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('hydroangeas') )"
          },
          "requirements" : [
-            "169 - Petal Apothecary"
+            "142 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3630,19 +4071,19 @@
          ]
       },
       {
-         "id" : 172,
+         "id" : 145,
          "name" : "Endoflame",
          "description" : "Unnamed quest",
          "x" : 46,
          "y" : 80,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('endoflame') )"
          },
          "requirements" : [
-            "169 - Petal Apothecary"
+            "142 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3669,16 +4110,16 @@
          ]
       },
       {
-         "id" : 173,
+         "id" : 146,
          "name" : "Horn of the Wild",
          "description" : "Unnamed quest",
          "x" : 58,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:grassHorn size(1) dmg(0)",
          "requirements" : [
-            "170 - Pure Daisy"
+            "143 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3704,19 +4145,19 @@
          ]
       },
       {
-         "id" : 174,
+         "id" : 147,
          "name" : "Livingrock Twig",
          "description" : "Unnamed quest",
          "x" : 70,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:twigWand size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "170 - Pure Daisy"
+            "143 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3753,19 +4194,19 @@
          ]
       },
       {
-         "id" : 175,
+         "id" : 148,
          "name" : "Mana Produktion",
          "description" : null,
          "x" : 106,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('daybloom') )"
          },
          "requirements" : [
-            "174 - Livingrock Twig"
+            "147 - Livingrock Twig"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3798,16 +4239,16 @@
          ]
       },
       {
-         "id" : 176,
+         "id" : 149,
          "name" : "Mana Pool",
          "description" : "Unnamed quest",
          "x" : 130,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:pool size(1) dmg(0)",
          "requirements" : [
-            "175 - Mana Produktion"
+            "148 - Mana Produktion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3833,16 +4274,16 @@
          ]
       },
       {
-         "id" : 177,
+         "id" : 150,
          "name" : "Mana Tools",
          "description" : "Unnamed quest",
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaTablet size(1) dmg(0)",
          "requirements" : [
-            "178 - Mana Items"
+            "151 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3884,16 +4325,16 @@
          ]
       },
       {
-         "id" : 178,
+         "id" : 151,
          "name" : "Mana Items",
          "description" : "Unnamed quest",
          "x" : 154,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(0)",
          "requirements" : [
-            "176 - Mana Pool"
+            "149 - Mana Pool"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3936,16 +4377,16 @@
          ]
       },
       {
-         "id" : 179,
+         "id" : 152,
          "name" : "Manasteel Armor",
          "description" : "Unnamed quest",
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manasteelChest size(1) dmg(0)",
          "requirements" : [
-            "178 - Mana Items"
+            "151 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3986,19 +4427,19 @@
          ]
       },
       {
-         "id" : 180,
+         "id" : 153,
          "name" : "Mana Lens",
          "description" : "Unnamed quest",
          "x" : 166,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:lens size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "178 - Mana Items"
+            "151 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4062,19 +4503,19 @@
          ]
       },
       {
-         "id" : 181,
+         "id" : 154,
          "name" : "Ring of Magnetization",
          "description" : "Unnamed quest",
          "x" : 178,
          "y" : 80,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : {
             "item" : "Botania:magnetRing size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "180 - Mana Lens"
+            "153 - Mana Lens"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4101,16 +4542,16 @@
          ]
       },
       {
-         "id" : 182,
+         "id" : 155,
          "name" : "Runic Altar",
          "description" : null,
          "x" : 178,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:runeAltar size(1) dmg(0)",
          "requirements" : [
-            "178 - Mana Items"
+            "151 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4136,16 +4577,16 @@
          ]
       },
       {
-         "id" : 183,
+         "id" : 156,
          "name" : "Runen der 5 Elemente",
          "description" : "Unnamed quest",
          "x" : 202,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(8)",
          "requirements" : [
-            "182 - Runic Altar"
+            "155 - Runic Altar"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4191,16 +4632,16 @@
          ]
       },
       {
-         "id" : 184,
+         "id" : 157,
          "name" : "Runen der 4 Jahreszeiten",
          "description" : "Unnamed quest",
          "x" : 214,
          "y" : 60,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(5)",
          "requirements" : [
-            "183 - Runen der 5 Elemente"
+            "156 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4241,16 +4682,16 @@
          ]
       },
       {
-         "id" : 185,
+         "id" : 158,
          "name" : "Runen der Gl�ckseligkeiten",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 80,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(12)",
          "requirements" : [
-            "184 - Runen der 4 Jahreszeiten"
+            "157 - Runen der 4 Jahreszeiten"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4306,16 +4747,16 @@
          ]
       },
       {
-         "id" : 186,
+         "id" : 159,
          "name" : "Welt der St�be",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 40,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:dirtRod size(1) dmg(0)",
          "requirements" : [
-            "183 - Runen der 5 Elemente"
+            "156 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4372,16 +4813,16 @@
          ]
       },
       {
-         "id" : 187,
+         "id" : 160,
          "name" : "Botanische Brauerei",
          "description" : null,
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:brewery size(1) dmg(0)",
          "requirements" : [
-            "178 - Mana Items"
+            "151 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4412,16 +4853,16 @@
          ]
       },
       {
-         "id" : 188,
+         "id" : 161,
          "name" : "Terrasteel Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
          "y" : 110,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(4)",
          "requirements" : [
-            "178 - Mana Items"
+            "151 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4459,16 +4900,16 @@
          ]
       },
       {
-         "id" : 189,
+         "id" : 162,
          "name" : "Terrasteel Armor",
          "description" : "Unnamed quest",
          "x" : 98,
          "y" : 90,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:terrasteelChest size(1) dmg(0)",
          "requirements" : [
-            "188 - Terrasteel Ingot"
+            "161 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4509,16 +4950,16 @@
          ]
       },
       {
-         "id" : 190,
+         "id" : 163,
          "name" : "Rod of the Terra Firma",
          "description" : "Unnamed quest",
          "x" : 134,
          "y" : 110,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:terraformRod size(1) dmg(0)",
          "requirements" : [
-            "188 - Terrasteel Ingot"
+            "161 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4544,16 +4985,16 @@
          ]
       },
       {
-         "id" : 191,
+         "id" : 164,
          "name" : "Elven Portal",
          "description" : null,
          "x" : 122,
          "y" : 130,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:alfheimPortal size(1) dmg(0)",
          "requirements" : [
-            "188 - Terrasteel Ingot"
+            "161 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4584,16 +5025,16 @@
          ]
       },
       {
-         "id" : 192,
+         "id" : 165,
          "name" : "Elementium Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(7)",
          "requirements" : [
-            "191 - Elven Portal"
+            "164 - Elven Portal"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4619,16 +5060,16 @@
          ]
       },
       {
-         "id" : 193,
+         "id" : 166,
          "name" : "Elementium Armor",
          "description" : "Unnamed quest",
          "x" : 86,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:elementiumChest size(1) dmg(0)",
          "requirements" : [
-            "192 - Elementium Ingot"
+            "165 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4669,16 +5110,16 @@
          ]
       },
       {
-         "id" : 194,
+         "id" : 167,
          "name" : "Elementium Items",
          "description" : "Unnamed quest",
          "x" : 122,
          "y" : 170,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(8)",
          "requirements" : [
-            "192 - Elementium Ingot"
+            "165 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4714,16 +5155,16 @@
          ]
       },
       {
-         "id" : 195,
+         "id" : 168,
          "name" : "Elven Rods",
          "description" : "Unnamed quest",
          "x" : 98,
          "y" : 170,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:skyDirtRod size(1) dmg(0)",
          "requirements" : [
-            "192 - Elementium Ingot"
+            "165 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4754,16 +5195,16 @@
          ]
       },
       {
-         "id" : 196,
+         "id" : 169,
          "name" : "Spark Augment",
          "description" : "Unnamed quest",
          "x" : 146,
          "y" : 170,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
          "requirements" : [
-            "194 - Elementium Items"
+            "167 - Elementium Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4804,16 +5245,16 @@
          ]
       },
       {
-         "id" : 197,
+         "id" : 170,
          "name" : "Ritual of Gaia",
          "description" : "Unnamed quest",
          "x" : 134,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(5)",
          "requirements" : [
-            "192 - Elementium Ingot"
+            "165 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4851,16 +5292,16 @@
          ]
       },
       {
-         "id" : 198,
+         "id" : 171,
          "name" : "Gaia Items",
          "description" : "Unnamed quest",
          "x" : 146,
          "y" : 130,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(14)",
          "requirements" : [
-            "197 - Ritual of Gaia"
+            "170 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4891,16 +5332,16 @@
          ]
       },
       {
-         "id" : 199,
+         "id" : 172,
          "name" : "Gaia Rod",
          "description" : "Unnamed quest",
          "x" : 158,
          "y" : 150,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rainbowRod size(1) dmg(0)",
          "requirements" : [
-            "197 - Ritual of Gaia"
+            "170 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4931,13 +5372,13 @@
          ]
       },
       {
-         "id" : 200,
+         "id" : 173,
          "name" : "Ender Air Bottle",
          "description" : "Unnamed quest",
          "x" : 286,
          "y" : 180,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(15)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -4963,16 +5404,16 @@
          ]
       },
       {
-         "id" : 201,
+         "id" : 174,
          "name" : "Fluegel Tiara",
          "description" : "Unnamed quest",
          "x" : 262,
          "y" : 180,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:flightTiara size(1) dmg(0)",
          "requirements" : [
-            "200 - Ender Air Bottle"
+            "173 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4998,16 +5439,16 @@
          ]
       },
       {
-         "id" : 202,
+         "id" : 175,
          "name" : "Red String",
          "description" : "Unnamed quest",
          "x" : 274,
          "y" : 160,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(12)",
          "requirements" : [
-            "200 - Ender Air Bottle"
+            "173 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5033,16 +5474,16 @@
          ]
       },
       {
-         "id" : 203,
+         "id" : 176,
          "name" : "Red String Items",
          "description" : "Unnamed quest",
          "x" : 262,
          "y" : 140,
          "big" : false,
-         "setID" : "008 - Wiese voller Blumen",
+         "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:redStringRelay size(1) dmg(0)",
          "requirements" : [
-            "202 - Red String"
+            "175 - Red String"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5088,13 +5529,13 @@
          ]
       },
       {
-         "id" : 204,
+         "id" : 177,
          "name" : "Opfere dich selbst",
          "description" : "Altar \/ Sacrificial Knife herstellen",
          "x" : 14,
          "y" : 10,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:Altar size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -5132,16 +5573,16 @@
          ]
       },
       {
-         "id" : 205,
+         "id" : 178,
          "name" : "Blanck Slate",
          "description" : null,
          "x" : 66,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
          "requirements" : [
-            "204 - Opfere dich selbst"
+            "177 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5167,16 +5608,16 @@
          ]
       },
       {
-         "id" : 206,
+         "id" : 179,
          "name" : "Altar Level 1 Orb",
          "description" : "Unnamed quest",
          "x" : 42,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "204 - Opfere dich selbst"
+            "177 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5202,17 +5643,17 @@
          ]
       },
       {
-         "id" : 207,
+         "id" : 180,
          "name" : "Divination Sigil",
          "description" : "Unnamed quest",
          "x" : 42,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
          "requirements" : [
-            "205 - Blanck Slate",
-            "206 - Altar Level 1 Orb"
+            "178 - Blanck Slate",
+            "179 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5238,17 +5679,17 @@
          ]
       },
       {
-         "id" : 208,
+         "id" : 181,
          "name" : "erste Sigils",
          "description" : "Unnamed quest",
          "x" : 54,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
          "requirements" : [
-            "205 - Blanck Slate",
-            "206 - Altar Level 1 Orb"
+            "178 - Blanck Slate",
+            "179 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5279,16 +5720,16 @@
          ]
       },
       {
-         "id" : 209,
+         "id" : 182,
          "name" : "Alchemic Chemistry Set",
          "description" : "Unnamed quest",
          "x" : 22,
          "y" : 115,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
          "requirements" : [
-            "206 - Altar Level 1 Orb"
+            "179 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5331,16 +5772,16 @@
          ]
       },
       {
-         "id" : 210,
+         "id" : 183,
          "name" : "Reinforced Slate",
          "description" : null,
          "x" : 98,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
          "requirements" : [
-            "205 - Blanck Slate"
+            "178 - Blanck Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5366,16 +5807,16 @@
          ]
       },
       {
-         "id" : 211,
+         "id" : 184,
          "name" : "Altar Level 2 Orb",
          "description" : null,
          "x" : 74,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "206 - Altar Level 1 Orb"
+            "179 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5401,17 +5842,17 @@
          ]
       },
       {
-         "id" : 212,
+         "id" : 185,
          "name" : "mehr Sigils",
          "description" : "Unnamed quest",
          "x" : 86,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
          "requirements" : [
-            "210 - Reinforced Slate",
-            "211 - Altar Level 2 Orb"
+            "183 - Reinforced Slate",
+            "184 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5471,17 +5912,17 @@
          ]
       },
       {
-         "id" : 213,
+         "id" : 186,
          "name" : "Basis Essenzen",
          "description" : "Unnamed quest",
          "x" : 50,
          "y" : 115,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:aether size(1) dmg(0)",
          "requirements" : [
-            "209 - Alchemic Chemistry Set",
-            "211 - Altar Level 2 Orb"
+            "182 - Alchemic Chemistry Set",
+            "184 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5547,16 +5988,16 @@
          ]
       },
       {
-         "id" : 214,
+         "id" : 187,
          "name" : "Imbued Slate",
          "description" : null,
          "x" : 130,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
          "requirements" : [
-            "210 - Reinforced Slate"
+            "183 - Reinforced Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5582,16 +6023,16 @@
          ]
       },
       {
-         "id" : 215,
+         "id" : 188,
          "name" : "Altar Level 3 Orb",
          "description" : null,
          "x" : 106,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "211 - Altar Level 2 Orb"
+            "184 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5617,17 +6058,17 @@
          ]
       },
       {
-         "id" : 216,
+         "id" : 189,
          "name" : "noch mehr Sigils",
          "description" : null,
          "x" : 118,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
          "requirements" : [
-            "214 - Imbued Slate",
-            "215 - Altar Level 3 Orb"
+            "187 - Imbued Slate",
+            "188 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5701,16 +6142,16 @@
          ]
       },
       {
-         "id" : 217,
+         "id" : 190,
          "name" : "Inscription Tools",
          "description" : null,
          "x" : 122,
          "y" : 110,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
          "requirements" : [
-            "215 - Altar Level 3 Orb"
+            "188 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5751,16 +6192,16 @@
          ]
       },
       {
-         "id" : 218,
+         "id" : 191,
          "name" : "Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 134,
          "y" : 130,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
          "requirements" : [
-            "217 - Inscription Tools"
+            "190 - Inscription Tools"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5786,16 +6227,16 @@
          ]
       },
       {
-         "id" : 219,
+         "id" : 192,
          "name" : "Start der Rituale",
          "description" : null,
          "x" : 98,
          "y" : 150,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
          "requirements" : [
-            "215 - Altar Level 3 Orb"
+            "188 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5826,17 +6267,17 @@
          ]
       },
       {
-         "id" : 220,
+         "id" : 193,
          "name" : "Ritual of Binding",
          "description" : null,
          "x" : 122,
          "y" : 150,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:energySword size(1) dmg(0)",
          "requirements" : [
-            "219 - Start der Rituale",
-            "218 - Ritual Diviner"
+            "192 - Start der Rituale",
+            "191 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5862,16 +6303,16 @@
          ]
       },
       {
-         "id" : 221,
+         "id" : 194,
          "name" : "Weak Blood Shard",
          "description" : null,
          "x" : 146,
          "y" : 150,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
          "requirements" : [
-            "220 - Ritual of Binding"
+            "193 - Ritual of Binding"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5897,16 +6338,16 @@
          ]
       },
       {
-         "id" : 222,
+         "id" : 195,
          "name" : "Bound Armor",
          "description" : null,
          "x" : 158,
          "y" : 170,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
          "requirements" : [
-            "221 - Weak Blood Shard"
+            "194 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5964,17 +6405,17 @@
          ]
       },
       {
-         "id" : 223,
+         "id" : 196,
          "name" : "bessere Essenzen",
          "description" : null,
          "x" : 78,
          "y" : 115,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
          "requirements" : [
-            "213 - Basis Essenzen",
-            "215 - Altar Level 3 Orb"
+            "186 - Basis Essenzen",
+            "188 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6025,16 +6466,16 @@
          ]
       },
       {
-         "id" : 224,
+         "id" : 197,
          "name" : "Daemonen Zirkel",
          "description" : null,
          "x" : 182,
          "y" : 150,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
          "requirements" : [
-            "221 - Weak Blood Shard"
+            "194 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6065,16 +6506,16 @@
          ]
       },
       {
-         "id" : 225,
+         "id" : 198,
          "name" : "Daemonen Kontrolle",
          "description" : null,
          "x" : 206,
          "y" : 150,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
          "requirements" : [
-            "224 - Daemonen Zirkel"
+            "197 - Daemonen Zirkel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6100,16 +6541,16 @@
          ]
       },
       {
-         "id" : 226,
+         "id" : 199,
          "name" : "Demonic Slate",
          "description" : "Unnamed quest",
          "x" : 162,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
          "requirements" : [
-            "214 - Imbued Slate"
+            "187 - Imbued Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6135,16 +6576,16 @@
          ]
       },
       {
-         "id" : 227,
+         "id" : 200,
          "name" : "Altar Level 4 Orb",
          "description" : null,
          "x" : 138,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "215 - Altar Level 3 Orb"
+            "188 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6170,17 +6611,17 @@
          ]
       },
       {
-         "id" : 228,
+         "id" : 201,
          "name" : "jetzt reichts aber mit Sigils",
          "description" : null,
          "x" : 150,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
          "requirements" : [
-            "226 - Demonic Slate",
-            "227 - Altar Level 4 Orb"
+            "199 - Demonic Slate",
+            "200 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6254,17 +6695,17 @@
          ]
       },
       {
-         "id" : 229,
+         "id" : 202,
          "name" : "besserer Ritual Diviner",
          "description" : null,
          "x" : 146,
          "y" : 110,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
          "requirements" : [
-            "227 - Altar Level 4 Orb",
-            "218 - Ritual Diviner"
+            "200 - Altar Level 4 Orb",
+            "191 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6302,19 +6743,19 @@
          ]
       },
       {
-         "id" : 230,
+         "id" : 203,
          "name" : "Kristall Tank",
          "description" : null,
          "x" : 174,
          "y" : 110,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : {
             "item" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "227 - Altar Level 4 Orb"
+            "200 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6362,16 +6803,16 @@
          ]
       },
       {
-         "id" : 231,
+         "id" : 204,
          "name" : "Daemonen Jaeger",
          "description" : null,
          "x" : 198,
          "y" : 110,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
          "requirements" : [
-            "230 - Kristall Tank"
+            "203 - Kristall Tank"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6402,16 +6843,16 @@
          ]
       },
       {
-         "id" : 232,
+         "id" : 205,
          "name" : "Ethereal Slate",
          "description" : null,
          "x" : 194,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
          "requirements" : [
-            "226 - Demonic Slate"
+            "199 - Demonic Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6437,16 +6878,16 @@
          ]
       },
       {
-         "id" : 233,
+         "id" : 206,
          "name" : "Altar Level 5 Orb",
          "description" : null,
          "x" : 170,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "227 - Altar Level 4 Orb"
+            "200 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6472,17 +6913,17 @@
          ]
       },
       {
-         "id" : 234,
+         "id" : 207,
          "name" : "aber jetzt das letzte Sigils",
          "description" : "Unnamed quest",
          "x" : 182,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
          "requirements" : [
-            "232 - Ethereal Slate",
-            "233 - Altar Level 5 Orb"
+            "205 - Ethereal Slate",
+            "206 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6508,16 +6949,16 @@
          ]
       },
       {
-         "id" : 235,
+         "id" : 208,
          "name" : "Altar Level 6 Orb",
          "description" : "Unnamed quest",
          "x" : 202,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "233 - Altar Level 5 Orb"
+            "206 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6531,16 +6972,16 @@
          ]
       },
       {
-         "id" : 236,
+         "id" : 209,
          "name" : "noch besserer Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 110,
          "big" : false,
-         "setID" : "009 - Die Blutbank",
+         "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
          "requirements" : [
-            "235 - Altar Level 6 Orb"
+            "208 - Altar Level 6 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
