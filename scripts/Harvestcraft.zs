@@ -10,6 +10,7 @@ val harvCraftBellpepper		= <harvestcraft:bellpepperItem>;
 val harvCraftButter		= <harvestcraft:butterItem>;
 val harvCraftAnimalTrap		= <harvestcraft:animaltrap>;
 val harvCraftFishTrap		= <harvestcraft:fishtrap>;
+val harvCraftMarket		= <harvestcraft:market>;
 
 ########################################################################################################################
 # Ore Dictionary
@@ -25,7 +26,10 @@ val odEgg	= <ore:listAllegg>;
 recipes.remove( harvCraftStuffedeggplant );
 recipes.addShapeless( harvCraftStuffedeggplant, [ harvCraftBakeware, harvCraftEggplant, harvCraftOnion, harvCraftBellpepper, harvCraftButter, odEgg ] );
 
+# Remove Market
+recipes.remove( harvCraftMarket );
 
 # Remove Trap Recipes until duplication bug is fixed
 recipes.remove( harvCraftAnimalTrap );
 recipes.remove( harvCraftFishTrap );
+
