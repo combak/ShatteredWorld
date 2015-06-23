@@ -11,15 +11,15 @@ val appEngSkyStoneBlock	= <appliedenergistics2:tile.BlockSkyStone>;
 val vanillaSand = <minecraft:sand>;
 
 # Thermal Expansion
-val thermExpFrameBasic              = <ThermalExpansion:Frame>;
-val thermExpDynamoCompression       = <ThermalExpansion:Dynamo:2>;
-val thermExpDynamoSteam             = <ThermalExpansion:Dynamo>;
-val thermExpDynamoReactant          = <ThermalExpansion:Dynamo:3>;
-val thermExpDynamoEnervation        = <ThermalExpansion:Dynamo:4>;
-val thermExpDynamoMagmatic          = <ThermalExpansion:Dynamo:5>;
-
+val thermExpFrameBasic		= <ThermalExpansion:Frame>;
+val thermExpDynamoCompression	= <ThermalExpansion:Dynamo:2>;
+val thermExpDynamoSteam		= <ThermalExpansion:Dynamo>;
+val thermExpDynamoReactant	= <ThermalExpansion:Dynamo:3>;
+val thermExpDynamoEnervation	= <ThermalExpansion:Dynamo:4>;
+val thermExpDynamoMagmatic	= <ThermalExpansion:Dynamo:5>;
+val thermExpActivator		= <ThermalExpansion:Device:2>;
 # Buildcraft Additions
-val bcAdditionCoilLava              = <bcadditions:blockCoilLava>;
+val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
 
 ########################################################################################################################
 # Item
@@ -96,6 +96,9 @@ for i, item in removePulverizer
 ########################################################################################################################
 # Custom Recipes Shaped
 ########################################################################################################################
+
+# Remove Activator 
+recipes.remove( thermExpActivator );
 
 # RF Generators
 recipes.remove(thermExpDynamoCompression);
