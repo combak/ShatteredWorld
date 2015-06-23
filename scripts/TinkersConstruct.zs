@@ -314,9 +314,9 @@ mods.tconstruct.Casting.addBasinRecipe( witchGadVoidMetalBlock, frVoidMetal * 12
 
 # Pams Harvestcraft
 recipes.remove( pamsSaucePan );
-mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, iguUnfiredClayBucket, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, iguUnfiredClayBucket, true, 20 );
 recipes.remove( pamsPot );
-mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, false, 20 );
+mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, true, 20 );
 
 
 ########################################################################################################################
