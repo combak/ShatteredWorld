@@ -2874,13 +2874,13 @@
       },
       {
          "id" : 68,
-         "name" : "ein Stab sie alle zu Binden",
+         "name" : "Ein Stab sie alle zu Binden",
          "description" : null,
          "x" : 22,
          "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:WandCasting size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2888,19 +2888,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:WandCasting size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 69,
-         "name" : "der Meisterstab 2",
+         "name" : "Der Stab des Lehrlings",
          "description" : null,
-         "x" : 46,
-         "y" : 20,
+         "x" : 22,
+         "y" : 50,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:WandCasting size(1) dmg(9)",
+         "requirements" : [
+            "068 - Ein Stab sie alle zu Binden"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2908,19 +2923,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:WandCasting size(1) dmg(9)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 70,
-         "name" : "der Meisterstab 3",
+         "name" : "Der Stab des Meisters",
          "description" : null,
-         "x" : 70,
-         "y" : 20,
+         "x" : 22,
+         "y" : 80,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:WandCasting size(1) dmg(54)",
+         "requirements" : [
+            "069 - Der Stab des Lehrlings"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2928,19 +2958,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:WandCasting size(1) dmg(54)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 71,
-         "name" : "der Meisterstab 4",
+         "name" : "Der gedultige Forscher",
          "description" : null,
-         "x" : 94,
+         "x" : 50,
          "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
+         "requirements" : [
+            "068 - Ein Stab sie alle zu Binden"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2948,19 +2993,51 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockTable size(1) dmg(0)",
+                     "required" : 3,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemInkwell size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 72,
-         "name" : "Dreamy Staff ???",
+         "name" : "Es geht immer mal was daneben",
          "description" : null,
-         "x" : 118,
-         "y" : 20,
+         "x" : 50,
+         "y" : 50,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockTable size(1) dmg(14)",
+         "requirements" : [
+            "071 - Der gedultige Forscher"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2968,19 +3045,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockTable size(1) dmg(14)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 73,
-         "name" : "Livingwood Wand ???",
+         "name" : "Der Durchblick",
          "description" : null,
-         "x" : 142,
-         "y" : 20,
+         "x" : 126,
+         "y" : 65,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemThaumometer size(1) dmg(0)",
+         "requirements" : [
+            "071 - Der gedultige Forscher"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -2988,19 +3080,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemThaumometer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 74,
-         "name" : "Wand Caps",
-         "description" : null,
-         "x" : 166,
+         "name" : "Durch die rosa Brille",
+         "description" : "Unnamed quest",
+         "x" : 130,
          "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGoggles size(1) dmg(0)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3008,19 +3115,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGoggles size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 75,
-         "name" : "Pink Caps",
+         "name" : "Thaumaturge Armor",
          "description" : null,
-         "x" : 190,
-         "y" : 20,
+         "x" : 162,
+         "y" : 65,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3028,19 +3150,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemBootsRobe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemChestplateRobe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 76,
-         "name" : "Manasteel Caps",
+         "name" : "Der Superheld",
          "description" : null,
-         "x" : 214,
-         "y" : 20,
+         "x" : 186,
+         "y" : 65,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "WitchingGadgets:item.WG_Cloak size(1) dmg(0)",
+         "requirements" : [
+            "075 - Thaumaturge Armor"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3054,13 +3201,16 @@
       },
       {
          "id" : 77,
-         "name" : "durch die rosa Brille",
+         "name" : "Der Erbsenzaehler",
          "description" : null,
-         "x" : 238,
+         "x" : 106,
          "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Automagy:tallyLens size(1) dmg(0)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3068,19 +3218,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Automagy:blockTally size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Automagy:tallyLens size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 78,
-         "name" : "Passive Scanning",
+         "name" : "Explosives Licht",
          "description" : null,
-         "x" : 262,
+         "x" : 198,
          "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemResource size(1) dmg(1)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3088,19 +3258,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemResource size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemResource size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 79,
-         "name" : "Infused Stone",
+         "name" : "Der Wunderofen",
          "description" : null,
-         "x" : 286,
+         "x" : 222,
          "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(0)",
+         "requirements" : [
+            "078 - Explosives Licht"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3108,19 +3298,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 80,
-         "name" : "Balanced Shards",
+         "name" : "Die Destillerie",
          "description" : null,
-         "x" : 34,
-         "y" : 40,
+         "x" : 246,
+         "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(1)",
+         "requirements" : [
+            "079 - Der Wunderofen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3128,19 +3333,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockMetalDevice size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 81,
-         "name" : "Sinful Shards",
+         "name" : "Tubes",
          "description" : null,
-         "x" : 58,
-         "y" : 40,
+         "x" : 270,
+         "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockTube size(1) dmg(0)",
+         "requirements" : [
+            "080 - Die Destillerie"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3148,19 +3368,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockTube size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:blockTube size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 82,
-         "name" : "der gedultige Forscher",
+         "name" : "Schleudertrauma",
          "description" : null,
-         "x" : 82,
+         "x" : 282,
          "y" : 40,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockTube size(1) dmg(2)",
+         "requirements" : [
+            "081 - Tubes"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3168,19 +3408,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockTube size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 83,
-         "name" : "Explosives Licht",
+         "name" : "Der Kristallisierer",
          "description" : null,
-         "x" : 106,
-         "y" : 40,
+         "x" : 294,
+         "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockTube size(1) dmg(7)",
+         "requirements" : [
+            "081 - Tubes"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3188,19 +3443,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockTube size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 84,
-         "name" : "magisches Metall",
+         "name" : "Das Parfuem",
          "description" : null,
-         "x" : 130,
+         "x" : 258,
          "y" : 40,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockJar size(1) dmg(1)",
+         "requirements" : [
+            "080 - Die Destillerie"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3208,19 +3478,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockJar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemResource size(1) dmg(13)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 85,
-         "name" : "die Wunderlampe",
-         "description" : null,
-         "x" : 154,
-         "y" : 40,
+         "name" : "Der Geist in der Flasche",
+         "description" : "Unnamed quest",
+         "x" : 246,
+         "y" : 60,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
+         "requirements" : [
+            "084 - Das Parfuem"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3228,19 +3518,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "NBT_FUZZY"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 86,
-         "name" : "ins Nichts",
-         "description" : null,
-         "x" : 178,
-         "y" : 40,
+         "name" : "Der schuetzende Schild",
+         "description" : "Unnamed quest",
+         "x" : 270,
+         "y" : 60,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(10)",
+         "requirements" : [
+            "085 - Der Geist in der Flasche"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3248,19 +3553,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(10)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 87,
-         "name" : "das Monster",
+         "name" : "Der Fluss der Seelen",
          "description" : null,
-         "x" : 202,
-         "y" : 40,
+         "x" : 258,
+         "y" : 80,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(11)",
+         "requirements" : [
+            "086 - Der schuetzende Schild"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3268,19 +3588,45 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(11)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:blockMetalDevice size(1) dmg(14)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:blockMetalDevice size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 88,
-         "name" : "Label Printing",
+         "name" : "Die Tankstelle",
          "description" : null,
-         "x" : 226,
-         "y" : 40,
+         "x" : 282,
+         "y" : 80,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(5)",
+         "requirements" : [
+            "086 - Der schuetzende Schild",
+            "087 - Der Fluss der Seelen"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3288,19 +3634,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 89,
-         "name" : "der Zaubertisch",
+         "name" : "Der Manipulator",
          "description" : null,
-         "x" : 250,
-         "y" : 40,
+         "x" : 270,
+         "y" : 100,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
+         "requirements" : [
+            "088 - Die Tankstelle"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3308,19 +3669,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 90,
-         "name" : "die Hexenk�",
+         "name" : "Magisches Metall",
          "description" : null,
-         "x" : 274,
-         "y" : 40,
+         "x" : 154,
+         "y" : 20,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemResource size(1) dmg(2)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3328,19 +3704,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemResource size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 91,
-         "name" : "die Destillerie",
+         "name" : "Die Infusion",
          "description" : null,
-         "x" : 22,
-         "y" : 60,
+         "x" : 162,
+         "y" : 110,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(2)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3348,19 +3739,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:blockStoneDevice size(1) dmg(1)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 92,
-         "name" : "der Kristallisierer",
+         "name" : "Die Wunderlampen",
          "description" : null,
-         "x" : 46,
-         "y" : 60,
+         "x" : 150,
+         "y" : 130,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
+         "requirements" : [
+            "091 - Die Infusion"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3368,19 +3779,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:blockMetalDevice size(1) dmg(13)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 93,
-         "name" : "der Wunderofen",
+         "name" : "Der Wunderbaum",
          "description" : null,
-         "x" : 70,
-         "y" : 60,
+         "x" : 138,
+         "y" : 110,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:blockCustomPlant size(1) dmg(0)",
+         "requirements" : [
+            "091 - Die Infusion"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3388,19 +3819,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:blockCustomPlant size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:blockCustomPlant size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 94,
-         "name" : "der Dampfkessel",
-         "description" : null,
-         "x" : 94,
-         "y" : 60,
+         "name" : "Fortress Armor",
+         "description" : "Unnamed quest",
+         "x" : 186,
+         "y" : 110,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemHelmetFortress size(1) dmg(0)",
+         "requirements" : [
+            "091 - Die Infusion"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3408,19 +3859,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemHelmetFortress size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemChestplateFortress size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemLeggingsFortress size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 95,
-         "name" : "es geht immer mal was daneben",
+         "name" : "Der Architekt",
          "description" : null,
-         "x" : 118,
-         "y" : 60,
+         "x" : 174,
+         "y" : 130,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "WitchingGadgets:tile.WG_MetalDevice.name size(1) dmg(1)",
+         "requirements" : [
+            "091 - Die Infusion"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3428,19 +3904,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "WitchingGadgets:tile.WG_MetalDevice.name size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 96,
-         "name" : "schneller wachsen 1",
+         "name" : "Minions",
          "description" : null,
-         "x" : 142,
-         "y" : 60,
+         "x" : 86,
+         "y" : 90,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(100)",
+         "requirements" : [
+            "073 - Der Durchblick"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3448,19 +3939,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(100)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 97,
-         "name" : "schneller wachsen 2",
+         "name" : "Der Gong",
          "description" : null,
-         "x" : 166,
-         "y" : 60,
+         "x" : 74,
+         "y" : 110,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:GolemBell size(1) dmg(0)",
+         "requirements" : [
+            "096 - Minions"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3468,19 +3974,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:GolemBell size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 98,
-         "name" : "Romantic Mood Lighting ???",
+         "name" : "Die Arbeiterkaste",
          "description" : null,
-         "x" : 190,
-         "y" : 60,
+         "x" : 62,
+         "y" : 90,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(3)",
+         "requirements" : [
+            "097 - Der Gong"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3488,19 +4009,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(11)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 99,
-         "name" : "Fancy Floral Fabrication ???",
+         "name" : "Das fleissige Bienchen",
          "description" : null,
-         "x" : 214,
-         "y" : 60,
+         "x" : 50,
+         "y" : 110,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(0)",
+         "requirements" : [
+            "097 - Der Gong"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3508,19 +4049,39 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 100,
-         "name" : "Focal Manipulator ???",
+         "name" : "Der intelligenter Soldat",
          "description" : null,
-         "x" : 238,
-         "y" : 60,
+         "x" : 62,
+         "y" : 130,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
+         "requirements" : [
+            "097 - Der Gong"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3528,19 +4089,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(8)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemCore size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 101,
-         "name" : "Vis Relay ???",
+         "name" : "Die Schoenheitskoenigin",
          "description" : null,
-         "x" : 262,
-         "y" : 60,
+         "x" : 86,
+         "y" : 130,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(3)",
+         "requirements" : [
+            "097 - Der Gong"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3548,19 +4134,59 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(4)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 102,
-         "name" : "Vis Charge Relay ???",
+         "name" : "Die Armee",
          "description" : null,
-         "x" : 286,
-         "y" : 60,
+         "x" : 98,
+         "y" : 110,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
+         "requirements" : [
+            "097 - Der Gong"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3568,19 +4194,44 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemPlacer size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Thaumcraft:ItemGolemPlacer size(1) dmg(6)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 103,
-         "name" : "Phancy Phials ???",
+         "name" : "Der Elitesoldat",
          "description" : null,
-         "x" : 34,
-         "y" : 80,
+         "x" : 110,
+         "y" : 130,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(7)",
+         "requirements" : [
+            "102 - Die Armee"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3588,19 +4239,34 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Thaumcraft:ItemGolemPlacer size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 104,
-         "name" : "Arcane Pedestal ???",
+         "name" : "Der Perfektionist",
          "description" : null,
-         "x" : 58,
-         "y" : 80,
+         "x" : 98,
+         "y" : 150,
          "big" : false,
          "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
+         "icon" : "Automagy:blockGolemWorkbench size(1) dmg(0)",
+         "requirements" : [
+            "103 - Der Elitesoldat"
+         ],
          "repeatInfo" : {
             "type" : "NONE"
          },
@@ -3608,1012 +4274,24 @@
          "triggerTasks" : 0,
          "parentRequirementCount" : null,
          "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Automagy:blockGolemWorkbench size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
          ],
          "reputations" : [
          ]
       },
       {
          "id" : 105,
-         "name" : "Wand Charger ???",
-         "description" : null,
-         "x" : 82,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 106,
-         "name" : "Flux Scrubber ???",
-         "description" : null,
-         "x" : 106,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 107,
-         "name" : "Thirsty Work ???",
-         "description" : null,
-         "x" : 130,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 108,
-         "name" : "Treecapitator ???",
-         "description" : null,
-         "x" : 154,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 109,
-         "name" : "Magical Mushrooms ???",
-         "description" : null,
-         "x" : 178,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 110,
-         "name" : "Tainted Botany ???",
-         "description" : null,
-         "x" : 202,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 111,
-         "name" : "Crystaline Eye ???",
-         "description" : null,
-         "x" : 226,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 112,
-         "name" : "Redstone Vis ???",
-         "description" : null,
-         "x" : 250,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 113,
-         "name" : "Ethereal Flower ???",
-         "description" : null,
-         "x" : 274,
-         "y" : 80,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 114,
-         "name" : "Schleudertrauma",
-         "description" : null,
-         "x" : 22,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 115,
-         "name" : "Greatwood",
-         "description" : null,
-         "x" : 46,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 116,
-         "name" : "Silverwood",
-         "description" : null,
-         "x" : 70,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 117,
-         "name" : "Tubes",
-         "description" : null,
-         "x" : 94,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 118,
-         "name" : "Advanced Tubes",
-         "description" : null,
-         "x" : 118,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 119,
-         "name" : "Ex-Astris Objecte1",
-         "description" : null,
-         "x" : 142,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 120,
-         "name" : "Ex-Astris Objecte2",
-         "description" : null,
-         "x" : 166,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 121,
-         "name" : "Eldritch Dimension",
-         "description" : null,
-         "x" : 190,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 122,
-         "name" : "Minions",
-         "description" : null,
-         "x" : 214,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 123,
-         "name" : "des Gloeckens Klang",
-         "description" : null,
-         "x" : 238,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 124,
-         "name" : "Landbau Minions",
-         "description" : null,
-         "x" : 262,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 125,
-         "name" : "Fleischer Minion",
-         "description" : null,
-         "x" : 286,
-         "y" : 100,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 126,
-         "name" : "Thaumic Minion",
-         "description" : null,
-         "x" : 34,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 127,
-         "name" : "Holz Minion",
-         "description" : null,
-         "x" : 58,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 128,
-         "name" : "Perfekter Sklave",
-         "description" : null,
-         "x" : 82,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 129,
-         "name" : "Tonsoldat",
-         "description" : null,
-         "x" : 106,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 130,
-         "name" : "Steinsoldat",
-         "description" : null,
-         "x" : 130,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 131,
-         "name" : "Schoenheitskoenigin",
-         "description" : null,
-         "x" : 154,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 132,
-         "name" : "Intelligenter Soldat",
-         "description" : null,
-         "x" : 178,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 133,
-         "name" : "fleissiges Bienchen",
-         "description" : null,
-         "x" : 202,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 134,
-         "name" : "leicht wie eine Feder",
-         "description" : null,
-         "x" : 226,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 135,
-         "name" : "Minion Power",
-         "description" : null,
-         "x" : 250,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 136,
-         "name" : "Minion Craftsman",
-         "description" : null,
-         "x" : 274,
-         "y" : 120,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 137,
-         "name" : "Minion Craftsman 2",
-         "description" : null,
-         "x" : 22,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 138,
-         "name" : "Animation",
-         "description" : null,
-         "x" : 46,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 139,
-         "name" : "Automating Inventory",
-         "description" : null,
-         "x" : 70,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 140,
-         "name" : "Infuse Yourself",
-         "description" : null,
-         "x" : 94,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 141,
-         "name" : "Biome Changing",
-         "description" : null,
-         "x" : 118,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 142,
-         "name" : "Alles behalten",
-         "description" : null,
-         "x" : 142,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 143,
-         "name" : "Alles sehen",
-         "description" : null,
-         "x" : 166,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 144,
-         "name" : "Cloak",
-         "description" : null,
-         "x" : 190,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 145,
-         "name" : "Magic Cobble",
-         "description" : null,
-         "x" : 214,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 146,
-         "name" : "Ethereal Walls",
-         "description" : null,
-         "x" : 238,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 147,
-         "name" : "Chameleon ???",
-         "description" : null,
-         "x" : 262,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 148,
-         "name" : "Boost Nutrition ???",
-         "description" : null,
-         "x" : 286,
-         "y" : 140,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 149,
-         "name" : "SubCollar ???",
-         "description" : null,
-         "x" : 34,
-         "y" : 160,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 150,
-         "name" : "Inventory Tracking ???",
-         "description" : null,
-         "x" : 58,
-         "y" : 160,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 151,
-         "name" : "Upgrading Capacity ???",
-         "description" : null,
-         "x" : 82,
-         "y" : 160,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 152,
-         "name" : "Scrivener's Oculus ???",
-         "description" : null,
-         "x" : 106,
-         "y" : 160,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 153,
-         "name" : "Luring Lemmings ???",
-         "description" : null,
-         "x" : 130,
-         "y" : 160,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 154,
-         "name" : "Construct more Pylons ???",
-         "description" : null,
-         "x" : 154,
-         "y" : 160,
-         "big" : false,
-         "setID" : "005 - Die Geister die ich rief",
-         "icon" : null,
-         "repeatInfo" : {
-            "type" : "NONE"
-         },
-         "triggerType" : "NONE",
-         "triggerTasks" : 0,
-         "parentRequirementCount" : null,
-         "tasks" : [
-         ],
-         "reputations" : [
-         ]
-      },
-      {
-         "id" : 155,
          "name" : "Lexica Botania",
          "description" : "Unnamed quest",
          "x" : 22,
@@ -4645,7 +4323,7 @@
          ]
       },
       {
-         "id" : 156,
+         "id" : 106,
          "name" : "Mystical Flower",
          "description" : null,
          "x" : 34,
@@ -4654,7 +4332,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:flower size(1) dmg(1)",
          "requirements" : [
-            "155 - Lexica Botania"
+            "105 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4709,7 +4387,7 @@
          ]
       },
       {
-         "id" : 157,
+         "id" : 107,
          "name" : "Petal Apothecary",
          "description" : null,
          "x" : 34,
@@ -4718,7 +4396,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:altar size(1) dmg(0)",
          "requirements" : [
-            "155 - Lexica Botania"
+            "105 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4744,7 +4422,7 @@
          ]
       },
       {
-         "id" : 158,
+         "id" : 108,
          "name" : "Pure Daisy",
          "description" : null,
          "x" : 46,
@@ -4756,8 +4434,8 @@
             "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
          },
          "requirements" : [
-            "156 - Mystical Flower",
-            "157 - Petal Apothecary"
+            "106 - Mystical Flower",
+            "107 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4801,7 +4479,7 @@
          ]
       },
       {
-         "id" : 159,
+         "id" : 109,
          "name" : "Hydroangeas",
          "description" : null,
          "x" : 58,
@@ -4813,7 +4491,7 @@
             "nbt" : "=COMPOUND( type=STRING('hydroangeas') )"
          },
          "requirements" : [
-            "157 - Petal Apothecary"
+            "107 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4840,7 +4518,7 @@
          ]
       },
       {
-         "id" : 160,
+         "id" : 110,
          "name" : "Endoflame",
          "description" : "Unnamed quest",
          "x" : 46,
@@ -4852,7 +4530,7 @@
             "nbt" : "=COMPOUND( type=STRING('endoflame') )"
          },
          "requirements" : [
-            "157 - Petal Apothecary"
+            "107 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4879,7 +4557,7 @@
          ]
       },
       {
-         "id" : 161,
+         "id" : 111,
          "name" : "Horn of the Wild",
          "description" : "Unnamed quest",
          "x" : 58,
@@ -4888,7 +4566,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:grassHorn size(1) dmg(0)",
          "requirements" : [
-            "158 - Pure Daisy"
+            "108 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4914,7 +4592,7 @@
          ]
       },
       {
-         "id" : 162,
+         "id" : 112,
          "name" : "Livingrock Twig",
          "description" : "Unnamed quest",
          "x" : 70,
@@ -4926,7 +4604,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "158 - Pure Daisy"
+            "108 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4963,7 +4641,7 @@
          ]
       },
       {
-         "id" : 163,
+         "id" : 113,
          "name" : "Mana Produktion",
          "description" : null,
          "x" : 106,
@@ -4975,7 +4653,7 @@
             "nbt" : "=COMPOUND( type=STRING('daybloom') )"
          },
          "requirements" : [
-            "162 - Livingrock Twig"
+            "112 - Livingrock Twig"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5008,7 +4686,7 @@
          ]
       },
       {
-         "id" : 164,
+         "id" : 114,
          "name" : "Mana Pool",
          "description" : "Unnamed quest",
          "x" : 130,
@@ -5017,7 +4695,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:pool size(1) dmg(0)",
          "requirements" : [
-            "163 - Mana Produktion"
+            "113 - Mana Produktion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5043,7 +4721,7 @@
          ]
       },
       {
-         "id" : 165,
+         "id" : 115,
          "name" : "Mana Tools",
          "description" : "Unnamed quest",
          "x" : 166,
@@ -5052,7 +4730,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaTablet size(1) dmg(0)",
          "requirements" : [
-            "166 - Mana Items"
+            "116 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5094,7 +4772,7 @@
          ]
       },
       {
-         "id" : 166,
+         "id" : 116,
          "name" : "Mana Items",
          "description" : "Unnamed quest",
          "x" : 154,
@@ -5103,7 +4781,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(0)",
          "requirements" : [
-            "164 - Mana Pool"
+            "114 - Mana Pool"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5146,7 +4824,7 @@
          ]
       },
       {
-         "id" : 167,
+         "id" : 117,
          "name" : "Manasteel Armor",
          "description" : "Unnamed quest",
          "x" : 142,
@@ -5155,7 +4833,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manasteelChest size(1) dmg(0)",
          "requirements" : [
-            "166 - Mana Items"
+            "116 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5196,7 +4874,7 @@
          ]
       },
       {
-         "id" : 168,
+         "id" : 118,
          "name" : "Mana Lens",
          "description" : "Unnamed quest",
          "x" : 166,
@@ -5208,7 +4886,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "166 - Mana Items"
+            "116 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5272,7 +4950,7 @@
          ]
       },
       {
-         "id" : 169,
+         "id" : 119,
          "name" : "Ring of Magnetization",
          "description" : "Unnamed quest",
          "x" : 178,
@@ -5284,7 +4962,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "168 - Mana Lens"
+            "118 - Mana Lens"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5311,7 +4989,7 @@
          ]
       },
       {
-         "id" : 170,
+         "id" : 120,
          "name" : "Runic Altar",
          "description" : null,
          "x" : 178,
@@ -5320,7 +4998,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:runeAltar size(1) dmg(0)",
          "requirements" : [
-            "166 - Mana Items"
+            "116 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5346,7 +5024,7 @@
          ]
       },
       {
-         "id" : 171,
+         "id" : 121,
          "name" : "Runen der 5 Elemente",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -5355,7 +5033,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(8)",
          "requirements" : [
-            "170 - Runic Altar"
+            "120 - Runic Altar"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5401,7 +5079,7 @@
          ]
       },
       {
-         "id" : 172,
+         "id" : 122,
          "name" : "Runen der 4 Jahreszeiten",
          "description" : "Unnamed quest",
          "x" : 214,
@@ -5410,7 +5088,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(5)",
          "requirements" : [
-            "171 - Runen der 5 Elemente"
+            "121 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5451,7 +5129,7 @@
          ]
       },
       {
-         "id" : 173,
+         "id" : 123,
          "name" : "Runen der Gl�ckseligkeiten",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -5460,7 +5138,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rune size(1) dmg(12)",
          "requirements" : [
-            "172 - Runen der 4 Jahreszeiten"
+            "122 - Runen der 4 Jahreszeiten"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5516,7 +5194,7 @@
          ]
       },
       {
-         "id" : 174,
+         "id" : 124,
          "name" : "Welt der St�be",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -5525,7 +5203,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:dirtRod size(1) dmg(0)",
          "requirements" : [
-            "171 - Runen der 5 Elemente"
+            "121 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5582,7 +5260,7 @@
          ]
       },
       {
-         "id" : 175,
+         "id" : 125,
          "name" : "Botanische Brauerei",
          "description" : null,
          "x" : 190,
@@ -5591,7 +5269,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:brewery size(1) dmg(0)",
          "requirements" : [
-            "166 - Mana Items"
+            "116 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5622,7 +5300,7 @@
          ]
       },
       {
-         "id" : 176,
+         "id" : 126,
          "name" : "Terrasteel Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
@@ -5631,7 +5309,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(4)",
          "requirements" : [
-            "166 - Mana Items"
+            "116 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5669,7 +5347,7 @@
          ]
       },
       {
-         "id" : 177,
+         "id" : 127,
          "name" : "Terrasteel Armor",
          "description" : "Unnamed quest",
          "x" : 98,
@@ -5678,7 +5356,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:terrasteelChest size(1) dmg(0)",
          "requirements" : [
-            "176 - Terrasteel Ingot"
+            "126 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5719,7 +5397,7 @@
          ]
       },
       {
-         "id" : 178,
+         "id" : 128,
          "name" : "Rod of the Terra Firma",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -5728,7 +5406,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:terraformRod size(1) dmg(0)",
          "requirements" : [
-            "176 - Terrasteel Ingot"
+            "126 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5754,7 +5432,7 @@
          ]
       },
       {
-         "id" : 179,
+         "id" : 129,
          "name" : "Elven Portal",
          "description" : null,
          "x" : 122,
@@ -5763,7 +5441,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:alfheimPortal size(1) dmg(0)",
          "requirements" : [
-            "176 - Terrasteel Ingot"
+            "126 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5794,7 +5472,7 @@
          ]
       },
       {
-         "id" : 180,
+         "id" : 130,
          "name" : "Elementium Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
@@ -5803,7 +5481,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(7)",
          "requirements" : [
-            "179 - Elven Portal"
+            "129 - Elven Portal"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5829,7 +5507,7 @@
          ]
       },
       {
-         "id" : 181,
+         "id" : 131,
          "name" : "Elementium Armor",
          "description" : "Unnamed quest",
          "x" : 86,
@@ -5838,7 +5516,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:elementiumChest size(1) dmg(0)",
          "requirements" : [
-            "180 - Elementium Ingot"
+            "130 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5879,7 +5557,7 @@
          ]
       },
       {
-         "id" : 182,
+         "id" : 132,
          "name" : "Elementium Items",
          "description" : "Unnamed quest",
          "x" : 122,
@@ -5888,7 +5566,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(8)",
          "requirements" : [
-            "180 - Elementium Ingot"
+            "130 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5924,7 +5602,7 @@
          ]
       },
       {
-         "id" : 183,
+         "id" : 133,
          "name" : "Elven Rods",
          "description" : "Unnamed quest",
          "x" : 98,
@@ -5933,7 +5611,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:skyDirtRod size(1) dmg(0)",
          "requirements" : [
-            "180 - Elementium Ingot"
+            "130 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5964,7 +5642,7 @@
          ]
       },
       {
-         "id" : 184,
+         "id" : 134,
          "name" : "Spark Augment",
          "description" : "Unnamed quest",
          "x" : 146,
@@ -5973,7 +5651,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
          "requirements" : [
-            "182 - Elementium Items"
+            "132 - Elementium Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6014,7 +5692,7 @@
          ]
       },
       {
-         "id" : 185,
+         "id" : 135,
          "name" : "Ritual of Gaia",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -6023,7 +5701,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(5)",
          "requirements" : [
-            "180 - Elementium Ingot"
+            "130 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6061,7 +5739,7 @@
          ]
       },
       {
-         "id" : 186,
+         "id" : 136,
          "name" : "Gaia Items",
          "description" : "Unnamed quest",
          "x" : 146,
@@ -6070,7 +5748,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(14)",
          "requirements" : [
-            "185 - Ritual of Gaia"
+            "135 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6101,7 +5779,7 @@
          ]
       },
       {
-         "id" : 187,
+         "id" : 137,
          "name" : "Gaia Rod",
          "description" : "Unnamed quest",
          "x" : 158,
@@ -6110,7 +5788,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:rainbowRod size(1) dmg(0)",
          "requirements" : [
-            "185 - Ritual of Gaia"
+            "135 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6141,7 +5819,7 @@
          ]
       },
       {
-         "id" : 188,
+         "id" : 138,
          "name" : "Ender Air Bottle",
          "description" : "Unnamed quest",
          "x" : 286,
@@ -6173,7 +5851,7 @@
          ]
       },
       {
-         "id" : 189,
+         "id" : 139,
          "name" : "Fluegel Tiara",
          "description" : "Unnamed quest",
          "x" : 262,
@@ -6182,7 +5860,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:flightTiara size(1) dmg(0)",
          "requirements" : [
-            "188 - Ender Air Bottle"
+            "138 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6208,7 +5886,7 @@
          ]
       },
       {
-         "id" : 190,
+         "id" : 140,
          "name" : "Red String",
          "description" : "Unnamed quest",
          "x" : 274,
@@ -6217,7 +5895,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:manaResource size(1) dmg(12)",
          "requirements" : [
-            "188 - Ender Air Bottle"
+            "138 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6243,7 +5921,7 @@
          ]
       },
       {
-         "id" : 191,
+         "id" : 141,
          "name" : "Red String Items",
          "description" : "Unnamed quest",
          "x" : 262,
@@ -6252,7 +5930,7 @@
          "setID" : "006 - Wiese voller Blumen",
          "icon" : "Botania:redStringRelay size(1) dmg(0)",
          "requirements" : [
-            "190 - Red String"
+            "140 - Red String"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6298,7 +5976,7 @@
          ]
       },
       {
-         "id" : 192,
+         "id" : 142,
          "name" : "Opfere dich selbst",
          "description" : "Altar \/ Sacrificial Knife herstellen",
          "x" : 14,
@@ -6342,7 +6020,7 @@
          ]
       },
       {
-         "id" : 193,
+         "id" : 143,
          "name" : "Blanck Slate",
          "description" : null,
          "x" : 66,
@@ -6351,7 +6029,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
          "requirements" : [
-            "192 - Opfere dich selbst"
+            "142 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6377,7 +6055,7 @@
          ]
       },
       {
-         "id" : 194,
+         "id" : 144,
          "name" : "Altar Level 1 Orb",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -6386,7 +6064,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "192 - Opfere dich selbst"
+            "142 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6412,7 +6090,7 @@
          ]
       },
       {
-         "id" : 195,
+         "id" : 145,
          "name" : "Divination Sigil",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -6421,8 +6099,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
          "requirements" : [
-            "193 - Blanck Slate",
-            "194 - Altar Level 1 Orb"
+            "143 - Blanck Slate",
+            "144 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6448,7 +6126,7 @@
          ]
       },
       {
-         "id" : 196,
+         "id" : 146,
          "name" : "erste Sigils",
          "description" : "Unnamed quest",
          "x" : 54,
@@ -6457,8 +6135,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
          "requirements" : [
-            "193 - Blanck Slate",
-            "194 - Altar Level 1 Orb"
+            "143 - Blanck Slate",
+            "144 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6489,7 +6167,7 @@
          ]
       },
       {
-         "id" : 197,
+         "id" : 147,
          "name" : "Alchemic Chemistry Set",
          "description" : "Unnamed quest",
          "x" : 22,
@@ -6498,7 +6176,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
          "requirements" : [
-            "194 - Altar Level 1 Orb"
+            "144 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6541,7 +6219,7 @@
          ]
       },
       {
-         "id" : 198,
+         "id" : 148,
          "name" : "Reinforced Slate",
          "description" : null,
          "x" : 98,
@@ -6550,7 +6228,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
          "requirements" : [
-            "193 - Blanck Slate"
+            "143 - Blanck Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6576,7 +6254,7 @@
          ]
       },
       {
-         "id" : 199,
+         "id" : 149,
          "name" : "Altar Level 2 Orb",
          "description" : null,
          "x" : 74,
@@ -6585,7 +6263,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "194 - Altar Level 1 Orb"
+            "144 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6611,7 +6289,7 @@
          ]
       },
       {
-         "id" : 200,
+         "id" : 150,
          "name" : "mehr Sigils",
          "description" : "Unnamed quest",
          "x" : 86,
@@ -6620,8 +6298,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
          "requirements" : [
-            "198 - Reinforced Slate",
-            "199 - Altar Level 2 Orb"
+            "148 - Reinforced Slate",
+            "149 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6681,7 +6359,7 @@
          ]
       },
       {
-         "id" : 201,
+         "id" : 151,
          "name" : "Basis Essenzen",
          "description" : "Unnamed quest",
          "x" : 50,
@@ -6690,8 +6368,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:aether size(1) dmg(0)",
          "requirements" : [
-            "197 - Alchemic Chemistry Set",
-            "199 - Altar Level 2 Orb"
+            "147 - Alchemic Chemistry Set",
+            "149 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6757,7 +6435,7 @@
          ]
       },
       {
-         "id" : 202,
+         "id" : 152,
          "name" : "Imbued Slate",
          "description" : null,
          "x" : 130,
@@ -6766,7 +6444,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
          "requirements" : [
-            "198 - Reinforced Slate"
+            "148 - Reinforced Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6792,7 +6470,7 @@
          ]
       },
       {
-         "id" : 203,
+         "id" : 153,
          "name" : "Altar Level 3 Orb",
          "description" : null,
          "x" : 106,
@@ -6801,7 +6479,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "199 - Altar Level 2 Orb"
+            "149 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6827,7 +6505,7 @@
          ]
       },
       {
-         "id" : 204,
+         "id" : 154,
          "name" : "noch mehr Sigils",
          "description" : null,
          "x" : 118,
@@ -6836,8 +6514,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
          "requirements" : [
-            "202 - Imbued Slate",
-            "203 - Altar Level 3 Orb"
+            "152 - Imbued Slate",
+            "153 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6911,7 +6589,7 @@
          ]
       },
       {
-         "id" : 205,
+         "id" : 155,
          "name" : "Inscription Tools",
          "description" : null,
          "x" : 122,
@@ -6920,7 +6598,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
          "requirements" : [
-            "203 - Altar Level 3 Orb"
+            "153 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6961,7 +6639,7 @@
          ]
       },
       {
-         "id" : 206,
+         "id" : 156,
          "name" : "Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -6970,7 +6648,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
          "requirements" : [
-            "205 - Inscription Tools"
+            "155 - Inscription Tools"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6996,7 +6674,7 @@
          ]
       },
       {
-         "id" : 207,
+         "id" : 157,
          "name" : "Start der Rituale",
          "description" : null,
          "x" : 98,
@@ -7005,7 +6683,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
          "requirements" : [
-            "203 - Altar Level 3 Orb"
+            "153 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7036,7 +6714,7 @@
          ]
       },
       {
-         "id" : 208,
+         "id" : 158,
          "name" : "Ritual of Binding",
          "description" : null,
          "x" : 122,
@@ -7045,8 +6723,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:energySword size(1) dmg(0)",
          "requirements" : [
-            "207 - Start der Rituale",
-            "206 - Ritual Diviner"
+            "157 - Start der Rituale",
+            "156 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7072,7 +6750,7 @@
          ]
       },
       {
-         "id" : 209,
+         "id" : 159,
          "name" : "Weak Blood Shard",
          "description" : null,
          "x" : 146,
@@ -7081,7 +6759,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
          "requirements" : [
-            "208 - Ritual of Binding"
+            "158 - Ritual of Binding"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7107,7 +6785,7 @@
          ]
       },
       {
-         "id" : 210,
+         "id" : 160,
          "name" : "Bound Armor",
          "description" : null,
          "x" : 158,
@@ -7116,7 +6794,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
          "requirements" : [
-            "209 - Weak Blood Shard"
+            "159 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7174,7 +6852,7 @@
          ]
       },
       {
-         "id" : 211,
+         "id" : 161,
          "name" : "bessere Essenzen",
          "description" : null,
          "x" : 78,
@@ -7183,8 +6861,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
          "requirements" : [
-            "201 - Basis Essenzen",
-            "203 - Altar Level 3 Orb"
+            "151 - Basis Essenzen",
+            "153 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7235,7 +6913,7 @@
          ]
       },
       {
-         "id" : 212,
+         "id" : 162,
          "name" : "Daemonen Zirkel",
          "description" : null,
          "x" : 182,
@@ -7244,7 +6922,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
          "requirements" : [
-            "209 - Weak Blood Shard"
+            "159 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7275,7 +6953,7 @@
          ]
       },
       {
-         "id" : 213,
+         "id" : 163,
          "name" : "Daemonen Kontrolle",
          "description" : null,
          "x" : 206,
@@ -7284,7 +6962,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
          "requirements" : [
-            "212 - Daemonen Zirkel"
+            "162 - Daemonen Zirkel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7310,7 +6988,7 @@
          ]
       },
       {
-         "id" : 214,
+         "id" : 164,
          "name" : "Demonic Slate",
          "description" : "Unnamed quest",
          "x" : 162,
@@ -7319,7 +6997,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
          "requirements" : [
-            "202 - Imbued Slate"
+            "152 - Imbued Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7345,7 +7023,7 @@
          ]
       },
       {
-         "id" : 215,
+         "id" : 165,
          "name" : "Altar Level 4 Orb",
          "description" : null,
          "x" : 138,
@@ -7354,7 +7032,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "203 - Altar Level 3 Orb"
+            "153 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7380,7 +7058,7 @@
          ]
       },
       {
-         "id" : 216,
+         "id" : 166,
          "name" : "jetzt reichts aber mit Sigils",
          "description" : null,
          "x" : 150,
@@ -7389,8 +7067,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
          "requirements" : [
-            "214 - Demonic Slate",
-            "215 - Altar Level 4 Orb"
+            "164 - Demonic Slate",
+            "165 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7464,7 +7142,7 @@
          ]
       },
       {
-         "id" : 217,
+         "id" : 167,
          "name" : "besserer Ritual Diviner",
          "description" : null,
          "x" : 146,
@@ -7473,8 +7151,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
          "requirements" : [
-            "215 - Altar Level 4 Orb",
-            "206 - Ritual Diviner"
+            "165 - Altar Level 4 Orb",
+            "156 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7512,7 +7190,7 @@
          ]
       },
       {
-         "id" : 218,
+         "id" : 168,
          "name" : "Kristall Tank",
          "description" : null,
          "x" : 174,
@@ -7524,7 +7202,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "215 - Altar Level 4 Orb"
+            "165 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7572,7 +7250,7 @@
          ]
       },
       {
-         "id" : 219,
+         "id" : 169,
          "name" : "Daemonen Jaeger",
          "description" : null,
          "x" : 198,
@@ -7581,7 +7259,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
          "requirements" : [
-            "218 - Kristall Tank"
+            "168 - Kristall Tank"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7612,7 +7290,7 @@
          ]
       },
       {
-         "id" : 220,
+         "id" : 170,
          "name" : "Ethereal Slate",
          "description" : null,
          "x" : 194,
@@ -7621,7 +7299,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
          "requirements" : [
-            "214 - Demonic Slate"
+            "164 - Demonic Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7647,7 +7325,7 @@
          ]
       },
       {
-         "id" : 221,
+         "id" : 171,
          "name" : "Altar Level 5 Orb",
          "description" : null,
          "x" : 170,
@@ -7656,7 +7334,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "215 - Altar Level 4 Orb"
+            "165 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7682,7 +7360,7 @@
          ]
       },
       {
-         "id" : 222,
+         "id" : 172,
          "name" : "aber jetzt das letzte Sigils",
          "description" : "Unnamed quest",
          "x" : 182,
@@ -7691,8 +7369,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
          "requirements" : [
-            "220 - Ethereal Slate",
-            "221 - Altar Level 5 Orb"
+            "170 - Ethereal Slate",
+            "171 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7718,7 +7396,7 @@
          ]
       },
       {
-         "id" : 223,
+         "id" : 173,
          "name" : "Altar Level 6 Orb",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -7727,7 +7405,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "221 - Altar Level 5 Orb"
+            "171 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7741,7 +7419,7 @@
          ]
       },
       {
-         "id" : 224,
+         "id" : 174,
          "name" : "noch besserer Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -7750,7 +7428,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
          "requirements" : [
-            "223 - Altar Level 6 Orb"
+            "173 - Altar Level 6 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
