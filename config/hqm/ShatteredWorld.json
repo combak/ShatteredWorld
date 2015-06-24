@@ -43,7 +43,7 @@
          "decription" : "alles zu Lycanites Mobs"
       },
       {
-         "name" : "Drachentoeter",
+         "name" : "Der Drachentoeter",
          "decription" : "alles zu Draconic Evolution"
       },
       {
@@ -7456,6 +7456,865 @@
                "requirements" : [
                   {
                      "item" : "AWWayofTime:itemRitualDiviner size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 175,
+         "name" : "Der Gluecksritter",
+         "description" : "Unnamed quest",
+         "x" : 78,
+         "y" : 15,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconiumIngot size(1) dmg(0)",
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconiumDust size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconiumIngot size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:infoTablet size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 176,
+         "name" : "Das Wurmloch",
+         "description" : "Unnamed quest",
+         "x" : 106,
+         "y" : 15,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:teleporterStand size(1) dmg(0)",
+         "requirements" : [
+            "175 - Der Gluecksritter"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:teleporterMKI size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:teleporterStand size(1) dmg(0)",
+                     "required" : 2,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 177,
+         "name" : "Des Pudels Kern",
+         "description" : "Unnamed quest",
+         "x" : 78,
+         "y" : 100,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconicCore size(1) dmg(0)",
+         "requirements" : [
+            "175 - Der Gluecksritter"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconicCore size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 178,
+         "name" : "Das Kraftpaket",
+         "description" : "Unnamed quest",
+         "x" : 26,
+         "y" : 105,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:generator size(1) dmg(3)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:generator size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 179,
+         "name" : "Der Metrologe",
+         "description" : "Unnamed quest",
+         "x" : 38,
+         "y" : 85,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:weatherController size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:weatherController size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 180,
+         "name" : "Der Sonnenanbeter",
+         "description" : "Unnamed quest",
+         "x" : 50,
+         "y" : 65,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:sunDial size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:sunDial size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 181,
+         "name" : "Der Waechter",
+         "description" : "Unnamed quest",
+         "x" : 38,
+         "y" : 125,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:playerDetector size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:playerDetector size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 182,
+         "name" : "Die Mimose",
+         "description" : "Unnamed quest",
+         "x" : 74,
+         "y" : 145,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:rainSensor size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:rainSensor size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 183,
+         "name" : "Der Killer",
+         "description" : "Unnamed quest",
+         "x" : 50,
+         "y" : 145,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:grinder size(1) dmg(3)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:grinder size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 184,
+         "name" : "Der Lieferant",
+         "description" : "Unnamed quest",
+         "x" : 98,
+         "y" : 145,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:energyInfuser size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:energyInfuser size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 185,
+         "name" : "Der Nimmersatte",
+         "description" : "Unnamed quest",
+         "x" : 122,
+         "y" : 145,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconiumChest size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconiumChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 186,
+         "name" : "Die Kernfrage",
+         "description" : "Unnamed quest",
+         "x" : 126,
+         "y" : 100,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:wyvernCore size(1) dmg(0)",
+         "requirements" : [
+            "177 - Des Pudels Kern"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:wyvernCore size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 187,
+         "name" : "Der Blechkamerad",
+         "description" : "Unnamed quest",
+         "x" : 106,
+         "y" : 60,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:wyvernSword size(1) dmg(0)",
+         "requirements" : [
+            "186 - Die Kernfrage"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:wyvernSword size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:wyvernBow size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 188,
+         "name" : "Der flinke Wiesel",
+         "description" : "Unnamed quest",
+         "x" : 126,
+         "y" : 60,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:wyvernShovel size(1) dmg(0)",
+         "requirements" : [
+            "186 - Die Kernfrage"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:wyvernPickaxe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:wyvernShovel size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 189,
+         "name" : "Der Beastmaster",
+         "description" : "Unnamed quest",
+         "x" : 146,
+         "y" : 25,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:customSpawner size(1) dmg(0)",
+         "requirements" : [
+            "188 - Der flinke Wiesel"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:mobSoul size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:customSpawner size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 190,
+         "name" : "Die Energiekugel",
+         "description" : "Unnamed quest",
+         "x" : 146,
+         "y" : 60,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:energyPylon size(1) dmg(0)",
+         "requirements" : [
+            "186 - Die Kernfrage"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:energyStorageCore size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:energyPylon size(1) dmg(0)",
+                     "required" : 2,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 191,
+         "name" : "Wyvern Armor",
+         "description" : "Unnamed quest",
+         "x" : 166,
+         "y" : 100,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:wyvernHelm size(1) dmg(0)",
+         "requirements" : [
+            "186 - Die Kernfrage"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:wyvernHelm size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:wyvernChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:wyvernLeggs size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:wyvernBoots size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 192,
+         "name" : "Der Drachentoeter",
+         "description" : "Unnamed quest",
+         "x" : 202,
+         "y" : 100,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:dragonHeart size(1) dmg(0)",
+         "requirements" : [
+            "191 - Wyvern Armor"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:dragonHeart size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 193,
+         "name" : "Das Ritual",
+         "description" : "Unnamed quest",
+         "x" : 242,
+         "y" : 100,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconicIngot size(1) dmg(0)",
+         "requirements" : [
+            "192 - Der Drachentoeter"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconicIngot size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 194,
+         "name" : "Der Zinnsoldat",
+         "description" : "Unnamed quest",
+         "x" : 218,
+         "y" : 60,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconicSword size(1) dmg(0)",
+         "requirements" : [
+            "193 - Das Ritual"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconicSword size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicBow size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 195,
+         "name" : "Der Schwerarbeiter",
+         "description" : "Unnamed quest",
+         "x" : 242,
+         "y" : 60,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconicShovel size(1) dmg(0)",
+         "requirements" : [
+            "193 - Das Ritual"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconicAxe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicPickaxe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicShovel size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicHoe size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 196,
+         "name" : "Draconic Armor",
+         "description" : "Unnamed quest",
+         "x" : 266,
+         "y" : 60,
+         "big" : false,
+         "setID" : "010 - Der Drachentoeter",
+         "icon" : "DraconicEvolution:draconicHelm size(1) dmg(0)",
+         "requirements" : [
+            "193 - Das Ritual"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "DraconicEvolution:draconicHelm size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicLeggs size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "DraconicEvolution:draconicBoots size(1) dmg(0)",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
