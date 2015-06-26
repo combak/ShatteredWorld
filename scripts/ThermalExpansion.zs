@@ -62,8 +62,9 @@ val removeInduction = [
 
 # Remove Item/Recipies from the Pulverizer
 val removePulverizer = [
-  <ThermalDynamics:ThermalDynamics_16>,		/* Temperate Fluiduct (Opaque) to Copper Nuggets */
-  <ThermalDynamics:ThermalDynamics_16:1>	/* Temperate Fluiduct to Copper Nuggets */
+  <ThermalDynamics:ThermalDynamics_16>,		/* 0 - Temperate Fluiduct (Opaque) to Copper Nuggets */
+  <ThermalDynamics:ThermalDynamics_16:1>,	/* 1 - Temperate Fluiduct to Copper Nuggets */
+  <minecraft:wheat>				/* 2 - Wheat (Vanilla) to Flour (AppEng2) */
 ] as IItemStack[];
 
 ########################################################################################################################
