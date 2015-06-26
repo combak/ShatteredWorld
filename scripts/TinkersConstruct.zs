@@ -126,6 +126,7 @@ val removeTableRecipes = [
 
 # Vanilla
 val vanillaRedstone = <minecraft:redstone>;
+val vanillaBucket = <minecraft:bucket>;
 
 # Thaumcraft
 val thaumcraftThaumiumNugget	= <Thaumcraft:ItemNugget:6>;
@@ -264,8 +265,8 @@ mods.tconstruct.Casting.addTableRecipe( thermFoundManaInfusedIngot, frManaInfuse
 # Redstone Melting -> Destabilized Redstone & Redstone Block
 mods.tconstruct.Smeltery.removeMelting( vanillaRedstone );
 mods.tconstruct.Smeltery.removeMelting( vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 500, vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 500, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 3000, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 3000, vanillaRedstoneBlock );
 mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 900, null, false, 20);
 
 # Pulsating Iron
@@ -318,6 +319,8 @@ mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, igu
 recipes.remove( pamsPot );
 mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, true, 20 );
 
+# Bucket exploit Alu Ingots -> Bucket -> Smeltery -> Iron
+mods.tconstruct.Smeltery.removeMelting( vanillaBucket );
 
 ########################################################################################################################
 # Bonus / Gag
