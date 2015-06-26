@@ -54,7 +54,7 @@ recipes.addShaped( appEngSkyStone, [ [ appEngSkyStoneDust, odStone, appEngSkySto
 ########################################################################################################################
 
 #Remove Copy Inscriber
-#mods.appeng.Inscriber.removeRecipe( appEngInscriberSilicon );
-#mods.appeng.Inscriber.removeRecipe( appEngInscriberLogic );
-#mods.appeng.Inscriber.removeRecipe( appEngInscriberCalculation );
-#mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberSilicon );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberLogic );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberCalculation );
+mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
