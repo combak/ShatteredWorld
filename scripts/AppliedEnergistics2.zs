@@ -6,7 +6,7 @@
 val appEngDrive 		= <appliedenergistics2:tile.BlockDrive>;
 val appEngMolecularAssembler	= <appliedenergistics2:tile.BlockMolecularAssembler>;
 val appEngQuartzGlass		= <appliedenergistics2:tile.BlockQuartzGlass>;
-val appEngSkyStone		= <appliedenergistics2:tile.BlockSkyStone>;
+#val appEngSkyStone		= <appliedenergistics2:tile.BlockSkyStone>;
 
 # Vanilla
 val vanillaCraftingTable = <minecraft:crafting_table>;
@@ -32,7 +32,7 @@ val vanillaIronIngot = <minecraft:iron_ingot>;
 # Oredict
 ######################################################################################################################
 
-val odStone = <ore:stone>;
+#val odStone = <ore:stone>;
  		
 ########################################################################################################################
 # Custom Crafting Recipes - Shaped
@@ -47,7 +47,7 @@ recipes.remove( appEngMolecularAssembler );
 recipes.addShaped( appEngMolecularAssembler, [ [ vanillaIronIngot, appEngQuartzGlass, vanillaIronIngot ], [ appEngEngineerongProcessor, vanillaCraftingTable, appEngEngineerongProcessor ], [ vanillaIronIngot, appEngQuartzGlass, vanillaIronIngot ] ] );
 
 # SkyStone
-recipes.addShaped( appEngSkyStone, [ [ appEngSkyStoneDust, odStone, appEngSkyStoneDust ], [ odStone, appEngSkyStoneDust, odStone ], [ appEngSkyStoneDust, odStone, appEngSkyStoneDust ] ] );
+#recipes.addShaped( appEngSkyStone, [ [ appEngSkyStoneDust, odStone, appEngSkyStoneDust ], [ odStone, appEngSkyStoneDust, odStone ], [ appEngSkyStoneDust, odStone, appEngSkyStoneDust ] ] );
 
 ########################################################################################################################
 # Machine - Inscriber
