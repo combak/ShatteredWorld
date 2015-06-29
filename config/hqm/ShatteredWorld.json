@@ -11,7 +11,7 @@
          "decription" : "alles zu Agricraft, Pam und Forestry\n"
       },
       {
-         "name" : "Geist in der Maschine",
+         "name" : "Der Geist in der Maschine",
          "decription" : "alles zu Thermal Expansion, Buildcraft\n"
       },
       {
@@ -27,7 +27,7 @@
          "decription" : "alles zu Thaumcraft\n"
       },
       {
-         "name" : "Wiese voller Blumen",
+         "name" : "Die zauberhafte Blume",
          "decription" : "alles zu Botania"
       },
       {
@@ -35,11 +35,11 @@
          "decription" : "alles zu Blood Magic"
       },
       {
-         "name" : "Gruenes Monster",
+         "name" : "Der gruene Daumen",
          "decription" : "alles zu Bienen und B�umen\n"
       },
       {
-         "name" : "Safari des Lebens",
+         "name" : "Die Safari deines Lebens",
          "decription" : "alles zu Lycanites Mobs"
       },
       {
@@ -52,6 +52,16 @@
       }
    ],
    "reputationCatalog" : [
+      {
+         "name" : "Test",
+         "neutral" : null,
+         "markers" : [
+            {
+               "name" : "Neutral",
+               "value" : 0
+            }
+         ]
+      }
    ],
    "quests" : [
       {
@@ -3173,8 +3183,8 @@
          "id" : 76,
          "name" : "Die magischen Tools",
          "description" : "Unnamed quest",
-         "x" : 198,
-         "y" : 40,
+         "x" : 194,
+         "y" : 25,
          "big" : false,
          "setID" : "004 - Der Zauberlehrling",
          "icon" : "arsmagica2:magitechGoggles size(1) dmg(0)",
@@ -3914,6 +3924,98 @@
       },
       {
          "id" : 95,
+         "name" : "Fang die flackernden Dinger",
+         "description" : "Unnamed quest",
+         "x" : 206,
+         "y" : 50,
+         "big" : false,
+         "setID" : "004 - Der Zauberlehrling",
+         "icon" : "arsmagica2:flickerJar size(1) dmg(0)",
+         "requirements" : [
+            "073 - Der Platz der Wunder"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "arsmagica2:flickerLure size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "arsmagica2:flickerJar size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "arsmagica2:flickerJar size(1) dmg(4)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 96,
+         "name" : "Fang den Mond",
+         "description" : "Unnamed quest",
+         "x" : 238,
+         "y" : 50,
+         "big" : false,
+         "setID" : "004 - Der Zauberlehrling",
+         "icon" : "arsmagica2:elementalAttuner size(1) dmg(0)",
+         "requirements" : [
+            "095 - Fang die flackernden Dinger"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "arsmagica2:elementalAttuner size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "arsmagica2:flickerFocus size(1) dmg(134)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 97,
          "name" : "Ein Stab sie alle zu Binden",
          "description" : null,
          "x" : 22,
@@ -3945,7 +4047,7 @@
          ]
       },
       {
-         "id" : 96,
+         "id" : 98,
          "name" : "Der Stab des Lehrlings",
          "description" : null,
          "x" : 22,
@@ -3954,7 +4056,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:WandCasting size(1) dmg(9)",
          "requirements" : [
-            "095 - Ein Stab sie alle zu Binden"
+            "097 - Ein Stab sie alle zu Binden"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -3980,7 +4082,7 @@
          ]
       },
       {
-         "id" : 97,
+         "id" : 99,
          "name" : "Der Stab des Meisters",
          "description" : null,
          "x" : 22,
@@ -3989,7 +4091,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:WandCasting size(1) dmg(54)",
          "requirements" : [
-            "096 - Der Stab des Lehrlings"
+            "098 - Der Stab des Lehrlings"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4015,7 +4117,7 @@
          ]
       },
       {
-         "id" : 98,
+         "id" : 100,
          "name" : "Der gedultige Forscher",
          "description" : null,
          "x" : 50,
@@ -4024,7 +4126,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
          "requirements" : [
-            "095 - Ein Stab sie alle zu Binden"
+            "097 - Ein Stab sie alle zu Binden"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4067,7 +4169,7 @@
          ]
       },
       {
-         "id" : 99,
+         "id" : 101,
          "name" : "Es geht immer mal was daneben",
          "description" : null,
          "x" : 50,
@@ -4076,7 +4178,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockTable size(1) dmg(14)",
          "requirements" : [
-            "098 - Der gedultige Forscher"
+            "100 - Der gedultige Forscher"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4102,7 +4204,7 @@
          ]
       },
       {
-         "id" : 100,
+         "id" : 102,
          "name" : "Der Durchblick",
          "description" : null,
          "x" : 126,
@@ -4111,7 +4213,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemThaumometer size(1) dmg(0)",
          "requirements" : [
-            "098 - Der gedultige Forscher"
+            "100 - Der gedultige Forscher"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4137,7 +4239,7 @@
          ]
       },
       {
-         "id" : 101,
+         "id" : 103,
          "name" : "Durch die rosa Brille",
          "description" : "Unnamed quest",
          "x" : 130,
@@ -4146,7 +4248,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGoggles size(1) dmg(0)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4172,7 +4274,7 @@
          ]
       },
       {
-         "id" : 102,
+         "id" : 104,
          "name" : "Thaumaturge Armor",
          "description" : null,
          "x" : 162,
@@ -4181,7 +4283,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4217,7 +4319,7 @@
          ]
       },
       {
-         "id" : 103,
+         "id" : 105,
          "name" : "Der Superheld",
          "description" : null,
          "x" : 186,
@@ -4226,7 +4328,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "WitchingGadgets:item.WG_Cloak size(1) dmg(0)",
          "requirements" : [
-            "102 - Thaumaturge Armor"
+            "104 - Thaumaturge Armor"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4240,7 +4342,7 @@
          ]
       },
       {
-         "id" : 104,
+         "id" : 106,
          "name" : "Der Erbsenzaehler",
          "description" : null,
          "x" : 106,
@@ -4249,7 +4351,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Automagy:tallyLens size(1) dmg(0)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4280,7 +4382,7 @@
          ]
       },
       {
-         "id" : 105,
+         "id" : 107,
          "name" : "Explosives Licht",
          "description" : null,
          "x" : 198,
@@ -4289,7 +4391,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemResource size(1) dmg(1)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4320,7 +4422,7 @@
          ]
       },
       {
-         "id" : 106,
+         "id" : 108,
          "name" : "Der Wunderofen",
          "description" : null,
          "x" : 222,
@@ -4329,7 +4431,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(0)",
          "requirements" : [
-            "105 - Explosives Licht"
+            "107 - Explosives Licht"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4355,7 +4457,7 @@
          ]
       },
       {
-         "id" : 107,
+         "id" : 109,
          "name" : "Die Destillerie",
          "description" : null,
          "x" : 246,
@@ -4364,7 +4466,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(1)",
          "requirements" : [
-            "106 - Der Wunderofen"
+            "108 - Der Wunderofen"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4390,7 +4492,7 @@
          ]
       },
       {
-         "id" : 108,
+         "id" : 110,
          "name" : "Tubes",
          "description" : null,
          "x" : 270,
@@ -4399,7 +4501,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockTube size(1) dmg(0)",
          "requirements" : [
-            "107 - Die Destillerie"
+            "109 - Die Destillerie"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4430,7 +4532,7 @@
          ]
       },
       {
-         "id" : 109,
+         "id" : 111,
          "name" : "Schleudertrauma",
          "description" : null,
          "x" : 282,
@@ -4439,7 +4541,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockTube size(1) dmg(2)",
          "requirements" : [
-            "108 - Tubes"
+            "110 - Tubes"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4465,7 +4567,7 @@
          ]
       },
       {
-         "id" : 110,
+         "id" : 112,
          "name" : "Der Kristallisierer",
          "description" : null,
          "x" : 294,
@@ -4474,7 +4576,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockTube size(1) dmg(7)",
          "requirements" : [
-            "108 - Tubes"
+            "110 - Tubes"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4500,7 +4602,7 @@
          ]
       },
       {
-         "id" : 111,
+         "id" : 113,
          "name" : "Das Parfuem",
          "description" : null,
          "x" : 258,
@@ -4509,7 +4611,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockJar size(1) dmg(1)",
          "requirements" : [
-            "107 - Die Destillerie"
+            "109 - Die Destillerie"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4540,7 +4642,7 @@
          ]
       },
       {
-         "id" : 112,
+         "id" : 114,
          "name" : "Der Geist in der Flasche",
          "description" : "Unnamed quest",
          "x" : 246,
@@ -4549,7 +4651,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
          "requirements" : [
-            "111 - Das Parfuem"
+            "113 - Das Parfuem"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4575,7 +4677,7 @@
          ]
       },
       {
-         "id" : 113,
+         "id" : 115,
          "name" : "Der schuetzende Schild",
          "description" : "Unnamed quest",
          "x" : 270,
@@ -4584,7 +4686,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(10)",
          "requirements" : [
-            "112 - Der Geist in der Flasche"
+            "114 - Der Geist in der Flasche"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4610,7 +4712,7 @@
          ]
       },
       {
-         "id" : 114,
+         "id" : 116,
          "name" : "Der Fluss der Seelen",
          "description" : null,
          "x" : 258,
@@ -4619,7 +4721,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(11)",
          "requirements" : [
-            "113 - Der schuetzende Schild"
+            "115 - Der schuetzende Schild"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4655,7 +4757,7 @@
          ]
       },
       {
-         "id" : 115,
+         "id" : 117,
          "name" : "Die Tankstelle",
          "description" : null,
          "x" : 282,
@@ -4664,8 +4766,8 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(5)",
          "requirements" : [
-            "113 - Der schuetzende Schild",
-            "114 - Der Fluss der Seelen"
+            "115 - Der schuetzende Schild",
+            "116 - Der Fluss der Seelen"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4691,7 +4793,7 @@
          ]
       },
       {
-         "id" : 116,
+         "id" : 118,
          "name" : "Der Manipulator",
          "description" : null,
          "x" : 270,
@@ -4700,7 +4802,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
          "requirements" : [
-            "115 - Die Tankstelle"
+            "117 - Die Tankstelle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4726,7 +4828,7 @@
          ]
       },
       {
-         "id" : 117,
+         "id" : 119,
          "name" : "Magisches Metall",
          "description" : null,
          "x" : 154,
@@ -4735,7 +4837,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemResource size(1) dmg(2)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4761,7 +4863,7 @@
          ]
       },
       {
-         "id" : 118,
+         "id" : 120,
          "name" : "Die Infusion",
          "description" : null,
          "x" : 162,
@@ -4770,7 +4872,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(2)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4801,7 +4903,7 @@
          ]
       },
       {
-         "id" : 119,
+         "id" : 121,
          "name" : "Die Wunderlampen",
          "description" : null,
          "x" : 150,
@@ -4810,7 +4912,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
          "requirements" : [
-            "118 - Die Infusion"
+            "120 - Die Infusion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4841,7 +4943,7 @@
          ]
       },
       {
-         "id" : 120,
+         "id" : 122,
          "name" : "Der Wunderbaum",
          "description" : null,
          "x" : 138,
@@ -4850,7 +4952,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:blockCustomPlant size(1) dmg(0)",
          "requirements" : [
-            "118 - Die Infusion"
+            "120 - Die Infusion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4881,7 +4983,7 @@
          ]
       },
       {
-         "id" : 121,
+         "id" : 123,
          "name" : "Fortress Armor",
          "description" : "Unnamed quest",
          "x" : 186,
@@ -4890,7 +4992,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemHelmetFortress size(1) dmg(0)",
          "requirements" : [
-            "118 - Die Infusion"
+            "120 - Die Infusion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4926,7 +5028,7 @@
          ]
       },
       {
-         "id" : 122,
+         "id" : 124,
          "name" : "Der Architekt",
          "description" : null,
          "x" : 174,
@@ -4935,7 +5037,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "WitchingGadgets:tile.WG_MetalDevice.name size(1) dmg(1)",
          "requirements" : [
-            "118 - Die Infusion"
+            "120 - Die Infusion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4961,7 +5063,7 @@
          ]
       },
       {
-         "id" : 123,
+         "id" : 125,
          "name" : "Minions",
          "description" : null,
          "x" : 86,
@@ -4970,7 +5072,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(100)",
          "requirements" : [
-            "100 - Der Durchblick"
+            "102 - Der Durchblick"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -4996,7 +5098,7 @@
          ]
       },
       {
-         "id" : 124,
+         "id" : 126,
          "name" : "Der Gong",
          "description" : null,
          "x" : 74,
@@ -5005,7 +5107,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:GolemBell size(1) dmg(0)",
          "requirements" : [
-            "123 - Minions"
+            "125 - Minions"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5031,7 +5133,7 @@
          ]
       },
       {
-         "id" : 125,
+         "id" : 127,
          "name" : "Die Arbeiterkaste",
          "description" : null,
          "x" : 62,
@@ -5040,7 +5142,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(3)",
          "requirements" : [
-            "124 - Der Gong"
+            "126 - Der Gong"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5071,7 +5173,7 @@
          ]
       },
       {
-         "id" : 126,
+         "id" : 128,
          "name" : "Das fleissige Bienchen",
          "description" : null,
          "x" : 50,
@@ -5080,7 +5182,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(0)",
          "requirements" : [
-            "124 - Der Gong"
+            "126 - Der Gong"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5111,7 +5213,7 @@
          ]
       },
       {
-         "id" : 127,
+         "id" : 129,
          "name" : "Der intelligenter Soldat",
          "description" : null,
          "x" : 62,
@@ -5120,7 +5222,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
          "requirements" : [
-            "124 - Der Gong"
+            "126 - Der Gong"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5156,7 +5258,7 @@
          ]
       },
       {
-         "id" : 128,
+         "id" : 130,
          "name" : "Die Schoenheitskoenigin",
          "description" : null,
          "x" : 86,
@@ -5165,7 +5267,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(3)",
          "requirements" : [
-            "124 - Der Gong"
+            "126 - Der Gong"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5216,7 +5318,7 @@
          ]
       },
       {
-         "id" : 129,
+         "id" : 131,
          "name" : "Die Armee",
          "description" : null,
          "x" : 98,
@@ -5225,7 +5327,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
          "requirements" : [
-            "124 - Der Gong"
+            "126 - Der Gong"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5261,7 +5363,7 @@
          ]
       },
       {
-         "id" : 130,
+         "id" : 132,
          "name" : "Der Elitesoldat",
          "description" : null,
          "x" : 110,
@@ -5270,7 +5372,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(7)",
          "requirements" : [
-            "129 - Die Armee"
+            "131 - Die Armee"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5296,7 +5398,7 @@
          ]
       },
       {
-         "id" : 131,
+         "id" : 133,
          "name" : "Der Perfektionist",
          "description" : null,
          "x" : 98,
@@ -5305,7 +5407,7 @@
          "setID" : "005 - Die Geister die ich rief",
          "icon" : "Automagy:blockGolemWorkbench size(1) dmg(0)",
          "requirements" : [
-            "130 - Der Elitesoldat"
+            "132 - Der Elitesoldat"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5331,13 +5433,13 @@
          ]
       },
       {
-         "id" : 132,
+         "id" : 134,
          "name" : "Lexica Botania",
          "description" : "Unnamed quest",
          "x" : 22,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:lexicon size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -5363,16 +5465,16 @@
          ]
       },
       {
-         "id" : 133,
+         "id" : 135,
          "name" : "Mystical Flower",
          "description" : null,
          "x" : 34,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:flower size(1) dmg(1)",
          "requirements" : [
-            "132 - Lexica Botania"
+            "134 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5427,16 +5529,16 @@
          ]
       },
       {
-         "id" : 134,
+         "id" : 136,
          "name" : "Petal Apothecary",
          "description" : null,
          "x" : 34,
          "y" : 60,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:altar size(1) dmg(0)",
          "requirements" : [
-            "132 - Lexica Botania"
+            "134 - Lexica Botania"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5462,20 +5564,20 @@
          ]
       },
       {
-         "id" : 135,
+         "id" : 137,
          "name" : "Pure Daisy",
          "description" : null,
          "x" : 46,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
          },
          "requirements" : [
-            "133 - Mystical Flower",
-            "134 - Petal Apothecary"
+            "135 - Mystical Flower",
+            "136 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5519,19 +5621,19 @@
          ]
       },
       {
-         "id" : 136,
+         "id" : 138,
          "name" : "Hydroangeas",
          "description" : null,
          "x" : 58,
          "y" : 60,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('hydroangeas') )"
          },
          "requirements" : [
-            "134 - Petal Apothecary"
+            "136 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5558,19 +5660,19 @@
          ]
       },
       {
-         "id" : 137,
+         "id" : 139,
          "name" : "Endoflame",
          "description" : "Unnamed quest",
          "x" : 46,
          "y" : 80,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('endoflame') )"
          },
          "requirements" : [
-            "134 - Petal Apothecary"
+            "136 - Petal Apothecary"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5597,16 +5699,16 @@
          ]
       },
       {
-         "id" : 138,
+         "id" : 140,
          "name" : "Horn of the Wild",
          "description" : "Unnamed quest",
          "x" : 58,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:grassHorn size(1) dmg(0)",
          "requirements" : [
-            "135 - Pure Daisy"
+            "137 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5632,19 +5734,19 @@
          ]
       },
       {
-         "id" : 139,
+         "id" : 141,
          "name" : "Livingrock Twig",
          "description" : "Unnamed quest",
          "x" : 70,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:twigWand size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "135 - Pure Daisy"
+            "137 - Pure Daisy"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5681,19 +5783,19 @@
          ]
       },
       {
-         "id" : 140,
+         "id" : 142,
          "name" : "Mana Produktion",
          "description" : null,
          "x" : 106,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:specialFlower size(1) dmg(0)",
             "nbt" : "=COMPOUND( type=STRING('daybloom') )"
          },
          "requirements" : [
-            "139 - Livingrock Twig"
+            "141 - Livingrock Twig"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5726,16 +5828,16 @@
          ]
       },
       {
-         "id" : 141,
+         "id" : 143,
          "name" : "Mana Pool",
          "description" : "Unnamed quest",
          "x" : 130,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:pool size(1) dmg(0)",
          "requirements" : [
-            "140 - Mana Produktion"
+            "142 - Mana Produktion"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5761,16 +5863,16 @@
          ]
       },
       {
-         "id" : 142,
+         "id" : 144,
          "name" : "Mana Tools",
          "description" : "Unnamed quest",
          "x" : 166,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaTablet size(1) dmg(0)",
          "requirements" : [
-            "143 - Mana Items"
+            "145 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5812,16 +5914,16 @@
          ]
       },
       {
-         "id" : 143,
+         "id" : 145,
          "name" : "Mana Items",
          "description" : "Unnamed quest",
          "x" : 154,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(0)",
          "requirements" : [
-            "141 - Mana Pool"
+            "143 - Mana Pool"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5864,16 +5966,16 @@
          ]
       },
       {
-         "id" : 144,
+         "id" : 146,
          "name" : "Manasteel Armor",
          "description" : "Unnamed quest",
          "x" : 142,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manasteelChest size(1) dmg(0)",
          "requirements" : [
-            "143 - Mana Items"
+            "145 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5914,19 +6016,19 @@
          ]
       },
       {
-         "id" : 145,
+         "id" : 147,
          "name" : "Mana Lens",
          "description" : "Unnamed quest",
          "x" : 166,
          "y" : 60,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:lens size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "143 - Mana Items"
+            "145 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -5990,19 +6092,19 @@
          ]
       },
       {
-         "id" : 146,
+         "id" : 148,
          "name" : "Ring of Magnetization",
          "description" : "Unnamed quest",
          "x" : 178,
          "y" : 80,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : {
             "item" : "Botania:magnetRing size(1) dmg(0)",
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "145 - Mana Lens"
+            "147 - Mana Lens"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6029,16 +6131,16 @@
          ]
       },
       {
-         "id" : 147,
+         "id" : 149,
          "name" : "Runic Altar",
          "description" : null,
          "x" : 178,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:runeAltar size(1) dmg(0)",
          "requirements" : [
-            "143 - Mana Items"
+            "145 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6064,16 +6166,16 @@
          ]
       },
       {
-         "id" : 148,
+         "id" : 150,
          "name" : "Runen der 5 Elemente",
          "description" : "Unnamed quest",
          "x" : 202,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:rune size(1) dmg(8)",
          "requirements" : [
-            "147 - Runic Altar"
+            "149 - Runic Altar"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6119,16 +6221,16 @@
          ]
       },
       {
-         "id" : 149,
+         "id" : 151,
          "name" : "Runen der 4 Jahreszeiten",
          "description" : "Unnamed quest",
          "x" : 214,
          "y" : 60,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:rune size(1) dmg(5)",
          "requirements" : [
-            "148 - Runen der 5 Elemente"
+            "150 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6169,16 +6271,16 @@
          ]
       },
       {
-         "id" : 150,
+         "id" : 152,
          "name" : "Runen der Gl�ckseligkeiten",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 80,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:rune size(1) dmg(12)",
          "requirements" : [
-            "149 - Runen der 4 Jahreszeiten"
+            "151 - Runen der 4 Jahreszeiten"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6234,16 +6336,16 @@
          ]
       },
       {
-         "id" : 151,
+         "id" : 153,
          "name" : "Welt der St�be",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 40,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:dirtRod size(1) dmg(0)",
          "requirements" : [
-            "148 - Runen der 5 Elemente"
+            "150 - Runen der 5 Elemente"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6300,16 +6402,16 @@
          ]
       },
       {
-         "id" : 152,
+         "id" : 154,
          "name" : "Botanische Brauerei",
          "description" : null,
          "x" : 190,
          "y" : 20,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:brewery size(1) dmg(0)",
          "requirements" : [
-            "143 - Mana Items"
+            "145 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6340,16 +6442,16 @@
          ]
       },
       {
-         "id" : 153,
+         "id" : 155,
          "name" : "Terrasteel Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
          "y" : 110,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(4)",
          "requirements" : [
-            "143 - Mana Items"
+            "145 - Mana Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6387,16 +6489,16 @@
          ]
       },
       {
-         "id" : 154,
+         "id" : 156,
          "name" : "Terrasteel Armor",
          "description" : "Unnamed quest",
          "x" : 98,
          "y" : 90,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:terrasteelChest size(1) dmg(0)",
          "requirements" : [
-            "153 - Terrasteel Ingot"
+            "155 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6437,16 +6539,16 @@
          ]
       },
       {
-         "id" : 155,
+         "id" : 157,
          "name" : "Rod of the Terra Firma",
          "description" : "Unnamed quest",
          "x" : 134,
          "y" : 110,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:terraformRod size(1) dmg(0)",
          "requirements" : [
-            "153 - Terrasteel Ingot"
+            "155 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6472,16 +6574,16 @@
          ]
       },
       {
-         "id" : 156,
+         "id" : 158,
          "name" : "Elven Portal",
          "description" : null,
          "x" : 122,
          "y" : 130,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:alfheimPortal size(1) dmg(0)",
          "requirements" : [
-            "153 - Terrasteel Ingot"
+            "155 - Terrasteel Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6512,16 +6614,16 @@
          ]
       },
       {
-         "id" : 157,
+         "id" : 159,
          "name" : "Elementium Ingot",
          "description" : "Unnamed quest",
          "x" : 110,
          "y" : 150,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(7)",
          "requirements" : [
-            "156 - Elven Portal"
+            "158 - Elven Portal"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6547,16 +6649,16 @@
          ]
       },
       {
-         "id" : 158,
+         "id" : 160,
          "name" : "Elementium Armor",
          "description" : "Unnamed quest",
          "x" : 86,
          "y" : 150,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:elementiumChest size(1) dmg(0)",
          "requirements" : [
-            "157 - Elementium Ingot"
+            "159 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6597,16 +6699,16 @@
          ]
       },
       {
-         "id" : 159,
+         "id" : 161,
          "name" : "Elementium Items",
          "description" : "Unnamed quest",
          "x" : 122,
          "y" : 170,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(8)",
          "requirements" : [
-            "157 - Elementium Ingot"
+            "159 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6642,16 +6744,16 @@
          ]
       },
       {
-         "id" : 160,
+         "id" : 162,
          "name" : "Elven Rods",
          "description" : "Unnamed quest",
          "x" : 98,
          "y" : 170,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:skyDirtRod size(1) dmg(0)",
          "requirements" : [
-            "157 - Elementium Ingot"
+            "159 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6682,16 +6784,16 @@
          ]
       },
       {
-         "id" : 161,
+         "id" : 163,
          "name" : "Spark Augment",
          "description" : "Unnamed quest",
          "x" : 146,
          "y" : 170,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
          "requirements" : [
-            "159 - Elementium Items"
+            "161 - Elementium Items"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6732,16 +6834,16 @@
          ]
       },
       {
-         "id" : 162,
+         "id" : 164,
          "name" : "Ritual of Gaia",
          "description" : "Unnamed quest",
          "x" : 134,
          "y" : 150,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(5)",
          "requirements" : [
-            "157 - Elementium Ingot"
+            "159 - Elementium Ingot"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6779,16 +6881,16 @@
          ]
       },
       {
-         "id" : 163,
+         "id" : 165,
          "name" : "Gaia Items",
          "description" : "Unnamed quest",
          "x" : 146,
          "y" : 130,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(14)",
          "requirements" : [
-            "162 - Ritual of Gaia"
+            "164 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6819,16 +6921,16 @@
          ]
       },
       {
-         "id" : 164,
+         "id" : 166,
          "name" : "Gaia Rod",
          "description" : "Unnamed quest",
          "x" : 158,
          "y" : 150,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:rainbowRod size(1) dmg(0)",
          "requirements" : [
-            "162 - Ritual of Gaia"
+            "164 - Ritual of Gaia"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6859,13 +6961,13 @@
          ]
       },
       {
-         "id" : 165,
+         "id" : 167,
          "name" : "Ender Air Bottle",
          "description" : "Unnamed quest",
          "x" : 286,
          "y" : 180,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(15)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -6891,16 +6993,16 @@
          ]
       },
       {
-         "id" : 166,
+         "id" : 168,
          "name" : "Fluegel Tiara",
          "description" : "Unnamed quest",
          "x" : 262,
          "y" : 180,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:flightTiara size(1) dmg(0)",
          "requirements" : [
-            "165 - Ender Air Bottle"
+            "167 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6926,16 +7028,16 @@
          ]
       },
       {
-         "id" : 167,
+         "id" : 169,
          "name" : "Red String",
          "description" : "Unnamed quest",
          "x" : 274,
          "y" : 160,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:manaResource size(1) dmg(12)",
          "requirements" : [
-            "165 - Ender Air Bottle"
+            "167 - Ender Air Bottle"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -6961,16 +7063,16 @@
          ]
       },
       {
-         "id" : 168,
+         "id" : 170,
          "name" : "Red String Items",
          "description" : "Unnamed quest",
          "x" : 262,
          "y" : 140,
          "big" : false,
-         "setID" : "006 - Wiese voller Blumen",
+         "setID" : "006 - Die zauberhafte Blume",
          "icon" : "Botania:redStringRelay size(1) dmg(0)",
          "requirements" : [
-            "167 - Red String"
+            "169 - Red String"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7016,7 +7118,7 @@
          ]
       },
       {
-         "id" : 169,
+         "id" : 171,
          "name" : "Opfere dich selbst",
          "description" : "Altar \/ Sacrificial Knife herstellen",
          "x" : 14,
@@ -7060,7 +7162,7 @@
          ]
       },
       {
-         "id" : 170,
+         "id" : 172,
          "name" : "Blanck Slate",
          "description" : null,
          "x" : 66,
@@ -7069,7 +7171,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
          "requirements" : [
-            "169 - Opfere dich selbst"
+            "171 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7095,7 +7197,7 @@
          ]
       },
       {
-         "id" : 171,
+         "id" : 173,
          "name" : "Altar Level 1 Orb",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -7104,7 +7206,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "169 - Opfere dich selbst"
+            "171 - Opfere dich selbst"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7130,7 +7232,7 @@
          ]
       },
       {
-         "id" : 172,
+         "id" : 174,
          "name" : "Divination Sigil",
          "description" : "Unnamed quest",
          "x" : 42,
@@ -7139,8 +7241,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
          "requirements" : [
-            "170 - Blanck Slate",
-            "171 - Altar Level 1 Orb"
+            "172 - Blanck Slate",
+            "173 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7166,7 +7268,7 @@
          ]
       },
       {
-         "id" : 173,
+         "id" : 175,
          "name" : "erste Sigils",
          "description" : "Unnamed quest",
          "x" : 54,
@@ -7175,8 +7277,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
          "requirements" : [
-            "170 - Blanck Slate",
-            "171 - Altar Level 1 Orb"
+            "172 - Blanck Slate",
+            "173 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7207,7 +7309,7 @@
          ]
       },
       {
-         "id" : 174,
+         "id" : 176,
          "name" : "Alchemic Chemistry Set",
          "description" : "Unnamed quest",
          "x" : 22,
@@ -7216,7 +7318,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockWritingTable size(1) dmg(0)",
          "requirements" : [
-            "171 - Altar Level 1 Orb"
+            "173 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7259,7 +7361,7 @@
          ]
       },
       {
-         "id" : 175,
+         "id" : 177,
          "name" : "Reinforced Slate",
          "description" : null,
          "x" : 98,
@@ -7268,7 +7370,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
          "requirements" : [
-            "170 - Blanck Slate"
+            "172 - Blanck Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7294,7 +7396,7 @@
          ]
       },
       {
-         "id" : 176,
+         "id" : 178,
          "name" : "Altar Level 2 Orb",
          "description" : null,
          "x" : 74,
@@ -7303,7 +7405,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "171 - Altar Level 1 Orb"
+            "173 - Altar Level 1 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7329,7 +7431,7 @@
          ]
       },
       {
-         "id" : 177,
+         "id" : 179,
          "name" : "mehr Sigils",
          "description" : "Unnamed quest",
          "x" : 86,
@@ -7338,8 +7440,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
          "requirements" : [
-            "175 - Reinforced Slate",
-            "176 - Altar Level 2 Orb"
+            "177 - Reinforced Slate",
+            "178 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7399,7 +7501,7 @@
          ]
       },
       {
-         "id" : 178,
+         "id" : 180,
          "name" : "Basis Essenzen",
          "description" : "Unnamed quest",
          "x" : 50,
@@ -7408,8 +7510,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:aether size(1) dmg(0)",
          "requirements" : [
-            "174 - Alchemic Chemistry Set",
-            "176 - Altar Level 2 Orb"
+            "176 - Alchemic Chemistry Set",
+            "178 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7475,7 +7577,7 @@
          ]
       },
       {
-         "id" : 179,
+         "id" : 181,
          "name" : "Imbued Slate",
          "description" : null,
          "x" : 130,
@@ -7484,7 +7586,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
          "requirements" : [
-            "175 - Reinforced Slate"
+            "177 - Reinforced Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7510,7 +7612,7 @@
          ]
       },
       {
-         "id" : 180,
+         "id" : 182,
          "name" : "Altar Level 3 Orb",
          "description" : null,
          "x" : 106,
@@ -7519,7 +7621,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "176 - Altar Level 2 Orb"
+            "178 - Altar Level 2 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7545,7 +7647,7 @@
          ]
       },
       {
-         "id" : 181,
+         "id" : 183,
          "name" : "noch mehr Sigils",
          "description" : null,
          "x" : 118,
@@ -7554,8 +7656,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
          "requirements" : [
-            "179 - Imbued Slate",
-            "180 - Altar Level 3 Orb"
+            "181 - Imbued Slate",
+            "182 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7629,7 +7731,7 @@
          ]
       },
       {
-         "id" : 182,
+         "id" : 184,
          "name" : "Inscription Tools",
          "description" : null,
          "x" : 122,
@@ -7638,7 +7740,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
          "requirements" : [
-            "180 - Altar Level 3 Orb"
+            "182 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7679,7 +7781,7 @@
          ]
       },
       {
-         "id" : 183,
+         "id" : 185,
          "name" : "Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 134,
@@ -7688,7 +7790,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
          "requirements" : [
-            "182 - Inscription Tools"
+            "184 - Inscription Tools"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7714,7 +7816,7 @@
          ]
       },
       {
-         "id" : 184,
+         "id" : 186,
          "name" : "Start der Rituale",
          "description" : null,
          "x" : 98,
@@ -7723,7 +7825,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
          "requirements" : [
-            "180 - Altar Level 3 Orb"
+            "182 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7754,7 +7856,7 @@
          ]
       },
       {
-         "id" : 185,
+         "id" : 187,
          "name" : "Ritual of Binding",
          "description" : null,
          "x" : 122,
@@ -7763,8 +7865,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:energySword size(1) dmg(0)",
          "requirements" : [
-            "184 - Start der Rituale",
-            "183 - Ritual Diviner"
+            "186 - Start der Rituale",
+            "185 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7790,7 +7892,7 @@
          ]
       },
       {
-         "id" : 186,
+         "id" : 188,
          "name" : "Weak Blood Shard",
          "description" : null,
          "x" : 146,
@@ -7799,7 +7901,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
          "requirements" : [
-            "185 - Ritual of Binding"
+            "187 - Ritual of Binding"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7825,7 +7927,7 @@
          ]
       },
       {
-         "id" : 187,
+         "id" : 189,
          "name" : "Bound Armor",
          "description" : null,
          "x" : 158,
@@ -7834,7 +7936,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
          "requirements" : [
-            "186 - Weak Blood Shard"
+            "188 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7892,7 +7994,7 @@
          ]
       },
       {
-         "id" : 188,
+         "id" : 190,
          "name" : "bessere Essenzen",
          "description" : null,
          "x" : 78,
@@ -7901,8 +8003,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
          "requirements" : [
-            "178 - Basis Essenzen",
-            "180 - Altar Level 3 Orb"
+            "180 - Basis Essenzen",
+            "182 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7953,7 +8055,7 @@
          ]
       },
       {
-         "id" : 189,
+         "id" : 191,
          "name" : "Daemonen Zirkel",
          "description" : null,
          "x" : 182,
@@ -7962,7 +8064,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
          "requirements" : [
-            "186 - Weak Blood Shard"
+            "188 - Weak Blood Shard"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -7993,7 +8095,7 @@
          ]
       },
       {
-         "id" : 190,
+         "id" : 192,
          "name" : "Daemonen Kontrolle",
          "description" : null,
          "x" : 206,
@@ -8002,7 +8104,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
          "requirements" : [
-            "189 - Daemonen Zirkel"
+            "191 - Daemonen Zirkel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8028,7 +8130,7 @@
          ]
       },
       {
-         "id" : 191,
+         "id" : 193,
          "name" : "Demonic Slate",
          "description" : "Unnamed quest",
          "x" : 162,
@@ -8037,7 +8139,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
          "requirements" : [
-            "179 - Imbued Slate"
+            "181 - Imbued Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8063,7 +8165,7 @@
          ]
       },
       {
-         "id" : 192,
+         "id" : 194,
          "name" : "Altar Level 4 Orb",
          "description" : null,
          "x" : 138,
@@ -8072,7 +8174,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "180 - Altar Level 3 Orb"
+            "182 - Altar Level 3 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8098,7 +8200,7 @@
          ]
       },
       {
-         "id" : 193,
+         "id" : 195,
          "name" : "jetzt reichts aber mit Sigils",
          "description" : null,
          "x" : 150,
@@ -8107,8 +8209,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
          "requirements" : [
-            "191 - Demonic Slate",
-            "192 - Altar Level 4 Orb"
+            "193 - Demonic Slate",
+            "194 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8182,7 +8284,7 @@
          ]
       },
       {
-         "id" : 194,
+         "id" : 196,
          "name" : "besserer Ritual Diviner",
          "description" : null,
          "x" : 146,
@@ -8191,8 +8293,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
          "requirements" : [
-            "192 - Altar Level 4 Orb",
-            "183 - Ritual Diviner"
+            "194 - Altar Level 4 Orb",
+            "185 - Ritual Diviner"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8230,7 +8332,7 @@
          ]
       },
       {
-         "id" : 195,
+         "id" : 197,
          "name" : "Kristall Tank",
          "description" : null,
          "x" : 174,
@@ -8242,7 +8344,7 @@
             "nbt" : "=COMPOUND(  )"
          },
          "requirements" : [
-            "192 - Altar Level 4 Orb"
+            "194 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8290,7 +8392,7 @@
          ]
       },
       {
-         "id" : 196,
+         "id" : 198,
          "name" : "Daemonen Jaeger",
          "description" : null,
          "x" : 198,
@@ -8299,7 +8401,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
          "requirements" : [
-            "195 - Kristall Tank"
+            "197 - Kristall Tank"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8330,7 +8432,7 @@
          ]
       },
       {
-         "id" : 197,
+         "id" : 199,
          "name" : "Ethereal Slate",
          "description" : null,
          "x" : 194,
@@ -8339,7 +8441,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
          "requirements" : [
-            "191 - Demonic Slate"
+            "193 - Demonic Slate"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8365,7 +8467,7 @@
          ]
       },
       {
-         "id" : 198,
+         "id" : 200,
          "name" : "Altar Level 5 Orb",
          "description" : null,
          "x" : 170,
@@ -8374,7 +8476,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "192 - Altar Level 4 Orb"
+            "194 - Altar Level 4 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8400,7 +8502,7 @@
          ]
       },
       {
-         "id" : 199,
+         "id" : 201,
          "name" : "aber jetzt das letzte Sigils",
          "description" : "Unnamed quest",
          "x" : 182,
@@ -8409,8 +8511,8 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
          "requirements" : [
-            "197 - Ethereal Slate",
-            "198 - Altar Level 5 Orb"
+            "199 - Ethereal Slate",
+            "200 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8436,7 +8538,7 @@
          ]
       },
       {
-         "id" : 200,
+         "id" : 202,
          "name" : "Altar Level 6 Orb",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -8445,7 +8547,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
          "requirements" : [
-            "198 - Altar Level 5 Orb"
+            "200 - Altar Level 5 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8459,7 +8561,7 @@
          ]
       },
       {
-         "id" : 201,
+         "id" : 203,
          "name" : "noch besserer Ritual Diviner",
          "description" : "Unnamed quest",
          "x" : 226,
@@ -8468,7 +8570,7 @@
          "setID" : "007 - Die Blutbank",
          "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
          "requirements" : [
-            "200 - Altar Level 6 Orb"
+            "202 - Altar Level 6 Orb"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -8506,13 +8608,673 @@
          ]
       },
       {
-         "id" : 202,
+         "id" : 204,
+         "name" : "Das kleine Autocrafting",
+         "description" : "Unnamed quest",
+         "x" : 26,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:factory2 size(1) dmg(2)",
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:factory2 size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 205,
+         "name" : "Gluehkathodenverarbeiter",
+         "description" : "Unnamed quest",
+         "x" : 66,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:factory2 size(1) dmg(0)",
+         "requirements" : [
+            "204 - Das kleine Autocrafting"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:factory2 size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 206,
+         "name" : "Die kleine Farm",
+         "description" : "Unnamed quest",
+         "x" : 82,
+         "y" : 30,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:ffarm size(1) dmg(0)",
+         "requirements" : [
+            "205 - Gluehkathodenverarbeiter"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:ffarm size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:ffarm size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:ffarm size(1) dmg(4)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:ffarm size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 207,
+         "name" : "Der sauber Treibstoff",
+         "description" : "Unnamed quest",
+         "x" : 110,
+         "y" : 15,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:factory size(1) dmg(6)",
+         "requirements" : [
+            "206 - Die kleine Farm"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:factory size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:factory size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:factory size(1) dmg(6)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 208,
+         "name" : "Der Weg des Imkers",
+         "description" : "Unnamed quest",
+         "x" : 66,
+         "y" : 95,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "exnihilo:bee_trap_treated size(1) dmg(0)",
+         "requirements" : [
+            "205 - Gluehkathodenverarbeiter"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "exnihilo:bee_trap_treated size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:beehives size(1) dmg(1)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:beehives size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:beehives size(1) dmg(7)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 209,
+         "name" : "Die Bienenkoenigin",
+         "description" : "Unnamed quest",
+         "x" : 82,
+         "y" : 125,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:beealyzer size(1) dmg(0)",
+         "requirements" : [
+            "208 - Der Weg des Imkers"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:beealyzer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:scoop size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:apiculture size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 210,
+         "name" : "Schleudern will gelernt sein",
+         "description" : "Unnamed quest",
+         "x" : 106,
+         "y" : 145,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:factory size(1) dmg(2)",
+         "requirements" : [
+            "209 - Die Bienenkoenigin"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:factory size(1) dmg(2)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:honeyDrop size(1) dmg(0)",
+                     "required" : 16,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 211,
+         "name" : "Der feiner Faden",
+         "description" : "Unnamed quest",
+         "x" : 138,
+         "y" : 155,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:craftingMaterial size(1) dmg(3)",
+         "requirements" : [
+            "210 - Schleudern will gelernt sein"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:craftingMaterial size(1) dmg(2)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 212,
+         "name" : "Des Imkers Ruestung",
+         "description" : "Unnamed quest",
+         "x" : 170,
+         "y" : 160,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:apiaristHelmet size(1) dmg(0)",
+         "requirements" : [
+            "211 - Der feiner Faden"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:apiaristHelmet size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:apiaristChest size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:apiaristLegs size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:apiaristBoots size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 213,
+         "name" : "Der Schwarm",
+         "description" : "Unnamed quest",
+         "x" : 118,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:alveary size(1) dmg(0)",
+         "requirements" : [
+            "205 - Gluehkathodenverarbeiter"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:alveary size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:alveary size(1) dmg(3)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:alveary size(1) dmg(4)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:alveary size(1) dmg(5)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:alveary size(1) dmg(6)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 214,
+         "name" : "Das schwarze Gold",
+         "description" : "Unnamed quest",
+         "x" : 142,
+         "y" : 90,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "ExtraBees:honeyComb size(1) dmg(3)",
+         "requirements" : [
+            "213 - Der Schwarm"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "ExtraBees:honeyComb size(1) dmg(3)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 215,
+         "name" : "Das echte Gold",
+         "description" : "Unnamed quest",
+         "x" : 142,
+         "y" : 35,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "ExtraBees:misc size(1) dmg(7)",
+         "requirements" : [
+            "213 - Der Schwarm"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "ExtraBees:misc size(1) dmg(7)",
+                     "required" : 4,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 216,
+         "name" : "Der Weg zum Baumpfleger",
+         "description" : "Unnamed quest",
+         "x" : 154,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:treealyzer size(1) dmg(0)",
+         "requirements" : [
+            "213 - Der Schwarm"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:treealyzer size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            },
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:grafter size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:naturalistHelmet size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 217,
+         "name" : "Der Oelzweig",
+         "description" : "Unnamed quest",
+         "x" : 186,
+         "y" : 60,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:fruits size(1) dmg(2)",
+         "requirements" : [
+            "216 - Der Weg zum Baumpfleger"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_DETECT",
+               "name" : "Detection Task",
+               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "requirements" : [
+                  {
+                     "item" : "Forestry:fruits size(1) dmg(2)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 218,
+         "name" : "Der Wettergott",
+         "description" : "Unnamed quest",
+         "x" : 90,
+         "y" : 170,
+         "big" : false,
+         "setID" : "008 - Der gruene Daumen",
+         "icon" : "Forestry:factory size(1) dmg(7)",
+         "requirements" : [
+            "210 - Schleudern will gelernt sein"
+         ],
+         "repeatInfo" : {
+            "type" : "NONE"
+         },
+         "triggerType" : "NONE",
+         "triggerTasks" : 0,
+         "parentRequirementCount" : null,
+         "tasks" : [
+            {
+               "type" : "TASK_ITEMS_CRAFTING",
+               "name" : "Crafting Task",
+               "description" : "A task where the player has to craft specific items.",
+               "requirements" : [
+                  {
+                     "item" : "unknown:name size(1) dmg(0)",
+                     "required" : 1,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:iodineCapsule size(1) dmg(0)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  },
+                  {
+                     "item" : "Forestry:craftingMaterial size(1) dmg(4)",
+                     "required" : 8,
+                     "precision" : "PRECISE"
+                  }
+               ]
+            }
+         ],
+         "reputations" : [
+         ]
+      },
+      {
+         "id" : 219,
          "name" : "Arctic Mobs I",
          "description" : "Unnamed quest",
          "x" : 94,
          "y" : 105,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:frostweb size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8554,13 +9316,13 @@
          ]
       },
       {
-         "id" : 203,
+         "id" : 220,
          "name" : "Arctic Mobs II",
          "description" : "Unnamed quest",
          "x" : 70,
          "y" : 105,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:frostfire size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8602,13 +9364,13 @@
          ]
       },
       {
-         "id" : 204,
+         "id" : 221,
          "name" : "Arctic Scepter",
          "description" : "Unnamed quest",
          "x" : 46,
          "y" : 105,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:frostboltscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8654,13 +9416,13 @@
          ]
       },
       {
-         "id" : 205,
+         "id" : 222,
          "name" : "Demon Mobs I",
          "description" : "Unnamed quest",
          "x" : 102,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "demonmobs:doomfirecharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8709,13 +9471,13 @@
          ]
       },
       {
-         "id" : 206,
+         "id" : 223,
          "name" : "Demon Mobs II",
          "description" : "Unnamed quest",
          "x" : 90,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "demonmobs:hellfirecharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8757,13 +9519,13 @@
          ]
       },
       {
-         "id" : 207,
+         "id" : 224,
          "name" : "Demon Scepter",
          "description" : "Unnamed quest",
          "x" : 66,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "demonmobs:doomfirescepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8804,13 +9566,13 @@
          ]
       },
       {
-         "id" : 208,
+         "id" : 225,
          "name" : "Desert Mobs I",
          "description" : "Unnamed quest",
          "x" : 126,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "desertmobs:throwingscythe size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8859,13 +9621,13 @@
          ]
       },
       {
-         "id" : 209,
+         "id" : 226,
          "name" : "Desert Mobs II",
          "description" : "Unnamed quest",
          "x" : 114,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "desertmobs:mudshotcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8907,13 +9669,13 @@
          ]
       },
       {
-         "id" : 210,
+         "id" : 227,
          "name" : "Desert Scepter",
          "description" : "Unnamed quest",
          "x" : 102,
          "y" : 15,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "desertmobs:scythescepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8944,13 +9706,13 @@
          ]
       },
       {
-         "id" : 211,
+         "id" : 228,
          "name" : "Forest Mobs I",
          "description" : "Unnamed quest",
          "x" : 158,
          "y" : 45,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "forestmobs:lifedraincharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -8992,13 +9754,13 @@
          ]
       },
       {
-         "id" : 212,
+         "id" : 229,
          "name" : "Forest Mobs II",
          "description" : "Unnamed quest",
          "x" : 170,
          "y" : 25,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:tundracharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9040,13 +9802,13 @@
          ]
       },
       {
-         "id" : 213,
+         "id" : 230,
          "name" : "Forest Scepter",
          "description" : "Unnamed quest",
          "x" : 146,
          "y" : 25,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "forestmobs:lifedrainscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9072,13 +9834,13 @@
          ]
       },
       {
-         "id" : 214,
+         "id" : 231,
          "name" : "Freshwater Mobs",
          "description" : "Unnamed quest",
          "x" : 190,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "freshwatermobs:aquapulsecharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9127,13 +9889,13 @@
          ]
       },
       {
-         "id" : 215,
+         "id" : 232,
          "name" : "Freshwater Scepter",
          "description" : "Unnamed quest",
          "x" : 202,
          "y" : 35,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "freshwatermobs:aquapulsescepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9159,13 +9921,13 @@
          ]
       },
       {
-         "id" : 216,
+         "id" : 233,
          "name" : "Inferno Mobs I",
          "description" : "Unnamed quest",
          "x" : 214,
          "y" : 75,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "infernomobs:embercharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9207,13 +9969,13 @@
          ]
       },
       {
-         "id" : 217,
+         "id" : 234,
          "name" : "Inferno Mobs II",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "infernomobs:magmacharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9248,13 +10010,13 @@
          ]
       },
       {
-         "id" : 218,
+         "id" : 235,
          "name" : "Inferno Scepter",
          "description" : "Unnamed quest",
          "x" : 250,
          "y" : 55,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "infernomobs:magmascepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9290,13 +10052,13 @@
          ]
       },
       {
-         "id" : 219,
+         "id" : 236,
          "name" : "Jungle Mobs I",
          "description" : "Unnamed quest",
          "x" : 222,
          "y" : 105,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "junglemobs:poopcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9338,13 +10100,13 @@
          ]
       },
       {
-         "id" : 220,
+         "id" : 237,
          "name" : "Jungle Mobs II",
          "description" : "Unnamed quest",
          "x" : 246,
          "y" : 105,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "demonmobs:demoniclightningcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9386,13 +10148,13 @@
          ]
       },
       {
-         "id" : 221,
+         "id" : 238,
          "name" : "Jungle Scepter",
          "description" : "Unnamed quest",
          "x" : 270,
          "y" : 105,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "junglemobs:poopscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9418,13 +10180,13 @@
          ]
       },
       {
-         "id" : 222,
+         "id" : 239,
          "name" : "Mountain Mobs I",
          "description" : "Unnamed quest",
          "x" : 214,
          "y" : 135,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "mountainmobs:boulderblastcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9466,13 +10228,13 @@
          ]
       },
       {
-         "id" : 223,
+         "id" : 240,
          "name" : "Mountain Mobs II",
          "description" : "Unnamed quest",
          "x" : 226,
          "y" : 155,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "mountainmobs:arcanelaserstormcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9514,13 +10276,13 @@
          ]
       },
       {
-         "id" : 224,
+         "id" : 241,
          "name" : "Mountain Scepter",
          "description" : "Unnamed quest",
          "x" : 250,
          "y" : 155,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "mountainmobs:boulderblastscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9551,13 +10313,13 @@
          ]
       },
       {
-         "id" : 225,
+         "id" : 242,
          "name" : "Plain Mobs I",
          "description" : "Unnamed quest",
          "x" : 190,
          "y" : 160,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "ExtraBees:ectoplasm size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9599,13 +10361,13 @@
          ]
       },
       {
-         "id" : 226,
+         "id" : 243,
          "name" : "Plain Mobs II",
          "description" : "Unnamed quest",
          "x" : 202,
          "y" : 180,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:icefire size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9640,13 +10402,13 @@
          ]
       },
       {
-         "id" : 227,
+         "id" : 244,
          "name" : "Saltwater Mobs I",
          "description" : "Unnamed quest",
          "x" : 158,
          "y" : 170,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:blizzardcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9688,13 +10450,13 @@
          ]
       },
       {
-         "id" : 228,
+         "id" : 245,
          "name" : "Saltwater Mobs II",
          "description" : "Unnamed quest",
          "x" : 158,
          "y" : 195,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "arcticmobs:blizzardcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9736,13 +10498,13 @@
          ]
       },
       {
-         "id" : 229,
+         "id" : 246,
          "name" : "Shadow Mobs I",
          "description" : "Unnamed quest",
          "x" : 126,
          "y" : 160,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "shadowmobs:spectralboltcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9784,13 +10546,13 @@
          ]
       },
       {
-         "id" : 230,
+         "id" : 247,
          "name" : "Shadow Mobs II",
          "description" : "Unnamed quest",
          "x" : 114,
          "y" : 180,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "shadowmobs:bloodleechcharge size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9832,13 +10594,13 @@
          ]
       },
       {
-         "id" : 231,
+         "id" : 248,
          "name" : "Shadow Scepter",
          "description" : "Unnamed quest",
          "x" : 102,
          "y" : 199,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "shadowmobs:spectralboltscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9869,13 +10631,13 @@
          ]
       },
       {
-         "id" : 232,
+         "id" : 249,
          "name" : "Swamp Mobs I",
          "description" : "Unnamed quest",
          "x" : 102,
          "y" : 135,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "swampmobs:poisongland size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9924,13 +10686,13 @@
          ]
       },
       {
-         "id" : 233,
+         "id" : 250,
          "name" : "Swamp Mobs II",
          "description" : "Unnamed quest",
          "x" : 90,
          "y" : 155,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "swampmobs:venomshotscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -9972,13 +10734,13 @@
          ]
       },
       {
-         "id" : 234,
+         "id" : 251,
          "name" : "Swamp Scepter",
          "description" : "Unnamed quest",
          "x" : 66,
          "y" : 155,
          "big" : false,
-         "setID" : "009 - Safari des Lebens",
+         "setID" : "009 - Die Safari deines Lebens",
          "icon" : "swampmobs:poisonrayscepter size(1) dmg(0)",
          "repeatInfo" : {
             "type" : "NONE"
@@ -10009,7 +10771,7 @@
          ]
       },
       {
-         "id" : 235,
+         "id" : 252,
          "name" : "Der Gluecksritter",
          "description" : "Unnamed quest",
          "x" : 78,
@@ -10058,7 +10820,7 @@
          ]
       },
       {
-         "id" : 236,
+         "id" : 253,
          "name" : "Das Wurmloch",
          "description" : "Unnamed quest",
          "x" : 106,
@@ -10067,7 +10829,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:teleporterStand size(1) dmg(0)",
          "requirements" : [
-            "235 - Der Gluecksritter"
+            "252 - Der Gluecksritter"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10098,7 +10860,7 @@
          ]
       },
       {
-         "id" : 237,
+         "id" : 254,
          "name" : "Des Pudels Kern",
          "description" : "Unnamed quest",
          "x" : 78,
@@ -10107,7 +10869,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:draconicCore size(1) dmg(0)",
          "requirements" : [
-            "235 - Der Gluecksritter"
+            "252 - Der Gluecksritter"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10133,7 +10895,7 @@
          ]
       },
       {
-         "id" : 238,
+         "id" : 255,
          "name" : "Das Kraftpaket",
          "description" : "Unnamed quest",
          "x" : 26,
@@ -10142,7 +10904,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:generator size(1) dmg(3)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10168,7 +10930,7 @@
          ]
       },
       {
-         "id" : 239,
+         "id" : 256,
          "name" : "Der Metrologe",
          "description" : "Unnamed quest",
          "x" : 38,
@@ -10177,7 +10939,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:weatherController size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10203,7 +10965,7 @@
          ]
       },
       {
-         "id" : 240,
+         "id" : 257,
          "name" : "Der Sonnenanbeter",
          "description" : "Unnamed quest",
          "x" : 50,
@@ -10212,7 +10974,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:sunDial size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10238,7 +11000,7 @@
          ]
       },
       {
-         "id" : 241,
+         "id" : 258,
          "name" : "Der Waechter",
          "description" : "Unnamed quest",
          "x" : 38,
@@ -10247,7 +11009,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:playerDetector size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10273,7 +11035,7 @@
          ]
       },
       {
-         "id" : 242,
+         "id" : 259,
          "name" : "Die Mimose",
          "description" : "Unnamed quest",
          "x" : 74,
@@ -10282,7 +11044,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:rainSensor size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10308,7 +11070,7 @@
          ]
       },
       {
-         "id" : 243,
+         "id" : 260,
          "name" : "Der Killer",
          "description" : "Unnamed quest",
          "x" : 50,
@@ -10317,7 +11079,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:grinder size(1) dmg(3)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10343,7 +11105,7 @@
          ]
       },
       {
-         "id" : 244,
+         "id" : 261,
          "name" : "Der Lieferant",
          "description" : "Unnamed quest",
          "x" : 98,
@@ -10352,7 +11114,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:energyInfuser size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10378,7 +11140,7 @@
          ]
       },
       {
-         "id" : 245,
+         "id" : 262,
          "name" : "Der Nimmersatte",
          "description" : "Unnamed quest",
          "x" : 122,
@@ -10387,7 +11149,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:draconiumChest size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10413,7 +11175,7 @@
          ]
       },
       {
-         "id" : 246,
+         "id" : 263,
          "name" : "Die Kernfrage",
          "description" : "Unnamed quest",
          "x" : 126,
@@ -10422,7 +11184,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:wyvernCore size(1) dmg(0)",
          "requirements" : [
-            "237 - Des Pudels Kern"
+            "254 - Des Pudels Kern"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10448,7 +11210,7 @@
          ]
       },
       {
-         "id" : 247,
+         "id" : 264,
          "name" : "Der Blechkamerad",
          "description" : "Unnamed quest",
          "x" : 106,
@@ -10457,7 +11219,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:wyvernSword size(1) dmg(0)",
          "requirements" : [
-            "246 - Die Kernfrage"
+            "263 - Die Kernfrage"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10488,7 +11250,7 @@
          ]
       },
       {
-         "id" : 248,
+         "id" : 265,
          "name" : "Der flinke Wiesel",
          "description" : "Unnamed quest",
          "x" : 126,
@@ -10497,7 +11259,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:wyvernShovel size(1) dmg(0)",
          "requirements" : [
-            "246 - Die Kernfrage"
+            "263 - Die Kernfrage"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10528,7 +11290,7 @@
          ]
       },
       {
-         "id" : 249,
+         "id" : 266,
          "name" : "Der Beastmaster",
          "description" : "Unnamed quest",
          "x" : 146,
@@ -10537,7 +11299,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:customSpawner size(1) dmg(0)",
          "requirements" : [
-            "248 - Der flinke Wiesel"
+            "265 - Der flinke Wiesel"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10568,7 +11330,7 @@
          ]
       },
       {
-         "id" : 250,
+         "id" : 267,
          "name" : "Die Energiekugel",
          "description" : "Unnamed quest",
          "x" : 146,
@@ -10577,7 +11339,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:energyPylon size(1) dmg(0)",
          "requirements" : [
-            "246 - Die Kernfrage"
+            "263 - Die Kernfrage"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10608,7 +11370,7 @@
          ]
       },
       {
-         "id" : 251,
+         "id" : 268,
          "name" : "Wyvern Armor",
          "description" : "Unnamed quest",
          "x" : 166,
@@ -10617,7 +11379,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:wyvernHelm size(1) dmg(0)",
          "requirements" : [
-            "246 - Die Kernfrage"
+            "263 - Die Kernfrage"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10658,7 +11420,7 @@
          ]
       },
       {
-         "id" : 252,
+         "id" : 269,
          "name" : "Der Drachentoeter",
          "description" : "Unnamed quest",
          "x" : 202,
@@ -10667,7 +11429,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:dragonHeart size(1) dmg(0)",
          "requirements" : [
-            "251 - Wyvern Armor"
+            "268 - Wyvern Armor"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10693,7 +11455,7 @@
          ]
       },
       {
-         "id" : 253,
+         "id" : 270,
          "name" : "Das Ritual",
          "description" : "Unnamed quest",
          "x" : 242,
@@ -10702,7 +11464,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:draconicIngot size(1) dmg(0)",
          "requirements" : [
-            "252 - Der Drachentoeter"
+            "269 - Der Drachentoeter"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10728,7 +11490,7 @@
          ]
       },
       {
-         "id" : 254,
+         "id" : 271,
          "name" : "Der Zinnsoldat",
          "description" : "Unnamed quest",
          "x" : 218,
@@ -10737,7 +11499,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:draconicSword size(1) dmg(0)",
          "requirements" : [
-            "253 - Das Ritual"
+            "270 - Das Ritual"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10768,7 +11530,7 @@
          ]
       },
       {
-         "id" : 255,
+         "id" : 272,
          "name" : "Der Schwerarbeiter",
          "description" : "Unnamed quest",
          "x" : 242,
@@ -10777,7 +11539,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:draconicShovel size(1) dmg(0)",
          "requirements" : [
-            "253 - Das Ritual"
+            "270 - Das Ritual"
          ],
          "repeatInfo" : {
             "type" : "NONE"
@@ -10818,7 +11580,7 @@
          ]
       },
       {
-         "id" : 256,
+         "id" : 273,
          "name" : "Draconic Armor",
          "description" : "Unnamed quest",
          "x" : 266,
@@ -10827,7 +11589,7 @@
          "setID" : "010 - Der Drachentoeter",
          "icon" : "DraconicEvolution:draconicHelm size(1) dmg(0)",
          "requirements" : [
-            "253 - Das Ritual"
+            "270 - Das Ritual"
          ],
          "repeatInfo" : {
             "type" : "NONE"
