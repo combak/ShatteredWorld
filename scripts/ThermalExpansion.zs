@@ -21,6 +21,13 @@ val thermExpActivator		= <ThermalExpansion:Device:2>;
 # Buildcraft Additions
 val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
 
+# ExNihilo
+val exnihiloAluList = [ 
+  <exnihilo:aluminum_gravel>, 
+  <exnihilo:aluminum_sand>, 
+  <exnihilo:aluminum_dust> 
+] as IItemStack[]; /* List of Alu Blocks of ExNihilo */
+
 ########################################################################################################################
 # Item
 ########################################################################################################################
@@ -42,6 +49,9 @@ val buildcraftGearGold              = <BuildCraft|Core:goldGearItem>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
+
+# Tinkers Construc
+val tcAluDust                       = <TConstruct:materials:40>;
 
 # Remove Items/Recipies from the Redstone Furnace
 val removeFurnace = [
@@ -134,3 +144,8 @@ recipes.addShaped
 #					[thermFoundGearInvar, bcAdditionCoilLava, thermFoundGearInvar], 
 #					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 
+# Add ExNihilo Alu Blocks zu Pulverizer (oreGravel, oreSand, oreDust)
+for i, item in exnihiloAluList
+{ 
+  mods.thermalexpansion.Pulverizer.addRecipe(3200, item, tcAluDust * 2, null , 0);
+}
