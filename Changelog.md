@@ -1,5 +1,7 @@
 # Changelog
 
+# Version 0.6.5
+
 # Version 0.6.4
 
 **Config Changes**
