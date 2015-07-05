@@ -21,7 +21,7 @@
 - carpentersblocks-1.7.10-3.3.6.jar
 - chisel2-1.7.10-2.3.10.37.jar
 - codechickencore-1.7.10-1.0.7.46.jar
-- cofhcore-1.7.10-3.0.2-262.jar
+- cofhcore-1.7.10-3.0.3B2-294.jar
 - cookiecore-1.7.10-1.3.1-7.jar
 - customfluids-1.7.10-1.0.5beta.jar
 - custommainmenu-1.7.10-1.5.jar
@@ -58,7 +58,7 @@
 - mantle-1.7.10-0.3.2.jar
 - minetweaker3-1.7.10-3.0.9C.jar
 - mobiuscore-1.7.10-1.2.5.jar
-- modtweaker-1.7.10-2-0.8.2.jar
+- modtweaker-1.7.10-2-0.8.3.jar
 - natura-1.7.10-2.2.0.1.jar
 - neiaddons-1.7.10-1.12.9.32.jar
 - neiintegration-1.7.10-1.0.9.jar
@@ -74,7 +74,7 @@
 - projectred-compat-1.7.10-4.6.2.82.jar
 - projectred-integration-1.7.10-4.6.2.82.jar
 - projectred-lighting-1.7.10-4.6.2.82.jar
-- redstonearsenal-1.7.10-1.1.0RC7-74.jar
+- redstonearsenal-1.7.10-1.1.1B1-85.jar
 - resourceloader-1.7.10-1.2.jar
 - simplyjetpacks-1.7.10-1.5.1.jar
 - spiceoflife-1.7.10-1.2.3.jar
@@ -86,9 +86,9 @@
 - thaumcraft-1.7.10-4.2.3.5.jar
 - thaumcraftmobaspects-1.7.10-1.7.2-2A.jar
 - thaumcraftneiplugin-1.7.10-1.7a.jar
-- thermaldynamics-1.7.10-1.0.0-122.jar
-- thermalexpansion-1.7.10-4.0.1-182.jar
-- thermalfoundation-1.7.10-1.0.0-81.jar
+- thermaldynamics-1.7.10-1.1.0B2-149.jar
+- thermalexpansion-1.7.10-4.0.2B2-210.jar
+- thermalfoundation-1.7.10-1.2.0B1-95.jar
 - tictooltips-1.7.10-1.2.4.jar
 - tmechworks-1.7.10-0.2.14.100.jar
 - travellersgear-1.7.10-1.16.4.jar

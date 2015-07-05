@@ -2,6 +2,24 @@
 
 # Version 0.6.4
 
+**Config Changes**
+- Removed Inscriber Press copy Recipe 
+- Removed Wheat to Flour (Pulverizer)
+- Enabled Nether Quartz Override
+- Set Limit to Iron Ore instead of Iron Block
+- Disabled Ice Sharts 
+- Added Sky Stone production via Induction Smelter
+- Added Limited Blocks to Teleposer Blacklist
+- Removed Redstone Engine Custom Recipe
+
+**Mod Updates**
+- ModTweaker 0.8.2 to 0.8.3
+- CoFHCore 3.0.2-262 to 3.0.3B2-294
+- Redstone Arsenal 1.1.0RC7-74 to 1.1.1B1-85
+- Thermal Dynamics 1.0.0-122 to 1.1.0B2-149
+- Thermal Expansion 4.0.1-182 to 4.0.2B2-210
+- Thermal Foundation 1.0.0-81 to 1.2.0B1-95
+
 # Version 0.6.3
 
 **Config Changes**
