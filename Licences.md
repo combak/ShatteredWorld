@@ -565,11 +565,11 @@ minecraft original sources.
 - Licence: http://minecraft.curseforge.com/mc-mods/230170-tardis-mod/license
 
 **Team CoFH Mods**
-> This is the Internet. Even if you don’t like us (we still like you, really) for some reason, we can’t (and wouldn’t) stop you and maintain any semblance of a moral high ground, so have fun. Permission granted. This was made to be played, after all.
+> CoFH "Don't Be a Jerk" License
 
 - Included Mods: CoFH Core, Thermal Foundation, Thermal Expansion, Thermal Dynamics, Redstone Arsenal and NetherOres
 - Files: http://teamcofh.com/downloads/
-- Permission: http://teamcofh.com/license/
+- Permission: http://teamcofh.com/permissions/
 
 **Thaumcraft**
 > You want Thaumcraft in your mod pack? All you need to meet are five simple conditions:
