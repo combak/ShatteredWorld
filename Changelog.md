@@ -1,6 +1,12 @@
 # Changelog
 
-# Version 0.6.5
+# Version 0.6.4a
+
+**Mod Additions**
+- MrTJPCore 1.0.8.16 (Workaround: Maven failing to download jar dependency)
+
+**Mod Updates**
+- Binnie Mods 2.0-pre8 to 2.0-pre12
 
 # Version 0.6.4
 

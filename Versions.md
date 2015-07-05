@@ -12,7 +12,7 @@
 - autopackager-1.7.10-1.5.4.jar
 - bdlib-1.7.10-1.8.1.87.jar
 - bibliocraft-1.7.10-1.10.4.jar
-- binnie-mods-1.7.10-2.0-pre8.jar
+- binnie-mods-1.7.10-2.0-pre12.jar
 - bloodmagic-1.7.10-1.3.3-4.jar
 - botania-1.7.10-r1.6-192.jar
 - buildcraft-1.7.10-7.0.9.jar
@@ -59,6 +59,7 @@
 - minetweaker3-1.7.10-3.0.9C.jar
 - mobiuscore-1.7.10-1.2.5.jar
 - modtweaker-1.7.10-2-0.8.3.jar
+- MrTJPCore-1.0.8.16-universal.jar
 - natura-1.7.10-2.2.0.1.jar
 - neiaddons-1.7.10-1.12.9.32.jar
 - neiintegration-1.7.10-1.0.9.jar
