@@ -20,6 +20,12 @@ val thermExpDynamoMagmatic	= <ThermalExpansion:Dynamo:5>;
 val thermExpActivator		= <ThermalExpansion:Device:2>;
 # Buildcraft Additions
 val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
+# ExNihilo
+val exnihiloAluList = [ 
+  <exnihilo:aluminum_gravel>, 
+  <exnihilo:aluminum_sand>, 
+  <exnihilo:aluminum_dust> 
+] as IItemStack[]; /* List of Alu Blocks of ExNihilo */
 
 ########################################################################################################################
 # Item
@@ -39,6 +45,8 @@ val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
 
 # BuildCraft
 val buildcraftGearGold              = <BuildCraft|Core:goldGearItem>;
+
+val bcAdditionsDustAlu               = <bcadditions:dust:45>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
@@ -92,6 +100,12 @@ mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSan
 for i, item in removePulverizer
 {
   mods.thermalexpansion.Pulverizer.removeRecipe( item );
+}
+
+# Add ExNihilo Alu Blocks zu Pulverizer (oreGravel, oreSand, oreDust)
+for i, item in exnihiloAluList
+{ 
+  mods.thermalexpansion.Pulverizer.addRecipe(3200, item, bcAdditionsDustAlu * 2, null , 0);
 }
 
 ########################################################################################################################

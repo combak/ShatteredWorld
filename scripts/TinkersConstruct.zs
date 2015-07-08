@@ -32,6 +32,7 @@ val rsArsenalFluxedElectrumBlock = <RedstoneArsenal:Storage>;
 
 # Vanilla
 val vanillaRedstoneBlock = <minecraft:redstone_block>;
+val vanillaGlowstoneBlock = <minecraft:glowstone>;
 
 # EnderIO
 val enderioPulsatingIronBlock 	= <EnderIO:blockIngotStorage:5>;
@@ -125,7 +126,9 @@ val removeTableRecipes = [
 ] as IItemStack[];
 
 # Vanilla
-val vanillaRedstone = <minecraft:redstone>;
+val vanillaRedstone      = <minecraft:redstone>;
+val vanillaGlowstoneDust = <minecraft:glowstone_dust>;
+val vanillaBucket        = <minecraft:bucket>;
 
 # Thaumcraft
 val thaumcraftThaumiumNugget	= <Thaumcraft:ItemNugget:6>;
@@ -157,6 +160,7 @@ val frElementium	= <liquid:molten_elementium>;
 val frWroughtIron	= <liquid:molten_wroughtiron>;
 val frFluxedElectrum	= <liquid:molten_fluxedelectrum>;
 val frRedstone		= <liquid:redstone>;
+val frGlowstone		= <liquid:glowstone>;
 val frPulsatingIron	= <liquid:molten_pulsatingiron>;
 val frVibrantAlloy	= <liquid:molten_vibrantalloy>;
 val frSilver		= <liquid:silver.molten>;
@@ -264,9 +268,13 @@ mods.tconstruct.Casting.addTableRecipe( thermFoundManaInfusedIngot, frManaInfuse
 # Redstone Melting -> Destabilized Redstone & Redstone Block
 mods.tconstruct.Smeltery.removeMelting( vanillaRedstone );
 mods.tconstruct.Smeltery.removeMelting( vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 500, vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 500, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 2000, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 2000, vanillaRedstoneBlock );
 mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 900, null, false, 20);
+
+# Energized Glowstone -> Glowstone und Glowstone Dust
+mods.tconstruct.Casting.addBasinRecipe( vanillaGlowstoneBlock, frGlowstone * 1000, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe( vanillaGlowstoneDust, frGlowstone * 250, tConstructNuggetCast, false, 20);
 
 # Pulsating Iron
 mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronNugget, frPulsatingIron * 16, 500, enderioPulsatingIronBlock );
@@ -318,6 +326,8 @@ mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, igu
 recipes.remove( pamsPot );
 mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, true, 20 );
 
+# Bucket exploit Alu -> Bucket -> Smeltery -> Iron
+mods.tconstruct.Smeltery.removeMelting( vanillaBucket );
 
 ########################################################################################################################
 # Bonus / Gag
