@@ -58,7 +58,7 @@
 - mantle-1.7.10-0.3.2.jar
 - minetweaker3-1.7.10-3.0.9C.jar
 - mobiuscore-1.7.10-1.2.5.jar
-- modtweaker-1.7.10-2-0.8.3.jar
+- modtweaker-1.7.10-2-0.9.0-alpha-b02.jar
 - MrTJPCore-1.0.8.16-universal.jar
 - natura-1.7.10-2.2.0.1.jar
 - neiaddons-1.7.10-1.12.9.32.jar

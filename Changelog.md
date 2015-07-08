@@ -2,6 +2,9 @@
 
 # Version 0.6.5
 
+**Mod Updates**
+- ModTweaker 2-0.8.3 to 2-0.9.0-alpha-b02
+
 # Version 0.6.4a
 
 **Mod Additions**
