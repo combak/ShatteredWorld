@@ -56,7 +56,7 @@ val removeFurnace = [
   <TConstruct:oreBerries>,		/* Iron Oreberry to Nugget */
   <TConstruct:oreBerries:1>,		/* Gold Oreberry to Nugget */
   <TConstruct:oreBerries:2>,		/* Copper Oreberry to Nugget */
-  <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
+#  <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
   <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
   <exnihilo:copper_gravel>,		/* geht nicht warum auch immer TODO */
   <ThermalFoundation:material:41>	/* Bronze Dust to Ingot */
