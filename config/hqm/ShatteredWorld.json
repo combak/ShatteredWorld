@@ -83,7 +83,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Holz ist die Grundlage fuer viele Rezepte hier.",
                "requirements" : [
                   {
                      "item" : "minecraft:log size(1) dmg(0)",
@@ -95,7 +95,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Wenn man das Holz in ein Crafting Grid legt, kann man daraus Bretter (Planks) machen",
                "requirements" : [
                   {
                      "item" : "minecraft:planks size(1) dmg(0)",
@@ -111,7 +111,7 @@
       {
          "id" : 1,
          "name" : "Die Toolstation",
-         "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\n\nDafuer muessen wir uns zunaechst mal eine Werkbank (Crafting Table) bauen.",
+         "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\nDafuer muessen wir uns zunaechst mal eine Werkbank (Crafting Table) bauen.",
          "x" : 94,
          "y" : 40,
          "big" : false,
@@ -130,7 +130,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Mit diesen Tischen kannst du dir Werkzeuge aus Tinkers Construct bauen.",
                "requirements" : [
                   {
                      "item" : "TConstruct:ToolStationBlock size(1) dmg(10)",
@@ -161,7 +161,7 @@
       {
          "id" : 2,
          "name" : "Der beste Ordnungssinn",
-         "description" : null,
+         "description" : "So langsam haeufen sich ein paar Gegenstaende. Den ganzen Cobblestone, das Holz und ein paar andere Dinge muss man doch besser unterbringen koennen, als in einer Kiste.",
          "x" : 74,
          "y" : 10,
          "big" : false,
@@ -180,7 +180,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Die Kapazitaet der drei Drawer ist gleich, jedoch teilt sich die Kapazitaet auf die Anzahl der Schubladen auf. Die Drawers koennen spaeter mittels einer Dolly auch umgezogen werden",
                "requirements" : [
                   {
                      "item" : "StorageDrawers:fullDrawers1 size(1) dmg(0)",
@@ -205,8 +205,8 @@
       },
       {
          "id" : 3,
-         "name" : "mehr ist immer besser",
-         "description" : null,
+         "name" : "Mehr ist immer besser",
+         "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese auch aufwerten.",
          "x" : 102,
          "y" : 10,
          "big" : false,
@@ -225,7 +225,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Wenn du mit dem Storage Upgrade auf einen Storage Drawer rechtsklickst, dann wird dessen Kapazitaet erhoeht.",
                "requirements" : [
                   {
                      "item" : "StorageDrawers:upgradeTemplate size(1) dmg(0)",
@@ -329,7 +329,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task Pickaxe",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Mit einem Pickaxe Head Stencil aus dem Stencil Table kann man im Part Builder mit dem Flint einen Pickaxe Head machen. Dazu braucht man dann noch ein Binding und einen Tool Rod, die man beide genauso herstellt, aber als Material Holzbretter (Planks) verwendet. Am Schluss baut man alles in der Tool Station zusammen",
                "requirements" : [
                   {
                      "item" : "TConstruct:pickaxe size(1) dmg(0)",
@@ -341,7 +341,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Mit der neuen Spitzhake kann man nun ganz leicht Steine abbauen und bekommt Cobblestone",
                "requirements" : [
                   {
                      "item" : "minecraft:cobblestone size(1) dmg(0)",
@@ -376,7 +376,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Der Ofen wird fuer vieles benoetigt.",
                "requirements" : [
                   {
                      "item" : "minecraft:furnace size(1) dmg(0)",
@@ -411,7 +411,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks",
                "requirements" : [
                   {
                      "item" : "minecraft:torch size(1) dmg(0)",
@@ -446,7 +446,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Alle Items, die in den Muelleimer wandern sind fuer immer verloren. Also sei gewarnt!",
                "requirements" : [
                   {
                      "item" : "ExtraUtilities:trashcan size(1) dmg(0)",
@@ -462,7 +462,7 @@
       {
          "id" : 9,
          "name" : "Der Metallkoch",
-         "description" : null,
+         "description" : "Jetzt haben wir doch schon das eine oder andere Rohmetall (Ore) gefunden. Man kann viele davon in einen Ofen (Furnace) werfen und brennen, aber dieser Weg ist nicht effektiv. Eine Schmelze ist der bessere Weg.",
          "x" : 98,
          "y" : 95,
          "big" : false,
@@ -481,7 +481,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "In der Schmelze wird die Ausbeute an Metallen verdoppelt. Ebenso kann man damit Metalllegierungen herstellen. Den Aufbau kann man im Handbuch Mighty Smelting nachlesen",
                "requirements" : [
                   {
                      "item" : "TConstruct:Smeltery size(1) dmg(0)",
@@ -522,7 +522,7 @@
       {
          "id" : 10,
          "name" : "Die Giesserei",
-         "description" : null,
+         "description" : "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Form haben. Dafuer brauchen wir Negativformen (Casts).",
          "x" : 78,
          "y" : 125,
          "big" : false,
@@ -542,10 +542,10 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Um den Cast herzustellen muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold drauflaufen lassen.",
                "requirements" : [
                   {
-                     "item" : "TConstruct:Cast size(1) dmg(0)",
+                     "item" : "TConstruct:metalPattern size(1) dmg(0)",
                      "required" : 1,
                      "precision" : "PRECISE"
                   },
@@ -582,7 +582,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Abfaelle koennen hier kompostiert werden. Besser, als sie in den Muelleimer zu werfen.",
                "requirements" : [
                   {
                      "item" : "GardenCore:compost_bin size(1) dmg(0)",
@@ -594,7 +594,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Die Mattock ist ein Multi Funktionelles Werkzeug. Man kann damit Erde abbauen (Schaufel Ersatz), Baeume Faellen (Axt Ersatz) und gleichzeitig auch noch Felder pfluegen, ein Wunderwerk neuzeitlicher Ingenieurskunst",
                "requirements" : [
                   {
                      "item" : "TConstruct:mattock size(1) dmg(0)",
@@ -606,7 +606,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Garden Soil ist eine wunderbare Grundlage fuer ein Feld. Normales Farmland wird hier nicht funktionieren.",
                "requirements" : [
                   {
                      "item" : "GardenCore:garden_soil size(1) dmg(0)",
@@ -641,7 +641,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Zuerst die Crops aufs Feld setzen, dann in das gesetzt Crop den Samen setzen. Ernten geht dann mit der leeren rechten Hand. Dabei bleibt die eigentliche Pflanze stehen und kann gleich wieder wachsen",
                "requirements" : [
                   {
                      "item" : "AgriCraft:cropsItem size(1) dmg(0)",
@@ -653,7 +653,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Eventuell muss man hier noch ein wenig Zuechten. ",
                "requirements" : [
                   {
                      "item" : "minecraft:wheat size(1) dmg(0)",
@@ -698,7 +698,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Ein Longsword ist eine gute Allround Waffe mit mittlerer Geschwindigkeit und mittlerem Schaden.",
                "requirements" : [
                   {
                      "item" : "TConstruct:longsword size(1) dmg(0)",
@@ -733,7 +733,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Das Bett dient auch dazu, dass man im Falle des vorzeitigen Ablebens auch an dieser Stelle wiedergeboren wird.",
                "requirements" : [
                   {
                      "item" : "minecraft:bed size(1) dmg(0)",
@@ -768,7 +768,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Mit dem Hammer kann man Cobblestone zu Gravel kleinhaemmern",
                "requirements" : [
                   {
                      "item" : "exnihilo:hammer_stone size(1) dmg(0)",
@@ -780,7 +780,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task Gravel",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "... und wenn man das mehrfach macht, dann entstehen Gravel -> Sand -> Dust",
                "requirements" : [
                   {
                      "item" : "minecraft:gravel size(1) dmg(0)",
@@ -825,7 +825,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Es gibt viele Dinge, die man durchsieben kann. Fuer den Start sollte man es mal mit Gravel, Sand und Dust probieren.",
                "requirements" : [
                   {
                      "item" : "exnihilo:sifting_table size(1) dmg(0)",
@@ -841,7 +841,7 @@
       {
          "id" : 17,
          "name" : "Das neue Zeitalter",
-         "description" : "Unnamed quest",
+         "description" : "Heureka, wir muessen ja gar nicht alles auf unserer kleinen Insel finden, man findest auch ganz viele Metalle, wenn man Gravel, Sand oder Dust durchs Sieb siebt :)\n",
          "x" : 110,
          "y" : 155,
          "big" : false,
@@ -860,7 +860,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Die beim Sieben entstehenden kleineren Teilchen muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt.",
                "requirements" : [
                   {
                      "item" : "minecraft:iron_ingot size(1) dmg(0)",
@@ -885,8 +885,8 @@
       },
       {
          "id" : 18,
-         "name" : "wie man einen See versetzt",
-         "description" : null,
+         "name" : "Wie man einen See versetzt",
+         "description" : "Da ist mir doch glatt ein kleiner Teich im Weg, aber wohin mit dem ganzen Wasser aus dem Teich",
          "x" : 142,
          "y" : 140,
          "big" : false,
@@ -905,10 +905,10 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Der Tank kann vergroessert werden. Mit einem Crescent Hammer kann man mit SHIFT und Rechtklick den Tank abbauen, ohne das die Fluessigkeiten verloren gehen. Wenn man den Tank auf eine Maschine setzt und dem Tank mit dem Crescent Hammer einen rechtsklick verpasst, so funktioniert er meistens als Fluessigkeitsquelle.",
                "requirements" : [
                   {
-                     "item" : "ThermalExpansion:Tank size(1) dmg(0)",
+                     "item" : "ThermalExpansion:Tank size(1) dmg(1)",
                      "required" : 1,
                      "precision" : "PRECISE"
                   }
@@ -920,8 +920,8 @@
       },
       {
          "id" : 19,
-         "name" : "wie passt nur alles da rein",
-         "description" : null,
+         "name" : "Wie passt nur alles da rein",
+         "description" : "Andauernd habe ich die Taschen voll. Eine weitere Transportmoeglichkeit muss her.",
          "x" : 94,
          "y" : 180,
          "big" : false,
@@ -940,7 +940,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Die Backback Pouch in den Rucksack legen und dann die Pouch im Rucksack rechtsklicken. Damit wird der Rucksack was ....",
                "requirements" : [
                   {
                      "item" : "backpacks16840:backpack size(1) dmg(3)",
@@ -980,7 +980,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Der Hammer kann alles, was auch der Stone Hammer kann, braucht dafuer aber Energie. Das Sieb funktioniert genauso, wie das andere Sieb, nur das hier auch schon ein wenig Platz vorhanden ist, auch das braucht Energie.",
                "requirements" : [
                   {
                      "item" : "exastrisrebirth:blockSieveAutomatic size(1) dmg(0)",
@@ -1001,7 +1001,7 @@
       {
          "id" : 21,
          "name" : "Der Held der Automatisierung",
-         "description" : "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen. Auch koennte man sich mal einen komfortablen Arbeitsplatz bauen. Ach und wenn man den noch verbessern kann, dann waere das richtig super.",
+         "description" : "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen.",
          "x" : 174,
          "y" : 170,
          "big" : false,
@@ -1020,7 +1020,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Links und Rechts davon eine Kiste oder aehnliches aufstellen und er versucht die Gegenstaende aus der linken Kiste zusammenzufassen und legt sie dann in die rechte Kiste. Die Seite mit dem aufgemalten Crafting Grid auf der Maschine ist die Vorderseite.",
                "requirements" : [
                   {
                      "item" : "autopackager:packagerBlock size(1) dmg(0)",
@@ -1055,7 +1055,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Die Barrel kann fuer verschiedene Sachen verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren.",
                "requirements" : [
                   {
                      "item" : "exastrisrebirth:blockBarrelTweak size(1) dmg(0)",
@@ -1067,7 +1067,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Wenn man in die mit Wasser gefuellte Barrel Dust legt, kommt Clay raus. Aus dem Clay stellt man den Eimer her, den man nochmal im Ofen brennen muss.",
                "requirements" : [
                   {
                      "item" : "minecraft:clay size(1) dmg(0)",
@@ -1107,7 +1107,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Mit dem Mortar und Weizen stellt man Mehl her, dass man mit Wasser und Salz zu Teig (Dough) macht.",
                "requirements" : [
                   {
                      "item" : "harvestcraft:mortarandpestleItem size(1) dmg(0)",
@@ -1124,7 +1124,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Den Teig muss man nur in den Ofen schieben und es kommt ofenfrisches Brot raus. Aus dem kann man durch nochmaliges backen dann Toast erzeugen.",
                "requirements" : [
                   {
                      "item" : "minecraft:bread size(1) dmg(0)",
@@ -1164,7 +1164,7 @@
             {
                "type" : "TASK_MOB",
                "name" : "Killing Task",
-               "description" : "A task where the player has to kill certain monsters.",
+               "description" : "Monster toetttttteeeeeennnnnnnnnnnnnnnn",
                "mobs" : [
                   {
                      "name" : "Skeleton",
@@ -1208,7 +1208,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Vorsicht vor den schwarzen Gestalten, die sehen einfacher aus, als sie sind.",
                "requirements" : [
                   {
                      "item" : "minecraft:ender_pearl size(1) dmg(0)",
@@ -1243,7 +1243,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Zu der Angel braucht man nur noch einen kleinen See und los geht es mit dem erholsamen Angeln.",
                "requirements" : [
                   {
                      "item" : "minecraft:fishing_rod size(1) dmg(0)",
@@ -1255,7 +1255,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Ruhig Blut, angeln ist kein Sport, hier liegt die Kraft in der inneren Ruhe.",
                "requirements" : [
                   {
                      "item" : "minecraft:fish size(1) dmg(0)",
@@ -1290,7 +1290,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Diese Gegenstaende werden fuer bessere Rezepte benoetigt. Diese brauchen sich nicht auf. Je besser und aufwendiger das Essen, desto mehr Hunger kann damit auch gestillt werden.",
                "requirements" : [
                   {
                      "item" : "harvestcraft:mixingbowlItem size(1) dmg(0)",
@@ -1335,7 +1335,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Die allmaechtige Fackel schafft es Cobblestone im Crucible zu Lava zu schmelzen. Fackel unter den Crucible, Cobblestone in den Crucible und los geht es.",
                "requirements" : [
                   {
                      "item" : "exnihilo:crucible size(1) dmg(0)",
@@ -1376,7 +1376,7 @@
             {
                "type" : "TASK_ITEMS_CRAFTING",
                "name" : "Crafting Task",
-               "description" : "A task where the player has to craft specific items.",
+               "description" : "Mit dem Tool Forge Tisch kann man sich erst die fortgeschrittenen Waffen und Werkzeuge herstellen.",
                "requirements" : [
                   {
                      "item" : "TConstruct:ToolForgeBlock size(1) dmg(0)",
@@ -1388,7 +1388,7 @@
             {
                "type" : "TASK_ITEMS_DETECT",
                "name" : "Detection Task",
-               "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+               "description" : "Mit dieser Axt reicht es den Baum unten zu faellen. Der Rest kommt von selbst.",
                "requirements" : [
                   {
                      "item" : "TConstruct:lumberaxe size(1) dmg(0)",

@@ -79,6 +79,126 @@ val tConstructIngots = [
   <TConstruct:materials:18>	/* 10 - Obsidian */
 ] as IItemStack[];
 
+val tConstructCobaltItems = [
+  <TConstruct:chiselHead:10>, 
+  <TConstruct:SearedBrick:1>, 
+  <TConstruct:knifeBlade:10>, 
+  <TConstruct:CrossbowBodyPart:10>, 
+  <TConstruct:swordBlade:10>, 
+  <TConstruct:heavyPlate:10>, 
+  <TConstruct:CrossbowLimbPart:10>, 
+  <TConstruct:binding:10>, 
+  <TConstruct:signHead:10>, 
+  <TConstruct:crossbar:10>, 
+  <TConstruct:fullGuard:10>, 
+  <TConstruct:pickaxeHead:10>, 
+  <TConstruct:broadAxeHead:10>, 
+  <TConstruct:largeSwordBlade:10>, 
+  <TConstruct:arrowhead:10>, 
+  <TConstruct:ShurikenPart:10>, 
+  <TConstruct:toughBinding:10>, 
+  <TConstruct:shovelHead:10>, 
+  <TConstruct:toolShard:10>, 
+  <TConstruct:toughRod:10>, 
+  <TConstruct:toolRod:10>, 
+  <TConstruct:frypanHead:10>, 
+  <exastrisrebirth:blockOreCobalt>, 
+  <exastrisrebirth:blockOreCobalt:1>, 
+  <exastrisrebirth:blockOreCobalt:2>, 
+  <TConstruct:BowLimbPart:10>, 
+  <TConstruct:materials:3>, 
+  <TConstruct:excavatorHead:10>, 
+  <TConstruct:handGuard:10>, 
+  <TConstruct:hammerHead:10>, 
+  <TConstruct:materials:28>, 
+  <WitchingGadgets:item.WG_Cluster:1>, 
+  <TConstruct:materials:39>, 
+  <TConstruct:wideGuard:10>, 
+  <TConstruct:scytheBlade:10>, 
+  <TConstruct:hatchetHead:10>, 
+  <TConstruct:MetalBlock>, 
+] as IItemStack[];
+
+val tConstructArditeItems = [
+  <TConstruct:chiselHead:11>, 
+  <TConstruct:SearedBrick:2>, 
+  <TConstruct:knifeBlade:11>, 
+  <TConstruct:CrossbowBodyPart:11>, 
+  <TConstruct:swordBlade:11>, 
+  <TConstruct:heavyPlate:11>, 
+  <TConstruct:CrossbowLimbPart:11>, 
+  <TConstruct:binding:11>, 
+  <TConstruct:signHead:11>, 
+  <TConstruct:crossbar:11>, 
+  <TConstruct:fullGuard:11>, 
+  <TConstruct:pickaxeHead:11>, 
+  <TConstruct:broadAxeHead:11>, 
+  <TConstruct:largeSwordBlade:11>, 
+  <TConstruct:arrowhead:11>, 
+  <TConstruct:ShurikenPart:11>, 
+  <TConstruct:toughBinding:11>, 
+  <TConstruct:shovelHead:11>, 
+  <TConstruct:toolShard:11>, 
+  <TConstruct:toughRod:11>, 
+  <TConstruct:toolRod:11>, 
+  <TConstruct:frypanHead:11>, 
+  <exastrisrebirth:blockOreArdite>, 
+  <exastrisrebirth:blockOreArdite:1>, 
+  <exastrisrebirth:blockOreArdite:2>, 
+  <TConstruct:BowLimbPart:11>, 
+  <TConstruct:materials:4>, 
+  <TConstruct:excavatorHead:11>, 
+  <TConstruct:handGuard:11>, 
+  <TConstruct:hammerHead:11>, 
+  <TConstruct:materials:29>, 
+  <WitchingGadgets:item.WG_Cluster:2>, 
+  <TConstruct:materials:38>, 
+  <TConstruct:wideGuard:11>, 
+  <TConstruct:scytheBlade:11>, 
+  <TConstruct:hatchetHead:10>, 
+  <TConstruct:MetalBlock:1>, 
+] as IItemStack[];
+
+val tConstructItemMeltingAmount = [ 72, 
+  288, 
+  72, 
+  720, 
+  144, 
+  1152, 
+  576, 
+  72, 
+  144, 
+  72, 
+  432, 
+  144, 
+  1152, 
+  1152, 
+  144, 
+  72, 
+  432, 
+  144, 
+  72, 
+  432, 
+  72, 
+  144, 
+  288, 
+  288, 
+  288, 
+  216, 
+  144, 
+  1152, 
+  72, 
+  1152, 
+  16, 
+  432, 
+  144, 
+  72, 
+  1152, 
+  144, 
+  1296, 
+] as int[];
+
+
 val tConstructIngotCast		= <TConstruct:metalPattern>;
 val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
 
@@ -172,6 +292,17 @@ val frGold		= <liquid:gold.molten>;
 val frThaumium		= <liquid:molten_thaumium>;
 val frVoidMetal		= <liquid:molten_voidmetal>;
 val frElectricalSteel	= <liquid:molten_electricalsteel>;
+val frCobalt	= <liquid:cobalt.molten>;
+val frArdite	= <liquid:ardite.molten>;
+
+# Fluids Brennstoff
+val frEthanol    = <liquid:bioethanol>;
+val frFuel       = <liquid:fuel>;
+val frFuelGas    = <liquid:fuelgas>;
+val frOil        = <liquid:oil>;
+val frPetrotheum = <liquid:petrotheum>;
+val frRocketFuel = <liquid:rocket_fuel>;
+val frSynGas     = <liquid:syngas>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -328,6 +459,36 @@ mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayB
 
 # Bucket exploit Alu -> Bucket -> Smeltery -> Iron
 mods.tconstruct.Smeltery.removeMelting( vanillaBucket );
+
+# Mass Change of Smelting Temps
+for i, item in tConstructCobaltItems 
+{
+    mods.tconstruct.Smeltery.removeMelting( item );
+    mods.tconstruct.Smeltery.addMelting( item, frCobalt * tConstructItemMeltingAmount[i], 1500, <TConstruct:MetalBlock> );
+}
+
+for i, item in tConstructArditeItems 
+{
+    mods.tconstruct.Smeltery.removeMelting( item );
+    mods.tconstruct.Smeltery.addMelting( item, frArdite * tConstructItemMeltingAmount[i], 1500, <TConstruct:MetalBlock:1> );
+}
+
+########################################################################################################################
+# Additional Fuels for Smeltery
+########################################################################################################################
+
+# Same as Lava
+mods.tconstruct.Smeltery.addFuel(frEthanol, 1300, 80);
+mods.tconstruct.Smeltery.addFuel(frFuel, 1300, 80);
+mods.tconstruct.Smeltery.addFuel(frFuelGas, 1300, 80);
+mods.tconstruct.Smeltery.addFuel(frOil, 1300, 40);
+mods.tconstruct.Smeltery.addFuel(frSynGas, 1300, 40);
+
+# to 2100°C
+mods.tconstruct.Smeltery.addFuel(frRocketFuel, 2100, 80);
+
+# Same as Pyrotheum
+mods.tconstruct.Smeltery.addFuel(frPetrotheum, 4000, 240);
 
 ########################################################################################################################
 # Bonus / Gag
