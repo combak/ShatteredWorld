@@ -303,6 +303,8 @@ val frOil        = <liquid:oil>;
 val frPetrotheum = <liquid:petrotheum>;
 val frRocketFuel = <liquid:rocket_fuel>;
 val frSynGas     = <liquid:syngas>;
+val frLiquidCoal = <liquid:coal>;
+val frAerotheum     = <liquid:aerotheum>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -483,12 +485,14 @@ mods.tconstruct.Smeltery.addFuel(frFuel, 1300, 80);
 mods.tconstruct.Smeltery.addFuel(frFuelGas, 1300, 80);
 mods.tconstruct.Smeltery.addFuel(frOil, 1300, 40);
 mods.tconstruct.Smeltery.addFuel(frSynGas, 1300, 40);
+mods.tconstruct.Smeltery.addFuel(frLiquidCoal, 1300, 40);
 
 # to 2100°C
 mods.tconstruct.Smeltery.addFuel(frRocketFuel, 2100, 80);
 
 # Same as Pyrotheum
 mods.tconstruct.Smeltery.addFuel(frPetrotheum, 4000, 240);
+mods.tconstruct.Smeltery.addFuel(frAerotheum, 4000, 240);
 
 ########################################################################################################################
 # Bonus / Gag
