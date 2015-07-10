@@ -45,6 +45,15 @@ val thaumcraftThaumiumBlock = <Thaumcraft:blockCosmeticSolid:4>;
 # Witching Gadgets
 val witchGadVoidMetalBlock = <WitchingGadgets:tile.WG_MetalDevice.name:7>;
 
+# Dragonic Evolution
+val dracEvoDraconiumBlock	= <DraconicEvolution:draconium>;
+val dracEvoDraconiumOre		= <DraconicEvolution:draconiumOre>;
+
+# Ex Astris
+#val exAstrisDraconiumOreGravel	= <exastrisrebirth:ender_draconiumdust_gravel>;
+#val exAstrisDraconiumOreSand	= <exastrisrebirth:draconiumdust_sand>;
+#val exAstrisDraconiumOreDust	= <exastrisrebirth:draconiumdust_dust>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -266,6 +275,10 @@ val pamsPot              = <harvestcraft:potItem>;
 val iguUnfiredClayBucket = <IguanaTweaksTConstruct:clayBucketUnfired>;
 val iguFiredClayBucket   = <IguanaTweaksTConstruct:clayBucketFired>;
 
+# Draconic Evolution
+val dracEvoDraconiumDust	= <DraconicEvolution:draconiumDust>;
+val dracEvoDraconiumIngot	= <DraconicEvolution:draconiumIngot>;
+
 ########################################################################################################################
 # Fluid Registry
 ########################################################################################################################
@@ -292,8 +305,9 @@ val frGold		= <liquid:gold.molten>;
 val frThaumium		= <liquid:molten_thaumium>;
 val frVoidMetal		= <liquid:molten_voidmetal>;
 val frElectricalSteel	= <liquid:molten_electricalsteel>;
-val frCobalt	= <liquid:cobalt.molten>;
-val frArdite	= <liquid:ardite.molten>;
+val frCobalt		= <liquid:cobalt.molten>;
+val frArdite		= <liquid:ardite.molten>;
+val frDraconium		= <liquid:molten_draconium>;
 
 # Fluids Brennstoff
 val frEthanol    = <liquid:bioethanol>;
@@ -452,6 +466,17 @@ mods.tconstruct.Smeltery.addMelting( witchGadVoidMetalBlock, frVoidMetal * 1296,
 mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalNugget, frVoidMetal * 16, tConstructNuggetCast, false, 20 );
 mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalIngot, frVoidMetal * 144, tConstructIngotCast, false, 20 );
 mods.tconstruct.Casting.addBasinRecipe( witchGadVoidMetalBlock, frVoidMetal * 1296, null, false, 20);
+
+# Draconium
+#mods.tconstruct.Smeltery.addMelting( exAstrisDraconiumOreGravel, frDraconium * 144, 500, dracEvoDraconiumBlock );
+#mods.tconstruct.Smeltery.addMelting( exAstrisDraconiumOreSand, frDraconium * 144, 500, dracEvoDraconiumBlock );
+#mods.tconstruct.Smeltery.addMelting( exAstrisDraconiumOreDust, frDraconium * 144, 500, dracEvoDraconiumBlock );
+mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumDust, frDraconium * 144, 500, dracEvoDraconiumBlock );
+mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumIngot, frDraconium * 144, 500, dracEvoDraconiumBlock );
+mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumBlock, frDraconium * 1296, 500, dracEvoDraconiumBlock );
+mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumOre, frDraconium * 288, 500, dracEvoDraconiumBlock );
+mods.tconstruct.Casting.addTableRecipe( dracEvoDraconiumIngot, frDraconium * 144, tConstructIngotCast, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( dracEvoDraconiumBlock, frDraconium * 1296, null, false, 20);
 
 # Pams Harvestcraft
 recipes.remove( pamsSaucePan );
