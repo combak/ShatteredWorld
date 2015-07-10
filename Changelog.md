@@ -2,6 +2,18 @@
 
 # Version 0.6.6
 
+**Config Changes**
+- Extended Fuels for Tinkers Smeltery
+- Some Materials require higher temperatures in the Smeltery 
+- Removed Epic Bacon
+- Added Molten Draconium
+
+**Mod Additions**
+- Hardcore Ender Expansion 1.8.2
+
+**Mod Updates**
+- CustomFluids 1.0.5beta to 1.0.6beta
+
 # Version 0.6.5
 
 **Mod Updates**

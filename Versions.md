@@ -23,7 +23,7 @@
 - codechickencore-1.7.10-1.0.7.46.jar
 - cofhcore-1.7.10-3.0.3B2-294.jar
 - cookiecore-1.7.10-1.3.1-7.jar
-- customfluids-1.7.10-1.0.5beta.jar
+- customfluids-1.7.10-1.0.6beta.jar
 - custommainmenu-1.7.10-1.5.jar
 - customnpcs-1.7.10-1.7.10d.jar
 - darkcore-1.7.10-0.25-30.jar
@@ -46,6 +46,7 @@
 - gardenstuff-1.7.10-1.6.3.jar
 - generators-1.7.10-0.9.13.72.jar
 - hardcoredarkness-1.7.10-1.5.jar
+- hardcoreenderexpansion-1.7.10-1.8.2.jar
 - hqm-the-journey-1.7.10-4.2.4.jar
 - iguanatinkertweaks-1.7.10-2.1.5.jar
 - immibis-core-1.7.10-59.1.1.jar
