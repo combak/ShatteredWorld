@@ -13,7 +13,7 @@ val harvCraftFishTrap		= <harvestcraft:fishtrap>;
 val harvCraftMarket		= <harvestcraft:market>;
 val harvCraftMortarandPestle	= <harvestcraft:mortarandpestleItem>;
 val harvCraftFlour		= <harvestcraft:flourItem>;
-
+val harvCraftEpicBacon		= <harvestcraft:epicbaconItem>;
 # Natura
 val naturaBarlay = <Natura:barleyFood>;
 
@@ -40,3 +40,6 @@ recipes.remove( harvCraftFishTrap );
 
 # Natura Barlay to Flour
 recipes.addShapeless( harvCraftFlour, [ harvCraftMortarandPestle, naturaBarlay ] );
+
+# Remove Epic Bacon
+recipes.remove( harvCraftEpicBacon );
