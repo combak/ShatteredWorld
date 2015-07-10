@@ -330,6 +330,16 @@
 - Files: http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness/files
 - Permission: http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness
 
+**Hardcore Ender Expansion**
+> To get permission to redistribute the mod in your modpack, send me a private message on CurseForge or MinecraftForum; 
+> the subject has to contain modpack name and requested mod name, and the message needs to have MC version, 
+> full mod list and a link to the modpack website, download or forum post; I will respond ok if the permission is given
+
+- Author: chylex
+- Files: http://minecraft.curseforge.com/mc-mods/228015-hardcore-ender-expansion/files
+- Permission: https://github.com/combak/ShatteredWorld/blob/master/permissions/Hardcore-Ender-Expansion.png
+
+
 **Hardcore Questing Mode**
 > Just give us a headsup, whether we reply or not, it's cool.
 
