@@ -17,3 +17,6 @@ tile.customfluids:molten_fluxedelectrum.name=Geschmolzenes fluxierendes Elektrum
 # Thaumcraft
 tile.customfluids:molten_thaumium.name=Geschmolzenes Thaumium
 tile.customfluids:molten_voidmetal.name=Geschmolzenes Leermetall
+
+# Dragonic Evolution
+tile.customfluids:molten_draconium.name=Geschmolzenes drakonisches Metall

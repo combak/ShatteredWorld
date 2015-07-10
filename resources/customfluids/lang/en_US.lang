@@ -17,3 +17,6 @@ tile.customfluids:molten_fluxedelectrum.name=Molten Fluxed Electrum
 # Thaumcraft
 tile.customfluids:molten_thaumium.name=Molten Thaumium
 tile.customfluids:molten_voidmetal.name=Molten Void Metal
+
+# Dragonic Evolution
+tile.customfluids:molten_draconium.name=Molten Draconium
