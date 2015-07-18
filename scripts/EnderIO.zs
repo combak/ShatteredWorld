@@ -6,8 +6,7 @@ import minetweaker.item.IItemStack;
 # BC Additions
 val bcAdditionCoilBasic             = <bcadditions:blockCoilBasic>;
 
-# Botany
-val botanyGlassDeepBlue             = <Botany:stained:2>;
+
 
 # EnderIO
 val enderioGeneratorStirling        = <EnderIO:blockStirlingGenerator>;
@@ -20,6 +19,9 @@ val enderioTank                     = <EnderIO:blockTank>;
 
 # Forest Day
 val forestDayFurnaceCoke            = <Forestday:machine.furnace>;
+
+# Forestry
+val ForestryGlassBlue               = <Forestry:stained:11>;
 
 # Extra Utilities
 val extUtilGlassThickened           = <ExtraUtilities:decorativeBlock2>;
@@ -63,6 +65,7 @@ val enderioIngots = [
 
 val enderioBasicGear 		= <EnderIO:itemMachinePart:1>;
 val enderioZombieElectrode      = <EnderIO:itemFrankenSkull>;
+val enderioVibrantCrystal   = <EnderIO:itemMaterial:6>;
 
 # Forest Day
 val forestDayWoodGear = <Forestday:fd.item.gear.wood:1>;
@@ -126,7 +129,7 @@ recipes.remove(enderioGeneratorZombie);
 recipes.addShaped( enderioGeneratorZombie, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, enderioZombieElectrode, projectRedConductivePlate ], [ extUtilGlassThickened, forestDayFurnaceCoke, extUtilGlassThickened ] ]);
 
 recipes.remove(enderioSolarpanelsmall);
-recipes.addShaped( enderioSolarpanelsmall, [ [ projectRedChipEnergized, botanyGlassDeepBlue , projectRedChipEnergized ], [ buildCraftChipComp, botanyGlassDeepBlue, buildCraftChipComp ], [ projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ] ]);
+recipes.addShaped( enderioSolarpanelsmall, [ [ projectRedChipEnergized, ForestryGlassBlue , projectRedChipEnergized ], [ buildCraftChipComp, enderioVibrantCrystal, buildCraftChipComp ], [ projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ] ]);
 
 recipes.remove(enderioSolarpanel);
 recipes.addShaped( enderioSolarpanel, [ [ buildCraftChipPulsating, thermExpGlassLumiumHardened , buildCraftChipPulsating ], [ rsArsenalFluxCrystal, thermExpGlassLumiumHardened, rsArsenalFluxCrystal ], [ enderioSolarpanelsmall, advGenePowerIO, enderioSolarpanelsmall ] ]);
