@@ -76,6 +76,80 @@ val removePulverizer = [
 ] as IItemStack[];
 
 ########################################################################################################################
+# (Mixed) Data Structures - Pulverizer Replacement
+########################################################################################################################
+
+val thermExpPulverizerReplace = [
+  <minecraft:coal>,			/*  0 - Coal (Vanilla) */
+  <NetherOres:tile.netherores.ore.0>,	/*  1 - Nether Coal Ore (Nether Ores) */
+  <minecraft:coal_ore>,			/*  2 - Coal Ore (Vanilla) */
+  <minecraft:iron_ore>,			/*  3 - Iron Ore (Vanilla) */
+  <exnihilo:iron_gravel>,		/*  4 - Iron Ore Gravel (Ex Nihilo) */
+  <exnihilo:iron_sand>,			/*  5 - Iron Ore Sand (Ex Nihilo) */
+  <exnihilo:iron_dust>,			/*  6 - Iron Ore Dust (Ex Nihilo) */
+  <NetherOres:tile.netherores.ore.0:3>,	/*  7 - Nether Iron Ore (Nether Ores) */
+  <exnihilo:nether_iron_gravel>,	/*  8 - Nether Iron Ore Gravel (Ex Nihilo) */
+  <minecraft:iron_ingot>,		/*  9 - Iron Ingot (Vanilla) */
+  <Thaumcraft:ItemNugget:16>		/* 10 - Native Iron Cluster (Thaumcraft) */
+] as IItemStack[];
+
+val thermExpPulverizerEnergy = [
+  2400,					/*  0 - Coal (Vanilla) */
+  3200,					/*  1 - Nether Coal Ore (Nether Ores) */  
+  2400,					/*  2 - Coal Ore (Vanilla) */  
+  4000,					/*  3 - Iron Ore (Vanilla) */  
+  3200,					/*  4 - Iron Ore Gravel (Ex Nihilo) */  
+  3200,					/*  5 - Iron Ore Sand (Ex Nihilo) */  
+  3200,					/*  6 - Iron Ore Dust (Ex Nihilo) */  
+  3200,					/*  7 - Nether Iron Ore (Nether Ores) */  
+  3200,					/*  8 - Nether Iron Ore Gravel (Ex Nihilo) */  
+  2400,					/*  9 - Iron Ingot (Vanilla) */  
+  4800					/* 10 - Native Iron Cluster (Thaumcraft) */
+] as int[];
+
+val thermExpPulverizerChance = [
+  15,					/*  0 - Coal (Vanilla) */
+  15,					/*  1 - Nether Coal Ore (Nether Ores) */  
+  25,					/*  2 - Coal Ore (Vanilla) */
+  10,					/*  3 - Iron Ore (Vanilla) */  
+  10,					/*  4 - Iron Ore Gravel (Ex Nihilo) */  
+  10,					/*  5 - Iron Ore Sand (Ex Nihilo) */
+  10,					/*  6 - Iron Ore Dust (Ex Nihilo) */
+  15,					/*  7 - Nether Iron Ore (Nether Ores) */
+  10,					/*  8 - Nether Iron Ore Gravel (Ex Nihilo) */  
+  0,					/*  9 - Iron Ingot (Vanilla) */  
+  0					/* 10 - Native Iron Cluster (Thaumcraft) */
+] as int[];
+
+val thermExpPulverizerOutput1 = [
+  <bcadditions:dust:56>,		/*  0 - Coal (Vanilla) */
+  <bcadditions:dust:56>*5,		/*  1 - Nether Coal Ore (Nether Ores) */  
+  <minecraft:coal>*3,			/*  2 - Coal Ore (Vanilla) */  
+  <bcadditions:dust:1>*2,		/*  3 - Iron Ore (Vanilla) */  
+  <bcadditions:dust:1>*2,		/*  4 - Iron Ore Gravel (Ex Nihilo) */  
+  <bcadditions:dust:1>*2,		/*  5 - Iron Ore Sand (Ex Nihilo) */  
+  <bcadditions:dust:1>*2,		/*  6 - Iron Ore Dust (Ex Nihilo) */
+  <bcadditions:dust:1>*4,		/*  7 - Nether Iron Ore (Nether Ores) */  
+  <bcadditions:dust:1>*2,		/*  8 - Nether Iron Ore Gravel (Ex Nihilo) */
+  <bcadditions:dust:1>,			/*  9 - Iron Ingot (Vanilla) */  
+  <bcadditions:dust:1>			/* 10 - Native Iron Cluster (Thaumcraft) */
+] as IItemStack[];
+
+val thermExpPulverizerOutput2 = [
+  <bcadditions:dust:63>,		/*  0 - Coal (Vanilla) */
+  <minecraft:netherrack>,		/*  1 - Nether Coal Ore (Nether Ores) */  
+  <bcadditions:dust:56>,		/*  2 - Coal Ore (Vanilla) */
+  <bcadditions:dust:51>,		/*  3 - Iron Ore (Vanilla) */  
+  <bcadditions:dust:51>,		/*  4 - Iron Ore Gravel (Ex Nihilo) */  
+  <bcadditions:dust:51>,		/*  5 - Iron Ore Sand (Ex Nihilo) */  
+  <bcadditions:dust:51>,		/*  6 - Iron Ore Dust (Ex Nihilo) */  
+  <minecraft:netherrack>,		/*  7 - Nether Iron Ore (Nether Ores) */  
+  <bcadditions:dust:51>,		/*  8 - Nether Iron Ore Gravel (Ex Nihilo) */
+  null,					/*  9 - Iron Ingot (Vanilla) */  
+  null					/* 10 - Native Iron Cluster (Thaumcraft) */
+] as IItemStack[];
+
+########################################################################################################################
 # Machine - Redstone Furnace
 ########################################################################################################################
 for i, item in removeFurnace
@@ -97,6 +171,21 @@ mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSan
 ########################################################################################################################
 # Machine - Pulverizer
 ########################################################################################################################
+
+#Pulverizer Replacement
+for i, replace in thermExpPulverizerReplace
+{
+  var energy	= thermExpPulverizerEnergy[ i ];
+  var chance	= thermExpPulverizerChance[ i ];
+  var output1	= thermExpPulverizerOutput1[ i ];
+  var output2	= thermExpPulverizerOutput2[ i ];
+
+  mods.thermalexpansion.Pulverizer.removeRecipe( replace );
+  mods.thermalexpansion.Pulverizer.addRecipe( energy, replace, output1, output2, chance );
+  
+}
+
+
 for i, item in removePulverizer
 {
   mods.thermalexpansion.Pulverizer.removeRecipe( item );
