@@ -1,0 +1,4201 @@
+{
+   "parent" : "ShatteredWorld",
+   "decription" : "Hallo D:",
+   "questSetCatalog" : [
+      {
+         "id" : "set000",
+         "name" : "Aller Anfang ist schwer",
+         "decription" : "etwas Tinker, Pam, Ernergie, Ex-Nihilo, Ex-Astris",
+         "quests" : [
+            {
+               "id" : "quest000",
+               "name" : "Karate Tiger",
+               "description" : "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit dem gekonnten Handkantenschlag zerlegen wir einen Baum in seine Einzelteile.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Holz ist die Grundlage fuer viele Rezepte hier. Aber achte auf die Waechter, die auftauchen koennen"
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Wenn man das Holz in ein Crafting Grid legt, kann man daraus Bretter (Planks) machen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest001",
+               "name" : "In der Ruhe liegt die Kraft",
+               "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenen Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Zu der Angel braucht man nur noch einen kleinen See und los geht es mit dem erholsamen Angeln."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Ruhig Blut, angeln ist kein Sport, hier liegt die Kraft in der inneren Ruhe."
+                  }
+               ]
+            },
+            {
+               "id" : "quest002",
+               "name" : "Sichere Nacht",
+               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe keonnen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest003",
+               "name" : "Der beste Ordnungssinn",
+               "description" : "So langsam haeufen sich ein paar Gegenstaende. Den ganzen Cobblestone, das Holz und ein paar andere Dinge muss man doch besser unterbringen koennen, als in einer Kiste.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Die Kapazitaet der drei Drawer ist gleich, jedoch teilt sich die Kapazitaet auf die Anzahl der Schubladen auf."
+                  }
+               ]
+            },
+            {
+               "id" : "quest004",
+               "name" : "Mehr ist immer besser",
+               "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese auch aufwerten.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Wenn du mit dem Storage Upgrade auf einen Storage Drawer rechtsklickst, dann wird dessen Kapazitaet erhoeht. Mit der leeren Hand oeffent man ein Konfigurationsmenue zu den Boxen, mit dem man die Upgrades verwalten kann."
+                  }
+               ]
+            },
+            {
+               "id" : "quest005",
+               "name" : "Die Toolstation",
+               "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\nDafuer muessen wir uns zunaechst mal eine Werkbank (Crafting Table) bauen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit diesen Tischen kannst du dir Werkzeuge aus Tinkers Construct bauen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest006",
+               "name" : "Wilde Tiere",
+               "description" : "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die meisten sind nicht gut auf mich zu sprechen, leben sie doch schon laenger hier als ich.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Ein Longsword ist eine gute Allround Waffe mit mittlerer Geschwindigkeit und mittlerem Schaden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest007",
+               "name" : "Wer hat denn da Angst?",
+               "description" : "Manchmal habe ich in der Nacht so komische Geraeusche draussen gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Diese Perlen sollte man sich so frueh wie moeglich besorgen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest008",
+               "name" : "Unbesiegbar",
+               "description" : "Zum Glueck leben wir in einer kleinen Behausung, manche sagen auch Loch dazu. Aber was wollen die ganzen boesen Gesellen von mir da draussen. Ich gehe mal raus und frage sie.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "Monster toetttttteeeeeennnnnnnnnnnnnnnn",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Skeleton"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Zombie"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest009",
+               "name" : "Die Werkbank",
+               "description" : "Im weiteren Spielverlauf werden viele Zahnraeder benoetigt. Es ist deshalb eine gute Gelegenheit schon jetzt zu wissen, wie man dies herstellt.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Diese simplen Gegenstaende lassen sich schnell aus Holz und Stein herstellen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Nachdem du die Werkbank aufgestellt hast, legst du die File in den oberen Slot. Oben rechts kann man den Arbeitsmodus dieser Aendern. Ein Stueck Holz legt man in den linken Slot. Nach mehreren Arbeitsschritten erhaelt man dann das fertige Zahnrad."
+                  }
+               ]
+            },
+            {
+               "id" : "quest010",
+               "name" : "Die Steinmine",
+               "description" : "Wo kommt man am besten an die guten Steine, man geht unter Tage. Dazu sollte man aber auch eine kleine Spitzhake dabei haben.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task Flint",
+                     "description" : "Das erste Handwerksmaterial ist Flint. Man erhaelt es durch ein einfaches Rezept aus Kies (Gravel). Man muss nur 4 davon in einer L-Form angeordnen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task Pickaxe",
+                     "description" : "Mit einem Pickaxe Head Stencil aus dem Stencil Table kann man im Part Builder mit dem Flint einen Pickaxe Head machen. Dazu braucht man dann noch ein Binding und einen Tool Rod, die man beide genauso herstellt, aber als Material Holzbretter (Planks) verwendet. Am Schluss baut man alles in der Tool Station zusammen."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Detection Task",
+                     "description" : "Mit der neuen Spitzhake kann man nun ganz leicht Steine abbauen und bekommt Cobblestone. Aber auch hier gibt es Waechter. Sei gewarnt!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest011",
+               "name" : "Der Schmelzofen",
+               "description" : "Da muss es doch noch was geben, was man sich aus den schnoeden Steinen bauen kann. Und siehe da, man kann sich daraus einen Ofen bauen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Dieses Teil ist so simple, aber auch so hilfreich. Man kann Stein, Erze, aber auch Essen kochen. Das darf natuerlich in keinem Haushalt fehlen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest012",
+               "name" : "Es werde Licht",
+               "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
+                  }
+               ]
+            },
+            {
+               "id" : "quest013",
+               "name" : "Das ist alles fuer den Popo",
+               "description" : "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Alle Items, die in den Muelleimer wandern sind fuer immer verloren. Also sei vorsichtig!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest014",
+               "name" : "Alles kurz und klein schlagen",
+               "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steins besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit dem Hammer kann man Feldstein (Cobblestone) zu Kies (Gravel) zerkleinern. "
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "... und wenn man das mehrfach macht, dann entstehen Kies (Gravel) -> Sand -> Staub (Dust)"
+                  }
+               ]
+            },
+            {
+               "id" : "quest015",
+               "name" : "Toepfers ist so schoen",
+               "description" : "Jetzt brauchen wir nur noch Wasser und etwas mit dem wir Wasser von einem Punkt A zu einem Punkt B bringen koennen. ",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Die Barrel kann fuer verschiedene Sachen verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Wenn man in die mit Wasser gefuellte Barrel Staub (Dust) legt, kommt Lehm (Clay) heraus. Aus dem Lehm stellt man den Eimer her, den man nochmal im Ofen brennen kann."
+                  }
+               ]
+            },
+            {
+               "id" : "quest016",
+               "name" : "Herrschaft des Feuers",
+               "description" : "Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Mit einer simplem Fackel und diesem Schmelztiegel (Crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingestzt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest017",
+               "name" : "Sieben bis der Arzt kommt",
+               "description" : "Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Da wir kaum Rohstoffe aus dem Boden holen koennen, muessen wir andere Wege gehen. Das Sieben der feinen Materialien bringt manchen Schatz zum Vorschein."
+                  }
+               ]
+            },
+            {
+               "id" : "quest018",
+               "name" : "Der Metallkoch",
+               "description" : "Jetzt haben wir doch schon das eine oder andere Rohmetall (Ore) gefunden. Man kann viele davon in einen Ofen (Furnace) werfen und brennen, aber dieser Weg ist nicht effektiv. Eine Schmelze ist der bessere Weg.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "In der Schmelze wird die Ausbeute an Metallen verdoppelt. Ebenso kann man damit Metalllegierungen herstellen. Den Aufbau kann man im Handbuch Mighty Smelting nachlesen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest019",
+               "name" : "Die Giesserei",
+               "description" : "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Form haben. Dafuer brauchen wir Negativformen (Casts).",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die zwei wichtigsten Formen sind Barren und Zahnrad. Um den Cast herzustellen muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold drauflaufen lassen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest020",
+               "name" : "Das neue Zeitalter",
+               "description" : "Heureka, endlich ist es so weit. Mit den ersten Metallen stossen wir ein komplett neue Welt auf. Die totale Automatisierung ist bestimmt nicht mehr weit.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die beim Sieben entstehenden kleineren Teilchen muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt."
+                  }
+               ]
+            },
+            {
+               "id" : "quest021",
+               "name" : "Wie passt nur alles da rein",
+               "description" : "Andauernd habe ich die Taschen voll. Eine weitere Transportmoeglichkeit muss her.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, was braucht man mehr. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest022",
+               "name" : "Wie man einen See versetzt",
+               "description" : "Da ist mir doch glatt ein kleiner Teich im Weg, aber wohin mit dem ganzen Wasser aus dem Teich.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Tank kann vergroessert werden. Mit einem Crescent Hammer kann man mit SHIFT und Rechtklick den Tank abbauen, ohne das die Fluessigkeiten verloren gehen. Wenn man den Tank auf eine Maschine setzt und dem Tank mit dem Crescent Hammer einen rechtsklick verpasst, so funktioniert er meistens als Fluessigkeitsquelle."
+                  }
+               ]
+            },
+            {
+               "id" : "quest023",
+               "name" : "Dummheit schafft Freiraum",
+               "description" : "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und auch noch selber sich um die Steine kuemmern ... das muss doch viel einfacher gehen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Hammer kann alles, was auch der Stone Hammer kann, braucht dafuer aber Energie. Das Sieb funktioniert genauso, wie das andere Sieb, nur das hier auch schon ein wenig Platz vorhanden ist, aber auch das braucht Energie."
+                  }
+               ]
+            },
+            {
+               "id" : "quest024",
+               "name" : "Der Held der Automatisierung",
+               "description" : "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Links und Rechts davon eine Kiste oder aehnliches aufstellen und er versucht die Gegenstaende aus der linken Kiste zusammenzufassen und legt sie dann in die rechte Kiste. Die Seite mit dem aufgemalten Crafting Grid auf der Maschine ist die Vorderseite."
+                  }
+               ]
+            },
+            {
+               "id" : "quest025",
+               "name" : "Wie die Axt im Wald",
+               "description" : "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Als erstes muss der Werkzeugtisch (Tool Station) aufgewertet werden. Mit dem Schmiedewerkzeugtisch (Tool Forge Station) kann man sich die fortgeschrittenen Waffen und Werkzeuge herstellen. Das Problem ist hier das richtige Material fuer die Metallbloecke zu finden."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Mit dieser Axt reicht es den Baum unten zu faellen. Der Rest kommt von selbst."
+                  }
+               ]
+            },
+            {
+               "id" : "quest026",
+               "name" : "Aus dem Nichts erschaffen",
+               "description" : "Wasser haben wir in kleinen Mengen. Es soll eine Wundermaschine geben, die aus wenig Wasser viel macht und das fast umsonst. Klingt nach einer unmoeglichen Werbung aber das gibt es wirklich",
+               "tasks" : [
+               ]
+            },
+            {
+               "id" : "quest027",
+               "name" : "Der Weltwanderer",
+               "description" : "Die Insel hier ist ja schoen und gut. Aber wenn man in 45 Minuten die Insel umrunden kann und dabei noch in der Zeit viele Pausen machen kann, dann bekommt man doch irgendwann einen Inselkoller. OK, man kann in die Hoelle gehen, aber da gefaellt es mir doch hier besser. Gibt es noch andere Orte, die ich besuchen sollte?",
+               "tasks" : [
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set001",
+         "name" : "Der gruene Daumen",
+         "decription" : "alles zu Agricraft, Pam und Forestry",
+         "quests" : [
+            {
+               "id" : "quest028",
+               "name" : "Farmland vorbereiten",
+               "description" : "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns bereits mal ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Alle Pflanzen brauchen spezielles Farmland, welches nur in einem Komposter hergestellt werden kann. Abfaelle koennen hier kompostiert werden. Besser, als sie in den Muelleimer zu werfen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Die Mattock ist ein Multi Funktionelles Werkzeug. Man kann damit Erde abbauen (Schaufel Ersatz), Baeume Faellen (Axt Ersatz) und gleichzeitig auch noch Felder pfluegen, ein Wunderwerk neuzeitlicher Ingenieurskunst."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Detection Task",
+                     "description" : "Garden Soil ist eine wunderbare Grundlage fuer ein Feld. Normales Farmland wird hier nicht funktionieren."
+                  }
+               ]
+            },
+            {
+               "id" : "quest029",
+               "name" : "Kochen will gelernt sein",
+               "description" : "Fuer eine gesunde Ernaehrung fehlt noch die Abwechslung. Vielleicht sollten wir uns ja an ausgefalleneren Rezepten versuchen. Wir brauchen dafuer nur noch ein paar Kuechenutensilien.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Diese Gegenstaende werden fuer bessere Rezepte benoetigt. Je besser und aufwendiger das Essen, desto mehr Hunger kann damit auch gestillt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest030",
+               "name" : "Nahrung vorbereiten",
+               "description" : "Aus meinem Appetit von vorhin wird langsam ein ausgewachsener Hunger. Jetzt ist es an der Zeit das Feld zu bestellen und etwas anzupflanzen",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Zuerst die Crops aufs Feld setzen, dann in das gesetzt Crop den Samen setzen. Ernten geht dann mit der leeren rechten Hand. Dabei bleibt die eigentliche Pflanze stehen und kann gleich wieder wachsen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Eventuell muss man hier noch ein wenig Zuechten."
+                  }
+               ]
+            },
+            {
+               "id" : "quest031",
+               "name" : "Brot fuer die Welt",
+               "description" : "Nachdem wir ein so schoenes Feld haben, sollten wir Weizen anbauen. Aus dem machen wir uns dann Mehl und daraus stellen wir Teig her. Das koennen wir zum Schluss zu nahrhaftem Brot backen. Das klingt doch nach einem Plan. ",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit dem Moerser und Stoessel (Mortar and Pestle) und etwas Weizen stellt man Mehl her, dass man mit Wasser und Salz zu Teig (Dough) verarbeiten kann."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Den Teig muss man nur in den Ofen schieben und es kommt ofenfrisches Brot raus. Aus dem kann man durch nochmaliges backen dann Toast erzeugen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest032",
+               "name" : "Der Schnellkochtopf",
+               "description" : "Der wahre Schefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Wichtige Kuechengeraete aus Eisen oder anderen Metallen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest033",
+               "name" : "Milch macht muede Maenner munte",
+               "description" : "Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Ich denke eine Kuh sollte hier hilfreich sein."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer."
+                  }
+               ]
+            },
+            {
+               "id" : "quest034",
+               "name" : "Darwin hatte recht",
+               "description" : "Mit diesen paar Samen, die wir in der Erde gefunden haben, kann man nicht viel anfangen. Aber der versierte Gaertner kennt die Methode der Veredlung und Kreuzung.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit diesen Tools kann man die Qualitaet der gezuechteten Samen bestimmen. Das Buch informiert dich ueber moegliche Kreuzungen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Diese Samen werden als Basis fuer andere Zuechtungen gebraucht."
+                  }
+               ]
+            },
+            {
+               "id" : "quest035",
+               "name" : "sag es mit Blumen",
+               "description" : "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task Blumen",
+                     "description" : "Ein paar einfache Blumen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task Botania",
+                     "description" : "Diese exotischen Blumen haben besondere Eigenschaften."
+                  }
+               ]
+            },
+            {
+               "id" : "quest036",
+               "name" : "Die Wunder der Genetic",
+               "description" : "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Mit diesen speziellen Samen ist die Produktion von Nuggets besonders einfach."
+                  }
+               ]
+            },
+            {
+               "id" : "quest037",
+               "name" : "Die eigenen Burgerkette",
+               "description" : "Mit etwas Salat wird jedes Gericht viel gesuender aussehen. ",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Das zuechten dieser Pflanzen wird die Nahrungspalette dramatisch erweitern."
+                  }
+               ]
+            },
+            {
+               "id" : "quest038",
+               "name" : "vegetarische Kost",
+               "description" : "Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die Soyabone ist ideal als Fleischersatz."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Roh kann man diese aber nicht geniessen."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Detection Task",
+                     "description" : "Und hier haben wir die vegetarischen Basisprodukte. Die schmecken bestimmt genauso gut."
+                  }
+               ]
+            },
+            {
+               "id" : "quest039",
+               "name" : "Die Bewaesserung",
+               "description" : "Wir sollten dafuer sorgen, das unsere Anpflanzungen nicht austrocknen. Eine gute Bewaesserung ist die Basis eines guten Ertrags.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Den Tank kann man beliebig gross machen und er kann Regenwasser auffangen. Das Wassertranspportsystem ist einfach aber effektiv."
+                  }
+               ]
+            },
+            {
+               "id" : "quest040",
+               "name" : "Das kleine Autocrafting",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest041",
+               "name" : "Gluehkathodenverarbeiter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest042",
+               "name" : "Die kleine Farm",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest043",
+               "name" : "Der sauber Treibstoff",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest044",
+               "name" : "Der Schwarm",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest045",
+               "name" : "Das echte Gold",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest046",
+               "name" : "Das schwarze Gold",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest047",
+               "name" : "Der Weg zum Baumpfleger",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest048",
+               "name" : "Der Oelzweig",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest049",
+               "name" : "Der Weg des Imkers",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest050",
+               "name" : "Die Bienenkoenigin",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest051",
+               "name" : "Schleudern will gelernt sein",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest052",
+               "name" : "Der Wettergott",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest053",
+               "name" : "Der feiner Faden",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest054",
+               "name" : "Des Imkers Ruestung",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set002",
+         "name" : "Der Geist in der Maschine",
+         "decription" : "alles zu Thermal Expansion, Buildcraft",
+         "quests" : [
+            {
+               "id" : "quest055",
+               "name" : "Die Rohrpost",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest056",
+               "name" : "Der Sortierer",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest057",
+               "name" : "Die Huepfburg",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest058",
+               "name" : "Der Laserstrahl",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest059",
+               "name" : "Der Architekt",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest060",
+               "name" : "Der Tycoon",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest061",
+               "name" : "Der Wasserturm",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest062",
+               "name" : "Der Energiespeicher",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest063",
+               "name" : "Das Universaltalent",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest064",
+               "name" : "Die Induktionsschleife",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest065",
+               "name" : "Die Kneifzange",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest066",
+               "name" : "Die Ueberwachung",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest067",
+               "name" : "Das Fass mit Boden",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest068",
+               "name" : "Dark Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest069",
+               "name" : "Die boese Seele",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest070",
+               "name" : "Die Resonanze",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set003",
+         "name" : "Das Hologramm",
+         "decription" : "alles zu AE2",
+         "quests" : [
+            {
+               "id" : "quest071",
+               "name" : "Der Staub der Sterne",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest072",
+               "name" : "Der geladene Kristall",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest073",
+               "name" : "Die Wachstumsblasen",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest074",
+               "name" : "Der Herr der Kristalle",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest075",
+               "name" : "der Graveur",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest076",
+               "name" : "Der Microchip",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest077",
+               "name" : "Der Innere Kern",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest078",
+               "name" : "Die Umlagerung",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest079",
+               "name" : "Das Fenster in die Seele",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest080",
+               "name" : "Der Kabelbinder",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest081",
+               "name" : "Der kleine Speicher",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest082",
+               "name" : "klein aber fein",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest083",
+               "name" : "Der Microprocessor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest084",
+               "name" : "Der grosse Speicher",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest085",
+               "name" : "Die Steckkarten",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest086",
+               "name" : "Der Formatierer",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest087",
+               "name" : "Der Erbauer",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest088",
+               "name" : "Die helfende Hand",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest089",
+               "name" : "Der Microcomputer",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest090",
+               "name" : "Der Meister",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest091",
+               "name" : "Der Zauberer",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest092",
+               "name" : "Der Grossrechner",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest093",
+               "name" : "Der Administrator",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest094",
+               "name" : "ein Fass ohne Boden",
+               "description" : null,
+               "tasks" : [
+               ]
+            },
+            {
+               "id" : "quest095",
+               "name" : "der Geist in der Flasche",
+               "description" : null,
+               "tasks" : [
+               ]
+            },
+            {
+               "id" : "quest096",
+               "name" : "der virtuelle Zaubertisch",
+               "description" : null,
+               "tasks" : [
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set004",
+         "name" : "Der Zauberlehrling",
+         "decription" : "alles zu Ars Magica 2",
+         "quests" : [
+            {
+               "id" : "quest097",
+               "name" : "Der singende See",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest098",
+               "name" : "Das stille Oertchen",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest099",
+               "name" : "Der Trommelrevolver",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest100",
+               "name" : "Der Basteltisch",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest101",
+               "name" : "Das Rednerpult",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest102",
+               "name" : "Der Platz der Wunder",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest103",
+               "name" : "Mage Amor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest104",
+               "name" : "Der Ofen der Weisen",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest105",
+               "name" : "Die magischen Tools",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task Chalk",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task Magitech",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task Wrench",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest106",
+               "name" : "Der magischen Speicher",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest107",
+               "name" : "Die magischen Blumen",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest108",
+               "name" : "Die magischen Essencen",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest109",
+               "name" : "Der erste Zauber",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest110",
+               "name" : "Battlemage Amor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest111",
+               "name" : "Die etwas andere Verzauberung",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest112",
+               "name" : "Der mysterioese Meteor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest113",
+               "name" : "Der Kristall der Weisen",
+               "description" : "Ritual of Purifcation",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest114",
+               "name" : "Der Wirbel der Weisen",
+               "description" : "Ritual of Corruption",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest115",
+               "name" : "Water Guardian",
+               "description" : "1. Boss (Level 10)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Water Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest116",
+               "name" : "Earth Guardian",
+               "description" : "2. Boss (Level 25)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Earth Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest117",
+               "name" : "Air Guardian",
+               "description" : "3. Boss (Level 35)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Air Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest118",
+               "name" : "Arcane Guardian",
+               "description" : "4. Boss (Level 45)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Arcane Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest119",
+               "name" : "Life Guardian",
+               "description" : "5. Boss (Level 50)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Life Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest120",
+               "name" : "Nature Guardian",
+               "description" : "6. Boss (Level 60)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Nature Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest121",
+               "name" : "Winter Guardian",
+               "description" : "7. Boss (Level 70)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Winter Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest122",
+               "name" : "Lightning Guardian",
+               "description" : "8. Boss (Level 70)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Lightning Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest123",
+               "name" : "Ender Guardian",
+               "description" : "9. Boss (Level 90+)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Ender Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest124",
+               "name" : "Fang die flackernden Dinger",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest125",
+               "name" : "Fang den Mond",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set005",
+         "name" : "Die Geister die ich rief",
+         "decription" : "alles zu Thaumcraft",
+         "quests" : [
+            {
+               "id" : "quest126",
+               "name" : "Ein Stab sie alle zu Binden",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest127",
+               "name" : "Der Stab des Lehrlings",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest128",
+               "name" : "Der Stab des Meisters",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest129",
+               "name" : "Der gedultige Forscher",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest130",
+               "name" : "Es geht immer mal was daneben",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest131",
+               "name" : "Der Durchblick",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest132",
+               "name" : "Durch die rosa Brille",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest133",
+               "name" : "Thaumaturge Armor",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest134",
+               "name" : "Der Superheld",
+               "description" : null,
+               "tasks" : [
+               ]
+            },
+            {
+               "id" : "quest135",
+               "name" : "Der Erbsenzaehler",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest136",
+               "name" : "Explosives Licht",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest137",
+               "name" : "Der Wunderofen",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest138",
+               "name" : "Die Destillerie",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest139",
+               "name" : "Tubes",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest140",
+               "name" : "Schleudertrauma",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest141",
+               "name" : "Der Kristallisierer",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest142",
+               "name" : "Das Parfuem",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest143",
+               "name" : "Der Geist in der Flasche",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest144",
+               "name" : "Der schuetzende Schild",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest145",
+               "name" : "Der Fluss der Seelen",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest146",
+               "name" : "Die Tankstelle",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest147",
+               "name" : "Der Manipulator",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest148",
+               "name" : "Magisches Metall",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest149",
+               "name" : "Die Infusion",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest150",
+               "name" : "Die Wunderlampen",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest151",
+               "name" : "Der Wunderbaum",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest152",
+               "name" : "Fortress Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest153",
+               "name" : "Der Architekt",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest154",
+               "name" : "Minions",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest155",
+               "name" : "Der Gong",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest156",
+               "name" : "Die Arbeiterkaste",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest157",
+               "name" : "Das fleissige Bienchen",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest158",
+               "name" : "Der intelligenter Soldat",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest159",
+               "name" : "Die Schoenheitskoenigin",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest160",
+               "name" : "Die Armee",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest161",
+               "name" : "Der Elitesoldat",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest162",
+               "name" : "Der Perfektionist",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set006",
+         "name" : "Die zauberhafte Blume",
+         "decription" : "alles zu Botania",
+         "quests" : [
+            {
+               "id" : "quest163",
+               "name" : "Lexica Botania",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest164",
+               "name" : "Mystical Flower",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task Petal",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task Powder",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest165",
+               "name" : "Petal Apothecary",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest166",
+               "name" : "Pure Daisy",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest167",
+               "name" : "Hydroangeas",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest168",
+               "name" : "Endoflame",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest169",
+               "name" : "Horn of the Wild",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest170",
+               "name" : "Livingrock Twig",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest171",
+               "name" : "Mana Produktion",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest172",
+               "name" : "Mana Pool",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest173",
+               "name" : "Mana Tools",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest174",
+               "name" : "Mana Items",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task Steel",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task Dia Pearl",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest175",
+               "name" : "Manasteel Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest176",
+               "name" : "Mana Lens",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task special",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest177",
+               "name" : "Ring of Magnetization",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest178",
+               "name" : "Runic Altar",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest179",
+               "name" : "Runen der 5 Elemente",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest180",
+               "name" : "Runen der 4 Jahreszeiten",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest181",
+               "name" : "Runen der Gl�ckseligkeiten",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest182",
+               "name" : "Welt der St�be",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest183",
+               "name" : "Botanische Brauerei",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest184",
+               "name" : "Terrasteel Ingot",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest185",
+               "name" : "Terrasteel Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest186",
+               "name" : "Rod of the Terra Firma",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest187",
+               "name" : "Elven Portal",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest188",
+               "name" : "Elementium Ingot",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest189",
+               "name" : "Elementium Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest190",
+               "name" : "Elementium Items",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest191",
+               "name" : "Elven Rods",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest192",
+               "name" : "Spark Augment",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest193",
+               "name" : "Ritual of Gaia",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest194",
+               "name" : "Gaia Items",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest195",
+               "name" : "Gaia Rod",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest196",
+               "name" : "Ender Air Bottle",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest197",
+               "name" : "Fluegel Tiara",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest198",
+               "name" : "Red String",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest199",
+               "name" : "Red String Items",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set007",
+         "name" : "Die Blutbank",
+         "decription" : "alles zu Blood Magic",
+         "quests" : [
+            {
+               "id" : "quest200",
+               "name" : "Opfere dich selbst",
+               "description" : "Altar \/ Sacrificial Knife herstellen",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest201",
+               "name" : "Blanck Slate",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest202",
+               "name" : "Altar Level 1 Orb",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest203",
+               "name" : "Divination Sigil",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest204",
+               "name" : "erste Sigils",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest205",
+               "name" : "Alchemic Chemistry Set",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest206",
+               "name" : "Reinforced Slate",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest207",
+               "name" : "Altar Level 2 Orb",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest208",
+               "name" : "mehr Sigils",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest209",
+               "name" : "Basis Essenzen",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest210",
+               "name" : "Imbued Slate",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest211",
+               "name" : "Altar Level 3 Orb",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest212",
+               "name" : "noch mehr Sigils",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task Affinity",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task Magnetism",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task Lamp",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task003",
+                     "name" : "Crafting Task Bridge",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task004",
+                     "name" : "Crafting Task Holding",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest213",
+               "name" : "Inscription Tools",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest214",
+               "name" : "Ritual Diviner",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest215",
+               "name" : "Start der Rituale",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest216",
+               "name" : "Ritual of Binding",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest217",
+               "name" : "Weak Blood Shard",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest218",
+               "name" : "Bound Armor",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest219",
+               "name" : "bessere Essenzen",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest220",
+               "name" : "Daemonen Zirkel",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest221",
+               "name" : "Daemonen Kontrolle",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest222",
+               "name" : "Demonic Slate",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest223",
+               "name" : "Altar Level 4 Orb",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest224",
+               "name" : "jetzt reichts aber mit Sigils",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task Compress",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task Ender",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Crafting Task Haste",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task003",
+                     "name" : "Crafting Task Whirlwind",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task004",
+                     "name" : "Crafting Task Supression",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest225",
+               "name" : "besserer Ritual Diviner",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest226",
+               "name" : "Kristall Tank",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest227",
+               "name" : "Daemonen Jaeger",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest228",
+               "name" : "Ethereal Slate",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest229",
+               "name" : "Altar Level 5 Orb",
+               "description" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest230",
+               "name" : "aber jetzt das letzte Sigils",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest231",
+               "name" : "Altar Level 6 Orb",
+               "description" : "Unnamed quest",
+               "tasks" : [
+               ]
+            },
+            {
+               "id" : "quest232",
+               "name" : "noch besserer Ritual Diviner",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set008",
+         "name" : "Die Safari deines Lebens",
+         "decription" : "alles zu Lycanites Mobs",
+         "quests" : [
+            {
+               "id" : "quest233",
+               "name" : "Arctic Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Reiver"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Frostweaver"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Yeti"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest234",
+               "name" : "Arctic Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Wendigo"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Arix"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Serpix"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest235",
+               "name" : "Arctic Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest236",
+               "name" : "Demon Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Belph"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Behemoth"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Pinky"
+                        },
+                        {
+                           "id" : "mob003",
+                           "name" : "Trite"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest237",
+               "name" : "Demon Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Astaroth"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Nether Soul"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Cacodemon"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest238",
+               "name" : "Demon Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest239",
+               "name" : "Desert Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Crypt Zombie"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Crusk"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Clink"
+                        },
+                        {
+                           "id" : "mob003",
+                           "name" : "Joust"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest240",
+               "name" : "Desert Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Erepede"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Gorgomite"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Manticore"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest241",
+               "name" : "Desert Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest242",
+               "name" : "Forest Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Ent"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Trent"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Shambler"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest243",
+               "name" : "Forest Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Arisaur"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Spriggan"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Warg"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest244",
+               "name" : "Forest Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest245",
+               "name" : "Freshwater Mobs",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Jengu"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Zephyr"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Strider"
+                        },
+                        {
+                           "id" : "mob003",
+                           "name" : "Selix"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest246",
+               "name" : "Freshwater Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest247",
+               "name" : "Inferno Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Cinder"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Lobber"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Cephignis"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest248",
+               "name" : "Inferno Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Afrit"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Khalk"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest249",
+               "name" : "Inferno Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest250",
+               "name" : "Jungle Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Geken"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Uvaraptor"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Concapede"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest251",
+               "name" : "Jungle Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Tarantula"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Conba"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Vespid"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest252",
+               "name" : "Jungle Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest253",
+               "name" : "Mountain Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Jabberwock"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Troll"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Yale"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest254",
+               "name" : "Mountain Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Geonach"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Beholder"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Barghest"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest255",
+               "name" : "Mountain Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest256",
+               "name" : "Plain Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Kobold"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Ventroraptor"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Maka"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest257",
+               "name" : "Plain Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Zoataur"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Roc"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest258",
+               "name" : "Saltwater Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Lacedon"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Skylus"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Ika"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest259",
+               "name" : "Saltwater Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Abtu"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Raiko"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Lacedon"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest260",
+               "name" : "Shadow Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Grue"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Phantom"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Epion"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest261",
+               "name" : "Shadow Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Geist"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Chupacabra"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Shade"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest262",
+               "name" : "Shadow Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest263",
+               "name" : "Swamp Mobs I",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Ghoul Zombie"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Dweller"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Ettin"
+                        },
+                        {
+                           "id" : "mob003",
+                           "name" : "Lurker"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest264",
+               "name" : "Swamp Mobs II",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Eywig"
+                        },
+                        {
+                           "id" : "mob001",
+                           "name" : "Aspid"
+                        },
+                        {
+                           "id" : "mob002",
+                           "name" : "Remobra"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest265",
+               "name" : "Swamp Scepter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set009",
+         "name" : "Der Drachentoeter",
+         "decription" : "alles zu Draconic Evolution",
+         "quests" : [
+            {
+               "id" : "quest266",
+               "name" : "Der Gluecksritter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest267",
+               "name" : "Das Wurmloch",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest268",
+               "name" : "Des Pudels Kern",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest269",
+               "name" : "Das Kraftpaket",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest270",
+               "name" : "Der Sonnenanbeter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest271",
+               "name" : "Der Killer",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest272",
+               "name" : "Der Lieferant",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest273",
+               "name" : "Der Nimmersatte",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest274",
+               "name" : "Die Kernfrage",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest275",
+               "name" : "Der Blechkamerad",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest276",
+               "name" : "Der flinke Wiesel",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest277",
+               "name" : "Der Beastmaster",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest278",
+               "name" : "Die Energiekugel",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest279",
+               "name" : "Wyvern Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest280",
+               "name" : "Der Drachentoeter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest281",
+               "name" : "Das Ritual",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest282",
+               "name" : "Der Zinnsoldat",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest283",
+               "name" : "Der Schwerarbeiter",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest284",
+               "name" : "Draconic Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest285",
+               "name" : "Awakend Core",
+               "description" : "Unnamed quest",
+               "tasks" : [
+               ]
+            }
+         ]
+      },
+      {
+         "id" : "set010",
+         "name" : "Fast ein Gott",
+         "decription" : "unmoegliche Quests",
+         "quests" : [
+         ]
+      }
+   ],
+   "reputationCatalog" : [
+      {
+         "id" : "rep000",
+         "name" : "Test",
+         "neutral" : "neutral",
+         "markers" : [
+            {
+               "id" : "mark000",
+               "name" : "Anfaenger"
+            },
+            {
+               "id" : "mark001",
+               "name" : "Lehrling"
+            },
+            {
+               "id" : "mark003",
+               "name" : "Meister"
+            },
+            {
+               "id" : "mark004",
+               "name" : "Experte"
+            }
+         ]
+      }
+   ],
+   "groupTierCatalog" : [
+   ]
+}
