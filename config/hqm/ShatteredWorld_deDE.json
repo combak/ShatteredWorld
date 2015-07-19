@@ -1727,7 +1727,7 @@
             {
                "id" : "quest123",
                "name" : "Ender Guardian",
-               "description" : "9. Boss (Level 90+)",
+               "description" : "10. Boss (Level 90+)",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1768,6 +1768,24 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest286",
+               "name" : "Fire Guardian",
+               "description" : "9. Boss (Level 90)",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "A task where the player has to kill certain monsters.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Fire Guardian"
+                        }
+                     ]
                   }
                ]
             }
@@ -3344,7 +3362,7 @@
                         },
                         {
                            "id" : "mob003",
-                           "name" : "Joust"
+                           "name" : "Joust Alpha"
                         }
                      ]
                   }
@@ -3476,7 +3494,7 @@
                         },
                         {
                            "id" : "mob003",
-                           "name" : "Selix"
+                           "name" : "Silex"
                         }
                      ]
                   }
@@ -3600,7 +3618,7 @@
                         },
                         {
                            "id" : "mob002",
-                           "name" : "Vespid"
+                           "name" : "Vespid Queen"
                         }
                      ]
                   }
@@ -3698,7 +3716,7 @@
                         },
                         {
                            "id" : "mob001",
-                           "name" : "Ventroraptor"
+                           "name" : "Ventoraptor"
                         },
                         {
                            "id" : "mob002",
@@ -3888,7 +3906,7 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "name" : "Eywig"
+                           "name" : "Eyewig"
                         },
                         {
                            "id" : "mob001",

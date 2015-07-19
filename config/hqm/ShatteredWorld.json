@@ -1,6 +1,7 @@
 {
    "version" : "REPUTATION_KILL",
    "languages" : [
+      "enUS",
       "deDE"
    ],
    "main" : "deDE",
@@ -4794,7 +4795,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(16)",
-                           "mob" : "Water Guardian",
+                           "mob" : "arsmagica2.BossWaterGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -4830,7 +4831,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(15)",
-                           "mob" : "Earth Guardian",
+                           "mob" : "arsmagica2.BossEarthGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -4866,7 +4867,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(18)",
-                           "mob" : "Air Guardian",
+                           "mob" : "arsmagica2.BossAirGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -4902,7 +4903,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(14)",
-                           "mob" : "Arcane Guardian",
+                           "mob" : "arsmagica2.BossArcaneGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -4938,7 +4939,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(20)",
-                           "mob" : "Life Guardian",
+                           "mob" : "arsmagica2.BossLifeGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -4974,7 +4975,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(13)",
-                           "mob" : "Nature Guardian",
+                           "mob" : "arsmagica2.BossNatureGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -5010,7 +5011,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(17)",
-                           "mob" : "Winter Guardian",
+                           "mob" : "arsmagica2.BossWinterGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -5046,7 +5047,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(21)",
-                           "mob" : "Lightning Guardian",
+                           "mob" : "arsmagica2.BossAirGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -5061,12 +5062,12 @@
             },
             {
                "id" : "quest123",
-               "x" : 158,
-               "y" : 175,
+               "x" : 170,
+               "y" : 155,
                "big" : false,
                "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(22)",
                "requirements" : [
-                  "quest122"
+                  "quest286"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -5082,7 +5083,7 @@
                         {
                            "id" : "mob000",
                            "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(22)",
-                           "mob" : "Ender Guardian",
+                           "mob" : "arsmagica2.BossEnderGuardian",
                            "count" : 1,
                            "exact" : false
                         }
@@ -5174,6 +5175,42 @@
                            "item" : "arsmagica2:flickerFocus size(1) dmg(134)",
                            "required" : 1,
                            "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest286",
+               "x" : 158,
+               "y" : 175,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(19)",
+               "requirements" : [
+                  "quest122"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(19)",
+                           "mob" : "arsmagica2.BossFireGuardian",
+                           "count" : 1,
+                           "exact" : false
                         }
                      ]
                   }
@@ -9674,7 +9711,7 @@
                "x" : 110,
                "y" : 110,
                "big" : false,
-               "icon" : "arcticmobs:frostweb size(1) dmg(0)",
+               "icon" : "arcticmobs:arcticegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -9688,22 +9725,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Reiver",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(0)",
+                           "mob" : "arcticmobs.reiver",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Frostweaver",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(1)",
+                           "mob" : "arcticmobs.frostweaver",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Yeti",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(2)",
+                           "mob" : "arcticmobs.yeti",
                            "count" : 1,
                            "exact" : false
                         }
@@ -9721,7 +9758,7 @@
                "x" : 86,
                "y" : 110,
                "big" : false,
-               "icon" : "arcticmobs:frostfire size(1) dmg(0)",
+               "icon" : "arcticmobs:arcticegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -9735,22 +9772,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Wendigo",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(3)",
+                           "mob" : "arcticmobs.wendigo",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Arix",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(4)",
+                           "mob" : "arcticmobs.arix",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Serpix",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(5)",
+                           "mob" : "arcticmobs.serpix",
                            "count" : 1,
                            "exact" : false
                         }
@@ -9819,7 +9856,7 @@
                "x" : 122,
                "y" : 90,
                "big" : false,
-               "icon" : "demonmobs:doomfirecharge size(1) dmg(0)",
+               "icon" : "demonmobs:demonegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -9833,29 +9870,29 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Belph",
+                           "icon" : "demonmobs:demonegg size(1) dmg(0)",
+                           "mob" : "demonmobs.belph",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Behemoth",
+                           "icon" : "demonmobs:demonegg size(1) dmg(1)",
+                           "mob" : "demonmobs.behemoth",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Pinky",
+                           "icon" : "demonmobs:demonegg size(1) dmg(2)",
+                           "mob" : "demonmobs.pinky",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob003",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Trite",
+                           "icon" : "demonmobs:demonegg size(1) dmg(3)",
+                           "mob" : "demonmobs.trite",
                            "count" : 1,
                            "exact" : false
                         }
@@ -9873,7 +9910,7 @@
                "x" : 98,
                "y" : 75,
                "big" : false,
-               "icon" : "demonmobs:hellfirecharge size(1) dmg(0)",
+               "icon" : "demonmobs:demonegg size(1) dmg(4)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -9887,22 +9924,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Astaroth",
+                           "icon" : "demonmobs:demonegg size(1) dmg(4)",
+                           "mob" : "demonmobs.astaroth",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Nether Soul",
+                           "icon" : "demonmobs:demonegg size(1) dmg(5)",
+                           "mob" : "demonmobs.nethersoul",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Cacodemon",
+                           "icon" : "demonmobs:demonegg size(1) dmg(6)",
+                           "mob" : "demonmobs.cacodemon",
                            "count" : 1,
                            "exact" : false
                         }
@@ -9966,7 +10003,7 @@
                "x" : 134,
                "y" : 70,
                "big" : false,
-               "icon" : "desertmobs:throwingscythe size(1) dmg(0)",
+               "icon" : "desertmobs:desertegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -9980,29 +10017,29 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Crypt Zombie",
+                           "icon" : "desertmobs:desertegg size(1) dmg(0)",
+                           "mob" : "desertmobs.cryptzombie",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Crusk",
+                           "icon" : "desertmobs:desertegg size(1) dmg(1)",
+                           "mob" : "desertmobs.crusk",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Clink",
+                           "icon" : "desertmobs:desertegg size(1) dmg(2)",
+                           "mob" : "desertmobs.clink",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob003",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Joust",
+                           "icon" : "desertmobs:desertegg size(1) dmg(4)",
+                           "mob" : "desertmobs.joustalpha",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10020,7 +10057,7 @@
                "x" : 122,
                "y" : 50,
                "big" : false,
-               "icon" : "desertmobs:mudshotcharge size(1) dmg(0)",
+               "icon" : "desertmobs:desertegg size(1) dmg(4)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10034,22 +10071,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Erepede",
+                           "icon" : "desertmobs:desertegg size(1) dmg(5)",
+                           "mob" : "desertmobs.erepede",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Gorgomite",
+                           "icon" : "desertmobs:desertegg size(1) dmg(6)",
+                           "mob" : "desertmobs.gorgomite",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Manticore",
+                           "icon" : "desertmobs:desertegg size(1) dmg(7)",
+                           "mob" : "desertmobs.manticore",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10103,7 +10140,7 @@
                "x" : 158,
                "y" : 70,
                "big" : false,
-               "icon" : "forestmobs:lifedraincharge size(1) dmg(0)",
+               "icon" : "forestmobs:forestegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10117,22 +10154,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Ent",
+                           "icon" : "forestmobs:forestegg size(1) dmg(0)",
+                           "mob" : "forestmobs.ent",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Trent",
+                           "icon" : "forestmobs:forestegg size(1) dmg(1)",
+                           "mob" : "forestmobs.trent",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Shambler",
+                           "icon" : "forestmobs:forestegg size(1) dmg(2)",
+                           "mob" : "forestmobs.shambler",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10150,7 +10187,7 @@
                "x" : 158,
                "y" : 45,
                "big" : false,
-               "icon" : "arcticmobs:tundracharge size(1) dmg(0)",
+               "icon" : "forestmobs:forestegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10164,22 +10201,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Arisaur",
+                           "icon" : "forestmobs:forestegg size(1) dmg(3)",
+                           "mob" : "forestmobs.arisaur",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Spriggan",
+                           "icon" : "forestmobs:forestegg size(1) dmg(4)",
+                           "mob" : "forestmobs.spriggan",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Warg",
+                           "icon" : "forestmobs:forestegg size(1) dmg(5)",
+                           "mob" : "forestmobs.warg",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10228,7 +10265,7 @@
                "x" : 182,
                "y" : 70,
                "big" : false,
-               "icon" : "freshwatermobs:aquapulsecharge size(1) dmg(0)",
+               "icon" : "freshwatermobs:freshwateregg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10242,29 +10279,29 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Jengu",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(0)",
+                           "mob" : "freshwatermobs.jengu",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Zephyr",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(1)",
+                           "mob" : "freshwatermobs.zephyr",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Strider",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(2)",
+                           "mob" : "freshwatermobs.strider",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob003",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Selix",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(3)",
+                           "mob" : "freshwatermobs.silex",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10313,7 +10350,7 @@
                "x" : 194,
                "y" : 90,
                "big" : false,
-               "icon" : "infernomobs:embercharge size(1) dmg(0)",
+               "icon" : "infernomobs:infernoegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10327,22 +10364,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Cinder",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(0)",
+                           "mob" : "infernomobs.cinder",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Lobber",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(1)",
+                           "mob" : "infernomobs.lobber",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Cephignis",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(2)",
+                           "mob" : "infernomobs.cephignis",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10360,7 +10397,7 @@
                "x" : 218,
                "y" : 75,
                "big" : false,
-               "icon" : "infernomobs:magmacharge size(1) dmg(0)",
+               "icon" : "infernomobs:infernoegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10374,15 +10411,15 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Afrit",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(3)",
+                           "mob" : "infernomobs.afrit",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Khalk",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(4)",
+                           "mob" : "infernomobs.khalk",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10441,7 +10478,7 @@
                "x" : 206,
                "y" : 110,
                "big" : false,
-               "icon" : "junglemobs:poopcharge size(1) dmg(0)",
+               "icon" : "junglemobs:jungleegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10455,22 +10492,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Geken",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(0)",
+                           "mob" : "junglemobs.geken",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Uvaraptor",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(1)",
+                           "mob" : "junglemobs.uvaraptor",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Concapede",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(2)",
+                           "mob" : "junglemobs.concapede",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10488,7 +10525,7 @@
                "x" : 230,
                "y" : 110,
                "big" : false,
-               "icon" : "demonmobs:demoniclightningcharge size(1) dmg(0)",
+               "icon" : "junglemobs:jungleegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10502,22 +10539,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Tarantula",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(4)",
+                           "mob" : "junglemobs.tarantula",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Conba",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(5)",
+                           "mob" : "junglemobs.conba",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Vespid",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(7)",
+                           "mob" : "junglemobs.vespidqueen",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10566,7 +10603,7 @@
                "x" : 194,
                "y" : 130,
                "big" : false,
-               "icon" : "mountainmobs:boulderblastcharge size(1) dmg(0)",
+               "icon" : "mountainmobs:mountainegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10580,22 +10617,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Jabberwock",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(0)",
+                           "mob" : "mountainmobs.jabberwock",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Troll",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(1)",
+                           "mob" : "mountainmobs.troll",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Yale",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(2)",
+                           "mob" : "mountainmobs.yale",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10613,7 +10650,7 @@
                "x" : 218,
                "y" : 145,
                "big" : false,
-               "icon" : "mountainmobs:arcanelaserstormcharge size(1) dmg(0)",
+               "icon" : "mountainmobs:mountainegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10627,22 +10664,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Geonach",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(3)",
+                           "mob" : "mountainmobs.geonach",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Beholder",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(4)",
+                           "mob" : "mountainmobs.beholder",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Barghest",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(5)",
+                           "mob" : "mountainmobs.barghest",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10696,7 +10733,7 @@
                "x" : 182,
                "y" : 150,
                "big" : false,
-               "icon" : "ExtraBees:ectoplasm size(1) dmg(0)",
+               "icon" : "plainsmobs:plainsegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10710,22 +10747,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Kobold",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(0)",
+                           "mob" : "plainsmobs.kobold",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Ventroraptor",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(1)",
+                           "mob" : "plainsmobs.ventoraptor",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Maka",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(2)",
+                           "mob" : "plainsmobs.maka",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10743,7 +10780,7 @@
                "x" : 194,
                "y" : 170,
                "big" : false,
-               "icon" : "arcticmobs:icefire size(1) dmg(0)",
+               "icon" : "plainsmobs:plainsegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10757,15 +10794,15 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Zoataur",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(4)",
+                           "mob" : "plainsmobs.zoataur",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Roc",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(5)",
+                           "mob" : "plainsmobs.roc",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10783,7 +10820,7 @@
                "x" : 158,
                "y" : 150,
                "big" : false,
-               "icon" : "arcticmobs:blizzardcharge size(1) dmg(0)",
+               "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10797,22 +10834,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Lacedon",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
+                           "mob" : "saltwatermobs.lacedon",
                            "count" : 1,
                            "exact" : true
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Skylus",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(1)",
+                           "mob" : "saltwatermobs.skylus",
                            "count" : 1,
                            "exact" : true
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Ika",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(2)",
+                           "mob" : "saltwatermobs.ika",
                            "count" : 1,
                            "exact" : true
                         }
@@ -10830,7 +10867,7 @@
                "x" : 158,
                "y" : 175,
                "big" : false,
-               "icon" : "arcticmobs:blizzardcharge size(1) dmg(0)",
+               "icon" : "saltwatermobs:saltwateregg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10844,22 +10881,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Abtu",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(3)",
+                           "mob" : "saltwatermobs.abtu",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Raiko",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(4)",
+                           "mob" : "saltwatermobs.raiko",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Lacedon",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
+                           "mob" : "saltwatermobs.lacedon",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10877,7 +10914,7 @@
                "x" : 134,
                "y" : 150,
                "big" : false,
-               "icon" : "shadowmobs:spectralboltcharge size(1) dmg(0)",
+               "icon" : "shadowmobs:shadowegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10891,22 +10928,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Grue",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(0)",
+                           "mob" : "shadowmobs.grue",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Phantom",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(1)",
+                           "mob" : "shadowmobs.phantom",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Epion",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(2)",
+                           "mob" : "shadowmobs.epion",
                            "count" : 1,
                            "exact" : false
                         }
@@ -10924,7 +10961,7 @@
                "x" : 122,
                "y" : 170,
                "big" : false,
-               "icon" : "shadowmobs:bloodleechcharge size(1) dmg(0)",
+               "icon" : "shadowmobs:shadowegg size(1) dmg(3)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -10938,22 +10975,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Geist",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(3)",
+                           "mob" : "shadowmobs.geist",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Chupacabra",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(4)",
+                           "mob" : "shadowmobs.chupacabra",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Shade",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(5)",
+                           "mob" : "shadowmobs.shade",
                            "count" : 1,
                            "exact" : false
                         }
@@ -11007,7 +11044,7 @@
                "x" : 122,
                "y" : 130,
                "big" : false,
-               "icon" : "swampmobs:poisongland size(1) dmg(0)",
+               "icon" : "swampmobs:swampegg size(1) dmg(0)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -11021,29 +11058,29 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Ghoul Zombie",
+                           "icon" : "swampmobs:swampegg size(1) dmg(0)",
+                           "mob" : "swampmobs.ghoulzombie",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Dweller",
+                           "icon" : "swampmobs:swampegg size(1) dmg(1)",
+                           "mob" : "swampmobs.dweller",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Ettin",
+                           "icon" : "swampmobs:swampegg size(1) dmg(2)",
+                           "mob" : "swampmobs.ettin",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob003",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Lurker",
+                           "icon" : "swampmobs:swampegg size(1) dmg(3)",
+                           "mob" : "swampmobs.lurker",
                            "count" : 1,
                            "exact" : false
                         }
@@ -11061,7 +11098,7 @@
                "x" : 98,
                "y" : 145,
                "big" : false,
-               "icon" : "swampmobs:venomshotscepter size(1) dmg(0)",
+               "icon" : "swampmobs:swampegg size(1) dmg(4)",
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -11075,22 +11112,22 @@
                      "mobs" : [
                         {
                            "id" : "mob000",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Eywig",
+                           "icon" : "swampmobs:swampegg size(1) dmg(4)",
+                           "mob" : "swampmobs.eyewig",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob001",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Aspid",
+                           "icon" : "swampmobs:swampegg size(1) dmg(5)",
+                           "mob" : "swampmobs.aspid",
                            "count" : 1,
                            "exact" : false
                         },
                         {
                            "id" : "mob002",
-                           "icon" : "minecraft:skull size(1) dmg(2)",
-                           "mob" : "Remobra",
+                           "icon" : "swampmobs:swampegg size(1) dmg(6)",
+                           "mob" : "swampmobs.remobra",
                            "count" : 1,
                            "exact" : false
                         }
