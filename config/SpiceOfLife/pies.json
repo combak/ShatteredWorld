@@ -1,0 +1,24 @@
+{
+  "food": {
+    "oredict": [ 
+        "foodApplepie",
+        "foodChickenpotpie",
+        "foodStrawberrypie",
+        "foodBlueberrypie",
+        "foodCherrypie",
+        "foodSweetpotatopie",
+        "foodKeylimepie",
+        "foodRaspberrypie",
+        "foodShepherdspie",
+        "foodPecanpie",
+        "foodMeatpie",
+        "foodSpinachpie",
+        "foodMincepie"
+    ]
+  },
+  "name": "pies",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
