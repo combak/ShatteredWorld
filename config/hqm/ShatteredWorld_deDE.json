@@ -1357,238 +1357,238 @@
             {
                "id" : "quest097",
                "name" : "Der singende See",
-               "description" : "Unnamed quest",
+               "description" : "Ein guter Zauberer braucht auch immer ein geheimnisvolles Zauberbuch. Darin kann er all seine Geheimnisse notieren. Ein solches Buch ist auch mit Magie erfuellt und zeichnet wundersame Dinge auf, die dir nuetzlich sind.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Plaziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die Melodie siehst, bist du fast am Ziel."
                   }
                ]
             },
             {
                "id" : "quest098",
                "name" : "Das stille Oertchen",
-               "description" : "Unnamed quest",
+               "description" : "Der sichere Weg zu neuer Erkenntnis ist die Meditation. Dafuer braucht man einen speziellen Altar. Hier kann man seine Meisterschaft zu neuen Faehigkeiten formen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Occulus ist der wichtigste Block des Hexenmeisters. Hier kann man Erfahrungspunkte in neue Faehikgkeiten umwandeln, aus denen man dann maechtige Zauberspueche formen kann. Waehle deine Punkte mit bedacht!"
                   }
                ]
             },
             {
                "id" : "quest099",
                "name" : "Der Trommelrevolver",
-               "description" : "Unnamed quest",
+               "description" : "Mit der Zeit wirst du immer mehr Zaubersprueche kenne. Ein besonders Gefaess sollte nicht schaden. Ausserdem kann man die Zauber damit leicht auswaehlen und benutzen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das Zauberbuch ist der Beutel fuer alle Zaubersprueche. Man kann die wichtigsten davon in eine Schnellleiste ziehen."
                   }
                ]
             },
             {
                "id" : "quest100",
                "name" : "Der Basteltisch",
-               "description" : "Unnamed quest",
+               "description" : "Wie ein Dichter muessen alle Zaubersprueche geformt werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magischem Papyrus gebannt. Hierbei zeigt sich der ware Meister.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Beschriftungstisch (Inscription Table) ist der erste Schritt zu maechtigen Zaubern. Alles was du im Occulus gelernt hast, kannst du hier kombinieren."
                   }
                ]
             },
             {
                "id" : "quest101",
                "name" : "Das Rednerpult",
-               "description" : "Unnamed quest",
+               "description" : "So ein Zauberbuch kann die Taschen schon ganz schoen ausbeulen. Damit die Zauberruestung immer top aussieht, gibt es ein nettes Pult. Auf diesem kann man alle Buecher und Zauberspruchanleitungen plazieren.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Dieser simple Buchstand kann einzeln butzt werden, wird aber auch fuer Crafting Altar gebraucht."
                   }
                ]
             },
             {
                "id" : "quest102",
                "name" : "Der Platz der Wunder",
-               "description" : "Unnamed quest",
+               "description" : "Nur zu Wissen wie Zaubersprueche funktionieren genuegt natuerlich nicht. Man moechte sie auch anwenden. Dazu muss man sich diese erst zusammen bauen. Der Hexenmeister nutzt dazu ein Crafting Altar.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die genaue Form dieses Altars ist in deinem Compendium beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchts du ihn spaeter nicht aufzuruesten."
                   }
                ]
             },
             {
                "id" : "quest103",
                "name" : "Mage Amor",
-               "description" : "Unnamed quest",
+               "description" : "Wenn man zu einem erlesenen Kreis gehoeren will muss man sich auch dessen Etiketten unterwerfen. Die richtige Kleidung muss bei allen Empfaengen unbedingt getragen werden. Ausserdem dient sie natuerlich als magischer Schutzanzug.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese einfachen Ruestungsteile lassen sich aus normalen Grundsstoffen herstellen."
                   }
                ]
             },
             {
                "id" : "quest104",
                "name" : "Der Ofen der Weisen",
-               "description" : "Unnamed quest",
+               "description" : "Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "In dem Obelisk kann man unterschiedliche Materialien oder Fluessigkeiten verbrennen."
                   }
                ]
             },
             {
                "id" : "quest105",
                "name" : "Die magischen Tools",
-               "description" : "Unnamed quest",
+               "description" : "Die Basis fuer bessere Zauber sind die Essenzen. Es ist wichtig Werkzeuge zu besitzen, mit denen man diese sehen und auf verschiedene magischen Bloecke umzuleiten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task Chalk",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit der magischen Kreiden kann man den Ausstoss von Essenzen erhoehen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Magitech",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit diesen Dingern kann man sich den Fuellstand der Essenzen anzeigen."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task Wrench",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das letzte Tool dient dem Umleiten der Essenzestroeme."
                   }
                ]
             },
             {
                "id" : "quest106",
                "name" : "Der magischen Speicher",
-               "description" : "Unnamed quest",
+               "description" : "Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuehgung.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Speicher kann immer nur eine Art von roher Essenze speichern."
                   }
                ]
             },
             {
                "id" : "quest107",
                "name" : "Die magischen Blumen",
-               "description" : "Unnamed quest",
+               "description" : "Was so ein richtiger Hexenmweister werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Finde diese magischen Blumen. Sie sind sehr selten und schwer von anderen zu unterscheiden. Du findest sie unter magischen Baeumen, in Wuesten oder dunklen Stellen."
                   }
                ]
             },
             {
                "id" : "quest108",
                "name" : "Die magischen Essencen",
-               "description" : "Unnamed quest",
+               "description" : "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Dazu braucht man viel von den rohen Essenzen und natuelich disen netten Veredler (Refiner).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essencen sind doch recht hoch."
                   }
                ]
             },
             {
                "id" : "quest109",
                "name" : "Der erste Zauber",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erstmal etwas ueben.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Du solltest einen einfachen Zauber aus nur einem Zauberteilbaum bauen. Diesen kannst du dann so oft anwenden wie moeglich. Mit jeder Benutzung eines Zauber erhoehst du deine Erfahrung und kannst weider Zauber frei schalten."
                   }
                ]
             },
             {
                "id" : "quest110",
                "name" : "Battlemage Amor",
-               "description" : "Unnamed quest",
+               "description" : "Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausreustung genau das richtige.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit den magischen Essenzen aus dem Arcane Refiner kann man jetzt die besseren Ruestungen leicht herstellen."
                   }
                ]
             },
             {
                "id" : "quest111",
                "name" : "Die etwas andere Verzauberung",
-               "description" : "Unnamed quest",
+               "description" : "Ein guter Zauberer ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuehgt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden."
                   }
                ]
             },
             {
                "id" : "quest112",
                "name" : "Der mysterioese Meteor",
-               "description" : "Unnamed quest",
+               "description" : "Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Das Gestein, welches diese Meteore mit sich feuhren, habe besonder magische Eigenschaften. Halte staendig ausschau nach diesen Dingern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die Wahrscheinlichkeit fuer Meteore ist sehr gering. Trotzdem werden einige davon gebraucht."
                   }
                ]
             },
             {
                "id" : "quest113",
                "name" : "Der Kristall der Weisen",
-               "description" : "Ritual of Purifcation",
+               "description" : "Neben der Neutralen Essenze gibt es noch andere rohe Essenze. Die Lichtessenze ist eine davon und kann nur am Tag gewonnen werden. Allerdings braucht sie keinen Rohstoff.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Ein normaler Obelisk wird mit einem speziellen Kreidemuster und verschiedenen Gegenstaenden aufgewertet. Die genaue Beschreibung findest du in deinem Compendium"
                   }
                ]
             },
             {
                "id" : "quest114",
                "name" : "Der Wirbel der Weisen",
-               "description" : "Ritual of Corruption",
+               "description" : "Die letzte rohe Essenze wird aus sterbenden Monstern gewonnen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Auch hierfeur ist wieder ein Kreidemuster und verschiedene Gegenstaende noetig. Wie immer alles im Compendium beschrieben."
                   }
                ]
             },
             {
                "id" : "quest115",
                "name" : "Water Guardian",
-               "description" : "1. Boss (Level 10)",
+               "description" : "So der 1. Boss (Level 10). Er sollte nicht all zu schwer sein.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Diese Boss kann nur in einem Ocean Biom beschworen werden. Die Plattform dazu ist leicht herzustellen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1601,12 +1601,12 @@
             {
                "id" : "quest116",
                "name" : "Earth Guardian",
-               "description" : "2. Boss (Level 25)",
+               "description" : "Der 2. Boss (Level 25) ist da schon etwas schwerer.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Dieser Boss zerstoert seine Umgebung, wenn er erscheint. Ihr sollten somit ein abgelenes Plaetzchen aussuchen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1619,12 +1619,12 @@
             {
                "id" : "quest117",
                "name" : "Air Guardian",
-               "description" : "3. Boss (Level 35)",
+               "description" : "Der 3. Boss (Level 35). Jetzt wird es langsam spannend.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Dieser Boss kann nur auf einer Plattform ab einer Hoehe von 150 beschworen werden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1637,12 +1637,12 @@
             {
                "id" : "quest118",
                "name" : "Arcane Guardian",
-               "description" : "4. Boss (Level 45)",
+               "description" : "Der 4. Boss (Level 45) ist nicht fuer schwache Magier.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Fuer diesen Boss muss ein spezieller Altar errichtet werden. Ausserdem solltest du eine gute Ruestung mit magischem Wiederstand haben.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1655,12 +1655,12 @@
             {
                "id" : "quest119",
                "name" : "Life Guardian",
-               "description" : "5. Boss (Level 50)",
+               "description" : "Gegen den 5. Boss (Level 50) sollte man nicht direkt bekaempfen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Diese Bosskampf ist ewas anders, da man nicht gegen den Boss direkt kaempft, sondern gegen seine Minions.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1673,12 +1673,12 @@
             {
                "id" : "quest120",
                "name" : "Nature Guardian",
-               "description" : "6. Boss (Level 60)",
+               "description" : "Dieser 6. Boss (Level 60) erscheint, wenn du dich zu sehr an den Dryaden vergreifst, die in der Welt rumlaufen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Nachdem du 5 Draden getoetest hast, erscheint dieser Boss. Er kann viel einstecken und teilt auch gut aus.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1691,12 +1691,12 @@
             {
                "id" : "quest121",
                "name" : "Winter Guardian",
-               "description" : "7. Boss (Level 70)",
+               "description" : "Dieser 7. Boss (Level 70) friert alles in seiner Umgebung ein.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Ein seltsames Ritual. Nachdem man drei Schneemaenner geopfert hat, erscheint dieser Boss.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1709,12 +1709,12 @@
             {
                "id" : "quest122",
                "name" : "Lightning Guardian",
-               "description" : "8. Boss (Level 70)",
+               "description" : "Der 8. Boss (Level 70) ist ein Meister des Fernkampfes.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Fang den Blitz ein und dann besiege ihn. Ist doch einfach, oder?",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1727,12 +1727,12 @@
             {
                "id" : "quest123",
                "name" : "Ender Guardian",
-               "description" : "10. Boss (Level 90+)",
+               "description" : "Der 10. Boss (Level 90+) ist aktuell der letzte und schwerste.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Wie der Name schon sagt, muss dieser Boss im End beschworen werden. Aber das schlimmste an diesem Boss ist seine Gesundheitsregeneration.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1745,41 +1745,41 @@
             {
                "id" : "quest124",
                "name" : "Fang die flackernden Dinger",
-               "description" : "Unnamed quest",
+               "description" : "Flicker sind schon ulkige Dinger. Ich glaube in einem anderen Mod machen diese Sigils fast das gleiche. Mit Flickers kann man verschieden Flaecheneffekte erreichen, um z.B. Monster fern zu halten oder anzulocken, Holz faellen, Felder zu ernten oder auch Biome zu aendern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die zwei wichtigsten Basisgegenstaende. Mit dem Koeder (Lure) lockt man dieses Flimmern (Flicker) an. Dazu ist natuerlich immer die richtige Umgebung noetig. Und dann braucht man noch ein Gefaess (Jar), in das man das Flimmern einsperren kann."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Ja so einen Flimmern zu fangen ist schon eine knifflige Angelegenheit"
                   }
                ]
             },
             {
                "id" : "quest125",
                "name" : "Fang den Mond",
-               "description" : "Unnamed quest",
+               "description" : "Um den entspechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der schwierigste Teil der Arbeit war das Einfangen der Flicker. Diese Teil ist dann wieder viel leichter."
                   }
                ]
             },
             {
                "id" : "quest286",
                "name" : "Fire Guardian",
-               "description" : "9. Boss (Level 90)",
+               "description" : "Dieser 9. Boss (Level 90) muss im Nether beschworen werden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Naja, wenn du schon gegen Blitze gekampft hast, wird dir der Kampf gegen Feuer doch genauso leicht fallen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
