@@ -8,8 +8,6 @@ val harvCraftEggplant 		= <harvestcraft:eggplantItem>;
 val harvCraftOnion 		= <harvestcraft:onionItem>;
 val harvCraftBellpepper		= <harvestcraft:bellpepperItem>;
 val harvCraftButter		= <harvestcraft:butterItem>;
-val harvCraftAnimalTrap		= <harvestcraft:animaltrap>;
-val harvCraftFishTrap		= <harvestcraft:fishtrap>;
 val harvCraftMarket		= <harvestcraft:market>;
 val harvCraftMortarandPestle	= <harvestcraft:mortarandpestleItem>;
 val harvCraftFlour		= <harvestcraft:flourItem>;
@@ -33,10 +31,6 @@ recipes.addShapeless( harvCraftStuffedeggplant, [ harvCraftBakeware, harvCraftEg
 
 # Remove Market
 recipes.remove( harvCraftMarket );
-
-# Remove Trap Recipes until duplication bug is fixed
-recipes.remove( harvCraftAnimalTrap );
-recipes.remove( harvCraftFishTrap );
 
 # Natura Barlay to Flour
 recipes.addShapeless( harvCraftFlour, [ harvCraftMortarandPestle, naturaBarlay ] );
