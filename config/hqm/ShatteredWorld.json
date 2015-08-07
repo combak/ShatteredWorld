@@ -6335,6 +6335,11 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
+                           "item" : "Thaumcraft:ItemGolemCore size(1) dmg(3)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
                            "item" : "Thaumcraft:ItemGolemCore size(1) dmg(7)",
                            "required" : 1,
                            "precision" : "PRECISE"
@@ -6413,12 +6418,12 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
+                           "item" : "Thaumcraft:ItemGolemCore size(1) dmg(8)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "Thaumcraft:ItemGolemCore size(1) dmg(8)",
+                           "item" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
