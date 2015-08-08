@@ -7155,7 +7155,7 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "Botania:manasteelHelmReveal size(1) dmg(0)",
+                           "item" : "Botania:manasteelHelm size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
@@ -7896,12 +7896,12 @@
             },
             {
                "id" : "quest191",
-               "x" : 98,
-               "y" : 170,
+               "x" : 134,
+               "y" : 190,
                "big" : false,
                "icon" : "Botania:skyDirtRod size(1) dmg(0)",
                "requirements" : [
-                  "quest188"
+                  "quest190"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -7921,6 +7921,11 @@
                         },
                         {
                            "item" : "Botania:gravityRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Botania:rainbowRod size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -8086,11 +8091,6 @@
                      "id" : "task000",
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
-                        {
-                           "item" : "Botania:rainbowRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
                         {
                            "item" : "Botania:missileRod size(1) dmg(0)",
                            "required" : 1,
