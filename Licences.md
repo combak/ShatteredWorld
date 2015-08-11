@@ -289,7 +289,7 @@
 
 - Author: Nedelosk
 - Files: http://minecraft.curseforge.com/mc-mods/226149-forest-day-work-in-progress/files
-- Licence: https://github.com/Nedelosk/Forest-Mods/blob/1.7.10-Dev/License.txt
+- Licence: https://github.com/Nedelosk/Forest-Mods/blob/1.7.10/License.txt
 
 **Forge Essentials**
 > Eclipse Public License - v 1.0
