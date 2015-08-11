@@ -789,22 +789,22 @@
             {
                "id" : "quest055",
                "name" : "Die Rohrpost",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt liegen wieder meine Gegenstaende an der falschen Stelle. Kann ich die nicht automatisch weiterschicken?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die Leitungen gibt es in verschiednen Varianten. Sie unterscheiden sich durch das, was sie weiterleiten. Das Material bestimmt viele Eigenschaften der Leitung, wie z.B. Geschwindigkeit. Es gibt drei Arten, die entweder Gegenstaende transportieren ..."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "... Fluessigkeiten weiterleiten ..."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "... oder Strom weitergeleitet."
                   }
                ]
             },
@@ -910,12 +910,12 @@
             {
                "id" : "quest063",
                "name" : "Das Universaltalent",
-               "description" : "Unnamed quest",
+               "description" : "Manches stoert mich, dass man fuer viele Schritte immer wieder eine andere Maschine braucht. Aber da gibt es ein quasi Universaltalent, wenn es um Brennen und Legierungen geht.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Beim Alloy Smelter ist es wichtig, das der Knopf rechts unten in der GUI richtig eingestellt ist \"Furnace only\", Alloys ..."
                   },
                   {
                      "id" : "task001",
@@ -927,104 +927,104 @@
             {
                "id" : "quest064",
                "name" : "Die Induktionsschleife",
-               "description" : "Unnamed quest",
+               "description" : "Dann werfen wir doch mal das Universaltalent an.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Fuer die Upgrades und viele andere Dinge braucht man spezielle Legierungen, die man im Alloy Smelter herstellen kann."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit Kapazitatoren kann man nicht nur Dinge bauen, man kann auch Maschinen verbessern."
                   }
                ]
             },
             {
                "id" : "quest065",
                "name" : "Die Kneifzange",
-               "description" : "Unnamed quest",
+               "description" : "Um Maschinen abzubauen eine Spitzhake verwenden? Das geht nun wirklich nicht.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Um Maschinen oder Pipes einzustellen oder sie mit \"SHIFT-RechtsKlick\" abzubauen verwendet man eine Zange \/ Wrench"
                   }
                ]
             },
             {
                "id" : "quest066",
                "name" : "Die Ueberwachung",
-               "description" : "Unnamed quest",
+               "description" : "Irgendwie produziere ich manchmal zu viel Strom und verbrauche dadurch zu viel Brennstoff. Das geht auch anders.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dem Power Monitor kann man den Energie Level messen und entsprechende Steuerungen aufbauen. Z.B. kann man einen Generator abschalten, wenn genug Strom gespeichert ist."
                   }
                ]
             },
             {
                "id" : "quest067",
                "name" : "Das Fass mit Boden",
-               "description" : "Unnamed quest",
+               "description" : "Kann man nicht auch noch ein paar brennbare Fluessigkeiten herstellen? Damit wuerden ja grenzenlose Moeglichkeiten auf mich zukommen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dem Vat kann man verschiedene Fluessigkeiten herstellen. Am besten mal in der Maschine dann den Rezept Knopf druecken."
                   }
                ]
             },
             {
                "id" : "quest068",
                "name" : "Dark Armor",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt habe ich doch glatt zu viel Dark Steel in der Tasche. Das verwenden wir jetzt aber so richtig sinnvoll fuer eine tolle Ruestung",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Dark Armor sieht nicht nur duester aus, man kann ihn auch durch allerlei Upgrades so richtig gut ausstatten."
                   }
                ]
             },
             {
                "id" : "quest069",
                "name" : "Die boese Seele",
-               "description" : "Unnamed quest",
+               "description" : "Monster sind extrem laestig. Aber manchmal haben sie ganz nuetzliche Sachen bei sich. Kann man das nicht irgendwie sicherer gestalten?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "In dem Soul Binder kann man mit RF und Erfahrungspunkten Gegenstaende kombinieren. Ausserdem kann man bei kaputten Spawnern den Typen einstellen, indem man eine Monster Seele mit dem Spawner kombiniert."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die neue Maschine nutzen wir gleich mal um uns einen Franken Zombie zu erschaffen ... Duesteres Gelaechter ... um danach ..."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "... uns einen kontrollierbaren Spawner zu bauen. "
                   }
                ]
             },
             {
                "id" : "quest070",
                "name" : "Die Resonanze",
-               "description" : "Unnamed quest",
+               "description" : "Einige unsere Gegenstaende muessen geladen werden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Fuer die Maschine brauchen wir da zunaechst mal einen Ender Resonator"
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "... den wir dann im Wireless Charger verbauen. Die Reichweiter betraegt 24 Bloecke und hat einen internen Puffer von 200.000 RF."
                   }
                ]
             }
@@ -1038,53 +1038,53 @@
             {
                "id" : "quest071",
                "name" : "Der Staub der Sterne",
-               "description" : null,
+               "description" : "Nachdem wir jetzt so viel Material haben, haben wir ein Problem. Wohin damit? Aber dafuer gibt es etwas ganz praktisches. Aber bis das funktioniert, muessen wir noch so einiges tun.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Um an Flux Kristalle zu kommen, muss man geladenen Certus Quartz, Nether Quartz und Redstone im Verhaeltniss 1:1:1 in eine Pfuetze oder See werfen. Nach kurzer Zeit kommt Flux Kristall raus. Diesen kann man danach zerkleinern um an Flux Staub \/ Dust zu kommen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Aus dem Staub \/ Dust kann man auch noch spezielles Glass herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist."
                   }
                ]
             },
             {
                "id" : "quest072",
                "name" : "Der geladene Kristall",
-               "description" : "Unnamed quest",
+               "description" : "Fuer manche Rezepte braucht man geladenen Certus Quartz. Um diesen zu produzieren, braucht man eine kleine Maschine. ",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Bei dieser Maschine musst du aufpassen, die nimmt nicht von allen Seiten Strom an."
                   }
                ]
             },
             {
                "id" : "quest073",
                "name" : "Die Wachstumsblasen",
-               "description" : null,
+               "description" : "Da wir nicht im Ueberfluss die Quartz Arten zur Verfuegung haben, muessen wir mal schauen, ob man diese nicht auch noch zuechten kann.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Crystal Growth Accelerator beschleunigt den Vorgang, aus Kristall Seeds Kristalle zu erzeugen. Dazu muss dieser neben dem Wasser plaziert werden, in den die Seeds geworfen werden. Mehr hilft hier tatsaechlich mehr, aber die brauchen auch maechtig viel Strom."
                   }
                ]
             },
             {
                "id" : "quest074",
                "name" : "Der Herr der Kristalle",
-               "description" : "Unnamed quest",
+               "description" : "Endlich haben wir einen Weg gefunden, um die Kristalle zu vervielfachen. Aber es dauert seine Zeit, bis wir die Kristalle gezuechtet haben.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Seeds hier muss man einfach in Wasser werfen, dann fangen diese an zu wachsen. Um das Wachstum zu beschleunigen, kann man den Crystal Growth Accelerator verwenden."
                   },
                   {
                      "id" : "task001",
@@ -1095,13 +1095,13 @@
             },
             {
                "id" : "quest075",
-               "name" : "der Graveur",
-               "description" : null,
+               "name" : "Der Graveur",
+               "description" : "Fuer die komplizierteren Maschinen brauchen wir spezielle Prozessoren.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dieser Maschine und den passenden Formen koennen wir dann Prozessoren und die dafuer notwendigen Komponenten herstellen."
                   },
                   {
                      "id" : "task001",
@@ -1113,144 +1113,144 @@
             {
                "id" : "quest076",
                "name" : "Der Microchip",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt wird es Zeit, den ersten Prozessor zu bauen",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Dieser Prozessor besteht aus drei Teilen, wovon wir zwei vorher schon in der gleichen Maschine herstellen muessen."
                   }
                ]
             },
             {
                "id" : "quest077",
                "name" : "Der Innere Kern",
-               "description" : "Unnamed quest",
+               "description" : "In Applied Energistics geht es um das Thema Materie in Bits und Bytes zu wandeln und umgekehrt aus Bits und Bytes wieder Materie herzustellen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Um Materie in Bytes und umgekehrt zu wandeln, gibt es zwei Standard Bauteile, die man dann in den einzelnen Komponenten verbauen muss, je nach Verwendungszweck."
                   }
                ]
             },
             {
                "id" : "quest078",
                "name" : "Die Umlagerung",
-               "description" : "Unnamed quest",
+               "description" : "Mit der Hand das Material rein oder wieder raus zu bekommen ist langwierig und langweilig. ",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dem IO Port kann man zwischen dem ME Netzwerk und den Festplatten \/ Storage Cells Gegenstaende transferieren."
                   }
                ]
             },
             {
                "id" : "quest079",
                "name" : "Das Fenster in die Seele",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt haben wir vielleicht schon die ersten Gegenstaende in unserem schoenen ME Netzwerk, aber wie kann ich da reinschauen?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das ist die Zukunft moderner Lagerhaltung."
                   }
                ]
             },
             {
                "id" : "quest080",
                "name" : "Der Kabelbinder",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt werden das schon mehr und mehr Geraete. Wir brauchen Kabel.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die ME Kabel gibt es in mehreren Arten. Das einfachste ist das Glass Cable, das man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen."
                   }
                ]
             },
             {
                "id" : "quest081",
                "name" : "Der kleine Speicher",
-               "description" : "Unnamed quest",
+               "description" : "Es muss nicht immer Gross sein. Manchmal reicht auch schon was Kleines und Schlichtes.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das ME Drive hat verschiedene Seiten. An einer Seite kann man die Festplatte \/ Storage Cell reinstecken, an der anderen Seite kann man dann sehen, was auf der Festplatte liegt, vorrausgesetzt das ME Drive hat Strom."
                   }
                ]
             },
             {
                "id" : "quest082",
-               "name" : "klein aber fein",
-               "description" : null,
+               "name" : "Klein aber fein",
+               "description" : "Ein paar Maschinen stehen ja um unser ME Netzwerk schon herum. Kann man die vielleicht daran anschliessen?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dem Storage Bus sieht man im ME Netzwerk, welche Gegenstaende in der angeschlossenen Kiste oder Maschine sind. Der Export Bus dient zum Exportieren von Gegenstaenden AUS dem Netzwerk heraus in Kisten oder Maschinen, der Import Bus Importiert Gegenstaende IN das ME Netzwerk"
                   }
                ]
             },
             {
                "id" : "quest083",
                "name" : "Der Microprocessor",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt sollten wir gleich noch schauen, ob wir mehr speichern koennen",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Zum Speichern der Informationen gibt es noch andere, verbesserte Geraete. Da diese aber komplizierter sind, braucht es hier einen verbesserten Prozessor."
                   }
                ]
             },
             {
                "id" : "quest084",
                "name" : "Der grosse Speicher",
-               "description" : "Unnamed quest",
+               "description" : "Pro Festplatte eine ME Chest, da ist ja trotzdem ganz viel Platz weg. Dann bringt das ja nicht so viel, oder?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Storage Cells koennen auch in einem Plattenschrank \/ ME Drive verwendet werden. Hier passen dann 10 Platten \/ Storage Cells rein. "
                   }
                ]
             },
             {
                "id" : "quest085",
                "name" : "Die Steckkarten",
-               "description" : "Unnamed quest",
+               "description" : "Viele der Maschinen aus Applied Energistics erscheinen mir noch recht einfach. Kann man die noch verbessern?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Fuer die Verbesserung der einzelnen Komponenten eines Applied Energistics Netzwerkes gibt es Karten. Fuer die Karten braucht man eine dieser beiden Komponenten."
                   }
                ]
             },
             {
                "id" : "quest086",
                "name" : "Der Formatierer",
-               "description" : "Unnamed quest",
+               "description" : "Irgendwie sieht es auf den Platten \/ Storage Cells aus wie Kraut und Rueben. Kann man das darauf nicht etwas \"organisierter\" gestalten?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dieser Cell Workbench kann man sehr genau festlegen, welche Gegenstaende \/ Items auf die Platte sollen."
                   }
                ]
             },
             {
                "id" : "quest087",
                "name" : "Der Erbauer",
-               "description" : null,
+               "description" : "Irgendwie ist das doof, die Gegenstaende heraus zu nehmen und dann in einem normalen Crafting Table zu verwenden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das Crafting Terminal verwendet die Gegenstaende aus dem ME Netzwerk oder aus deinem Inventar. Rezepte kann man auch per Klick auf das \"?\" in NEI uebernehmen."
                   }
                ]
             },
@@ -1269,60 +1269,60 @@
             {
                "id" : "quest089",
                "name" : "Der Microcomputer",
-               "description" : "Unnamed quest",
+               "description" : "Immer komplizierter werden die Geraete, die wir anschliessen koennen. Nun brauchen wir wohl noch bessere Prozessoren",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mit diesen Prozessoren werden nun die letzten Maschinen moeglich, die man an ein ME Netzwerk anschliessen kann."
                   }
                ]
             },
             {
                "id" : "quest090",
                "name" : "Der Meister",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt haben wir acht Maschinen. Aber da stehen doch noch so viele rum. ",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "An jeder Seite des ME Controllers koennen bis zu 32 Geraete angeschlossen werden, voraus gesetzt, es ist das richtige Kabel."
                   }
                ]
             },
             {
                "id" : "quest091",
                "name" : "Der Zauberer",
-               "description" : null,
+               "description" : "Jetzt geht schon so viel mit diesem Zauberkasten. Bin ja mal gespannt, was noch so alles gehen soll.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "In diesem Geraet werden Gegenstaende automatisch hergestellt. Dazu muss man ein ME Interface anschliessen, in dass man die Rezepte reinlegt. Jede Seite kann ein eigenes ME Interface bekommen. Ein ME Interface kann auch mehrere Crafting Chambers verwenden."
                   }
                ]
             },
             {
                "id" : "quest092",
                "name" : "Der Grossrechner",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt wird es langsam umfangreich, ok, das ist es ja bereits. Aber mit jeder Ausbaustufe kann das Monster hier mehr.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Jeder Crafting Prozessor hat eine maximale Kapazitaet fuer die Gegenstaende, die man fuer den Bauvorgang braucht. Der Co Prozessor kann zusaetzliche Assembler mit Material versorgen, damit z.B. zwei Assembler gleichzeitig einen Gegenstand produzieren."
                   }
                ]
             },
             {
                "id" : "quest093",
                "name" : "Der Administrator",
-               "description" : "Unnamed quest",
+               "description" : "Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit diesen beiden Komponenten sehn wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen."
                   }
                ]
             },
