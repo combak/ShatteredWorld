@@ -190,20 +190,6 @@
 
 ## D
 
-**Darkcore**
-> You can:
-> - Distribute jars downloaded from Curse provided this license is applied to those downloads
-> - Decompile and modify the mod for your own Personal use
-> You can't without written permission of the author:
-> - Distribute modified versions of the jars
-> - Make any money from this mod, including via an adwall
-> - Make any money from a work including this mod
-
-- Author: ShaneDarkholme
-- Required for: TARDIS Mod
-- Files: http://minecraft.curseforge.com/mc-mods/230156-darkcore/files
-- Permission: http://minecraft.curseforge.com/mc-mods/230156-darkcore/license
-
 **Draconic Evolution**
 > You CAN:
 > - Use this mod in private or public non profit mod packs
@@ -355,14 +341,6 @@
 - Author: Boni
 - Files: http://minecraft.curseforge.com/mc-mods/223248-iguanas-tinker-tweaks/files
 - Licence: http://minecraft.curseforge.com/mc-mods/223248-iguanas-tinker-tweaks/license
-
-**Immibis Mods**
-> The MIT License (MIT)
-
-- Author: Immibis
-- Included Mods: Immibis Core, Dimensional Anchors
-- Files: http://immibis.com/mcmoddl/
-- Licence: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281065-immibiss-mods-now-with-85-7-less-version-numbers
 
 **INpureCore**
 > The IDGAF License
@@ -561,19 +539,6 @@ minecraft original sources.
 
 ## T
 
-**TARDIS Mod**
-> You can:
-> - Distribute jars downloaded from Curse provided this license is applied to those
-> - Decompile and modify the mod for your own Personal use
-> You can't without written permission of the author:
-> - Distribute modified versions of the jars
-> - Make any money from this mod
-> - Make any money from any work which includes this mod.
-
-- Author: ShaneDarkholme
-- Files: http://minecraft.curseforge.com/mc-mods/230170-tardis-mod/files
-- Licence: http://minecraft.curseforge.com/mc-mods/230170-tardis-mod/license
-
 **Team CoFH Mods**
 > CoFH "Don't Be a Jerk" License
 
@@ -651,6 +616,13 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 - Author: BluSunrize
 - Files: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/files
 - Licence: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/license
+
+**ThaumicEnergistics**
+> The MIT License (MIT)
+
+- Author: Nividica
+- Files: http://minecraft.curseforge.com/mc-mods/223666-thaumic-energistics/files
+- Licence: https://github.com/Nividica/ThaumicEnergistics/blob/master/LICENSE
 
 **The Spice of Life**
 > Public Domain
