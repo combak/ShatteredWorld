@@ -162,11 +162,21 @@ val thermExpPulverizerRemove = [
   <ore:ingotObsidian>,			/* 68 - Obsidian Ingot (OreDict) */
   /* Basalz Powder */
   <ore:rodBasalz>,			/* 69 - Basalz Rod (OreDict) */
-  /* Mithril & Mana Infused */
+  /* Mithril & Mana Infused Dust */
   <ore:oreMithril>,			/* 70 - Mithril Ore (OreDict) */
   <NetherOres:tile.netherores.ore.1:7>,	/* 71 - Nether Mithril Ore (Nether Ores) */
   <ore:ingotMithril>,			/* 72 - Mithril Ingot (OreDict) */
   <WitchingGadgets:item.WG_Cluster:24>,	/* 73 - Native Mithril Cluster (Thaumcraft - Witching Gadgets) */
+  /* Bronze Dust */
+  <ore:ingotBronze>,			/* 74 - Bronze Ingot (OreDict) */
+  /* Electrum Dust */
+  <ore:ingotElectrum>,			/* 75 - Electrum Ingot (OreDict) */
+  /* Charcoal Dust */
+  <ore:charcoal>,			/* 76 - Charcoal (OreDict) */
+  /* Cobalt Dust */
+  <ore:oreCobalt>,			/* 77 - Cobalt Ore (OreDict */
+  <ore:ingotCobalt>,			/* 78 - Cobalt Ingot (OreDict) */
+  <WitchingGadgets:item.WG_Cluster:1>,	/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
   
 ] as IIngredient[];
 
@@ -252,11 +262,21 @@ val thermExpPulverizerReplace = [
   <TConstruct:materials:18>,		/* 68 - Obsidian Ingot (Tinkers Construct) */
   /* Basalz Powder */
   <ThermalFoundation:material:1028>,	/* 69 - Basalz Rod (Thermal Foundation) */
-  /* Mithril & Mana Infused */
+  /* Mithril & Mana Infused Dust */
   <ThermalFoundation:Ore:6>,		/* 70 - Mana Infused Ore (Thermal Foundation) */
   <NetherOres:tile.netherores.ore.1:7>,	/* 71 - Nether Mithril Ore (Nether Ores) */
   <ThermalFoundation:material:70>,	/* 72 - Mana Infused Ingot (Thermal Foundation) */
   <WitchingGadgets:item.WG_Cluster:24>,	/* 73 - Native Mithril Cluster (Thaumcraft - Witching Gadgets) */
+  /* Bronze Dust */
+  <ThermalFoundation:material:73>,	/* 74 - Bronze Ingot (Thermal Foundation) */
+  /* Electrum Dust */
+  <ThermalFoundation:material:71>,	/* 75 - Electrum Ingot (Thermal Foundation) */
+  /* Charcoal Dust */
+  <minecraft:coal:1>,			/* 76 - Charcoal (Vanilla) */
+  /* Cobalt Dust */
+  <TConstruct:SearedBrick:1>,		/* 77 - Cobalt Ore (Tinkers Construct) */
+  <TConstruct:materials:3>,		/* 78 - Cobalt Ingot (Tinkers Construct) */
+  <WitchingGadgets:item.WG_Cluster:1>,	/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
   
   
 ] as IItemStack[];
@@ -343,11 +363,21 @@ val thermExpPulverizerEnergy = [
   2400,					/* 68 - Obsidian Ingot (Tinkers Construct) */
   /* Basalz Powder */
   1600,					/* 69 - Basalz Rod (Thermal Foundation) */
-  /* Mithril & Mana Infused */
+  /* Mithril & Mana Infused Dust */
   4000,					/* 70 - Mana Infused Ore (Thermal Foundation) */
   3200,					/* 71 - Nether Mithril Ore (Nether Ores) */
   2400,					/* 72 - Mana Infused Ingot (Thermal Foundation) */
   4800,					/* 73 - Native Mithril Cluster (Thaumcraft) */
+  /* Bronze Dust */
+  2400,					/* 74 - Bronze Ingot (Thermal Foundation) */
+  /* Electrum Dust */
+  2400,					/* 75 - Electrum Ingot (Thermal Foundation) */
+  /* Charcoal Dust */
+  2400,					/* 76 - Charcoal (Vanilla) */
+  /* Cobalt Dust */
+  4000,					/* 77 - Cobalt Ore (Tinkers Construct) */
+  2400,					/* 78 - Cobalt Ingot (Tinkers Construct) */
+  4800,					/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
   
 ] as int[];
 
@@ -433,11 +463,21 @@ val thermExpPulverizerChance = [
   0,					/* 68 - Obsidian Ingot (Tinkers Construct) */
   /* Basalz Powder */
   50,					/* 69 - Basalz Rod (Thermal Foundation) */
-  /* Mithril & Mana Infused */
+  /* Mithril & Mana Infused Dust */
   0,					/* 70 - Mana Infused Ore (Thermal Foundation) */
   15,					/* 71 - Nether Mithril Ore (Nether Ores) */
   0,					/* 72 - Mana Infused Ingot (Thermal Foundation) */
   0,					/* 73 - Native Mithril Cluster (Thaumcraft) */
+  /* Bronze Dust */
+  0,					/* 74 - Bronze Ingot (Thermal Foundation) */
+  /* Electrum Dust */
+  0,					/* 75 - Electrum Ingot (Thermal Foundation) */
+  /* Charcoal Dust */
+  0,					/* 76 - Charcoal (Vanilla) */
+  /* Cobalt Dust */
+  0,					/* 77 - Cobalt Ore (Tinkers Construct) */
+  0,					/* 78 - Cobalt Ingot (Tinkers Construct) */
+  0,					/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
   
 ] as int[];
 
@@ -523,11 +563,21 @@ val thermExpPulverizerOutput1 = [
   <bcadditions:dust:58>,		/* 68 - Obsidian Dust (BuildCraft Additions) */
   /* Basalz Powder */
   <ThermalFoundation:material:1029>,	/* 69 - Basalz Powder (Thermal Foundation) */
-  /* Mithril & Mana Infused */
+  /* Mithril & Mana Infused Dust*/
   <bcadditions:dust:20>*2,		/* 70 - Mithril Dust (BuildCraft Additions) */
   <bcadditions:dust:20>*4,		/* 71 - Mithril Dust (BuildCraft Additions) */
   <bcadditions:dust:20>,		/* 72 - Mithril Dust (BuildCraft Additions) */
   <bcadditions:dust:20>*2,		/* 73 - Mithril Dust (BuildCraft Additions) */
+  /* Bronze Dust */
+  <bcadditions:dust:4>,			/* 74 - Mithril Dust (BuildCraft Additions) */
+  /* Electrum Dust */
+  <bcadditions:dust:44>,		/* 75 - Electrum Dust (BuildCraft Additions) */
+  /* Charcoal Dust */
+  <bcadditions:dust:57>,		/* 76 - Charcoal Dust (BuildCraft Additions) */
+  /* Cobalt Dust */
+  <bcadditions:dust:48>*2,		/* 77 - Cobalt Dust (BuildCraft Additions) */
+  <bcadditions:dust:48>*1,		/* 78 - Cobalt Dust (BuildCraft Additions) */
+  <bcadditions:dust:48>*2,		/* 79 - Cobalt Dust (BuildCraft Additions) */
   
   
 ] as IItemStack[];
@@ -614,11 +664,21 @@ val thermExpPulverizerOutput2 = [
   null,					/* 68 - Nothing */
   /* Basalz Powder */
   <bcadditions:dust:58>,		/* 69 - Obsidian Dust (BuildCraft Additions) */
-  /* Mithril & Mana Infused */
+  /* Mithril & Mana Infused Dust */
   null,					/* 70 - Nothing */
   <minecraft:netherrack>,		/* 71 - Netherrack (Vanilla) */  
   null,					/* 72 - Nothing */ 
   null,					/* 73 - Nothing */ 
+  /* Bronze Dust */
+  null,					/* 74 - Nothing */ 
+  /* Electrum Dust */
+  null,					/* 75 - Nothing */ 
+  /* Charcoal Dust */
+  null,					/* 76 - Nothing */ 
+  /* Cobalt Dust */
+  null,					/* 77 - Nothing */ 
+  null,					/* 78 - Nothing */ 
+  null,					/* 79 - Nothing */ 
   
 ] as IItemStack[];
 

@@ -75,9 +75,15 @@ val thermFoundGears = [
   <ThermalFoundation:material:140>	/* 14 - Enderium */
 ] as IItemStack[];
 
+# Thermal Foundation
+val thermFoundBronzeDust 	= <ThermalFoundation:material:41>;
+val thermFoundElectrumDust	= <ThermalFoundation:material:39>;
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
+
+# Remove Bronze Blend
+recipes.remove( thermFoundBronzeDust );
 
 # Remove Ingot to Nugget Crafting
 for i, nugget in thermFoundNuggets
