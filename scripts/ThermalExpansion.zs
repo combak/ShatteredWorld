@@ -162,6 +162,11 @@ val thermExpPulverizerRemove = [
   <ore:ingotObsidian>,			/* 68 - Obsidian Ingot (OreDict) */
   /* Basalz Powder */
   <ore:rodBasalz>,			/* 69 - Basalz Rod (OreDict) */
+  /* Mithril & Mana Infused */
+  <ore:oreMithril>,			/* 70 - Mithril Ore (OreDict) */
+  <NetherOres:tile.netherores.ore.1:7>,	/* 71 - Nether Mithril Ore (Nether Ores) */
+  <ore:ingotMithril>,			/* 72 - Mithril Ingot (OreDict) */
+  <WitchingGadgets:item.WG_Cluster:24>,	/* 73 - Native Mithril Cluster (Thaumcraft - Witching Gadgets) */
   
 ] as IIngredient[];
 
@@ -247,6 +252,11 @@ val thermExpPulverizerReplace = [
   <TConstruct:materials:18>,		/* 68 - Obsidian Ingot (Tinkers Construct) */
   /* Basalz Powder */
   <ThermalFoundation:material:1028>,	/* 69 - Basalz Rod (Thermal Foundation) */
+  /* Mithril & Mana Infused */
+  <ThermalFoundation:Ore:6>,		/* 70 - Mana Infused Ore (Thermal Foundation) */
+  <NetherOres:tile.netherores.ore.1:7>,	/* 71 - Nether Mithril Ore (Nether Ores) */
+  <ThermalFoundation:material:70>,	/* 72 - Mana Infused Ingot (Thermal Foundation) */
+  <WitchingGadgets:item.WG_Cluster:24>,	/* 73 - Native Mithril Cluster (Thaumcraft - Witching Gadgets) */
   
   
 ] as IItemStack[];
@@ -333,6 +343,11 @@ val thermExpPulverizerEnergy = [
   2400,					/* 68 - Obsidian Ingot (Tinkers Construct) */
   /* Basalz Powder */
   1600,					/* 69 - Basalz Rod (Thermal Foundation) */
+  /* Mithril & Mana Infused */
+  4000,					/* 70 - Mana Infused Ore (Thermal Foundation) */
+  3200,					/* 71 - Nether Mithril Ore (Nether Ores) */
+  2400,					/* 72 - Mana Infused Ingot (Thermal Foundation) */
+  4800,					/* 73 - Native Mithril Cluster (Thaumcraft) */
   
 ] as int[];
 
@@ -418,6 +433,11 @@ val thermExpPulverizerChance = [
   0,					/* 68 - Obsidian Ingot (Tinkers Construct) */
   /* Basalz Powder */
   50,					/* 69 - Basalz Rod (Thermal Foundation) */
+  /* Mithril & Mana Infused */
+  0,					/* 70 - Mana Infused Ore (Thermal Foundation) */
+  15,					/* 71 - Nether Mithril Ore (Nether Ores) */
+  0,					/* 72 - Mana Infused Ingot (Thermal Foundation) */
+  0,					/* 73 - Native Mithril Cluster (Thaumcraft) */
   
 ] as int[];
 
@@ -503,6 +523,12 @@ val thermExpPulverizerOutput1 = [
   <bcadditions:dust:58>,		/* 68 - Obsidian Dust (BuildCraft Additions) */
   /* Basalz Powder */
   <ThermalFoundation:material:1029>,	/* 69 - Basalz Powder (Thermal Foundation) */
+  /* Mithril & Mana Infused */
+  <bcadditions:dust:20>*2,		/* 70 - Mithril Dust (BuildCraft Additions) */
+  <bcadditions:dust:20>*4,		/* 71 - Mithril Dust (BuildCraft Additions) */
+  <bcadditions:dust:20>,		/* 72 - Mithril Dust (BuildCraft Additions) */
+  <bcadditions:dust:20>*2,		/* 73 - Mithril Dust (BuildCraft Additions) */
+  
   
 ] as IItemStack[];
 
@@ -588,6 +614,11 @@ val thermExpPulverizerOutput2 = [
   null,					/* 68 - Nothing */
   /* Basalz Powder */
   <bcadditions:dust:58>,		/* 69 - Obsidian Dust (BuildCraft Additions) */
+  /* Mithril & Mana Infused */
+  null,					/* 70 - Nothing */
+  <minecraft:netherrack>,		/* 71 - Netherrack (Vanilla) */  
+  null,					/* 72 - Nothing */ 
+  null,					/* 73 - Nothing */ 
   
 ] as IItemStack[];
 

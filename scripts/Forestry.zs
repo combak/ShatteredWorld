@@ -135,12 +135,18 @@ val forestryBlockOf = [
 ] as IItemStack[];
 
 # Forestry
-val forestryEngineClockwork         = <Forestry:engine:1>;
-val forestryEnginePeat              = <Forestry:engine:2>;
-val forestryEngineBiogas            = <Forestry:engine:4>;
-
+val forestryEngineClockwork	= <Forestry:engine:1>;
+val forestryEnginePeat		= <Forestry:engine:2>;
+val forestryEngineBiogas	= <Forestry:engine:4>;
+val forestryHoneyDrop		= <Forestry:honeyDrop>;
 # EnderIO
 val enderioChassis                  = <EnderIO:itemMachinePart>;
+
+# ExtraBees
+val extBeesShadowComb = <ExtraBees:honeyComb:36>;
+
+# BuildCraft Additions
+val bcAdditionObsidianDust = <bcadditions:dust:58>;
 
 ########################################################################################################################
 # Items
@@ -214,3 +220,9 @@ for i, log in forestryLogs
   recipes.remove( plank );
   recipes.addShapeless( plank * 2, [ log ] );
 }
+
+########################################################################################################################
+# Machine - Centrifuge
+########################################################################################################################
+mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
+mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
