@@ -345,7 +345,61 @@ found in the core file.
 	<itemStack oreDictionary="ingotCobalt" />
       </input>
       <output>
-	<itemStack modID="bcadditions" itemName="dust" itemMeta="48"/>			<!-- Steel Dust (BuildCraft Additions)-->
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="48"/>			<!-- Cobalt Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>   
+    
+    <!-- Ardite Dust -->
+    <recipe name="ArditeBlock" energyCost="3600">
+      <input>
+	<itemStack oreDictionary="blockArdite" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="46" number="9"/>	<!-- Ardite Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>  
+    <recipe name="ArditeIngot" energyCost="2400">
+      <input>
+	<itemStack oreDictionary="ingotArdite" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="46"/>			<!-- Ardite Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>   
+    
+    <!-- Manyullyn Dust -->
+    <recipe name="ManyullynBlock" energyCost="3600">
+      <input>
+	<itemStack oreDictionary="blockManyullyn" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="47" number="9"/>	<!-- Manyullyn Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>  
+    <recipe name="ManyullynIngot" energyCost="2400">
+      <input>
+	<itemStack oreDictionary="ingotManyullyn" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="47"/>			<!-- Manyullyn Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>           
+    
+    <!-- Aluminum Brass Dust -->
+    <recipe name="AluminumBrassBlock" energyCost="3600">
+      <input>
+	<itemStack oreDictionary="blockAluminumBrass" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="66" number="9"/>	<!-- Aluminum Brass Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>  
+    <recipe name="AluminumBrassIngot" energyCost="2400">
+      <input>
+	<itemStack oreDictionary="ingotAluminumBrass" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="66"/>			<!-- Aluminum Brass Dust (BuildCraft Additions)-->
       </output>
     </recipe>       
   </recipeGroup><!-- EnderIO End-->
@@ -474,6 +528,33 @@ found in the core file.
 	<itemStack modID="bcadditions" itemName="dust" itemMeta="51" number="9"/>	<!-- Nickel Dust (BuildCraft Additions)-->
       </output>
     </recipe>    
+    
+    <!-- Alumminum Dust -->
+    <recipe name="AluminumOre" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreAluminum" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="45" number="2"/>	<!-- Alumminum Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+    <recipe name="AluminumBlock" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="blockAluminum" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="45" number="9"/>	<!-- Alumminum Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+    <recipe name="AluminumIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotAluminum" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="45"/>			<!-- Alumminum Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+    
   </recipeGroup><!-- Engineer's Toolbox End -->
 
   <recipeGroup name="Thermal Expansion">

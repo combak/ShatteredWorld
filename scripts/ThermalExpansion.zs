@@ -177,6 +177,18 @@ val thermExpPulverizerRemove = [
   <ore:oreCobalt>,			/* 77 - Cobalt Ore (OreDict */
   <ore:ingotCobalt>,			/* 78 - Cobalt Ingot (OreDict) */
   <WitchingGadgets:item.WG_Cluster:1>,	/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
+  /* Ardite Dust */
+  <ore:oreArdite>,			/* 80 - Ardite Ore (OreDict) */
+  <ore:ingotArdite>,			/* 81 - Ardite Ingot (OreDict) */
+  <WitchingGadgets:item.WG_Cluster:2>,	/* 82 - Native Ardite Cluster (Thaumcraft - Witching Gadgets) */
+  /* Manyullyn Dust */
+  <ore:ingotManyullyn>,			/* 83 - Manyullyn Ingot (OreDict) */
+  /* Aluminum Dust */
+  <ore:oreAluminum>,			/* 84 - Aluminum Ore (OreDict) */
+  <ore:ingotAluminum>,			/* 85 - Aluminum Ingot (OreDict) */
+  <WitchingGadgets:item.WG_Cluster>,	/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  /* Aluminum Brass Dust */
+  <ore:ingotAluminumBrass>,		/* 87 - Aluminum Brass Ingot (OreDict) */
   
 ] as IIngredient[];
 
@@ -277,7 +289,18 @@ val thermExpPulverizerReplace = [
   <TConstruct:SearedBrick:1>,		/* 77 - Cobalt Ore (Tinkers Construct) */
   <TConstruct:materials:3>,		/* 78 - Cobalt Ingot (Tinkers Construct) */
   <WitchingGadgets:item.WG_Cluster:1>,	/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
-  
+  /* Ardite Dust */
+  <TConstruct:SearedBrick:2>,		/* 80 - Ardite Ore (Tinkers Construct) */
+  <TConstruct:materials:4>,		/* 81 - Ardite Ingot (Tinkers Construct) */
+  <WitchingGadgets:item.WG_Cluster:2>,	/* 82 - Native Ardite Cluster (Thaumcraft - Witching Gadgets) */
+  /* Manyullyn Dust */
+  <TConstruct:materials:5>,		/* 83 - Manyullyn Ingot (Tinkers Construct) */
+  /* Aluminum Dust */
+  <TConstruct:SearedBrick:5>,		/* 84 - Aluminum Ore (Tinkers Construct) */
+  <TConstruct:materials:11>,		/* 85 - Aluminum Ingot (Tinkers Construct) */
+  <WitchingGadgets:item.WG_Cluster>,	/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  /* Aluminum Brass Dust */
+  <TConstruct:materials:14>,		/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
   
 ] as IItemStack[];
 
@@ -378,6 +401,18 @@ val thermExpPulverizerEnergy = [
   4000,					/* 77 - Cobalt Ore (Tinkers Construct) */
   2400,					/* 78 - Cobalt Ingot (Tinkers Construct) */
   4800,					/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
+  /* Ardite Dust */
+  4000,					/* 80 - Ardite Ore (Tinkers Construct) */
+  2400,					/* 81 - Ardite Ingot (Tinkers Construct) */
+  4800,					/* 82 - Native Ardite Cluster (Thaumcraft - Witching Gadgets) */
+  /* Manyullyn Dust */
+  2400,					/* 83 - Manyullyn Ingot (Tinkers Construct) */
+  /* Aluminum Dust */
+  4000,					/* 84 - Aluminum Ore (Tinkers Construct) */
+  2400,					/* 85 - Aluminum Ingot (Tinkers Construct) */
+  4800,					/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  /* Aluminum Brass Dust */
+  2400,					/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
   
 ] as int[];
 
@@ -478,6 +513,18 @@ val thermExpPulverizerChance = [
   0,					/* 77 - Cobalt Ore (Tinkers Construct) */
   0,					/* 78 - Cobalt Ingot (Tinkers Construct) */
   0,					/* 79 - Native Cobalt Cluster (Thaumcraft - Witching Gadgets) */
+  /* Ardite Dust */
+  0,					/* 80 - Ardite Ore (Tinkers Construct) */
+  0,					/* 81 - Ardite Ingot (Tinkers Construct) */
+  0,					/* 82 - Native Ardite Cluster (Thaumcraft - Witching Gadgets) */
+  /* Manyullyn Dust */
+  0,					/* 83 - Manyullyn Ingot (Tinkers Construct) */
+  /* Aluminum Dust */
+  0,					/* 84 - Aluminum Ore (Tinkers Construct) */
+  0,					/* 85 - Aluminum Ingot (Tinkers Construct) */
+  0,					/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  /* Aluminum Brass Dust */
+  0,					/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
   
 ] as int[];
 
@@ -576,9 +623,20 @@ val thermExpPulverizerOutput1 = [
   <bcadditions:dust:57>,		/* 76 - Charcoal Dust (BuildCraft Additions) */
   /* Cobalt Dust */
   <bcadditions:dust:48>*2,		/* 77 - Cobalt Dust (BuildCraft Additions) */
-  <bcadditions:dust:48>*1,		/* 78 - Cobalt Dust (BuildCraft Additions) */
+  <bcadditions:dust:48>,		/* 78 - Cobalt Dust (BuildCraft Additions) */
   <bcadditions:dust:48>*2,		/* 79 - Cobalt Dust (BuildCraft Additions) */
-  
+  /* Ardite Dust */
+  <bcadditions:dust:46>*2,		/* 80 - Ardite Dust (BuildCraft Additions) */
+  <bcadditions:dust:46>,		/* 81 - Ardite Dust (BuildCraft Additions) */
+  <bcadditions:dust:46>*2,		/* 82 - Ardite Dust (BuildCraft Additions) */
+  /* Manyullyn Dust */
+  <bcadditions:dust:47>,		/* 83 - Manyullyn Dust (BuildCraft Additions) */
+  /* Aluminum Dust */
+  <bcadditions:dust:45>*2,		/* 84 - Manyullyn Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>,		/* 85 - Manyullyn Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>*2,		/* 86 - Manyullyn Dust (BuildCraft Additions) */
+  /* Aluminum Brass Dust */
+  <bcadditions:dust:66>,		/* 87 - Aluminum Brass Dust (BuildCraft Additions) */
   
 ] as IItemStack[];
 
@@ -679,6 +737,18 @@ val thermExpPulverizerOutput2 = [
   null,					/* 77 - Nothing */ 
   null,					/* 78 - Nothing */ 
   null,					/* 79 - Nothing */ 
+  /* Ardite Dust */
+  null,					/* 80 - Nothing */ 
+  null,					/* 81 - Nothing */ 
+  null,					/* 82 - Nothing */ 
+  /* Manyullyn Dust */
+  null,					/* 83 - Nothing */ 
+  /* Aluminum Dust */
+  null,					/* 84 - Nothing */ 
+  null,					/* 85 - Nothing */ 
+  null,					/* 86 - Nothing */ 
+  /* Aluminum Brass Dust */
+  null,					/* 87 - Nothing */ 
   
 ] as IItemStack[];
 
@@ -705,7 +775,10 @@ mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSan
 # Machine - Pulverizer
 ########################################################################################################################
 
-#Pulverizer Replacement (ItemStack)
+# Pulverizer remove
+# TODO split
+
+# Pulverizer ddd
 for i, replace in thermExpPulverizerReplace
 {
   var remove	= thermExpPulverizerRemove[ i ];
@@ -719,16 +792,18 @@ for i, replace in thermExpPulverizerReplace
   
 }
 
+# TODO Merge with data structures
 for i, item in removePulverizer
 {
   mods.thermalexpansion.Pulverizer.removeRecipe( item );
 }
 
 # Add ExNihilo Alu Blocks zu Pulverizer (oreGravel, oreSand, oreDust)
-for i, item in exnihiloAluList
-{ 
-  mods.thermalexpansion.Pulverizer.addRecipe(3200, item, bcAdditionsDustAlu * 2, null , 0);
-}
+# TODO Merge with data structures
+#for i, item in exnihiloAluList
+#{ 
+  #mods.thermalexpansion.Pulverizer.addRecipe(3200, item, bcAdditionsDustAlu * 2, null , 0);
+#}
 
 ########################################################################################################################
 # Custom Recipes Shaped

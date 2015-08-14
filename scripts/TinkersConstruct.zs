@@ -207,7 +207,8 @@ val tConstructItemMeltingAmount = [ 72,
   1296, 
 ] as int[];
 
-
+val tConstructManyullynDust	= <TConstruct:materials:41>;
+val tConstructAluminumBrassDust	= <TConstruct:materials:42>;
 val tConstructIngotCast		= <TConstruct:metalPattern>;
 val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
 
@@ -253,6 +254,7 @@ val removeTableRecipes = [
   <Thaumcraft:ItemNugget:3>,	/* 3 - Silver Nugget */
   <Thaumcraft:ItemNugget:4>	/* 4 - Lead Nugget */
 ] as IItemStack[];
+
 
 # Vanilla
 val vanillaRedstone      = <minecraft:redstone>;
@@ -403,6 +405,12 @@ for i, block in tConstructBlockOf
 {
   recipes.remove( block );
 }
+
+#Remove Manyullyn Dust
+recipes.remove( tConstructManyullynDust );
+
+#Remove Aluminum Brass Dust
+recipes.remove( tConstructAluminumBrassDust );
 
 ########################################################################################################################
 # Machine -  Smeltery
