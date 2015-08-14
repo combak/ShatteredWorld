@@ -252,7 +252,21 @@ val foodGroupFruit = [
 ] as IItemStack[];
 
 val foodGroupMilkshake = [
+  <harvestcraft:bananamilkshakeItem>,   /* 0 - Banana Milkshake */
+  <harvestcraft:chocolatemilkItem>,    /* 1 - Chocolate Milk */
+  <harvestcraft:chocolatemilkshakeItem>,  /* 2 - Chocolate Milkshake */
+  <harvestcraft:coconutmilkItem>,   /* 3 - Coconut Milk */
+  <harvestcraft:strawberrymilkshakeItem>,  /* 4 - Strawberry Milkshake */
+  <harvestcraft:soymilkItem>   /* 5 - Soy Milk */
+] as IItemStack[];
 
+val foodGroupHotdrink = [
+  <harvestcraft:chaiteaItem>,  /* 0 - Chai Tea */
+  <harvestcraft:coffeeconlecheItem>,   /* 1 - Coffee con Leche */
+  <harvestcraft:cupofcoffeeItem>,   /* 2 - Cup of Coffee */
+  <harvestcraft:cupofteaItem>,  /* 3 - Cup of Tea /*
+  <harvestcraft:espressoItem>,  /* 4 - Espresso /*
+  <harvestcraft:hotchocolateItem>  /* 5 - Hot Chocolate */
 ] as IItemStack[];
 
 ########################################################################################################################
