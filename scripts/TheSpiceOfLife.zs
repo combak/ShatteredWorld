@@ -32,7 +32,10 @@ val foodGroupSoup = [
   <harvestcraft:gardensoupItem>,		/* 19 - Garden */
   <harvestcraft:oldworldveggiesoupItem>,	/* 20 - Oldworldveggie */
   <harvestcraft:lambbarleysoupItem>,		/* 21 - Lambbarley */
-  <harvestcraft:leekbaconsoupItem>		/* 22 - Leekbacon */
+  <harvestcraft:leekbaconsoupItem>,		/* 22 - Leekbacon */
+  <harvestcraft:guacamoleItem>,   /*23 - Guacamole */
+  <minecraft:mushroomsoupItem>,  /*24 - Mushroom Soup */
+  <arcticmobs:palesoupItem>  /*25 - Pale Soup */
 ] as IItemStack[];
 
 val foodGroupBurger = [
@@ -42,11 +45,12 @@ val foodGroupBurger = [
   <harvestcraft:deluxecheeseburgerItem>,	/*  3 - Deluxecheeseburger */
   <harvestcraft:delightedmealItem>,		/*  4 - Delightedmeal */
   <harvestcraft:baconmushroomburgerItem>,	/*  5 - Baconmushroomburger */
-  <harvestcraft:chickensandwichItem>,		/*  6 - Chickensandwich */
-  <harvestcraft:fishsandwichItem>,		/*  7 - Fishsandwich */
-  <harvestcraft:leafychickensandwichItem>,	/*  8 - Leafychickensandwich */
-  <harvestcraft:leafyfishsandwichItem>,		/*  9 - Leafyfishsandwich */
-  <harvestcraft:bltItem>			/* 10 - BLT */
+  <harvestcraft:beetburgerItem>,		/*  6 - Beet Burger */
+  <harvestcraft:coleslawburgerItem>,		/*  7 - Colesaw Burger */
+  <harvestcraft:mcpamItem>,	/*  8 - McPam */
+  <harvestcraft:onionburgerItem>,		/*  9 - Onion Burger */
+  <harvestcraft:bltItem>,			/* 10 - BLT */
+  <plainsmobs:bulwarkburgerItem>   /* 11 - Bulwark Burger */
 ] as IItemStack[];
 
 val foodGroupSmoothie = [
@@ -127,7 +131,9 @@ val foodGroupSandwich = [
   <harvestcraft:figjellysandwichItem>,		/* 18 - Figjelly */
   <harvestcraft:grapefruitjellysandwichItem>,	/* 19 - Grapefruitjelly */
   <harvestcraft:persimmonjellysandwichItem>,	/* 20 - Persimmonjelly */
-  <harvestcraft:pbandjItem>			/* 21 - Pbandj */
+  <harvestcraft:pbandjItem>,			/* 21 - Pbandj */
+  <harvestcraft:chickensandwichItem>,    /* 22 - Chicken Sandwich */
+  
 ] as IItemStack[];
 
 val foodGroupSalad = [
