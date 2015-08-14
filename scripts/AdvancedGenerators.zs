@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 ########################################################################################################
 # Blocks
 ########################################################################################################
@@ -17,22 +19,36 @@ val forestDayFan                    = <Forestday:machine.fan>;
 val thermExpCellResonant            = <ThermalExpansion:Cell:4>;
 
 # Advanced Generators
-val advGeneFluxGenerator            = <advgenerators:RFOutput>;
-val advGeneValveFuidIn              = <advgenerators:FluidInput>;
-val advGeneValveFluidOut            = <advgenerators:FluidOutputSelect>;
-val advGeneValveItemIn              = <advgenerators:ItemInput>;
-val advGeneValveItemOut             = <advgenerators:ItemOutput>;
-val advGeneTurbine                  = <advgenerators:Turbine>;
-val advGeneFuelTank                 = <advgenerators:FuelTank>;
-val advGeneHeatingChamber           = <advgenerators:HeatingChamber>;
-val advGeneHeatExchanger            = <advgenerators:HeatExchanger>; 
-val advGeneSensorModule             = <advgenerators:Sensor>;
-val advGeneMixingChamber            = <advgenerators:MixingChamber>;
-val advGenePowerCapacitor           = <advgenerators:PowerCapacitor>;
-val advGeneControllerGasTurbine     = <advgenerators:TurbineController>;
-val advGeneControllerHeatExchanger  = <advgenerators:HeatExchangerController>;
-val advGeneControllerSteamTurbine   = <advgenerators:SteamTurbineController>;
-val advGeneControllerSyngasProducer = <advgenerators:SyngasController>;
+val advGeneFluxGenerator		= <advgenerators:RFOutput>;
+val advGeneValveFuidIn			= <advgenerators:FluidInput>;
+val advGeneValveFluidOut		= <advgenerators:FluidOutputSelect>;
+val advGeneValveItemIn			= <advgenerators:ItemInput>;
+val advGeneValveItemOut			= <advgenerators:ItemOutput>;
+
+val advGenTurbines = [
+  <advgenerators:TurbineIron>,		/* 0 - Iron Turbine */
+  <advgenerators:TurbineGold>,		/* 1 - Gold Turbine */
+  <advgenerators:TurbineSteel>,		/* 2 - Steel Turbine */
+  <advgenerators:TurbineBronze>,	/* 3 - Bronze Turbine */
+  <advgenerators:TurbineEnderium>,	/* 4 - Enderium Turbine */
+  <advgenerators:TurbineManyullyn>,	/* 5 - Manyullyn Turbine */
+  <advgenerators:TurbineVibrant>	/* 6 - Vibrant Turbine */
+] as IItemStack[];
+
+val advGeneFuelTank			= <advgenerators:FuelTank>;
+val advGeneHeatingChamber		= <advgenerators:HeatingChamber>;
+val advGeneHeatExchanger		= <advgenerators:HeatExchanger>; 
+val advGeneSensorModule			= <advgenerators:Sensor>;
+val advGeneMixingChamber		= <advgenerators:MixingChamber>;
+
+val advGenePowerCapacitorRedstone	= <advgenerators:PowerCapacitorRedstone>;
+val advGenePowerCapacitorAdvanced	= <advgenerators:PowerCapacitorAdvanced>;
+val advGenePowerCapacitorDense		= <advgenerators:PowerCapacitorDense>;
+
+val advGeneControllerGasTurbine		= <advgenerators:TurbineController>;
+val advGeneControllerHeatExchanger	= <advgenerators:HeatExchangerController>;
+val advGeneControllerSteamTurbine	= <advgenerators:SteamTurbineController>;
+val advGeneControllerSyngasProducer	= <advgenerators:SyngasController>;
 
 # Ender Tech
 val enderTechTankValve              = <EnderTech:endertech.enderTankPart:6>;
@@ -43,10 +59,19 @@ val enderTechTankFrame              = <EnderTech:endertech.enderTankPart>;
 ########################################################################################################
 
 # Advanced Generators               
-val advGenePowerIO                  = <advgenerators:PowerIO>;
-val advGeneControlCircuit           = <advgenerators:Controller>;
-val advGeneTurbineRotor             = <advgenerators:TurbineRotor>;
-val advGeneFrameIron                = <advgenerators:IronFrame>;
+val advGenePowerIO			= <advgenerators:PowerIO>;
+val advGeneControlCircuit		= <advgenerators:Controller>;
+val advGeneFrameIron			= <advgenerators:IronFrame>;
+
+val advGeneRotors = [
+  <advgenerators:TurbineRotorIron>,		/* 0 - Iron Rotor */
+  <advgenerators:TurbineRotorGold>,		/* 1 - Gold Rotor */
+  <advgenerators:TurbineRotorSteel>,		/* 2 - Steel Rotor */
+  <advgenerators:TurbineRotorBronze>,		/* 3 - Bronze Rotor */
+  <advgenerators:TurbineRotorEnderium>,		/* 4 - Enderium Rotor */
+  <advgenerators:TurbineRotorManyullyn>,	/* 5 - Manyullyn Rotor */
+  <advgenerators:TurbineRotorVibrant>		/* 6 - Vibrant Rotor */
+] as IItemStack[];
 
 # BuildCraft
 val buildcraftFluidPipeGold         = <BuildCraft|Transport:item.buildcraftPipe.pipefluidsgold>;
@@ -94,6 +119,15 @@ val thermExpCoilConductance         = <ThermalExpansion:material:3>;
 # Custom Crafting Recipes - Shaped
 ########################################################################################################
 
+# Change Turbine Recipe
+for i, turbine in advGenTurbines
+{
+  var rotor 	= advGeneRotors[ i ];
+  
+  recipes.remove( turbine );
+  recipes.addShaped( turbine, [ [ buildCraftChipComp, advGenePowerIO , projectRedChipEnergized ], [ rotor, enderioChassis, rotor ], [ projectRedChipEnergized, bcAdditionCoilKinetic, buildCraftChipComp ] ]);
+}
+
 # Alter
 recipes.remove( advGeneFluxGenerator );
 recipes.addShaped( advGeneFluxGenerator, [ [ enderioChassis, advGenePowerIO , enderioChassis ], [ projectRedChipSilicon, thermExpCoilConductance, buildCraftChipEmerald ],  [ enderioChassis, bcAdditionCoilKinetic, enderioChassis ] ]);
@@ -110,8 +144,6 @@ recipes.addShaped( advGeneValveItemIn, [ [ null, null , null ], [ thermDynaPipeI
 recipes.remove(advGeneValveItemOut);
 recipes.addShaped( advGeneValveItemOut, [ [ null, null , null ], [ thermDynaPipeItemImpulse, bcAdditionUpgradeEject, thermDynaPipeItemImpulse ], [ null, enderioChassis, null ] ]);
 
-recipes.remove( advGeneTurbine );
-recipes.addShaped( advGeneTurbine, [ [ buildCraftChipComp, advGenePowerIO , projectRedChipEnergized ], [ advGeneTurbineRotor, enderioChassis, advGeneTurbineRotor ], [ projectRedChipEnergized, bcAdditionCoilKinetic, buildCraftChipComp ] ]);
 
 recipes.remove( advGeneFuelTank );
 recipes.addShaped( advGeneFuelTank, [ [ advGeneFrameIron, tConstructGlassPane , advGeneFrameIron ], [ tConstructGlassPane, enderioTank, tConstructGlassPane ], [ advGeneFrameIron, buildcraftFluidPipeEmerald, advGeneFrameIron ] ]);
@@ -128,8 +160,14 @@ recipes.addShaped( advGeneSensorModule, [ [ enderioChassis, buildCraftChipDiamon
 recipes.remove( advGeneMixingChamber );
 recipes.addShaped( advGeneMixingChamber, [ [ enderioChassis, projectRedChipSilicon , enderioChassis ], [ enderTechTankValve, bcAdditionGrindingWheel, enderTechTankValve ], [ enderioChassis, projectRedConductivePlate, enderioChassis ] ]);
 
-recipes.remove( advGenePowerCapacitor );
-recipes.addShaped( advGenePowerCapacitor, [ [ enderioChassis, advGenePowerIO , enderioChassis ], [ projectRedConductivePlate, thermExpCellResonant, advGeneControlCircuit ], [ enderioChassis, bcAdditionCoilKinetic, enderioChassis ] ]);
+recipes.remove( advGenePowerCapacitorRedstone );
+recipes.addShaped( advGenePowerCapacitorRedstone, [ [ null, advGenePowerIO , null ], [ projectRedConductivePlate, thermExpCellResonant, advGeneControlCircuit ], [ bcAdditionCoilKinetic, enderioChassis, bcAdditionCoilKinetic ] ]);
+
+recipes.remove( advGenePowerCapacitorAdvanced );
+recipes.addShaped( advGenePowerCapacitorAdvanced, [ [ null, advGenePowerIO , null ], [ bcAdditionCoilKinetic, advGenePowerCapacitorRedstone, bcAdditionCoilKinetic ], [ null, advGeneControlCircuit, null ] ]);
+
+recipes.remove( advGenePowerCapacitorDense );
+recipes.addShaped( advGenePowerCapacitorDense, [ [ buildCraftChipPulsating, advGenePowerIO , buildCraftChipPulsating ], [ bcAdditionCoilKinetic, advGenePowerCapacitorAdvanced, bcAdditionCoilKinetic ], [ buildCraftChipComp, advGeneControlCircuit, buildCraftChipComp ] ]);
 
 recipes.remove( advGeneControllerGasTurbine );
 recipes.addShaped( advGeneControllerGasTurbine, [ [ enderTechTankFrame, bcAdditionCoilKinetic , enderTechTankFrame ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ enderTechTankFrame, buildCraftChipQuarz, enderTechTankFrame ] ]);
