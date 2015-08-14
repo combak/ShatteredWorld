@@ -133,7 +133,10 @@ val foodGroupSandwich = [
   <harvestcraft:persimmonjellysandwichItem>,	/* 20 - Persimmonjelly */
   <harvestcraft:pbandjItem>,			/* 21 - Pbandj */
   <harvestcraft:chickensandwichItem>,    /* 22 - Chicken Sandwich */
-  
+  <harvestcraft:fishsandwichItem>,   /* 23 - Fish Sandwich */
+  <harvestcraft:leafychickensandwichItem>,    /* 24 - Leafy Chicken Sandwich */
+  <harvestcraft:toastsandwichItem>,   /* 25 - Toast Sandwich  */
+  <harvestcraft:leafyfishsandwichItem>   /* 26 Leafy Fish Sandwich */
 ] as IItemStack[];
 
 val foodGroupSalad = [
