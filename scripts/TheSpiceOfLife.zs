@@ -151,7 +151,10 @@ val foodGroupSalad = [
   <harvestcraft:summerradishsaladItem>,		/*  8 - Summerradish */
   <harvestcraft:sunflowerbroccolisaladItem>,	/*  9 - Sunflowerbroccoli */
   <harvestcraft:mixedsaladItem>,		/* 10 - Mixed */
-  <harvestcraft:citrussaladItem>		/* 11 - Citrus */
+  <harvestcraft:citrussaladItem>,		/* 11 - Citrus */
+  <harvestcraft:ceasarsaladItem>,   /* 12 - Ceasar */
+  <harvestcraft:coleslawItem>,   /* 13 - Coleslaw */
+  <forestmobs:paleosaladItem>  /*14 - Paleo Salad */
 ] as IItemStack[];
 
 val foodGroupJuice = [
@@ -161,7 +164,25 @@ val foodGroupJuice = [
   <harvestcraft:pearjuiceItem>,			/*  3 - Pear */
   <harvestcraft:apricotjuiceItem>,		/*  4 - Apricot */
   <harvestcraft:figjuiceItem>,			/*  5 - Fig */
-  <harvestcraft:persimmonjuiceItem>		/*  6 - Persimmon */
+  <harvestcraft:persimmonjuiceItem>,		/*  6 - Persimmon */
+  <harvestcraft:applejuiceItem>,		/*  7 - Apple */
+  <harvestcraft:blackberryjuiceItem>,		/*  8 - Blackberry */
+  <harvestcraft:blueberryjuiceItem>,			/*  9 - Blueberry */
+  <harvestcraft:cactusfruitjuiceItem>,			/* 10 - Cactus Fruit */
+  <harvestcraft:cactusjuiceItem>,		/*  11 - Cactus */
+  <harvestcraft:CherryjuiceItem>,			/*  12 - Cherry */
+  <harvestcraft:cranberryjuiceItem>,		/*  13 - Cranberry */
+  <harvestcraft:grapejuiceItem>,		/*  14 - Grape */
+  <harvestcraft:kiwijuiceItem>,		/*  15 - Kiwi */
+  <harvestcraft:limejuiceItem>,			/*  16 - Lime */
+  <harvestcraft:mangoItem>,			/*  17 - Mango */
+  <harvestcraft:melonjuiceItem>,		/* 18 - Melon */
+  <harvestcraft:orangejuiceItem>,			/*  19 - Orange */
+  <harvestcraft:papayajuiceItem>,		/*  20 - Papaya */
+  <harvestcraft:pomegranatejuiceItem>,		/*  21 - Pomegranate */
+  <harvestcraft:raspberryjuiceItem>,		/*  22 - Rasperry */
+  <harvestcraft:starfruitjuiceItem>,			/*  23 - Starfruit */
+  <harvestcraft:StrawberryjuiceItem>		/*  27 - Strawberry */
 ] as IItemStack[];
 
 val foodGroupSoda = [
@@ -185,7 +206,11 @@ val foodGroupIceCream = [
   <harvestcraft:caramelicecreamItem>,		/* 4 - Caramel */
   <harvestcraft:mintchocolatechipicemcreamItem>,/* 5 - Mintchocolatechip */
   <harvestcraft:strawberryicecreamItem>,	/* 6 - Strawberry */
-  <harvestcraft:vanillaicecreamItem>		/* 7 - Vanilla */
+  <harvestcraft:vanillaicecreamItem>,		/* 7 - Vanilla */
+  <harvestcraft:cherryicecreamItem>,   /* 8 - Cherry */
+  <harvestcraft:neapolitanicecreamItem>,  /* 9 - Neapolitan */
+  <harvestcraft:pistachioicecreamItem>,    /* 10 - Pistachio */
+  <harvestcraft:spumoniicecreamItem>   /* 11 - Spumoni */
 ] as IItemStack[];
 
 val foodGroupJelly = [
