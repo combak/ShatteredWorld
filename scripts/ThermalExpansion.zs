@@ -13,11 +13,11 @@ val vanillaSand = <minecraft:sand>;
 
 # Thermal Expansion
 val thermExpFrameBasic		= <ThermalExpansion:Frame>;
-val thermExpDynamoCompression	= <ThermalExpansion:Dynamo:2>;
 val thermExpDynamoSteam		= <ThermalExpansion:Dynamo>;
+val thermExpDynamoMagmatic	= <ThermalExpansion:Dynamo:1>;
+val thermExpDynamoCompression	= <ThermalExpansion:Dynamo:2>;
 val thermExpDynamoReactant	= <ThermalExpansion:Dynamo:3>;
 val thermExpDynamoEnervation	= <ThermalExpansion:Dynamo:4>;
-val thermExpDynamoMagmatic	= <ThermalExpansion:Dynamo:5>;
 val thermExpActivator		= <ThermalExpansion:Device:2>;
 # Buildcraft Additions
 val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
@@ -837,11 +837,10 @@ recipes.addShaped
 				    [null, advGenePowerIO , null],
 					[thermFoundGearElectrum, bcAdditionCoilLava, thermFoundGearElectrum], 
 					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
-# Geht noch nicht
-#recipes.remove(thermExpDynamoMagmatic);
-#recipes.addShaped
-#                 (thermExpDynamoMagmatic,[
-#				    [null, advGenePowerIO , null],
-#					[thermFoundGearInvar, bcAdditionCoilLava, thermFoundGearInvar], 
-#					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
+recipes.remove(thermExpDynamoMagmatic);
+recipes.addShaped
+                 (thermExpDynamoMagmatic,[
+				    [null, advGenePowerIO , null],
+					[thermFoundGearInvar, bcAdditionCoilLava, thermFoundGearInvar], 
+					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 
