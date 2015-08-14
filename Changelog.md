@@ -2,6 +2,39 @@
 
 # Version 0.6.7
 
+**Config Changes**
+- Added Blazing Pyrotheum as heat source
+- Added HarvestCraft Trap Recipes (duplication bug fixed)
+- Added/Extended new Food Groups
+- Changed Solar Generator Recipe
+- Ore Processing (Dust)
+
+**Mod Additions**
+- Thaumic Energistics 0.8.10.10
+
+**Mod Updates**
+- Applied Energistics2 rv2-stable-5 to rv2-stable-10
+- CodeChickenCore 1.0.7.46 to 1.0.7.47
+- CoFHCore 3.0.3B2-294 to 3.0.3-303
+- Ex Astris Rebirth 1.01-42 to 1.01-45
+- Ex Nihilo 1.38-41 to 1.38-45
+- Forestry 3.5.7.16 to 3.6.3.20
+- Limited Resources 0.10.0 to 1.0.0
+- ModTweaker 2-0.9.0 alpha b02 to 2-0.9.2
+- NEI Addons 1.12.9.32 to 1.12.11.36
+- NEI Integration 1.0.9 to 1.0.12
+- NotEnoughItems 1.0.5.110 to 1.0.5.111
+- HarvestCraft i to j
+- Thermal Dynamics 1.1.0B2-149 to 1.1.0-161
+- Thermal Expansion 4.0.2B2-210 to 4.0.3B1-218
+- Thermal Foundation 1.2.0B1-95 to 1.2.0-102
+
+**Mod Removed**
+- Darkcore
+- Dimensional Anchor
+- Immibis Core
+- TARDIS Mod
+
 # Version 0.6.6
 
 **Config Changes**
