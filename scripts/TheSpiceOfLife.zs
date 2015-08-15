@@ -357,6 +357,30 @@ val foodGroupSnak = [
   <harvestcraft:figbarItem>    /* 9 - Fig Bar */
 ] as IItemStack[];
 
+val foodGroupToast = [
+  <harvestcraft:bbqpulledporkItem>,   /* 0 - BBQ Pulled Pork */
+  <harvestcraft:breadedporkchopItem>,   /* 1 - Breaded Porkchop */
+  <harvestcraft:footlongItem>,    /* 2 - Footlong */
+  <harvestcraft:frenchtoastItem>,   /* 3 - French Toast */
+  <harvestcraft:vegemiteontoastItem>,    /* 4 - Vegemite on Toast */
+  <harvestcraft:toastItem>   /* 5 - Toast */
+] as IItemStack[];
+
+val foodGroupBread = [
+  <harvestcraft:banananutbreadItem>,    /* 0 - Banana Nut Bread */
+  <harvestcraft:damperItem>,    /* 1 - Damper */
+  <harvestcraft:datenutbreadItem>,    /* 2 - Date Nut Bread */
+  <harvestcraft:fairybreadItem>,    /* 3 - Fairy Bread */
+  <harvestcraft:garlicbreadItem>,   /* 4 - Garlic Bread */
+  <harvestcraft:gingerbreadItem>,   /* 5 - Ginger Bread */
+  <harvestcraft:lavendershortbreadItem>,    /* 6 - Lavender Shortbread */
+  <harvestcraft:pumpkinbreadItem>,    /* 7 - Pumpkin Bread */
+  <harvestcraft:waltnutraisinbreadItem>,    /* 8 - Walnut Raisin Bread */
+  <harvestcraft:zucchinibreadItem>,    /* 9 - Zucchini Bread */
+  <minecraft:bread>   /* 10 - Bread */
+] as IItemstack[];
+
+
 
 ########################################################################################################################
 # Ore Dictionary
