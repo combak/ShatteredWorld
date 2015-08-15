@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ENERGY>
+  <ENGINE.BASE>
+    <Name>mm.techtree_entry_name.ENGINE.BASE</Name>
+    <Text>mm.techtree_entry_text.ENGINE.BASE</Text>
+    <mm.techtree_page.ENGINE.BASE.0>mm.techtree_page.ENGINE.BASE.0</mm.techtree_page.ENGINE.BASE.0>
+  </ENGINE.BASE>
+  <ENGINE.IMPROVED>
+    <Name>mm.techtree_entry_name.ENGINE.IMPROVED</Name>
+    <Text>mm.techtree_entry_text.ENGINE.IMPROVED</Text>
+    <mm.techtree_page.ENGINE.IMPROVED.0>mm.techtree_page.ENGINE.IMPROVED.0</mm.techtree_page.ENGINE.IMPROVED.0>
+  </ENGINE.IMPROVED>
+  <CAPACITOR.BASE>
+    <Name>mm.techtree_entry_name.CAPACITOR.BASE</Name>
+    <Text>mm.techtree_entry_text.CAPACITOR.BASE</Text>
+    <mm.techtree_page.CAPACITOR.BASE.0>mm.techtree_page.CAPACITOR.BASE.0</mm.techtree_page.CAPACITOR.BASE.0>
+  </CAPACITOR.BASE>
+  <CAPACITOR.ADVANCED>
+    <Name>mm.techtree_entry_name.CAPACITOR.ADVANCED</Name>
+    <Text>mm.techtree_entry_text.CAPACITOR.ADVANCED</Text>
+    <mm.techtree_page.CAPACITOR.ADVANCED.0>mm.techtree_page.CAPACITOR.ADVANCED.0</mm.techtree_page.CAPACITOR.ADVANCED.0>
+  </CAPACITOR.ADVANCED>
+  <CAPACITOR.IMPROVED>
+    <Name>mm.techtree_entry_name.CAPACITOR.IMPROVED</Name>
+    <Text>mm.techtree_entry_text.CAPACITOR.IMPROVED</Text>
+    <mm.techtree_page.CAPACITOR.IMPROVED.0>mm.techtree_page.CAPACITOR.IMPROVED.0</mm.techtree_page.CAPACITOR.IMPROVED.0>
+  </CAPACITOR.IMPROVED>
+  <ENGINE.ADVANCED>
+    <Name>mm.techtree_entry_name.ENGINE.ADVANCED</Name>
+    <Text>mm.techtree_entry_text.ENGINE.ADVANCED</Text>
+    <mm.techtree_page.ENGINE.ADVANCED.0>mm.techtree_page.ENGINE.ADVANCED.0</mm.techtree_page.ENGINE.ADVANCED.0>
+  </ENGINE.ADVANCED>
+</ENERGY>
