@@ -5,6 +5,7 @@
 # Vanilla
 val vanillaCobblestone              = <minecraft:cobblestone>;
 val vanillaTNT                      = <minecraft:tnt>;
+val obsidian         				= <minecraft:obsidian>;
 
 # Buildcraft
 val buildcraftHopper                = <BuildCraft|Factory:blockHopper>;
@@ -43,7 +44,7 @@ val extUtilObsidianInfused          = <ExtraUtilities:decorativeBlock1:1>;
 val extUtilMatrix                   = <ExtraUtilities:decorativeBlock1:12>;
 
 # Forest Day
-val forestDayFurnaceCoke            = <Forestday:machine.furnace>;
+val forestDayFurnaceCoke            = <ForestDay:forest.fd.block.furnace_coke>;
 
 # Tinkers Construct
 val tConstructSlabSeared            = <TConstruct:SearedSlab>;
@@ -61,9 +62,6 @@ val advGenePowerIO                  = <advgenerators:PowerIO>;
 
 # EnderIO
 val enderioPulsatingIronNugget      = <EnderIO:itemMaterial:3>;
-
-# Forest Day
-val forestDayObsidianPlate          = <Forestday:fd.item.build.materials.plate:3>;
 
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
@@ -89,7 +87,7 @@ recipes.remove( extUtilGeneratorCulinary );
 recipes.addShaped( extUtilGeneratorCulinary, [ [ buildcraftHopper, advGenePowerIO , buildcraftHopper], [ projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
 
 recipes.remove( extUtilGeneratorPotion );
-recipes.addShaped( extUtilGeneratorPotion, [ [ forestDayObsidianPlate, advGenePowerIO , forestDayObsidianPlate ], [ projectRedConductivePlate, enderioEnchanter, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
+recipes.addShaped( extUtilGeneratorPotion, [ [ obsidian , advGenePowerIO , obsidian  ], [ projectRedConductivePlate, enderioEnchanter, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);
 
 recipes.remove( extUtilGeneratorSolar );
 recipes.addShaped( extUtilGeneratorSolar, [ [ enderioFusedQuartz, advGenePowerIO , enderioFusedQuartz ], [ projectRedConductivePlate, extUtilMatrix, projectRedConductivePlate ], [ enderioSolarpanelsmall, forestDayFurnaceCoke, enderioSolarpanelsmall ] ]);
