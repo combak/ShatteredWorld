@@ -294,7 +294,7 @@ val foodGroupPancakes = [
   <harvestcraft:maplesyruppancakesItem>,	/* 1 - Maple Syrup Pancakes */
   <harvestcraft:pancakesItem>,			/* 2 - Pancakes */
   <harvestcraft:wafflesItem>,			/* 3 - Waffles */
-  <harvestcraft:maplesyrupwafflesItem>,		/* 4 - Maple Syrup Waffles */
+  <harvestcraft:maplesyrupwafflesItem>		/* 4 - Maple Syrup Waffles */
 ] as IItemStack[];
 
 val foodGroupSweets = [
@@ -312,10 +312,50 @@ val foodGroupSweets = [
   <harvestcraft:softpretzelItem>,		/* 11 - Soft Pretzel */
   <harvestcraft:softpretzelandmustardItem>,	/* 12 - Soft Pretzel and Mustard */
   <harvestcraft:saltedsunflowerseedsItem>,	/* 13 - Salted Sunflower Seeds */
+  <harvestcraft:taffyItem>,   /* 14 - Taffy */
+  <harvestcraft:trailmixItem>   /* 15 - Trail Mix */
 ] as IItemStack[];
 
+val foodGroupChocolate = [
+  <harvestcraft:chocolatebaconItem>,		/*  0 - Chocolate Bacon */
+  <harvestcraft:chocolatebarItem>,			/*  1 - Chocolate Bar */
+  <harvestcraft:chocolatecaramelfudgeItem>,		/*  2 - Chocolate Caramel Fudge */
+  <harvestcraft:chocolatecherryItem>,			/*  3 - Chocolate Cherry */
+  <harvestcraft:chocolatestrawberryItem>, /*  4 - Chocolate Strawberry */
+  <harvestcraft:honeycombchocolatebarItem>,		/*  5 - Honeycomb Chocolate Bar */
+  <harvestcraft:pralinesItem>,		/*  6 - Pralines */
+  <harvestcraft:nutellaItem>, 			/*  7 - Nutella */
+  <harvestcraft:snikersbarItem>,		/*  8 - Snikers Bar */
+  <harvestcraft:cherrycoconutchocolatebarItem>,		/*  9 - Cherry Coconut Chocolate Bar */
+  <harvestcraft:chilichocolateItem>,		/* 10 - Chili Chocolate */
+  <harvestcraft:timtamItem> /* 11 - Soft Tim Tam */
+] as IItemStack[];
 
+val foodGroupCookie = [
+  <harvestcraft:chaoscookieItem>,   /*  0 - Chaos Cookie */
+  <harvestcraft:peanutbuttercookiesItem>,   /*  1 - Peanut Butter Cookies */
+  <harvestcraft:creamcookieItem>,   /*  2 - Cream Cookie */
+  <harvestcraft:baklavaItem>,   /*  3 - Baklava */
+  <harvestcraft:biscuitItem>,   /*  4 - Biscuit */
+  <harvestcraft:raisincookiesItem>,   /*  5 - Raisin Cookies */
+  <Botania:manaCookie>,   /*  6 - Mana Cookie */
+  <minecraft:cookie>,   /*  7 - Cookie */
+  <harvestcraft:jaffaItem>,    /* 8 - Jaffa */
+  <harvestcraft:pumpkinoatsconesItem>   /* 9 - Pumpkin Oat Scones */
+] as IItemStack[];
 
+val foodGroupSnak = [
+  <harvestcraft:chilipoppersItem>,   /*  0 - Chili Poppers */
+  <harvestcraft:cinnamonrollItem>,   /*  1 - Cinnamon Roll */
+  <harvestcraft:cornflakesItem>,   /*  2 - Cornflakes */
+  <harvestcraft:manjuuItem>,   /*  3 - Manjuu */
+  <harvestcraft:raisinsItem>,   /*  4 - Raisins */
+  <harvestcraft:rostedchestnutItem>,   /*  5 - Roasted Chestnut */
+  <harvestcraft:zeppoleItem>,   /* 6 - Zeppole */
+  <harvestcraft:cranberrybarItem>,    /* 7 - Cranberry Bar */
+  <harvestcraft:leombarItem>,   /* 8 - Leom Bar */
+  <harvestcraft:figbarItem>    /* 9 - Fig Bar */
+] as IItemStack[];
 
 
 ########################################################################################################################
