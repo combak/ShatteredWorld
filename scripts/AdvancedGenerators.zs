@@ -12,9 +12,6 @@ val bcAdditionCoilKinetic           = <bcadditions:blockCoilKinetic>;
 val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
-# Forest Day
-val forestDayFan                    = <Forestday:machine.fan>;
-
 # Thermal Expansion
 val thermExpCellResonant            = <ThermalExpansion:Cell:4>;
 
@@ -149,7 +146,7 @@ recipes.remove( advGeneFuelTank );
 recipes.addShaped( advGeneFuelTank, [ [ advGeneFrameIron, tConstructGlassPane , advGeneFrameIron ], [ tConstructGlassPane, enderioTank, tConstructGlassPane ], [ advGeneFrameIron, buildcraftFluidPipeEmerald, advGeneFrameIron ] ]);
 
 recipes.remove( advGeneHeatingChamber );
-recipes.addShaped( advGeneHeatingChamber, [ [ enderioChassis, bcAdditionCoilLava , enderioChassis ], [ sJetpacksDarkSteelPlating, forestDayFan, sJetpacksDarkSteelPlating ], [ enderioChassis, bcAdditionCoilKinetic, enderioChassis ] ]);
+recipes.addShaped( advGeneHeatingChamber, [ [ sJetpacksDarkSteelPlating, bcAdditionCoilKinetic , sJetpacksDarkSteelPlating ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ sJetpacksDarkSteelPlating, bcAdditionCoilKinetic, sJetpacksDarkSteelPlating ] ]);
 
 recipes.remove( advGeneHeatExchanger );
 recipes.addShaped( advGeneHeatExchanger, [ [ enderioChassis, enderTechTankValve , enderioChassis ], [ bcAdditionCoilLava, null, bcAdditionCoilLava ], [ enderioChassis, buildCraftChipDiamond, enderioChassis ] ]);
