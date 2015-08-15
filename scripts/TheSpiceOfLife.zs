@@ -192,9 +192,10 @@ val foodGroupSoda = [
   <harvestcraft:grapesodaItem>,			/* 3 - Grape */
   <harvestcraft:lemonlimesodaItem>,		/* 4 - Lemonlime */
   <harvestcraft:orangesodaItem>,		/* 5 - Orange */
-  <harvestcraft:rootbeersodaItem>,		/* 6 - Rootbeer */
-  <harvestcraft:strawberrysodaItem>,		/* 7 - Strawberry */
-  <harvestcraft:grapefruitsodaItem>		/* 8 - Grapefruit */
+  <harvestcraft:strawberrysodaItem>,		/* 6 - Strawberry */
+  <harvestcraft:grapefruitsodaItem>,		/* 7 - Grapefruit */
+  <forestry:ambrosia>,            /* 8 - Ambrosia */
+  <harvestcraft:raspberryicedteaItem>     /* 9 - Raspberry Iced Tea */
 ] as IItemStack[];
 
 
@@ -268,6 +269,54 @@ val foodGroupHotdrink = [
   <harvestcraft:espressoItem>,			/* 4 - Espresso */
   <harvestcraft:hotchocolateItem>		/* 5 - Hot Chocolate */
 ] as IItemStack[];
+
+val foodGroupAlcohol = [
+  <harvestcraft:fruitpunchItem>,  /* 0 - Fruit Punch */
+  <harvestcraft:rootbeerItem>,  /* 1 - Root Beer */
+  <harvestcraft:appleciderItem>,   /* 2 - Apple Cider */
+  <harvestcraft:gingeraleItem>,  /* 3 - Ginger Ale */
+  <harvestcraft:gingersnapsItem>,  /* 4 - Ginger Snaps */
+  <arsmagica2:manaMartini>,  /* 5 - Mana Martini */
+  <harvestcraft:pinacoladaItem>   /* 6 - Pinacolada */
+] as IItemStack[];
+  
+val foodGroupDonut = [
+  <harvestcraft:chocolatedonutItem>,  /* 0 - Chocolate Donut */
+  <harvestcraft:cinnamonsugardonutItem>,  /* 1 - Cinnamon Sugar Donut */
+  <harvestcraft:donutItem>,   /* 2 - Donut */
+  <harvestcraft:jellydonutItem>,   /* 3 - Jelly Donut */
+  <harvestcraft:powerddonutItem>,   /* 4 - Powdered Donut */
+  <harvestcraft:frosteddonudItem>   /* 5 - Frosted Donut */
+] as IItemStack[];
+
+val foodGroupPancakes = [
+  <harvestcraft:blueberrypancakesItem>,  /* 0 - Blueberry Pencakes */
+  <harvestcraft:maplesyruppancakesItem>,  /* 1 - Maple Syrup Pancakes */
+  <harvestcraft:pancakesItem>,   /* 2 - Pancakes */
+  <harvestcraft:wafflesItem>,   /* 3 - Waffles */
+  <harvestcraft:maplesyrupwafflesItem>,   /* 4 - Maple Syrup Waffles */
+] as IItemStack[];
+
+val foodGroupSweets = [
+  <harvestcraft:marshmellowsItem>,  /* 0 - Marshmellows */
+  <harvestcraft:nachoesItem>,  /* 1 - Nachoes */
+  <harvestcraft:peppermintItem>,   /* 2 - Peppermint */
+  <harvestcraft:popcornItem>,   /* 3 - Popcorn */
+  <harvestcraft:candiedgingerItem>,   /* 4 - Candied Ginder */
+  <harvestcraft:candiedlemonItem>,  /* 5 - Candied Lemon */
+  <harvestcraft:candiedwalnutsItem>,  /* 6 - Candied Walnuts */
+  <harvestcraft:caramelItem>,   /* 7 - Caramel*/
+  <harvestcraft:caramelappleItem>,   /* 8 - Caramel Apple */
+  <harvestcraft:gummybearsItem>,   /* 9 - Gummbie Bears */
+  <harvestcraft:jellybeansItem>,  /* 10 - Jellybeans */
+  <harvestcraft:softpretzelItem>,  /* 11 - Soft Pretzel */
+  <harvestcraft:softpretzelandmustardItem>,   /* 12 - Soft Pretzel and Mustard */
+  <harvestcraft:saltedsunflowerseedsItem>,   /* 13 - Salted Sunflower Seeds */
+] as IItemStack[];
+
+
+
+
 
 ########################################################################################################################
 # Ore Dictionary
