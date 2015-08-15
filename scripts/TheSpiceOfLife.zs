@@ -367,56 +367,56 @@ val foodGroupToast = [
 ] as IItemStack[];
 
 val foodGroupBread = [
-  <harvestcraft:banananutbreadItem>,		/* 0 - Banana Nut Bread */
-  <harvestcraft:damperItem>,			/* 1 - Damper */
-  <harvestcraft:datenutbreadItem>,		/* 2 - Date Nut Bread */
-  <harvestcraft:fairybreadItem>,		/* 3 - Fairy Bread */
-  <harvestcraft:garlicbreadItem>,		/* 4 - Garlic Bread */
-  <harvestcraft:gingerbreadItem>,		/* 5 - Ginger Bread */
-  <harvestcraft:lavendershortbreadItem>,	/* 6 - Lavender Shortbread */
-  <harvestcraft:pumpkinbreadItem>,		/* 7 - Pumpkin Bread */
-  <harvestcraft:walnutraisinbreadItem>,		/* 8 - Walnut Raisin Bread */
-  <harvestcraft:zucchinibreadItem>,		/* 9 - Zucchini Bread */
+  <harvestcraft:banananutbreadItem>,		/*  0 - Banana Nut Bread */
+  <harvestcraft:damperItem>,			/*  1 - Damper */
+  <harvestcraft:datenutbreadItem>,		/*  2 - Date Nut Bread */
+  <harvestcraft:fairybreadItem>,		/*  3 - Fairy Bread */
+  <harvestcraft:garlicbreadItem>,		/*  4 - Garlic Bread */
+  <harvestcraft:gingerbreadItem>,		/*  5 - Ginger Bread */
+  <harvestcraft:lavendershortbreadItem>,	/*  6 - Lavender Shortbread */
+  <harvestcraft:pumpkinbreadItem>,		/*  7 - Pumpkin Bread */
+  <harvestcraft:walnutraisinbreadItem>,		/*  8 - Walnut Raisin Bread */
+  <harvestcraft:zucchinibreadItem>,		/*  9 - Zucchini Bread */
   <minecraft:bread>				/* 10 - Bread */
 ] as IItemStack[];
 
 val foodGroupCake = [
-  <harvestcraft:applepieItem>,		/* 0 - Apple Pie */
-  <harvestcraft:blueberrypieItem>,			/* 1 - Blueberry Pie */
-  <harvestcraft:cheesecakeItem>,		/* 2 - Cheese Cake */
-  <harvestcraft:cherrycheesecakeItem>,		/* 3 - Cherry Cheese Cake */
-  <harvestcraft:cherrypieItem>,		/* 4 - Cherry Pie */
-  <harvestcraft:chocolatespinklescakeItem>,		/* 5 - Chocolate Spinkles Cake */
-  <harvestcraft:gingeredrhubarbtartItem>,	/* 6 - Gingered Rhubarb Tart*/
-  <harvestcraft:holidaycakeItem>,		/* 7 - Holiday Cake */
-  <harvestcraft:keylimepieItem>,		/* 8 - Walnut Raisin Bread */
-  <harvestcraft:zucchinibreadItem>,		/* 9 - Keylime Pie */
-  <harvestcraft:lemonmeringueItem>,   /* 10 - Lemon Meringue */
-  <harvestcraft:pavlovaItem>,   /* 11 - Pavlova */
+  <harvestcraft:applepieItem>,			/*  0 - Apple Pie */
+  <harvestcraft:blueberrypieItem>,		/*  1 - Blueberry Pie */
+  <harvestcraft:cheesecakeItem>,		/*  2 - Cheese Cake */
+  <harvestcraft:cherrycheesecakeItem>,		/*  3 - Cherry Cheese Cake */
+  <harvestcraft:cherrypieItem>,			/*  4 - Cherry Pie */
+  <harvestcraft:chocolatesprinklecakeItem>,	/*  5 - Chocolate Spinkles Cake */
+  <harvestcraft:gingeredrhubarbtartItem>,	/*  6 - Gingered Rhubarb Tart*/
+  <harvestcraft:holidaycakeItem>,		/*  7 - Holiday Cake */
+  <harvestcraft:keylimepieItem>,		/*  8 - Walnut Raisin Bread */
+  <harvestcraft:zucchinibreadItem>,		/*  9 - Keylime Pie */
+  <harvestcraft:lemonmeringueItem>,   		/* 10 - Lemon Meringue */
+  <harvestcraft:pavlovaItem>,   		/* 11 - Pavlova */
   <harvestcraft:pineappleupsidedowncakeItem>,   /* 12 - Pineapple Upsidedown Cake */
-  <harvestcraft:pumpkincheesecakeItem>,   /* 13 - Pumpkin Cheese Cake */
-  <harvestcraft:raspberrypieItem>,    /* 14 - Raspberry Pie */
-  <harvestcraft:redvelvetcakeItem>,   /* 15 - Red Velvet Cake */
-  <harvestcraft:spicebunItem>,    /* 16 - Spice Bun */
-  <harvestcraft:strawberrypieItem>,   /* 17 - Strawberry Pie */
-  <minecraft:cake>,   /* 18 - Cake */
-  <arsmagica2:manaCake>,    /* 19 - Mana Cake */
-  <ForbiddenMagic:ArcaneCakeItem>,    /* 20 - Thaumic Cake */
-  <WitchingGadgets:item.WG_MagicFood>   /* 21 - Nethercake */
+  <harvestcraft:pumpkincheesecakeItem>,   	/* 13 - Pumpkin Cheese Cake */
+  <harvestcraft:raspberrypieItem>,    		/* 14 - Raspberry Pie */
+  <harvestcraft:redvelvetcakeItem>,   		/* 15 - Red Velvet Cake */
+  <harvestcraft:spicebunItem>,    		/* 16 - Spice Bun */
+  <harvestcraft:strawberrypieItem>,   		/* 17 - Strawberry Pie */
+  <minecraft:cake>,   				/* 18 - Cake */
+  <arsmagica2:manaCake>,    			/* 19 - Mana Cake */
+  <ForbiddenMagic:ArcaneCakeItem>,    		/* 20 - Thaumic Cake */
+  <WitchingGadgets:item.WG_MagicFood>   	/* 21 - Nethercake */
 ] as IItemStack[]; 
 
 val foodGroupSavoryPie = [
-  <harvestcraft:sweetpotatopieItem>,		/* 0 - Sweet Potato Pie */
-  <harvestcraft:asparagusquicheItem>,			/* 1 - Asparagus Quiche */
-  <desertmobs:ambercake>,		/* 2 - Amber Cake */
-  <harvestcraft:pecanpieItem>,		/* 3 - Pecan Pie */
-  <harvestcraft:pumkinpieItem>,		/* 4 - Pumkin Pie */
-  <harvestcraft:carrotcakeItem>,		/* 5 - Carrot Cake */
-  <harvestcraft:meatpieItem>,	/* 6 - Meat Pie */
-  <harvestcraft:spinachpieItem>,		/* 7 - Spinach Pie */
-  <harvestcraft:mincepieItem>,		/* 8 - Mince Pie */
-  <swampmobs:mosspie>,		/* 9 - Mosspie */
-  <harvestcraft:chickenpotpieItem>,   /* 10 - Chicken Pot Pie */
+  <harvestcraft:sweetpotatopieItem>,		/*  0 - Sweet Potato Pie */
+  <harvestcraft:asparagusquicheItem>,		/*  1 - Asparagus Quiche */
+  <desertmobs:ambercake>,			/*  2 - Amber Cake */
+  <harvestcraft:pecanpieItem>,			/*  3 - Pecan Pie */
+  <minecraft:pumpkin_pie>,			/*  4 - Pumkin Pie */
+  <harvestcraft:carrotcakeItem>,		/*  5 - Carrot Cake */
+  <harvestcraft:meatpieItem>,			/*  6 - Meat Pie */
+  <harvestcraft:spinachpieItem>,		/*  7 - Spinach Pie */
+  <harvestcraft:mincepieItem>,			/*  8 - Mince Pie */
+  <swampmobs:mosspie>,				/*  9 - Mosspie */
+  <harvestcraft:chickenpotpieItem>,   		/* 10 - Chicken Pot Pie */
 ] as IItemStack[]; 
 
 
