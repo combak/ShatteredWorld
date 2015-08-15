@@ -305,7 +305,7 @@ val foodGroupSweets = [
   <harvestcraft:candiedgingerItem>,   /* 4 - Candied Ginder */
   <harvestcraft:candiedlemonItem>,  /* 5 - Candied Lemon */
   <harvestcraft:candiedwalnutsItem>,  /* 6 - Candied Walnuts */
-  <harvestcraft:caramelItem>,   /* 7 - Caramel*/
+  <harvestcraft:caramelItem>,   /* 7 - Caramel */
   <harvestcraft:caramelappleItem>,   /* 8 - Caramel Apple */
   <harvestcraft:gummybearsItem>,   /* 9 - Gummbie Bears */
   <harvestcraft:jellybeansItem>,  /* 10 - Jellybeans */
