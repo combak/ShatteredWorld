@@ -50,7 +50,8 @@ val foodGroupBurger = [
   <harvestcraft:mcpamItem>,			/*  8 - McPam */
   <harvestcraft:onionhamburgerItem>,		/*  9 - Onion Burger */
   <harvestcraft:bltItem>,			/* 10 - BLT */
-  <plainsmobs:bulwarkburger>	 		/* 11 - Bulwark Burger */
+  <plainsmobs:bulwarkburger>,	 		/* 11 - Bulwark Burger */
+  <harvestcraft:grilledcheeseItem>    /* 12 - Grilled Cheese */
 ] as IItemStack[];
 
 val foodGroupSmoothie = [
@@ -402,7 +403,11 @@ val foodGroupCake = [
   <minecraft:cake>,   				/* 18 - Cake */
   <arsmagica2:manaCake>,    			/* 19 - Mana Cake */
   <ForbiddenMagic:ArcaneCakeItem>,    		/* 20 - Thaumic Cake */
-  <WitchingGadgets:item.WG_MagicFood>   	/* 21 - Nethercake */
+  <WitchingGadgets:item.WG_MagicFood>,  	/* 21 - Nethercake */
+  <harvestcraft:lamingtonItem>,   /* 22 - Lamington */
+  <harvestcraft:peachcobblerItem>,    /* 23 - Peach Cobbler */
+  <harvestcraft:blackberrycobblerItem>,   /* 24 - Blackberry Cobbler */
+  <harvestcraft:fruitcrumbleItem>   /* 25 - Fruit Crumble */
 ] as IItemStack[]; 
 
 val foodGroupSavoryPie = [
@@ -419,8 +424,57 @@ val foodGroupSavoryPie = [
   <harvestcraft:chickenpotpieItem>,   		/* 10 - Chicken Pot Pie */
 ] as IItemStack[]; 
 
+val foodGroupBiscuits = [ 
+  <harvestcraft:blueberrymuffinItem>,   /* 0 - Blueberry Muffin */
+  <harvestcraft:pumkinmuffinItem>,    /* 1 - Pumpkin Muffin */
+  <harvestcraft:cornbreadItem>,   /* 2 - Cornbread */
+  <harvestcraft:brownieItem>,   /* 3 - Brownie */
+  <harvestcraft:raspberrytrifleItem>,   /* 4 - Raspberry Trifle */
+] as IItemStack[]; 
 
+val foodGroupcookingSupplies = [
+  <harvestcraft:applesouceItem>,    /* 0 - Apple Souce */
+  <harvestcraft:cheeseItem>,    /* 1 - Cheese */
+  <harvestcraft:butterItem>,    /* 2 - Butter */
+  <TConstruct:strangeFood>,   /* 3 - Bacon */
+  <harvestcraft:cranberrysauceItem>,    /* 4 - Cranberry Sauce */
+  <harvestcraft:maplesasageItem>,   /* 5 - Maple Sausage */
+  <harvestcraft:porksausageItem>,   /* 6 - Pork Sausage */
+  <harvestcraft:silkentofuItem>,    /* 7 - Silken Tofu */
+  <harvestcraft:frimtofuItem>,    /* 8 - Firm Tofu */
+  <harvestcraft:mustardItem>,   /* 9 - Mustard */
+  <harvestcraft:peanutbutterItem>,    /* 10 - Peanut Butter */
+  <harvestcraft:ketchupItem>,   /* 11 - Ketchup */
+  <harvestcraft:mayoItem>,    /* 12 - Mayo */
+  <harvestcraft:pastaItem>,   /* 13 - Pasta */
+  <harvestcraft:stockItem>,   /* 14 - Stock */
+  <harvestcraft:tortilliaItem>,   /* 15 - Tortillia */
+  <harvestcraft:vegemiteItem>   /* 16 - Vegemite */
+] as IItemStack[]; 
 
+val foodGroupFastfood = [
+  <lycanitesmobs:battleburrito>,    /* 0 - Battle Burrito */
+  <harvestcraft:beanburritoItem>,   /* 1 - Bean Burrito */
+  <harvestcraft:fishlettucewrapItem>,   /* 2 - Fish Lettuce Wrap */
+  <harvestcraft:friedonionsItem>,   /* 3 - Fried Onions */
+  <harvestcraft:friesItem>,   /* 4 - Fries */
+  <harvestcraft:hotdogItem>,    /* 5 - Hotdog */
+  <harvestcraft:meatfeastpizzaItem>,    /* 6 - Meat Feast Pizza */
+  <harvestcraft:pizzaItem>,   /* 7 - Pizza */
+  <harvestcraft:porklettucewrapItem>,   /* 8 - Pork Lettuce Wrap */
+  <harvestcraft:randomtacoItem>,    /* 9 - Random Taco */
+  <harvestcraft:sausageinbreadItem>,    /* 10 - Sausage in Bread */
+  <infernomobs:searingtaco>,    /* 11 - Searing Taco */
+  <harvestcraft:steakandchipsItem>,   /* 12 - Steak and Chips */
+  <harvestcraft:supremepizzaItem>,    /* 13 - Supreme Pizza */
+  <harvestcraft:tacoItem>,    /* 14 - Taco */
+  <harvestcraft:vegetariaonlettucewrapItem>,    /* 15 - Vegetarian Lettuce Wrap */
+  <harvestcraft:zucchinifriesItem>,   /* 16 - Zucchini Fries */
+  <freshwatermobs:lapisfishandchips>,   /* 17 - Lapis Fish and Chips */
+  <harvestcraft:fishtacoItem>   /* 18 - Fish Taco */
+] as IItemStack[]; 
+  
+  
 ########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
