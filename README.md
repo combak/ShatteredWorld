@@ -5,7 +5,7 @@
 TODO
 
 ## Licences & Permissions
-- Modpack Licences: https://github.com/combak/ShatteredWorld/blob/master/Licences.md
+- Mod Licences & Permissions: https://github.com/combak/ShatteredWorld/blob/master/Licences.md
 - Licence for our Artworks: https://github.com/combak/ShatteredWorld/blob/master/Licence-Artwork.md
 
 ## Used Mods + Versions
