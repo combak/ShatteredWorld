@@ -12,10 +12,10 @@ TODO
 https://github.com/combak/ShatteredWorld/blob/master/Versions.md
 
 ## Special thanks...
-### ...to all mod authors
+### ... to all mod authors
 This Modpack wasn't possible without your awesome mods
 
-### ...to all people which worked on this Modpack.
+### ... to all people which worked on this Modpack.
 (alphabetically)
 - BakermanLP
 - BiBaButze
@@ -27,7 +27,7 @@ This Modpack wasn't possible without your awesome mods
 - Krakel / Grayal
 - Nedelosk / Alheimerjung
 
-### ... the BakermanLP Community.
+### ... to the BakermanLP Community.
 This Modpack is made from the community for the community!
 * [Youtube](http://www.youtube.com/user/BakermanLP/)
 * [Google+](https://plus.google.com/+BakermanlpDe/)
