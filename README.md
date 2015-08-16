@@ -1,5 +1,4 @@
-# Shattered World
-## Modpack for Minecraft 1.7.10 
+# Shattered World - Modpack for Minecraft 1.7.10 
 **Work in progress.**
 
 ## Information
