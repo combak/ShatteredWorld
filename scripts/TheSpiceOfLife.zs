@@ -4,39 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupYogurt = [
-  <harvestcraft:pineappleyogurtItem>,		/*  0 - Pineapple */
-  <harvestcraft:papayayogurtItem>,		/*  1 - Papaya */
-  <harvestcraft:starfruityogurtItem>,		/*  2 - Starfruit */
-  <harvestcraft:pearyogurtItem>,		/*  3 - Pear */
-  <harvestcraft:plumyogurtItem>,		/*  4 - Plum */
-  <harvestcraft:bananayogurtItem>,		/*  5 - Banana */
-  <harvestcraft:coconutyogurtItem>,		/*  6 - Coconut */
-  <harvestcraft:orangeyogurtItem>,		/*  7 - Orange */
-  <harvestcraft:peachyogurtItem>,		/*  8 - Peach */
-  <harvestcraft:limeyogurtItem>,		/*  9 - Lime */
-  <harvestcraft:mangoyogurtItem>,		/* 10 - Mango */
-  <harvestcraft:pomegranateyogurtItem>,		/* 11 - Pomegranate */
-  <harvestcraft:vanillayogurtItem>,		/* 12 - Vanilla */
-  <harvestcraft:blueberryyogurtItem>,		/* 13 - Blueberry */
-  <harvestcraft:lemonyogurtItem>,		/* 14 - Lemon */
-  <harvestcraft:cherryyogurtItem>,		/* 15 - Cherry */
-  <harvestcraft:strawberryyogurtItem>,		/* 16 - Strawberry */
-  <harvestcraft:grapeyogurtItem>,		/* 17 - Grape */
-  <harvestcraft:chocolateyogurtItem>,		/* 18 - Chocolate */
-  <harvestcraft:blackberryyogurtItem>,		/* 19 - Blackberry */
-  <harvestcraft:pumpkinyogurtItem>,		/* 20 - Pumpkin */
-  <harvestcraft:raspberryyogurtItem>,		/* 21 - Raspberry */
-  <harvestcraft:melonyogurtItem>,		/* 22 - Melon */
-  <harvestcraft:kiwiyogurtItem>,		/* 23 - Kiwi */
-  <harvestcraft:appleyogurtItem>,		/* 24 - Apple */
-  <harvestcraft:apricotyogurtItem>,		/* 25 - Apricot */
-  <harvestcraft:figyogurtItem>,			/* 26 - Fig */
-  <harvestcraft:grapefruityogurtItem>,		/* 27 - Grapefruit */
-  <harvestcraft:persimmonyogurtItem>,		/* 28 - Persimmon */
-  <harvestcraft:plainyogurtItem>		/* 29 - Plain */
-] as IItemStack[];
-
 val foodGroupSandwich = [			
   <harvestcraft:applejellysandwichItem>,	/*  0 - Applejelly */
   <harvestcraft:blackberryjellysandwichItem>,	/*  1 - Blackberryjelly */
@@ -512,7 +479,6 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odYogurt	= <ore:foodYogurt>;
 val odSandwich	= <ore:foodSandwich>;
 val odSalad	= <ore:foodSalad>;
 val odJuice	= <ore:listAlljuice>;
@@ -524,12 +490,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Yogurt
-for i, food in foodGroupYogurt
-{
-  odYogurt.add( food );
-}
 
 # Sandwich
 for i, food in foodGroupSandwich
