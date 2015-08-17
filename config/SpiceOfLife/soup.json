@@ -1,8 +1,40 @@
 {
-  "food": {
-    "oredict": [ "foodSoup" ]
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodPumpkinsoup",		/* Pumpkin */
+      "foodCarrotsoup",			/* Carrot */
+      "foodPotatosoup",			/* Potato */
+      "foodChickennoodlesoup",		/* Chickennoodle */
+      "foodSpidereyesoup",		/* Spidereye */
+      "foodVegetablesoup",		/* Vegetable */
+      "foodTomatosoup",			/* Tomato */
+      "foodOnionsoup",			/* Onion */
+      "foodCucumbersoup",		/* Cucumber */
+      "foodRicesoup",			/* Rice */
+      "foodBeetsoup",			/* Beet */
+      "foodCreamedbroccolisoup",	/* Creamed Broccoli */
+      "foodSplitpeasoup",		/* Splitpea */
+      "foodTurnipsoup",			/* Turnip */
+      "foodCelerysoup",			/* Celery */
+      "foodAsparagussoup",		/* Asparagus */
+      "foodCreamofavocadosoup",		/* Cream of Avocado */
+      "foodCactussoup",			/* Cactus */
+      "foodSeedsoup",			/* Seed */
+      "foodGardensoup",			/* Garden */
+      "foodOldworldveggiesoup",		/* Oldworldveggie */
+      "foodLambbarleysoup",		/* Lambbarley */
+      "foodLeekbaconsoup",		/* Leekbacon */
+      "foodGuacamole",   		/* Guacamole */
+    ],
+    "items": 
+    [
+      "minecraft:mushroom_stew",	/* Mushroom Soup */
+      "arcticmobs:palesoup"  		/* Pale Soup */    
+    ]
   },
-  "name": "soup",
+  "name": "Soup",
   "enabled": true,
   "priority": 8,
   "blacklist": false,

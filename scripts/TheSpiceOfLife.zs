@@ -4,35 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupSoup = [
-  <harvestcraft:pumpkinsoupItem>,		/*  0 - Pumpkin */
-  <harvestcraft:carrotsoupItem>,		/*  1 - Carrot */
-  <harvestcraft:potatosoupItem>,		/*  2 - Potato */
-  <harvestcraft:chickennoodlesoupItem>,		/*  3 - Chickennoodle */
-  <harvestcraft:spidereyesoupItem>,		/*  4 - Spidereye */
-  <harvestcraft:vegetablesoupItem>,		/*  5 - Vegetable */
-  <harvestcraft:tomatosoupItem>,		/*  6 - Tomato */
-  <harvestcraft:onionsoupItem>,			/*  7 - Onion */
-  <harvestcraft:cucumbersoupItem>,		/*  8 - Cucumber */
-  <harvestcraft:ricesoupItem>,			/*  9 - Rice */
-  <harvestcraft:beetsoupItem>,			/* 10 - Beet */
-  <harvestcraft:creamedbroccolisoupItem>,	/* 11 - Creamed Broccoli */
-  <harvestcraft:splitpeasoupItem>,		/* 12 - Splitpea */
-  <harvestcraft:turnipsoupItem>,		/* 13 - Turnip */
-  <harvestcraft:celerysoupItem>,		/* 14 - Celery */
-  <harvestcraft:asparagussoupItem>,		/* 15 - Asparagus */
-  <harvestcraft:creamofavocadosoupItem>,	/* 16 - Cream of Avocado */
-  <harvestcraft:cactussoupItem>,		/* 17 - Cactus */
-  <harvestcraft:seedsoupItem>,			/* 18 - Seed */
-  <harvestcraft:gardensoupItem>,		/* 19 - Garden */
-  <harvestcraft:oldworldveggiesoupItem>,	/* 20 - Oldworldveggie */
-  <harvestcraft:lambbarleysoupItem>,		/* 21 - Lambbarley */
-  <harvestcraft:leekbaconsoupItem>,		/* 22 - Leekbacon */
-  <harvestcraft:guacamoleItem>,   		/*23 - Guacamole */
-  <minecraft:mushroom_stew>,  			/*24 - Mushroom Soup */
-  <arcticmobs:palesoup>  			/*25 - Pale Soup */
-] as IItemStack[];
-
 val foodGroupBurger = [
   <harvestcraft:hamburgerItem>,			/*  0 - Hamburger */
   <harvestcraft:cheeseburgerItem>,		/*  1 - Cheeseburger */
@@ -504,7 +475,6 @@ val foodGroupFish = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odSoup	= <ore:foodSoup>;
 val odBurger	= <ore:foodBurger>;
 val odSmoothie	= <ore:foodSmoothie>;
 val odYogurt	= <ore:foodYogurt>;
@@ -519,12 +489,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Soup
-for i, food in foodGroupSoup
-{
-  odSoup.add( food );
-}
 
 # Burger
 for i, food in foodGroupBurger
