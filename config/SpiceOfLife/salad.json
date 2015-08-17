@@ -1,8 +1,30 @@
 {
-  "food": {
-    "oredict": [ "foodSalad" ]
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodPotatosalad",		/* Potato */
+      "foodEggsalad",			/* Egg */
+      "foodFruitsalad",			/* Fruit */
+      "foodSpringsalad",		/* Spring */
+      "foodStrawberrysalad",		/* Strawberry */
+      "foodGrapesalad",			/* Grape */
+      "foodCucumbersalad",		/* Cucumber */
+      "foodBeetsalad",			/* Beet */
+      "foodSummerradishsalad",		/* Summerradish */
+      "foodSunflowerbroccolisalad",	/* Sunflowerbroccoli */
+      "foodMixedsalad",			/* Mixed */
+      "foodCitrussalad",		/* Citrus */
+      "foodCeasarsalad",		/* Ceasar */
+      "foodColeslaw",			/* Coleslaw */
+      
+    ],
+    "items": 
+    [
+      "forestmobs:paleosalad"		/* Paleo Salad */    
+    ]
   },
-  "name": "salad",
+  "name": "Salad",
   "enabled": true,
   "priority": 8,
   "blacklist": false,

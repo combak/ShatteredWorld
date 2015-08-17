@@ -4,24 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupSalad = [
-  <harvestcraft:potatosaladItem>,		/*  0 - Potato */
-  <harvestcraft:eggsaladItem>,			/*  1 - Egg */
-  <harvestcraft:fruitsaladItem>,		/*  2 - Fruit */
-  <harvestcraft:springsaladItem>,		/*  3 - Spring */
-  <harvestcraft:strawberrysaladItem>,		/*  4 - Strawberry */
-  <harvestcraft:grapesaladItem>,		/*  5 - Grape */
-  <harvestcraft:cucumbersaladItem>,		/*  6 - Cucumber */
-  <harvestcraft:beetsaladItem>,			/*  7 - Beet */
-  <harvestcraft:summerradishsaladItem>,		/*  8 - Summerradish */
-  <harvestcraft:sunflowerbroccolisaladItem>,	/*  9 - Sunflowerbroccoli */
-  <harvestcraft:mixedsaladItem>,		/* 10 - Mixed */
-  <harvestcraft:citrussaladItem>,		/* 11 - Citrus */
-  <harvestcraft:ceasarsaladItem>,		/* 12 - Ceasar */
-  <harvestcraft:coleslawItem>,			/* 13 - Coleslaw */
-  <forestmobs:paleosalad>			/* 14 - Paleo Salad */
-] as IItemStack[];
-
 val foodGroupJuice = [
   <harvestcraft:grapefruitjuiceItem>,		/*  0 - Grapefruit */
   <harvestcraft:carrotjuiceItem>,		/*  1 - Carrot */
@@ -449,7 +431,6 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odSalad	= <ore:foodSalad>;
 val odJuice	= <ore:listAlljuice>;
 val odSoda	= <ore:foodSoda>;
 val odIceCream	= <ore:listAllicecream>;
@@ -459,12 +440,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Salad
-for i, food in foodGroupSalad
-{
-  odSalad.add( food );
-}
 
 # Juice
 for i, food in foodGroupJuice
