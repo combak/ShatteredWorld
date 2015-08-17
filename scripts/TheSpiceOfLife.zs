@@ -4,22 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupBurger = [
-  <harvestcraft:hamburgerItem>,			/*  0 - Hamburger */
-  <harvestcraft:cheeseburgerItem>,		/*  1 - Cheeseburger */
-  <harvestcraft:baconcheeseburgerItem>,		/*  2 - Baconcheeseburger */
-  <harvestcraft:deluxecheeseburgerItem>,	/*  3 - Deluxecheeseburger */
-  <harvestcraft:delightedmealItem>,		/*  4 - Delightedmeal */
-  <harvestcraft:baconmushroomburgerItem>,	/*  5 - Baconmushroomburger */
-  <harvestcraft:beetburgerItem>,		/*  6 - Beet Burger */
-  <harvestcraft:coleslawburgerItem>,		/*  7 - Colesaw Burger */
-  <harvestcraft:mcpamItem>,			/*  8 - McPam */
-  <harvestcraft:onionhamburgerItem>,		/*  9 - Onion Burger */
-  <harvestcraft:bltItem>,			/* 10 - BLT */
-  <plainsmobs:bulwarkburger>,	 		/* 11 - Bulwark Burger */
-  <harvestcraft:grilledcheeseItem>    /* 12 - Grilled Cheese */
-] as IItemStack[];
-
 val foodGroupSmoothie = [
   <harvestcraft:melonsmoothieItem>,		/*  0 - Melon */
   <harvestcraft:strawberrysmoothieItem>,	/*  1 - Strawberry */
@@ -475,7 +459,6 @@ val foodGroupFish = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odBurger	= <ore:foodBurger>;
 val odSmoothie	= <ore:foodSmoothie>;
 val odYogurt	= <ore:foodYogurt>;
 val odSandwich	= <ore:foodSandwich>;
@@ -489,12 +472,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Burger
-for i, food in foodGroupBurger
-{
-  odBurger.add( food );
-}
 
 # Smoothie
 for i, food in foodGroupSmoothie
