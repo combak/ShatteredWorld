@@ -3,8 +3,8 @@
   {
     "oredict": 
     [   
-      "foodSpagetti",			/* 0 - Spagetti */
-      "foodSpagettiandmeatballs"	/* 1 - Spagetti and Meatballs */
+      "foodSpagetti",			/* Spagetti */
+      "foodSpagettiandmeatballs"	/* Spagetti and Meatballs */
     ]
   },
   "name": "Spagetti",
