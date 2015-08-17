@@ -2,16 +2,13 @@
   "food": {
     "oredict": [ 
         "foodPotatocakes",
-        "foodPancakes",
         "foodCheesecake",
         "foodRicecake",
         "foodCarrotcake",
-        "foodBlueberrypancakes",
         "foodCherrycheesecake",
         "foodPineappleupsidedowncake",
         "foodChocolatesprinklecake",
         "foodRedvelvetcake",
-        "foodMaplesyruppancakes",
         "foodHolidaycake"
     ],
     "items": [
