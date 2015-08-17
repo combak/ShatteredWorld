@@ -4,21 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupIceCream = [
-  <harvestcraft:icecreamItem>,			/* 0 - Icecream */
-  <harvestcraft:chocolateicecreamItem>,		/* 1 - Chocolate */
-  <harvestcraft:mochaicecreamItem>,		/* 2 - Mocha */
-  <harvestcraft:bananasplitItem>,		/* 3 - Bananasplit */
-  <harvestcraft:caramelicecreamItem>,		/* 4 - Caramel */
-  <harvestcraft:mintchocolatechipicemcreamItem>,/* 5 - Mintchocolatechip */
-  <harvestcraft:strawberryicecreamItem>,	/* 6 - Strawberry */
-  <harvestcraft:vanillaicecreamItem>,		/* 7 - Vanilla */
-  <harvestcraft:cherryicecreamItem>,		/* 8 - Cherry */
-  <harvestcraft:neapolitanicecreamItem>,	/* 9 - Neapolitan */
-  <harvestcraft:pistachioicecreamItem>,		/* 10 - Pistachio */
-  <harvestcraft:spumoniicecreamItem>		/* 11 - Spumoni */
-] as IItemStack[];
-
 val foodGroupJelly = [
   <harvestcraft:grapejellyItem>,		/*  0 - Grape */
   <harvestcraft:applejellyItem>,		/*  1 - Apple */
@@ -389,19 +374,12 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odIceCream	= <ore:listAllicecream>;
 val odJelly	= <ore:listAlljelly>;
 val odFruit	= <ore:listAllfruit>;
 
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Ice Cream
-for i, food in foodGroupIceCream
-{
-  odIceCream.add( food );
-}
 
 # Jelly
 for i, food in foodGroupJelly

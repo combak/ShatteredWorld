@@ -1,8 +1,23 @@
 {
-  "food": {
-    "oredict": [ "listAllicecream" ]
+  "food": 
+  {
+    "oredict": 
+    [
+    "foodIcecream",			/* Icecream */
+    "foodChocolateicecream",		/* Chocolate */
+    "foodMochaicecream",		/* Mocha */
+    "foodBananasplit",			/* Bananasplit */
+    "foodCaramelicecream",		/* Caramel */
+    "foodMintchocolatechipicecream",	/* Mintchocolatechip */
+    "foodStrawberryicecream",		/* Strawberry */
+    "foodVanillaicecream",		/* Vanilla */
+    "foodCherryicecream",		/* Cherry */
+    "foodNeapolitanicecream",		/* Neapolitan */
+    "foodPistachioicecream",		/* Pistachio */
+    "foodSpumoniicecream"		/* Spumoni */    
+    ]
   },
-  "name": "icecream",
+  "name": "Icecream",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
