@@ -1,6 +1,11 @@
 {
-  "food": {
-    "oredict": [ "foodSpagetti" ]
+  "food": 
+  {
+    "oredict": 
+    [   
+      "foodSpagetti",			/* 0 - Spagetti */
+      "foodSpagettiandmeatballs"	/* 1 - Spagetti and Meatballs */
+    ]
   },
   "name": "Spagetti",
   "enabled": true,

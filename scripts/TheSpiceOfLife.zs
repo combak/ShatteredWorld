@@ -4,11 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupSpagetti = [
-  <harvestcraft:spagettiItem>,			/* 0 - Spagetti */
-  <harvestcraft:spagettiandmeatballsItem>	/* 1 - Spagetti and Meatballs */
-] as IItemStack[];
-
 val foodGroupSoup = [
   <harvestcraft:pumpkinsoupItem>,		/*  0 - Pumpkin */
   <harvestcraft:carrotsoupItem>,		/*  1 - Carrot */
@@ -493,7 +488,7 @@ val foodGroupcookedFish = [
   <minecraft:cooked_fished>,    		/* 9 - Cooked Fish */
   <minecraft:cooked_fished>,    		/* 10 - Cooked Salmon */
   <freshwatermobs:silexmeatcooked>,   		/* 11 - Cooked Silex Meat */
-  <exnihilo:silkworm_cooked>   		/* 12 - Cooked Silkworm */
+  <exnihilo:silkworm_cooked>   			/* 12 - Cooked Silkworm */
 ] as IItemStack[]; 
 
 val foodGroupFish = [
@@ -509,7 +504,6 @@ val foodGroupFish = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odSpagetti	= <ore:foodSpagetti>;
 val odSoup	= <ore:foodSoup>;
 val odBurger	= <ore:foodBurger>;
 val odSmoothie	= <ore:foodSmoothie>;
@@ -525,12 +519,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Spagetti
-for i, food in foodGroupSpagetti
-{
-  odSpagetti.add( food );
-}
 
 # Soup
 for i, food in foodGroupSoup
