@@ -4,34 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupJuice = [
-  <harvestcraft:grapefruitjuiceItem>,		/*  0 - Grapefruit */
-  <harvestcraft:carrotjuiceItem>,		/*  1 - Carrot */
-  <harvestcraft:plumjuiceItem>,			/*  2 - Plum */
-  <harvestcraft:pearjuiceItem>,			/*  3 - Pear */
-  <harvestcraft:apricotjuiceItem>,		/*  4 - Apricot */
-  <harvestcraft:figjuiceItem>,			/*  5 - Fig */
-  <harvestcraft:persimmonjuiceItem>,		/*  6 - Persimmon */
-  <harvestcraft:applejuiceItem>,		/*  7 - Apple */
-  <harvestcraft:blackberryjuiceItem>,		/*  8 - Blackberry */
-  <harvestcraft:blueberryjuiceItem>,		/*  9 - Blueberry */
-  <harvestcraft:cactusfruitjuiceItem>,		/* 10 - Cactus Fruit */
-  <harvestcraft:cactusfruitjuiceItem>,		/* 11 - Cactus */
-  <harvestcraft:cherryjuiceItem>,		/* 12 - Cherry */
-  <harvestcraft:cranberryjuiceItem>,		/* 13 - Cranberry */
-  <harvestcraft:grapejuiceItem>,		/* 14 - Grape */
-  <harvestcraft:kiwijuiceItem>,			/* 15 - Kiwi */
-  <harvestcraft:limejuiceItem>,			/* 16 - Lime */
-  <harvestcraft:mangoItem>,			/* 17 - Mango */
-  <harvestcraft:melonjuiceItem>,		/* 18 - Melon */
-  <harvestcraft:orangejuiceItem>,		/* 19 - Orange */
-  <harvestcraft:papayajuiceItem>,		/* 20 - Papaya */
-  <harvestcraft:pomegranatejuiceItem>,		/* 21 - Pomegranate */
-  <harvestcraft:raspberryjuiceItem>,		/* 22 - Rasperry */
-  <harvestcraft:starfruitjuiceItem>,		/* 23 - Starfruit */
-  <harvestcraft:strawberryjuiceItem>		/* 27 - Strawberry */
-] as IItemStack[];
-
 val foodGroupSoda = [
   <harvestcraft:cherrysodaItem>,		/* 0 - Cherry */
   <harvestcraft:colasodaItem>,			/* 1 - Cola */
@@ -431,7 +403,6 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odJuice	= <ore:listAlljuice>;
 val odSoda	= <ore:foodSoda>;
 val odIceCream	= <ore:listAllicecream>;
 val odJelly	= <ore:listAlljelly>;
@@ -440,12 +411,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Juice
-for i, food in foodGroupJuice
-{
-  odJuice.add( food );
-}
 
 # Soda
 for i, food in foodGroupSoda

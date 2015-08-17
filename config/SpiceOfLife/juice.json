@@ -1,8 +1,38 @@
 {
-  "food": {
-    "oredict": [ "listAlljuice" ]
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodGrapefruitjuice",		/* Grapefruit */
+      "foodCarrotjuice",		/* Carrot */
+      "foodPlumjuice",			/* Plum */
+      "foodPearjuice",			/* Pear */
+      "foodApricotjuice",		/* Apricot */
+      "foodFigjuice",			/* Fig */
+      "foodPersimmonjuice",		/* Persimmon */
+      "foodApplejuice",			/* Apple */
+      "foodBlackberryjuice",		/* Blackberry */
+      "foodBlueberryjuice",		/* Blueberry */
+      "foodCactusfruitjuice",		/* Cactus Fruit */
+      "foodCactusfruitjuice",		/* Cactus */
+      "foodCherryjuice",		/* Cherry */
+      "foodCranberryjuice",		/* Cranberry */
+      "foodGrapejuice",			/* Grape */
+      "foodKiwijuice",			/* Kiwi */
+      "foodLimejuice",			/* Lime */
+      "foodMangojuice",			/* Mango */
+      "foodMelonjuice",			/* Melon */
+      "foodOrangejuice",		/* Orange */
+      "foodPapayajuice",		/* Papaya */
+      "foodPomegranatejuice",		/* Pomegranate */
+      "foodRaspberryjuice",		/* Rasperry */
+      "foodStarfruitjuice",		/* Starfruit */
+      "foodStrawberryjuice",		/* Strawberry */    
+      "foodPeachjuice",			/* Peach */
+      "foodLemonaide"			/* Lemonade */
+    ]
   },
-  "name": "juice",
+  "name": "Juice",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
