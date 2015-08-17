@@ -1,8 +1,25 @@
 {
   "food": {
-    "oredict": [ "listAllfruit", "listAllberry" ]
+    "oredict": 
+    [ 
+      "listAllfruit", 
+      "listAllberry" 
+    ],
+    "items": 
+    [
+      "minecraft:melon",		/* Melon */
+      "Natura:berry.nether",		/* Blightberry */
+      "Natura:berry.nether:1",		/* Duskberry */
+      "Natura:berry.nether:2",		/* Skyberry */
+      "Natura:berry.nether:3",		/* Stingberry */
+      "Natura:berry",			/* Raspberry */
+      "Natura:berry:1",			/* Blueberry */
+      "Natura:berry:2",			/* Blackberry */
+      "Natura:berry:3",			/* Maloberry */
+      "Natura:berryMedley"		/* Berry Medlay */
+    ] 
   },
-  "name": "fruits",
+  "name": "Fruits",
   "enabled": true,
   "priority": 9,
   "blacklist": false,

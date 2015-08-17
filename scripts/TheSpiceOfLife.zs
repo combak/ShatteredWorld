@@ -4,19 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupFruit = [
-  <minecraft:melon>,				/* 0 - Melon */
-  <Natura:berry.nether>,			/* 1 - Blightberry */
-  <Natura:berry.nether:1>,			/* 2 - Duskberry */
-  <Natura:berry.nether:2>,			/* 3 - Skyberry */
-  <Natura:berry.nether:3>,			/* 4 - Stingberry */
-  <Natura:berry>,				/* 5 - Raspberry */
-  <Natura:berry:1>,				/* 6 - Blueberry */
-  <Natura:berry:2>,				/* 7 - Blackberry */
-  <Natura:berry:3>,				/* 8 - Maloberry */
-  <Natura:berryMedley>				/* 9 - Berry Medlay */
-] as IItemStack[];
-
 val foodGroupMilkshake = [
   <harvestcraft:bananamilkshakeItem>,		/* 0 - Banana Milkshake */
   <harvestcraft:chocolatemilkItem>,		/* 1 - Chocolate Milk */
@@ -344,19 +331,3 @@ val foodGroupChicken = [
   <minecraft:cooked_chicken>,   		/* 11 - Roastet Chicken */
   <harvestcraft:sundayroastItem>    		/* 12 - Sunday Roast*/
 ] as IItemStack[];
-
-########################################################################################################################
-# Ore Dictionary
-########################################################################################################################
-
-val odFruit	= <ore:listAllfruit>;
-
-########################################################################################################################
-# Ore Dictionary Changes
-########################################################################################################################
-
-# Fruit
-for i, food in foodGroupFruit
-{
-  odFruit.add( food );
-}
