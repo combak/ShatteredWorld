@@ -4,31 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupJelly = [
-  <harvestcraft:grapejellyItem>,		/*  0 - Grape */
-  <harvestcraft:applejellyItem>,		/*  1 - Apple */
-  <harvestcraft:blackberryjellyItem>,		/*  2 - Blackberry */
-  <harvestcraft:blueberryjellyItem>,		/*  3 - Blueberry */
-  <harvestcraft:cherryjellyItem>,		/*  4 - Cherry */
-  <harvestcraft:cranberryjellyItem>,		/*  5 - Cranberry */
-  <harvestcraft:kiwijellyItem>,			/*  6 - Kiwi */
-  <harvestcraft:lemonjellyItem>,		/*  7 - Lemon */
-  <harvestcraft:limejellyItem>,			/*  8 - Lime */
-  <harvestcraft:mangojellyItem>,		/*  9 - Mango */
-  <harvestcraft:orangejellyItem>,		/* 10 - Orange */
-  <harvestcraft:papayajellyItem>,		/* 11 - Papaya */
-  <harvestcraft:peachjellyItem>,		/* 12 - Peach */
-  <harvestcraft:pomegranatejellyItem>,		/* 13 - Pomegranate */
-  <harvestcraft:raspberryjellyItem>,		/* 14 - Raspberry */
-  <harvestcraft:starfruitjellyItem>,		/* 15 - Starfruit */
-  <harvestcraft:strawberryjellyItem>,		/* 16 - Strawberry */
-  <harvestcraft:watermelonjellyItem>,		/* 17 - Watermelon */
-  <harvestcraft:apricotjellyItem>,		/* 18 - Apricot */
-  <harvestcraft:figjellyItem>,			/* 19 - Fig */
-  <harvestcraft:grapefruitjellyItem>,		/* 20 - Grapefruit */
-  <harvestcraft:persimmonjellyItem>		/* 21 - Persimmon */
-] as IItemStack[];
-
 val foodGroupFruit = [
   <minecraft:melon>,				/* 0 - Melon */
   <Natura:berry.nether>,			/* 1 - Blightberry */
@@ -374,18 +349,11 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odJelly	= <ore:listAlljelly>;
 val odFruit	= <ore:listAllfruit>;
 
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Jelly
-for i, food in foodGroupJelly
-{
-  odJelly.add( food );
-}
 
 # Fruit
 for i, food in foodGroupFruit

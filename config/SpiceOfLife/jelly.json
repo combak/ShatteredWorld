@@ -1,8 +1,33 @@
 {
-  "food": {
-    "oredict": [ "listAlljelly" ]
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodGrapejelly",			/* Grape */
+      "foodApplejelly",			/* Apple */
+      "foodBlackberryjelly",		/* Blackberry */
+      "foodBlueberryjelly",		/* Blueberry */
+      "foodCherryjelly",		/* Cherry */
+      "foodCranberryjelly",		/* Cranberry */
+      "foodKiwijelly",			/* Kiwi */
+      "foodLemonjelly",			/* Lemon */
+      "foodLimejelly",			/* Lime */
+      "foodMangojelly",			/* Mango */
+      "foodOrangejelly",		/* Orange */
+      "foodPapayajelly",		/* Papaya */
+      "foodPeachjelly",			/* Peach */
+      "foodPomegranatejelly",		/* Pomegranate */
+      "foodRaspberryjelly",		/* Raspberry */
+      "foodStarfruitjelly",		/* Starfruit */
+      "foodStrawberryjelly",		/* Strawberry */
+      "foodWatermelonjelly",		/* Watermelon */
+      "foodApricotjelly",		/* Apricot */
+      "foodFigjelly",			/* Fig */
+      "foodGrapefruitjelly",		/* Grapefruit */
+      "foodPersimmonjelly"		/* Persimmon */    
+    ]
   },
-  "name": "jelly",
+  "name": "Jelly",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
