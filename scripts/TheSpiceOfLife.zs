@@ -4,29 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupSmoothie = [
-  <harvestcraft:melonsmoothieItem>,		/*  0 - Melon */
-  <harvestcraft:strawberrysmoothieItem>,	/*  1 - Strawberry */
-  <harvestcraft:lemonsmoothieItem>,		/*  2 - Lemon */
-  <harvestcraft:blueberrysmoothieItem>,		/*  3 - Blueberry */
-  <harvestcraft:cherrysmoothieItem>,		/*  4 - Cherry */
-  <harvestcraft:papayasmoothieItem>,		/*  5 - Papaya */
-  <harvestcraft:starfruitsmoothieItem>,		/*  6 - Starfruit */
-  <harvestcraft:bananasmoothieItem>,		/*  7 - Banana */
-  <harvestcraft:orangesmoothieItem>,		/*  8 - Orange */
-  <harvestcraft:peachsmoothieItem>,		/*  9 - Peach */
-  <harvestcraft:limesmoothieItem>,		/* 10 - Lime */
-  <harvestcraft:mangosmoothieItem>,		/* 11 - Mango */
-  <harvestcraft:pomegranatesmoothieItem>,	/* 12 - Pomegranate */
-  <harvestcraft:blackberrysmoothieItem>,	/* 13 - Blackberry */
-  <harvestcraft:raspberrysmoothieItem>,		/* 14 - Raspberry */
-  <harvestcraft:kiwismoothieItem>,		/* 15 - Kiwi */
-  <harvestcraft:apricotsmoothieItem>,		/* 16 - Apricot */
-  <harvestcraft:figsmoothieItem>,		/* 17 - Fig */
-  <harvestcraft:grapefruitsmoothieItem>,	/* 18 - Grapefruit */
-  <harvestcraft:persimmonsmoothieItem>		/* 19 - Persimmon */
-] as IItemStack[];
-
 val foodGroupYogurt = [
   <harvestcraft:pineappleyogurtItem>,		/*  0 - Pineapple */
   <harvestcraft:papayayogurtItem>,		/*  1 - Papaya */
@@ -535,7 +512,6 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odSmoothie	= <ore:foodSmoothie>;
 val odYogurt	= <ore:foodYogurt>;
 val odSandwich	= <ore:foodSandwich>;
 val odSalad	= <ore:foodSalad>;
@@ -548,12 +524,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Smoothie
-for i, food in foodGroupSmoothie
-{
-  odSmoothie.add( food );
-}
 
 # Yogurt
 for i, food in foodGroupYogurt
