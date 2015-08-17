@@ -1,12 +1,23 @@
 {
-  "food": {
-    "oredict": [ 
-        "foodHoneycombchocolatebar",
-        "foodCherrycoconutchocolatebar",
-        "foodChocolatebar"
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodChocolatebacon",		/* Chocolate Bacon */
+      "foodChocolatebar",		/* Chocolate Bar */
+      "foodChocolatecaramelfudge",	/* Chocolate Caramel Fudge */
+      "foodChocolatecherry",		/* Chocolate Cherry */
+      "foodChocolatestrawberry", 	/* Chocolate Strawberry */
+      "foodHoneycombchocolatebar",	/* Honeycomb Chocolate Bar */
+      "foodPralines",			/* Pralines */
+      "foodNutella", 			/* Nutella */
+      "foodSnickersbar",		/* Snikers Bar */
+      "foodCherrycoconutchocolatebar",	/* Cherry Coconut Chocolate Bar */
+      "foodChilichocolate",		/* Chili Chocolate */
+      "foodTimtam"			/* Soft Tim Tam */
     ]
   },
-  "name": "chocolatebar",
+  "name": "Chocolate",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
