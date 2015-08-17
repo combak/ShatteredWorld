@@ -1,12 +1,17 @@
 {
-  "food": {
-    "oredict": [ 
-        "foodStrawberrymilkshake",
-        "foodChocolatemilkshake",
-        "foodBananamilkshake"
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "listAllmilk",
+      "foodBananamilkshake",		/* Banana Milkshake */
+      "foodChocolatemilk",		/* Chocolate Milk */
+      "foodChocolatemilkshake",		/* Chocolate Milkshake */
+      "foodCoconutmilk",		/* Coconut Milk */
+      "foodStrawberrymilkshake"		/* Strawberry Milkshake */
     ]
   },
-  "name": "milkshake",
+  "name": "Milk & Milkshake",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
