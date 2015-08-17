@@ -1,0 +1,29 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodApplesauce",			/* Apple Sauce */
+      "foodCheese",			/* Cheese */
+      "foodCranberrysauce",		/* Cranberry Sauce */
+      "cropMaplesyrup",			/* Maple Syrup */
+      "foodPorksausage",		/* Pork Sausage */
+      "foodSilkentofu",			/* Silken Tofu */
+      "foodFirmtofu",			/* Firm Tofu */
+      "cropMustard",			/* Mustard */
+      "foodPeanutbutter",		/* Peanut Butter */      
+      "foodStock",			/* Stock */
+      "foodTortilla",			/* Tortillia */
+      "foodVegemite"			/* Vegemite */
+    ],
+    "items": 
+    [
+      "TConstruct:strangeFood"		/* Bacon */
+    ]
+  },
+  "name": "Cooking Supply",
+  "enabled": true,
+  "priority": 10,
+  "blacklist": false,
+  "hidden": false
+}

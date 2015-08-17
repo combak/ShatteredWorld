@@ -104,26 +104,6 @@ val foodGroupBiscuits = [
   <harvestcraft:raspberrytrifleItem>,		/* 4 - Raspberry Trifle */
 ] as IItemStack[]; 
 
-val foodGroupcookingSupplies = [
-  <harvestcraft:applesauceItem>,		/* 0 - Apple Sauce */
-  <harvestcraft:cheeseItem>,			/* 1 - Cheese */
-  <harvestcraft:butterItem>,			/* 2 - Butter */
-  <TConstruct:strangeFood>,			/* 3 - Bacon */
-  <harvestcraft:cranberrysauceItem>,		/* 4 - Cranberry Sauce */
-  <harvestcraft:maplesausageItem>,		/* 5 - Maple Sausage */
-  <harvestcraft:porksausageItem>,		/* 6 - Pork Sausage */
-  <harvestcraft:silkentofuItem>,		/* 7 - Silken Tofu */
-  <harvestcraft:firmtofuItem>,			/* 8 - Firm Tofu */
-  <harvestcraft:mustardItem>,			/* 9 - Mustard */
-  <harvestcraft:peanutbutterItem>,		/* 10 - Peanut Butter */
-  <harvestcraft:ketchupItem>,			/* 11 - Ketchup */
-  <harvestcraft:mayoItem>,			/* 12 - Mayo */
-  <harvestcraft:pastaItem>,			/* 13 - Pasta */
-  <harvestcraft:stockItem>,			/* 14 - Stock */
-  <harvestcraft:tortillaItem>,			/* 15 - Tortillia */
-  <harvestcraft:vegemiteItem>			/* 16 - Vegemite */
-] as IItemStack[]; 
-
 val foodGroupFastfood = [
   <lycanitesmobs:battleburrito>,		/* 0 - Battle Burrito */
   <harvestcraft:beanburritoItem>,		/* 1 - Bean Burrito */
