@@ -4,16 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupAlcohol = [
-  <harvestcraft:fruitpunchItem>,		/* 0 - Fruit Punch */
-  <harvestcraft:rootbeersodaItem>,		/* 1 - Root Beer */
-  <harvestcraft:appleciderItem>,		/* 2 - Apple Cider */
-  <harvestcraft:gingersodaItem>,		/* 3 - Ginger Ale */
-  <harvestcraft:gingersnapsItem>,		/* 4 - Ginger Snaps */
-  <arsmagica2:manaMartini>,			/* 5 - Mana Martini */
-  <harvestcraft:pinacoladaItem>			/* 6 - Pinacolada */
-] as IItemStack[];
-  
 val foodGroupDonut = [
   <harvestcraft:chocolatedonutItem>,		/* 0 - Chocolate Donut */
   <harvestcraft:cinnamonsugardonutItem>,	/* 1 - Cinnamon Sugar Donut */

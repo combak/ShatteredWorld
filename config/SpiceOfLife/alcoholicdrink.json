@@ -1,0 +1,22 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodFruitpunch",			/* Fruit Punch */
+      "foodRootbeersoda",		/* Root Beer */
+      "foodApplecider",			/* Apple Cider */
+      "foodGingersnaps",		/* Ginger Snaps */
+      "foodPinacolada"			/* Pinacolada */
+    ],
+    "items": 
+    [
+      "arsmagica2:manaMartini"		/* Mana Martini */
+    ]
+  },
+  "name": "Alcoholic Drink",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
