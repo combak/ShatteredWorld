@@ -4,6 +4,56 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
+val foodGroupSpagetti = [
+  <harvestcraft:spagettiItem>,			/* 0 - Spagetti */
+  <harvestcraft:spagettiandmeatballsItem>	/* 1 - Spagetti and Meatballs */
+] as IItemStack[];
+
+val foodGroupSoup = [
+  <harvestcraft:pumpkinsoupItem>,		/*  0 - Pumpkin */
+  <harvestcraft:carrotsoupItem>,		/*  1 - Carrot */
+  <harvestcraft:potatosoupItem>,		/*  2 - Potato */
+  <harvestcraft:chickennoodlesoupItem>,		/*  3 - Chickennoodle */
+  <harvestcraft:spidereyesoupItem>,		/*  4 - Spidereye */
+  <harvestcraft:vegetablesoupItem>,		/*  5 - Vegetable */
+  <harvestcraft:tomatosoupItem>,		/*  6 - Tomato */
+  <harvestcraft:onionsoupItem>,			/*  7 - Onion */
+  <harvestcraft:cucumbersoupItem>,		/*  8 - Cucumber */
+  <harvestcraft:ricesoupItem>,			/*  9 - Rice */
+  <harvestcraft:beetsoupItem>,			/* 10 - Beet */
+  <harvestcraft:creamedbroccolisoupItem>,	/* 11 - Creamed Broccoli */
+  <harvestcraft:splitpeasoupItem>,		/* 12 - Splitpea */
+  <harvestcraft:turnipsoupItem>,		/* 13 - Turnip */
+  <harvestcraft:celerysoupItem>,		/* 14 - Celery */
+  <harvestcraft:asparagussoupItem>,		/* 15 - Asparagus */
+  <harvestcraft:creamofavocadosoupItem>,	/* 16 - Cream of Avocado */
+  <harvestcraft:cactussoupItem>,		/* 17 - Cactus */
+  <harvestcraft:seedsoupItem>,			/* 18 - Seed */
+  <harvestcraft:gardensoupItem>,		/* 19 - Garden */
+  <harvestcraft:oldworldveggiesoupItem>,	/* 20 - Oldworldveggie */
+  <harvestcraft:lambbarleysoupItem>,		/* 21 - Lambbarley */
+  <harvestcraft:leekbaconsoupItem>,		/* 22 - Leekbacon */
+  <harvestcraft:guacamoleItem>,   		/*23 - Guacamole */
+  <minecraft:mushroom_stew>,  			/*24 - Mushroom Soup */
+  <arcticmobs:palesoup>  			/*25 - Pale Soup */
+] as IItemStack[];
+
+val foodGroupBurger = [
+  <harvestcraft:hamburgerItem>,			/*  0 - Hamburger */
+  <harvestcraft:cheeseburgerItem>,		/*  1 - Cheeseburger */
+  <harvestcraft:baconcheeseburgerItem>,		/*  2 - Baconcheeseburger */
+  <harvestcraft:deluxecheeseburgerItem>,	/*  3 - Deluxecheeseburger */
+  <harvestcraft:delightedmealItem>,		/*  4 - Delightedmeal */
+  <harvestcraft:baconmushroomburgerItem>,	/*  5 - Baconmushroomburger */
+  <harvestcraft:beetburgerItem>,		/*  6 - Beet Burger */
+  <harvestcraft:coleslawburgerItem>,		/*  7 - Colesaw Burger */
+  <harvestcraft:mcpamItem>,			/*  8 - McPam */
+  <harvestcraft:onionhamburgerItem>,		/*  9 - Onion Burger */
+  <harvestcraft:bltItem>,			/* 10 - BLT */
+  <plainsmobs:bulwarkburger>,	 		/* 11 - Bulwark Burger */
+  <harvestcraft:grilledcheeseItem>    /* 12 - Grilled Cheese */
+] as IItemStack[];
+
 val foodGroupSmoothie = [
   <harvestcraft:melonsmoothieItem>,		/*  0 - Melon */
   <harvestcraft:strawberrysmoothieItem>,	/*  1 - Strawberry */
@@ -372,6 +422,9 @@ val foodGroupSavoryPie = [
   <harvestcraft:mincepieItem>,			/*  8 - Mince Pie */
   <swampmobs:mosspie>,				/*  9 - Mosspie */
   <harvestcraft:chickenpotpieItem>,   		/* 10 - Chicken Pot Pie */
+  <harvestcraft:shepardspieItem>,   /* 11 - Shepherd´s Pie */
+  <harvestcraft:chickenpotpieItem>,    /* 12 - Chicken Pot Pie */
+  <harvestcraft:meatpieItem>   /* 13 - Meat Pie */
 ] as IItemStack[]; 
 
 val foodGroupBiscuits = [ 
@@ -443,7 +496,7 @@ val foodGroupcookedFish = [
   <minecraft:cooked_fished>,    		/* 9 - Cooked Fish */
   <minecraft:cooked_fished>,    		/* 10 - Cooked Salmon */
   <freshwatermobs:silexmeatcooked>,   		/* 11 - Cooked Silex Meat */
-  <exnihilo:silkworm_cooked>   			/* 12 - Cooked Silkworm */
+  <exnihilo:silkworm_cooked>   		/* 12 - Cooked Silkworm */
 ] as IItemStack[]; 
 
 val foodGroupFish = [
@@ -455,10 +508,86 @@ val foodGroupFish = [
  <TConstruct:jerky>  				/* 5 - Fish Jerky */
 ] as IItemStack[]; 
 
+Val foodGroupcookedMeat  = [
+  <swampmobs:aspidemeatcooked>,   /* 0 - Cooked Aspide Meat */
+  <forestmobs:arisaurmeatcooked>,     /* 1 - Cooked Arisaur Meat */
+  <infernomobs:cephignismeatcooked>,    /* 2 - Cooked Cephignis Meat */
+  <shadowmobs:chupacabrameatcooked>,    /* 3 - Cooked Chupacabra Meat */
+  <junglemobs:concapedemeatcooked>,   /* 4 - Cooked Concapede Meat */
+  <Natura:impmeat>,   /* 5 - Cooked Imphide */
+  <desertmobs:joustmeatcooked>,   /* 6 - Cooked Joust Meat */
+  <plainsmobs:makameatcooked>,    /* 7 - Cooked Maka Meat */
+  <harvestcraft:cookedmuttonItem>,    /* 8 - Cooked Mutton */
+  <demonmobs:pinkymeatcooked>,    /* 9 - Cooked Pinky Meat */
+  <minecraft:cooked_porkchop>,    /* 10 - Cooked Porkchop */
+  <harvestcraft:cookedrabbitItem>,    /* 11 - Cooked Rabbit */
+  <minecraft:cooked_beef>,    /* 12 - Cooked Beef */
+  <harvestcraft:cookedturkeyItem>,    /* 13 - Cooked Turkey */
+  <harvestcraft:cookedvenisonItem>,   /* 14 - Cooked Venison */
+  <mountainmobs:yalemeatcooked>,    /* 15 - Cooked Yale Meat */
+  <arcticmobs:yetimeatcooked>   /* 16 - Cooked Yeti Meat */
+] as IItemStack[]; 
+
+Val foodGroupMeatone = [
+  <harvestcraft:bakedhamItem>,    /* 0 - Baked Ham */
+  <harvestcraft:bangersandmashItem>,    /* 1 - Bangers and Mash */
+  <harvestcraft:honeylemonlampItem>,    /* 2 - Honey Lemon Lamp */
+  <harvestcraft:hotwingsItem>,    /* 3 - Hot Wings */
+  <harvestcraft:lambkebabItem>,   /* 4 - Lamb Kebab */
+  <harvestcraft:lampwithmintsauceItem>,   /* 5 - Lamb with Mint Sauce */
+  <demonmobs:devillasagna>,   /* 6 - Devil Lasagna */
+  <harvestcraft:epicbaconItem>,   /* 7 - Epic Bacon */
+  <lycanitesmobs:explorersrisotto>,   /* 8 - Explorers Risotto */
+  <harvestcraft:extremechiliItem>,    /* 9 - Extreme Chili */
+  <Natura:natura.stewbowl>,   /* 10 - Glowshroom Stew */
+  <harvestcraft:grilledskewerItem>,   /* 11 - Grilled Skewer */
+  <harvestcraft:meatystewItem>,   /* 12 - Meaty Stew */
+  <harvestcraft:suaderoItem>,   /* 13 - Suadero */
+  <Thaumcraft:TripleMeatTreat>    /* 14 - Triple Meat Treat
+] as IItemStack[]; 
+
+Val foodGroupMeattwo = [
+  <harvestcraft:apricotglaazedporkItem>,    /* 0 - Apricot Glazed Pork */
+  <harvestcraft:beansontoastItem>,    */ 1 - Beans on Toast */
+  <Tconstruct:jerky>,   /* 2 - Beef Jerky */
+  <harvestcraft:beefwellingtonItem>,    /* 3 - Beef Wellington */
+  <shadowmobs:bloodchili>,    /* 4 - Blood Chili */
+  <harvestcraft:chorizoItem>,   /* 5 - Chorizo */
+  <swampmobs:mosspie>,    /* 6 - Moss Pie */
+  <Tconstruct:jerky>,   /* 7 - Mutton Jerky */
+  <mountainmobs:peakskebab>,    /* 8 - Peaks Kebab */
+  <harvestcraft:pineapplehamItem>,    /* 9 - Pineapple Ham */
+  <harvestcraft:spicymustardporkItem>,    /* 10 - Spicy Mustard Pork */
+  <junglemobs:tropicalcurry>,   /* 11 - Tropical Curry */
+  <Tconstruct:jerky>,   /* 12 - Bacon Jerky */
+  <harvestcraft:baconwrappeddatesItem>,   /* 13 - Bacon Wrapped Dates */
+  <harvestcraft:batterdsausageItem>   /* 14 - Battered Sausage */
+] as IItemStack[]; 
+
+Val foodGroupChicken = [
+  <harvestcraft:chickencelerycasseroleItem>,    /* 0 - Chicken Celery Casserole */
+  <harvestcraft:chickencurryItem>,    /* 1 - Chicken Curry */
+  <harvestcraft:chickengumboItem>,    /* 2 - Chicken Gumbo */
+  <Tconstruct:jerky>,   /* 3 - Chicken Jerky */
+  <harvestcraft:chickenparmasanItem>,   /* 3 - Chicken Parmasan */
+  <harvestcraft:cashewchickenItem>,   /* 4 - Cashew Chicken */
+  <harvestcraft:lemonchickenItem>,    /* 5 - Lemon Chicken */
+  <harvestcraft:friedchickenItem>,    /* 6 - Fried Chicken */
+  <harvestcraft:garlicchickenItem>,   /* 7 - Garlic Chicken */
+  <harvestcraft:generaltsochickenItem>,   /* 8 - General Tso's Chicken */
+  <harvestcraft:gingerchickenItem>,   /* 9 - Ginger Chicken */
+  <harvestcraft:orangechickenItem>,   /* 10 - Orange Chicken */
+  <minecraft:cooked_chicken>,   /* 11 - Roastet Chicken */
+  <harvestcraft:sundayroastItem>    /* 12 - Sunday Roast*/
+] as IItemStack[];
+
 ########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
 
+val odSpagetti	= <ore:foodSpagetti>;
+val odSoup	= <ore:foodSoup>;
+val odBurger	= <ore:foodBurger>;
 val odSmoothie	= <ore:foodSmoothie>;
 val odYogurt	= <ore:foodYogurt>;
 val odSandwich	= <ore:foodSandwich>;
@@ -472,6 +601,24 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
+
+# Spagetti
+for i, food in foodGroupSpagetti
+{
+  odSpagetti.add( food );
+}
+
+# Soup
+for i, food in foodGroupSoup
+{
+  odSoup.add( food );
+}
+
+# Burger
+for i, food in foodGroupBurger
+{
+  odBurger.add( food );
+}
 
 # Smoothie
 for i, food in foodGroupSmoothie
