@@ -4,36 +4,6 @@ import minetweaker.item.IItemStack;
 # Items
 ########################################################################################################################
 
-val foodGroupSandwich = [			
-  <harvestcraft:applejellysandwichItem>,	/*  0 - Applejelly */
-  <harvestcraft:blackberryjellysandwichItem>,	/*  1 - Blackberryjelly */
-  <harvestcraft:blueberryjellysandwichItem>,	/*  2 - Blueberryjelly */
-  <harvestcraft:cherryjellysandwichItem>,	/*  3 - Cherryjelly */
-  <harvestcraft:cranberryjellysandwichItem>,	/*  4 - Cranberryjelly */
-  <harvestcraft:kiwijellysandwichItem>,		/*  5 - Kiwijelly */
-  <harvestcraft:lemonjellysandwichItem>,	/*  6 - Lemonjelly */
-  <harvestcraft:limejellysandwichItem>,		/*  7 - Limejelly */
-  <harvestcraft:mangojellysandwichItem>,	/*  8 - Mangojelly */
-  <harvestcraft:orangejellysandwichItem>,	/*  9 - Orangejelly */
-  <harvestcraft:papayajellysandwichItem>,	/* 10 - Papayajelly */
-  <harvestcraft:peachjellysandwichItem>,	/* 11 - Peachjelly */
-  <harvestcraft:pomegranatejellysandwichItem>,	/* 12 - Pomegranatejelly */
-  <harvestcraft:raspberryjellysandwichItem>,	/* 13 - Raspberryjelly */
-  <harvestcraft:starfruitjellysandwichItem>,	/* 14 - Starfruitjelly */
-  <harvestcraft:strawberryjellysandwichItem>,	/* 15 - Strawberryjelly */
-  <harvestcraft:watermelonjellysandwichItem>,	/* 16 - Watermelonjelly */
-  <harvestcraft:apricotjellysandwichItem>,	/* 17 - Apricotjelly */
-  <harvestcraft:figjellysandwichItem>,		/* 18 - Figjelly */
-  <harvestcraft:grapefruitjellysandwichItem>,	/* 19 - Grapefruitjelly */
-  <harvestcraft:persimmonjellysandwichItem>,	/* 20 - Persimmonjelly */
-  <harvestcraft:pbandjItem>,			/* 21 - Pbandj */
-  <harvestcraft:chickensandwichItem>,    	/* 22 - Chicken Sandwich */
-  <harvestcraft:fishsandwichItem>,   		/* 23 - Fish Sandwich */
-  <harvestcraft:leafychickensandwichItem>,	/* 24 - Leafy Chicken Sandwich */
-  <harvestcraft:toastsandwichItem>,		/* 25 - Toast Sandwich  */
-  <harvestcraft:leafyfishsandwichItem>		/* 26 Leafy Fish Sandwich */
-] as IItemStack[];
-
 val foodGroupSalad = [
   <harvestcraft:potatosaladItem>,		/*  0 - Potato */
   <harvestcraft:eggsaladItem>,			/*  1 - Egg */
@@ -479,7 +449,6 @@ val foodGroupChicken = [
 # Ore Dictionary
 ########################################################################################################################
 
-val odSandwich	= <ore:foodSandwich>;
 val odSalad	= <ore:foodSalad>;
 val odJuice	= <ore:listAlljuice>;
 val odSoda	= <ore:foodSoda>;
@@ -490,12 +459,6 @@ val odFruit	= <ore:listAllfruit>;
 ########################################################################################################################
 # Ore Dictionary Changes
 ########################################################################################################################
-
-# Sandwich
-for i, food in foodGroupSandwich
-{
-  odSandwich.add( food );
-}
 
 # Salad
 for i, food in foodGroupSalad

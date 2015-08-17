@@ -1,8 +1,38 @@
 {
-  "food": {
-    "oredict": [ "foodSandwich" ]
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodApplejellysandwich",			/* Applejelly */
+      "foodBlackberryjellysandwich",		/* Blackberryjelly */
+      "foodBlueberryjellysandwich",		/* Blueberryjelly */
+      "foodCherryjellysandwich",		/* Cherryjelly */
+      "foodCranberryjellysandwich",		/* Cranberryjelly */
+      "foodKiwijellysandwich",			/* Kiwijelly */
+      "foodLemonjellysandwich",			/* Lemonjelly */
+      "foodLimejellysandwich",			/* Limejelly */
+      "foodMangojellysandwich",			/* Mangojelly */
+      "foodOrangejellysandwich",		/* Orangejelly */
+      "foodPapayajellysandwich",		/* Papayajelly */
+      "foodPeachjellysandwich",			/* Peachjelly */
+      "foodPomegranatejellysandwich",		/* Pomegranatejelly */
+      "foodRaspberryjellysandwich",		/* Raspberryjelly */
+      "foodStarfruitjellysandwich",		/* Starfruitjelly */
+      "foodStrawberryjellysandwich",		/* Strawberryjelly */
+      "foodWatermelonjellysandwich",		/* Watermelonjelly */
+      "foodApricotjellysandwich",		/* Apricotjelly */
+      "foodFigjellysandwich",			/* Figjelly */
+      "foodGrapefruitjellysandwich",		/* Grapefruitjelly */
+      "foodPersimmonjellysanwich",		/* Persimmonjelly */
+      "foodPbandj",				/* Pbandj */
+      "foodChickensandwich",    		/* Chicken Sandwich */
+      "foodFishsandwich",   			/* Fish Sandwich */
+      "foodLeafychickensandwich",		/* Leafy Chicken Sandwich */
+      "foodToastsandwich",			/* Toast Sandwich  */
+      "foodLeafyfishsandwich"			/* Leafy Fish Sandwich */    
+    ]
   },
-  "name": "sandwich",
+  "name": "Sandwich",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
