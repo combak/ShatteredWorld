@@ -1,0 +1,26 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodChaoscookie",		/* Chaos Cookie */
+      "foodPeanutbuttercookies",	/* Peanut Butter Cookies */
+      "foodCreamcookie",		/* Cream Cookie */
+      "foodBaklava",			/* Baklava */
+      "foodBiscuit",			/* Biscuit */
+      "foodRaisincookies",		/* Raisin Cookies */
+      "foodJaffa",			/* Jaffa */
+      "foodPumpkinoatscones"		/* Pumpkin Oat Scones */
+    ],
+    "items": 
+    [
+      "Botania:manaCookie",		/* Mana Cookie */
+      "minecraft:cookie"		/* Cookie */
+    ]
+  },
+  "name": "Cookie",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

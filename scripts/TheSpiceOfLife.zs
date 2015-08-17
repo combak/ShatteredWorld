@@ -23,19 +23,6 @@ val foodGroupSweets = [
   <harvestcraft:trailmixItem>			/* 15 - Trail Mix */
 ] as IItemStack[];
 
-val foodGroupCookie = [
-  <harvestcraft:chaoscookieItem>,		/*  0 - Chaos Cookie */
-  <harvestcraft:peanutbuttercookiesItem>,	/*  1 - Peanut Butter Cookies */
-  <harvestcraft:creamcookieItem>,		/*  2 - Cream Cookie */
-  <harvestcraft:baklavaItem>,			/*  3 - Baklava */
-  <harvestcraft:biscuitItem>,			/*  4 - Biscuit */
-  <harvestcraft:raisincookiesItem>,		/*  5 - Raisin Cookies */
-  <Botania:manaCookie>,				/*  6 - Mana Cookie */
-  <minecraft:cookie>,				/*  7 - Cookie */
-  <harvestcraft:jaffaItem>,			/* 8 - Jaffa */
-  <harvestcraft:pumpkinoatsconesItem>		/* 9 - Pumpkin Oat Scones */
-] as IItemStack[];
-
 val foodGroupSnak = [
   <harvestcraft:chilipoppersItem>,		/*  0 - Chili Poppers */
   <harvestcraft:cinnamonrollItem>,		/*  1 - Cinnamon Roll */
