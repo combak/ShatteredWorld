@@ -404,10 +404,10 @@ val foodGroupCake = [
   <arsmagica2:manaCake>,    			/* 19 - Mana Cake */
   <ForbiddenMagic:ArcaneCakeItem>,    		/* 20 - Thaumic Cake */
   <WitchingGadgets:item.WG_MagicFood>,  	/* 21 - Nethercake */
-  <harvestcraft:lamingtonItem>,   /* 22 - Lamington */
-  <harvestcraft:peachcobblerItem>,    /* 23 - Peach Cobbler */
-  <harvestcraft:blackberrycobblerItem>,   /* 24 - Blackberry Cobbler */
-  <harvestcraft:fruitcrumbleItem>   /* 25 - Fruit Crumble */
+  <harvestcraft:lamingtonItem>,			/* 22 - Lamington */
+  <harvestcraft:peachcobblerItem>,		/* 23 - Peach Cobbler */
+  <harvestcraft:blackberrycobblerItem>,		/* 24 - Blackberry Cobbler */
+  <harvestcraft:fruitcrumbleItem>		/* 25 - Fruit Crumble */
 ] as IItemStack[]; 
 
 val foodGroupSavoryPie = [
@@ -475,35 +475,36 @@ val foodGroupFastfood = [
 ] as IItemStack[]; 
   
 val foodGroupSushi = [
-  <harvestcraft:sushiItem>,   /* 0 - Sushi */
-  <harvestcraft:californiarollItem>,    /* 1 - California Roll */
-  <harvestcraft:futomakiItem>,    /* 2 - Futo Maki */
+  <harvestcraft:sushiItem>,   			/* 0 - Sushi */
+  <harvestcraft:californiarollItem>,    	/* 1 - California Roll */
+  <harvestcraft:futomakiItem>,    		/* 2 - Futo Maki */
 ] as IItemStack[]; 
 
 val foodGroupcookedFish = [
-  <harvestcraft:cookedclamItem>,   /* 0 - Cooked Clam */
-  <harvestcraft:cookedcrabItem>,    /* 1 - Cooked Crab */
-  <harvestcraft:cookedcrayfishItem>,    /* 2 - Cooked Crayfish */
-  <harvestcraft:cookedfroglegsItem>,   /* 3 - Cooked Frog Legs */
-  <harvestcraft:cookedoctupusItem>,    /* 4 - Cooked Octupus */
-  <harvestcraft:cookedscallopItem>,    /* 5 - Cooked Scallop */
-  <harvestcraft:cookedshrimpItem>,   /* 6 - Cooked Shrimp */
-  <harvestcraft:cookedsnailItem>,    /* 7 - Cooked Snail */
-  <harvestcraft:cookedturtleItem>,    /* 8 - Cooked Turtle */
-  <minecraft:cooked_fished>,    /* 9 - Cooked Fish */
-  <minecraft:cooked_fished>,    /* 10 - Cooked Salmon */
-  <freshwatermobs:silexmeatcooked>,   /* 11 - Cooked Silex Meat */
-  <exnihilio:silkworm_cooked>   /* 12 - Cooked Silkworm */
+  <harvestcraft:clamcookedItem>,   		/* 0 - Cooked Clam */
+  <harvestcraft:crabcookedItem>,    		/* 1 - Cooked Crab */
+  <harvestcraft:crayfishcookedItem>,    	/* 2 - Cooked Crayfish */
+  <harvestcraft:frogcookedItem>,   		/* 3 - Cooked Frog Legs */
+  <harvestcraft:octopuscookedItem>,   		/* 4 - Cooked Octupus */
+  <harvestcraft:scallopcookedItem>,    		/* 5 - Cooked Scallop */
+  <harvestcraft:shrimpcookedItem>,   		/* 6 - Cooked Shrimp */
+  <harvestcraft:snailcookedItem>,    		/* 7 - Cooked Snail */
+  <harvestcraft:turtlecookedItem>,    		/* 8 - Cooked Turtle */
+  <minecraft:cooked_fished>,    		/* 9 - Cooked Fish */
+  <minecraft:cooked_fished>,    		/* 10 - Cooked Salmon */
+  <freshwatermobs:silexmeatcooked>,   		/* 11 - Cooked Silex Meat */
+  <exnihilo:silkworm_cooked>   		/* 12 - Cooked Silkworm */
 ] as IItemStack[]; 
 
 val foodGroupFish = [
- <harvestcraft:fishandchipsItem>,   /* 0 - Fish and Chips */
- <harvestcraft:fishdinnerItem>,   /* 1 - Fish Dinner */
- <harvestcraft:fishsticksItem>,   /* 2 - Fish Sticks */
- <harvestcraft:pistachiobakedsalmonItem>,   /* 3 - Pistachio Baked Salmon */
- <harvestcraft:coconutshrimpItem>,    /* 4 - Coconut Shrimp */
- <TConstruct:jerky>   /* 5 - Fish Jerky */
+ <harvestcraft:fishandchipsItem>,   		/* 0 - Fish and Chips */
+ <harvestcraft:fishdinnerItem>,   		/* 1 - Fish Dinner */
+ <harvestcraft:fishsticksItem>,   		/* 2 - Fish Sticks */
+ <harvestcraft:pistachiobakedsalmonItem>,   	/* 3 - Pistachio Baked Salmon */
+ <harvestcraft:coconutshrimpItem>,    		/* 4 - Coconut Shrimp */
+ <TConstruct:jerky>  				/* 5 - Fish Jerky */
 ] as IItemStack[]; 
+
 ########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
