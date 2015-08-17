@@ -1,8 +1,24 @@
 {
-  "food": {
-    "oredict": [ "foodSoda" ]
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodCherrysoda",			/* Cherry */
+      "foodColasoda",			/* Cola */
+      "foodGingersoda",			/* Ginger */
+      "foodGrapesoda",			/* Grape */
+      "foodLemonlimesoda",		/* Lemonlime */
+      "foodOrangesoda",			/* Orange */
+      "foodStrawberrysoda",		/* Strawberry */
+      "foodGrapefruitsoda",		/* Grapefruit */
+      "foodRaspberryicedtea"		/* Raspberry Iced Tea */    
+    ],
+    "items": 
+    [
+      "Forestry:ambrosia"            	/* Ambrosia */
+    ]
   },
-  "name": "soda",
+  "name": "Soda",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
