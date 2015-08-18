@@ -18,7 +18,7 @@ val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
 # Forest Day
-val forestDayFurnaceCoke            = <ForestDay:forest.fd.block.furnace_coke>;
+val forestDayFurnaceCoke            = <ForestDay:furnace_coke>;
 
 # Forestry
 val ForestryGlassBlue               = <Forestry:stained:11>;
@@ -68,7 +68,7 @@ val enderioZombieElectrode      = <EnderIO:itemFrankenSkull>;
 val enderioVibrantCrystal   = <EnderIO:itemMaterial:6>;
 
 # Nedelosk Core
-val forestDayWoodGear = <NedeloskCore:forest.nc.item.gearWood:1>;
+val forestDayWoodGear = <NedeloskCore:gearWood:1>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;

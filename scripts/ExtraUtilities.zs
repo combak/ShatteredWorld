@@ -44,7 +44,7 @@ val extUtilObsidianInfused          = <ExtraUtilities:decorativeBlock1:1>;
 val extUtilMatrix                   = <ExtraUtilities:decorativeBlock1:12>;
 
 # Forest Day
-val forestDayFurnaceCoke            = <ForestDay:forest.fd.block.furnace_coke>;
+val forestDayFurnaceCoke            = <ForestDay:furnace_coke>;
 
 # Tinkers Construct
 val tConstructSlabSeared            = <TConstruct:SearedSlab>;
