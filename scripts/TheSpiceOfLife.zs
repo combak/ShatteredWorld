@@ -36,20 +36,6 @@ val foodGroupSnak = [
   <harvestcraft:figbarItem>			/* 9 - Fig Bar */
 ] as IItemStack[];
 
-val foodGroupBread = [
-  <harvestcraft:banananutbreadItem>,		/*  0 - Banana Nut Bread */
-  <harvestcraft:damperItem>,			/*  1 - Damper */
-  <harvestcraft:datenutbreadItem>,		/*  2 - Date Nut Bread */
-  <harvestcraft:fairybreadItem>,		/*  3 - Fairy Bread */
-  <harvestcraft:garlicbreadItem>,		/*  4 - Garlic Bread */
-  <harvestcraft:gingerbreadItem>,		/*  5 - Ginger Bread */
-  <harvestcraft:lavendershortbreadItem>,	/*  6 - Lavender Shortbread */
-  <harvestcraft:pumpkinbreadItem>,		/*  7 - Pumpkin Bread */
-  <harvestcraft:walnutraisinbreadItem>,		/*  8 - Walnut Raisin Bread */
-  <harvestcraft:zucchinibreadItem>,		/*  9 - Zucchini Bread */
-  <minecraft:bread>				/* 10 - Bread */
-] as IItemStack[];
-
 val foodGroupCake = [
   <harvestcraft:applepieItem>,			/*  0 - Apple Pie */
   <harvestcraft:blueberrypieItem>,		/*  1 - Blueberry Pie */

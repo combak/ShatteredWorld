@@ -1,0 +1,29 @@
+{
+  "food": {
+    "oredict": [ 
+        "foodPotatocakes",
+        "foodCheesecake",
+        "foodRicecake",
+        "foodCarrotcake",
+        "foodCherrycheesecake",
+        "foodPineappleupsidedowncake",
+        "foodChocolatesprinklecake",
+        "foodRedvelvetcake",
+        "foodHolidaycake"
+    ],
+    "items": [
+        "minecraft:cake",
+        "harvestcraft:pampavlovaCake",
+        "harvestcraft:pamlamingtonCake",
+        "harvestcraft:pamholidayCake",
+        "harvestcraft:pamredvelvetCake",
+        "desertmobs:ambercake",
+        "harvestcraft:pumpkincheesecakeitem"
+        ]
+  },
+  "name": "pieceofcakes",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
