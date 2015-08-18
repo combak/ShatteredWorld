@@ -6,6 +6,7 @@
 val vanillaLavaStill	= <minecraft:lava>;
 val vanillaLavaFlowing	= <minecraft:flowing_lava>;
 val vanillaFire		= <minecraft:fire>;
+val vanillaTorch	= <minecraft:torch:5>;
 
 # Thaumcraft
 val thaumcraftNitor 	= <Thaumcraft:blockAiry:1>;
@@ -17,16 +18,12 @@ val thermFound 		= <ThermalFoundation:FluidPyrotheum>;
 # Crucible
 ########################################################################################################################
 
-# Change Heat Sources Values
-mods.exnihilo.Crucible.removeHeatSource( vanillaLavaStill );
-mods.exnihilo.Crucible.removeHeatSource( vanillaLavaFlowing );
+# Remove all heat sources
+mods.exnihilo.Crucible.removeHeatSource( <*> );
+
+# Add Heat Sources Values
+mods.exnihilo.Crucible.addHeatSource( vanillaTorch, 0.1 );
 mods.exnihilo.Crucible.addHeatSource( vanillaLavaStill, 0.133 );
-
-mods.exnihilo.Crucible.removeHeatSource( vanillaFire );
 mods.exnihilo.Crucible.addHeatSource( vanillaFire, 0.166 );
-
-mods.exnihilo.Crucible.removeHeatSource( thaumcraftNitor );
 mods.exnihilo.Crucible.addHeatSource( thaumcraftNitor, 0.2 );
-
-mods.exnihilo.Crucible.removeHeatSource( thermFound );
 mods.exnihilo.Crucible.addHeatSource( thermFound, 0.3 );
