@@ -36,23 +36,6 @@ val foodGroupSnak = [
   <harvestcraft:figbarItem>			/* 9 - Fig Bar */
 ] as IItemStack[];
 
-val foodGroupSavoryPie = [
-  <harvestcraft:sweetpotatopieItem>,		/*  0 - Sweet Potato Pie */
-  <harvestcraft:asparagusquicheItem>,		/*  1 - Asparagus Quiche */
-  <desertmobs:ambercake>,			/*  2 - Amber Cake */
-  <harvestcraft:pecanpieItem>,			/*  3 - Pecan Pie */
-  <minecraft:pumpkin_pie>,			/*  4 - Pumkin Pie */
-  <harvestcraft:carrotcakeItem>,		/*  5 - Carrot Cake */
-  <harvestcraft:meatpieItem>,			/*  6 - Meat Pie */
-  <harvestcraft:spinachpieItem>,		/*  7 - Spinach Pie */
-  <harvestcraft:mincepieItem>,			/*  8 - Mince Pie */
-  <swampmobs:mosspie>,				/*  9 - Mosspie */
-  <harvestcraft:chickenpotpieItem>,   		/* 10 - Chicken Pot Pie */
-  <harvestcraft:shepardspieItem>,   		/* 11 - Shepherd´s Pie */
-  <harvestcraft:chickenpotpieItem>,    		/* 12 - Chicken Pot Pie */
-  <harvestcraft:meatpieItem>   			/* 13 - Meat Pie */
-] as IItemStack[]; 
-
 val foodGroupBiscuits = [ 
   <harvestcraft:blueberrymuffinItem>,		/* 0 - Blueberry Muffin */
   <harvestcraft:pumpkinmuffinItem>,		/* 1 - Pumpkin Muffin */
