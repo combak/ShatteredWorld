@@ -36,35 +36,6 @@ val foodGroupSnak = [
   <harvestcraft:figbarItem>			/* 9 - Fig Bar */
 ] as IItemStack[];
 
-val foodGroupCake = [
-  <harvestcraft:applepieItem>,			/*  0 - Apple Pie */
-  <harvestcraft:blueberrypieItem>,		/*  1 - Blueberry Pie */
-  <harvestcraft:cheesecakeItem>,		/*  2 - Cheese Cake */
-  <harvestcraft:cherrycheesecakeItem>,		/*  3 - Cherry Cheese Cake */
-  <harvestcraft:cherrypieItem>,			/*  4 - Cherry Pie */
-  <harvestcraft:chocolatesprinklecakeItem>,	/*  5 - Chocolate Spinkles Cake */
-  <harvestcraft:gingeredrhubarbtartItem>,	/*  6 - Gingered Rhubarb Tart*/
-  <harvestcraft:holidaycakeItem>,		/*  7 - Holiday Cake */
-  <harvestcraft:keylimepieItem>,		/*  8 - Walnut Raisin Bread */
-  <harvestcraft:zucchinibreadItem>,		/*  9 - Keylime Pie */
-  <harvestcraft:lemonmeringueItem>,   		/* 10 - Lemon Meringue */
-  <harvestcraft:pavlovaItem>,   		/* 11 - Pavlova */
-  <harvestcraft:pineappleupsidedowncakeItem>,   /* 12 - Pineapple Upsidedown Cake */
-  <harvestcraft:pumpkincheesecakeItem>,   	/* 13 - Pumpkin Cheese Cake */
-  <harvestcraft:raspberrypieItem>,    		/* 14 - Raspberry Pie */
-  <harvestcraft:redvelvetcakeItem>,   		/* 15 - Red Velvet Cake */
-  <harvestcraft:spicebunItem>,    		/* 16 - Spice Bun */
-  <harvestcraft:strawberrypieItem>,   		/* 17 - Strawberry Pie */
-  <minecraft:cake>,   				/* 18 - Cake */
-  <arsmagica2:manaCake>,    			/* 19 - Mana Cake */
-  <ForbiddenMagic:ArcaneCakeItem>,    		/* 20 - Thaumic Cake */
-  <WitchingGadgets:item.WG_MagicFood>,  	/* 21 - Nethercake */
-  <harvestcraft:lamingtonItem>,			/* 22 - Lamington */
-  <harvestcraft:peachcobblerItem>,		/* 23 - Peach Cobbler */
-  <harvestcraft:blackberrycobblerItem>,		/* 24 - Blackberry Cobbler */
-  <harvestcraft:fruitcrumbleItem>		/* 25 - Fruit Crumble */
-] as IItemStack[]; 
-
 val foodGroupSavoryPie = [
   <harvestcraft:sweetpotatopieItem>,		/*  0 - Sweet Potato Pie */
   <harvestcraft:asparagusquicheItem>,		/*  1 - Asparagus Quiche */

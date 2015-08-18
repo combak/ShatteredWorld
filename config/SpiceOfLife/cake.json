@@ -1,27 +1,38 @@
 {
-  "food": {
-    "oredict": [ 
-        "foodPotatocakes",
-        "foodCheesecake",
-        "foodRicecake",
-        "foodCarrotcake",
-        "foodCherrycheesecake",
-        "foodPineappleupsidedowncake",
-        "foodChocolatesprinklecake",
-        "foodRedvelvetcake",
-        "foodHolidaycake"
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodApplepie",				/* Apple Pie */
+      "foodBlueberrypie",			/* Blueberry Pie */
+      "foodCheesecake",				/* Cheese Cake */
+      "foodCherrycheesecake",			/* Cherry Cheese Cake */
+      "foodCherrypie",				/* Cherry Pie */
+      "foodChocolatesprinklecake",		/* Chocolate Spinkles Cake */
+      "foodGingeredrhubarbtart",		/* Gingered Rhubarb Tart*/
+      "foodHolidaycake",			/* Holiday Cake */
+      "foodKeylimepie",				/* Keylime Pie */
+      "foodLemonmeringue",   			/* Lemon Meringue */
+      "foodPavlova",   				/* Pavlova */
+      "foodPineappleupsidedowncake",   		/* Pineapple Upsidedown Cake */
+      "foodRaspberrypie",    			/* Raspberry Pie */
+      "foodRedvelvetcake",   			/* Red Velvet Cake */
+      "foodSpicebun",    			/* Spice Bun */
+      "foodStrawberrypie",   			/* Strawberry Pie */
+      "foodLamington",				/* Lamington */
+      "foodPeachcobbler",			/* Peach Cobbler */
+      "foodBlackberrycobbler",			/* Blackberry Cobbler */
+      "foodFruitcrumble"			/* Fruit Crumble */    
     ],
-    "items": [
-        "minecraft:cake",
-        "harvestcraft:pampavlovaCake",
-        "harvestcraft:pamlamingtonCake",
-        "harvestcraft:pamholidayCake",
-        "harvestcraft:pamredvelvetCake",
-        "desertmobs:ambercake",
-        "harvestcraft:pumpkincheesecakeitem"
-        ]
+    "items": 
+    [
+      "harvestcraft:pumpkincheesecakeItem", 	/* Pumpkin Cheese Cake */
+      "minecraft:cake",   			/* Cake */
+      "arsmagica2:manaCake",    		/* Mana Cake */
+      "WitchingGadgets:item.WG_MagicFood:1"  	/* Nethercake */
+    ]
   },
-  "name": "pieceofcakes",
+  "name": "Piece of Cake",
   "enabled": true,
   "priority": 8,
   "blacklist": false,

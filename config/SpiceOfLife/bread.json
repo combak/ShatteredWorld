@@ -1,27 +1,26 @@
 {
-  "food": {
-    "oredict": [ 
-        "foodPotatocakes",
-        "foodCheesecake",
-        "foodRicecake",
-        "foodCarrotcake",
-        "foodCherrycheesecake",
-        "foodPineappleupsidedowncake",
-        "foodChocolatesprinklecake",
-        "foodRedvelvetcake",
-        "foodHolidaycake"
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodBanananutbread",		/* Banana Nut Bread */
+      "foodDamper",			/* Damper */
+      "foodDatenutbread",		/* Date Nut Bread */
+      "foodFairybread",			/* Fairy Bread */
+      "foodGarlicbread",		/* Garlic Bread */
+      "foodGingerbread",		/* Ginger Bread */
+      "foodLavendershortbread",		/* Lavender Shortbread */
+      "foodPumpkinbread",		/* Pumpkin Bread */
+      "foodWalnutraisinbread",		/* Walnut Raisin Bread */
+      "foodZucchinibread",		/* Zucchini Bread */
+      
     ],
-    "items": [
-        "minecraft:cake",
-        "harvestcraft:pampavlovaCake",
-        "harvestcraft:pamlamingtonCake",
-        "harvestcraft:pamholidayCake",
-        "harvestcraft:pamredvelvetCake",
-        "desertmobs:ambercake",
-        "harvestcraft:pumpkincheesecakeitem"
-        ]
+    "items": 
+    [
+      "minecraft:bread"			/* Bread */ 
+    ]
   },
-  "name": "pieceofcakes",
+  "name": "Bread",
   "enabled": true,
   "priority": 8,
   "blacklist": false,
