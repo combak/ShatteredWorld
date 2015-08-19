@@ -1,8 +1,32 @@
 {
-  "food": {
-    "oredict": [ "listAllfishcooked" ]
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "listAllfishcooked",
+      
+      "foodClamcooked",   			/* Cooked Clam */
+      "foodCrabcooked",    			/* Cooked Crab */
+      "foodCrayfishcooked",    			/* Cooked Crayfish */
+      "foodFrogcooked",   			/* Cooked Frog Legs */
+      "foodOctopuscooked",   			/* Cooked Octupus */
+      "foodScallopcooked",    			/* Cooked Scallop */
+      "foodShrimpcooked",   			/* Cooked Shrimp */
+      "foodSnailcooked",    			/* Cooked Snail */
+      "foodTurtlecooked",    			/* Cooked Turtle */
+      "foodFishandchips",   			/* Fish and Chips */
+      "foodFishdinner",   			/* Fish Dinner */
+      "foodFishsticks",   			/* Fish Sticks */
+      "foodPistachiobakedsalmon",   		/* Pistachio Baked Salmon */
+      "foodCoconutshrimp"    			/* Coconut Shrimp */
+    ],
+    "Items":
+    [
+      "freshwatermobs:silexmeatcooked",   	/* Cooked Silex Meat */
+      "TConstruct:jerky"  			/* Fish Jerky */  
+    ]
   },
-  "name": "cookedfish",
+  "name": "Fish & Seafood",
   "enabled": true,
   "priority": 8,
   "blacklist": false,

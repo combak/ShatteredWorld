@@ -71,28 +71,3 @@ val foodGroupSushi = [
   <harvestcraft:californiarollItem>,    	/* 1 - California Roll */
   <harvestcraft:futomakiItem>,    		/* 2 - Futo Maki */
 ] as IItemStack[]; 
-
-val foodGroupcookedFish = [
-  <harvestcraft:clamcookedItem>,   		/* 0 - Cooked Clam */
-  <harvestcraft:crabcookedItem>,    		/* 1 - Cooked Crab */
-  <harvestcraft:crayfishcookedItem>,    	/* 2 - Cooked Crayfish */
-  <harvestcraft:frogcookedItem>,   		/* 3 - Cooked Frog Legs */
-  <harvestcraft:octopuscookedItem>,   		/* 4 - Cooked Octupus */
-  <harvestcraft:scallopcookedItem>,    		/* 5 - Cooked Scallop */
-  <harvestcraft:shrimpcookedItem>,   		/* 6 - Cooked Shrimp */
-  <harvestcraft:snailcookedItem>,    		/* 7 - Cooked Snail */
-  <harvestcraft:turtlecookedItem>,    		/* 8 - Cooked Turtle */
-  <minecraft:cooked_fished>,    		/* 9 - Cooked Fish */
-  <minecraft:cooked_fished>,    		/* 10 - Cooked Salmon */
-  <freshwatermobs:silexmeatcooked>,   		/* 11 - Cooked Silex Meat */
-  <exnihilo:silkworm_cooked>   			/* 12 - Cooked Silkworm */
-] as IItemStack[]; 
-
-val foodGroupFish = [
- <harvestcraft:fishandchipsItem>,   		/* 0 - Fish and Chips */
- <harvestcraft:fishdinnerItem>,   		/* 1 - Fish Dinner */
- <harvestcraft:fishsticksItem>,   		/* 2 - Fish Sticks */
- <harvestcraft:pistachiobakedsalmonItem>,   	/* 3 - Pistachio Baked Salmon */
- <harvestcraft:coconutshrimpItem>,    		/* 4 - Coconut Shrimp */
- <TConstruct:jerky>  				/* 5 - Fish Jerky */
-] as IItemStack[]; 
