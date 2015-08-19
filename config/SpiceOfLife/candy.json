@@ -1,0 +1,32 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodMarshmellows",		/* Marshmellows */
+      "foodNachoes",			/* Nachoes */
+      "foodPeppermint",			/* Peppermint */
+      "foodCandiedginger",		/* Candied Ginder */
+      "foodCandiedlemon",		/* Candied Lemon */
+      "foodCcandiedwalnuts",		/* Candied Walnuts */
+      "foodCaramel", 			/* Caramel */
+      "foodCaramelapple",		/* Caramel Apple */
+      "foodGummybears",			/* Gummbie Bears */
+      "foodJellybeans",			/* Jellybeans */
+      "foodSoftpretzel",		/* Soft Pretzel */
+      "foodSoftpretzelandmustard",	/* Soft Pretzel and Mustard */
+      "foodSaltedsunflowerseeds",	/* Salted Sunflower Seeds */
+      "foodTaffy",			/* Taffy */
+      "foodTrailmix"			/* Trail Mix */
+    ],
+    "items":
+    [
+      "harvestcraft:popcornItem"	/* Popcorn */
+    ]
+  },
+  "name": "Candy",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
