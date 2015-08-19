@@ -1,0 +1,33 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "listAllchickencooked",
+    
+      "foodChickencelerycasserole",	/* Chicken Celery Casserole */
+      "foodChickencurry",    		/* Chicken Curry */
+      "foodChickengumbo",    		/* Chicken Gumbo */
+      "foodChickenparmasan",   		/* Chicken Parmasan */
+      "foodCashewchicken",   		/* Cashew Chicken */
+      "foodLemonchicken",    		/* Lemon Chicken */
+      "foodFriedchicken",    		/* Fried Chicken */
+      "foodGarlicchicken",   		/* Garlic Chicken */
+      "foodGeneraltsochicken",   	/* General Tso's Chicken */
+      "foodGingerchicken",   		/* Ginger Chicken */
+      "foodOrangechicken",   		/* Orange Chicken */
+      "foodSundayroast"    		/* Sunday Roast*/    
+    ],
+    "items":
+    [
+      "TConstruct:jerky:1"   		/* Chicken Jerky */
+    ]
+  },
+  "name": "Cooked Chicken",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
+
+

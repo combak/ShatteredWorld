@@ -96,20 +96,3 @@ val foodGroupFish = [
  <harvestcraft:coconutshrimpItem>,    		/* 4 - Coconut Shrimp */
  <TConstruct:jerky>  				/* 5 - Fish Jerky */
 ] as IItemStack[]; 
-
-val foodGroupChicken = [
-  <harvestcraft:chickencelerycasseroleItem>,	/* 0 - Chicken Celery Casserole */
-  <harvestcraft:chickencurryItem>,    		/* 1 - Chicken Curry */
-  <harvestcraft:chickengumboItem>,    		/* 2 - Chicken Gumbo */
-  <TConstruct:jerky:1>,   			/* 3 - Chicken Jerky */
-  <harvestcraft:chickenparmasanItem>,   	/* 3 - Chicken Parmasan */
-  <harvestcraft:cashewchickenItem>,   		/* 4 - Cashew Chicken */
-  <harvestcraft:lemonchickenItem>,    		/* 5 - Lemon Chicken */
-  <harvestcraft:friedchickenItem>,    		/* 6 - Fried Chicken */
-  <harvestcraft:garlicchickenItem>,   		/* 7 - Garlic Chicken */
-  <harvestcraft:generaltsochickenItem>,   	/* 8 - General Tso's Chicken */
-  <harvestcraft:gingerchickenItem>,   		/* 9 - Ginger Chicken */
-  <harvestcraft:orangechickenItem>,   		/* 10 - Orange Chicken */
-  <minecraft:cooked_chicken>,   		/* 11 - Roastet Chicken */
-  <harvestcraft:sundayroastItem>    		/* 12 - Sunday Roast*/
-] as IItemStack[];
