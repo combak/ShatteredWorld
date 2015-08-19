@@ -20,7 +20,7 @@ This Modpack is made from the community for the community!
 * [Youtube](http://www.youtube.com/user/BakermanLP/)
 * [Google+](https://plus.google.com/+BakermanlpDe/)
 * [Twitter](http://twitter.com/BakermanLP)
-* 
+
 ### ... to all people which worked on this Modpack.
 (alphabetically)
 - BakermanLP
