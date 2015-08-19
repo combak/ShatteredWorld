@@ -1,0 +1,14 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "listAllveggie"
+    ]
+  },
+  "name": "Vegetable",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
