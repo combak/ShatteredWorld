@@ -43,9 +43,3 @@ val foodGroupBiscuits = [
   <harvestcraft:brownieItem>,			/* 3 - Brownie */
   <harvestcraft:raspberrytrifleItem>,		/* 4 - Raspberry Trifle */
 ] as IItemStack[]; 
-
-val foodGroupSushi = [
-  <harvestcraft:sushiItem>,   			/* 0 - Sushi */
-  <harvestcraft:californiarollItem>,    	/* 1 - California Roll */
-  <harvestcraft:futomakiItem>,    		/* 2 - Futo Maki */
-] as IItemStack[]; 
