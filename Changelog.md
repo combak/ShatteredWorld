@@ -2,6 +2,18 @@
 
 # Version 0.7.0
 
+**Config Changes**
+- Change Adv. Generator Fuel Efficiency
+- Fixed Magmatic Dynamo Recipe
+- Added/Extended new Food Groups
+- Changed Turbines & Capacitor Recipes ( new Blocks in Adv, Generators 0.9.17.102 )
+- Add Natura Stick Recipes
+- Disabled Infentory crafting & item restorers (Backpacks)
+- Removed Quantum Chest & Backpack Restorer (Backpacks)
+- Changed Heating Chamber Recipe ( Adv. Generators )
+- Reworked Iquana Tinkers Tweaks restrictions. Everything is permitted except Bone, Cactus, Netherrack & Paper Tools
+- Forest Day Flint Axe as allowed tool. ( Iquana Tinkers Tweaks )
+
 # Version 0.6.7
 
 **Config Changes**
