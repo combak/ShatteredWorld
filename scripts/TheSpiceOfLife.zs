@@ -97,26 +97,6 @@ val foodGroupFish = [
  <TConstruct:jerky>  				/* 5 - Fish Jerky */
 ] as IItemStack[]; 
 
-val foodGroupcookedMeat  = [
-  <swampmobs:aspidmeatcooked>,   		/* 0 - Cooked Aspide Meat */
-  <forestmobs:arisaurmeatcooked>,     		/* 1 - Cooked Arisaur Meat */
-  <infernomobs:cephignismeatcooked>,    	/* 2 - Cooked Cephignis Meat */
-  <shadowmobs:chupacabrameatcooked>,    	/* 3 - Cooked Chupacabra Meat */
-  <junglemobs:concapedemeatcooked>,   		/* 4 - Cooked Concapede Meat */
-  <Natura:impmeat>,   				/* 5 - Cooked Imphide */
-  <desertmobs:joustmeatcooked>,   		/* 6 - Cooked Joust Meat */
-  <plainsmobs:makameatcooked>,    		/* 7 - Cooked Maka Meat */
-  <harvestcraft:muttoncookedItem>,    		/* 8 - Cooked Mutton */
-  <demonmobs:pinkymeatcooked>,    		/* 9 - Cooked Pinky Meat */
-  <minecraft:cooked_porkchop>,    		/* 10 - Cooked Porkchop */
-  <harvestcraft:rabbitcookedItem>,    		/* 11 - Cooked Rabbit */
-  <minecraft:cooked_beef>,    			/* 12 - Cooked Beef */
-  <harvestcraft:turkeycookedItem>,    		/* 13 - Cooked Turkey */
-  <harvestcraft:venisoncookedItem>,   		/* 14 - Cooked Venison */
-  <mountainmobs:yalemeatcooked>,    		/* 15 - Cooked Yale Meat */
-  <arcticmobs:yetimeatcooked>   		/* 16 - Cooked Yeti Meat */
-] as IItemStack[]; 
-
 val foodGroupMeatone = [
   <harvestcraft:bakedhamItem>,    		/* 0 - Baked Ham */
   <harvestcraft:bangersandmashItem>,    	/* 1 - Bangers and Mash */
