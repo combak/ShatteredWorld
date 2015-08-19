@@ -326,63 +326,50 @@ val frDraconium		= <liquid:molten_draconium>;
 # (Mixed) Data Structures - Smeltery Fuels
 ########################################################################################################################
 
-# Fuels
+# Fuels 
 val tConstructSmelteryFuels = [
-  /* 1300 same as Lava */
-  <liquid:bioethanol>,		/* 0 - Bio Ethanol (Forestry) */
+  /* 1300 same as Lava */  
+  <liquid:bioethanol>,		/* 0 - Bio Ethanol (Forestry) */  
   <liquid:fuel>,		/* 1 - Fuel (BuildCraft) */
-#  <liquid:fuelgas>,		/* 2 - Fuel Gas (BuildCraft Additions) */
-  <liquid:oil>,			/* 3 - Oil (BuildCraft) */
-  <liquid:syngas>,		/* 4 - Syngas (Advanced Generators) */
-  <liquid:coal>,		/* 5 - Liquifacted Coal (Thermal Foundation) */
+  <liquid:oil>,			/* 2 - Oil (BuildCraft) */
+  <liquid:coal>,		/* 3 - Liquifacted Coal (Thermal Foundation) */
   
   /* 2100 */
-  <liquid:rocket_fuel>,		/* 6 - Rocket Fuel (EnderIO) */
+  <liquid:rocket_fuel>,		/* 4 - Rocket Fuel (EnderIO) */
   
   /* 4000 same as Pyrotheum */
-  <liquid:petrotheum>,		/* 7 - Tectonic Petrotheum (Thermal Foundation) */
-  <liquid:aerotheum>		/* 8 - Zephyrean Aerotheum (Thermal Foundation) */
+  <liquid:petrotheum>,		/* 5 - Tectonic Petrotheum (Thermal Foundation) */
+  <liquid:aerotheum>		/* 6 - Zephyrean Aerotheum (Thermal Foundation) */
 ] as ILiquidStack[];
 
-# Temperature
-val tConstructSmelteryTemperature = [
-  1300,		/* 0 - Bio Ethanol (Forestry) */
-  1300,		/* 1 - Fuel (BuildCraft) */
-#  1300,		/* 2 - Fuel Gas (BuildCraft Additions) */
-  1300,		/* 3 - Oil (BuildCraft) */
-  1300,		/* 4 - Syngas (Advanced Generators) */
-  1300,		/* 5 - Liquifacted Coal (Thermal Foundation) */
-  2100,		/* 6 - Rocket Fuel (EnderIO) */
-  4000,		/* 7 - Tectonic Petrotheum (Thermal Foundation) */
-  4000		/* 8 - Zephyrean Aerotheum (Thermal Foundation) */
-] as int[];
 
-# Duration
-val tConstructSmelteryDuration = [
-  80,		/* 0 - Bio Ethanol (Forestry) */
-  80,		/* 1 - Fuel (BuildCraft) */
-#  80,		/* 2 - Fuel Gas (BuildCraft Additions) */
-  40,		/* 3 - Oil (BuildCraft) */
-  40,		/* 4 - Syngas (Advanced Generators) */
-  40,		/* 5 - Liquifacted Coal (Thermal Foundation) */
-  80,		/* 6 - Rocket Fuel (EnderIO) */
-  240,		/* 7 - Tectonic Petrotheum (Thermal Foundation) */
-  240		/* 8 - Zephyrean Aerotheum (Thermal Foundation) */
-] as int[];
+# Temperature & Duration => [ <temp>, <duration> ]
+val tConstructSmelteryFuelTemperatures = [
+  [ 1300, 80 ],		/* 0 - Bio Ethanol (Forestry) */
+  [ 1300, 80 ],		/* 1 - Fuel (BuildCraft) */
+  [ 1300, 40 ],		/* 2 - Oil (BuildCraft) */
+  [ 1300, 40 ],		/* 3 - Liquifacted Coal (Thermal Foundation) */
+  [ 2100, 80 ],		/* 4 - Rocket Fuel (EnderIO) */
+  [ 4000, 240 ],	/* 5 - Tectonic Petrotheum (Thermal Foundation) */
+  [ 4000, 240 ]		/* 6 - Zephyrean Aerotheum (Thermal Foundation) */
+] as int[][];
 
-# Tooltip - FluidBlock
-val fluidBlocksTooltip = [
-  <Forestry:fluid.bioethanol>,		/* 0 - Bio Ethanol (Forestry) */
-  <BuildCraft|Energy:blockFuel>,	/* 1 - Fuel (BuildCraft) */
-#  <bcadditions:fuelgasBlock>,		/* 2 - Fuel Gas (BuildCraft Additions) */
-  <BuildCraft|Energy:blockOil>,		/* 3 - Oil (BuildCraft) */
-  <advgenerators:syngas>,		/* 4 - Syngas (Advanced Generators) */
-  <ThermalFoundation:FluidCoal>,	/* 5 - Liquifacted Coal (Thermal Foundation) */
-  <EnderIO:blockRocket_fuel>,		/* 6 - Rocket Fuel (EnderIO) */
-  <ThermalFoundation:FluidPetrotheum>,	/* 7 - Tectonic Petrotheum (Thermal Foundation) */
-  <ThermalFoundation:FluidAerotheum>	/* 8 - Zephyrean Aerotheum (Thermal Foundation) */
-] as IItemStack[];
+# Tooltips => [ <fluidBlock>, <fluidBucket> ]
+val tConstructSmelteryFuelTooltips = [
+  /* 1300 same as Lava */  
+  [ <Forestry:fluid.bioethanol>, 		<Forestry:bucketEthanol> ],		/* 0 - Bio Ethanol (Forestry) */  
+  [ <BuildCraft|Energy:blockFuel>,		<BuildCraft|Energy:bucketFuel> ],	/* 1 - Fuel (BuildCraft) */
+  [ <BuildCraft|Energy:blockOil>,		<BuildCraft|Energy:bucketOil> ],	/* 2 - Oil (BuildCraft) */
+  [ <ThermalFoundation:FluidCoal>,		<ThermalFoundation:bucket:6> ],		/* 3 - Liquifacted Coal (Thermal Foundation) */
+  
+  /* 2100 */
+  [ <EnderIO:blockRocket_fuel>,			<EnderIO:bucketRocket_fuel> ],		/* 4 - Rocket Fuel (EnderIO) */
+  
+  /* 4000 same as Pyrotheum */
+  [ <ThermalFoundation:FluidPetrotheum>,	<ThermalFoundation:bucket:8> ],		/* 5 - Tectonic Petrotheum (Thermal Foundation) */
+  [ <ThermalFoundation:FluidAerotheum>,		<ThermalFoundation:bucket:7> ]		/* 6 - Zephyrean Aerotheum (Thermal Foundation) */
 
+] as IItemStack[][];
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -575,35 +562,20 @@ for i, item in tConstructArditeItems
 ########################################################################################################################
 
 for i, fuel in tConstructSmelteryFuels
-{
-  var temperature		= tConstructSmelteryTemperature[ i ];
-  var duration			= tConstructSmelteryDuration[ i ];
-  var fluidBlockTooltip		= fluidBlocksTooltip[ i ];
-  var temperatureString 	= temperature as string;
+{  
+  var temperature	= tConstructSmelteryFuelTemperatures[ i ][ 0 ];
+  var duration		= tConstructSmelteryFuelTemperatures[ i ][ 1 ];
+  var temperatureString	= temperature as string;
+  var block		= tConstructSmelteryFuelTooltips[ i ][ 0 ];
+  var bucket		= tConstructSmelteryFuelTooltips[ i ][ 1 ];
   
   # Fuels
   mods.tconstruct.Smeltery.addFuel( fuel, temperature, duration );
   
   # Tooltips
-  fluidBlockTooltip.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( temperatureString ) + format.red( "°" ) );
+  block.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( temperatureString ) + format.red( "°" ) );
+  bucket.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( temperatureString ) + format.red( "°" ) );
 }
-
-# Same as Lava
-#mods.tconstruct.Smeltery.addFuel(frEthanol, 1300, 80);
-#mods.tconstruct.Smeltery.addFuel(frFuel, 1300, 80);
-#mods.tconstruct.Smeltery.addFuel(frFuelGas, 1300, 80);
-#mods.tconstruct.Smeltery.addFuel(frOil, 1300, 40);
-#mods.tconstruct.Smeltery.addFuel(frSynGas, 1300, 40);
-#mods.tconstruct.Smeltery.addFuel(frLiquidCoal, 1300, 40);
-
-
-
-# to 2100°C
-#mods.tconstruct.Smeltery.addFuel(frRocketFuel, 2100, 80);
-
-# Same as Pyrotheum
-#mods.tconstruct.Smeltery.addFuel(frPetrotheum, 4000, 240);
-#mods.tconstruct.Smeltery.addFuel(frAerotheum, 4000, 240);
 
 ########################################################################################################################
 # Bonus / Gag
