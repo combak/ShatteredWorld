@@ -1,0 +1,21 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodBlueberrymuffin",			/* Blueberry Muffin */
+      "foodCornbread",				/* Cornbread */
+      "foodBrownie",				/* Brownie */
+      "foodRaspberrytrifle"			/* Raspberry Trifle */    
+    ],
+    "items":
+    [
+      "harvestcraft:pumpkinmuffinItem"		/* Pumpkin Muffin */
+    ]
+  },
+  "name": "Biscuit",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}
