@@ -22,16 +22,3 @@ val foodGroupSweets = [
   <harvestcraft:taffyItem>,			/* 14 - Taffy */
   <harvestcraft:trailmixItem>			/* 15 - Trail Mix */
 ] as IItemStack[];
-
-val foodGroupSnak = [
-  <harvestcraft:chilipoppersItem>,		/*  0 - Chili Poppers */
-  <harvestcraft:cinnamonrollItem>,		/*  1 - Cinnamon Roll */
-  <harvestcraft:cornflakesItem>,		/*  2 - Cornflakes */
-  <harvestcraft:manjuuItem>,			/*  3 - Manjuu */
-  <harvestcraft:raisinsItem>,			/*  4 - Raisins */
-  <harvestcraft:roastedchestnutItem>,		/*  5 - Roasted Chestnut */
-  <harvestcraft:zeppoleItem>,			/* 6 - Zeppole */
-  <harvestcraft:cranberrybarItem>,		/* 7 - Cranberry Bar */
-  <harvestcraft:lemonbarItem>,			/* 8 - Lemon Bar */
-  <harvestcraft:figbarItem>			/* 9 - Fig Bar */
-] as IItemStack[];
