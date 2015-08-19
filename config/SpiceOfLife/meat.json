@@ -1,0 +1,28 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "listAllmeatcooked" 
+    ],
+    "items":
+    [
+      "swampmobs:aspidmeatcooked",   		/* Cooked Aspide Meat */
+      "forestmobs:arisaurmeatcooked",     	/* Cooked Arisaur Meat */
+      "infernomobs:cephignismeatcooked",    	/* Cooked Cephignis Meat */
+      "shadowmobs:chupacabrameatcooked",    	/* Cooked Chupacabra Meat */
+      "junglemobs:concapedemeatcooked",   	/* Cooked Concapede Meat */
+      "Natura:impmeat:1",   			/* Cooked Imphide */
+      "desertmobs:joustmeatcooked",   		/* Cooked Joust Meat */
+      "plainsmobs:makameatcooked",    		/* Cooked Maka Meat */    
+      "demonmobs:pinkymeatcooked",    		/* Cooked Pinky Meat */
+      "mountainmobs:yalemeatcooked",    	/* Cooked Yale Meat */
+      "arcticmobs:yetimeatcooked"   		/* Cooked Yeti Meat */      
+    ]
+  },
+  "name": "Cooked Meat",
+  "enabled": true,
+  "priority": 5,
+  "blacklist": false,
+  "hidden": false
+}

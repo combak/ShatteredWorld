@@ -97,42 +97,6 @@ val foodGroupFish = [
  <TConstruct:jerky>  				/* 5 - Fish Jerky */
 ] as IItemStack[]; 
 
-val foodGroupMeatone = [
-  <harvestcraft:bakedhamItem>,    		/* 0 - Baked Ham */
-  <harvestcraft:bangersandmashItem>,    	/* 1 - Bangers and Mash */
-  <harvestcraft:honeylemonlambItem>,    	/* 2 - Honey Lemon Lamp */
-  <harvestcraft:hotwingsItem>,    		/* 3 - Hot Wings */
-  <harvestcraft:lambkebabItem>,   		/* 4 - Lamb Kebab */
-  <harvestcraft:lambwithmintsauceItem>,   	/* 5 - Lamb with Mint Sauce */
-  <demonmobs:devillasagna>,   			/* 6 - Devil Lasagna */
-  <harvestcraft:epicbaconItem>,   		/* 7 - Epic Bacon */
-  <lycanitesmobs:explorersrisotto>,   		/* 8 - Explorers Risotto */
-  <harvestcraft:extremechiliItem>,    		/* 9 - Extreme Chili */
-  <Natura:natura.stewbowl>,   			/* 10 - Glowshroom Stew */
-  <harvestcraft:grilledskewersItem>,   		/* 11 - Grilled Skewer */
-  <harvestcraft:meatystewItem>,   		/* 12 - Meaty Stew */
-  <harvestcraft:suaderoItem>,   		/* 13 - Suadero */
-  <Thaumcraft:TripleMeatTreat>    		/* 14 - Triple Meat Treat */
-] as IItemStack[]; 
-
-val foodGroupMeattwo = [
-  <harvestcraft:apricotglazedporkItem>,    	/* 0 - Apricot Glazed Pork */
-  <harvestcraft:beansontoastItem>,    		/* 1 - Beans on Toast */
-  <TConstruct:jerky>,   			/* 2 - Beef Jerky */
-  <harvestcraft:beefwellingtonItem>,    	/* 3 - Beef Wellington */
-  <shadowmobs:bloodchili>,    			/* 4 - Blood Chili */
-  <harvestcraft:chorizoItem>,   		/* 5 - Chorizo */
-  <swampmobs:mosspie>,    			/* 6 - Moss Pie */
-  <TConstruct:jerky:3>,   			/* 7 - Mutton Jerky */
-  <mountainmobs:peakskebab>,    		/* 8 - Peaks Kebab */
-  <harvestcraft:pineapplehamItem>,    		/* 9 - Pineapple Ham */
-  <harvestcraft:spicymustardporkItem>,    	/* 10 - Spicy Mustard Pork */
-  <junglemobs:tropicalcurry>,   		/* 11 - Tropical Curry */
-  <TConstruct:jerky:2>,   			/* 12 - Bacon Jerky */
-  <harvestcraft:baconwrappeddatesItem>,   	/* 13 - Bacon Wrapped Dates */
-  <harvestcraft:batteredsausageItem>   		/* 14 - Battered Sausage */
-] as IItemStack[]; 
-
 val foodGroupChicken = [
   <harvestcraft:chickencelerycasseroleItem>,	/* 0 - Chicken Celery Casserole */
   <harvestcraft:chickencurryItem>,    		/* 1 - Chicken Curry */
