@@ -3,26 +3,43 @@
   {
     "oredict": 
     [ 
-      "listAllmeatcooked" 
+      "foodBakedham",    		/* Baked Ham */
+      "foodBangersandmash",    		/* Bangers and Mash */
+      "foodHoneylemonlamb",    		/* Honey Lemon Lamp */
+      "foodHotwings",    		/* Hot Wings */
+      "foodLambkebab",   		/* Lamb Kebab */
+      "foodLambwithmintsauce",   	/* Lamb with Mint Sauce */
+      "foodEpicbacon",   		/* Epic Bacon */
+      "foodExtremechili",    		/* Extreme Chili */
+      "foodGrilledskewers",   		/* Grilled Skewer */
+      "foodMeatystew",   		/* Meaty Stew */
+      "foodSuadero",   			/* Suadero */
+      "foodApricotglazedpork",    	/* Apricot Glazed Pork */
+      "foodBeansontoast",    		/* Beans on Toast */
+      "foodBeefwellington",    		/* Beef Wellington */
+      "foodChorizo",   			/* Chorizo */
+      "foodPineappleham",    		/* Pineapple Ham */
+      "foodSpicymustardpork",    	/* Spicy Mustard Pork */
+      "foodBaconwrappeddates",   	/* Bacon Wrapped Dates */
+      "foodBatteredsausage"   		/* Battered Sausage */  
     ],
     "items":
     [
-      "swampmobs:aspidmeatcooked",   		/* Cooked Aspide Meat */
-      "forestmobs:arisaurmeatcooked",     	/* Cooked Arisaur Meat */
-      "infernomobs:cephignismeatcooked",    	/* Cooked Cephignis Meat */
-      "shadowmobs:chupacabrameatcooked",    	/* Cooked Chupacabra Meat */
-      "junglemobs:concapedemeatcooked",   	/* Cooked Concapede Meat */
-      "Natura:impmeat:1",   			/* Cooked Imphide */
-      "desertmobs:joustmeatcooked",   		/* Cooked Joust Meat */
-      "plainsmobs:makameatcooked",    		/* Cooked Maka Meat */    
-      "demonmobs:pinkymeatcooked",    		/* Cooked Pinky Meat */
-      "mountainmobs:yalemeatcooked",    	/* Cooked Yale Meat */
-      "arcticmobs:yetimeatcooked"   		/* Cooked Yeti Meat */      
+      "demonmobs:devillasagna",   	/* Devil Lasagna */
+      "lycanitesmobs:explorersrisotto", /* Explorers Risotto */ 
+      "Natura:natura.stewbowl",   	/* Glowshroom Stew */
+      "Thaumcraft:TripleMeatTreat",    	/* Triple Meat Treat */
+      "TConstruct:jerky",   		/* Beef Jerky */
+      "TConstruct:jerky:2",   		/* Bacon Jerky */
+      "TConstruct:jerky:3",   		/* Mutton Jerky */
+      "shadowmobs:bloodchili",    	/* Blood Chili */
+      "mountainmobs:peakskebab",    	/* Peaks Kebab */
+      "junglemobs:tropicalcurry"   	/* Tropical Curry */
     ]
   },
-  "name": "Cooked Meat",
+  "name": "Dishes with Meat",
   "enabled": true,
-  "priority": 5,
+  "priority": 8,
   "blacklist": false,
   "hidden": false
 }
