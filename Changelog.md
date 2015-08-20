@@ -13,6 +13,9 @@
 - Changed Heating Chamber Recipe ( Adv. Generators )
 - Reworked Iquana Tinkers Tweaks restrictions. Everything is permitted except Bone, Cactus, Netherrack & Paper Tools
 - Forest Day Flint Axe as allowed tool. ( Iquana Tinkers Tweaks )
+- Adding Limited Resources 20x Apiary ( Forestry ) per Player
+- Adding Limited Resources 270x (10x Multiblock) Alveary ( Forestry ) per Player
+
 
 # Version 0.6.7
 
