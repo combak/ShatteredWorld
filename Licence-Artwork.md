@@ -5,6 +5,7 @@
 
 This Licence is for all our Artworks/Images under the following folders:
 - artworks/
+- resources/customfluids/
 - resources/shatteredworld/
 
 ## You are free to:
