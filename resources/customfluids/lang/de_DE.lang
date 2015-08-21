@@ -7,6 +7,12 @@ tile.customfluids:molten_elementium.name=Geschmolzenes Elementium
 tile.customfluids:molten_electricalsteel.name=Geschmolzener elektrischer Stahl
 tile.customfluids:molten_pulsatingiron.name=Geschmolzenes pulsierendes Eisen
 tile.customfluids:molten_vibrantalloy.name=Geschmolzene dynamische Legierung
+tile.customfluids:molten_darksteel.name=Geschmolzener Dunkelstahl
+tile.customfluids:molten_redstonealloy.name=Geschmolzene Redstone Legierung
+tile.customfluids:molten_conductiveiron.name=Geschmolzenes leitendes Eisen
+tile.customfluids:molten_energeticalloy.name=Geschmolzene energetisierte Legierung
+tile.customfluids:molten_soularium.name=Geschmolzenes Soularium
+
 
 # GardenStuff
 tile.customfluids:molten_wroughtiron.name=Geschmolzenes Schmiedeeisen
@@ -20,3 +26,4 @@ tile.customfluids:molten_voidmetal.name=Geschmolzenes Leermetall
 
 # Dragonic Evolution
 tile.customfluids:molten_draconium.name=Geschmolzenes drakonisches Metall
+tile.customfluids:molten_draconiumawakened.name=Geschmolzenes erwachtes drakonisches Metall
