@@ -129,9 +129,9 @@ val forestryPlanks = [
 ] as IItemStack[];
 
 val forestryBlockOf = [
-  <Forestry:resourceStorage:1>,		/* 0 - Copper */
-  <Forestry:resourceStorage:2>, 	/* 1 - Tin */
-  <Forestry:resourceStorage:3> 		/* 2 - Bronze */
+#  <Forestry:resourceStorage:1>,		/* 0 - Copper */
+#  <Forestry:resourceStorage:2>, 	/* 1 - Tin */
+#  <Forestry:resourceStorage:3> 		/* 2 - Bronze */
 ] as IItemStack[];
 
 # Forestry
@@ -153,9 +153,9 @@ val bcAdditionObsidianDust = <bcadditions:dust:58>;
 ########################################################################################################################
 
 val forestryIngot = [
-  <Forestry:ingotCopper>,	/* 0 - Copper */
-  <Forestry:ingotTin>,		/* 1 - Tin */
-  <Forestry:ingotBronze>	/* 2 - Bronze */
+#  <Forestry:ingotCopper>,	/* 0 - Copper */
+#  <Forestry:ingotTin>,		/* 1 - Tin */
+#  <Forestry:ingotBronze>	/* 2 - Bronze */
 ] as IItemStack[];
 
 # BuildCraft

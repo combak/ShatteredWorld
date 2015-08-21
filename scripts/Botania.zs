@@ -24,20 +24,6 @@ val botaniaPlanks = [
   <Botania:dreamwood:1>		/* 1 - Dream Wood */
 ] as IItemStack[];
 
-val botaniaIngots = [
-  <Botania:manaResource>,	/* 0 - Manasteel */
-  <Botania:manaResource:4>,	/* 1 - Terrasteel */
-  <Botania:manaResource:7>	/* 2 - Elementium */
-] as IItemStack[];
-
-val botaniaBlockOf = [
-  <Botania:storage>,
-  <Botania:storage:1>,
-  <Botania:storage:2>,
-  <Botania:storage:3>,
-  <Botania:storage:4>
-] as IItemStack[];
-
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -78,18 +64,6 @@ for i, log in botaniaLogs
   var plank = botaniaPlanks[ i ];
   recipes.remove( plank );
   recipes.addShapeless( plank * 2, [ log ] );
-}
-
-# Remove Block to Ingot Crafting
-for i, ingot in botaniaIngots
-{
-  recipes.remove( ingot );
-}
-
-# Remove Ingot to Block Crafting
-for i, block in botaniaBlockOf
-{
-  recipes.remove( block );
 }
 
 # Custom Mana Spreader Recipie

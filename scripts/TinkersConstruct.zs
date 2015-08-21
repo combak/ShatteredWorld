@@ -1,23 +1,10 @@
+import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
 import minetweaker.liquid.ILiquidStack;
 
 ########################################################################################################################
 # Blocks
 ########################################################################################################################
-
-# Tinkers
-val tConstructBlockOf = [
-  <TConstruct:MetalBlock>,	/* 0 - Cobalt */
-  <TConstruct:MetalBlock:1>,	/* 1 - Ardite */
-  <TConstruct:MetalBlock:2>,	/* 2 - Manyullyn */
-  <TConstruct:MetalBlock:3>,	/* 3 - Copper */
-  <TConstruct:MetalBlock:4>,	/* 4 - Bronze */
-  <TConstruct:MetalBlock:5>,	/* 5 - Tin */
-  <TConstruct:MetalBlock:6>,	/* 6 - Aluminum */
-  <TConstruct:MetalBlock:7>,	/* 7 - Aluminum Brass */
-  <TConstruct:MetalBlock:8>,	/* 8 - Alumite */
-  <TConstruct:MetalBlock:9>	/* 9 - Steel */
-] as IItemStack[];
 
 # Botania
 val botaniaManasteelBlock 	= <Botania:storage>;
@@ -57,36 +44,6 @@ val dracEvoDraconiumOre		= <DraconicEvolution:draconiumOre>;
 ########################################################################################################################
 # Items
 ########################################################################################################################
-
-# Tinkers
-val tConstructNuggets = [
-  <TConstruct:materials:19>,	/*  0 - Iron */
-  <TConstruct:materials:20>,	/*  1 - Copper */
-  <TConstruct:materials:21>,	/*  2 - Tin */
-  <TConstruct:materials:22>,	/*  3 - Aluminum */
-  <TConstruct:materials:24>,	/*  4 - Aluminum Brass */
-  <TConstruct:materials:27>,	/*  5 - Obsidian */
-  <TConstruct:materials:28>,	/*  6 - Cobalt */
-  <TConstruct:materials:29>,	/*  7 - Ardite */
-  <TConstruct:materials:30>,	/*  8 - Manyullyn */
-  <TConstruct:materials:31>,	/*  9 - Bronze */
-  <TConstruct:materials:32>,	/* 10 - Alumite */
-  <TConstruct:materials:33>	/* 11 - Steel */
-] as IItemStack[];
-
-val tConstructIngots = [
-  <TConstruct:materials:3>,	/*  0 - Cobalt */
-  <TConstruct:materials:4>,	/*  1 - Ardite */
-  <TConstruct:materials:5>,	/*  2 - Manyullyn */
-  <TConstruct:materials:9>,	/*  3 - Copper */
-  <TConstruct:materials:10>,	/*  4 - Tin */
-  <TConstruct:materials:11>,	/*  5 - Aluminum */
-  <TConstruct:materials:13>,	/*  6 - Bronze */
-  <TConstruct:materials:14>,	/*  7 - Aluminum Brass */
-  <TConstruct:materials:15>,	/*  8 - Alumite */
-  <TConstruct:materials:16>,	/*  9 - Steel */
-  <TConstruct:materials:18>	/* 10 - Obsidian */
-] as IItemStack[];
 
 val tConstructCobaltItems = [
   <TConstruct:chiselHead:10>, 
@@ -212,15 +169,6 @@ val tConstructAluminumBrassDust	= <TConstruct:materials:42>;
 val tConstructIngotCast		= <TConstruct:metalPattern>;
 val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
 
-# Thermal Foundation
-val thermFoundIronNugget 	= <ThermalFoundation:material:8>;
-val thermFoundCopperNugget 	= <ThermalFoundation:material:96>;
-#val thermFoundTinNugget 	= <ThermalFoundation:material:97>;
-val thermFoundBronzeNugget	= <ThermalFoundation:material:105>;
-val thermFoundSilverNugget	= <ThermalFoundation:material:98>;
-val thermFoundLeadNugget	= <ThermalFoundation:material:99>;
-val thermFoundManaInfusedIngot	= <ThermalFoundation:material:70>;
-
 # Botania
 val botaniaManasteelIngot	= <Botania:manaResource>;
 val botaniaTerrasteelIngot	= <Botania:manaResource:4>;
@@ -246,15 +194,6 @@ val exAstrisElectricalSteelNugget = <exastrisrebirth:itemNuggetElectricalSteel>;
 
 # AgriCraft
 val agriCraftDiamondNugget = <AgriCraft:nuggetDiamond>;
-
-val removeTableRecipes = [
-  <Thaumcraft:ItemNugget>,	/* 0 - Iron Nugget */
-  <Thaumcraft:ItemNugget:1>,	/* 1 - Copper Nugget */
-  <Thaumcraft:ItemNugget:2>,	/* 2 - Tin Nugget */
-  <Thaumcraft:ItemNugget:3>,	/* 3 - Silver Nugget */
-  <Thaumcraft:ItemNugget:4>	/* 4 - Lead Nugget */
-] as IItemStack[];
-
 
 # Vanilla
 val vanillaRedstone      = <minecraft:redstone>;
@@ -310,20 +249,10 @@ val frElectricalSteel	= <liquid:molten_electricalsteel>;
 val frCobalt		= <liquid:cobalt.molten>;
 val frArdite		= <liquid:ardite.molten>;
 val frDraconium		= <liquid:molten_draconium>;
-
-# Fluids Brennstoff
-#val frEthanol    = <liquid:bioethanol>;
-#val frFuel       = <liquid:fuel>;
-#val frFuelGas    = <liquid:fuelgas>;
-#val frOil        = <liquid:oil>;
-#val frPetrotheum = <liquid:petrotheum>;
-#val frRocketFuel = <liquid:rocket_fuel>;
-#val frSynGas     = <liquid:syngas>;
-#val frLiquidCoal = <liquid:coal>;
-#val frAerotheum     = <liquid:aerotheum>;
+val frMushroom		= <liquid:fluidmushroom>;
 
 ########################################################################################################################
-# (Mixed) Data Structures - Smeltery Fuels
+# (Mixed) Data Structures - Smeltery - Fuels
 ########################################################################################################################
 
 # Fuels 
@@ -372,26 +301,154 @@ val tConstructSmelteryFuelTooltips = [
 ] as IItemStack[][];
 
 ########################################################################################################################
-# Custom Crafting Recipies - Shaped
+# (Mixed) Data Structures - Smeltery - Remove Melting
 ########################################################################################################################
 
-# Remove Ingot to Nugget Crafting
-for i, nugget in tConstructNuggets
-{
-  recipes.remove( nugget );
-}
+val tConstructRemoveSmelteryMelting = [
+  <minecraft:bucket>,		/*  0 - Bucket (Vanilla) */
+] as IIngredient[];
 
-# Remove Nugget/Block to Ingot Crafting
-for i, ingot in tConstructIngots
-{
-  recipes.remove( ingot );
-}
+########################################################################################################################
+# (Mixed) Data Structures - Smeltery - Add Melting
+########################################################################################################################
 
-# Remove Ingot to Block Crafting
-for i, block in tConstructBlockOf
-{
-  recipes.remove( block );
-}
+# Ingots & Dusts => 144mb
+val tConstructSmelteryMeltingsIngot = [
+
+  /* Iron */
+  [ [ <liquid:iron.molten>, <minecraft:iron_block> ], [
+  
+  ]]
+
+] as IIngredient[][][];
+
+########################################################################################################################
+# (Mixed) Data Structures - Smeltery - Remove Table Recipe
+########################################################################################################################
+
+val tConstructRemoveTableRecipes = [
+  <ore:nuggetIron>,
+  <ore:nuggetCopper>,
+  <ore:nuggetTin>,
+  <ore:nuggetSilver>,
+  <ore:nuggetLead>,
+  <ore:ingotMithril>,
+] as IIngredient[];
+
+########################################################################################################################
+# (Mixed) Data Structures - Smeltery - Add Table Recipe
+########################################################################################################################
+
+# Consum Cast = false
+# Tick Delay = 20
+
+# Items
+val tConstructAddTableRecipes = [
+  /*	Output							Cast						*/
+  [ <TConstruct:materials:19>,				tConstructNuggetCast ],		/*  0 - Iron Nugget */
+  [ <TConstruct:materials:20>,				tConstructNuggetCast ],		/*  1 - Copper Nugget */
+  [ <TConstruct:materials:21>,				tConstructNuggetCast ],		/*  2 - Tin Nugget */
+  [ <TConstruct:materials:31>, 				tConstructNuggetCast ],		/*  3 - Bronze Nugget */
+  [ <ThermalFoundation:material:98>,			tConstructNuggetCast ],		/*  4 - Silver Nugget */
+  [ <ThermalFoundation:material:99>,			tConstructNuggetCast ],		/*  5 - Lead Nugget */
+  [ <ThermalFoundation:material:70>,			tConstructIngotCast ],		/*  6 - Mana Infused Ingot */
+  [ <ForbiddenMagic:FMResource:2>,			tConstructNuggetCast ],		/*  7 - Manasteel Nugget */
+  [ <Botania:manaResource>,				tConstructIngotCast ],		/*  8 - Manasteel Ingot */
+  [ <Botania:manaResource:4>,				tConstructIngotCast ],		/*  9 - Terrasteel Ingot */  
+  [ <ForbiddenMagic:FMResource:4>,			tConstructNuggetCast ],		/* 10 - Elementium Nugget */
+  [ <Botania:manaResource:7>,				tConstructIngotCast ],		/* 11 - Elementium Ingot */
+  [ <GardenStuff:wrought_iron_nugget>,			tConstructNuggetCast ],		/* 12 - Wrought Iron Nugget */
+  [ <GardenStuff:wrought_iron_ingot>,			tConstructIngotCast ],		/* 13 - Wrought Iron Ingot */
+  [ <RedstoneArsenal:material:64>,			tConstructNuggetCast ],		/* 14 - Fluxed Electrum Nugget */
+  [ <RedstoneArsenal:material:32>,			tConstructIngotCast ],		/* 15 - Fluxed Electrum Ingot */
+  [ <EnderIO:itemMaterial:3>,				tConstructNuggetCast ],		/* 16 - Pulsating Iron Nugget */
+  [ <EnderIO:itemAlloy:5>,				tConstructIngotCast ],		/* 17 - Pulsating Iron Ingot */
+  [ <EnderIO:itemMaterial:4>,				tConstructNuggetCast ],		/* 18 - Vibrant Alloy Nugget */
+  [ <EnderIO:itemAlloy:2>,				tConstructIngotCast ],		/* 19 - Vibrant Alloy Ingot */
+  [ <exastrisrebirth:itemNuggetElectricalSteel>,	tConstructNuggetCast ],		/* 20 - Electrical Steel Nugget */
+  [ <EnderIO:itemAlloy>,				tConstructIngotCast ],		/* 21 - Electrical Steel Ingot */
+  [ <Thaumcraft:ItemNugget:6>,				tConstructNuggetCast ],		/* 22 - Thaumium Nugget */
+  [ <Thaumcraft:ItemResource:2>,			tConstructIngotCast ],		/* 23 - Thaumium Ingot */
+  [ <Thaumcraft:ItemNugget:7>,				tConstructNuggetCast ],		/* 24 - Void Metal Nugget */
+  [ <Thaumcraft:ItemResource:16>,			tConstructIngotCast ],		/* 25 - Void Metal Ingot */
+  [ <DraconicEvolution:draconiumIngot>,			tConstructIngotCast ],		/* 26 - Draconium Ingot */
+] as IItemStack[][];
+
+# Fluid * mb
+val tConstructAddTableRecipesFluid = [
+  frIron * 16,										/*  0 -Iron Nugget */
+  frCopper * 16,									/*  1 -Copper Nugget */
+  frTin * 16,										/*  2 - Tin Nugget */
+  frBronze * 16,									/*  3 - Bronze Nugget */
+  frSilver * 16,									/*  4 - Silver Nugget */
+  frLead * 16,										/*  5 - Lead Nugget */
+  frManaInfusedMetal * 144,								/*  6 - Mana Infused Ingot */
+  frManasteel * 16,									/*  7 - Manasteel */
+  frManasteel * 144,									/*  8 - Manasteel Ingot */
+  frTerrasteel * 144,									/*  9 - Terrasteel Ingot */
+  frElementium * 16,									/* 10 - Elementium Nugget */
+  frElementium * 144,									/* 11 - Elementium Ingot */  
+  frWroughtIron * 16,									/* 12 - Wrought Iron Nugget */
+  frWroughtIron * 144,									/* 13 - Wrought Iron Ingot */
+  frFluxedElectrum * 16,								/* 14 - Fluxed Electrum Nugget */
+  frFluxedElectrum * 144,								/* 15 - Fluxed Electrum Ingot */
+  frPulsatingIron * 16,									/* 16 - Pulsating Iron Nugget */
+  frPulsatingIron * 144,								/* 17 - Pulsating Iron Ingot */
+  frVibrantAlloy * 16,									/* 18 - Vibrant Alloy Nugget */
+  frVibrantAlloy * 144,									/* 19 - Vibrant Alloy Ingot */
+  frElectricalSteel * 16,								/* 20 - Electrical Steel Nugget */
+  frElectricalSteel * 144,								/* 21 - Electrical Steel Ingot */
+  frThaumium * 16,									/* 22 - Thaumium Nugget */
+  frThaumium * 144,									/* 23 - Thaumium Ingot */
+  frVoidMetal * 16,									/* 24 - Void Metal Nugget */
+  frVoidMetal * 144,									/* 25 - Void Metal Ingot */
+  frDraconium * 144,									/* 26 - Draconium Ingot */
+] as ILiquidStack[];
+
+########################################################################################################################
+# (Mixed) Data Structures - Smeltery - Add Basin Recipe
+########################################################################################################################
+
+# Cast = null
+# Consum Cast = false
+# Tick Delay = 20
+
+# Items
+val tConstructAddBasinRecipes = [
+  <Botania:storage>,				/*  0 - Manasteel Block */
+  <Botania:storage:1>,				/*  1 - Terrasteel Block */
+  <Botania:storage:2>,				/*  2 - Elementium Block */
+  <GardenStuff:metal_block>,			/*  3 - Wrought Iron Block */
+  <RedstoneArsenal:Storage>,			/*  4 - Fluxed Electrum Block */
+  <minecraft:redstone_block>,			/*  5 - Redstone Block */
+  <minecraft:glowstone>,			/*  6 - Glowstone Block */
+  <EnderIO:blockIngotStorage:5>,		/*  7 - Pulsating Iron Block */
+  <EnderIO:blockIngotStorage:2>,		/*  8 - Vibrant Alloy Block */
+  <EnderIO:blockIngotStorage>,			/*  9 - Electrical Steel Block */
+  <Thaumcraft:blockCosmeticSolid:4>,		/* 10 - Thaumium Block */
+  <WitchingGadgets:tile.WG_MetalDevice.name:7>,	/* 11 - Void Metal Block */
+  <DraconicEvolution:draconium>,		/* 12 - Draconium Block */			
+] as IItemStack[];
+
+val tConstructAddTableBasinFluid = [
+  frManasteel * 1296,				/*  0 - Manasteel Block */
+  frTerrasteel * 1296,				/*  1 - Terrasteel Block */
+  frElementium * 1296,				/*  2 - Elementium Block */
+  frWroughtIron * 1296,				/*  3 - Wrought Iron Block */
+  frFluxedElectrum * 1296,			/*  4 - Fluxed Electrum Block */
+  frRedstone * 900,				/*  5 - Redstone Block */
+  frGlowstone * 1000,				/*  6 - Glowstone Block */
+  frPulsatingIron * 1296,			/*  7 - Pulsating Iron Block */
+  frVibrantAlloy * 1296,			/*  8 - Vibrant Alloy Block */
+  frElectricalSteel * 1296,			/*  9 - Electrical Steel Block */
+  frThaumium * 1296,				/* 10 - Thaumium Block */
+  frVoidMetal * 1296,				/* 11 - Void Metal Block */
+  frDraconium * 1296,				/* 12 - Draconium Block */
+] as ILiquidStack[];
+
+########################################################################################################################
+# Custom Crafting Recipies - Shaped
+########################################################################################################################
 
 #Remove Manyullyn Dust
 recipes.remove( tConstructManyullynDust );
@@ -403,106 +460,80 @@ recipes.remove( tConstructAluminumBrassDust );
 # Machine -  Smeltery
 ########################################################################################################################
 
-# Remove Table Casting
-for i, cast in removeTableRecipes
+# Remove Melting
+for entry in tConstructRemoveSmelteryMelting
 {
-  mods.tconstruct.Casting.removeTableRecipe( cast );
+  mods.tconstruct.Smeltery.removeMelting( entry );
+}
+
+# Remove Table Casting
+for entry in tConstructRemoveTableRecipes
+{
+  mods.tconstruct.Casting.removeTableRecipe( entry );
+}
+
+# Add Table Casting
+for i, entry in tConstructAddTableRecipes
+{
+  var output	= entry[ 0 ];
+  var cast	= entry[ 1 ];
+  var fluid	= tConstructAddTableRecipesFluid[ i ];
+  
+  mods.tconstruct.Casting.addTableRecipe( output, fluid, cast, false, 20 );
+}
+
+# Add Table Casting
+for i, entry in tConstructAddBasinRecipes
+{
+  var output	= entry;
+  var fluid	= tConstructAddTableBasinFluid[ i ];
+  
+  mods.tconstruct.Casting.addBasinRecipe( output, fluid, null, false, 20 );
 }
 
 # Manasteel
 mods.tconstruct.Smeltery.addMelting( forbMagicManasteelNugget, frManasteel * 16, 500, botaniaManasteelBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaManasteelIngot, frManasteel * 144, 500, botaniaManasteelBlock );
+mods.tconstruct.Smeltery.addMelting( <ore:ingotManasteel>, frManasteel * 144, 500, botaniaManasteelBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaManasteelBlock, frManasteel * 1296, 500, botaniaManasteelBlock );
-mods.tconstruct.Casting.addTableRecipe( forbMagicManasteelNugget, frManasteel * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( botaniaManasteelIngot, frManasteel * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( botaniaManasteelBlock, frManasteel * 1296, null, false, 20);
 
 # Terrasteel
 mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, frTerrasteel * 144, 500, botaniaTerrasteelBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelBlock, frTerrasteel * 1296, 500, botaniaTerrasteelBlock );
-mods.tconstruct.Casting.addTableRecipe( botaniaTerrasteelIngot, frTerrasteel * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( botaniaTerrasteelBlock, frTerrasteel * 1296, null, false, 20);
 
 # Elementium
 mods.tconstruct.Smeltery.addMelting( forbMagicElementiumNugget, frElementium * 16, 500, botaniaElementiumBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, frElementium * 144, 500, botaniaElementiumBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaElementiumBlock, frElementium * 1296, 500, botaniaElementiumBlock );
-mods.tconstruct.Casting.addTableRecipe( forbMagicElementiumNugget, frElementium * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( botaniaElementiumIngot, frElementium * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( botaniaElementiumBlock, frElementium * 1296, null, false, 20);
 
 # Wrought Iron
 mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronNugget, frWroughtIron * 16, 500, gardStuffWroughtIronBlock );
 mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronIngot, frWroughtIron * 144, 500, gardStuffWroughtIronBlock );
 mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronBlock, frWroughtIron * 1296, 500, gardStuffWroughtIronBlock );
-mods.tconstruct.Casting.addTableRecipe( gardStuffWroughtIronNugget, frWroughtIron * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( gardStuffWroughtIronIngot, frWroughtIron * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( gardStuffWroughtIronBlock, frWroughtIron * 1296, null, false, 20);
 
 # Fluxed Electrum
 mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, 500, rsArsenalFluxedElectrumBlock );
 mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, 500, rsArsenalFluxedElectrumBlock );
 mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, 500, rsArsenalFluxedElectrumBlock );
-mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, null, false, 20);
-
-# Iron Nugget casting
-mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[0], frIron * 16, tConstructNuggetCast, false, 20 );
-
-# Copper Nugget casting
-mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[1], frCopper * 16, tConstructNuggetCast, false, 20 );
-
-# Tin Nugget casting
-mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[2], frTin * 16, tConstructNuggetCast, false, 20 );
-
-# Bronze Nugget casting
-mods.tconstruct.Casting.removeTableRecipe( thermFoundBronzeNugget );
-mods.tconstruct.Casting.addTableRecipe( tConstructNuggets[9], frBronze * 16, tConstructNuggetCast, false, 20 );
-
-# Silver Nugget casting
-mods.tconstruct.Casting.addTableRecipe( thermFoundSilverNugget, frSilver * 16, tConstructNuggetCast, false, 20 );
-
-# Lead Nugget casting
-mods.tconstruct.Casting.addTableRecipe( thermFoundLeadNugget, frLead * 16, tConstructNuggetCast, false, 20 );
-
-# Mana Infused Ingut casting
-mods.tconstruct.Casting.addTableRecipe( thermFoundManaInfusedIngot, frManaInfusedMetal * 144, tConstructIngotCast, false, 20 );
 
 # Redstone Melting -> Destabilized Redstone & Redstone Block
-mods.tconstruct.Smeltery.removeMelting( vanillaRedstone );
-mods.tconstruct.Smeltery.removeMelting( vanillaRedstoneBlock );
+
 mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 2000, vanillaRedstoneBlock );
 mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 2000, vanillaRedstoneBlock );
-mods.tconstruct.Casting.addBasinRecipe( vanillaRedstoneBlock, frRedstone * 900, null, false, 20);
-
-# Energized Glowstone -> Glowstone und Glowstone Dust
-mods.tconstruct.Casting.addBasinRecipe( vanillaGlowstoneBlock, frGlowstone * 1000, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe( vanillaGlowstoneDust, frGlowstone * 250, tConstructNuggetCast, false, 20);
 
 # Pulsating Iron
 mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronNugget, frPulsatingIron * 16, 500, enderioPulsatingIronBlock );
 mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronIngot, frPulsatingIron * 144, 500, enderioPulsatingIronBlock );
 mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronBlock, frPulsatingIron * 1296, 500, enderioPulsatingIronBlock );
-mods.tconstruct.Casting.addTableRecipe( enderioPulsatingIronNugget, frPulsatingIron * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( enderioPulsatingIronIngot, frPulsatingIron * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( enderioPulsatingIronBlock, frPulsatingIron * 1296, null, false, 20);
 
 # Vibrant Alloy
 mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyNugget, frVibrantAlloy * 16, 500, enderioVibrantAlloyBlock );
 mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyIngot, frVibrantAlloy * 144, 500, enderioVibrantAlloyBlock );
 mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, 500, enderioVibrantAlloyBlock );
-mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyNugget, frVibrantAlloy * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( enderioVibrantAlloyIngot, frVibrantAlloy * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, null, false, 20);
 
 #Electrical Steel
 mods.tconstruct.Smeltery.addMelting( exAstrisElectricalSteelNugget, frElectricalSteel * 16, 500, enderioElectricalSteelBlock );
 mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelIngot, frElectricalSteel * 144, 500, enderioElectricalSteelBlock );
 mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelBlock, frElectricalSteel * 1296, 500, enderioElectricalSteelBlock );
-mods.tconstruct.Casting.addTableRecipe( exAstrisElectricalSteelNugget, frElectricalSteel * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( enderioElectricalSteelIngot, frElectricalSteel * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( enderioElectricalSteelBlock, frElectricalSteel * 1296, null, false, 20);
 
 # Nugget Cast with Diamond Nugget
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
@@ -512,28 +543,17 @@ mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frGold * 288, agri
 mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumNugget, frThaumium * 16, 500, thaumcraftThaumiumBlock );
 mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumIngot, frThaumium * 144, 500, thaumcraftThaumiumBlock );
 mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumBlock, frThaumium * 1296, 500, thaumcraftThaumiumBlock );
-mods.tconstruct.Casting.addTableRecipe( thaumcraftThaumiumNugget, frThaumium * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( thaumcraftThaumiumIngot, frThaumium * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( thaumcraftThaumiumBlock, frThaumium * 1296, null, false, 20);
 
 # Void Metal
 mods.tconstruct.Smeltery.addMelting( thaumcraftVoidMetalNugget, frVoidMetal * 16, 500, witchGadVoidMetalBlock );
 mods.tconstruct.Smeltery.addMelting( thaumcraftVoidMetalIngot, frVoidMetal * 144, 500, witchGadVoidMetalBlock );
 mods.tconstruct.Smeltery.addMelting( witchGadVoidMetalBlock, frVoidMetal * 1296, 500, witchGadVoidMetalBlock );
-mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalNugget, frVoidMetal * 16, tConstructNuggetCast, false, 20 );
-mods.tconstruct.Casting.addTableRecipe( thaumcraftVoidMetalIngot, frVoidMetal * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( witchGadVoidMetalBlock, frVoidMetal * 1296, null, false, 20);
 
 # Draconium
-#mods.tconstruct.Smeltery.addMelting( exAstrisDraconiumOreGravel, frDraconium * 144, 500, dracEvoDraconiumBlock );
-#mods.tconstruct.Smeltery.addMelting( exAstrisDraconiumOreSand, frDraconium * 144, 500, dracEvoDraconiumBlock );
-#mods.tconstruct.Smeltery.addMelting( exAstrisDraconiumOreDust, frDraconium * 144, 500, dracEvoDraconiumBlock );
 mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumDust, frDraconium * 144, 500, dracEvoDraconiumBlock );
 mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumIngot, frDraconium * 144, 500, dracEvoDraconiumBlock );
 mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumBlock, frDraconium * 1296, 500, dracEvoDraconiumBlock );
 mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumOre, frDraconium * 288, 500, dracEvoDraconiumBlock );
-mods.tconstruct.Casting.addTableRecipe( dracEvoDraconiumIngot, frDraconium * 144, tConstructIngotCast, false, 20 );
-mods.tconstruct.Casting.addBasinRecipe( dracEvoDraconiumBlock, frDraconium * 1296, null, false, 20);
 
 # Pams Harvestcraft
 recipes.remove( pamsSaucePan );
@@ -541,8 +561,6 @@ mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, igu
 recipes.remove( pamsPot );
 mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, true, 20 );
 
-# Bucket exploit Alu -> Bucket -> Smeltery -> Iron
-mods.tconstruct.Smeltery.removeMelting( vanillaBucket );
 
 # Mass Change of Smelting Temps
 for i, item in tConstructCobaltItems 
@@ -581,9 +599,8 @@ for i, fuel in tConstructSmelteryFuels
 # Bonus / Gag
 ########################################################################################################################
 
-val frMush      = <liquid:fluidmushroom>;
-mods.tconstruct.Smeltery.addMelting( <minecraft:brown_mushroom> * 1 , frMush * 144, 180, <minecraft:brown_mushroom_block> );
-mods.tconstruct.Smeltery.addMelting( <minecraft:red_mushroom> * 1 , frMush * 144, 180, <minecraft:red_mushroom_block> );
-mods.tconstruct.Smeltery.addMelting( <harvestcraft:whitemushroomItem> * 1 , frMush * 144, 180, <minecraft:brown_mushroom_block> );
-mods.tconstruct.Smeltery.addMelting( <Forestry:mushroom> * 1 , frMush * 144, 180, <minecraft:brown_mushroom_block> );
-mods.tconstruct.Casting.addTableRecipe( <minecraft:mushroom_stew> * 1 , frMush * 288, <minecraft:bowl>, false, 20 );
+mods.tconstruct.Smeltery.addMelting( <minecraft:brown_mushroom> * 1 , frMushroom * 144, 180, <minecraft:brown_mushroom_block> );
+mods.tconstruct.Smeltery.addMelting( <minecraft:red_mushroom> * 1 , frMushroom * 144, 180, <minecraft:red_mushroom_block> );
+mods.tconstruct.Smeltery.addMelting( <harvestcraft:whitemushroomItem> * 1 , frMushroom * 144, 180, <minecraft:brown_mushroom_block> );
+mods.tconstruct.Smeltery.addMelting( <Forestry:mushroom> * 1 , frMushroom * 144, 180, <minecraft:brown_mushroom_block> );
+mods.tconstruct.Casting.addTableRecipe( <minecraft:mushroom_stew> * 1 , frMushroom * 288, <minecraft:bowl>, false, 20 );

@@ -33,7 +33,7 @@ val naturaWoods = [
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
 
-for i, entry in naturaWoods
+for entry in naturaWoods
 {
   var log	= entry[ 0 ];
   var plank	= entry[ 1 ];
