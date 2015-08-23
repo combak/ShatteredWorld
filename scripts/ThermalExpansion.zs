@@ -52,32 +52,43 @@ val bcAdditionsDustAlu               = <bcadditions:dust:45>;
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
 
-# Remove Items/Recipies from the Redstone Furnace
-val removeFurnace = [
-  <TConstruct:oreBerries>,		/* Iron Oreberry to Nugget */
-  <TConstruct:oreBerries:1>,		/* Gold Oreberry to Nugget */
-  <TConstruct:oreBerries:2>,		/* Copper Oreberry to Nugget */
-#  <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
-  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
-  <exnihilo:copper_gravel>,		/* geht nicht warum auch immer TODO */
-  <ThermalFoundation:material:41>	/* Bronze Dust to Ingot */
-] as IItemStack[];
 
 # Remove Items/Recipies from the Induction Smelter
 val removeInduction = [
  # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
   <ThermalFoundation:material:32>	/* Copper Dust to Ingot */
 ] as IItemStack[];
+########################################################################################################################
+# (Mixed) Data Structures - Redstone Furnace - Remove 
+########################################################################################################################
+ 
+val thermExpFurnaceRemove = [
+  /* Iron Dust */
+  [
+    <ore:oreIron>,			/*  0 - Iron Ore (OreDict) */
+    <exnihilo:iron_gravel>,		/*  1 - Iron Ore Gravel (Ex Nihilo) */
+    <exnihilo:iron_sand>,			/*  2 - Iron Ore Sand (Ex Nihilo) */
+    <exnihilo:iron_dust>,			/*  3 - Iron Ore Dust (Ex Nihilo) */
+    <exnihilo:nether_iron_gravel>,	/*  5 - Nether Iron Ore Gravel (Ex Nihilo) */
+    <Thaumcraft:ItemNugget:16>,		/*  7 - Native Iron Cluster (Thaumcraft) */  
+    <ore:dustIron>			/*  8 - Iron Dust (OreDict) */
+  ]
+  
+] as IIngredient[][];
 
-# Remove Item/Recipies from the Pulverizer
-val removePulverizer = [
-  <ThermalDynamics:ThermalDynamics_16>,		/* 0 - Temperate Fluiduct (Opaque) to Copper Nuggets */
-  <ThermalDynamics:ThermalDynamics_16:1>,	/* 1 - Temperate Fluiduct to Copper Nuggets */
-  <minecraft:wheat>				/* 2 - Wheat (Vanilla) to Flour (AppEng2) */
-] as IItemStack[];
+# Remove Items/Recipies from the Redstone Furnace
+#val removeFurnace = [
+#  <TConstruct:oreBerries>,		/* Iron Oreberry to Nugget */
+#  <TConstruct:oreBerries:1>,		/* Gold Oreberry to Nugget */
+#  <TConstruct:oreBerries:2>,		/* Copper Oreberry to Nugget */
+#  <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
+#  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
+#  <exnihilo:copper_gravel>,		/* geht nicht warum auch immer TODO */
+#  <ThermalFoundation:material:41>	/* Bronze Dust to Ingot */
+#] as IItemStack[];
 
 ########################################################################################################################
-# (Mixed) Data Structures - Pulverizer Replacement 
+# (Mixed) Data Structures - Pulverizer - Remove 
 ########################################################################################################################
 
 val thermExpPulverizerRemove = [
@@ -86,7 +97,7 @@ val thermExpPulverizerRemove = [
   <NetherOres:tile.netherores.ore.0>,	/*  1 - Nether Coal Ore (Nether Ores) */
   <ore:oreCoal>,			/*  2 - Coal Ore (OreDict) */
   /* Iron Dust */
-  <ore:oreIron>,			/*  3 - Iron Ore (Vanilla) */
+  <ore:oreIron>,			/*  3 - Iron Ore (OreDict) */
   <exnihilo:iron_gravel>,		/*  4 - Iron Ore Gravel (Ex Nihilo) */
   <exnihilo:iron_sand>,			/*  5 - Iron Ore Sand (Ex Nihilo) */
   <exnihilo:iron_dust>,			/*  6 - Iron Ore Dust (Ex Nihilo) */
@@ -190,9 +201,14 @@ val thermExpPulverizerRemove = [
   /* Aluminum Brass Dust */
   <ore:ingotAluminumBrass>,		/* 87 - Aluminum Brass Ingot (OreDict) */
   
+  <minecraft:wheat>,			/* 88 - Wheat (Vanilla) */
 ] as IIngredient[];
 
-val thermExpPulverizerReplace = [
+########################################################################################################################
+# (Mixed) Data Structures - Pulverizer - Add 
+########################################################################################################################
+
+val thermExpPulverizerAdd = [
   /* Coal Dust */
   <minecraft:coal>,			/*  0 - Coal (Vanilla) */
   <NetherOres:tile.netherores.ore.0>,	/*  1 - Nether Coal Ore (Nether Ores) */
@@ -755,9 +771,14 @@ val thermExpPulverizerOutput2 = [
 ########################################################################################################################
 # Machine - Redstone Furnace
 ########################################################################################################################
-for i, item in removeFurnace
+
+# Furnace remove
+for entry in thermExpFurnaceRemove
 {
-  mods.thermalexpansion.Furnace.removeRecipe( item );
+ # for remove in entry
+ # {
+ #   mods.thermalexpansion.Furnace.removeRecipe( remove );
+ # }
 }
 
 ########################################################################################################################
@@ -776,26 +797,20 @@ mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSan
 ########################################################################################################################
 
 # Pulverizer remove
-# TODO split
-
-# Pulverizer ddd
-for i, replace in thermExpPulverizerReplace
+for remove in thermExpPulverizerRemove
 {
-  var remove	= thermExpPulverizerRemove[ i ];
+  mods.thermalexpansion.Pulverizer.removeRecipe( remove );
+}
+ 
+# Pulverizer add
+for i, replace in thermExpPulverizerAdd
+{
   var energy	= thermExpPulverizerEnergy[ i ];
   var chance	= thermExpPulverizerChance[ i ];
   var output1	= thermExpPulverizerOutput1[ i ];
   var output2	= thermExpPulverizerOutput2[ i ];
 
-  mods.thermalexpansion.Pulverizer.removeRecipe( remove );
   mods.thermalexpansion.Pulverizer.addRecipe( energy, replace, output1, output2, chance );
-  
-}
-
-# TODO Merge with data structures
-for i, item in removePulverizer
-{
-  mods.thermalexpansion.Pulverizer.removeRecipe( item );
 }
 
 # Add ExNihilo Alu Blocks zu Pulverizer (oreGravel, oreSand, oreDust)

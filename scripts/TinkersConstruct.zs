@@ -312,15 +312,13 @@ val tConstructRemoveSmelteryMelting = [
 # (Mixed) Data Structures - Smeltery - Add Melting
 ########################################################################################################################
 
-# Ingots & Dusts => 144mb
-val tConstructSmelteryMeltingsIngot = [
+# @TODO
+val tConstructAddSmelteryMelting = [];
 
-  /* Iron */
-  [ [ <liquid:iron.molten>, <minecraft:iron_block> ], [
-  
-  ]]
-
-] as IIngredient[][][];
+# Manasteel
+mods.tconstruct.Smeltery.addMelting( forbMagicManasteelNugget, frManasteel * 16, 500, botaniaManasteelBlock );
+mods.tconstruct.Smeltery.addMelting( <ore:ingotManasteel>, frManasteel * 144, 500, botaniaManasteelBlock );
+mods.tconstruct.Smeltery.addMelting( botaniaManasteelBlock, frManasteel * 1296, 500, botaniaManasteelBlock );
 
 ########################################################################################################################
 # (Mixed) Data Structures - Smeltery - Remove Table Recipe
@@ -466,6 +464,15 @@ for entry in tConstructRemoveSmelteryMelting
   mods.tconstruct.Smeltery.removeMelting( entry );
 }
 
+# Add Melting @TODO
+/*
+for entry in tConstructAddSmelteryMelting
+{
+  var blockToLookLike 	= entry[ 0 ];
+  var itemsToSmelt	= entry[ 1 ] as IIngredient[];
+  
+}
+*/
 # Remove Table Casting
 for entry in tConstructRemoveTableRecipes
 {
@@ -491,10 +498,7 @@ for i, entry in tConstructAddBasinRecipes
   mods.tconstruct.Casting.addBasinRecipe( output, fluid, null, false, 20 );
 }
 
-# Manasteel
-mods.tconstruct.Smeltery.addMelting( forbMagicManasteelNugget, frManasteel * 16, 500, botaniaManasteelBlock );
-mods.tconstruct.Smeltery.addMelting( <ore:ingotManasteel>, frManasteel * 144, 500, botaniaManasteelBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaManasteelBlock, frManasteel * 1296, 500, botaniaManasteelBlock );
+
 
 # Terrasteel
 mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, frTerrasteel * 144, 500, botaniaTerrasteelBlock );

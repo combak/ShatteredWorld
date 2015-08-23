@@ -23,9 +23,10 @@
 - BuildCraft 7.0.9 to 7.0.20
 - BuildCraft Additions 2.1.4 to 2.2.0
 - BuildCraft Compat 7.0.8 to 7.0.11
+- CustomFluids 1.0.6beta to 1.0.7beta
 - Forge Essentials 1.4.0beta3 to 1.4.2.845
 - Limited Resources 1.0.0 to 1.1.0
-- Forest Day 0.1.4i to Forest Mods 0.1.6 beta
+- Forest Day 0.1.4i to Forest Mods 0.1.7 beta
 
 # Version 0.6.7
 
