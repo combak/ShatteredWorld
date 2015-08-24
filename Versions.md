@@ -1,5 +1,5 @@
 ## Forge
-- forge-1.7.10-10.13.4.1448-1.7.10
+- forge-1.7.10-10.13.4.1492-1.7.10
 
 ## mods
 - ae2stuff-1.7.10-0.3.1.33.jar
@@ -37,9 +37,9 @@
 - extrautilities-1.7.10-1.2.4c.jar
 - fastcraft-1.7.10-1.21.jar
 - forbidden-magic-1.7.10-0.562.jar
-- forest-mods-1.7.10-0.1.7beta.jar
+- forest-mods-1.7.10-0.1.7a-beta.jar
 - forestry-1.7.10-3.6.3.20.jar
-- forgeessentials-1.7.10-1.4.2.845-client.jar
+- forgeessentials-client-1.7.10-1.4.2.892.jar
 - fwg-1.7.10-1.0.3.jar
 - gardenstuff-1.7.10-1.6.3.jar
 - generators-1.7.10-0.9.17.102.jar

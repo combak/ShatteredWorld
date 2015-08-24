@@ -2,6 +2,12 @@
 
 # Version 0.7.1
 
+# Version 0.7.0b
+
+**Mod Updates**
+- Minecraft Forge 10.13.4.1448 to 10.13.4.1492
+- ForgeEssentials 1.4.2.845 to 1.4.2.892
+
 # Version 0.7.0a
 
 **Mod Updates**
