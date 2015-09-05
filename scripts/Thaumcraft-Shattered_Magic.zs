@@ -30,10 +30,10 @@ mods.thaumcraft.Research.addPage("Moonstone", "derp.research_page.Moonstone");
 game.setLocalization("en_US", "derp.research_page.Moonstone", "If it wont fall make some!");
 
 # Tarma Root
-mods.thaumcraft.Infusion.addRecipe ("Tarma Root", (botaniarootredstonet), [ arsMagicaAum, arsMagicaDesertNova, arsMagicaCerublossom], "herba 8,terra 8,permutatio 4", arsMagicaTarmaRoot, 1);
+mods.thaumcraft.Infusion.addRecipe ("Tarma Root", (botaniarootredstone), [ arsMagicaAum, arsMagicaDesertNova, arsMagicaCerublossom], "herba 8,terra 8,permutatio 4", arsMagicaTarmaRoot, 1);
 mods.thaumcraft.Research.addResearch("Tarma Root","SHATTERED_MAGIC", "herba 5, permutatio 5", 5, 3, 0, arsMagicaTarmaRoot);
-game.setLocalization("en_US", "tc.research_name.Tarma Root", "Moonstone");
-game.setLocalization("en_US", "tc.research_text.Tarma Root", "[SM]Not so bloody Roots");
+game.setLocalization("en_US", "tc.research_name.Tarma Root", "Tarma Root");
+game.setLocalization("en_US", "tc.research_text.Tarma Root", "[SM]Roots!Not so bloody Roots");
 mods.thaumcraft.Research.addInfusionPage("Tarma Root", arsMagicaTarmaRoot );
 mods.thaumcraft.Research.addPage("Tarma Root", "derp.research_page.Tarma Root");
 game.setLocalization("en_US", "derp.research_page.Tarma Root", "Change your roots");
