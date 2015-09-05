@@ -8,6 +8,11 @@
  val arsMagicaOreMoonstone = <arsmagica2:itemOre:7>;
  val bloodMagicSlateblank  = <AWWayofTime:blankSlate>;
  val thaumCraftFocusTrade  = <Thaumcraft:FocusTrade>;
+  val arsMagicaTarmaRoot    = <arsmagica2:TarmaRoot>;
+ val botaniarootredstone   = <Botania:manaResource:6>;
+ val arsMagicaAum          = <arsmagica2:Aum>;
+ val arsMagicaDesertNova   = <arsmagica2:desertNova>;
+ val arsMagicaCerublossom  = <arsmagica2:blueOrchid>;
 ######################################################################################################################
 # Rezepte und Seiten
 ###################################################################################################################### 
@@ -23,3 +28,12 @@ game.setLocalization("en_US", "tc.research_text.Moonstone", "[SM]Howl at the Moo
 mods.thaumcraft.Research.addInfusionPage("Moonstone", arsMagicaOreMoonstone );
 mods.thaumcraft.Research.addPage("Moonstone", "derp.research_page.Moonstone");
 game.setLocalization("en_US", "derp.research_page.Moonstone", "If it wont fall make some!");
+
+# Tarma Root
+mods.thaumcraft.Infusion.addRecipe ("Tarma Root", (botaniarootredstonet), [ arsMagicaAum, arsMagicaDesertNova, arsMagicaCerublossom], "herba 8,terra 8,permutatio 4", arsMagicaTarmaRoot, 1);
+mods.thaumcraft.Research.addResearch("Tarma Root","SHATTERED_MAGIC", "herba 5, permutatio 5", 5, 3, 0, arsMagicaTarmaRoot);
+game.setLocalization("en_US", "tc.research_name.Tarma Root", "Moonstone");
+game.setLocalization("en_US", "tc.research_text.Tarma Root", "[SM]Not so bloody Roots");
+mods.thaumcraft.Research.addInfusionPage("Tarma Root", arsMagicaTarmaRoot );
+mods.thaumcraft.Research.addPage("Tarma Root", "derp.research_page.Tarma Root");
+game.setLocalization("en_US", "derp.research_page.Tarma Root", "Change your roots");
