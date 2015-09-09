@@ -4173,6 +4173,11 @@
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
+                  }
                ]
             }
          ]
