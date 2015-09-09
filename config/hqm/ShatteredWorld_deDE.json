@@ -3209,12 +3209,12 @@
             {
                "id" : "quest233",
                "name" : "Arctic Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle arktischen Mobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Winterbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3235,12 +3235,12 @@
             {
                "id" : "quest234",
                "name" : "Arctic Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle arktischen Mobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Winterbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3261,24 +3261,24 @@
             {
                "id" : "quest235",
                "name" : "Arctic Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle arktischen Zepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest236",
                "name" : "Demon Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle daemonischen Mobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Diese Mobs findet man im Nether.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3303,12 +3303,12 @@
             {
                "id" : "quest237",
                "name" : "Demon Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle daemonischen Mobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Diese Mobs findet man im Nether.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3329,24 +3329,24 @@
             {
                "id" : "quest238",
                "name" : "Demon Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle daemonischen Zepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest239",
                "name" : "Desert Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Wuestenmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Wuestenbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3371,12 +3371,12 @@
             {
                "id" : "quest240",
                "name" : "Desert Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Wuestenmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Wuestenbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3397,24 +3397,24 @@
             {
                "id" : "quest241",
                "name" : "Desert Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Wuestenzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest242",
                "name" : "Forest Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Waldmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Waldbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3435,12 +3435,12 @@
             {
                "id" : "quest243",
                "name" : "Forest Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Waldmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Waldbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3461,24 +3461,24 @@
             {
                "id" : "quest244",
                "name" : "Forest Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Waldzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest245",
                "name" : "Freshwater Mobs",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Sueswassermobs.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Sueswasser findet man nur in Fluessen oder kleinen Seen. Einfache Wasserbehaelter koenten schon genuegen. Die Events helfen dir bei den fliegenden Mobs.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3503,24 +3503,24 @@
             {
                "id" : "quest246",
                "name" : "Freshwater Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Sueswasserzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest247",
                "name" : "Inferno Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle infernalen Mobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Ueberall wo Lava fliesst wirst du diese Mobs antreffen. Aber sei vorsichtig!",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3541,12 +3541,12 @@
             {
                "id" : "quest248",
                "name" : "Inferno Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle infernalen Mobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Ueberall wo Lava fliesst wirst du diese Mobs antreffen. Aber sei vorsichtig!",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3563,24 +3563,24 @@
             {
                "id" : "quest249",
                "name" : "Inferno Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Infernozepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest250",
                "name" : "Jungle Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Jungelmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Jungelbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3601,12 +3601,12 @@
             {
                "id" : "quest251",
                "name" : "Jungle Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Jungelmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Jungelbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3627,24 +3627,24 @@
             {
                "id" : "quest252",
                "name" : "Jungle Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Jungelzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest253",
                "name" : "Mountain Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Bergmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Bergbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3665,12 +3665,12 @@
             {
                "id" : "quest254",
                "name" : "Mountain Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Bergmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Bergbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3691,24 +3691,24 @@
             {
                "id" : "quest255",
                "name" : "Mountain Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Bergzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest256",
                "name" : "Plain Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Flachlandmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Flachlandbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3729,12 +3729,12 @@
             {
                "id" : "quest257",
                "name" : "Plain Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Flachlandmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Flachlandbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3751,12 +3751,12 @@
             {
                "id" : "quest258",
                "name" : "Saltwater Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Salzwassermobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Salzwasser findet man nur in den Meeren. Aber woher nehmen? Hier muss man bestehende Biome aendern. Auch sollte das kuenstliche Meer unter Level 63 liegen und ausreichend tief sein. Die Jagd bei Nacht sollte helfen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3777,12 +3777,12 @@
             {
                "id" : "quest259",
                "name" : "Saltwater Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Salzwassermobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Salzwasser findet man nur in den Meeren. Aber woher nehmen? Hier muss man bestehende Biome aendern. Auch sollte das kuenstliche Meer unter Level 63 liegen und ausreichend tief sein. Die Jagd bei Nacht sollte helfen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3791,10 +3791,6 @@
                         {
                            "id" : "mob001",
                            "name" : "Raiko"
-                        },
-                        {
-                           "id" : "mob002",
-                           "name" : "Lacedon"
                         }
                      ]
                   }
@@ -3803,12 +3799,12 @@
             {
                "id" : "quest260",
                "name" : "Shadow Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Schattenmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Alle dunklen Ecken koennen einen ueberraschen, aber auch zum Jagdglueck verhelfen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3829,12 +3825,12 @@
             {
                "id" : "quest261",
                "name" : "Shadow Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Schattenmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Alle dunklen Ecken koennen einen ueberraschen, aber auch zum Jagdglueck verhelfen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3855,24 +3851,24 @@
             {
                "id" : "quest262",
                "name" : "Shadow Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Schattenzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             },
             {
                "id" : "quest263",
                "name" : "Swamp Mobs I",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Sumpfmobs (Teil 1).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Sumpfbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3897,12 +3893,12 @@
             {
                "id" : "quest264",
                "name" : "Swamp Mobs II",
-               "description" : "Unnamed quest",
+               "description" : "Jage alle Sumpfmobs (Teil 2).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "A task where the player has to kill certain monsters.",
+                     "description" : "Die wirst du sicher nur in einem Sumpfbiom finden.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -3923,12 +3919,12 @@
             {
                "id" : "quest265",
                "name" : "Swamp Scepter",
-               "description" : "Unnamed quest",
+               "description" : "Sammle alle Sumpfzepter.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
             }

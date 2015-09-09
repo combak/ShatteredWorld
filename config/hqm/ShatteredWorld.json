@@ -10897,13 +10897,6 @@
                            "mob" : "saltwatermobs.raiko",
                            "count" : 1,
                            "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
-                           "mob" : "saltwatermobs.lacedon",
-                           "count" : 1,
-                           "exact" : false
                         }
                      ]
                   }

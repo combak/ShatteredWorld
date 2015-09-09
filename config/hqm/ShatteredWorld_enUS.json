@@ -3791,10 +3791,6 @@
                         {
                            "id" : "mob001",
                            "name" : "New Mob"
-                        },
-                        {
-                           "id" : "mob002",
-                           "name" : "New Mob"
                         }
                      ]
                   }
