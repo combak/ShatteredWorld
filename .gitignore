@@ -1,0 +1,6 @@
+# general
+.project
+
+# hqm
+*.old?
+*.orig
