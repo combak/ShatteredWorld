@@ -2736,466 +2736,471 @@
             {
                "id" : "quest200",
                "name" : "Opfere dich selbst",
-               "description" : "Altar \/ Sacrificial Knife herstellen",
+               "description" : "Jeder faengt mal klein an. Auch der Meister des Blutes muss das. Klein bedeutet aber auch das eigene Blut zu benutzen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Ort, an dem der Blutmagier seine Wunder vollbringt, ist der Blutaltar."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Sich einfach nur zu verletzen ist sehr gefaehrlich. Das das richtige Werkzeug fuer diesen rituellen Vorgang ist zwingend notwendig."
                   }
                ]
             },
             {
                "id" : "quest201",
-               "name" : "Blanck Slate",
-               "description" : null,
+               "name" : "Die Basisplatte",
+               "description" : "Die Schieferplatten sind die Basiskomponenten aus denen die Werkzeuge des Blutmagier gemacht sind. Der erste ist der Blank Slate.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Ein klarer Stein und etwas Blut. Mehr braucht es nicht."
                   }
                ]
             },
             {
                "id" : "quest202",
-               "name" : "Altar Level 1 Orb",
-               "description" : "Unnamed quest",
+               "name" : "Gib mir die Kugel",
+               "description" : "Die Orbs sind magische Gegenstaende zum Speichern von Blut.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Stelle diesen einfachen Orb her."
                   }
                ]
             },
             {
                "id" : "quest203",
-               "name" : "Divination Sigil",
-               "description" : "Unnamed quest",
+               "name" : "Allwissend",
+               "description" : "Damit die Zauber am Altar auch alle auf Anhieb klappen, muss man immer wissen wie viel Blut im Netzwerk ist.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mit den Divination Sigil kannst du sowohl die Menge an Blut im Altar als auch in deinem Netzwerk bestimmen."
                   }
                ]
             },
             {
                "id" : "quest204",
-               "name" : "erste Sigils",
-               "description" : "Unnamed quest",
+               "name" : "Feuer und Wasser",
+               "description" : "Die Siegel sind das Hauptwerkzeug des Blutmagiers. Fangen wir klein an.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Unendlich Wasser und Lava. Was will man mehr?"
                   }
                ]
             },
             {
                "id" : "quest205",
-               "name" : "Alchemic Chemistry Set",
-               "description" : "Unnamed quest",
+               "name" : "Stroh zu Gold",
+               "description" : "Was waere ein Zaubermod ohne Traenke. Auch der Blutmagier hat seinen eigenen Braustand, oder sollte ich besser Hexenkueche sagen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das Alchemic Chemistry Set vollbringt ware Wunder."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Stelle einige Basisessenzen her um dich einzuarbeiten. Vergiss nicht den passenden Orb zu benutzen."
                   }
                ]
             },
             {
                "id" : "quest206",
-               "name" : "Reinforced Slate",
-               "description" : null,
+               "name" : "Die bewehrte Platte",
+               "description" : "Ein besseres Sigil oeffnet den Weg zu besseren Items.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Da du jetzt mehr Blut zur Verfuegung hast, kannst du bessere Slates hestellen."
                   }
                ]
             },
             {
                "id" : "quest207",
-               "name" : "Altar Level 2 Orb",
-               "description" : null,
+               "name" : "Die Kugel rollt",
+               "description" : "Das zweite Level der Orbs.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk halten vorhalten kann."
                   }
                ]
             },
             {
                "id" : "quest208",
-               "name" : "mehr Sigils",
-               "description" : "Unnamed quest",
+               "name" : "Aufbauen und Zerstoeren",
+               "description" : "Jetzt legen wir mit den Siegeln richtig los.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit diesen Siegeln kann man kurzzeitig fliegen. Das ander Siegel zeigt den Fortschritt und die Geschwindigkeit des Altars an."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit diesen Siegeln kann man schneller Erz abbauen und Pflanzen wachsen in der Umgebung wie wild."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Ein sehr interessantes Siegel. Zum einen kann es Fluessigkeiten verschwinden lassen. Aber verhindert auch Void Schaden, wenn es in eine Ruestung eingearbeitet ist."
                   }
                ]
             },
             {
                "id" : "quest209",
-               "name" : "Basis Essenzen",
-               "description" : "Unnamed quest",
+               "name" : "Der Schluesselsatz",
+               "description" : "Die Basis alle weiteren Beschwoerungen sind diese Basis Essenzen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Stelle von jedem Type je eine her und mache dich mit den Zutaten vertraut."
                   }
                ]
             },
             {
                "id" : "quest210",
-               "name" : "Imbued Slate",
-               "description" : null,
+               "name" : "Die nasse Platte",
+               "description" : "Und noch eine bessere Stufe der Slates.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mehr Blut bringt auch mehr Macht mit sich."
                   }
                ]
             },
             {
                "id" : "quest211",
-               "name" : "Altar Level 3 Orb",
-               "description" : null,
+               "name" : "Die Wasserkugel",
+               "description" : "Das dritte Level des Orbs.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Da du jetzt sicher weisst, wie man sich genug Blut beschafft, sollte dieser Orb kein Problem sein."
                   }
                ]
             },
             {
                "id" : "quest212",
-               "name" : "noch mehr Sigils",
-               "description" : null,
+               "name" : "Hoch und runter",
+               "description" : "Kommen wir jetzt zur hohen Schule der Siegel.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task Affinity",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Siegel schuetzt vor dem Ertrinken, Feuer und dem Sterben bei tiefen Fallen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Magnetism",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Magnet unter den Siegel. Zieht alles im Radius von 5 Bloecken an."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task Lamp",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Ein sehr nuetzliches Siegel. Man kann damit Blutlicht werfen. Ausserdem gewaehrt es Nachtsicht in einer Ruestung."
                   },
                   {
                      "id" : "task003",
                      "name" : "Crafting Task Bridge",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Sicher das lustigste Siegel. Man erzeugt damit ein Luftbruecke, ueber die man laufen kann."
                   },
                   {
                      "id" : "task004",
                      "name" : "Crafting Task Holding",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das schweizer Taschenmesser unter den Siegeln. Es kann bis zu vier andere Siegel aufnehmen und damit Platz im Inventar sparen."
                   }
                ]
             },
             {
                "id" : "quest213",
-               "name" : "Inscription Tools",
-               "description" : null,
+               "name" : "Die Malstifte",
+               "description" : "Eine wichtige Vorarbeit fuer die Rituale. Die Ritualsteine muessen mit bestimmten Runen bemalt werden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Stelle je einen dieser magischen Tinten her."
                   }
                ]
             },
             {
                "id" : "quest214",
-               "name" : "Ritual Diviner",
-               "description" : "Unnamed quest",
+               "name" : "Die Wuenschelrute",
+               "description" : "Die meisten Rituale sind sehr komplex, auch fuer das super Gedaechtnis eines Blutmagiers. Die Ritual Wuenchelrute hilft beim Aufbauen der Ritual Konstruktionen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Zum einen kann man das gewuenschte Ritual leicht auswaehlen, man erhaelt aber auch Informationen ueber die Menge an Ritualsteinen."
                   }
                ]
             },
             {
                "id" : "quest215",
-               "name" : "Start der Rituale",
-               "description" : null,
+               "name" : "Der schwere Stein",
+               "description" : "Rituale sind gewaltige Konstruktionen, mit den man auf seine Umgebung einwirken kann.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Jedes Ritual besteht aus ein Meisterstein und einer Menge normaler Ritualsteine."
                   }
                ]
             },
             {
                "id" : "quest216",
-               "name" : "Ritual of Binding",
-               "description" : null,
+               "name" : "Mein Schatz",
+               "description" : "Das ist das erste Ritual das du brauchst um weiter zu kommen. Damit bindest du Items an dich.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Diese besondere Schwert ist notwendig zum Ernten der Bood Shards. Damit kann der Altar auf Stufe 4 aufgeruestet werden."
                   }
                ]
             },
             {
                "id" : "quest217",
-               "name" : "Weak Blood Shard",
-               "description" : null,
+               "name" : "Das gefrorene Blut",
+               "description" : "Die Blutscherben sind die einfachsten Scherben, die du erhalten kannst. Benutze dein Bound Sword und gehe auf Monsterjagd.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Um die Ausbeute hoch und das eigene Risiko gering zu halten ist ein speziell konstruierte Monsterfarm eine gute Hilfe."
                   }
                ]
             },
             {
                "id" : "quest218",
-               "name" : "Bound Armor",
-               "description" : null,
+               "name" : "Der Unzerstoerbare",
+               "description" : "Was haelst du von einer Ruestung, die fast alles absorbieren  und ausserdem mit zusaetzlichen Eigenschaften aufgeruestet werden kann.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Diese Ruestung wird nicht normal gecraftet. Die Soul Armor Forge wird nur einmal gebraucht. Darum wird mit den Filled Socket das Ruestungsteil gebaut. Danach koennen die Verbesserungen eingesetzt werden."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Diese Ruestung ist eine der staerksten im Spiel."
                   }
                ]
             },
             {
                "id" : "quest219",
-               "name" : "bessere Essenzen",
-               "description" : null,
+               "name" : "Das Spezialwerkzeug",
+               "description" : "Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Demonen herbei zaubern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Stelle auch hiervon je eine Probe her, auch wenn du spaeter mehr davon brauchen wirst."
                   }
                ]
             },
             {
                "id" : "quest220",
-               "name" : "Daemonen Zirkel",
-               "description" : null,
+               "name" : "Der Debattierzirkel",
+               "description" : "Ein wichtiger Teil des Mods sind aber auch die Begleiter und Demonen, die man beschwoeren kann. Dazu ist ein weiterer spezieller Ritualaufbau notwendig.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Das kleinste Ritual besteht aus einem Sockel und 6 Standfuessen. Stelle sie her!"
                   }
                ]
             },
             {
                "id" : "quest221",
-               "name" : "Daemonen Kontrolle",
-               "description" : null,
+               "name" : "Der Satansbraten",
+               "description" : "Zur weiteren Ausbildung eines Blutmagiers ist der Demon Blood Shard notwendig. Diesen erhaelst du nur von Elementaren. Jeder dieser Elementare hat aber einen Angriffseffekt, der dir das Leben schwer macht.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Es kann sein, das du mehrere Versuche brauchst, bevor ein solcher Splitter dropt."
                   }
                ]
             },
             {
                "id" : "quest222",
-               "name" : "Demonic Slate",
-               "description" : "Unnamed quest",
+               "name" : "Die teuflische Platte",
+               "description" : "Und weiter geht es mit den Slates.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Demonic im Namen laesst auf Items schliessen, die man damit herstellen kann."
                   }
                ]
             },
             {
                "id" : "quest223",
-               "name" : "Altar Level 4 Orb",
-               "description" : null,
+               "name" : "Die runde Kugel",
+               "description" : "Das vierte Level des Orbs. Jetzt beginnen die Probleme beim Aufbau des Altar.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mit genuegend Blut sicher kein Problem."
                   }
                ]
             },
             {
                "id" : "quest224",
-               "name" : "jetzt reichts aber mit Sigils",
-               "description" : null,
+               "name" : "Hin und weg",
+               "description" : "Was, noch mehr Siegel. Wir koennen doch schon alles moegliche.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task Compress",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Ein wohl eher selten genutzes Siegel, der Autopacker im Inventar. Es kann Items zu Bloecken wandeln (2x2 oder 3x3)."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Ender",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Sicher auch ein sehr spassiges Siegel. Es verhindert, das sich Endermaenner wegporten koennen."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task Haste",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Dieses Siegel macht genau das was uns der Name sagt. Der Spieler bekommt einen Geschwingkeitsbuff."
                   },
                   {
                      "id" : "task003",
                      "name" : "Crafting Task Whirlwind",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Siegel ist als Teil der Ruestung gold wert. Es reflektiert alle Projektile und Pfleile."
                   },
                   {
                      "id" : "task004",
                      "name" : "Crafting Task Supression",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Auch ein Siegel aus der Kategorie Spass. Es entferrnt alle Fluessigleitsbloecke in einem Radius von 5. Man geht also in einer Blase durch Wasser oder Lava."
                   }
                ]
             },
             {
                "id" : "quest225",
-               "name" : "besserer Ritual Diviner",
-               "description" : null,
+               "name" : "Der Filzstift",
+               "description" : "Einige Rituale sind so komplex, das eine weiter magische Tinte gebraucht wird. Mit deinem neuen Altar ist es jetzt moeglich diese herzustellen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Die Tinte selbst ist leicht zu machen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Oh, wir koennen sogar die Wuenchelrute aufwerten."
                   }
                ]
             },
             {
                "id" : "quest226",
-               "name" : "Kristall Tank",
-               "description" : null,
+               "name" : "Der Kristalltank",
+               "description" : "Bei einigen Ritualen ist es notwendig magische Reagenzien zu benutzen. Damit wird das Ritual erst moeglich gemacht oder bestimmte Effekte frei geschalten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Calcinator ist eine Art Ofen um die Reagenzien in ihre fluide Form zu wandeln. In den Belljars wird es aufgefangen und kann dann leicht transportiert werden. Mit den Alchemic Cleaner, Router und Segmenter wird der Fluss aus dem Calcinator in die Belljars gesteuert."
                   }
                ]
             },
             {
                "id" : "quest227",
-               "name" : "Daemonen Jaeger",
-               "description" : null,
+               "name" : "Das Plueschtier",
+               "description" : "Ein Stadt voller Daemonen. Wer denkt sich sowas nur aus. Mit dem Ritual \"Convocation of the damned\" startest du den Prozess.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Es koennen verschieden Arten von Deamonen erscheinen. Jede hat eine andere Faehigkeit der Verteidigung. Und sie hauen verdammt hart zu. Du brauchst natuerlich mehrere dieser Tropfen."
                   }
                ]
             },
             {
                "id" : "quest228",
-               "name" : "Ethereal Slate",
-               "description" : null,
+               "name" : "Die himmlische Platte",
+               "description" : "Der aktuell staerkste Slate!",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Wir sind so weit gekommen, wo wird es uns hinfuehren?"
                   }
                ]
             },
             {
                "id" : "quest229",
-               "name" : "Altar Level 5 Orb",
-               "description" : null,
+               "name" : "Die perfekte Kugel",
+               "description" : "Das fuenfte Level der Orbs. Jetzt benoetigt man schon vier Netherstars fuer den Altar.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Ausserdem musst du einen Demon toeten, um an den Demon Blood Shard zu kommen."
                   }
                ]
             },
             {
                "id" : "quest230",
-               "name" : "aber jetzt das letzte Sigils",
-               "description" : "Unnamed quest",
+               "name" : "Wachsen und vergehen",
+               "description" : "Nimmt das den gar kein Ende mit den Siegeln.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Ein Must Have fuer alle Gaertner unter uns. Mit deisem Siegel wird automatisch geerntet, eingesammlt und geplanzt. Sehr nuetzlich!"
                   }
                ]
             },
             {
                "id" : "quest231",
-               "name" : "Altar Level 6 Orb",
-               "description" : "Unnamed quest",
-               "tasks" : [
-               ]
-            },
-            {
-               "id" : "quest232",
-               "name" : "noch besserer Ritual Diviner",
-               "description" : "Unnamed quest",
+               "name" : "Der Kreis schliesst sich",
+               "description" : "Der sechste Level der Orbs. Das Problem ist hier wie immer der Altar. Vier Crystal Cluster sind eine harte Nuss.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Eine Menge Vorarbeit fuer diesen Orb. Das Ritual \"Convocation of the damned\" muss wohl ueberlegt ausgefuehrt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest232",
+               "name" : "Alpha und Omega",
+               "description" : "Ein Blick in die Zukunft. Mit einer neuen Tinte eroeffnen sich neue Welten fuer den Meister der Meister. Du bist jetzt bereit fuer das Projekt Omega.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Da du jetzt ein Altar Level 6 hast, ist es kein Problem diese Tinte herzustellen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit der neuer Tinte hast du dir auch eine neue Wuenschelrute frei geschalten."
                   }
                ]
             }

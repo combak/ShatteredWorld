@@ -9654,6 +9654,17 @@
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
                ],
                "reward" : [
                   "minecraft:log size(1) dmg(0)"
