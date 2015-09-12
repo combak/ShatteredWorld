@@ -4,3 +4,23 @@
 # hqm
 *.old?
 *.orig
+/asm/
+/bin/
+/blueprints/
+/compendiumunlocks/
+/compendiumUpdates/
+/crash-reports/
+/dumps/
+/imcScripts/
+/logs/
+/mods/
+/resourcepacks/
+/saves/
+/server-resource-packs/
+/src/
+/zipped/
+/minetweaker.log
+/options.txt
+/servers.dat
+/usercache.json
+/usernamecache.json
