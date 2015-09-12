@@ -18,7 +18,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -40,7 +40,7 @@
                         {
                            "item" : "minecraft:planks size(1) dmg(0)",
                            "required" : 4,
-                           "precision" : "PRECISE"
+                           "precision" : "ORE_DICTIONARY"
                         }
                      ]
                   }
@@ -54,7 +54,7 @@
             {
                "id" : "quest001",
                "x" : 26,
-               "y" : 35,
+               "y" : 55,
                "big" : false,
                "icon" : "minecraft:cooked_fished size(1) dmg(0)",
                "requirements" : [
@@ -98,8 +98,8 @@
             },
             {
                "id" : "quest002",
-               "x" : 42,
-               "y" : 10,
+               "x" : 26,
+               "y" : 25,
                "big" : false,
                "icon" : "minecraft:bed size(1) dmg(0)",
                "requirements" : [
@@ -132,8 +132,8 @@
             },
             {
                "id" : "quest003",
-               "x" : 74,
-               "y" : 10,
+               "x" : 38,
+               "y" : 85,
                "big" : false,
                "icon" : "StorageDrawersForestry:fullDrawers2B size(1) dmg(12)",
                "requirements" : [
@@ -176,12 +176,13 @@
             },
             {
                "id" : "quest004",
-               "x" : 102,
-               "y" : 10,
+               "x" : 38,
+               "y" : 120,
                "big" : false,
                "icon" : "StorageDrawers:upgrade size(1) dmg(2)",
                "requirements" : [
-                  "quest003"
+                  "quest003",
+                  "quest020"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -215,8 +216,8 @@
             },
             {
                "id" : "quest005",
-               "x" : 94,
-               "y" : 40,
+               "x" : 126,
+               "y" : 20,
                "big" : false,
                "icon" : "TConstruct:ToolStationBlock size(1) dmg(0)",
                "requirements" : [
@@ -225,7 +226,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -264,8 +265,8 @@
             },
             {
                "id" : "quest006",
-               "x" : 126,
-               "y" : 40,
+               "x" : 198,
+               "y" : 20,
                "big" : false,
                "icon" : "TConstruct:broadsword size(1) dmg(0)",
                "requirements" : [
@@ -274,7 +275,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -298,8 +299,8 @@
             },
             {
                "id" : "quest007",
-               "x" : 142,
-               "y" : 15,
+               "x" : 222,
+               "y" : 20,
                "big" : false,
                "icon" : "minecraft:ender_pearl size(1) dmg(0)",
                "requirements" : [
@@ -332,7 +333,7 @@
             },
             {
                "id" : "quest008",
-               "x" : 154,
+               "x" : 210,
                "y" : 40,
                "big" : false,
                "icon" : "minecraft:skull size(1) dmg(4)",
@@ -375,10 +376,10 @@
             },
             {
                "id" : "quest009",
-               "x" : 58,
-               "y" : 125,
+               "x" : 66,
+               "y" : 85,
                "big" : false,
-               "icon" : "Forestday:machine.workbanch size(1) dmg(0)",
+               "icon" : "ForestDay:wood_base size(1) dmg(2)",
                "requirements" : [
                   "quest000"
                ],
@@ -394,12 +395,12 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "Forestday:machine.workbanch size(1) dmg(0)",
+                           "item" : "ForestDay:wood_base size(1) dmg(2)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "Forestday:fd.item.tool.file.stone size(1) dmg(0)",
+                           "item" : "ForestDay:item.forest.fd.item.tool.file.iron size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -410,7 +411,7 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "Forestday:fd.item.gear.wood size(1) dmg(1)",
+                           "item" : "NedeloskCore:gearWood size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -425,8 +426,8 @@
             },
             {
                "id" : "quest010",
-               "x" : 114,
-               "y" : 70,
+               "x" : 126,
+               "y" : 50,
                "big" : false,
                "icon" : "minecraft:cobblestone size(1) dmg(0)",
                "requirements" : [
@@ -481,8 +482,8 @@
             },
             {
                "id" : "quest011",
-               "x" : 146,
-               "y" : 70,
+               "x" : 154,
+               "y" : 50,
                "big" : false,
                "icon" : "minecraft:furnace size(1) dmg(0)",
                "requirements" : [
@@ -515,8 +516,8 @@
             },
             {
                "id" : "quest012",
-               "x" : 178,
-               "y" : 70,
+               "x" : 182,
+               "y" : 50,
                "big" : false,
                "icon" : "minecraft:torch size(1) dmg(0)",
                "requirements" : [
@@ -549,8 +550,8 @@
             },
             {
                "id" : "quest013",
-               "x" : 86,
-               "y" : 70,
+               "x" : 98,
+               "y" : 50,
                "big" : false,
                "icon" : "ExtraUtilities:trashcan size(1) dmg(0)",
                "requirements" : [
@@ -583,8 +584,8 @@
             },
             {
                "id" : "quest014",
-               "x" : 114,
-               "y" : 100,
+               "x" : 142,
+               "y" : 75,
                "big" : false,
                "icon" : "exnihilo:hammer_stone size(1) dmg(0)",
                "requirements" : [
@@ -638,8 +639,8 @@
             },
             {
                "id" : "quest015",
-               "x" : 146,
-               "y" : 100,
+               "x" : 170,
+               "y" : 75,
                "big" : false,
                "icon" : "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
                "requirements" : [
@@ -688,8 +689,8 @@
             },
             {
                "id" : "quest016",
-               "x" : 162,
-               "y" : 125,
+               "x" : 170,
+               "y" : 105,
                "big" : false,
                "icon" : "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
                "requirements" : [
@@ -727,8 +728,8 @@
             },
             {
                "id" : "quest017",
-               "x" : 98,
-               "y" : 125,
+               "x" : 114,
+               "y" : 75,
                "big" : false,
                "icon" : "exnihilo:sifting_table size(1) dmg(0)",
                "requirements" : [
@@ -761,7 +762,7 @@
             },
             {
                "id" : "quest018",
-               "x" : 130,
+               "x" : 142,
                "y" : 125,
                "big" : false,
                "icon" : "TConstruct:Smeltery size(1) dmg(0)",
@@ -821,8 +822,8 @@
             },
             {
                "id" : "quest019",
-               "x" : 114,
-               "y" : 150,
+               "x" : 94,
+               "y" : 125,
                "big" : false,
                "icon" : "TConstruct:blankPattern size(1) dmg(1)",
                "requirements" : [
@@ -862,7 +863,7 @@
             },
             {
                "id" : "quest020",
-               "x" : 146,
+               "x" : 78,
                "y" : 150,
                "big" : false,
                "icon" : "minecraft:iron_ingot size(1) dmg(0)",
@@ -906,8 +907,8 @@
             },
             {
                "id" : "quest021",
-               "x" : 162,
-               "y" : 175,
+               "x" : 50,
+               "y" : 150,
                "big" : false,
                "icon" : "backpacks16840:backpack size(1) dmg(3)",
                "requirements" : [
@@ -945,7 +946,7 @@
             },
             {
                "id" : "quest022",
-               "x" : 194,
+               "x" : 62,
                "y" : 175,
                "big" : false,
                "icon" : "ThermalExpansion:Tank size(1) dmg(0)",
@@ -979,8 +980,8 @@
             },
             {
                "id" : "quest023",
-               "x" : 182,
-               "y" : 150,
+               "x" : 90,
+               "y" : 175,
                "big" : false,
                "icon" : "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
                "requirements" : [
@@ -1018,8 +1019,8 @@
             },
             {
                "id" : "quest024",
-               "x" : 218,
-               "y" : 150,
+               "x" : 118,
+               "y" : 175,
                "big" : false,
                "icon" : "autopackager:packagerBlock size(1) dmg(0)",
                "requirements" : [
@@ -1052,8 +1053,8 @@
             },
             {
                "id" : "quest025",
-               "x" : 130,
-               "y" : 175,
+               "x" : 106,
+               "y" : 150,
                "big" : false,
                "icon" : "TConstruct:lumberaxe size(1) dmg(0)",
                "requirements" : [
@@ -1095,46 +1096,6 @@
                ],
                "reputations" : [
                ]
-            },
-            {
-               "id" : "quest026",
-               "x" : 270,
-               "y" : 195,
-               "big" : false,
-               "icon" : null,
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest027",
-               "x" : 294,
-               "y" : 195,
-               "big" : false,
-               "icon" : null,
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
             }
          ]
       },
@@ -1147,9 +1108,6 @@
                "y" : 50,
                "big" : false,
                "icon" : "GardenCore:compost_bin size(1) dmg(0)",
-               "requirements" : [
-                  "quest005"
-               ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -1761,9 +1719,6 @@
                "y" : 20,
                "big" : false,
                "icon" : "Forestry:factory2 size(1) dmg(2)",
-               "requirements" : [
-                  "quest020"
-               ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -2474,8 +2429,8 @@
             },
             {
                "id" : "quest056",
-               "x" : 58,
-               "y" : 25,
+               "x" : 42,
+               "y" : 50,
                "big" : false,
                "icon" : "bcadditions:blockItemSorter size(1) dmg(0)",
                "requirements" : [
@@ -2534,7 +2489,7 @@
             },
             {
                "id" : "quest057",
-               "x" : 86,
+               "x" : 58,
                "y" : 25,
                "big" : false,
                "icon" : "bcadditions:blockDusterBasic size(1) dmg(0)",
@@ -3312,12 +3267,13 @@
             },
             {
                "id" : "quest075",
-               "x" : 122,
-               "y" : 45,
+               "x" : 94,
+               "y" : 75,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockInscriber size(1) dmg(0)",
                "requirements" : [
-                  "quest074"
+                  "quest074",
+                  "quest058"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3396,8 +3352,8 @@
             },
             {
                "id" : "quest077",
-               "x" : 150,
-               "y" : 65,
+               "x" : 142,
+               "y" : 50,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(44)",
                "requirements" : [
@@ -3435,12 +3391,12 @@
             },
             {
                "id" : "quest078",
-               "x" : 178,
-               "y" : 50,
+               "x" : 94,
+               "y" : 175,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
                "requirements" : [
-                  "quest077"
+                  "quest084"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3466,12 +3422,13 @@
             },
             {
                "id" : "quest079",
-               "x" : 150,
+               "x" : 178,
                "y" : 15,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(380)",
                "requirements" : [
-                  "quest077"
+                  "quest077",
+                  "quest081"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3534,13 +3491,13 @@
             },
             {
                "id" : "quest081",
-               "x" : 122,
+               "x" : 142,
                "y" : 15,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockChest size(1) dmg(0)",
                "requirements" : [
                   "quest080",
-                  "quest079"
+                  "quest077"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3575,7 +3532,7 @@
             {
                "id" : "quest082",
                "x" : 178,
-               "y" : 80,
+               "y" : 50,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
                "requirements" : [
@@ -4019,66 +3976,6 @@
                ],
                "reputations" : [
                ]
-            },
-            {
-               "id" : "quest094",
-               "x" : 242,
-               "y" : 190,
-               "big" : false,
-               "icon" : null,
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest095",
-               "x" : 266,
-               "y" : 190,
-               "big" : false,
-               "icon" : null,
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest096",
-               "x" : 290,
-               "y" : 190,
-               "big" : false,
-               "icon" : null,
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
             }
          ]
       },
@@ -4094,7 +3991,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5235,7 +5132,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5303,7 +5200,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -8265,14 +8162,18 @@
          "quests" : [
             {
                "id" : "quest200",
-               "x" : 14,
-               "y" : 10,
+               "x" : 22,
+               "y" : 20,
                "big" : false,
                "icon" : "AWWayofTime:Altar size(1) dmg(0)",
+               "requirements" : [
+                  "quest174",
+                  "quest137"
+               ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -8307,8 +8208,8 @@
             },
             {
                "id" : "quest201",
-               "x" : 66,
-               "y" : 35,
+               "x" : 74,
+               "y" : 45,
                "big" : false,
                "icon" : "AWWayofTime:blankSlate size(1) dmg(0)",
                "requirements" : [
@@ -8341,8 +8242,8 @@
             },
             {
                "id" : "quest202",
-               "x" : 42,
-               "y" : 75,
+               "x" : 50,
+               "y" : 85,
                "big" : false,
                "icon" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
                "requirements" : [
@@ -8375,13 +8276,12 @@
             },
             {
                "id" : "quest203",
-               "x" : 42,
-               "y" : 35,
+               "x" : 86,
+               "y" : 25,
                "big" : false,
                "icon" : "AWWayofTime:divinationSigil size(1) dmg(0)",
                "requirements" : [
-                  "quest201",
-                  "quest202"
+                  "quest201"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -8410,8 +8310,8 @@
             },
             {
                "id" : "quest204",
-               "x" : 54,
-               "y" : 55,
+               "x" : 62,
+               "y" : 65,
                "big" : false,
                "icon" : "AWWayofTime:lavaSigil size(1) dmg(0)",
                "requirements" : [
@@ -8500,8 +8400,8 @@
             },
             {
                "id" : "quest206",
-               "x" : 98,
-               "y" : 35,
+               "x" : 106,
+               "y" : 45,
                "big" : false,
                "icon" : "AWWayofTime:reinforcedSlate size(1) dmg(0)",
                "requirements" : [
@@ -8534,8 +8434,8 @@
             },
             {
                "id" : "quest207",
-               "x" : 74,
-               "y" : 75,
+               "x" : 82,
+               "y" : 85,
                "big" : false,
                "icon" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
                "requirements" : [
@@ -8568,8 +8468,8 @@
             },
             {
                "id" : "quest208",
-               "x" : 86,
-               "y" : 55,
+               "x" : 94,
+               "y" : 65,
                "big" : false,
                "icon" : "AWWayofTime:airSigil size(1) dmg(0)",
                "requirements" : [
@@ -8710,8 +8610,8 @@
             },
             {
                "id" : "quest210",
-               "x" : 130,
-               "y" : 35,
+               "x" : 138,
+               "y" : 45,
                "big" : false,
                "icon" : "AWWayofTime:imbuedSlate size(1) dmg(0)",
                "requirements" : [
@@ -8744,8 +8644,8 @@
             },
             {
                "id" : "quest211",
-               "x" : 106,
-               "y" : 75,
+               "x" : 114,
+               "y" : 85,
                "big" : false,
                "icon" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
                "requirements" : [
@@ -8778,8 +8678,8 @@
             },
             {
                "id" : "quest212",
-               "x" : 118,
-               "y" : 55,
+               "x" : 126,
+               "y" : 65,
                "big" : false,
                "icon" : "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
                "requirements" : [
@@ -8857,8 +8757,8 @@
             },
             {
                "id" : "quest213",
-               "x" : 122,
-               "y" : 110,
+               "x" : 130,
+               "y" : 120,
                "big" : false,
                "icon" : "AWWayofTime:fireScribeTool size(1) dmg(0)",
                "requirements" : [
@@ -8906,8 +8806,8 @@
             },
             {
                "id" : "quest214",
-               "x" : 134,
-               "y" : 130,
+               "x" : 142,
+               "y" : 140,
                "big" : false,
                "icon" : "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
                "requirements" : [
@@ -8940,8 +8840,8 @@
             },
             {
                "id" : "quest215",
-               "x" : 98,
-               "y" : 150,
+               "x" : 106,
+               "y" : 160,
                "big" : false,
                "icon" : "AWWayofTime:masterStone size(1) dmg(0)",
                "requirements" : [
@@ -8979,8 +8879,8 @@
             },
             {
                "id" : "quest216",
-               "x" : 122,
-               "y" : 150,
+               "x" : 130,
+               "y" : 160,
                "big" : false,
                "icon" : "AWWayofTime:energySword size(1) dmg(0)",
                "requirements" : [
@@ -9014,8 +8914,8 @@
             },
             {
                "id" : "quest217",
-               "x" : 146,
-               "y" : 150,
+               "x" : 154,
+               "y" : 160,
                "big" : false,
                "icon" : "AWWayofTime:weakBloodShard size(1) dmg(0)",
                "requirements" : [
@@ -9048,8 +8948,8 @@
             },
             {
                "id" : "quest218",
-               "x" : 158,
-               "y" : 170,
+               "x" : 166,
+               "y" : 180,
                "big" : false,
                "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
                "requirements" : [
@@ -9173,8 +9073,8 @@
             },
             {
                "id" : "quest220",
-               "x" : 182,
-               "y" : 150,
+               "x" : 190,
+               "y" : 160,
                "big" : false,
                "icon" : "AWWayofTime:blockPedestal size(1) dmg(0)",
                "requirements" : [
@@ -9212,8 +9112,8 @@
             },
             {
                "id" : "quest221",
-               "x" : 206,
-               "y" : 150,
+               "x" : 214,
+               "y" : 160,
                "big" : false,
                "icon" : "AWWayofTime:demonBloodShard size(1) dmg(0)",
                "requirements" : [
@@ -9246,8 +9146,8 @@
             },
             {
                "id" : "quest222",
-               "x" : 162,
-               "y" : 35,
+               "x" : 170,
+               "y" : 45,
                "big" : false,
                "icon" : "AWWayofTime:demonicSlate size(1) dmg(0)",
                "requirements" : [
@@ -9280,8 +9180,8 @@
             },
             {
                "id" : "quest223",
-               "x" : 138,
-               "y" : 75,
+               "x" : 146,
+               "y" : 85,
                "big" : false,
                "icon" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
                "requirements" : [
@@ -9314,8 +9214,8 @@
             },
             {
                "id" : "quest224",
-               "x" : 150,
-               "y" : 55,
+               "x" : 158,
+               "y" : 65,
                "big" : false,
                "icon" : "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
                "requirements" : [
@@ -9393,8 +9293,8 @@
             },
             {
                "id" : "quest225",
-               "x" : 146,
-               "y" : 110,
+               "x" : 154,
+               "y" : 120,
                "big" : false,
                "icon" : "AWWayofTime:duskScribeTool size(1) dmg(0)",
                "requirements" : [
@@ -9439,8 +9339,8 @@
             },
             {
                "id" : "quest226",
-               "x" : 174,
-               "y" : 110,
+               "x" : 182,
+               "y" : 120,
                "big" : false,
                "icon" : {
                   "item" : "AWWayofTime:itemAttunedCrystal size(1) dmg(0)",
@@ -9498,8 +9398,8 @@
             },
             {
                "id" : "quest227",
-               "x" : 198,
-               "y" : 110,
+               "x" : 206,
+               "y" : 120,
                "big" : false,
                "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
                "requirements" : [
@@ -9537,8 +9437,8 @@
             },
             {
                "id" : "quest228",
-               "x" : 194,
-               "y" : 35,
+               "x" : 202,
+               "y" : 45,
                "big" : false,
                "icon" : "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
                "requirements" : [
@@ -9547,7 +9447,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -9571,8 +9471,8 @@
             },
             {
                "id" : "quest229",
-               "x" : 170,
-               "y" : 75,
+               "x" : 178,
+               "y" : 85,
                "big" : false,
                "icon" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
                "requirements" : [
@@ -9605,8 +9505,8 @@
             },
             {
                "id" : "quest230",
-               "x" : 182,
-               "y" : 55,
+               "x" : 190,
+               "y" : 65,
                "big" : false,
                "icon" : "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
                "requirements" : [
@@ -9640,8 +9540,8 @@
             },
             {
                "id" : "quest231",
-               "x" : 202,
-               "y" : 75,
+               "x" : 210,
+               "y" : 85,
                "big" : false,
                "icon" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
                "requirements" : [
@@ -9674,8 +9574,8 @@
             },
             {
                "id" : "quest232",
-               "x" : 226,
-               "y" : 110,
+               "x" : 234,
+               "y" : 120,
                "big" : false,
                "icon" : "AWWayofTime:dawnScribeTool size(1) dmg(0)",
                "requirements" : [
@@ -9720,1474 +9620,6 @@
          ]
       },
       {
-         "id" : "set008",
-         "quests" : [
-            {
-               "id" : "quest233",
-               "x" : 110,
-               "y" : 110,
-               "big" : false,
-               "icon" : "arcticmobs:arcticegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arcticmobs:arcticegg size(1) dmg(0)",
-                           "mob" : "arcticmobs.reiver",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "arcticmobs:arcticegg size(1) dmg(1)",
-                           "mob" : "arcticmobs.frostweaver",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "arcticmobs:arcticegg size(1) dmg(2)",
-                           "mob" : "arcticmobs.yeti",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest234",
-               "x" : 86,
-               "y" : 110,
-               "big" : false,
-               "icon" : "arcticmobs:arcticegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arcticmobs:arcticegg size(1) dmg(3)",
-                           "mob" : "arcticmobs.wendigo",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "arcticmobs:arcticegg size(1) dmg(4)",
-                           "mob" : "arcticmobs.arix",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "arcticmobs:arcticegg size(1) dmg(5)",
-                           "mob" : "arcticmobs.serpix",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest235",
-               "x" : 62,
-               "y" : 110,
-               "big" : false,
-               "icon" : "arcticmobs:frostboltscepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "arcticmobs:frostboltscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arcticmobs:frostwebscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arcticmobs:tundrascepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arcticmobs:icefirescepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arcticmobs:blizzardscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest236",
-               "x" : 122,
-               "y" : 90,
-               "big" : false,
-               "icon" : "demonmobs:demonegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "demonmobs:demonegg size(1) dmg(0)",
-                           "mob" : "demonmobs.belph",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "demonmobs:demonegg size(1) dmg(1)",
-                           "mob" : "demonmobs.behemoth",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "demonmobs:demonegg size(1) dmg(2)",
-                           "mob" : "demonmobs.pinky",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob003",
-                           "icon" : "demonmobs:demonegg size(1) dmg(3)",
-                           "mob" : "demonmobs.trite",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest237",
-               "x" : 98,
-               "y" : 75,
-               "big" : false,
-               "icon" : "demonmobs:demonegg size(1) dmg(4)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "demonmobs:demonegg size(1) dmg(4)",
-                           "mob" : "demonmobs.astaroth",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "demonmobs:demonegg size(1) dmg(5)",
-                           "mob" : "demonmobs.nethersoul",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "demonmobs:demonegg size(1) dmg(6)",
-                           "mob" : "demonmobs.cacodemon",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest238",
-               "x" : 74,
-               "y" : 60,
-               "big" : false,
-               "icon" : "demonmobs:doomfirescepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "demonmobs:doomfirescepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "demonmobs:hellfirescepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "demonmobs:devilstarscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "demonmobs:demoniclightningscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest239",
-               "x" : 134,
-               "y" : 70,
-               "big" : false,
-               "icon" : "desertmobs:desertegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "desertmobs:desertegg size(1) dmg(0)",
-                           "mob" : "desertmobs.cryptzombie",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "desertmobs:desertegg size(1) dmg(1)",
-                           "mob" : "desertmobs.crusk",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "desertmobs:desertegg size(1) dmg(2)",
-                           "mob" : "desertmobs.clink",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob003",
-                           "icon" : "desertmobs:desertegg size(1) dmg(4)",
-                           "mob" : "desertmobs.joustalpha",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest240",
-               "x" : 122,
-               "y" : 50,
-               "big" : false,
-               "icon" : "desertmobs:desertegg size(1) dmg(4)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "desertmobs:desertegg size(1) dmg(5)",
-                           "mob" : "desertmobs.erepede",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "desertmobs:desertegg size(1) dmg(6)",
-                           "mob" : "desertmobs.gorgomite",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "desertmobs:desertegg size(1) dmg(7)",
-                           "mob" : "desertmobs.manticore",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest241",
-               "x" : 110,
-               "y" : 30,
-               "big" : false,
-               "icon" : "desertmobs:scythescepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "desertmobs:scythescepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "desertmobs:mudshotscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest242",
-               "x" : 158,
-               "y" : 70,
-               "big" : false,
-               "icon" : "forestmobs:forestegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "forestmobs:forestegg size(1) dmg(0)",
-                           "mob" : "forestmobs.ent",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "forestmobs:forestegg size(1) dmg(1)",
-                           "mob" : "forestmobs.trent",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "forestmobs:forestegg size(1) dmg(2)",
-                           "mob" : "forestmobs.shambler",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest243",
-               "x" : 158,
-               "y" : 45,
-               "big" : false,
-               "icon" : "forestmobs:forestegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "forestmobs:forestegg size(1) dmg(3)",
-                           "mob" : "forestmobs.arisaur",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "forestmobs:forestegg size(1) dmg(4)",
-                           "mob" : "forestmobs.spriggan",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "forestmobs:forestegg size(1) dmg(5)",
-                           "mob" : "forestmobs.warg",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest244",
-               "x" : 158,
-               "y" : 20,
-               "big" : false,
-               "icon" : "forestmobs:lifedrainscepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "forestmobs:lifedrainscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest245",
-               "x" : 182,
-               "y" : 70,
-               "big" : false,
-               "icon" : "freshwatermobs:freshwateregg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(0)",
-                           "mob" : "freshwatermobs.jengu",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(1)",
-                           "mob" : "freshwatermobs.zephyr",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(2)",
-                           "mob" : "freshwatermobs.strider",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob003",
-                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(3)",
-                           "mob" : "freshwatermobs.silex",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest246",
-               "x" : 194,
-               "y" : 50,
-               "big" : false,
-               "icon" : "freshwatermobs:aquapulsescepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "freshwatermobs:aquapulsescepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest247",
-               "x" : 194,
-               "y" : 90,
-               "big" : false,
-               "icon" : "infernomobs:infernoegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "infernomobs:infernoegg size(1) dmg(0)",
-                           "mob" : "infernomobs.cinder",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "infernomobs:infernoegg size(1) dmg(1)",
-                           "mob" : "infernomobs.lobber",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "infernomobs:infernoegg size(1) dmg(2)",
-                           "mob" : "infernomobs.cephignis",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest248",
-               "x" : 218,
-               "y" : 75,
-               "big" : false,
-               "icon" : "infernomobs:infernoegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "infernomobs:infernoegg size(1) dmg(3)",
-                           "mob" : "infernomobs.afrit",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "infernomobs:infernoegg size(1) dmg(4)",
-                           "mob" : "infernomobs.khalk",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest249",
-               "x" : 242,
-               "y" : 60,
-               "big" : false,
-               "icon" : "infernomobs:magmascepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "infernomobs:emberscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "infernomobs:magmascepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "infernomobs:scorchfirescepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest250",
-               "x" : 206,
-               "y" : 110,
-               "big" : false,
-               "icon" : "junglemobs:jungleegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "junglemobs:jungleegg size(1) dmg(0)",
-                           "mob" : "junglemobs.geken",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "junglemobs:jungleegg size(1) dmg(1)",
-                           "mob" : "junglemobs.uvaraptor",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "junglemobs:jungleegg size(1) dmg(2)",
-                           "mob" : "junglemobs.concapede",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest251",
-               "x" : 230,
-               "y" : 110,
-               "big" : false,
-               "icon" : "junglemobs:jungleegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "junglemobs:jungleegg size(1) dmg(4)",
-                           "mob" : "junglemobs.tarantula",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "junglemobs:jungleegg size(1) dmg(5)",
-                           "mob" : "junglemobs.conba",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "junglemobs:jungleegg size(1) dmg(7)",
-                           "mob" : "junglemobs.vespidqueen",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest252",
-               "x" : 254,
-               "y" : 110,
-               "big" : false,
-               "icon" : "junglemobs:poopscepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "junglemobs:poopscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest253",
-               "x" : 194,
-               "y" : 130,
-               "big" : false,
-               "icon" : "mountainmobs:mountainegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "mountainmobs:mountainegg size(1) dmg(0)",
-                           "mob" : "mountainmobs.jabberwock",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "mountainmobs:mountainegg size(1) dmg(1)",
-                           "mob" : "mountainmobs.troll",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "mountainmobs:mountainegg size(1) dmg(2)",
-                           "mob" : "mountainmobs.yale",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest254",
-               "x" : 218,
-               "y" : 145,
-               "big" : false,
-               "icon" : "mountainmobs:mountainegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "mountainmobs:mountainegg size(1) dmg(3)",
-                           "mob" : "mountainmobs.geonach",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "mountainmobs:mountainegg size(1) dmg(4)",
-                           "mob" : "mountainmobs.beholder",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "mountainmobs:mountainegg size(1) dmg(5)",
-                           "mob" : "mountainmobs.barghest",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest255",
-               "x" : 242,
-               "y" : 160,
-               "big" : false,
-               "icon" : "mountainmobs:boulderblastscepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "mountainmobs:boulderblastscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "mountainmobs:arcanelaserstormscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest256",
-               "x" : 182,
-               "y" : 150,
-               "big" : false,
-               "icon" : "plainsmobs:plainsegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "plainsmobs:plainsegg size(1) dmg(0)",
-                           "mob" : "plainsmobs.kobold",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "plainsmobs:plainsegg size(1) dmg(1)",
-                           "mob" : "plainsmobs.ventoraptor",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "plainsmobs:plainsegg size(1) dmg(2)",
-                           "mob" : "plainsmobs.maka",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest257",
-               "x" : 194,
-               "y" : 170,
-               "big" : false,
-               "icon" : "plainsmobs:plainsegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "plainsmobs:plainsegg size(1) dmg(4)",
-                           "mob" : "plainsmobs.zoataur",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "plainsmobs:plainsegg size(1) dmg(5)",
-                           "mob" : "plainsmobs.roc",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest258",
-               "x" : 158,
-               "y" : 150,
-               "big" : false,
-               "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
-                           "mob" : "saltwatermobs.lacedon",
-                           "count" : 1,
-                           "exact" : true
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(1)",
-                           "mob" : "saltwatermobs.skylus",
-                           "count" : 1,
-                           "exact" : true
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(2)",
-                           "mob" : "saltwatermobs.ika",
-                           "count" : 1,
-                           "exact" : true
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest259",
-               "x" : 158,
-               "y" : 175,
-               "big" : false,
-               "icon" : "saltwatermobs:saltwateregg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(3)",
-                           "mob" : "saltwatermobs.abtu",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(4)",
-                           "mob" : "saltwatermobs.raiko",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest260",
-               "x" : 134,
-               "y" : 150,
-               "big" : false,
-               "icon" : "shadowmobs:shadowegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "shadowmobs:shadowegg size(1) dmg(0)",
-                           "mob" : "shadowmobs.grue",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "shadowmobs:shadowegg size(1) dmg(1)",
-                           "mob" : "shadowmobs.phantom",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "shadowmobs:shadowegg size(1) dmg(2)",
-                           "mob" : "shadowmobs.epion",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest261",
-               "x" : 122,
-               "y" : 170,
-               "big" : false,
-               "icon" : "shadowmobs:shadowegg size(1) dmg(3)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "shadowmobs:shadowegg size(1) dmg(3)",
-                           "mob" : "shadowmobs.geist",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "shadowmobs:shadowegg size(1) dmg(4)",
-                           "mob" : "shadowmobs.chupacabra",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "shadowmobs:shadowegg size(1) dmg(5)",
-                           "mob" : "shadowmobs.shade",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest262",
-               "x" : 110,
-               "y" : 190,
-               "big" : false,
-               "icon" : "shadowmobs:spectralboltscepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "shadowmobs:spectralboltscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "shadowmobs:bloodleechscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest263",
-               "x" : 122,
-               "y" : 130,
-               "big" : false,
-               "icon" : "swampmobs:swampegg size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "swampmobs:swampegg size(1) dmg(0)",
-                           "mob" : "swampmobs.ghoulzombie",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "swampmobs:swampegg size(1) dmg(1)",
-                           "mob" : "swampmobs.dweller",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "swampmobs:swampegg size(1) dmg(2)",
-                           "mob" : "swampmobs.ettin",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob003",
-                           "icon" : "swampmobs:swampegg size(1) dmg(3)",
-                           "mob" : "swampmobs.lurker",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest264",
-               "x" : 98,
-               "y" : 145,
-               "big" : false,
-               "icon" : "swampmobs:swampegg size(1) dmg(4)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "swampmobs:swampegg size(1) dmg(4)",
-                           "mob" : "swampmobs.eyewig",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob001",
-                           "icon" : "swampmobs:swampegg size(1) dmg(5)",
-                           "mob" : "swampmobs.aspid",
-                           "count" : 1,
-                           "exact" : false
-                        },
-                        {
-                           "id" : "mob002",
-                           "icon" : "swampmobs:swampegg size(1) dmg(6)",
-                           "mob" : "swampmobs.remobra",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest265",
-               "x" : 74,
-               "y" : 160,
-               "big" : false,
-               "icon" : "swampmobs:poisonrayscepter size(1) dmg(0)",
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "swampmobs:poisonrayscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "swampmobs:venomshotscepter size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            }
-         ]
-      },
-      {
          "id" : "set009",
          "quests" : [
             {
@@ -11199,7 +9631,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -11249,7 +9681,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -11961,8 +10393,1529 @@
          ]
       },
       {
-         "id" : "set010",
+         "id" : "set008",
          "quests" : [
+            {
+               "id" : "quest233",
+               "x" : 110,
+               "y" : 110,
+               "big" : false,
+               "icon" : "arcticmobs:arcticegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(0)",
+                           "mob" : "arcticmobs.reiver",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(1)",
+                           "mob" : "arcticmobs.frostweaver",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(2)",
+                           "mob" : "arcticmobs.yeti",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest234",
+               "x" : 86,
+               "y" : 110,
+               "big" : false,
+               "icon" : "arcticmobs:arcticegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(3)",
+                           "mob" : "arcticmobs.wendigo",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(4)",
+                           "mob" : "arcticmobs.arix",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "arcticmobs:arcticegg size(1) dmg(5)",
+                           "mob" : "arcticmobs.serpix",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest235",
+               "x" : 62,
+               "y" : 110,
+               "big" : false,
+               "icon" : "arcticmobs:frostboltscepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "arcticmobs:frostboltscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arcticmobs:frostwebscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arcticmobs:tundrascepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arcticmobs:icefirescepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arcticmobs:blizzardscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest236",
+               "x" : 122,
+               "y" : 90,
+               "big" : false,
+               "icon" : "demonmobs:demonegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "demonmobs:demonegg size(1) dmg(0)",
+                           "mob" : "demonmobs.belph",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "demonmobs:demonegg size(1) dmg(1)",
+                           "mob" : "demonmobs.behemoth",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "demonmobs:demonegg size(1) dmg(2)",
+                           "mob" : "demonmobs.pinky",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob003",
+                           "icon" : "demonmobs:demonegg size(1) dmg(3)",
+                           "mob" : "demonmobs.trite",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest237",
+               "x" : 98,
+               "y" : 75,
+               "big" : false,
+               "icon" : "demonmobs:demonegg size(1) dmg(4)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "demonmobs:demonegg size(1) dmg(4)",
+                           "mob" : "demonmobs.astaroth",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "demonmobs:demonegg size(1) dmg(5)",
+                           "mob" : "demonmobs.nethersoul",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "demonmobs:demonegg size(1) dmg(6)",
+                           "mob" : "demonmobs.cacodemon",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest238",
+               "x" : 74,
+               "y" : 60,
+               "big" : false,
+               "icon" : "demonmobs:doomfirescepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "demonmobs:doomfirescepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "demonmobs:hellfirescepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "demonmobs:devilstarscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "demonmobs:demoniclightningscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest239",
+               "x" : 134,
+               "y" : 70,
+               "big" : false,
+               "icon" : "desertmobs:desertegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "desertmobs:desertegg size(1) dmg(0)",
+                           "mob" : "desertmobs.cryptzombie",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "desertmobs:desertegg size(1) dmg(1)",
+                           "mob" : "desertmobs.crusk",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "desertmobs:desertegg size(1) dmg(2)",
+                           "mob" : "desertmobs.clink",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob003",
+                           "icon" : "desertmobs:desertegg size(1) dmg(4)",
+                           "mob" : "desertmobs.joustalpha",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest240",
+               "x" : 122,
+               "y" : 50,
+               "big" : false,
+               "icon" : "desertmobs:desertegg size(1) dmg(4)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "desertmobs:desertegg size(1) dmg(5)",
+                           "mob" : "desertmobs.erepede",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "desertmobs:desertegg size(1) dmg(6)",
+                           "mob" : "desertmobs.gorgomite",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "desertmobs:desertegg size(1) dmg(7)",
+                           "mob" : "desertmobs.manticore",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest241",
+               "x" : 110,
+               "y" : 30,
+               "big" : false,
+               "icon" : "desertmobs:scythescepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "desertmobs:scythescepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "desertmobs:mudshotscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest242",
+               "x" : 158,
+               "y" : 70,
+               "big" : false,
+               "icon" : "forestmobs:forestegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "forestmobs:forestegg size(1) dmg(0)",
+                           "mob" : "forestmobs.ent",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "forestmobs:forestegg size(1) dmg(1)",
+                           "mob" : "forestmobs.trent",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "forestmobs:forestegg size(1) dmg(2)",
+                           "mob" : "forestmobs.shambler",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest243",
+               "x" : 158,
+               "y" : 45,
+               "big" : false,
+               "icon" : "forestmobs:forestegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "forestmobs:forestegg size(1) dmg(3)",
+                           "mob" : "forestmobs.arisaur",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "forestmobs:forestegg size(1) dmg(4)",
+                           "mob" : "forestmobs.spriggan",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "forestmobs:forestegg size(1) dmg(5)",
+                           "mob" : "forestmobs.warg",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest244",
+               "x" : 158,
+               "y" : 20,
+               "big" : false,
+               "icon" : "forestmobs:lifedrainscepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "forestmobs:lifedrainscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest245",
+               "x" : 134,
+               "y" : 150,
+               "big" : false,
+               "icon" : "freshwatermobs:freshwateregg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(0)",
+                           "mob" : "freshwatermobs.jengu",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(1)",
+                           "mob" : "freshwatermobs.zephyr",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(2)",
+                           "mob" : "freshwatermobs.strider",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob003",
+                           "icon" : "freshwatermobs:freshwateregg size(1) dmg(3)",
+                           "mob" : "freshwatermobs.silex",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest246",
+               "x" : 122,
+               "y" : 170,
+               "big" : false,
+               "icon" : "freshwatermobs:aquapulsescepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "freshwatermobs:aquapulsescepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest247",
+               "x" : 194,
+               "y" : 90,
+               "big" : false,
+               "icon" : "infernomobs:infernoegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(0)",
+                           "mob" : "infernomobs.cinder",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(1)",
+                           "mob" : "infernomobs.lobber",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(2)",
+                           "mob" : "infernomobs.cephignis",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest248",
+               "x" : 218,
+               "y" : 75,
+               "big" : false,
+               "icon" : "infernomobs:infernoegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(3)",
+                           "mob" : "infernomobs.afrit",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "infernomobs:infernoegg size(1) dmg(4)",
+                           "mob" : "infernomobs.khalk",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest249",
+               "x" : 242,
+               "y" : 60,
+               "big" : false,
+               "icon" : "infernomobs:magmascepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "infernomobs:emberscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "infernomobs:magmascepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "infernomobs:scorchfirescepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest250",
+               "x" : 206,
+               "y" : 110,
+               "big" : false,
+               "icon" : "junglemobs:jungleegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(0)",
+                           "mob" : "junglemobs.geken",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(1)",
+                           "mob" : "junglemobs.uvaraptor",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(2)",
+                           "mob" : "junglemobs.concapede",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest251",
+               "x" : 230,
+               "y" : 110,
+               "big" : false,
+               "icon" : "junglemobs:jungleegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(4)",
+                           "mob" : "junglemobs.tarantula",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(5)",
+                           "mob" : "junglemobs.conba",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "junglemobs:jungleegg size(1) dmg(7)",
+                           "mob" : "junglemobs.vespidqueen",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest252",
+               "x" : 254,
+               "y" : 110,
+               "big" : false,
+               "icon" : "junglemobs:poopscepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "junglemobs:poopscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest253",
+               "x" : 194,
+               "y" : 130,
+               "big" : false,
+               "icon" : "mountainmobs:mountainegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(0)",
+                           "mob" : "mountainmobs.jabberwock",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(1)",
+                           "mob" : "mountainmobs.troll",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(2)",
+                           "mob" : "mountainmobs.yale",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest254",
+               "x" : 218,
+               "y" : 145,
+               "big" : false,
+               "icon" : "mountainmobs:mountainegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(3)",
+                           "mob" : "mountainmobs.geonach",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(4)",
+                           "mob" : "mountainmobs.beholder",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "mountainmobs:mountainegg size(1) dmg(5)",
+                           "mob" : "mountainmobs.barghest",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest255",
+               "x" : 242,
+               "y" : 160,
+               "big" : false,
+               "icon" : "mountainmobs:boulderblastscepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "mountainmobs:boulderblastscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "mountainmobs:arcanelaserstormscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest256",
+               "x" : 182,
+               "y" : 150,
+               "big" : false,
+               "icon" : "plainsmobs:plainsegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(0)",
+                           "mob" : "plainsmobs.kobold",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(1)",
+                           "mob" : "plainsmobs.ventoraptor",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(2)",
+                           "mob" : "plainsmobs.maka",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest257",
+               "x" : 194,
+               "y" : 170,
+               "big" : false,
+               "icon" : "plainsmobs:plainsegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(4)",
+                           "mob" : "plainsmobs.zoataur",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "plainsmobs:plainsegg size(1) dmg(5)",
+                           "mob" : "plainsmobs.roc",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest258",
+               "x" : 158,
+               "y" : 150,
+               "big" : false,
+               "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(0)",
+                           "mob" : "saltwatermobs.lacedon",
+                           "count" : 1,
+                           "exact" : true
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(1)",
+                           "mob" : "saltwatermobs.skylus",
+                           "count" : 1,
+                           "exact" : true
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(2)",
+                           "mob" : "saltwatermobs.ika",
+                           "count" : 1,
+                           "exact" : true
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest259",
+               "x" : 158,
+               "y" : 175,
+               "big" : false,
+               "icon" : "saltwatermobs:saltwateregg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(3)",
+                           "mob" : "saltwatermobs.abtu",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "saltwatermobs:saltwateregg size(1) dmg(4)",
+                           "mob" : "saltwatermobs.raiko",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest260",
+               "x" : 182,
+               "y" : 70,
+               "big" : false,
+               "icon" : "shadowmobs:shadowegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(0)",
+                           "mob" : "shadowmobs.grue",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(1)",
+                           "mob" : "shadowmobs.phantom",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(2)",
+                           "mob" : "shadowmobs.epion",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest261",
+               "x" : 194,
+               "y" : 50,
+               "big" : false,
+               "icon" : "shadowmobs:shadowegg size(1) dmg(3)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(3)",
+                           "mob" : "shadowmobs.geist",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(4)",
+                           "mob" : "shadowmobs.chupacabra",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "shadowmobs:shadowegg size(1) dmg(5)",
+                           "mob" : "shadowmobs.shade",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest262",
+               "x" : 206,
+               "y" : 30,
+               "big" : false,
+               "icon" : "shadowmobs:spectralboltscepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "shadowmobs:spectralboltscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "shadowmobs:bloodleechscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest263",
+               "x" : 122,
+               "y" : 130,
+               "big" : false,
+               "icon" : "swampmobs:swampegg size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "swampmobs:swampegg size(1) dmg(0)",
+                           "mob" : "swampmobs.ghoulzombie",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "swampmobs:swampegg size(1) dmg(1)",
+                           "mob" : "swampmobs.dweller",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "swampmobs:swampegg size(1) dmg(2)",
+                           "mob" : "swampmobs.ettin",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob003",
+                           "icon" : "swampmobs:swampegg size(1) dmg(3)",
+                           "mob" : "swampmobs.lurker",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest264",
+               "x" : 98,
+               "y" : 145,
+               "big" : false,
+               "icon" : "swampmobs:swampegg size(1) dmg(4)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "swampmobs:swampegg size(1) dmg(4)",
+                           "mob" : "swampmobs.eyewig",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob001",
+                           "icon" : "swampmobs:swampegg size(1) dmg(5)",
+                           "mob" : "swampmobs.aspid",
+                           "count" : 1,
+                           "exact" : false
+                        },
+                        {
+                           "id" : "mob002",
+                           "icon" : "swampmobs:swampegg size(1) dmg(6)",
+                           "mob" : "swampmobs.remobra",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest265",
+               "x" : 74,
+               "y" : 160,
+               "big" : false,
+               "icon" : "swampmobs:poisonrayscepter size(1) dmg(0)",
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "swampmobs:poisonrayscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "swampmobs:venomshotscepter size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest288",
+               "x" : 158,
+               "y" : 110,
+               "big" : false,
+               "icon" : "DraconicEvolution:dragonHeart size(1) dmg(0)",
+               "requirements" : [
+                  "quest242",
+                  "quest243",
+                  "quest245",
+                  "quest247",
+                  "quest248",
+                  "quest250",
+                  "quest251",
+                  "quest253",
+                  "quest254",
+                  "quest256",
+                  "quest257",
+                  "quest258",
+                  "quest259",
+                  "quest260",
+                  "quest261",
+                  "quest263",
+                  "quest264",
+                  "quest233",
+                  "quest234",
+                  "quest236",
+                  "quest237",
+                  "quest239",
+                  "quest240"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "customnpcs:npcHarp size(1) dmg(0)",
+                           "mob" : "unknown",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:log size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            }
          ]
       }
    ],

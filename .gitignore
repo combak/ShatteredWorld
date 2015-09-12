@@ -4,6 +4,8 @@
 # hqm
 *.old?
 *.orig
+
+# minecraft
 /asm/
 /bin/
 /blueprints/
