@@ -17,6 +17,8 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="ShatteredWorld.svg">
+  <title
+     id="title3809">Shattered World</title>
   <defs
      id="defs4">
     <linearGradient
@@ -1864,7 +1866,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="362.39524"
+     inkscape:cx="60.359628"
      inkscape:cy="500.78359"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1883,7 +1885,19 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title>Shattered World</dc:title>
+        <cc:license
+           rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>DerOli82</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>https://creativecommons.org/licenses/by-nc-sa/4.0/</dc:title>
+          </cc:Agent>
+        </dc:rights>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2479,8 +2493,8 @@
        inkscape:label="#g4370"
        style="fill:none;fill-opacity:1;stroke:#3856fa;stroke-opacity:0.73670206;filter:url(#filter5927-7)"
        transform="translate(-67.609076,99.509966)"
-       inkscape:export-xdpi="98.710526"
-       inkscape:export-ydpi="98.710526">
+       inkscape:export-xdpi="98.709999"
+       inkscape:export-ydpi="98.709999">
       <path
          id="text-world-4"
          transform="translate(0,308.26772)"
@@ -2523,8 +2537,8 @@
        id="group-shattered-0"
        inkscape:label="#g5837"
        style="fill:none;fill-opacity:1;stroke:#3856fa;stroke-opacity:0.73670206;filter:url(#filter5913-5)"
-       inkscape:export-xdpi="98.710526"
-       inkscape:export-ydpi="98.710526">
+       inkscape:export-xdpi="98.709999"
+       inkscape:export-ydpi="98.709999">
       <path
          inkscape:connector-curvature="0"
          id="text-shattered-0"
@@ -2593,8 +2607,8 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Big_Bottom_Cartoon;-inkscape-font-specification:'Big_Bottom_Cartoon, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;fill-opacity:1;stroke:#3856fa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.73670206" />
     </g>
     <g
-       inkscape:export-ydpi="98.710526"
-       inkscape:export-xdpi="98.710526"
+       inkscape:export-ydpi="98.709999"
+       inkscape:export-xdpi="98.709999"
        transform="translate(-67.609076,99.509966)"
        style="fill:#800080;fill-opacity:1;stroke:none;stroke-opacity:0.73670206;filter:url(#filter4957)"
        inkscape:label="#g4370"
@@ -2638,8 +2652,8 @@
     </g>
     <g
        transform="translate(1.0812941,106.58104)"
-       inkscape:export-ydpi="98.710526"
-       inkscape:export-xdpi="98.710526"
+       inkscape:export-ydpi="98.709999"
+       inkscape:export-xdpi="98.709999"
        style="fill:#800080;fill-opacity:1;stroke:none;stroke-opacity:0.73670206;filter:url(#filter4973)"
        inkscape:label="#g5837"
        id="g4929">
