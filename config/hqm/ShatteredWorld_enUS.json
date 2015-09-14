@@ -4197,5 +4197,47 @@
       }
    ],
    "groupTierCatalog" : [
+      {
+         "id" : "tier000",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier001",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier002",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier003",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier004",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier005",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier006",
+         "name" : "New Tier",
+         "groups" : [
+         ]
+      }
    ]
 }

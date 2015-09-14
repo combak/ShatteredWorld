@@ -61,7 +61,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Die Kapazitaet der drei Drawer ist gleich, jedoch teilt sich die Kapazitaet auf die Anzahl der Schubladen auf."
+                     "description" : "Die Kapazitaet der drei Drawer ist gleich, jedoch teilt sich diese auf die Anzahl der Schubladen auf. Das Material ist egal."
                   }
                ]
             },
@@ -492,7 +492,7 @@
             },
             {
                "id" : "quest035",
-               "name" : "sag es mit Blumen",
+               "name" : "Sag es mit Blumen",
                "description" : "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
                "tasks" : [
                   {
@@ -533,7 +533,7 @@
             },
             {
                "id" : "quest038",
-               "name" : "vegetarische Kost",
+               "name" : "Vegetarische Kost",
                "description" : "Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.",
                "tasks" : [
                   {
@@ -4197,5 +4197,47 @@
       }
    ],
    "groupTierCatalog" : [
+      {
+         "id" : "tier000",
+         "name" : "Schrott",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier001",
+         "name" : "Flach",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier002",
+         "name" : "Normal",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier003",
+         "name" : "Ungewoehnlich",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier004",
+         "name" : "Selten",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier005",
+         "name" : "Einzigartig",
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier006",
+         "name" : "Bonbon",
+         "groups" : [
+         ]
+      }
    ]
 }

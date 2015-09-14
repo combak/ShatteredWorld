@@ -46,7 +46,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:apple size(10) dmg(0)",
+                  "minecraft:torch size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -91,7 +92,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:fishandchipsItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -125,7 +126,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:string size(8) dmg(0)",
+                  "harvestcraft:bananasmoothieItem size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -169,7 +171,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "StorageDrawers:fullDrawers4 size(4) dmg(5)"
                ],
                "reputations" : [
                ]
@@ -209,7 +211,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "StorageDrawers:upgrade size(4) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -258,7 +260,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:SearedBrick size(4) dmg(5)"
                ],
                "reputations" : [
                ]
@@ -292,7 +294,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -326,7 +328,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:ender_pearl size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -369,7 +371,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -400,7 +402,7 @@
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "ForestDay:item.forest.fd.item.tool.file.iron size(1) dmg(0)",
+                           "item" : "ForestDay:item.forest.fd.item.tool.file.stone size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -411,7 +413,7 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "NedeloskCore:gearWood size(1) dmg(0)",
+                           "item" : "NedeloskCore:gearWood size(1) dmg(1)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -419,7 +421,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:gearTin size(3) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -475,7 +477,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:toolRod size(3) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -509,7 +511,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:stone size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -543,7 +545,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:decoration.stonetorch size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -577,7 +579,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:coal size(16) dmg(1)",
+                  "minecraft:bread size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -632,7 +635,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:redstone size(8) dmg(0)",
+                  "minecraft:diamond size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -682,7 +686,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:clay size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -721,7 +725,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:bucket size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -755,7 +759,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "exnihilo:mesh size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -815,7 +819,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:Smeltery size(12) dmg(2)",
+                  "TConstruct:materials size(8) dmg(9)"
                ],
                "reputations" : [
                ]
@@ -856,7 +861,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:frypanHead size(1) dmg(2)",
+                  "harvestcraft:hamburgerItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -900,7 +906,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:gold_ingot size(4) dmg(0)",
+                  "minecraft:diamond size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -939,7 +946,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "backpacks16840:backpack_pouch size(3) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -973,7 +980,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "OpenBlocks:tank size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1012,7 +1019,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:hopper size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1046,7 +1053,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalExpansion:Frame size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1092,7 +1099,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:materials size(10) dmg(1)"
                ],
                "reputations" : [
                ]
@@ -1801,22 +1808,22 @@
                         {
                            "item" : "Forestry:ffarm size(1) dmg(2)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Forestry:ffarm size(1) dmg(3)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Forestry:ffarm size(1) dmg(4)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Forestry:ffarm size(1) dmg(5)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -11943,5 +11950,96 @@
       }
    ],
    "groupTierCatalog" : [
+      {
+         "id" : "tier000",
+         "color" : 4,
+         "weights" : [
+            90,
+            40,
+            1,
+            0,
+            0
+         ],
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier001",
+         "color" : 8,
+         "weights" : [
+            80,
+            70,
+            10,
+            0,
+            0
+         ],
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier002",
+         "color" : 2,
+         "weights" : [
+            5,
+            50,
+            30,
+            0,
+            0
+         ],
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier003",
+         "color" : 1,
+         "weights" : [
+            0,
+            5,
+            50,
+            4,
+            0
+         ],
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier004",
+         "color" : 6,
+         "weights" : [
+            0,
+            0,
+            8,
+            40,
+            15
+         ],
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier005",
+         "color" : 5,
+         "weights" : [
+            0,
+            0,
+            3,
+            15,
+            50
+         ],
+         "groups" : [
+         ]
+      },
+      {
+         "id" : "tier006",
+         "color" : 14,
+         "weights" : [
+            0,
+            0,
+            1,
+            8,
+            20
+         ],
+         "groups" : [
+         ]
+      }
    ]
 }
