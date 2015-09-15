@@ -568,200 +568,200 @@
             {
                "id" : "quest040",
                "name" : "Das kleine Autocrafting",
-               "description" : "Unnamed quest",
+               "description" : "Gerade am Anfang braucht man mitunter Teile oeffter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit einem Rechtsklick auf die schon gelernten Rezepte kann man diese einfrieren. Dadurch werden sie nicht bei Ueberfuellung ueberschrieben."
                   }
                ]
             },
             {
                "id" : "quest041",
                "name" : "Gluehkathodenverarbeiter",
-               "description" : "Unnamed quest",
+               "description" : "In diesem Beruf sind sensible Werkzeuge notwendig. Dies erreicht man mit speziellen Beschichtungen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Teil ist etwas gemein. Es verbraucht auch dann Energie wenn es nichts zu tun hat."
                   }
                ]
             },
             {
                "id" : "quest042",
                "name" : "Die kleine Farm",
-               "description" : "Unnamed quest",
+               "description" : "Gerade fuer die Massenproduktion von Holz ist eine automatische Farm genau das Richtige.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Ein Block zur Energiezufuehrung, einer fuer Wasser. Der naechste dient dem Zu- und Abtransport der Items. Mit dem letzten kann man die Farm abschalten. Schalter unten fuer die ganze Farm. Ein Schalter an der Seite schaltet nur den dazu gehoerigen Quadranten ab."
                   }
                ]
             },
             {
                "id" : "quest043",
                "name" : "Der sauber Treibstoff",
-               "description" : "Unnamed quest",
+               "description" : "Auch in diesem Spiel wird der Umweltschutz gross geschrieben. Ein nachwachsender Rohstoff ist eine saubere und effiziente Energiequelle.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschienen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsshritt."
                   }
                ]
             },
             {
                "id" : "quest044",
                "name" : "Der Schwarm",
-               "description" : "Unnamed quest",
+               "description" : "Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen."
                   }
                ]
             },
             {
                "id" : "quest045",
                "name" : "Das echte Gold",
-               "description" : "Unnamed quest",
+               "description" : "Bienen die Erze einsammeln. Ein Wunder der Natur.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Stelle diese Bienen her. Welche? Natuerlich die Glittering Bee. Diese liefern dir den Golden Comb, den du nur noch schleudern musst."
                   }
                ]
             },
             {
                "id" : "quest046",
                "name" : "Das schwarze Gold",
-               "description" : "Unnamed quest",
+               "description" : "Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Wenn du von dieser Biene genuegend herstellst, sollte dein Energieproblem geloest sein."
                   }
                ]
             },
             {
                "id" : "quest047",
                "name" : "Der Weg zum Baumpfleger",
-               "description" : "Unnamed quest",
+               "description" : "Baeume dienen nicht nur als Energielieferant. Interessant sind auch die Designmoeglichkeiten der einzelnen Baumarten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Gedult haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Es ist natuerlich hilfreich zu wissen welche Teile eines Baumes reif fuer die Zuechtung sind. Ausserdem sollte man diese Stellen nicht einfach so ausreissen."
                   }
                ]
             },
             {
                "id" : "quest048",
                "name" : "Der Oelzweig",
-               "description" : "Unnamed quest",
+               "description" : "Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Arbeite dich bis zu diesem Baum vor. Viel Spass."
                   }
                ]
             },
             {
                "id" : "quest049",
                "name" : "Der Weg des Imkers",
-               "description" : "Unnamed quest",
+               "description" : "Die Bienenzuechterei ist wichtiger Beruf. Es gibt fuer viele Bereiche nuetzliche Bienen. Beginnen wir mit etwas einfachen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Du musst die einen ausreichenden Vorrat an Seedoil herstellen. Wenn du diesen in ein Barrel leitest und darin ein Artificial Hive einweichst, hast du den halben Weg geschafft."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Jetzt solltest du mit denem Maschienenpark so weit sein, um dir diese speziellen Bienenstoecker herstellen zu koennen."
                   }
                ]
             },
             {
                "id" : "quest050",
                "name" : "Die Bienenkoenigin",
-               "description" : "Unnamed quest",
+               "description" : "Ein Bienenvolk zu verwalten ist eine Sisyphosarbeit. Aber der wichtigste Teil ist immer die Koenigin.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeien nur in bestimmten Biomen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig und sieh zu einen vernueftigen Schutz zu finden."
                   }
                ]
             },
             {
                "id" : "quest051",
                "name" : "Schleudern will gelernt sein",
-               "description" : "Unnamed quest",
+               "description" : "Die Pollen, die die Bienen einsammeln, koennen nicht direkt verarbeitet werden. Man muss die Bestandteile herauspressen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die Zentrifuge ist dazu genau das richtige Werkzeug."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Jetzt kommst du an den Lebenssaft der Bienen heran, den Honig."
                   }
                ]
             },
             {
                "id" : "quest052",
                "name" : "Der Wettergott",
-               "description" : "Unnamed quest",
+               "description" : "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mit dem Rainmaker kannst du den Regen ein- und ausschalten."
                   }
                ]
             },
             {
                "id" : "quest053",
                "name" : "Der feiner Faden",
-               "description" : "Unnamed quest",
+               "description" : "Eine Ruestung fuer den Imker kann bei einigen Bienen sehr nuetzlich sein. Aber dazu ist ein sehr dichter Faden notwendig.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Auch dafuer gibt es natuerlich eine Biene, die Tropical Bee. Sie liefert zusaetzlich Silky Propolis, das dann weiter geschleudert werden kann."
                   }
                ]
             },
             {
                "id" : "quest054",
                "name" : "Des Imkers Ruestung",
-               "description" : "Unnamed quest",
+               "description" : "Diese Ruestung besteht zwar aus Stoff, aber einem speziellen. Er kann von keiner Biene durchstochen werden und schuetzt damit zuverlaessig von negativen Effekten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "DIeser Anzug sollte in keiner Imkerwerkstatt fehlen."
                   }
                ]
             }

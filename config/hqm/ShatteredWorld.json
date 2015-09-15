@@ -538,14 +538,14 @@
                      "requirements" : [
                         {
                            "item" : "minecraft:torch size(1) dmg(0)",
-                           "required" : 16,
+                           "required" : 8,
                            "precision" : "PRECISE"
                         }
                      ]
                   }
                ],
                "reward" : [
-                  "TConstruct:decoration.stonetorch size(8) dmg(0)"
+                  "TConstruct:decoration.stonetorch size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1157,7 +1157,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "GardenCore:garden_soil size(3) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1201,7 +1201,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AgriCraft:handRake size(1) dmg(1)",
+                  "harvestcraft:spagettiandmeatballsItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1256,7 +1257,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:cornseedItem size(4) dmg(0)",
+                  "harvestcraft:barleyseedItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1311,7 +1313,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:deluxecheeseburgerItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1356,7 +1358,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:bellpepperseedItem size(4) dmg(0)",
+                  "harvestcraft:chilipepperseedItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1401,7 +1404,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:butterItem size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1456,7 +1459,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:blueberryseedItem size(4) dmg(0)",
+                  "harvestcraft:coffeeseedItem size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1521,7 +1525,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AgriCraft:seedTulipWhite size(4) dmg(0)",
+                  "AgriCraft:seedBotaniaWhite size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1565,7 +1570,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AgriCraft:seedPlombean size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1604,7 +1609,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "harvestcraft:cheeseItem size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1670,7 +1675,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalExpansion:Machine size(2) dmg(9)"
                ],
                "reputations" : [
                ]
@@ -1715,7 +1720,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:piston size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1746,7 +1751,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:beeCombs size(4) dmg(0)",
+                  "Forestry:pipette size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1780,7 +1786,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:gearTin size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1829,7 +1835,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:blockReservoir size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1873,7 +1879,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalExpansion:Tank size(2) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -1927,7 +1933,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -1961,7 +1967,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:gold_ingot size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1995,7 +2001,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "BuildCraft|Energy:bucketOil size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2045,7 +2051,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:pollenFertile size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2062,7 +2068,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -2079,7 +2085,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -2134,7 +2140,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:frameProven size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2184,7 +2190,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:habitatLocator size(1) dmg(0)",
+                  "Forestry:apiculture size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2229,24 +2236,24 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:craftingMaterial size(2) dmg(3)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest052",
-               "x" : 206,
-               "y" : 175,
+               "x" : 282,
+               "y" : 145,
                "big" : false,
                "icon" : "Forestry:factory size(1) dmg(7)",
                "requirements" : [
-                  "quest051"
+                  "quest048"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -2255,7 +2262,7 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "unknown:name size(1) dmg(0)",
+                           "item" : "Forestry:factory size(1) dmg(7)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
@@ -2273,15 +2280,15 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest053",
-               "x" : 178,
-               "y" : 145,
+               "x" : 206,
+               "y" : 175,
                "big" : false,
                "icon" : "Forestry:craftingMaterial size(1) dmg(3)",
                "requirements" : [
@@ -2307,7 +2314,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Forestry:craftingMaterial size(2) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -2356,7 +2363,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(2) dmg(7)"
                ],
                "reputations" : [
                ]
