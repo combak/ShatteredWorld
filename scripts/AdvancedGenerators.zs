@@ -1,3 +1,4 @@
+import mods.buildcraft.AssemblyTable;
 import minetweaker.item.IItemStack;
 
 ########################################################################################################
@@ -13,7 +14,10 @@ val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
 # Thermal Expansion
-val thermExpCellResonant            = <ThermalExpansion:Cell:4>;
+val thermExpCellRedstone            = <ThermalExpansion:Cell:3>;
+
+# Thermal Dynamics
+val thermDynPipeFluid               = <ThermalDynamics:ThermalDynamics_16:1>;
 
 # Advanced Generators
 val advGeneFluxGenerator		= <advgenerators:RFOutput>;
@@ -21,6 +25,8 @@ val advGeneValveFuidIn			= <advgenerators:FluidInput>;
 val advGeneValveFluidOut		= <advgenerators:FluidOutputSelect>;
 val advGeneValveItemIn			= <advgenerators:ItemInput>;
 val advGeneValveItemOut			= <advgenerators:ItemOutput>;
+val advGeneFuelMixer            = <advgenerators:EfficiencyUpgradeTier1>;
+val advGeneCompressor           = <advgenerators:EfficiencyUpgradeTier2>;
 
 val advGenTurbines = [
   <advgenerators:TurbineIron>,		/* 0 - Iron Turbine */
@@ -32,7 +38,7 @@ val advGenTurbines = [
   <advgenerators:TurbineVibrant>	/* 6 - Vibrant Turbine */
 ] as IItemStack[];
 
-val advGeneFuelTank			= <advgenerators:FuelTank>;
+val advGeneFuelTank			    = <advgenerators:FuelTank>;
 val advGeneHeatingChamber		= <advgenerators:HeatingChamber>;
 val advGeneHeatExchanger		= <advgenerators:HeatExchanger>; 
 val advGeneSensorModule			= <advgenerators:Sensor>;
@@ -51,14 +57,20 @@ val advGeneControllerSyngasProducer	= <advgenerators:SyngasController>;
 val enderTechTankValve              = <EnderTech:endertech.enderTankPart:6>;
 val enderTechTankFrame              = <EnderTech:endertech.enderTankPart>;
 
+
+
 ########################################################################################################
 # Items
 ########################################################################################################
 
 # Advanced Generators               
 val advGenePowerIO			= <advgenerators:PowerIO>;
-val advGeneControlCircuit		= <advgenerators:Controller>;
-val advGeneFrameIron			= <advgenerators:IronFrame>;
+val advGeneControlCircuit   = <advgenerators:Controller>;
+val advGeneFrameIron		= <advgenerators:IronFrame>;
+val advGeneValve            = <advgenerators:PressureValve>;
+val advGeneValveAdv         = <advgenerators:AdvancedPressureValve>;
+val advGeneTubingIron       = <advgenerators:IronTubing>;
+val advGeneTubingRedstone   = <advgenerators:IronWiring>;
 
 val advGeneRotors = [
   <advgenerators:TurbineRotorIron>,		/* 0 - Iron Rotor */
@@ -79,16 +91,30 @@ val buildCraftChipQuarz             = <BuildCraft|Silicon:redstoneChipset:5>;
 val buildCraftChipGold              = <BuildCraft|Silicon:redstoneChipset:2>;
 val buildCraftChipDiamond           = <BuildCraft|Silicon:redstoneChipset:3>;
 val buildCraftChipEmerald           = <BuildCraft|Silicon:redstoneChipset:7>;
+val buildCraftWireRed               = <BuildCraft|Transport:pipeWire>;
+val buildCraftWireBlue              = <BuildCraft|Transport:pipeWire:1>;
+val buildCraftWireGreen             = <BuildCraft|Transport:pipeWire:2>;
+val buildCraftWireYellow            = <BuildCraft|Transport:pipeWire:3>;
+val buildCraftGateBasic             = <BuildCraft|Transport:pipeGate>;
 
 # Buildcraft Additions
 val bcAdditionUpgradeEject          = <bcadditions:upgrade>;
 val bcAdditionUpgradeImport         = <bcadditions:upgrade:7>;
 val bcAdditionGrindingWheel         = <bcadditions:grindingWheel>;
+val bcAdditionCableIron             = <bcadditions:wireIron>;
+val bcAdditionStickRedstone         = <bcadditions:stickRedstone>;
+val bcAdditionStickIron             = <bcadditions:stickIron>;
+
+# Forestry
+
+val forestryCircuitboardEnh         = <Forestry:chipsets:1>;
+val forestryWovenSilk               = <Forestry:craftingMaterial:3>;
 
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
 val projectRedChipEnergized         = <ProjRed|Core:projectred.core.part:8>;
 val projectRedChipSilicon           = <ProjRed|Core:projectred.core.part:7>;
+val projectRedWireRedAlloy          = <ProjRed|Transmission:projectred.transmission.wire>;
 
 # Thermal Dynamics 
 val thermDynaPipeFluidHard          = <ThermalDynamics:ThermalDynamics_16:2>; 
@@ -111,7 +137,15 @@ val thermFoundGearInvar             = <ThermalFoundation:material:136>;
 
 # Thermal Expansion
 val thermExpCoilConductance         = <ThermalExpansion:material:3>;
+val thermExpServo                   = <ThermalExpansion:material>;
 
+# Modular Machines
+
+val modMachinesPlateIron            = <ModularMachines:plate>;
+
+# Vanilla
+
+val vanillaredstoneDust             = <minecraft:redstone>;
 ########################################################################################################
 # Custom Crafting Recipes - Shaped
 ########################################################################################################
@@ -126,8 +160,12 @@ for i, turbine in advGenTurbines
 }
 
 # Alter
+
+recipes.remove( advGeneFrameIron );
+recipes.addShaped ( advGeneFrameIron, [ [ buildCraftWireRed, modMachinesPlateIron, buildCraftWireBlue], [ modMachinesPlateIron, null, modMachinesPlateIron],[ buildCraftWireGreen, modMachinesPlateIron, buildCraftWireYellow] ]);
+
 recipes.remove( advGeneFluxGenerator );
-recipes.addShaped( advGeneFluxGenerator, [ [ enderioChassis, advGenePowerIO , enderioChassis ], [ projectRedChipSilicon, thermExpCoilConductance, buildCraftChipEmerald ],  [ enderioChassis, bcAdditionCoilKinetic, enderioChassis ] ]);
+recipes.addShaped( advGeneFluxGenerator, [ [ advGeneFrameIron, advGenePowerIO , advGeneFrameIron ], [ projectRedChipSilicon, enderioChassis, buildCraftChipEmerald ],  [ advGeneFrameIron, bcAdditionCoilKinetic, advGeneFrameIron] ]);
 
 recipes.remove( advGeneValveFuidIn );
 recipes.addShaped( advGeneValveFuidIn,[ [ null, null , null ], [ buildcraftFluidPipeEmerald, thermFoundGearInvar, buildcraftFluidPipeGold ], [ null, enderioChassis, null ] ]);
@@ -149,16 +187,16 @@ recipes.remove( advGeneHeatingChamber );
 recipes.addShaped( advGeneHeatingChamber, [ [ sJetpacksDarkSteelPlating, bcAdditionCoilKinetic , sJetpacksDarkSteelPlating ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ sJetpacksDarkSteelPlating, bcAdditionCoilKinetic, sJetpacksDarkSteelPlating ] ]);
 
 recipes.remove( advGeneHeatExchanger );
-recipes.addShaped( advGeneHeatExchanger, [ [ enderioChassis, enderTechTankValve , enderioChassis ], [ bcAdditionCoilLava, null, bcAdditionCoilLava ], [ enderioChassis, buildCraftChipDiamond, enderioChassis ] ]);
+recipes.addShaped( advGeneHeatExchanger, [ [ advGeneFrameIron, enderTechTankValve , advGeneFrameIron ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ advGeneFrameIron, buildCraftChipDiamond, advGeneFrameIron ] ]);
 
 recipes.remove( advGeneSensorModule );
-recipes.addShaped( advGeneSensorModule, [ [ enderioChassis, buildCraftChipDiamond , enderioChassis ], [ buildCraftChipGold, projectRedChipEnergized, buildCraftChipQuarz ], [ enderioChassis, buildCraftChipEmerald, enderioChassis ] ]);
+recipes.addShaped( advGeneSensorModule, [ [ advGeneFrameIron, buildCraftChipDiamond , advGeneFrameIron ], [ buildCraftChipGold, projectRedChipEnergized, buildCraftChipQuarz ], [ advGeneFrameIron, buildCraftChipEmerald, advGeneFrameIron] ]);
 
 recipes.remove( advGeneMixingChamber );
-recipes.addShaped( advGeneMixingChamber, [ [ enderioChassis, projectRedChipSilicon , enderioChassis ], [ enderTechTankValve, bcAdditionGrindingWheel, enderTechTankValve ], [ enderioChassis, projectRedConductivePlate, enderioChassis ] ]);
+recipes.addShaped( advGeneMixingChamber, [ [ advGeneFrameIron, projectRedChipSilicon , advGeneFrameIron ], [ advGeneValve, bcAdditionGrindingWheel, advGeneValve ], [ advGeneFrameIron, projectRedConductivePlate, advGeneFrameIron ] ]);
 
 recipes.remove( advGenePowerCapacitorRedstone );
-recipes.addShaped( advGenePowerCapacitorRedstone, [ [ null, advGenePowerIO , null ], [ projectRedConductivePlate, thermExpCellResonant, advGeneControlCircuit ], [ bcAdditionCoilKinetic, enderioChassis, bcAdditionCoilKinetic ] ]);
+recipes.addShaped( advGenePowerCapacitorRedstone, [ [ null, advGenePowerIO , null ], [ projectRedConductivePlate, thermExpCellRedstone, advGeneControlCircuit ], [ bcAdditionCoilKinetic, enderioChassis, bcAdditionCoilKinetic ] ]);
 
 recipes.remove( advGenePowerCapacitorAdvanced );
 recipes.addShaped( advGenePowerCapacitorAdvanced, [ [ null, advGenePowerIO , null ], [ bcAdditionCoilKinetic, advGenePowerCapacitorRedstone, bcAdditionCoilKinetic ], [ null, advGeneControlCircuit, null ] ]);
@@ -177,3 +215,24 @@ recipes.addShaped( advGeneControllerSteamTurbine, [ [ enderTechTankFrame, bcAddi
 
 recipes.remove( advGeneControllerSyngasProducer );
 recipes.addShaped( advGeneControllerSyngasProducer, [ [ enderTechTankFrame, bcAdditionCoilKinetic , enderTechTankFrame ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ enderTechTankFrame, buildCraftChipEmerald, enderTechTankFrame ] ]);
+
+recipes.remove( advGeneFuelMixer);
+recipes.addShaped(advGeneFuelMixer, [[advGeneFrameIron, thermExpServo, advGeneFrameIron], [advGeneValve, forestryWovenSilk, advGeneTubingIron],[advGeneFrameIron, thermExpServo, advGeneFrameIron]]);
+
+recipes.remove( advGeneCompressor);
+recipes.addShaped (advGeneCompressor, [[advGeneFrameIron, thermExpServo, advGeneFrameIron], [advGeneValveAdv, null, advGeneValveAdv], [advGeneFrameIron, advGeneTubingIron, advGeneFrameIron]]);
+
+recipes.remove (advGeneValve);
+recipes.addShaped (advGeneValve, [[null, advGeneTubingIron, null],[null, modMachinesPlateIron, null], [null,thermDynPipeFluid, null]]);
+
+recipes.remove (advGenePowerIO);
+recipes.addShaped (advGenePowerIO, [[modMachinesPlateIron, thermExpServo, modMachinesPlateIron],[modMachinesPlateIron, vanillaredstoneDust, modMachinesPlateIron], [modMachinesPlateIron, thermExpServo, modMachinesPlateIron ]]);
+
+recipes.remove (advGeneControlCircuit);
+AssemblyTable.addRecipe( advGeneControlCircuit, 5000, [ projectRedWireRedAlloy*4, forestryCircuitboardEnh, buildCraftGateBasic*2 ] );
+
+recipes.remove (advGeneTubingIron);
+recipes.addShaped (advGeneTubingIron, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
+
+recipes.remove (advGeneTubingRedstone);
+recipes.addShaped (advGeneTubingRedstone, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickRedstone, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
