@@ -19,8 +19,10 @@ val thermExpDynamoCompression	= <ThermalExpansion:Dynamo:2>;
 val thermExpDynamoReactant	= <ThermalExpansion:Dynamo:3>;
 val thermExpDynamoEnervation	= <ThermalExpansion:Dynamo:4>;
 val thermExpActivator		= <ThermalExpansion:Device:2>;
+
 # Buildcraft Additions
 val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
+
 # ExNihilo
 val exnihiloAluList = [ 
   <exnihilo:aluminum_gravel>, 
@@ -58,6 +60,7 @@ val removeInduction = [
  # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
   <ThermalFoundation:material:32>	/* Copper Dust to Ingot */
 ] as IItemStack[];
+
 ########################################################################################################################
 # (Mixed) Data Structures - Redstone Furnace - Remove 
 ########################################################################################################################

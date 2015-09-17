@@ -89,13 +89,6 @@ val buildCraftPipePowerDiamond	= <BuildCraft|Transport:item.buildcraftPipe.pipep
 # Thermal Expansion
 val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
 
-val buildCraftGears = [
-#  <BuildCraft|Core:goldGearItem>,	/* 0 - Gold */
-#  <BuildCraft|Core:ironGearItem>,	/* 1 - Iron */
-#  <BuildCraft|Core:woodenGearItem>,	/* 2 - Wooden */
-#  <BuildCraft|Core:stoneGearItem>,	/* 3 - Stone */
-] as IItemStack[];
-
 # Draconic Evolution
 val dracEvoDraconiumIngot = <DraconicEvolution:draconiumIngot>;
 
@@ -141,12 +134,6 @@ recipes.remove( buildCraftMiningWell );
 # Laser
 recipes.remove( buildCraftLaser );
 recipes.addShaped( buildCraftLaser, [ [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ], [ odFluxCrystal, botaniaManaLens, extUtilObsiGlass ], [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ] ] );
-
-# Remove Gear Recipies
-for i, gear in buildCraftGears
-{
-  recipes.remove( gear );
-}
 
 # RF Generators Recipes
 recipes.remove( buildCraftEngineStirling );

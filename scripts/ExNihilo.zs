@@ -8,6 +8,7 @@ val vanillaLavaFlowing	= <minecraft:flowing_lava>;
 val vanillaFire		= <minecraft:fire>;
 val vanillaTorch	= <minecraft:torch:5>;
 val vanillaSand		= <minecraft:sand>;
+
 # Thaumcraft
 val thaumcraftNitor 	= <Thaumcraft:blockAiry:1>;
 

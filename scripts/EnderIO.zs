@@ -6,8 +6,6 @@ import minetweaker.item.IItemStack;
 # BC Additions
 val bcAdditionCoilBasic             = <bcadditions:blockCoilBasic>;
 
-
-
 # EnderIO
 val enderioGeneratorStirling        = <EnderIO:blockStirlingGenerator>;
 val enderioGeneratorCombustion      = <EnderIO:blockCombustionGenerator>;

@@ -128,12 +128,6 @@ val forestryPlanks = [
   <Forestry:fireproofPlanks2:12>	/* 57 - Zebrawood */  
 ] as IItemStack[];
 
-val forestryBlockOf = [
-#  <Forestry:resourceStorage:1>,		/* 0 - Copper */
-#  <Forestry:resourceStorage:2>, 	/* 1 - Tin */
-#  <Forestry:resourceStorage:3> 		/* 2 - Bronze */
-] as IItemStack[];
-
 # Forestry
 val forestryEngineClockwork	= <Forestry:engine:1>;
 val forestryEnginePeat		= <Forestry:engine:2>;
@@ -151,12 +145,6 @@ val bcAdditionObsidianDust = <bcadditions:dust:58>;
 ########################################################################################################################
 # Items
 ########################################################################################################################
-
-val forestryIngot = [
-#  <Forestry:ingotCopper>,	/* 0 - Copper */
-#  <Forestry:ingotTin>,		/* 1 - Tin */
-#  <Forestry:ingotBronze>	/* 2 - Bronze */
-] as IItemStack[];
 
 # BuildCraft
 val buildCraftPipePowerStone        = <BuildCraft|Transport:item.buildcraftPipe.pipepowerstone>;
@@ -177,37 +165,15 @@ val odIngotAluminum                 = <ore:ingotAluminum>;
 # Custom Crafting Recipes - Shaped
 ########################################################################################################################
 
-# Remove Nugget/Block to Ingot Crafting
-for i, ingot in forestryIngot
-{
-  recipes.remove( ingot );
-}
-
-# Remove Ingot to Block Crafting
-for i, block in forestryBlockOf
-{
-  recipes.remove( block );
-}
-
 # RF Generators
-recipes.remove(forestryEngineClockwork);				  
-recipes.addShaped
-                 (forestryEngineClockwork, [
-				   [odIngotSilver, odIngotSilver, odIngotSilver],
-				   [null, enderioChassis, null],
-				   [buildCraftPipePowerStone, thermExpTransmissionCoil, buildCraftPipePowerStone]]);
-recipes.remove(forestryEnginePeat);								  
-recipes.addShaped
-                 (forestryEnginePeat,[
-				    [odIngotAluminum, odIngotAluminum, odIngotAluminum],
-					[null, enderioChassis, null],
-					[buildCraftPipePowerSandstone,thermExpTransmissionCoil, buildCraftPipePowerSandstone]]);
+recipes.remove( forestryEngineClockwork);
+recipes.addShaped(forestryEngineClockwork, [ [ odIngotSilver, odIngotSilver, odIngotSilver ], [ null, enderioChassis, null ], [ buildCraftPipePowerStone, thermExpTransmissionCoil, buildCraftPipePowerStone] ]);
+
+recipes.remove(forestryEnginePeat);
+recipes.addShaped( forestryEnginePeat, [ [ odIngotAluminum, odIngotAluminum, odIngotAluminum ], [ null, enderioChassis, null ], [ buildCraftPipePowerSandstone,thermExpTransmissionCoil, buildCraftPipePowerSandstone ]]);
+
 recipes.remove(forestryEngineBiogas);
-recipes.addShaped
-                 (forestryEngineBiogas, [
-				    [odIngotGildedRedMetal, odIngotGildedRedMetal, odIngotGildedRedMetal],
-					[null, enderioChassis, null],
-					[buildCraftPipePowerEmerald, thermExpTransmissionCoil, buildCraftPipePowerEmerald]]);
+recipes.addShaped( forestryEngineBiogas, [ [ odIngotGildedRedMetal, odIngotGildedRedMetal, odIngotGildedRedMetal ], [ null, enderioChassis, null ], [ buildCraftPipePowerEmerald, thermExpTransmissionCoil, buildCraftPipePowerEmerald ]]);
 
 ########################################################################################################################
 # Custom Crafting Recipes - Shapeless
@@ -224,5 +190,6 @@ for i, log in forestryLogs
 ########################################################################################################################
 # Machine - Centrifuge
 ########################################################################################################################
+
 mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
 mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
