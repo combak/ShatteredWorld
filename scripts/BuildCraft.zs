@@ -90,10 +90,10 @@ val buildCraftPipePowerDiamond	= <BuildCraft|Transport:item.buildcraftPipe.pipep
 val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
 
 val buildCraftGears = [
-  <BuildCraft|Core:goldGearItem>,	/* 0 - Gold */
-  <BuildCraft|Core:ironGearItem>,	/* 1 - Iron */
-  <BuildCraft|Core:woodenGearItem>,	/* 2 - Wooden */
-  <BuildCraft|Core:stoneGearItem>,	/* 3 - Stone */
+#  <BuildCraft|Core:goldGearItem>,	/* 0 - Gold */
+#  <BuildCraft|Core:ironGearItem>,	/* 1 - Iron */
+#  <BuildCraft|Core:woodenGearItem>,	/* 2 - Wooden */
+#  <BuildCraft|Core:stoneGearItem>,	/* 3 - Stone */
 ] as IItemStack[];
 
 # Draconic Evolution

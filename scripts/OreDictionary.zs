@@ -133,6 +133,26 @@ val oreDictRemoveCraftingIngots = [
   <ore:ingotDraconium>
 ] as IIngredient[];
 
+val oreDictRemoveGears = [
+  <ore:gearWood>,
+  <ore:gearStone>,
+  <ore:gearIron>,
+  <ore:gearGold>,
+  <ore:gearCopper>,
+  <ore:gearTin>,
+  <ore:gearSilver>,
+  <ore:gearLead>,
+  <ore:gearNickel>,
+  <ore:gearPlatinum>,
+  <ore:gearMithril>,
+  <ore:gearElectrum>,
+  <ore:gearInvar>,
+  <ore:gearBronze>,
+  <ore:gearSignalum>,
+  <ore:gearLumium>,
+  <ore:gearEnderium>
+] as IIngredient[];
+
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
@@ -153,4 +173,10 @@ for nugget in oreDictRemoveCraftingNuggets
 for ingot in oreDictRemoveCraftingIngots
 {
   recipes.remove( ingot );
+}
+
+# Remove Gear Crafting
+for gear in oreDictRemoveGears
+{
+  recipes.remove( gear );
 }
