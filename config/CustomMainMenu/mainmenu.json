@@ -6,17 +6,17 @@
       "image" : "shatteredworld:BlackBackground.png",
       "posX" : 10,
       "posY" : 0,
-      "width" : 100,
+      "width" : 130,
       "height" : 2000,
       "alignment" : "top_left"
-    },  
-    "title":
+    },
+    "logo":
     {
       "image" : "shatteredworld:logo.png",
-      "posX" : 15,
+      "posX" : 0,
       "posY" : 5,
-      "width" : 90,
-      "height" : 90,
+      "width" : 150,
+      "height" : 52,
       "alignment" : "top_left"
     }
   },
@@ -26,9 +26,9 @@
     "singleplayer":
     {
       "text" : "menu.singleplayer",
-      "posX" : 20,
+      "posX" : 25,
       "posY" : -44,
-      "width" : 80,
+      "width" : 100,
       "height" : 20, 
       "alignment" : "left_center",
       "action" : 
@@ -41,9 +41,9 @@
     "multiplayer":
     {
       "text" : "menu.multiplayer",
-      "posX" : 20,
+      "posX" : 25,
       "posY" : -22,
-      "width" : 80,
+      "width" : 100,
       "height" : 20, 
       "alignment" : "left_center",
       "action" : 
@@ -56,9 +56,9 @@
     "mods":
     {
       "text" : "Mods",
-      "posX" : 20,
+      "posX" : 25,
       "posY" : 0,
-      "width" : 80,
+      "width" : 100,
       "height" : 20, 
       "alignment" : "left_center",
       "action" : 
@@ -71,9 +71,9 @@
     "options":
     {
       "text" : "menu.options",
-      "posX" : 20,
+      "posX" : 25,
       "posY" : 22,
-      "width" : 80,
+      "width" : 100,
       "height" : 20, 
       "alignment" : "left_center",
       "action" : 
@@ -86,9 +86,9 @@
     "quit":
     {
       "text" : "menu.quit",
-      "posX" : 20,
+      "posX" : 25,
       "posY" : 44,
-      "width" : 80,
+      "width" : 100,
       "height" : 20, 
       "alignment" : "left_center",
       "action" : 
@@ -110,7 +110,8 @@
       {
 	  "type" : "refresh"
       }
-    }*/
+    }
+    */
   },
   
   "texts":
@@ -118,7 +119,7 @@
     "mcversion":
     {
       "text": "Minecraft #mcversion#",
-      "posX" : 20,
+      "posX" : 35,
       "posY" : -30,
       "color" : -1,
       "alignment" : "bottom_left"
@@ -126,7 +127,7 @@
     "forgeversion":
     {
       "text": "FML #forgeversion#",
-      "posX" : 20,
+      "posX" : 35,
       "posY" : -20,
       "color" : -1,
       "alignment" : "bottom_left"
@@ -134,7 +135,7 @@
     "mods":
     {
       "text": "#modsactive# active Mods ",
-      "posX" : 20,
+      "posX" : 35,
       "posY" : -10,
       "color" : -1,
       "alignment" : "bottom_left"
