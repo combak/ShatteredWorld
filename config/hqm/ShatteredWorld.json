@@ -2436,7 +2436,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:obsidian size(4) dmg(0)",
+                  "minecraft:dye size(16) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -2496,7 +2497,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:diamond size(2) dmg(0)",
+                  "minecraft:redstone size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2527,7 +2529,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "BuildCraft|Energy:bucketOil size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2571,6 +2573,7 @@
                      "requirements" : [
                         {
                            "item" : "BuildCraft|Transport:pipeGate size(1) dmg(0)",
+                           "nbt" : "=COMPOUND( mat=BYTE(0), logic=BYTE(0) )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -2578,7 +2581,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalFoundation:material size(2) dmg(128)",
+                  "minecraft:ender_pearl size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2616,6 +2620,7 @@
                      "requirements" : [
                         {
                            "item" : "BuildCraft|Transport:pipeGate size(1) dmg(0)",
+                           "nbt" : "=COMPOUND( mat=BYTE(0), ex=LIST( STRING('buildcraft:pulsar') ), logic=BYTE(0) )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -2623,7 +2628,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalFoundation:material size(2) dmg(13)"
                ],
                "reputations" : [
                ]
@@ -2662,7 +2667,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalFoundation:material size(4) dmg(44)"
                ],
                "reputations" : [
                ]
@@ -2701,7 +2706,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2732,7 +2737,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemMaterial size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2777,7 +2782,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemAlloy size(2) dmg(5)"
                ],
                "reputations" : [
                ]
@@ -2822,7 +2827,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemConduitProbe size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2856,7 +2861,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemBasicFilterUpgrade size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2890,7 +2895,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemAlloy size(8) dmg(6)"
                ],
                "reputations" : [
                ]
@@ -2924,7 +2929,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:blockEndermanSkull size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2973,7 +2978,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemAlloy size(4) dmg(7)"
                ],
                "reputations" : [
                ]
@@ -3034,7 +3039,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "EnderIO:itemBasicCapacitor size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -3079,7 +3084,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3136,7 +3141,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemPaintBall size(32) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3170,7 +3175,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(140)"
                ],
                "reputations" : [
                ]
@@ -3209,7 +3214,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:redstone size(32) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3274,7 +3279,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:tile.BlockQuartzTorch size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3325,7 +3330,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:tile.BlockTinyTNT size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3359,7 +3364,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ThermalExpansion:Frame size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3398,7 +3403,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:piston size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3430,6 +3435,9 @@
                         }
                      ]
                   }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -3464,7 +3472,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiPart size(8) dmg(16)"
                ],
                "reputations" : [
                ]
@@ -3498,7 +3506,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(56)"
                ],
                "reputations" : [
                ]
@@ -3538,7 +3546,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemViewCell size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3587,7 +3595,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:tile.BlockInterface size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3621,7 +3629,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemBasicStorageCell.1k size(3) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3638,7 +3646,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -3655,7 +3663,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(27)"
                ],
                "reputations" : [
                ]
@@ -3694,7 +3702,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(30)"
                ],
                "reputations" : [
                ]
@@ -3728,7 +3736,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ToolColorApplicator size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3762,7 +3770,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "extracells:storage.fluid size(1) dmg(0)",
+                  "extracells:part.base size(1) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -3796,7 +3805,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "ProjRed|Integration:projectred.integration.gate size(2) dmg(26)"
                ],
                "reputations" : [
                ]
@@ -3830,19 +3839,19 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(9)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest090",
-               "x" : 214,
-               "y" : 100,
+               "x" : 198,
+               "y" : 75,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
                "requirements" : [
-                  "quest089"
+                  "quest290"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3864,7 +3873,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiPart size(2) dmg(460)"
                ],
                "reputations" : [
                ]
@@ -3898,7 +3907,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiPart size(3) dmg(440)"
                ],
                "reputations" : [
                ]
@@ -3947,7 +3956,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3986,7 +3995,42 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiMaterial size(8) dmg(52)",
+                  "appliedenergistics2:item.ToolPortableCell size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest290",
+               "x" : 214,
+               "y" : 100,
+               "big" : false,
+               "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(45)",
+               "requirements" : [
+                  "quest089"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "appliedenergistics2:tile.BlockSkyStone size(1) dmg(0)",
+                           "required" : 4,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(76)"
                ],
                "reputations" : [
                ]
@@ -6581,7 +6625,7 @@
                      "requirements" : [
                         {
                            "item" : "Botania:flower size(1) dmg(0)",
-                           "required" : 10,
+                           "required" : 5,
                            "precision" : "FUZZY"
                         }
                      ]
@@ -6608,7 +6652,7 @@
                         },
                         {
                            "item" : "Botania:dye size(1) dmg(0)",
-                           "required" : 10,
+                           "required" : 2,
                            "precision" : "FUZZY"
                         }
                      ]
@@ -8070,7 +8114,7 @@
                         {
                            "item" : "Botania:flightTiara size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -8999,22 +9043,22 @@
                         {
                            "item" : "AWWayofTime:boundHelmet size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "AWWayofTime:boundPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "AWWayofTime:boundLeggings size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "AWWayofTime:boundBoots size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -9399,7 +9443,7 @@
                         {
                            "item" : "AWWayofTime:blockCrystalBelljar size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }

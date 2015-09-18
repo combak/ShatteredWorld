@@ -1311,6 +1311,18 @@
                      "description" : "Mit diesen beiden Komponenten sehn wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen."
                   }
                ]
+            },
+            {
+               "id" : "quest290",
+               "name" : "Sternenstaub",
+               "description" : "Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoreinschlaegen koennen weiter verarbeitet werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Um Sky Stone zu erhalten musst du nur ein Barrel mit Lava fullen und mit einem Sky Stone Dust darauf rechts klicken. Ist doch ganz einfach."
+                  }
+               ]
             }
          ]
       },
