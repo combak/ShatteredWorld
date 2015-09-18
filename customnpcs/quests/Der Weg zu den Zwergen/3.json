@@ -1,12 +1,12 @@
 {
-    CompleterNpc: "Kineth",
+    CompleterNpc: "Borim",
     NextQuestId: -1,
     RandomReward: 0b,
-    QuestRepeat: 1,
+    QuestRepeat: 0,
     QuestCompletion: 0,
     IgnoreNBT: 0b,
-    Title: "Botania 1",
-    Text: "Hallo {player}Wir brauchen Botania-Pflanzen.Kannst du uns welche besorgen?",
+    Title: "Borims Einlass",
+    Text: "Borim die Wache der Zwergen Stadt gewährt dir einlass. Wenn du ihm eine Liste von dem Largermeister der Zwerge der auf dem Berg vor dem Eingang ist hollst.",
     QuestFactionPoints: {
         DecreaseFaction1Points: 0b,
         OptionFaction2Points: 100,
@@ -27,7 +27,7 @@
         MailItems: [
         ],
         MailQuest: -1,
-        TimePast: 1441302179084L,
+        TimePast: 1441124133988L,
         Time: 0L,
         Subject: ""
     },
@@ -40,13 +40,18 @@
         NpcMiscInv: [
             {
                 Slot: 0b,
-                id: "Botania:flower",
-                Count: 16b,
+                id: "customnpcs:npcLetter",
+                Count: 1b,
+                tag: {
+                    display: {
+                        Name: "Larger Liste von Alrik"
+                    }
+                },
                 Damage: 0s
             }
         ]
     },
     LeaveItems: 0b,
-    CompleteText: "Vielen Danke {player} für die Pflanzen.",
+    CompleteText: "Borim die Wache ist zufrieden mit dir und du er hält dich für würdig in die Stadt der Zwerge zu gehen.",
     NextQuestTitle: ""
 }
