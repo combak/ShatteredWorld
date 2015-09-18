@@ -307,6 +307,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/225903-garden-stuff/files
 - Licence: https://github.com/jaquadro/GardenCollection/blob/master/LICENSE
 
+**Guide API**
+> > Minecraft Mod Public License
+
+- Author: TehNut, Tombenpotter
+- Files: http://minecraft.curseforge.com/mc-mods/228832-guide-api/files
+- Licence: https://github.com/TeamAmeriFrance/Guide-API/blob/1.7.10/LICENSE.md
+
 ## H
 
 **Hardcore Darkness**
