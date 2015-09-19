@@ -4066,7 +4066,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4100,7 +4100,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(8) dmg(5)"
                ],
                "reputations" : [
                ]
@@ -4134,7 +4134,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(2) dmg(8)"
                ],
                "reputations" : [
                ]
@@ -4168,7 +4168,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:netherrack size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4202,7 +4202,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:desertNova size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4241,7 +4241,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:Aum size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4290,7 +4290,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:leather size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4324,7 +4324,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:liquidEssenceBucket size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4385,7 +4385,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(8) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -4419,7 +4419,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:rune size(1) dmg(17)"
                ],
                "reputations" : [
                ]
@@ -4463,7 +4463,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:lesserManaPotion size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4497,7 +4497,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:lesserManaPotion size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4532,7 +4532,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(2) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -4581,7 +4581,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)",
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4615,7 +4616,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:manaBattery size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4649,7 +4650,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(1) dmg(7)"
                ],
                "reputations" : [
                ]
@@ -4688,7 +4689,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:rune size(1) dmg(17)"
                ],
                "reputations" : [
                ]
@@ -4722,7 +4723,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -4758,7 +4759,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:diamond size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4794,7 +4795,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:golden_apple size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4830,7 +4831,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(6)"
                ],
                "reputations" : [
                ]
@@ -4847,7 +4848,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -4866,7 +4867,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(29)",
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(28)"
                ],
                "reputations" : [
                ]
@@ -4902,7 +4904,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:WandCasting size(1) dmg(72)"
                ],
                "reputations" : [
                ]
@@ -4938,7 +4940,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4955,7 +4957,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -4974,7 +4976,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:nether_star size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4991,7 +4993,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5010,7 +5012,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:dragon_egg size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -5046,7 +5048,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:dragonHeart size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -5096,7 +5098,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:rune size(1) dmg(18)"
                ],
                "reputations" : [
                ]
@@ -5135,7 +5137,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:itemOre size(2) dmg(6)"
                ],
                "reputations" : [
                ]
@@ -5152,7 +5154,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5171,7 +5173,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconicIngot size(4) dmg(0)"
                ],
                "reputations" : [
                ]
