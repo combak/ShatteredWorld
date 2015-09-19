@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.ENERGYMANAGER",
+    "text": "mm.techtree_entry_text.ENERGYMANAGER",
+    "pages": [
+      "mm.techtree_page.ENERGYMANAGER.0"
+    ]
+  }
+}

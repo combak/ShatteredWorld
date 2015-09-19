@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.CAPACITOR.BASE",
+    "text": "mm.techtree_entry_text.CAPACITOR.BASE",
+    "pages": [
+      "mm.techtree_page.CAPACITOR.BASE.0"
+    ]
+  }
+}

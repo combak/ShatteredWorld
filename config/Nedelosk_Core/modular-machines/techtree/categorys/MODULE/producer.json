@@ -1,0 +1,20 @@
+{
+  "key": "PRODUCER",
+  "category": "MODULE",
+  "parents": [
+    "TOOL"
+  ],
+  "column": 0,
+  "row": -4,
+  "pages": [
+    {
+      "text": "mm.techtree_page.PRODUCER.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "minecraft:iron_axe:0",
+  "techpoints": 15,
+  "techpointTypes": "easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

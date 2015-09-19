@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.GENERATOR",
+    "text": "mm.techtree_entry_text.GENERATOR",
+    "pages": [
+      "mm.techtree_page.GENERATOR.0"
+    ]
+  }
+}

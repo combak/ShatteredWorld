@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.MODULE.SAGMILL.BASE",
+    "text": "mm.techtree_entry_text.MODULE.SAGMILL.BASE",
+    "pages": [
+      "mm.techtree_page.MODULE.SAGMILL.BASE.0"
+    ]
+  }
+}

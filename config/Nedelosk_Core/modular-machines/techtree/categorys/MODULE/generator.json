@@ -1,0 +1,20 @@
+{
+  "key": "GENERATOR",
+  "category": "MODULE",
+  "parents": [
+    "TOOL"
+  ],
+  "column": 2,
+  "row": -2,
+  "pages": [
+    {
+      "text": "mm.techtree_page.GENERATOR.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "minecraft:furnace:0",
+  "techpoints": 15,
+  "techpointTypes": "easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

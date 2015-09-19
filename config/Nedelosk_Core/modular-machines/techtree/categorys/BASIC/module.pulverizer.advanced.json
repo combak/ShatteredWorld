@@ -1,0 +1,21 @@
+{
+  "key": "MODULE.PULVERIZER.ADVANCED",
+  "category": "BASIC",
+  "parents": [
+    "MODULE.PULVERIZER.IMPROVED",
+    "MODULE.SAGMILL.ADVANCED"
+  ],
+  "column": 4,
+  "row": -3,
+  "pages": [
+    {
+      "text": "mm.techtree_page.MODULE.PULVERIZER.ADVANCED.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:2,Name:\"moduleProducerPulverizer\"}]",
+  "techpoints": 1,
+  "techpointTypes": "very_easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

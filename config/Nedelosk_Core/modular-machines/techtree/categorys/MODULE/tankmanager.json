@@ -1,0 +1,20 @@
+{
+  "key": "TANKMANAGER",
+  "category": "MODULE",
+  "parents": [
+    "CASING"
+  ],
+  "column": 2,
+  "row": 0,
+  "pages": [
+    {
+      "text": "mm.techtree_page.TANKMANAGER.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:2,Name:\"moduleTankManager\"}]",
+  "techpoints": 15,
+  "techpointTypes": "easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

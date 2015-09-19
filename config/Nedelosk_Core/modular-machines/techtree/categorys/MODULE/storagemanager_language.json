@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.STORAGEMANAGER",
+    "text": "mm.techtree_entry_text.STORAGEMANAGER",
+    "pages": [
+      "mm.techtree_page.STORAGEMANAGER.0"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.MODULE.FURNACE.BASE",
+    "text": "mm.techtree_entry_text.MODULE.FURNACE.BASE",
+    "pages": [
+      "mm.techtree_page.MODULE.FURNACE.BASE.0"
+    ]
+  }
+}

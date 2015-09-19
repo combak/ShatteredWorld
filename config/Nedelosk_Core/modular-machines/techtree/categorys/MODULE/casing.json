@@ -1,0 +1,17 @@
+{
+  "key": "CASING",
+  "category": "MODULE",
+  "column": 0,
+  "row": 0,
+  "pages": [
+    {
+      "text": "mm.techtree_page.CASING.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "EnderIO:itemMachinePart:0",
+  "techpoints": 15,
+  "techpointTypes": "easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

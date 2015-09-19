@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.MODULE.FURNACE.ADVANCED",
+    "text": "mm.techtree_entry_text.MODULE.FURNACE.ADVANCED",
+    "pages": [
+      "mm.techtree_page.MODULE.FURNACE.ADVANCED.0"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "key": "MODULE.CENTRIFUGE.IMPROVED",
+  "category": "BASIC",
+  "parents": [
+    "MODULE.CENTRIFUGE.BASE",
+    "MODULE.ALLOYSMELTER.IMPROVED",
+    "MODULE.PULVERIZER.IMPROVED"
+  ],
+  "column": 7,
+  "row": 0,
+  "pages": [
+    {
+      "text": "mm.techtree_page.MODULE.CENTRIFUGE.IMPROVED.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:1,Name:\"moduleProducerCentrifuge\"}]",
+  "techpoints": 1,
+  "techpointTypes": "very_easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.TANK",
+    "text": "mm.techtree_entry_text.TANK",
+    "pages": [
+      "mm.techtree_page.TANK.0"
+    ]
+  }
+}

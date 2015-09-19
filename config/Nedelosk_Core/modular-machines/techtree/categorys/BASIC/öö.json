@@ -1,0 +1,17 @@
+{
+  "key": "öö",
+  "category": "BASIC",
+  "column": 10,
+  "row": 10,
+  "pages": [
+    {
+      "text": "mm.techtree_page.öö.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "minecraft:planks:0",
+  "techpoints": 1,
+  "techpointTypes": "very_easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

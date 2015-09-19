@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.ENERGYACCEPTOR",
+    "text": "mm.techtree_entry_text.ENERGYACCEPTOR",
+    "pages": [
+      "mm.techtree_page.ENERGYACCEPTOR.0"
+    ]
+  }
+}

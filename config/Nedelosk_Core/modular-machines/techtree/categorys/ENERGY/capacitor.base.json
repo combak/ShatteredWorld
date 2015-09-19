@@ -1,0 +1,20 @@
+{
+  "key": "CAPACITOR.BASE",
+  "category": "ENERGY",
+  "parents": [
+    "CAPACITOR"
+  ],
+  "column": 0,
+  "row": 0,
+  "pages": [
+    {
+      "text": "mm.techtree_page.CAPACITOR.BASE.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:capacitor:0",
+  "techpoints": 15,
+  "techpointTypes": "easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

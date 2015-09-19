@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.MODULE.CENTRIFUGE.IMPROVED",
+    "text": "mm.techtree_entry_text.MODULE.CENTRIFUGE.IMPROVED",
+    "pages": [
+      "mm.techtree_page.MODULE.CENTRIFUGE.IMPROVED.0"
+    ]
+  }
+}

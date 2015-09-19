@@ -1,0 +1,22 @@
+{
+  "key": "MODULE.CENTRIFUGE.ADVANCED",
+  "category": "BASIC",
+  "parents": [
+    "MODULE.CENTRIFUGE.IMPROVED",
+    "MODULE.PULVERIZER.ADVANCED",
+    "MODULE.ALLOYSMELTER.ADVANCED"
+  ],
+  "column": 8,
+  "row": 0,
+  "pages": [
+    {
+      "text": "mm.techtree_page.MODULE.PULVERIZER.ADVANCED.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:2,Name:\"moduleProducerCentrifuge\"}]",
+  "techpoints": 1,
+  "techpointTypes": "very_easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

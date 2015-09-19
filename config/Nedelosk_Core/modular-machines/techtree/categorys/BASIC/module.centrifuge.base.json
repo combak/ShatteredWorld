@@ -1,0 +1,21 @@
+{
+  "key": "MODULE.CENTRIFUGE.BASE",
+  "category": "BASIC",
+  "parents": [
+    "MODULE.PULVERIZER.BASE",
+    "MODULE.ALLOYSMELTER.BASE"
+  ],
+  "column": 6,
+  "row": 0,
+  "pages": [
+    {
+      "text": "mm.techtree_page.MODULE.CENTRIFUGE.BASE.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:0,Name:\"moduleProducerCentrifuge\"}]",
+  "techpoints": 1,
+  "techpointTypes": "very_easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

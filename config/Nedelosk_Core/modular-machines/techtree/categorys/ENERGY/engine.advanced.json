@@ -1,0 +1,20 @@
+{
+  "key": "ENGINE.ADVANCED",
+  "category": "ENERGY",
+  "parents": [
+    "ENGINE.IMPROVED"
+  ],
+  "column": 2,
+  "row": 2,
+  "pages": [
+    {
+      "text": "mm.techtree_page.ENGINE.ADVANCED.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:2,Name:\"moduleEngineNormal\"}]",
+  "techpoints": 13,
+  "techpointTypes": "hard",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

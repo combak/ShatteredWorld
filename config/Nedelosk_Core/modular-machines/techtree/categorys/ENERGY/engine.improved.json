@@ -1,0 +1,20 @@
+{
+  "key": "ENGINE.IMPROVED",
+  "category": "ENERGY",
+  "parents": [
+    "ENGINE.BASE"
+  ],
+  "column": 2,
+  "row": 1,
+  "pages": [
+    {
+      "text": "mm.techtree_page.ENGINE.IMPROVED.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:1,Name:\"moduleEngineNormal\"}]",
+  "techpoints": 7,
+  "techpointTypes": "normal",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

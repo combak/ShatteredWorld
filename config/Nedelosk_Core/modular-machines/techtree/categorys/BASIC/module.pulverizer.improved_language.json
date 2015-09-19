@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.MODULE.PULVERIZER.IMPROVED",
+    "text": "mm.techtree_entry_text.MODULE.PULVERIZER.IMPROVED",
+    "pages": [
+      "mm.techtree_page.MODULE.PULVERIZER.IMPROVED.0"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "key": "MODULE.FURNACE.BASE",
+  "category": "BASIC",
+  "parents": [
+    "MODULE.BASE"
+  ],
+  "column": 2,
+  "row": 1,
+  "pages": [
+    {
+      "text": "mm.techtree_page.MODULE.FURNACE.BASE.0",
+      "type": "text"
+    }
+  ],
+  "iconItem": "ModularMachines:module:0:withTag[{Tier:0,Name:\"moduleProducerFurnace\"}]",
+  "techpoints": 1,
+  "techpointTypes": "very_easy",
+  "isAutoUnlock": false,
+  "isConcealed": false
+}

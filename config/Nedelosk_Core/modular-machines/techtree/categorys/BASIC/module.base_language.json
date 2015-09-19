@@ -1,0 +1,9 @@
+{
+  "en_US": {
+    "name": "mm.techtree_entry_name.MODULE.BASE",
+    "text": "mm.techtree_entry_text.MODULE.BASE",
+    "pages": [
+      "mm.techtree_page.BASIC.MODULE.0"
+    ]
+  }
+}
