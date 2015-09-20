@@ -2,6 +2,17 @@
 
 # Version 0.7.1
 
+**Config Changes**
+- Added Moonstone Infusion (Thaumcraft) 
+- Added Tarma Root Infusion (Thaumcraft)
+- Script Overhaul (Adv. Generators)
+
+**Mod Updates**
+- Forestry 3.6.3.20 to 3.6.6.24
+
+**Mod Additions**
+- Guide API 1.0.1-20
+
 # Version 0.7.0b
 
 **Mod Updates**
