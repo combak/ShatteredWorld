@@ -10,7 +10,7 @@
             {
                "id" : "quest000",
                "name" : "Karate Tiger",
-               "description" : "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit dem gekonnten Handkantenschlag zerlegen wir einen Baum in seine Einzelteile.",
+               "description" : "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit der Axt zerlegen wir einen Baum in seine Einzelteile.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -366,6 +366,23 @@
                      "id" : "task001",
                      "name" : "Detection Task",
                      "description" : "Mit dieser Axt reicht es den Baum unten zu faellen. Der Rest kommt von selbst."
+                  }
+               ]
+            },
+            {
+               "id" : "quest292",
+               "name" : "Der Anfang der Ewigkeit",
+               "description" : "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas einfachen Taetigkeiten.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Durch das Abschlagen des Laubs von den Baeumen finden wir ab und zu einen Ast. Manchmal schneller, manchmal langsamer."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Gravelbloecke fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen."
                   }
                ]
             }
@@ -1817,12 +1834,12 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Das Zauberbuch haelt alle Informationen bereit, die wir brauchen. Es zeigt uns moeglich neue Zauber an und beschreibt alle Techniken."
+                     "description" : "Das Zauberbuch haelt alle Informationen bereit, die wir brauchen. Es zeigt uns moeglich neue Zauber an und beschreibt alle Techniken. Stelle ein Bookshelf auf und mache einen Rechtsklick mit deinem Zauberstab darauf."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "Bestimmte Zauber muessen erforscht werden. Das ist nur mit einem besonderen Zaubertisch moeglich."
+                     "description" : "Bestimmte Zauber muessen erforscht werden. Das ist nur mit einem besonderen Zaubertisch moeglich. Stelle einen deiner Tables auf und mache auch hier einen Rechtsklick. Du erhaelst damit die Arcane Worktable. Diese werden wir in Zukunft viel brauchen. Die anderen zwei Tables stellst du zusammen. Nachdem du das Scribing Tools darauf gestellt hast, erhaelst du deinen Zaubertisch."
                   }
                ]
             },
