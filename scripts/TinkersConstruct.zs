@@ -6,6 +6,9 @@ import minetweaker.liquid.ILiquidStack;
 # Blocks
 ########################################################################################################################
 
+#Tinkers
+val tConstructFurnace = <TConstruct:FurnaceSlab>;
+
 # Botania
 val botaniaManasteelBlock 	= <Botania:storage>;
 val botaniaTerrasteelBlock	= <Botania:storage:1>;
@@ -219,6 +222,13 @@ val iguFiredClayBucket   = <IguanaTweaksTConstruct:clayBucketFired>;
 # Draconic Evolution
 val dracEvoDraconiumDust	= <DraconicEvolution:draconiumDust>;
 val dracEvoDraconiumIngot	= <DraconicEvolution:draconiumIngot>;
+
+########################################################################################################################
+# Ore Dictionary
+########################################################################################################################
+
+val odSlabStone 	= <ore:slabStone>;
+val odSlabStoneBrick 	= <ore:slabStoneBricks>;
 
 ########################################################################################################################
 # Fluid Registry
@@ -453,6 +463,10 @@ recipes.remove( tConstructManyullynDust );
 
 #Remove Aluminum Brass Dust
 recipes.remove( tConstructAluminumBrassDust );
+
+#Slab Furnace
+recipes.remove( tConstructFurnace );
+recipes.addShaped( tConstructFurnace, [ [ odSlabStone, odSlabStone, odSlabStone ], [ odSlabStoneBrick, null, odSlabStoneBrick ], [ odSlabStoneBrick, odSlabStoneBrick, odSlabStoneBrick ] ] );
 
 ########################################################################################################################
 # Machine -  Smeltery
