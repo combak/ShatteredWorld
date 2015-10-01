@@ -62,35 +62,6 @@ val removeInduction = [
 ] as IItemStack[];
 
 ########################################################################################################################
-# (Mixed) Data Structures - Redstone Furnace - Remove 
-########################################################################################################################
- 
-val thermExpFurnaceRemove = [
-  /* Iron Dust */
-  [
-    <ore:oreIron>,			/*  0 - Iron Ore (OreDict) */
-    <exnihilo:iron_gravel>,		/*  1 - Iron Ore Gravel (Ex Nihilo) */
-    <exnihilo:iron_sand>,			/*  2 - Iron Ore Sand (Ex Nihilo) */
-    <exnihilo:iron_dust>,			/*  3 - Iron Ore Dust (Ex Nihilo) */
-    <exnihilo:nether_iron_gravel>,	/*  5 - Nether Iron Ore Gravel (Ex Nihilo) */
-    <Thaumcraft:ItemNugget:16>,		/*  7 - Native Iron Cluster (Thaumcraft) */  
-    <ore:dustIron>			/*  8 - Iron Dust (OreDict) */
-  ]
-  
-] as IIngredient[][];
-
-# Remove Items/Recipies from the Redstone Furnace
-#val removeFurnace = [
-#  <TConstruct:oreBerries>,		/* Iron Oreberry to Nugget */
-#  <TConstruct:oreBerries:1>,		/* Gold Oreberry to Nugget */
-#  <TConstruct:oreBerries:2>,		/* Copper Oreberry to Nugget */
-#  <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
-#  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
-#  <exnihilo:copper_gravel>,		/* geht nicht warum auch immer TODO */
-#  <ThermalFoundation:material:41>	/* Bronze Dust to Ingot */
-#] as IItemStack[];
-
-########################################################################################################################
 # (Mixed) Data Structures - Pulverizer - Remove 
 ########################################################################################################################
 
@@ -770,19 +741,6 @@ val thermExpPulverizerOutput2 = [
   null,					/* 87 - Nothing */ 
   
 ] as IItemStack[];
-
-########################################################################################################################
-# Machine - Redstone Furnace
-########################################################################################################################
-
-# Furnace remove
-for entry in thermExpFurnaceRemove
-{
- # for remove in entry
- # {
- #   mods.thermalexpansion.Furnace.removeRecipe( remove );
- # }
-}
 
 ########################################################################################################################
 # Machine - Induction Smelter

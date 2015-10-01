@@ -50,55 +50,6 @@ val thermalServo = <ThermalExpansion:material>;
 # Tinkers
 val TConstructToughRodSilver = <TConstruct:toughRod:1023> ;
 
-# Remove from Furnace
-val removeSmelting = [
-  <ore:nuggetIron>,
-  <ore:nuggetGold>,
-  <ore:nuggetCopper>,
-  <ore:nuggetTin>,
-  <ore:nuggetAluminum>,
-  
-  <ore:ingotIron>,
-  <ore:ingotGold>,
-  <ore:ingotCopper>,
-  <ore:ingotTin>,
-  <ore:ingotAluminum>,
-  <ore:ingotAluminumBrass>,
-  <ore:ingotCobalt>,
-  <ore:ingotArdite>,
-  <ore:ingotManyullyn>,
-  <ore:ingotBronze>,
-  <ore:ingotAlumite>,
-  <ore:ingotSteel>,
-  <ore:ingotSilver>,
-  <ore:ingotLead>,
-  <ore:ingotNickel>,
-  <ore:ingotPlatinum>,
-  <ore:ingotMithril>,
-  <ore:ingotElectrum>,
-  <ore:ingotInvar>,
-  <ore:ingotLumium>,
-  <ore:ingotEnderium>,
-  <ore:ingotEnderiumBase>,
-  <ore:ingotSignalum>,
-  <ore:ingotPhasedIron>,
-  <ore:ingotPhasedGold>,
-  <ore:ingotElectricalSteel>,
-  <ore:ingotEnergeticAlloy>,
-  <ore:ingotRedstoneAlloy>,
-  <ore:ingotConductiveIron>,
-  <ore:ingotDarkSteel>,
-  <ore:ingotSoularium>,
-  <ore:ingotTantalum>,
-  <ore:ingotNiobium>,
-  <ore:ingotDraconium>,
-  
-  <minecraft:bread>
-] as IIngredient[];
-
-# HarvestCraft
-val harvCraftDough = <harvestcraft:doughItem>;
-
 ########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
@@ -164,15 +115,3 @@ for i, log in vanillaLogs
   recipes.remove( plank );
   recipes.addShapeless( plank * 2, [ log ] );
 }
-
-########################################################################################################################
-# Machine - Furnace
-########################################################################################################################
-
-# Remove Smelting
-for i, item in removeSmelting
-{
-  furnace.remove( item );
-}
-# Adding HarvestCraft Dough to Bread
-furnace.addRecipe( vanillaBread, harvCraftDough, 0 );
