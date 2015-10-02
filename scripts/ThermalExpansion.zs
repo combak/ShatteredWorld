@@ -51,8 +51,8 @@ val advGenePowerIO                  = <advgenerators:PowerIO>;
 # Remove Items/Recipies from the Induction Smelter
 val removeInduction = [
  # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
-  <ThermalFoundation:material:32>	/* Copper Dust to Ingot */
-] as IItemStack[];
+  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
+] as IIngredient[];
 
 ########################################################################################################################
 # (Mixed) Data Structures - Pulverizer - Remove 
@@ -767,6 +767,7 @@ for i, item in removeInduction
 { 
   mods.thermalexpansion.Smelter.removeRecipe( item, vanillaSand );
 }
+mods.thermalexpansion.Smelter.removeRecipe( <minecraft:iron_ingot>, <minecraft:redstone> );
 
 # Producing Sky Stone form Sky Stone Dust
 mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSand, appEngSkyStoneBlock, null, 20 );

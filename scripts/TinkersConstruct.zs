@@ -341,6 +341,7 @@ val tConstructRemoveTableRecipes = [
   <ore:nuggetSilver>,
   <ore:nuggetLead>,
   <ore:ingotMithril>,
+  <ore:ingotRedAlloy>,
 ] as IIngredient[];
 
 ########################################################################################################################
