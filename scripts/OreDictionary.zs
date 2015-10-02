@@ -160,7 +160,9 @@ val oreDictRemoveGears = [
 # EnderIO Silicon <=> ProjectRed Silicon
 <ore:itemSilicon>.add( <ProjRed|Core:projectred.core.part:12> );
 
-
+# EnderIO Redstone Alloy <=> ProjectRed Red Alloy Ingot
+<ore:ingotRedstoneAlloy>.add( <ProjRed|Core:projectred.core.part:10> );
+<ore:ingotRedAlloy>.add( <EnderIO:itemAlloy:3> );
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
