@@ -23,13 +23,6 @@ val thermExpActivator		= <ThermalExpansion:Device:2>;
 # Buildcraft Additions
 val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
 
-# ExNihilo
-val exnihiloAluList = [ 
-  <exnihilo:aluminum_gravel>, 
-  <exnihilo:aluminum_sand>, 
-  <exnihilo:aluminum_dust> 
-] as IItemStack[]; /* List of Alu Blocks of ExNihilo */
-
 ########################################################################################################################
 # Item
 ########################################################################################################################
@@ -288,11 +281,14 @@ val thermExpPulverizerAdd = [
   /* Aluminum Dust */
   <TConstruct:SearedBrick:5>,		/* 84 - Aluminum Ore (Tinkers Construct) */
   <TConstruct:materials:11>,		/* 85 - Aluminum Ingot (Tinkers Construct) */
-  <WitchingGadgets:item.WG_Cluster>,	/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  <exnihilo:aluminum_gravel>,		/* 86 - Aluminum Ore Gravel (Ex Nihilo) */
+  <exnihilo:aluminum_sand>,		/* 87 - Aluminum Ore Sand (Ex Nihilo) */
+  <exnihilo:aluminum_dust>,		/* 88 - Aluminum Ore Dust (Ex Nihilo) */
+  <WitchingGadgets:item.WG_Cluster>,	/* 89 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
   /* Aluminum Brass Dust */
-  <TConstruct:materials:14>,		/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
+  <TConstruct:materials:14>,		/* 90 - Aluminum Brass Ingot (Tinkers Construct) */
   /* Thaumcraft */
-  <Thaumcraft:ItemShard:6>,		/* 88 - Balanced Shard (Thaumcraft) */
+  <Thaumcraft:ItemShard:6>,		/* 91 - Balanced Shard (Thaumcraft) */
   
 ] as IItemStack[];
 
@@ -402,11 +398,14 @@ val thermExpPulverizerEnergy = [
   /* Aluminum Dust */
   4000,					/* 84 - Aluminum Ore (Tinkers Construct) */
   2400,					/* 85 - Aluminum Ingot (Tinkers Construct) */
-  4800,					/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  3200,					/* 86 - Aluminum Ore Gravel (Ex Nihilo) */
+  3200,					/* 87 - Aluminum Ore Sand (Ex Nihilo) */
+  3200,					/* 88 - Aluminum Ore Dust (Ex Nihilo) */
+  4800,					/* 89 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
   /* Aluminum Brass Dust */
-  2400,					/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
+  2400,					/* 90 - Aluminum Brass Ingot (Tinkers Construct) */
   /* Thaumcraft */
-  1600,					/* 88 - Balanced Shard (Thaumcraft) */
+  1600,					/* 91 - Balanced Shard (Thaumcraft) */
   
 ] as int[];
 
@@ -516,11 +515,14 @@ val thermExpPulverizerChance = [
   /* Aluminum Dust */
   0,					/* 84 - Aluminum Ore (Tinkers Construct) */
   0,					/* 85 - Aluminum Ingot (Tinkers Construct) */
-  0,					/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
+  0,					/* 86 - Aluminum Ore Gravel (Ex Nihilo) */
+  0,					/* 87 - Aluminum Ore Sand (Ex Nihilo) */
+  0,					/* 88 - Aluminum Ore Dust (Ex Nihilo) */
+  0,					/* 89 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
   /* Aluminum Brass Dust */
-  0,					/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
+  0,					/* 90 - Aluminum Brass Ingot (Tinkers Construct) */
   /* Thaumcraft */
-  0,					/* 88 - Balanced Shard (Thaumcraft) */
+  0,					/* 91 - Balanced Shard (Thaumcraft) */
   
 ] as int[];
 
@@ -628,13 +630,16 @@ val thermExpPulverizerOutput1 = [
   /* Manyullyn Dust */
   <bcadditions:dust:47>,		/* 83 - Manyullyn Dust (BuildCraft Additions) */
   /* Aluminum Dust */
-  <bcadditions:dust:45>*2,		/* 84 - Manyullyn Dust (BuildCraft Additions) */
-  <bcadditions:dust:45>,		/* 85 - Manyullyn Dust (BuildCraft Additions) */
-  <bcadditions:dust:45>*2,		/* 86 - Manyullyn Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>*2,		/* 84 - Aluminum Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>,		/* 85 - Aluminum Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>*2,		/* 86 - Aluminum Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>*2,		/* 87 - Aluminum Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>*2,		/* 88 - Aluminum Dust (BuildCraft Additions) */
+  <bcadditions:dust:45>*2,		/* 89 - Aluminum Dust (BuildCraft Additions) */
   /* Aluminum Brass Dust */
-  <bcadditions:dust:66>,		/* 87 - Aluminum Brass Dust (BuildCraft Additions) */
+  <bcadditions:dust:66>,		/* 90 - Aluminum Brass Dust (BuildCraft Additions) */
   /* Thaumcraft */
-  <Thaumcraft:ItemResource:14>,		/* 88 - Salis Mundis (Thaumcraft) */
+  <Thaumcraft:ItemResource:14>,		/* 91 - Salis Mundis (Thaumcraft) */
   
 ] as IItemStack[];
 
@@ -745,10 +750,13 @@ val thermExpPulverizerOutput2 = [
   null,					/* 84 - Nothing */ 
   null,					/* 85 - Nothing */ 
   null,					/* 86 - Nothing */ 
-  /* Aluminum Brass Dust */
   null,					/* 87 - Nothing */ 
+  null,					/* 88 - Nothing */ 
+  null,					/* 89 - Nothing */ 
+  /* Aluminum Brass Dust */
+  null,					/* 90 - Nothing */ 
   /* Thaumcraft */
-  null,					/* 88 - Salis Mundis (Thaumcraft) */
+  null,					/* 91 - Salis Mundis (Thaumcraft) */
   
 ] as IItemStack[];
 
@@ -783,13 +791,6 @@ for i, replace in thermExpPulverizerAdd
 
   mods.thermalexpansion.Pulverizer.addRecipe( energy, replace, output1, output2, chance );
 }
-
-# Add ExNihilo Alu Blocks zu Pulverizer (oreGravel, oreSand, oreDust)
-# TODO Merge with data structures
-#for i, item in exnihiloAluList
-#{ 
-  #mods.thermalexpansion.Pulverizer.addRecipe(3200, item, bcAdditionsDustAlu * 2, null , 0);
-#}
 
 ########################################################################################################################
 # Custom Recipes Shaped
