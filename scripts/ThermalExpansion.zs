@@ -291,6 +291,8 @@ val thermExpPulverizerAdd = [
   <WitchingGadgets:item.WG_Cluster>,	/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
   /* Aluminum Brass Dust */
   <TConstruct:materials:14>,		/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
+  /* Thaumcraft */
+  <Thaumcraft:ItemShard:6>,		/* 88 - Balanced Shard (Thaumcraft) */
   
 ] as IItemStack[];
 
@@ -403,6 +405,8 @@ val thermExpPulverizerEnergy = [
   4800,					/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
   /* Aluminum Brass Dust */
   2400,					/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
+  /* Thaumcraft */
+  1600,					/* 88 - Balanced Shard (Thaumcraft) */
   
 ] as int[];
 
@@ -515,6 +519,8 @@ val thermExpPulverizerChance = [
   0,					/* 86 - Native Aluminum Cluster (Thaumcraft - Witching Gadgets) */
   /* Aluminum Brass Dust */
   0,					/* 87 - Aluminum Brass Ingot (Tinkers Construct) */
+  /* Thaumcraft */
+  0,					/* 88 - Balanced Shard (Thaumcraft) */
   
 ] as int[];
 
@@ -627,6 +633,8 @@ val thermExpPulverizerOutput1 = [
   <bcadditions:dust:45>*2,		/* 86 - Manyullyn Dust (BuildCraft Additions) */
   /* Aluminum Brass Dust */
   <bcadditions:dust:66>,		/* 87 - Aluminum Brass Dust (BuildCraft Additions) */
+  /* Thaumcraft */
+  <Thaumcraft:ItemResource:14>,		/* 88 - Salis Mundis (Thaumcraft) */
   
 ] as IItemStack[];
 
@@ -739,6 +747,8 @@ val thermExpPulverizerOutput2 = [
   null,					/* 86 - Nothing */ 
   /* Aluminum Brass Dust */
   null,					/* 87 - Nothing */ 
+  /* Thaumcraft */
+  null,					/* 88 - Salis Mundis (Thaumcraft) */
   
 ] as IItemStack[];
 
