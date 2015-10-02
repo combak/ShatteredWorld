@@ -31,5 +31,130 @@ ore dictionary.
   <recipeGroup name="Thermal Expansion">
     <recipe name="Bronze" energyCost="4000" />
   </recipeGroup>
+  
+  <recipeGroup name="Shattered World">
+    <!-- BC Additions Wire -->
+      <recipe name="IronWire" energyCost="1600">
+      <input>
+	<itemStack modID="bcadditions" itemName="wireIronUnhardened" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="wireIron" number="2" />
+      </output>
+    </recipe>
+      <recipe name="GoldWire" energyCost="1600">
+      <input>
+	<itemStack modID="bcadditions" itemName="wireGoldUnhardened" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="wireGold" number="2" />
+      </output>
+    </recipe>
+      <recipe name="DiamondWire" energyCost="1600">
+      <input>
+	<itemStack modID="bcadditions" itemName="wireDiamondUnhardened" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="wireDiamond" number="2" />
+      </output>
+    </recipe>
+    
+    <!-- BC Additions Plating -->
+    <recipe name="HeatConductingPlating" energyCost="1600">
+      <input>
+	<itemStack modID="bcadditions" itemName="heatPlatingRaw" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="heatPlating" />
+      </output>
+    </recipe>       
+    <recipe name="ConductivePlating" energyCost="1600">
+      <input>
+	<itemStack modID="bcadditions" itemName="conductivePlateRaw" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="conductivePlate" />
+      </output>
+    </recipe>    
+    
+    <!-- ProjectRed Silicon Compound & Circuit Plate-->
+    <recipe name="InfusedSilicon" energyCost="1600">
+      <input>
+	<itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="42" />
+      </input>
+      <output>
+	<itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="13" />
+      </output>
+    </recipe>  
+    <recipe name="EnergizedSilicon" energyCost="1600">
+      <input>
+	<itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="43" />
+      </input>
+      <output>
+	<itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="14" />
+      </output>
+    </recipe>  
+    <recipe name="CircuitPlate" energyCost="1600">
+      <input>
+	<itemStack modID="minecraft" itemName="clay_ball" />
+	<itemStack oreDictionary="nuggetCopper" />
+      </input>
+      <output>
+	<itemStack modID="ProjRed|Core" itemName="projectred.core.part" number="2" />
+      </output>
+    </recipe>  
+    
+    <!-- Decoration Blocks -->
+    <recipe name="Brownstone" energyCost="1600">
+      <input>
+	<itemStack modID="TConstruct" itemName="SpeedBlock" />
+      </input>
+      <output>
+	<itemStack modID="TConstruct" itemName="SpeedBlock" itemMeta="2" />
+      </output>
+    </recipe>  
+    <recipe name="Limestone" energyCost="1600">
+      <input>
+	<itemStack modID="TSteelworks" itemName="Limestone" itemMeta="1" />
+      </input>
+      <output>
+	<itemStack modID="TSteelworks" itemName="Limestone" />
+      </output>
+    </recipe>  
+    <recipe name="ScorchedStone" energyCost="1600">
+      <input>
+	<itemStack modID="TSteelworks" itemName="HighOven" itemMeta="5" />
+      </input>
+      <output>
+	<itemStack modID="TSteelworks" itemName="HighOven" itemMeta="4" />
+      </output>
+    </recipe>  
+    
+    <!-- Other Stuff -->
+    <recipe name="NetherBrick" energyCost="1600">
+      <input>
+	<itemStack modID="minecraft" itemName="netherrack" />
+      </input>
+      <output>
+	<itemStack modID="minecraft" itemName="netherbrick" />
+      </output>
+    </recipe> 
+    <recipe name="ArcaneAsh" energyCost="1600">
+      <input>
+	<itemStack modID="arsmagica2" itemName="itemOre" itemMeta="1" />
+      </input>
+      <output>
+	<itemStack modID="arsmagica2" itemName="itemOre" itemMeta="2" number="2" />
+      </output>
+    </recipe>  
+    <recipe name="ConduitBinder" energyCost="1600">
+      <input>
+	<itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="2" />
+      </input>
+      <output>
+	<itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="1" number="4" />
+      </output>
+    </recipe>  
+  </recipeGroup>
 </AlloySmelterRecipes>  
 

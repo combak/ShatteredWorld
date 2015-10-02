@@ -224,8 +224,6 @@ val furnacesSmelting = [
   
   [ <ExtraUtilities:decorativeBlock1:9>, <ExtraUtilities:decorativeBlock2> ],
   
-  [ <bcadditions:wireIronUnhardened>, <bcadditions:wireIron> ],
-  
   [ <exnihilo:crucible_unfired>, <exnihilo:crucible> ],
   
   [ <Forestry:peat>, <Forestry:ash> ]
