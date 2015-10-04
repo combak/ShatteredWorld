@@ -47,13 +47,6 @@ val bcAdditionsDustAlu               = <bcadditions:dust:45>;
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
 
-
-# Remove Items/Recipies from the Induction Smelter
-val removeInduction = [
- # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
-  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
-] as IIngredient[];
-
 ########################################################################################################################
 # (Mixed) Data Structures - Pulverizer - Remove 
 ########################################################################################################################
@@ -761,8 +754,72 @@ val thermExpPulverizerOutput2 = [
 ] as IItemStack[];
 
 ########################################################################################################################
+# (Mixed) Data Structures - Smelter - Remove
+########################################################################################################################
+# Remove Items/Recipies from the Induction Smelter
+val removeInduction = [
+ # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
+  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
+] as IIngredient[];
+
+########################################################################################################################
+# (Mixed) Data Structures - Smelter - Add 
+########################################################################################################################
+
+
+val thermExpSmelterAddInput = [
+  [ <arsmagica2:vinteumOre>, <minecraft:sand> ],				/* Vinteum Ore */
+  [ <arsmagica2:vinteumOre:1>, <minecraft:sand> ],				/* Chimerite Ore */
+  [ <arsmagica2:vinteumOre:2>, <minecraft:sand> ],				/* Blue Topaz Ore */
+  [ <arsmagica2:vinteumOre:3>, <minecraft:sand> ],				/* Moonstone Ore */
+  [ <arsmagica2:vinteumOre:4>, <minecraft:sand> ],				/* Sunstone Ore */
+  
+  [ <Thaumcraft:blockCustomOre>, <minecraft:sand> ],				/* Cinnabar Ore */
+  [ <Thaumcraft:blockCustomOre:7>, <minecraft:sand> ],				/* Amber Bearing Ore */
+  
+  [ <ExtraUtilities:cobblestone_compressed:7>, <minecraft:sand> ],		/* Octuple Compressed Cobblestone */
+  [ <ExtraUtilities:cobblestone_compressed:3> * 9, <Botania:manaResource:2> ],	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
+  
+  [ <HardcoreEnderExpansion:endium_ore>, <minecraft:sand> ]			/* Endium Ore */
+] as IItemStack[][];
+
+val thermExpSmelterAddEnergyChance = [
+  [ 4000, 5 ],		/* Vinteum Ore */
+  [ 4000, 5 ],		/* Chimerite Ore */
+  [ 4000, 5 ],		/* Blue Topaz Ore */
+  [ 4000, 5 ],		/* Moonstone Ore */
+  [ 4000, 5 ],		/* Sunstone Ore */
+  
+  [ 4000, 5 ],		/* Cinnabar Ore */
+  [ 4000, 5 ],		/* Amber Bearing Ore */
+  
+  [ 100000, 100 ],	/* Octuple Compressed Cobblestone */
+  [ 50000, 100 ],	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
+  
+  [ 4000, 5 ],		/* Endium Ore */
+] as int[][];
+
+val thermExpSmelterAddOutput = [
+  [ <arsmagica2:itemOre> * 2, <arsmagica2:itemOre> ],					/* Vinteum Dust, Vinteum Dust */
+  [ <arsmagica2:itemOre:4> * 2, <arsmagica2:itemOre> ],					/* Chimerite, Vinteum Dust */
+  [ <arsmagica2:itemOre:5> * 2, <arsmagica2:itemOre> ],					/* Blue Topaz, Vinteum Dust */
+  [ <arsmagica2:itemOre:7> * 2, <arsmagica2:itemOre> ],					/* Moonstone, Vinteum Dust */
+  [ <arsmagica2:itemOre:6> * 2, <arsmagica2:itemOre> ],					/* Sunstone, Vinteum Dust */
+
+  [ <Thaumcraft:ItemResource:3> * 2, <Thaumcraft:ItemResource:3> ],			/* Quicksilver */
+  [ <Thaumcraft:ItemResource:6> * 2, <Thaumcraft:ItemResource:6> ],			/* Amber */
+  
+  [ <ExtraUtilities:block_bedrockium>, <Forestry:ash> * 4 ],				/* Block of Bedrockium, Ash */
+  [ <ExtraUtilities:bedrockiumIngot>, <Forestry:ash> * 2 ],				/* Bedrockium Ingot, Ash */
+  
+  [ <HardcoreEnderExpansion:endium_ingot> * 2, <ThermalExpansion:material:515> ],	/* Endium Ingot, Rich Slag */
+] as IItemStack[][];
+
+########################################################################################################################
 # Machine - Induction Smelter
 ########################################################################################################################
+
+# Smelter remove
 for i, item in removeInduction
 { 
   mods.thermalexpansion.Smelter.removeRecipe( item, vanillaSand );
@@ -772,6 +829,18 @@ mods.thermalexpansion.Smelter.removeRecipe( <minecraft:iron_ingot>, <minecraft:r
 # Producing Sky Stone form Sky Stone Dust
 mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSand, appEngSkyStoneBlock, null, 20 );
 
+# Smelter add
+for i, entry in thermExpSmelterAddInput
+{ 
+  var input1	= entry[ 0 ];
+  var input2	= entry[ 1 ];
+  var energy	= thermExpSmelterAddEnergyChance[ i ][ 0 ];
+  var chance	= thermExpSmelterAddEnergyChance[ i ][ 1 ];
+  var output1	= thermExpSmelterAddOutput[ i ][ 0 ];
+  var output2	= thermExpSmelterAddOutput[ i ][ 1 ];
+  
+  mods.thermalexpansion.Smelter.addRecipe( energy, input1, input2, output1, output2, chance );
+}
 ########################################################################################################################
 # Machine - Pulverizer
 ########################################################################################################################
