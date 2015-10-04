@@ -165,6 +165,10 @@ val oreDictRemoveGears = [
 # EnderIO Redstone Alloy <=> ProjectRed Red Alloy Ingot
 <ore:ingotRedAlloy>.add( <EnderIO:itemAlloy:3> );
 
+# Harvestcraft Corn <=> Forest Day Corn
+<ore:cropCorn>.add( <ForestDay:item.corn> );
+<ore:listAllveggie>.add( <ForestDay:item.corn> );
+
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
