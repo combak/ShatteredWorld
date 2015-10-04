@@ -226,7 +226,9 @@ val furnacesSmelting = [
   
   [ <exnihilo:crucible_unfired>, <exnihilo:crucible> ],
   
-  [ <Forestry:peat>, <Forestry:ash> ]
+  [ <Forestry:peat>, <Forestry:ash> ],
+  
+  [ <ForestDay:item.corn>, <harvestcraft:popcornItem> ],
 ] as IItemStack[][];
 
 ########################################################################################################################
