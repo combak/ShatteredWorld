@@ -45,7 +45,8 @@ val oreDictRemoveCraftingBlocks = [
   <ore:blockEmerald>,
   <ore:blockRedstone>,
   <DraconicEvolution:draconium>,
-  <ore:glowstone>
+  <ore:glowstone>,
+  <ExtraUtilities:block_bedrockium>
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -130,7 +131,8 @@ val oreDictRemoveCraftingIngots = [
   <ore:ingotSoularium>,
   <ore:ingotTantalum>,
   <ore:ingotNiobium>,
-  <ore:ingotDraconium>
+  <ore:ingotDraconium>,
+  <ExtraUtilities:bedrockiumIngot>
 ] as IIngredient[];
 
 val oreDictRemoveGears = [
