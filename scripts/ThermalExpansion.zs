@@ -283,6 +283,8 @@ val thermExpPulverizerAdd = [
   /* Thaumcraft */
   <Thaumcraft:ItemShard:6>,		/* 91 - Balanced Shard (Thaumcraft) */
   
+  <ForestDay:item.corn>,		/* 92 - Corn (Forest Day) */
+  <harvestcraft:cornItem>,		/* 93 - Corn (HarvestCraft) */
 ] as IItemStack[];
 
 val thermExpPulverizerEnergy = [
@@ -400,6 +402,8 @@ val thermExpPulverizerEnergy = [
   /* Thaumcraft */
   1600,					/* 91 - Balanced Shard (Thaumcraft) */
   
+  1600,					/* 92 - Corn (Forest Day) */
+  1600,					/* 93 - Corn (HarvestCraft) */
 ] as int[];
 
 val thermExpPulverizerChance = [
@@ -516,6 +520,9 @@ val thermExpPulverizerChance = [
   0,					/* 90 - Aluminum Brass Ingot (Tinkers Construct) */
   /* Thaumcraft */
   0,					/* 91 - Balanced Shard (Thaumcraft) */
+  
+  0,					/* 92 - Corn (Forest Day) */
+  0,					/* 93 - Corn (HarvestCraft) */
   
 ] as int[];
 
@@ -634,6 +641,9 @@ val thermExpPulverizerOutput1 = [
   /* Thaumcraft */
   <Thaumcraft:ItemResource:14>,		/* 91 - Salis Mundis (Thaumcraft) */
   
+  <ForestDay:item.nature:9>,		/* 92 - Starch (Forest Day) */
+  <ForestDay:item.nature:9>,		/* 93 - Starch (Forest Day) */
+  
 ] as IItemStack[];
 
 val thermExpPulverizerOutput2 = [
@@ -749,8 +759,10 @@ val thermExpPulverizerOutput2 = [
   /* Aluminum Brass Dust */
   null,					/* 90 - Nothing */ 
   /* Thaumcraft */
-  null,					/* 91 - Salis Mundis (Thaumcraft) */
+  null,					/* 91 - Nothing */ 
   
+  null,					/* 92 - Nothing */ 
+  null,					/* 93 - Nothing */ 
 ] as IItemStack[];
 
 ########################################################################################################################
