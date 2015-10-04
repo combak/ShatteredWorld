@@ -129,6 +129,32 @@ ore dictionary.
 	<itemStack modID="TSteelworks" itemName="HighOven" itemMeta="4" />
       </output>
     </recipe>  
+    <recipe name="BurntQuartz" energyCost="1600">
+      <input>
+	<itemStack oreDictionary="blockQuartz" />
+	<itemStack oreDictionary="coal" />
+      </input>
+      <output>
+	<itemStack modID="ExtraUtilities" itemName="decorativeBlock1" itemMeta="2" />
+      </output>
+    </recipe>  
+    <recipe name="RockWool" energyCost="1600">
+      <input>
+	<itemStack modID="ThermalExpansion" itemName="material" itemMeta="514" />
+      </input>
+      <output>
+	<itemStack modID="ThermalExpansion" itemName="Rockwool" itemMeta="8" />
+      </output>
+    </recipe> 
+    <recipe name="Concrete" energyCost="1600">
+      <input>
+	<itemStack oreDictionary="gravel" />
+	<itemStack oreDictionary="sand" />
+      </input>
+      <output>
+	<itemStack modID="chisel" itemName="concrete" />
+      </output>
+    </recipe> 
     
     <!-- Other Stuff -->
     <recipe name="NetherBrick" energyCost="1600">
@@ -153,6 +179,14 @@ ore dictionary.
       </input>
       <output>
 	<itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="1" number="4" />
+      </output>
+    </recipe>  
+    <recipe name="HardenedStarch" energyCost="1600">
+      <input>
+	<itemStack modID="ForestDay" itemName="item.nature" itemMeta="10" />
+      </input>
+      <output>
+	<itemStack modID="ForestDay" itemName="item.nature" itemMeta="11" />
       </output>
     </recipe>  
   </recipeGroup>
