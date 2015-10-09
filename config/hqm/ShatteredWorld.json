@@ -6660,7 +6660,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:fertilizer size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6721,7 +6721,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:fertilizer size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6755,7 +6755,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:fertilizer size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6810,7 +6810,9 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:fertilizer size(8) dmg(0)",
+                  "Botania:livingwood size(4) dmg(0)",
+                  "Botania:livingrock size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6848,7 +6850,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:ItemResource size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -6886,7 +6888,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "arsmagica2:ParticleEmitter size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6920,7 +6922,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:fertilizer size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6968,7 +6970,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:pump size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7012,7 +7014,14 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  {
+                     "item" : "Botania:specialFlower size(3) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('daybloom') )"
+                  },
+                  {
+                     "item" : "Botania:specialFlower size(3) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('nightshade') )"
+                  }
                ],
                "reputations" : [
                ]
@@ -7046,7 +7055,10 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  {
+                     "item" : "Botania:specialFlower size(1) dmg(0)",
+                     "nbt" : "=COMPOUND( type=STRING('thermalily') )"
+                  }
                ],
                "reputations" : [
                ]
@@ -7096,7 +7108,11 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:pool size(2) dmg(0)",
+                  {
+                     "item" : "Botania:manaTablet size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )"
+                  }
                ],
                "reputations" : [
                ]
@@ -7146,7 +7162,11 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(8) dmg(0)"
+               ],
+               "choice" : [
+                  "Botania:manaResource size(4) dmg(2)",
+                  "Botania:manaResource size(4) dmg(1)"
                ],
                "reputations" : [
                ]
@@ -7195,7 +7215,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7269,7 +7289,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:hourglass size(1) dmg(0)",
+                  "Botania:forestDrum size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7307,7 +7328,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaRing size(1) dmg(10000)"
                ],
                "reputations" : [
                ]
@@ -7341,7 +7362,9 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:feather size(4) dmg(0)",
+                  "minecraft:nether_wart size(4) dmg(0)",
+                  "minecraft:brown_mushroom size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7395,7 +7418,9 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:cake size(4) dmg(0)",
+                  "minecraft:slime_ball size(4) dmg(0)",
+                  "minecraft:spider_eye size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7444,7 +7469,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(8) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -7508,7 +7533,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)",
+                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7573,7 +7599,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:nether_star size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7612,7 +7638,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:vial size(8) dmg(0)",
+                  "Botania:bloodPendant size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7657,7 +7684,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(4) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -7706,7 +7733,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(8) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -7740,7 +7767,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:thornChakram size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7779,7 +7806,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:spark size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7813,7 +7840,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(4) dmg(7)"
                ],
                "reputations" : [
                ]
@@ -7862,7 +7889,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(8) dmg(7)"
                ],
                "reputations" : [
                ]
@@ -7906,7 +7933,9 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:vial size(4) dmg(1)",
+                  "Botania:manaResource size(4) dmg(8)",
+                  "Botania:manaResource size(4) dmg(9)"
                ],
                "reputations" : [
                ]
@@ -7950,7 +7979,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7999,7 +8028,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:worldSeed size(4) dmg(0)",
+                  "Botania:lens size(1) dmg(18)"
                ],
                "reputations" : [
                ]
@@ -8044,7 +8074,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(4) dmg(5)"
                ],
                "reputations" : [
                ]
@@ -8083,7 +8113,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(4) dmg(5)",
+                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8117,7 +8148,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:nether_star size(1) dmg(0)",
+                  "Botania:manaResource size(8) dmg(7)"
                ],
                "reputations" : [
                ]
@@ -8148,7 +8180,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:corporeaSpark size(1) dmg(1)"
                ],
                "reputations" : [
                ]
@@ -8182,7 +8214,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:spawnerClaw size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8216,7 +8248,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Botania:manaResource size(3) dmg(12)"
                ],
                "reputations" : [
                ]
@@ -8270,7 +8302,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)",
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
                ]
