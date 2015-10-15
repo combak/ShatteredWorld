@@ -26,3 +26,4 @@
 /servers.dat
 /usercache.json
 /usernamecache.json
+*.log
