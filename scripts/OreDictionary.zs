@@ -169,6 +169,9 @@ val oreDictRemoveGears = [
 <ore:cropCorn>.add( <ForestDay:item.corn> );
 <ore:listAllveggie>.add( <ForestDay:item.corn> );
 
+# Remove EnderIO Quite Clear Glass from glass OreDict
+<ore:glass>.remove( <EnderIO:blockFusedQuartz:1> );
+
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
