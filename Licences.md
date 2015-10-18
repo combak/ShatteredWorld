@@ -342,6 +342,13 @@
 
 ## I
 
+**iBench**
+> The MIT License (MIT)
+
+- Author: sapient
+- Files: http://minecraft.curseforge.com/projects/ibench/files
+- Licence: https://github.com/sapient/iBench/blob/master/LICENSE
+
 **Iguanas Tinker Tweaks**
 > Creative Commons Attribution 4.0 International License.
 
