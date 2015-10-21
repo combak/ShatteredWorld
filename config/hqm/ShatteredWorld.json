@@ -8354,7 +8354,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:runeOfSelfSacrifice size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8388,7 +8388,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:mundaneLengtheningCatalyst size(2) dmg(0)",
+                  "AWWayofTime:mundanePowerCatalyst size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8422,7 +8423,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:speedRune size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8456,7 +8457,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bucketLife size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8496,7 +8497,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(4)",
+                  "AWWayofTime:bloodMagicBaseItems size(2) dmg(25)"
                ],
                "reputations" : [
                ]
@@ -8546,7 +8548,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:gunpowder size(32) dmg(0)",
+                  "AWWayofTime:simpleCatalyst size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8580,7 +8583,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:averageLengtheningCatalyst size(2) dmg(0)",
+                  "AWWayofTime:averagePowerCatalyst size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8614,7 +8618,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:runeOfSacrifice size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8681,7 +8685,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:ender_pearl size(4) dmg(0)",
+                  "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -8756,7 +8761,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:simpleCatalyst size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8790,7 +8795,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:weakBindingAgent size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8824,7 +8829,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:AlchemicalWizardrybloodRune size(4) dmg(1)"
                ],
                "reputations" : [
                ]
@@ -8903,7 +8908,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:longRangeDislocator size(2) dmg(1)",
+                  "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -8952,7 +8958,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:masterStone size(1) dmg(0)",
+                  "minecraft:diamond size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -8986,7 +8993,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:diamond_sword size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9025,7 +9032,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:ritualStone size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9060,7 +9067,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:emptySocket size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9094,7 +9101,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:weakBloodShard size(10) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9159,7 +9166,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(17)"
                ],
                "reputations" : [
                ]
@@ -9219,7 +9226,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseAlchemyItems size(8) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -9258,7 +9265,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:nether_star size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9292,7 +9299,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9326,7 +9333,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:greaterLengtheningCatalyst size(2) dmg(0)",
+                  "AWWayofTime:greaterPowerCatalyst size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9360,7 +9368,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -9439,7 +9447,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(1)",
+                  "AWWayofTime:bloodMagicBaseAlchemyItems size(4) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -9485,7 +9494,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:masterStone size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9544,7 +9553,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:blockCrystalBelljar size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9583,7 +9592,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(28)",
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(29)"
                ],
                "reputations" : [
                ]
@@ -9617,7 +9627,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(15)"
                ],
                "reputations" : [
                ]
@@ -9651,7 +9661,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseAlchemyItems size(4) dmg(4)"
                ],
                "reputations" : [
                ]
@@ -9686,7 +9696,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9720,7 +9730,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "AWWayofTime:bloodMagicBaseItems size(2) dmg(31)"
                ],
                "reputations" : [
                ]
@@ -9765,7 +9775,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
                ]
