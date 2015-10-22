@@ -33,7 +33,7 @@ val enderioElectricalSteelBlock	= <EnderIO:blockIngotStorage>;
 val thaumcraftThaumiumBlock = <Thaumcraft:blockCosmeticSolid:4>;
 
 # Witching Gadgets
-val witchGadVoidMetalBlock = <WitchingGadgets:tile.WG_MetalDevice.name:7>;
+val witchGadVoidMetalBlock = <WitchingGadgets:WG_MetalDevice:7>;
 
 # Dragonic Evolution
 val dracEvoDraconiumBlock	= <DraconicEvolution:draconium>;
@@ -435,7 +435,7 @@ val tConstructAddBasinRecipes = [
   <EnderIO:blockIngotStorage:2>,		/*  8 - Vibrant Alloy Block */
   <EnderIO:blockIngotStorage>,			/*  9 - Electrical Steel Block */
   <Thaumcraft:blockCosmeticSolid:4>,		/* 10 - Thaumium Block */
-  <WitchingGadgets:tile.WG_MetalDevice.name:7>,	/* 11 - Void Metal Block */
+  <WitchingGadgets:WG_MetalDevice:7>,		/* 11 - Void Metal Block */
   <DraconicEvolution:draconium>,		/* 12 - Draconium Block */			
 ] as IItemStack[];
 
