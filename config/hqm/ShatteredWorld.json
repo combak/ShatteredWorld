@@ -9827,7 +9827,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9866,7 +9866,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:ender_pearl size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9900,7 +9900,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconicCore size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9934,7 +9934,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:playerDetector size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9968,7 +9968,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconicIngot size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10002,7 +10002,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconium size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10036,7 +10036,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10070,7 +10070,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:rainSensor size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10104,7 +10104,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:wyvernCore size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10143,7 +10143,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumEnergyCore size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10182,7 +10182,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumEnergyCore size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10221,7 +10221,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10260,7 +10260,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconium size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10309,7 +10309,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(16) dmg(0)",
+                  "DraconicEvolution:draconium size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10343,7 +10344,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconium size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10377,7 +10378,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconicBlock size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10416,7 +10417,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconiumDust size(32) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10465,7 +10466,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconicBlock size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10514,7 +10515,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:dragonHeart size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -10548,7 +10549,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "DraconicEvolution:draconicBlock size(1) dmg(0)"
                ],
                "reputations" : [
                ]
