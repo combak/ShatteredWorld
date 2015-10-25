@@ -2,6 +2,11 @@
   "music_cantina": 
   {
     "category": "player",
-    "sounds": [ "music/Duostina_-_Star_Wars_Cantina_Band_(John_Williams)" ]
+    "sounds": [ "music/Duostina_-_Star_Wars_Cantina_Band_(John_Williams)-Original" ]
+  },
+  "music_cantina-short": 
+  {
+    "category": "player",
+    "sounds": [ "music/Duostina_-_Star_Wars_Cantina_Band_(John_Williams)-Short" ]
   }
 }
