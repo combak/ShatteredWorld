@@ -6,12 +6,25 @@
 - Added Moonstone Infusion (Thaumcraft) 
 - Added Tarma Root Infusion (Thaumcraft)
 - Script Overhaul (Adv. Generators)
+- Increased Wood Harvest Level (can't harvest without tools)
+- Changed many Furnaces recipes
+- Compatibility ProjectRed & EnderIO Silicon
+- Compatibility ProjectRed & EnderIO Red(stone) Alloy
+- Reduced passive wither (Botania)
+- Remove EnderIO Quite Clear Glass from glass OreDict
 
 **Mod Updates**
+- Chisel2 2.3.10.37 to 2.5.1.44
+- customnpcs d (2015-05) to d (2015-09)
+- FastCraft 1.21 to 1.22 ctest17
 - Forestry 3.6.3.20 to 3.6.6.24
+- ForgeEssentials 1.4.2.892 to 1.4.3.1011
+- MineTweaker3 3.0.9C to 3.0.10B
+- Thaumcraft Witching Gadgets 1.1.9 to 1.1.10
 
 **Mod Additions**
 - Guide API 1.0.1-20
+- iBench 1.0.12
 
 # Version 0.7.0b
 
