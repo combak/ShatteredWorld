@@ -1,9 +1,0 @@
-{
-  "en_US": {
-    "name": "mm.techtree_entry_name.ENGINE",
-    "text": "mm.techtree_entry_text.ENGINE",
-    "pages": [
-      "mm.techtree_page.ENGINE.0"
-    ]
-  }
-}

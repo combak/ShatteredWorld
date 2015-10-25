@@ -1,9 +1,0 @@
-{
-  "en_US": {
-    "name": "mm.techtree_entry_name.BATTERY",
-    "text": "mm.techtree_entry_text.BATTERY",
-    "pages": [
-      "mm.techtree_page.BATTERY.0"
-    ]
-  }
-}

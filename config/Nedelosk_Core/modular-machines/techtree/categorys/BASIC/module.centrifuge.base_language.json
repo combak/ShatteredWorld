@@ -1,9 +1,0 @@
-{
-  "en_US": {
-    "name": "mm.techtree_entry_name.MODULE.CENTRIFUGE.BASE",
-    "text": "mm.techtree_entry_text.MODULE.CENTRIFUGE.BASE",
-    "pages": [
-      "mm.techtree_page.MODULE.CENTRIFUGE.BASE.0"
-    ]
-  }
-}

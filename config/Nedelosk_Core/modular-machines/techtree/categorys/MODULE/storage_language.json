@@ -1,9 +1,0 @@
-{
-  "en_US": {
-    "name": "mm.techtree_entry_name.STORAGE",
-    "text": "mm.techtree_entry_text.STORAGE",
-    "pages": [
-      "mm.techtree_page.STORAGE.0"
-    ]
-  }
-}
