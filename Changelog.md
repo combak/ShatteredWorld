@@ -20,6 +20,7 @@
 - customnpcs d (2015-05) to d (2015-09)
 - FastCraft 1.21 to 1.22 ctest17
 - Forestry 3.6.3.20 to 3.6.6.24
+- Forest Mods 0.1.7a-beta to 0.3.2-beta
 - ForgeEssentials 1.4.2.892 to 1.4.3.1011
 - MineTweaker3 3.0.9C to 3.0.10B
 - Thaumcraft Witching Gadgets 1.1.9 to 1.1.10
