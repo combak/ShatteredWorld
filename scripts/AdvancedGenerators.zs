@@ -141,7 +141,7 @@ val thermExpServo                   = <ThermalExpansion:material>;
 
 # Modular Machines
 
-val modMachinesPlateIron            = <ModularMachines:plate>;
+val modMachinesPlateIron            = <ModularMachines:component.plates:1>;
 
 # Vanilla
 

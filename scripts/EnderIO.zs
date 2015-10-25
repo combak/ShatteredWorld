@@ -15,9 +15,6 @@ val enderioSolarpanel               = <EnderIO:blockSolarPanel:1>;
 val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
-# Forest Day
-val forestDayFurnaceCoke            = <ForestDay:furnace_coke>;
-
 # Forestry
 val ForestryGlassBlue               = <Forestry:stained:11>;
 
@@ -29,6 +26,7 @@ val thermExpGlassLumiumHardened     = <ThermalExpansion:Glass:1>;
 
 # Vanilla
 val vanillaIronBar                  = <minecraft:iron_bars>;
+val vanillaFurnace                  = <minecraft:furnace>;
 
 ########################################################################################################################
 # Items
@@ -38,8 +36,8 @@ val enderioBasicGear 		= <EnderIO:itemMachinePart:1>;
 val enderioZombieElectrode      = <EnderIO:itemFrankenSkull>;
 val enderioVibrantCrystal   = <EnderIO:itemMaterial:6>;
 
-# Nedelosk Core
-val forestDayWoodGear = <NedeloskCore:gearWood:1>;
+# Forest Day
+val forestDayWoodGear = <ForestDay:item.gearWood:1>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
@@ -79,13 +77,13 @@ recipes.addShaped( enderioChassis, [ [ vanillaIronBar, odAluminumIngot,vanillaIr
 
 # RF Generators
 recipes.remove(enderioGeneratorStirling);
-recipes.addShaped( enderioGeneratorStirling, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftGearIron, projectRedConductivePlate ], [ enderioChassis, forestDayFurnaceCoke, enderioChassis ] ]);				 
+recipes.addShaped( enderioGeneratorStirling, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftGearIron, projectRedConductivePlate ], [ enderioChassis, vanillaFurnace, enderioChassis ] ]);				 
 
 recipes.remove(enderioGeneratorCombustion);				 
-recipes.addShaped( enderioGeneratorCombustion, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftFluidPipeIron, projectRedConductivePlate ], [ enderioTank, forestDayFurnaceCoke, enderioTank ] ]);
+recipes.addShaped( enderioGeneratorCombustion, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftFluidPipeIron, projectRedConductivePlate ], [ enderioTank, vanillaFurnace, enderioTank ] ]);
 
 recipes.remove(enderioGeneratorZombie);				 
-recipes.addShaped( enderioGeneratorZombie, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, enderioZombieElectrode, projectRedConductivePlate ], [ extUtilGlassThickened, forestDayFurnaceCoke, extUtilGlassThickened ] ]);
+recipes.addShaped( enderioGeneratorZombie, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, enderioZombieElectrode, projectRedConductivePlate ], [ extUtilGlassThickened, vanillaFurnace, extUtilGlassThickened ] ]);
 
 recipes.remove(enderioSolarpanelsmall);
 recipes.addShaped( enderioSolarpanelsmall, [ [ projectRedChipEnergized, ForestryGlassBlue , projectRedChipEnergized ], [ buildCraftChipComp, enderioVibrantCrystal, buildCraftChipComp ], [ projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ] ]);
