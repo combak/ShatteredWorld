@@ -1,12 +1,29 @@
 {
    "parent" : "ShatteredWorld",
-   "decription" : "Diese Pack ist anderes als andere!\n- Jeder Spieler ist in seiner eigenen kleinen Welt auf seiner Insel.\n- Alle Arten von Querries sind deaktiviert oder massiv erschwert.\n- Im Boden sind nur ein paar besondere Rohstoffe. Alles andere muss man sich ueber andere Wege herstellen.\n- In spezielle andere Welten gelangt man ueber die Lobby und den dazu gehoerigen NPCs.\n- Viele Rezepte sind nach Schwierigkeitsgraden veraendert und teilweise voneinander abhaengig.\n- Es spawnen mehr und gefaehrlichere Mobs. Die Nacht ist unheimlich. Auch die Naehe zu Fluessigkeiten birgt Gefahren.",
+   "decription" : "Diese Pack ist anderes als andere!\n- Jeder Spieler ist in einer eigenen Welt auf einer Insel.\n- Alle Arten von Querries sind deaktiviert oder erschwert.\n- Im Boden sind nur ein paar Rohstoffe.\n- In andere Welten gelangt man ueber die Lobby und den dazu gehoerigen NPCs.\n- Viele Rezepte sind nach Schwierigkeit veraendert und teilweise voneinander abhaengig.\n- Es spawnen mehr und gefaehrlichere Mobs. Die Nacht ist unheimlich. Auch die Naehe zu Fluessigkeiten birgt Gefahren.",
    "questSetCatalog" : [
       {
          "id" : "set000",
          "name" : "Aller Anfang ist schwer",
          "decription" : "etwas Tinker, Pam, Ernergie, Ex-Nihilo, Ex-Astris",
          "quests" : [
+            {
+               "id" : "quest292",
+               "name" : "Der Anfang der Ewigkeit",
+               "description" : "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas einfachen Taetigkeiten.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Durch das Abschlagen des Laubs von den Baeumen finden wir ab und zu einen Ast. Manchmal schneller, manchmal langsamer."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Gravelbloecke fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen."
+                  }
+               ]
+            },
             {
                "id" : "quest000",
                "name" : "Karate Tiger",
@@ -21,6 +38,18 @@
                      "id" : "task001",
                      "name" : "Crafting Task",
                      "description" : "Wenn man das Holz in ein Crafting Grid legt, kann man daraus Bretter (Planks) machen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest002",
+               "name" : "Sichere Nacht",
+               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe keonnen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
                   }
                ]
             },
@@ -42,18 +71,6 @@
                ]
             },
             {
-               "id" : "quest002",
-               "name" : "Sichere Nacht",
-               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe keonnen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
-                  }
-               ]
-            },
-            {
                "id" : "quest003",
                "name" : "Der beste Ordnungssinn",
                "description" : "So langsam haeufen sich ein paar Gegenstaende. Den ganzen Cobblestone, das Holz und ein paar andere Dinge muss man doch besser unterbringen koennen, als in einer Kiste.",
@@ -62,18 +79,6 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Die Kapazitaet der drei Drawer ist gleich, jedoch teilt sich diese auf die Anzahl der Schubladen auf. Das Material ist egal."
-                  }
-               ]
-            },
-            {
-               "id" : "quest004",
-               "name" : "Mehr ist immer besser",
-               "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese auch aufwerten.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Wenn du mit dem Storage Upgrade auf einen Storage Drawer rechtsklickst, dann wird dessen Kapazitaet erhoeht. Mit der leeren Hand oeffent man ein Konfigurationsmenue zu den Boxen, mit dem man die Upgrades verwalten kann."
                   }
                ]
             },
@@ -158,19 +163,38 @@
                "description" : "Wo kommt man am besten an die guten Steine, man geht unter Tage. Dazu sollte man aber auch eine kleine Spitzhake dabei haben.",
                "tasks" : [
                   {
+                     "id" : "task002",
+                     "name" : "Detection Task",
+                     "description" : "Eine Spitzhacke besteht aus Kopf, Stiel und Bindung. Fuer alle drei erhaelt man in der Stancil Table die Vorlagen. Im Part Builder stellt man mit Flint bzw. Holzbrettern (Planks) die Einzelteile her. Alles wird in der Tool Station zusammen gebaut. Jetzt kann man ganz leicht Steine abbauen und bekommt Cobblestone. Aber auch hier gibt es Waechter. Sei gewarnt!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest294",
+               "name" : "Der Pfadfinder",
+               "description" : "Wir muessen beweisen, das wir in der Wildnis ueberleben koennen. Die erste Pruefung besteht im Feuer machen.",
+               "tasks" : [
+                  {
                      "id" : "task000",
-                     "name" : "Crafting Task Flint",
-                     "description" : "Das erste Handwerksmaterial ist Flint. Man erhaelt es durch ein einfaches Rezept aus Kies (Gravel). Man muss nur 4 davon in einer L-Form angeordnen."
+                     "name" : "Crafting Task",
+                     "description" : "Ein richtiges Feuer besteht aus einem korrekt erstelltem Holzstapel, in dem sich die Hitze schnell bilden kann. Ausserdem ist eine Steinumrandung wichtig, damit der Brandschutz gewaehrleistet ist."
                   },
                   {
                      "id" : "task001",
-                     "name" : "Crafting Task Pickaxe",
-                     "description" : "Mit einem Pickaxe Head Stencil aus dem Stencil Table kann man im Part Builder mit dem Flint einen Pickaxe Head machen. Dazu braucht man dann noch ein Binding und einen Tool Rod, die man beide genauso herstellt, aber als Material Holzbretter (Planks) verwendet. Am Schluss baut man alles in der Tool Station zusammen."
-                  },
-                  {
-                     "id" : "task002",
                      "name" : "Detection Task",
-                     "description" : "Mit der neuen Spitzhake kann man nun ganz leicht Steine abbauen und bekommt Cobblestone. Aber auch hier gibt es Waechter. Sei gewarnt!"
+                     "description" : "Jetzt sind wir in der Lage unseren ruhen Stein zu brennen. Nutze dein Lagerfeuer mit etwas Brennstoff."
+                  }
+               ]
+            },
+            {
+               "id" : "quest013",
+               "name" : "Das ist alles fuer den Popo",
+               "description" : "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Alle Items, die in den Muelleimer wandern sind fuer immer verloren. Also sei vorsichtig!"
                   }
                ]
             },
@@ -195,18 +219,6 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
-                  }
-               ]
-            },
-            {
-               "id" : "quest013",
-               "name" : "Das ist alles fuer den Popo",
-               "description" : "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Alle Items, die in den Muelleimer wandern sind fuer immer verloren. Also sei vorsichtig!"
                   }
                ]
             },
@@ -305,6 +317,18 @@
                ]
             },
             {
+               "id" : "quest004",
+               "name" : "Mehr ist immer besser",
+               "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese auch aufwerten.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Wenn du mit dem Storage Upgrade auf einen Storage Drawer rechtsklickst, dann wird dessen Kapazitaet erhoeht. Mit der leeren Hand oeffent man ein Konfigurationsmenue zu den Boxen, mit dem man die Upgrades verwalten kann."
+                  }
+               ]
+            },
+            {
                "id" : "quest021",
                "name" : "Wie passt nur alles da rein",
                "description" : "Andauernd habe ich die Taschen voll. Eine weitere Transportmoeglichkeit muss her.",
@@ -325,6 +349,23 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Der Tank kann vergroessert werden. Mit einem Crescent Hammer kann man mit SHIFT und Rechtklick den Tank abbauen, ohne das die Fluessigkeiten verloren gehen. Wenn man den Tank auf eine Maschine setzt und dem Tank mit dem Crescent Hammer einen rechtsklick verpasst, so funktioniert er meistens als Fluessigkeitsquelle."
+                  }
+               ]
+            },
+            {
+               "id" : "quest025",
+               "name" : "Wie die Axt im Wald",
+               "description" : "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Als erstes muss der Werkzeugtisch (Tool Station) aufgewertet werden. Mit dem Schmiedewerkzeugtisch (Tool Forge Station) kann man sich die fortgeschrittenen Waffen und Werkzeuge herstellen. Das Problem ist hier das richtige Material fuer die Metallbloecke zu finden."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Mit dieser Axt reicht es den Baum unten zu faellen. Der Rest kommt von selbst."
                   }
                ]
             },
@@ -351,40 +392,6 @@
                      "description" : "Links und Rechts davon eine Kiste oder aehnliches aufstellen und er versucht die Gegenstaende aus der linken Kiste zusammenzufassen und legt sie dann in die rechte Kiste. Die Seite mit dem aufgemalten Crafting Grid auf der Maschine ist die Vorderseite."
                   }
                ]
-            },
-            {
-               "id" : "quest025",
-               "name" : "Wie die Axt im Wald",
-               "description" : "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Als erstes muss der Werkzeugtisch (Tool Station) aufgewertet werden. Mit dem Schmiedewerkzeugtisch (Tool Forge Station) kann man sich die fortgeschrittenen Waffen und Werkzeuge herstellen. Das Problem ist hier das richtige Material fuer die Metallbloecke zu finden."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Detection Task",
-                     "description" : "Mit dieser Axt reicht es den Baum unten zu faellen. Der Rest kommt von selbst."
-                  }
-               ]
-            },
-            {
-               "id" : "quest292",
-               "name" : "Der Anfang der Ewigkeit",
-               "description" : "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas einfachen Taetigkeiten.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Durch das Abschlagen des Laubs von den Baeumen finden wir ab und zu einen Ast. Manchmal schneller, manchmal langsamer."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
-                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Gravelbloecke fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen."
-                  }
-               ]
             }
          ]
       },
@@ -404,8 +411,8 @@
                      "description" : "Alle Pflanzen brauchen spezielles Farmland, welches nur in einem Komposter hergestellt werden kann. Abfaelle koennen hier kompostiert werden. Besser, als sie in den Muelleimer zu werfen."
                   },
                   {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
+                     "id" : "task003",
+                     "name" : "Detection Task",
                      "description" : "Die Mattock ist ein Multi Funktionelles Werkzeug. Man kann damit Erde abbauen (Schaufel Ersatz), Baeume Faellen (Axt Ersatz) und gleichzeitig auch noch Felder pfluegen, ein Wunderwerk neuzeitlicher Ingenieurskunst."
                   },
                   {
@@ -1046,7 +1053,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Um an Flux Kristalle zu kommen, muss man geladenen Certus Quartz, Nether Quartz und Redstone im Verhaeltniss 1:1:1 in eine Pfuetze oder See werfen. Nach kurzer Zeit kommt Flux Kristall raus. Diesen kann man danach zerkleinern um an Flux Staub \/ Dust zu kommen."
+                     "description" : "Um an Fluixkristalle zu kommen, muss man geladenen Certusquartz, Netherquartz und Redstone im Verhaeltniss 1:1:1 in Wasser werfen. Diesen kann man danach zerkleinern um an Fluix Staub (Dust) zu kommen."
                   },
                   {
                      "id" : "task001",
@@ -1361,6 +1368,30 @@
                ]
             },
             {
+               "id" : "quest107",
+               "name" : "Die magischen Blumen",
+               "description" : "Was so ein richtiger Hexenmweister werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Finde diese magischen Blumen. Sie sind sehr selten und schwer von anderen zu unterscheiden. Du findest sie unter magischen Baeumen, in Wuesten oder dunklen Stellen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest103",
+               "name" : "Mage Amor",
+               "description" : "Wenn man zu einem erlesenen Kreis gehoeren will muss man sich auch dessen Etiketten unterwerfen. Die richtige Kleidung muss bei allen Empfaengen unbedingt getragen werden. Ausserdem dient sie natuerlich als magischer Schutzanzug.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Diese einfachen Ruestungsteile lassen sich aus normalen Grundsstoffen herstellen."
+                  }
+               ]
+            },
+            {
                "id" : "quest098",
                "name" : "Das stille Oertchen",
                "description" : "Der sichere Weg zu neuer Erkenntnis ist die Meditation. Dafuer braucht man einen speziellen Altar. Hier kann man seine Meisterschaft zu neuen Faehigkeiten formen.",
@@ -1421,18 +1452,6 @@
                ]
             },
             {
-               "id" : "quest103",
-               "name" : "Mage Amor",
-               "description" : "Wenn man zu einem erlesenen Kreis gehoeren will muss man sich auch dessen Etiketten unterwerfen. Die richtige Kleidung muss bei allen Empfaengen unbedingt getragen werden. Ausserdem dient sie natuerlich als magischer Schutzanzug.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Diese einfachen Ruestungsteile lassen sich aus normalen Grundsstoffen herstellen."
-                  }
-               ]
-            },
-            {
                "id" : "quest104",
                "name" : "Der Ofen der Weisen",
                "description" : "Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.",
@@ -1475,18 +1494,6 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Der Speicher kann immer nur eine Art von roher Essenze speichern."
-                  }
-               ]
-            },
-            {
-               "id" : "quest107",
-               "name" : "Die magischen Blumen",
-               "description" : "Was so ein richtiger Hexenmweister werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Finde diese magischen Blumen. Sie sind sehr selten und schwer von anderen zu unterscheiden. Du findest sie unter magischen Baeumen, in Wuesten oder dunklen Stellen."
                   }
                ]
             },
@@ -2306,25 +2313,25 @@
             },
             {
                "id" : "quest167",
-               "name" : "Hydroangeas",
-               "description" : "Fuer die spaetere Manaproduktion gibt es staerkere Blumen. Eine davon ist die Hydroangeas, die Mana aus Wasserquellen gewinnen kann.",
+               "name" : "Daybloom",
+               "description" : "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind diese alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die Hydroangeas verbraucht nur beim ersten Aufstellen einen Wasserblock. Dadurch kann man sie viel enger anordnen. Das solltest du wissen."
+                     "description" : "Die Daybloom darf nicht direkt nebeneinander aufgestellt werden. In den Zwischenraeumen koennen aber andere Blumen stehen."
                   }
                ]
             },
             {
                "id" : "quest168",
                "name" : "Endoflame",
-               "description" : "Die andere gute Manaquelle ist die Endoflame. Sie kann Mana aus Lava generieren. Und wenn man genug davon hat, sollte man sie benutzen.",
+               "description" : "Eine gute Manaquelle ist die Endoflame. Sie kann Mana aus allem was brennbar ist generieren. Und wenn man genug davon hat, sollte man sie benutzen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Das Problem hier ist die Lavaproduktion, denn Lava kann nicht so leicht wie Wasser hergestellt werden."
+                     "description" : "Das Problem hier ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kuntinuierliche Versorgung geben."
                   }
                ]
             },
