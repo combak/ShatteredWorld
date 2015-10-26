@@ -27,3 +27,17 @@
 /usercache.json
 /usernamecache.json
 *.log
+
+# Config
+/config/MapWriterBlockColours.txt
+/config/MapWriterBlockColourOverrides.txt
+/config/NEI/
+/config/MapWriter.cfg
+/config/HardcoreEnderExpansion.clientsave.cfg
+/config/INpureProjects/logs/
+/config/cofh/core/friends.cfg
+
+# CustomNPCs
+*.dat_old
+/customnpcs/playerdata/
+/customnpcs/assets/customnpcs/textures/cache/
