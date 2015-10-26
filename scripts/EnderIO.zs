@@ -36,9 +36,6 @@ val enderioBasicGear 		= <EnderIO:itemMachinePart:1>;
 val enderioZombieElectrode      = <EnderIO:itemFrankenSkull>;
 val enderioVibrantCrystal   = <EnderIO:itemMaterial:6>;
 
-# Forest Day
-val forestDayWoodGear = <ForestDay:item.gearWood:1>;
-
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
 
@@ -60,8 +57,9 @@ val rsArsenalFluxCrystal            = <RedstoneArsenal:material:96>;
 # Ore Dictionary
 ########################################################################################################################
 
-val odCobblestone = <ore:cobblestone>;
-val odAluminumIngot                 = <ore:ingotAluminum>;
+val odCobblestone	= <ore:cobblestone>;
+val odAluminumIngot	= <ore:ingotAluminum>;
+val odGearWood		= <ore:gearWood>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -69,7 +67,7 @@ val odAluminumIngot                 = <ore:ingotAluminum>;
 
 # Changed Gear Crafting
 recipes.remove( enderioBasicGear );
-recipes.addShaped( enderioBasicGear, [ [ null, odCobblestone, null ], [ odCobblestone, forestDayWoodGear, odCobblestone ], [ null, odCobblestone, null ] ]);
+recipes.addShaped( enderioBasicGear, [ [ null, odCobblestone, null ], [ odCobblestone, odGearWood, odCobblestone ], [ null, odCobblestone, null ] ]);
 
 # Changed Chassis
 recipes.remove ( enderioChassis );
