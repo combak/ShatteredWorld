@@ -37,7 +37,7 @@
 - extrautilities-1.7.10-1.2.4c.jar
 - fastcraft-1.22-ctest17.jar
 - forbidden-magic-1.7.10-0.562.jar
-- forest-mods-1.7.10-0.3.2-beta.jar
+- forest-mods-1.7.10-0.3.2a-beta.jar
 - forestry-1.7.10-3.6.6.24.jar
 - forgeessentials-client-1.7.10-1.4.3.1011.jar
 - fwg-1.7.10-1.0.3.jar
