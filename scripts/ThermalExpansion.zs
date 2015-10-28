@@ -34,10 +34,10 @@ val thermExpCyclicAssembler     = <ThermalExpansion:Machine:9>;
 val thermExpPhytogenicInsulator = <ThermalExpansion:Machine:11>;
 
 val thermExpFrames = [
-<ThermalExpansion:Frame>,   /* Basic */
-<ThermalExpansion:Frame:1>, /* Hardened */
-<ThermalExpansion:Frame:2>, /* Reinforced */
-<ThermalExpansion:Frame:3>, /* Resonant */
+  <ThermalExpansion:Frame>,   /* Basic */
+  <ThermalExpansion:Frame:1>, /* Hardened */
+  <ThermalExpansion:Frame:2>, /* Reinforced */
+  <ThermalExpansion:Frame:3>, /* Resonant */
 ] as IItemStack[];
 
 # EnderIO
@@ -70,19 +70,16 @@ val appEngProcessorLogic        = <appliedenergistics2:item.ItemMultiMaterial:22
 val dracoEvoCoreBasic           = <DraconicEvolution:draconicCore>;
 
 # Thermal Foundation
-val thermFoundGearSilver            = <ThermalFoundation:material:130>;
-val thermFoundGearInvar             = <ThermalFoundation:material:136>;
-val thermFoundGearFerrous           = <ThermalFoundation:material:132>;
-val thermFoundGearElectrum          = <ThermalFoundation:material:135>;
+val thermFoundGearSilver	= <ThermalFoundation:material:130>;
+val thermFoundGearInvar		= <ThermalFoundation:material:136>;
+val thermFoundGearFerrous	= <ThermalFoundation:material:132>;
+val thermFoundGearElectrum	= <ThermalFoundation:material:135>;
 
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
 
 # EnderIO
 val enderIOCapacitorOctadic     = <EnderIO:itemBasicCapacitor:2>;
-              
-# Modular Machines
-val modMachPlatePlastic         = <ModularMachines:plate:8>;
 
 # Thermal Expansion
 val thermExpAugmentFrame        = <ThermalExpansion:augment:16>;
@@ -95,6 +92,7 @@ val buildCraftChipGold          = <BuildCraft|Silicon:redstoneChipset:2>;
 val buildCraftChipDiamond       = <BuildCraft|Silicon:redstoneChipset:3>;
 val buildCraftChipComp          = <BuildCraft|Silicon:redstoneChipset:6>;
 val bcAdditionsDustAlu               = <bcadditions:dust:45>;
+val bcAdditionsCoilLava		= <bcadditions:blockCoilLava>;
 
 # Advanced Generators               
 val advGenePowerIO                  = <advgenerators:PowerIO>;
@@ -108,6 +106,14 @@ val odingotEnderium             = <ore:ingotEnderium>;
 val odingotSignalum             = <ore:ingotSignalum>;
 val odingotElectrum             = <ore:ingotElectrum>;
 val odplateCopper               = <ore:plateCopper>;
+
+########################################################################################################################
+# Ore Dictionary
+########################################################################################################################
+
+val odPlatePlastic	= <ore:platePlastic>;
+val odGearLumium	= <ore:gearLumium>;
+val odGearSignalum	= <ore:gearSignalum>;
 
 ########################################################################################################################
 # (Mixed) Data Structures - Pulverizer - Remove 
@@ -986,7 +992,7 @@ recipes.remove(thermExpFrameBasic);
  recipes.addShaped(thermExpFrameReinforced,[[odingotSignalum,enderIOEnderIO,odingotSignalum],[buildCraftChipGold,thermExpFrameHardened,buildCraftChipGold],[odPlateAluminium,advGeneControlCircuit,odPlateAluminium]]);
  
  recipes.remove(thermExpFrameResonant);
- recipes.addShaped(thermExpFrameResonant,[[odingotEnderium,enderIOEnderIO,odingotEnderium],[buildCraftChipDiamond,thermExpFrameReinforced,buildCraftChipDiamond],[modMachPlatePlastic,advGeneControlCircuit,modMachPlatePlastic]]);
+ recipes.addShaped(thermExpFrameResonant,[[odingotEnderium,enderIOEnderIO,odingotEnderium],[buildCraftChipDiamond,thermExpFrameReinforced,buildCraftChipDiamond],[odPlatePlastic,advGeneControlCircuit,odPlatePlastic]]);
  
  recipes.remove(thermExpFrameTesseract);
  recipes.addShaped(thermExpFrameTesseract,[[odingotEnderium,odGlassHard,odingotEnderium],[odGlassHard,dracoEvoCoreBasic,odGlassHard],[odingotEnderium,odGlassHard,odingotEnderium]]);
@@ -999,12 +1005,13 @@ recipes.remove(thermExpFrameBasic);
  recipes.remove(thermExpCyclicAssembler);
  recipes.remove(thermExpPhytogenicInsulator);
  recipes.remove(thermExpMagmaCrucible);
+ 
  for i , frame in thermExpFrames
  {
- recipes.addShaped(<ThermalExpansion:Machine:3>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[bcAdditionsCoilLava,frame,bcAdditionsCoilLava],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
- recipes.addShaped(<ThermalExpansion:Machine:4>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOCapacitorBank,null],[tSteelwBrickScorched,frame,tSteelwBrickScorched],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
- recipes.addShaped(<ThermalExpansion:Machine:5>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[thermExpServo,frame,thermExpServo],[odplateCopper,advGenePowerIO,odplateCopper]]);
- recipes.addShaped(<ThermalExpansion:Machine:9>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOBufferItem,null],[appEngProcessorLogic,frame,buildCraftChipRedstone],[odplateCopper,advGenePowerIO,odplateCopper]]);
- recipes.addShaped(<ThermalExpansion:Machine:11>.withTag({RSControl: 0 , Facing: 3 , Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,thermFoundGearLumium,null],[gardCoreSoil,frame,gardCoreSoil],[thermFoundGearSignalum,advGenePowerIO,thermFoundGearSignalum]]);
+  recipes.addShaped(<ThermalExpansion:Machine:3>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[bcAdditionsCoilLava,frame,bcAdditionsCoilLava],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
+  recipes.addShaped(<ThermalExpansion:Machine:4>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOCapacitorBank,null],[tSteelwBrickScorched,frame,tSteelwBrickScorched],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
+  recipes.addShaped(<ThermalExpansion:Machine:5>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[thermExpServo,frame,thermExpServo],[odplateCopper,advGenePowerIO,odplateCopper]]);
+  recipes.addShaped(<ThermalExpansion:Machine:9>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOBufferItem,null],[appEngProcessorLogic,frame,buildCraftChipRedstone],[odplateCopper,advGenePowerIO,odplateCopper]]);
+  recipes.addShaped(<ThermalExpansion:Machine:11>.withTag({RSControl: 0 , Facing: 3 , Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,odGearLumium,null],[gardCoreSoil,frame,gardCoreSoil],[odGearSignalum,advGenePowerIO,odGearSignalum]]);
  }
 
