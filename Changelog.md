@@ -2,6 +2,15 @@
 
 # Version 0.7.2
 
+# Version 0.7.1b
+
+**Config Changes**
+- Changed forest day gear to ore dict gearWood.
+- Load those scripts (OreDictionary.zs, Furnaces.zs and Fluids.zs) first.
+
+**Mod Updates**
+- MineTweaker3 3.0.10B to 3.0.10 Customized build
+
 # Version 0.7.1a
 
 **Mod Updates**

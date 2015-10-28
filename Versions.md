@@ -35,7 +35,7 @@
 - ex-nihilo-1.7.10-1.38-45.jar
 - extracells-1.7.10-2.2.68b-nightly.jar
 - extrautilities-1.7.10-1.2.4c.jar
-- fastcraft-1.22-ctest17.jar
+- fastcraft-1.7.10-1.22-ctest17.jar
 - forbidden-magic-1.7.10-0.562.jar
 - forest-mods-1.7.10-0.3.2a-beta.jar
 - forestry-1.7.10-3.6.6.24.jar
@@ -56,10 +56,9 @@
 - lycanitesmobscomplete-1.7.10-1.11.0.1.jar
 - magistics-1.7.10-0.7.6.jar
 - mantle-1.7.10-0.3.2.jar
-- minetweaker3-1.7.10-3.0.10B.jar
+- minetweaker3-1.7.10-3.0.10-customized.jar
 - mobiuscore-1.7.10-1.2.5.jar
 - modtweaker-1.7.10-2-0.9.2.jar
-- MrTJPCore-1.0.8.16-universal.jar
 - natura-1.7.10-2.2.0.1.jar
 - neiaddons-1.7.10-1.12.11.36.jar
 - neiintegration-1.7.10-1.0.12.jar
