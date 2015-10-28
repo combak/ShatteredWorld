@@ -2,6 +2,11 @@
 
 # Version 0.7.2
 
+# Version 0.7.1a
+
+**Mod Updates**
+- Forest Mods 0.3.2-beta to 0.3.2a-beta
+
 # Version 0.7.1
 
 **Config Changes**
