@@ -99,19 +99,19 @@ val advGenePowerIO                  = <advgenerators:PowerIO>;
 val advGeneControlCircuit       = <advgenerators:Controller>;
 val advGeneFrameIron		    = <advgenerators:IronFrame>;
 
-# Oredict
-val odPlateInvar                = <ore:plateInvar>;
-val odPlateAluminium            = <ore:plateAluminium>;
-val odingotEnderium             = <ore:ingotEnderium>;
-val odingotSignalum             = <ore:ingotSignalum>;
-val odingotElectrum             = <ore:ingotElectrum>;
-val odplateCopper               = <ore:plateCopper>;
-
 ########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
 
+val odingotEnderium	= <ore:ingotEnderium>;
+val odingotSignalum	= <ore:ingotSignalum>;
+val odingotElectrum	= <ore:ingotElectrum>;
+
+val odPlateAluminium	= <ore:plateAluminium>;
+val odplateCopper	= <ore:plateCopper>;
+val odPlateInvar	= <ore:plateInvar>;
 val odPlatePlastic	= <ore:platePlastic>;
+
 val odGearLumium	= <ore:gearLumium>;
 val odGearSignalum	= <ore:gearSignalum>;
 
@@ -983,35 +983,36 @@ recipes.addShaped
 					
 # Machines
 recipes.remove(thermExpFrameBasic);
- recipes.addShaped(thermExpFrameBasic,[[advGeneFrameIron,odGlass,advGeneFrameIron],[odGlass,thermExpAugmentFrame,odGlass],[advGeneFrameIron,odGlass,advGeneFrameIron]]);
- 
- recipes.remove(thermExpFrameHardened);
- recipes.addShaped(thermExpFrameHardened,[[odPlateInvar,enderIOEnderIO,odPlateInvar],[buildCraftChipRedstone,thermExpFrameBasic,buildCraftChipRedstone],[odPlateInvar,advGeneControlCircuit,odPlateInvar]]);
- 
- recipes.remove(thermExpFrameReinforced);
- recipes.addShaped(thermExpFrameReinforced,[[odingotSignalum,enderIOEnderIO,odingotSignalum],[buildCraftChipGold,thermExpFrameHardened,buildCraftChipGold],[odPlateAluminium,advGeneControlCircuit,odPlateAluminium]]);
- 
- recipes.remove(thermExpFrameResonant);
- recipes.addShaped(thermExpFrameResonant,[[odingotEnderium,enderIOEnderIO,odingotEnderium],[buildCraftChipDiamond,thermExpFrameReinforced,buildCraftChipDiamond],[odPlatePlastic,advGeneControlCircuit,odPlatePlastic]]);
- 
- recipes.remove(thermExpFrameTesseract);
- recipes.addShaped(thermExpFrameTesseract,[[odingotEnderium,odGlassHard,odingotEnderium],[odGlassHard,dracoEvoCoreBasic,odGlassHard],[odingotEnderium,odGlassHard,odingotEnderium]]);
- 
- recipes.remove(thermExpFrameEnergyCell);
- recipes.addShaped(thermExpFrameEnergyCell,[[odingotElectrum,odGlassHard,odingotElectrum],[odGlassHard,enderIOCapacitorOctadic,odGlassHard],[odingotElectrum,odGlassHard,odingotElectrum]]);
+recipes.addShaped(thermExpFrameBasic,[[advGeneFrameIron,odGlass,advGeneFrameIron],[odGlass,thermExpAugmentFrame,odGlass],[advGeneFrameIron,odGlass,advGeneFrameIron]]);
 
- recipes.remove(thermExpInductionsmelter);
- recipes.remove(thermExpFluidTransposer);
- recipes.remove(thermExpCyclicAssembler);
- recipes.remove(thermExpPhytogenicInsulator);
- recipes.remove(thermExpMagmaCrucible);
- 
- for i , frame in thermExpFrames
- {
-  recipes.addShaped(<ThermalExpansion:Machine:3>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[bcAdditionsCoilLava,frame,bcAdditionsCoilLava],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
-  recipes.addShaped(<ThermalExpansion:Machine:4>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOCapacitorBank,null],[tSteelwBrickScorched,frame,tSteelwBrickScorched],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
-  recipes.addShaped(<ThermalExpansion:Machine:5>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[thermExpServo,frame,thermExpServo],[odplateCopper,advGenePowerIO,odplateCopper]]);
-  recipes.addShaped(<ThermalExpansion:Machine:9>.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOBufferItem,null],[appEngProcessorLogic,frame,buildCraftChipRedstone],[odplateCopper,advGenePowerIO,odplateCopper]]);
-  recipes.addShaped(<ThermalExpansion:Machine:11>.withTag({RSControl: 0 , Facing: 3 , Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,odGearLumium,null],[gardCoreSoil,frame,gardCoreSoil],[odGearSignalum,advGenePowerIO,odGearSignalum]]);
- }
+recipes.remove(thermExpFrameHardened);
+recipes.addShaped(thermExpFrameHardened,[[odPlateInvar,enderIOEnderIO,odPlateInvar],[buildCraftChipRedstone,thermExpFrameBasic,buildCraftChipRedstone],[odPlateInvar,advGeneControlCircuit,odPlateInvar]]);
+
+recipes.remove(thermExpFrameReinforced);
+recipes.addShaped(thermExpFrameReinforced,[[odingotSignalum,enderIOEnderIO,odingotSignalum],[buildCraftChipGold,thermExpFrameHardened,buildCraftChipGold],[odPlateAluminium,advGeneControlCircuit,odPlateAluminium]]);
+
+recipes.remove(thermExpFrameResonant);
+recipes.addShaped(thermExpFrameResonant,[[odingotEnderium,enderIOEnderIO,odingotEnderium],[buildCraftChipDiamond,thermExpFrameReinforced,buildCraftChipDiamond],[odPlatePlastic,advGeneControlCircuit,odPlatePlastic]]);
+
+recipes.remove(thermExpFrameTesseract);
+recipes.addShaped(thermExpFrameTesseract,[[odingotEnderium,odGlassHard,odingotEnderium],[odGlassHard,dracoEvoCoreBasic,odGlassHard],[odingotEnderium,odGlassHard,odingotEnderium]]);
+
+recipes.remove(thermExpFrameEnergyCell);
+recipes.addShaped(thermExpFrameEnergyCell,[[odingotElectrum,odGlassHard,odingotElectrum],[odGlassHard,enderIOCapacitorOctadic,odGlassHard],[odingotElectrum,odGlassHard,odingotElectrum]]);
+
+recipes.remove(thermExpInductionsmelter);
+recipes.remove(thermExpMagmaCrucible);
+recipes.remove(thermExpFluidTransposer);
+recipes.remove(thermExpCyclicAssembler);
+recipes.remove(thermExpPhytogenicInsulator);
+
+
+for i , frame in thermExpFrames
+{
+  recipes.addShaped(thermExpInductionsmelter.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[bcAdditionsCoilLava,frame,bcAdditionsCoilLava],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
+  recipes.addShaped(thermExpMagmaCrucible.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOCapacitorBank,null],[tSteelwBrickScorched,frame,tSteelwBrickScorched],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
+  recipes.addShaped(thermExpFluidTransposer.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[thermExpServo,frame,thermExpServo],[odplateCopper,advGenePowerIO,odplateCopper]]);
+  recipes.addShaped(thermExpCyclicAssembler.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOBufferItem,null],[appEngProcessorLogic,frame,buildCraftChipRedstone],[odplateCopper,advGenePowerIO,odplateCopper]]);
+  recipes.addShaped(thermExpPhytogenicInsulator.withTag({RSControl: 0 , Facing: 3 , Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,odGearLumium,null],[gardCoreSoil,frame,gardCoreSoil],[odGearSignalum,advGenePowerIO,odGearSignalum]]);
+}
 
