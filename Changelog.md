@@ -2,6 +2,12 @@
 
 # Version 0.7.2
 
+# Version 0.7.1c
+
+**Mod Updates**
+- Forest Mods 0.3.2a-beta to 0.3.2e-beta
+- MineTweaker3 3.0.10B to 3.0.10 customized sorting
+
 # Version 0.7.1b
 
 **Config Changes**
