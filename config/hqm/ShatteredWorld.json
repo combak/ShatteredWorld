@@ -11,8 +11,8 @@
          "quests" : [
             {
                "id" : "quest292",
-               "x" : 34,
-               "y" : 25,
+               "x" : 26,
+               "y" : 45,
                "big" : false,
                "icon" : "minecraft:stick size(1) dmg(0)",
                "repeatInfo" : {
@@ -104,9 +104,43 @@
                ]
             },
             {
+               "id" : "quest012",
+               "x" : 126,
+               "y" : 90,
+               "big" : false,
+               "icon" : "minecraft:torch size(1) dmg(0)",
+               "requirements" : [
+                  "quest017"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:torch size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "TConstruct:decoration.stonetorch size(16) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest002",
-               "x" : 86,
-               "y" : 20,
+               "x" : 58,
+               "y" : 15,
                "big" : false,
                "icon" : "minecraft:bed size(1) dmg(0)",
                "requirements" : [
@@ -140,8 +174,8 @@
             },
             {
                "id" : "quest001",
-               "x" : 42,
-               "y" : 60,
+               "x" : 82,
+               "y" : 15,
                "big" : false,
                "icon" : "minecraft:cooked_fished size(1) dmg(0)",
                "requirements" : [
@@ -186,7 +220,7 @@
             {
                "id" : "quest003",
                "x" : 62,
-               "y" : 80,
+               "y" : 75,
                "big" : false,
                "icon" : "StorageDrawersForestry:fullDrawers2B size(1) dmg(12)",
                "requirements" : [
@@ -229,7 +263,7 @@
             },
             {
                "id" : "quest005",
-               "x" : 114,
+               "x" : 130,
                "y" : 45,
                "big" : false,
                "icon" : "TConstruct:ToolStationBlock size(1) dmg(0)",
@@ -278,8 +312,8 @@
             },
             {
                "id" : "quest006",
-               "x" : 150,
-               "y" : 45,
+               "x" : 186,
+               "y" : 35,
                "big" : false,
                "icon" : "minecraft:iron_sword size(1) dmg(0)",
                "requirements" : [
@@ -313,8 +347,8 @@
             },
             {
                "id" : "quest007",
-               "x" : 162,
-               "y" : 25,
+               "x" : 198,
+               "y" : 15,
                "big" : false,
                "icon" : "minecraft:ender_pearl size(1) dmg(0)",
                "requirements" : [
@@ -347,8 +381,8 @@
             },
             {
                "id" : "quest008",
-               "x" : 174,
-               "y" : 45,
+               "x" : 210,
+               "y" : 35,
                "big" : false,
                "icon" : "minecraft:skull size(1) dmg(4)",
                "requirements" : [
@@ -390,7 +424,7 @@
             },
             {
                "id" : "quest009",
-               "x" : 90,
+               "x" : 86,
                "y" : 75,
                "big" : false,
                "icon" : "ForestDay:wood_base size(1) dmg(2)",
@@ -440,10 +474,10 @@
             },
             {
                "id" : "quest010",
-               "x" : 138,
-               "y" : 70,
+               "x" : 174,
+               "y" : 90,
                "big" : false,
-               "icon" : "minecraft:cobblestone size(1) dmg(0)",
+               "icon" : "minecraft:iron_pickaxe size(1) dmg(0)",
                "requirements" : [
                   "quest005"
                ],
@@ -480,8 +514,8 @@
             },
             {
                "id" : "quest294",
-               "x" : 198,
-               "y" : 70,
+               "x" : 222,
+               "y" : 90,
                "big" : false,
                "icon" : "ForestDay:wood_base size(1) dmg(0)",
                "requirements" : [
@@ -530,8 +564,8 @@
             },
             {
                "id" : "quest013",
-               "x" : 210,
-               "y" : 50,
+               "x" : 234,
+               "y" : 70,
                "big" : false,
                "icon" : "ExtraUtilities:trashcan size(1) dmg(0)",
                "requirements" : [
@@ -565,8 +599,8 @@
             },
             {
                "id" : "quest011",
-               "x" : 222,
-               "y" : 70,
+               "x" : 246,
+               "y" : 90,
                "big" : false,
                "icon" : "minecraft:furnace size(1) dmg(0)",
                "requirements" : [
@@ -598,43 +632,9 @@
                ]
             },
             {
-               "id" : "quest012",
-               "x" : 246,
-               "y" : 70,
-               "big" : false,
-               "icon" : "minecraft:torch size(1) dmg(0)",
-               "requirements" : [
-                  "quest011"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:torch size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "TConstruct:decoration.stonetorch size(16) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest014",
                "x" : 162,
-               "y" : 105,
+               "y" : 110,
                "big" : false,
                "icon" : "exnihilo:hammer_stone size(1) dmg(0)",
                "requirements" : [
@@ -690,7 +690,7 @@
             {
                "id" : "quest015",
                "x" : 186,
-               "y" : 105,
+               "y" : 110,
                "big" : false,
                "icon" : "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
                "requirements" : [
@@ -740,7 +740,7 @@
             {
                "id" : "quest016",
                "x" : 174,
-               "y" : 125,
+               "y" : 130,
                "big" : false,
                "icon" : "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
                "requirements" : [
@@ -779,7 +779,7 @@
             {
                "id" : "quest017",
                "x" : 138,
-               "y" : 105,
+               "y" : 110,
                "big" : false,
                "icon" : "exnihilo:sifting_table size(1) dmg(0)",
                "requirements" : [
@@ -813,7 +813,7 @@
             {
                "id" : "quest018",
                "x" : 150,
-               "y" : 125,
+               "y" : 130,
                "big" : false,
                "icon" : "TConstruct:Smeltery size(1) dmg(0)",
                "requirements" : [
@@ -866,15 +866,15 @@
                ],
                "reward" : [
                   "TConstruct:Smeltery size(12) dmg(2)",
-                  "TConstruct:materials size(8) dmg(9)"
+                  "ThermalFoundation:material size(4) dmg(66)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest019",
-               "x" : 126,
-               "y" : 125,
+               "x" : 114,
+               "y" : 130,
                "big" : false,
                "icon" : "TConstruct:blankPattern size(1) dmg(1)",
                "requirements" : [
@@ -959,9 +959,48 @@
                ]
             },
             {
-               "id" : "quest004",
-               "x" : 46,
+               "id" : "quest296",
+               "x" : 42,
                "y" : 130,
+               "big" : false,
+               "icon" : "minecraft:coal size(1) dmg(1)",
+               "requirements" : [
+                  "quest020"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:flint_and_steel size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "minecraft:coal size(1) dmg(1)",
+                           "required" : 18,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:coal size(32) dmg(1)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest004",
+               "x" : 62,
+               "y" : 105,
                "big" : false,
                "icon" : "StorageDrawers:upgrade size(1) dmg(2)",
                "requirements" : [
@@ -1001,7 +1040,7 @@
             {
                "id" : "quest021",
                "x" : 54,
-               "y" : 165,
+               "y" : 150,
                "big" : false,
                "icon" : "backpacks16840:backpack size(1) dmg(3)",
                "requirements" : [
@@ -1039,8 +1078,8 @@
             },
             {
                "id" : "quest022",
-               "x" : 78,
-               "y" : 165,
+               "x" : 66,
+               "y" : 170,
                "big" : false,
                "icon" : "ThermalExpansion:Tank size(1) dmg(0)",
                "requirements" : [
@@ -1073,10 +1112,13 @@
             },
             {
                "id" : "quest025",
-               "x" : 114,
-               "y" : 145,
+               "x" : 102,
+               "y" : 150,
                "big" : false,
-               "icon" : "TConstruct:lumberaxe size(1) dmg(0)",
+               "icon" : {
+                  "item" : "TConstruct:lumberaxe size(1) dmg(0)",
+                  "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Â§fLumberaxe') ) )"
+               },
                "requirements" : [
                   "quest019",
                   "quest020"
@@ -1105,6 +1147,7 @@
                      "requirements" : [
                         {
                            "item" : "TConstruct:lumberaxe size(1) dmg(0)",
+                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Â§fLumber Axe') ) )",
                            "required" : 1,
                            "precision" : "NBT_FUZZY"
                         }
@@ -1119,8 +1162,8 @@
             },
             {
                "id" : "quest023",
-               "x" : 102,
-               "y" : 165,
+               "x" : 90,
+               "y" : 170,
                "big" : false,
                "icon" : "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
                "requirements" : [
@@ -1158,8 +1201,8 @@
             },
             {
                "id" : "quest024",
-               "x" : 114,
-               "y" : 185,
+               "x" : 102,
+               "y" : 190,
                "big" : false,
                "icon" : "autopackager:packagerBlock size(1) dmg(0)",
                "requirements" : [
@@ -1426,8 +1469,8 @@
                "parentRequirementCount" : null,
                "tasks" : [
                   {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
+                     "id" : "task001",
+                     "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
                            "item" : "harvestcraft:potItem size(1) dmg(0)",
@@ -1435,12 +1478,18 @@
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "harvestcraft:skilletItem size(1) dmg(0)",
+                           "item" : "harvestcraft:saucepanItem size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
-                        },
+                        }
+                     ]
+                  },
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
                         {
-                           "item" : "harvestcraft:saucepanItem size(1) dmg(0)",
+                           "item" : "harvestcraft:skilletItem size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -1478,16 +1527,10 @@
                            "item" : "minecraft:milk_bucket size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
+                        },
                         {
                            "item" : "harvestcraft:freshmilkItem size(1) dmg(0)",
-                           "required" : 16,
+                           "required" : 1,
                            "precision" : "PRECISE"
                         }
                      ]
@@ -1615,8 +1658,9 @@
                   }
                ],
                "reward" : [
-                  "AgriCraft:seedTulipWhite size(4) dmg(0)",
-                  "AgriCraft:seedBotaniaWhite size(4) dmg(0)"
+                  "AgriCraft:seedBotaniaPurple size(2) dmg(0)",
+                  "AgriCraft:seedBotaniaLightGray size(2) dmg(0)",
+                  "AgriCraft:seedBotaniaBrown size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1660,7 +1704,7 @@
                   }
                ],
                "reward" : [
-                  "AgriCraft:seedPlombean size(4) dmg(0)"
+                  "AgriCraft:seedPlombean size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1794,12 +1838,12 @@
                         {
                            "item" : "AgriCraft:waterTank size(1) dmg(0)",
                            "required" : 4,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "AgriCraft:waterChannel size(1) dmg(0)",
                            "required" : 4,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "AgriCraft:sprinklerItem size(1) dmg(0)",
@@ -3286,13 +3330,48 @@
                ]
             },
             {
+               "id" : "quest080",
+               "x" : 54,
+               "y" : 20,
+               "big" : false,
+               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
+               "requirements" : [
+                  "quest071"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
+                           "required" : 4,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(56)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest073",
-               "x" : 66,
+               "x" : 70,
                "y" : 45,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockQuartzGrowthAccelerator size(1) dmg(0)",
                "requirements" : [
-                  "quest072"
+                  "quest072",
+                  "quest080"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3326,10 +3405,13 @@
             },
             {
                "id" : "quest074",
-               "x" : 94,
-               "y" : 45,
+               "x" : 70,
+               "y" : 75,
                "big" : false,
-               "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(10)",
+               "icon" : {
+                  "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(0)",
+                  "nbt" : "=COMPOUND( progress=INT(0) )"
+               },
                "requirements" : [
                   "quest073"
                ],
@@ -3341,23 +3423,23 @@
                "parentRequirementCount" : null,
                "tasks" : [
                   {
-                     "id" : "task000",
+                     "id" : "task003",
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
                            "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
+                           "required" : 2,
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(600)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
+                           "required" : 2,
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "appliedenergistics2:item.ItemCrystalSeed size(1) dmg(1200)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
+                           "required" : 2,
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   },
@@ -3367,17 +3449,17 @@
                      "requirements" : [
                         {
                            "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(10)",
-                           "required" : 4,
+                           "required" : 2,
                            "precision" : "PRECISE"
                         },
                         {
                            "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(11)",
-                           "required" : 4,
+                           "required" : 2,
                            "precision" : "PRECISE"
                         },
                         {
                            "item" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(12)",
-                           "required" : 4,
+                           "required" : 2,
                            "precision" : "PRECISE"
                         }
                      ]
@@ -3391,7 +3473,7 @@
             },
             {
                "id" : "quest075",
-               "x" : 94,
+               "x" : 98,
                "y" : 75,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockInscriber size(1) dmg(0)",
@@ -3442,7 +3524,7 @@
             },
             {
                "id" : "quest076",
-               "x" : 122,
+               "x" : 126,
                "y" : 75,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(22)",
@@ -3476,8 +3558,8 @@
             },
             {
                "id" : "quest077",
-               "x" : 142,
-               "y" : 50,
+               "x" : 126,
+               "y" : 45,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(44)",
                "requirements" : [
@@ -3549,13 +3631,12 @@
             },
             {
                "id" : "quest079",
-               "x" : 178,
-               "y" : 15,
+               "x" : 142,
+               "y" : 20,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(380)",
                "requirements" : [
-                  "quest077",
-                  "quest081"
+                  "quest077"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3583,48 +3664,13 @@
                ]
             },
             {
-               "id" : "quest080",
-               "x" : 94,
-               "y" : 15,
-               "big" : false,
-               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
-               "requirements" : [
-                  "quest074"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
-                           "required" : 4,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(56)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest081",
-               "x" : 142,
-               "y" : 15,
+               "x" : 170,
+               "y" : 20,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockChest size(1) dmg(0)",
                "requirements" : [
-                  "quest080",
-                  "quest077"
+                  "quest079"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3658,8 +3704,8 @@
             },
             {
                "id" : "quest082",
-               "x" : 178,
-               "y" : 50,
+               "x" : 110,
+               "y" : 20,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
                "requirements" : [
@@ -3707,7 +3753,7 @@
             },
             {
                "id" : "quest083",
-               "x" : 122,
+               "x" : 126,
                "y" : 125,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(23)",
@@ -3775,7 +3821,7 @@
             },
             {
                "id" : "quest085",
-               "x" : 106,
+               "x" : 110,
                "y" : 100,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(25)",
@@ -3814,7 +3860,7 @@
             },
             {
                "id" : "quest086",
-               "x" : 94,
+               "x" : 98,
                "y" : 125,
                "big" : false,
                "icon" : "appliedenergistics2:tile.BlockCellWorkbench size(1) dmg(0)",
@@ -3848,7 +3894,7 @@
             },
             {
                "id" : "quest087",
-               "x" : 138,
+               "x" : 142,
                "y" : 150,
                "big" : false,
                "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(360)",
@@ -3886,7 +3932,7 @@
                "x" : 142,
                "y" : 100,
                "big" : false,
-               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(280)",
+               "icon" : "minecraft:lever size(1) dmg(0)",
                "requirements" : [
                   "quest083"
                ],
@@ -4222,7 +4268,7 @@
             },
             {
                "id" : "quest103",
-               "x" : 30,
+               "x" : 26,
                "y" : 75,
                "big" : false,
                "icon" : "arsmagica2:mageHood size(1) dmg(0)",
@@ -4328,7 +4374,7 @@
                         {
                            "item" : "arsmagica2:spellBook size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -4447,40 +4493,6 @@
                ]
             },
             {
-               "id" : "quest104",
-               "x" : 134,
-               "y" : 60,
-               "big" : false,
-               "icon" : "arsmagica2:obelisk size(1) dmg(0)",
-               "requirements" : [
-                  "quest102"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:obelisk size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:liquidEssenceBucket size(2) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest105",
                "x" : 194,
                "y" : 25,
@@ -4501,7 +4513,7 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "arsmagica2:wizardChalk size(1) dmg(0)",
+                           "item" : "arsmagica2:blueChalk size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -4542,627 +4554,8 @@
                ]
             },
             {
-               "id" : "quest106",
-               "x" : 110,
-               "y" : 80,
-               "big" : false,
-               "icon" : "arsmagica2:manaBattery size(1) dmg(0)",
-               "requirements" : [
-                  "quest104"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:manaBattery size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:rune size(1) dmg(17)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest108",
-               "x" : 58,
-               "y" : 75,
-               "big" : false,
-               "icon" : "arsmagica2:essenceRefiner size(1) dmg(0)",
-               "requirements" : [
-                  "quest097"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:essenceRefiner size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:lesserManaPotion size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest109",
-               "x" : 94,
-               "y" : 105,
-               "big" : false,
-               "icon" : "arsmagica2:spellBase size(1) dmg(0)",
-               "requirements" : [
-                  "quest106",
-                  "quest108"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:spellBase size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:itemOre size(2) dmg(2)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest110",
-               "x" : 58,
-               "y" : 105,
-               "big" : false,
-               "icon" : "arsmagica2:battlemageHood size(1) dmg(0)",
-               "requirements" : [
-                  "quest108"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:battlemageHood size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arsmagica2:battlemageArmor size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arsmagica2:battlemageLeggings size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arsmagica2:battlemageBoots size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "DraconicEvolution:draconiumDust size(8) dmg(0)",
-                  "Thaumcraft:blockAiry size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest111",
-               "x" : 166,
-               "y" : 90,
-               "big" : false,
-               "icon" : "arsmagica2:armorInfuser size(1) dmg(0)",
-               "requirements" : [
-                  "quest102"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:armorInfuser size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:manaBattery size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest112",
-               "x" : 194,
-               "y" : 75,
-               "big" : false,
-               "icon" : "arsmagica2:itemOre size(1) dmg(7)",
-               "requirements" : [
-                  "quest102"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:itemOre size(1) dmg(7)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:itemOre size(1) dmg(7)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest113",
-               "x" : 210,
-               "y" : 100,
-               "big" : false,
-               "icon" : "arsmagica2:celestialPrism size(1) dmg(0)",
-               "requirements" : [
-                  "quest112"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:wardingCandle size(1) dmg(0)",
-                           "required" : 4,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "arsmagica2:manaFocus size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "arsmagica2:rune size(1) dmg(17)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest114",
-               "x" : 226,
-               "y" : 125,
-               "big" : false,
-               "icon" : "arsmagica2:blackAurem size(1) dmg(0)",
-               "requirements" : [
-                  "quest113"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "arsmagica2:mobFocus size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest115",
-               "x" : 110,
-               "y" : 135,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(16)",
-               "requirements" : [
-                  "quest109"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(16)",
-                           "mob" : "arsmagica2.BossWaterGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:diamond size(16) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest116",
-               "x" : 98,
-               "y" : 155,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(15)",
-               "requirements" : [
-                  "quest115"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(15)",
-                           "mob" : "arsmagica2.BossEarthGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:golden_apple size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest117",
-               "x" : 86,
-               "y" : 175,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(18)",
-               "requirements" : [
-                  "quest116"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(18)",
-                           "mob" : "arsmagica2.BossAirGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(6)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest118",
-               "x" : 110,
-               "y" : 175,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(14)",
-               "requirements" : [
-                  "quest117"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(14)",
-                           "mob" : "arsmagica2.BossArcaneGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(29)",
-                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(28)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest119",
-               "x" : 122,
-               "y" : 155,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(20)",
-               "requirements" : [
-                  "quest118"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(20)",
-                           "mob" : "arsmagica2.BossLifeGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:WandCasting size(1) dmg(72)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest120",
-               "x" : 134,
-               "y" : 135,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(13)",
-               "requirements" : [
-                  "quest119"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(13)",
-                           "mob" : "arsmagica2.BossNatureGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "DraconicEvolution:draconiumDust size(16) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest121",
-               "x" : 146,
-               "y" : 155,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(17)",
-               "requirements" : [
-                  "quest120"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(17)",
-                           "mob" : "arsmagica2.BossWinterGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:nether_star size(2) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest122",
-               "x" : 134,
-               "y" : 175,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(21)",
-               "requirements" : [
-                  "quest121"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(21)",
-                           "mob" : "arsmagica2.BossAirGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:dragon_egg size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest123",
-               "x" : 170,
-               "y" : 155,
-               "big" : false,
-               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(22)",
-               "requirements" : [
-                  "quest286"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(22)",
-                           "mob" : "arsmagica2.BossEnderGuardian",
-                           "count" : 1,
-                           "exact" : false
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "DraconicEvolution:dragonHeart size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest124",
-               "x" : 206,
+               "x" : 210,
                "y" : 50,
                "big" : false,
                "icon" : "arsmagica2:flickerJar size(1) dmg(0)",
@@ -5250,9 +4643,626 @@
                ]
             },
             {
+               "id" : "quest112",
+               "x" : 194,
+               "y" : 75,
+               "big" : false,
+               "icon" : "arsmagica2:itemOre size(1) dmg(7)",
+               "requirements" : [
+                  "quest102"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:itemOre size(1) dmg(7)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:itemOre size(1) dmg(7)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest113",
+               "x" : 210,
+               "y" : 100,
+               "big" : false,
+               "icon" : "arsmagica2:celestialPrism size(1) dmg(0)",
+               "requirements" : [
+                  "quest112"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:wardingCandle size(1) dmg(0)",
+                           "required" : 4,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arsmagica2:manaFocus size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest114",
+               "x" : 238,
+               "y" : 100,
+               "big" : false,
+               "icon" : "arsmagica2:blackAurem size(1) dmg(0)",
+               "requirements" : [
+                  "quest113"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:mobFocus size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest111",
+               "x" : 166,
+               "y" : 90,
+               "big" : false,
+               "icon" : "arsmagica2:armorInfuser size(1) dmg(0)",
+               "requirements" : [
+                  "quest102"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:armorInfuser size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:manaBattery size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest104",
+               "x" : 134,
+               "y" : 60,
+               "big" : false,
+               "icon" : "arsmagica2:obelisk size(1) dmg(0)",
+               "requirements" : [
+                  "quest102"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:obelisk size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:liquidEssenceBucket size(2) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest106",
+               "x" : 110,
+               "y" : 80,
+               "big" : false,
+               "icon" : "arsmagica2:manaBattery size(1) dmg(0)",
+               "requirements" : [
+                  "quest104"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:manaBattery size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest108",
+               "x" : 58,
+               "y" : 75,
+               "big" : false,
+               "icon" : "arsmagica2:essenceRefiner size(1) dmg(0)",
+               "requirements" : [
+                  "quest097"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:essenceRefiner size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:lesserManaPotion size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest110",
+               "x" : 42,
+               "y" : 95,
+               "big" : false,
+               "icon" : "arsmagica2:battlemageHood size(1) dmg(0)",
+               "requirements" : [
+                  "quest108"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:battlemageHood size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arsmagica2:battlemageArmor size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arsmagica2:battlemageLeggings size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "arsmagica2:battlemageBoots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)",
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest109",
+               "x" : 82,
+               "y" : 105,
+               "big" : false,
+               "icon" : "arsmagica2:spellBase size(1) dmg(0)",
+               "requirements" : [
+                  "quest106",
+                  "quest108"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "arsmagica2:spellBase size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "arsmagica2:itemOre size(2) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest115",
+               "x" : 58,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(16)",
+               "requirements" : [
+                  "quest109"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(16)",
+                           "mob" : "arsmagica2.BossWaterGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:diamond size(16) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest116",
+               "x" : 82,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(15)",
+               "requirements" : [
+                  "quest115"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(15)",
+                           "mob" : "arsmagica2.BossEarthGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:golden_apple size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest117",
+               "x" : 106,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(18)",
+               "requirements" : [
+                  "quest116"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(18)",
+                           "mob" : "arsmagica2.BossAirGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(6)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest118",
+               "x" : 130,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(14)",
+               "requirements" : [
+                  "quest117"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(14)",
+                           "mob" : "arsmagica2.BossArcaneGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(29)",
+                  "AWWayofTime:bloodMagicBaseItems size(4) dmg(28)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest119",
+               "x" : 154,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(20)",
+               "requirements" : [
+                  "quest118"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(20)",
+                           "mob" : "arsmagica2.BossLifeGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:WandCasting size(1) dmg(72)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest120",
+               "x" : 178,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(13)",
+               "requirements" : [
+                  "quest119"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(13)",
+                           "mob" : "arsmagica2.BossNatureGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:draconiumDust size(16) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest121",
+               "x" : 202,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(17)",
+               "requirements" : [
+                  "quest120"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(17)",
+                           "mob" : "arsmagica2.BossWinterGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:nether_star size(2) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest122",
+               "x" : 226,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(21)",
+               "requirements" : [
+                  "quest121"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(21)",
+                           "mob" : "arsmagica2.BossAirGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:dragon_egg size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest286",
-               "x" : 158,
-               "y" : 175,
+               "x" : 250,
+               "y" : 145,
                "big" : false,
                "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(19)",
                "requirements" : [
@@ -5261,7 +5271,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5281,6 +5291,42 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconicIngot size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest123",
+               "x" : 274,
+               "y" : 145,
+               "big" : false,
+               "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(22)",
+               "requirements" : [
+                  "quest286"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_MOB",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "icon" : "arsmagica2:AMSpawnEgg size(1) dmg(22)",
+                           "mob" : "arsmagica2.BossEnderGuardian",
+                           "count" : 1,
+                           "exact" : false
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:dragonHeart size(1) dmg(0)"
                ],
                "reputations" : [
                ]

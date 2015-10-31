@@ -42,6 +42,18 @@
                ]
             },
             {
+               "id" : "quest012",
+               "name" : "Es werde Licht",
+               "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
+                  }
+               ]
+            },
+            {
                "id" : "quest002",
                "name" : "Sichere Nacht",
                "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
@@ -211,18 +223,6 @@
                ]
             },
             {
-               "id" : "quest012",
-               "name" : "Es werde Licht",
-               "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
-                  }
-               ]
-            },
-            {
                "id" : "quest014",
                "name" : "Alles kurz und klein schlagen",
                "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steins besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
@@ -317,6 +317,18 @@
                ]
             },
             {
+               "id" : "quest296",
+               "name" : "Der rauchende Berg",
+               "description" : "Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwasenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einem Feuerzeug (Flint and Steel) an. Nach einiger Zeit ist der Holzstapel in Holzkohle (Charcoal) umgewandelt."
+                  }
+               ]
+            },
+            {
                "id" : "quest004",
                "name" : "Mehr ist immer besser",
                "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese auch aufwerten.",
@@ -336,7 +348,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, was braucht man mehr. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!"
+                     "description" : "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, was braucht man mehr. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!\nEs gibt auch eine Schnelltaste, um den ersten Rucksack im Inventar zu oeffnen."
                   }
                ]
             },
@@ -474,26 +486,26 @@
                "description" : "Der wahre Schefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
                "tasks" : [
                   {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Diese wichtigen Kuechengeraete muessen mit der Schmelze von Tinker Construct in Form gegossen werden."
+                  },
+                  {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Wichtige Kuechengeraete aus Eisen oder anderen Metallen."
+                     "description" : "Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann."
                   }
                ]
             },
             {
                "id" : "quest033",
-               "name" : "Milch macht muede Maenner munte",
+               "name" : "Milch macht Maenner munter",
                "description" : "Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Ich denke eine Kuh sollte hier hilfreich sein."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
-                     "description" : "Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer."
+                     "description" : "Ich denke eine Kuh sollte hier hilfreich sein. Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer."
                   }
                ]
             },
@@ -1075,6 +1087,18 @@
                ]
             },
             {
+               "id" : "quest080",
+               "name" : "Der Kabelbinder",
+               "description" : "Jetzt werden das schon mehr und mehr Geraete. Wir brauchen Kabel.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Die ME Kabel gibt es in mehreren Arten. Das einfachste ist das Glass Cable, das man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen."
+                  }
+               ]
+            },
+            {
                "id" : "quest073",
                "name" : "Die Wachstumsblasen",
                "description" : "Da wir nicht im Ueberfluss die Quartz Arten zur Verfuegung haben, muessen wir mal schauen, ob man diese nicht auch noch zuechten kann.",
@@ -1092,9 +1116,9 @@
                "description" : "Endlich haben wir einen Weg gefunden, um die Kristalle zu vervielfachen. Aber es dauert seine Zeit, bis wir die Kristalle gezuechtet haben.",
                "tasks" : [
                   {
-                     "id" : "task000",
+                     "id" : "task003",
                      "name" : "Crafting Task",
-                     "description" : "Diese Seeds hier muss man einfach in Wasser werfen, dann fangen diese an zu wachsen. Um das Wachstum zu beschleunigen, kann man den Crystal Growth Accelerator verwenden."
+                     "description" : "Diese Seeds muss man einfach nur in Wasser werfen damit sie wachsen. Um das Wachstum zu beschleunigen, sollte man den Crystal Growth Accelerator verwenden."
                   },
                   {
                      "id" : "task001",
@@ -1165,18 +1189,6 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Das ist die Zukunft moderner Lagerhaltung."
-                  }
-               ]
-            },
-            {
-               "id" : "quest080",
-               "name" : "Der Kabelbinder",
-               "description" : "Jetzt werden das schon mehr und mehr Geraete. Wir brauchen Kabel.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Die ME Kabel gibt es in mehreren Arten. Das einfachste ist das Glass Cable, das man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen."
                   }
                ]
             },
@@ -1452,18 +1464,6 @@
                ]
             },
             {
-               "id" : "quest104",
-               "name" : "Der Ofen der Weisen",
-               "description" : "Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "In dem Obelisk kann man unterschiedliche Materialien oder Fluessigkeiten verbrennen."
-                  }
-               ]
-            },
-            {
                "id" : "quest105",
                "name" : "Die magischen Tools",
                "description" : "Die Basis fuer bessere Zauber sind die Essenzen. Es ist wichtig Werkzeuge zu besitzen, mit denen man diese sehen und auf verschiedene magischen Bloecke umzuleiten.",
@@ -1486,62 +1486,31 @@
                ]
             },
             {
-               "id" : "quest106",
-               "name" : "Der magischen Speicher",
-               "description" : "Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuehgung.",
+               "id" : "quest124",
+               "name" : "Fang die flackernden Dinger",
+               "description" : "Flicker sind schon ulkige Dinger. Ich glaube in einem anderen Mod machen diese Sigils fast das gleiche. Mit Flickers kann man verschieden Flaecheneffekte erreichen, um z.B. Monster fern zu halten oder anzulocken, Holz faellen, Felder zu ernten oder auch Biome zu aendern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Der Speicher kann immer nur eine Art von roher Essenze speichern."
-                  }
-               ]
-            },
-            {
-               "id" : "quest108",
-               "name" : "Die magischen Essencen",
-               "description" : "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Dazu braucht man viel von den rohen Essenzen und natuelich disen netten Veredler (Refiner).",
-               "tasks" : [
+                     "description" : "Die zwei wichtigsten Basisgegenstaende. Mit dem Koeder (Lure) lockt man dieses Flimmern (Flicker) an. Dazu ist natuerlich immer die richtige Umgebung noetig. Und dann braucht man noch ein Gefaess (Jar), in das man das Flimmern einsperren kann."
+                  },
                   {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essencen sind doch recht hoch."
-                  }
-               ]
-            },
-            {
-               "id" : "quest109",
-               "name" : "Der erste Zauber",
-               "description" : "Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erstmal etwas ueben.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
+                     "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Du solltest einen einfachen Zauber aus nur einem Zauberteilbaum bauen. Diesen kannst du dann so oft anwenden wie moeglich. Mit jeder Benutzung eines Zauber erhoehst du deine Erfahrung und kannst weider Zauber frei schalten."
+                     "description" : "Ja so einen Flimmern zu fangen ist schon eine knifflige Angelegenheit"
                   }
                ]
             },
             {
-               "id" : "quest110",
-               "name" : "Battlemage Amor",
-               "description" : "Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausreustung genau das richtige.",
+               "id" : "quest125",
+               "name" : "Fang den Mond",
+               "description" : "Um den entspechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit den magischen Essenzen aus dem Arcane Refiner kann man jetzt die besseren Ruestungen leicht herstellen."
-                  }
-               ]
-            },
-            {
-               "id" : "quest111",
-               "name" : "Die etwas andere Verzauberung",
-               "description" : "Ein guter Zauberer ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuehgt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden."
+                     "description" : "Der schwierigste Teil der Arbeit war das Einfangen der Flicker. Diese Teil ist dann wieder viel leichter."
                   }
                ]
             },
@@ -1578,6 +1547,78 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Auch hierfeur ist wieder ein Kreidemuster und verschiedene Gegenstaende noetig. Wie immer alles im Compendium beschrieben."
+                  }
+               ]
+            },
+            {
+               "id" : "quest111",
+               "name" : "Die etwas andere Verzauberung",
+               "description" : "Ein guter Zauberer ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuehgt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest104",
+               "name" : "Der Ofen der Weisen",
+               "description" : "Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "In dem Obelisk kann man unterschiedliche Materialien oder Fluessigkeiten verbrennen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest106",
+               "name" : "Der magischen Speicher",
+               "description" : "Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuehgung.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Speicher kann immer nur eine Art von roher Essenze speichern."
+                  }
+               ]
+            },
+            {
+               "id" : "quest108",
+               "name" : "Die magischen Essencen",
+               "description" : "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Dazu braucht man viel von den rohen Essenzen und natuelich disen netten Veredler (Refiner).",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essencen sind doch recht hoch."
+                  }
+               ]
+            },
+            {
+               "id" : "quest110",
+               "name" : "Battlemage Amor",
+               "description" : "Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausreustung genau das richtige.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit den magischen Essenzen aus dem Arcane Refiner kann man jetzt die besseren Ruestungen leicht herstellen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest109",
+               "name" : "Der erste Zauber",
+               "description" : "Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erstmal etwas ueben.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Du solltest einen einfachen Zauber aus nur einem Zauberteilbaum bauen. Diesen kannst du dann so oft anwenden wie moeglich. Mit jeder Benutzung eines Zauber erhoehst du deine Erfahrung und kannst weider Zauber frei schalten."
                   }
                ]
             },
@@ -1726,53 +1767,6 @@
                ]
             },
             {
-               "id" : "quest123",
-               "name" : "Ender Guardian",
-               "description" : "Der 10. Boss (Level 90+) ist aktuell der letzte und schwerste.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Killing Task",
-                     "description" : "Wie der Name schon sagt, muss dieser Boss im End beschworen werden. Aber das schlimmste an diesem Boss ist seine Gesundheitsregeneration.",
-                     "mobs" : [
-                        {
-                           "id" : "mob000",
-                           "name" : "Ender Guardian"
-                        }
-                     ]
-                  }
-               ]
-            },
-            {
-               "id" : "quest124",
-               "name" : "Fang die flackernden Dinger",
-               "description" : "Flicker sind schon ulkige Dinger. Ich glaube in einem anderen Mod machen diese Sigils fast das gleiche. Mit Flickers kann man verschieden Flaecheneffekte erreichen, um z.B. Monster fern zu halten oder anzulocken, Holz faellen, Felder zu ernten oder auch Biome zu aendern.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Die zwei wichtigsten Basisgegenstaende. Mit dem Koeder (Lure) lockt man dieses Flimmern (Flicker) an. Dazu ist natuerlich immer die richtige Umgebung noetig. Und dann braucht man noch ein Gefaess (Jar), in das man das Flimmern einsperren kann."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Detection Task",
-                     "description" : "Ja so einen Flimmern zu fangen ist schon eine knifflige Angelegenheit"
-                  }
-               ]
-            },
-            {
-               "id" : "quest125",
-               "name" : "Fang den Mond",
-               "description" : "Um den entspechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Der schwierigste Teil der Arbeit war das Einfangen der Flicker. Diese Teil ist dann wieder viel leichter."
-                  }
-               ]
-            },
-            {
                "id" : "quest286",
                "name" : "Fire Guardian",
                "description" : "Dieser 9. Boss (Level 90) muss im Nether beschworen werden.",
@@ -1785,6 +1779,24 @@
                         {
                            "id" : "mob000",
                            "name" : "Fire Guardian"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest123",
+               "name" : "Ender Guardian",
+               "description" : "Der 10. Boss (Level 90+) ist aktuell der letzte und schwerste.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Killing Task",
+                     "description" : "Wie der Name schon sagt, muss dieser Boss im End beschworen werden. Aber das schlimmste an diesem Boss ist seine Gesundheitsregeneration.",
+                     "mobs" : [
+                        {
+                           "id" : "mob000",
+                           "name" : "Ender Guardian"
                         }
                      ]
                   }
