@@ -28,23 +28,7 @@
                      "requirements" : [
                         {
                            "item" : "minecraft:stick size(1) dmg(0)",
-                           "required" : 2,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:flint size(1) dmg(0)",
-                           "required" : 2,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "ForestDay:item.forest.fd.item.axe.flint size(1) dmg(0)",
-                           "required" : 1,
+                           "required" : 4,
                            "precision" : "PRECISE"
                         }
                      ]
@@ -74,22 +58,22 @@
                "parentRequirementCount" : null,
                "tasks" : [
                   {
+                     "id" : "task002",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ForestDay:item.forest.fd.item.axe.flint size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  },
+                  {
                      "id" : "task000",
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
                            "item" : "minecraft:log size(1) dmg(0)",
-                           "required" : 4,
-                           "precision" : "ORE_DICTIONARY"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:planks size(1) dmg(0)",
                            "required" : 4,
                            "precision" : "ORE_DICTIONARY"
                         }
@@ -104,42 +88,8 @@
                ]
             },
             {
-               "id" : "quest012",
-               "x" : 126,
-               "y" : 90,
-               "big" : false,
-               "icon" : "minecraft:torch size(1) dmg(0)",
-               "requirements" : [
-                  "quest017"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:torch size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "TConstruct:decoration.stonetorch size(16) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest002",
-               "x" : 58,
+               "x" : 46,
                "y" : 15,
                "big" : false,
                "icon" : "minecraft:bed size(1) dmg(0)",
@@ -174,7 +124,7 @@
             },
             {
                "id" : "quest001",
-               "x" : 82,
+               "x" : 70,
                "y" : 15,
                "big" : false,
                "icon" : "minecraft:cooked_fished size(1) dmg(0)",
@@ -218,9 +168,59 @@
                ]
             },
             {
+               "id" : "quest306",
+               "x" : 94,
+               "y" : 15,
+               "big" : false,
+               "icon" : "TConstruct:helmetWood size(1) dmg(0)",
+               "requirements" : [
+                  "quest000"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "TConstruct:helmetWood size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "TConstruct:chestplateWood size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "TConstruct:leggingsWood size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "TConstruct:bootsWood size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
                "id" : "quest003",
-               "x" : 62,
-               "y" : 75,
+               "x" : 58,
+               "y" : 90,
                "big" : false,
                "icon" : "StorageDrawersForestry:fullDrawers2B size(1) dmg(12)",
                "requirements" : [
@@ -282,22 +282,7 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "TConstruct:ToolStationBlock size(1) dmg(10)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "TConstruct:ToolStationBlock size(1) dmg(1)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
                            "item" : "TConstruct:ToolStationBlock size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "TConstruct:ToolStationBlock size(1) dmg(5)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -424,8 +409,8 @@
             },
             {
                "id" : "quest009",
-               "x" : 86,
-               "y" : 75,
+               "x" : 90,
+               "y" : 90,
                "big" : false,
                "icon" : "ForestDay:wood_base size(1) dmg(2)",
                "requirements" : [
@@ -459,7 +444,7 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "NedeloskCore:gearWood size(1) dmg(1)",
+                           "item" : "ForestDay:item.gearWood size(1) dmg(1)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -474,8 +459,8 @@
             },
             {
                "id" : "quest010",
-               "x" : 174,
-               "y" : 90,
+               "x" : 210,
+               "y" : 70,
                "big" : false,
                "icon" : "minecraft:iron_pickaxe size(1) dmg(0)",
                "requirements" : [
@@ -514,8 +499,8 @@
             },
             {
                "id" : "quest294",
-               "x" : 222,
-               "y" : 90,
+               "x" : 242,
+               "y" : 70,
                "big" : false,
                "icon" : "ForestDay:wood_base size(1) dmg(0)",
                "requirements" : [
@@ -564,8 +549,8 @@
             },
             {
                "id" : "quest013",
-               "x" : 234,
-               "y" : 70,
+               "x" : 254,
+               "y" : 50,
                "big" : false,
                "icon" : "ExtraUtilities:trashcan size(1) dmg(0)",
                "requirements" : [
@@ -599,8 +584,8 @@
             },
             {
                "id" : "quest011",
-               "x" : 246,
-               "y" : 90,
+               "x" : 266,
+               "y" : 70,
                "big" : false,
                "icon" : "minecraft:furnace size(1) dmg(0)",
                "requirements" : [
@@ -633,8 +618,8 @@
             },
             {
                "id" : "quest014",
-               "x" : 162,
-               "y" : 110,
+               "x" : 194,
+               "y" : 100,
                "big" : false,
                "icon" : "exnihilo:hammer_stone size(1) dmg(0)",
                "requirements" : [
@@ -689,8 +674,8 @@
             },
             {
                "id" : "quest015",
-               "x" : 186,
-               "y" : 110,
+               "x" : 182,
+               "y" : 80,
                "big" : false,
                "icon" : "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
                "requirements" : [
@@ -739,8 +724,8 @@
             },
             {
                "id" : "quest016",
-               "x" : 174,
-               "y" : 130,
+               "x" : 158,
+               "y" : 80,
                "big" : false,
                "icon" : "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
                "requirements" : [
@@ -778,8 +763,8 @@
             },
             {
                "id" : "quest017",
-               "x" : 138,
-               "y" : 110,
+               "x" : 170,
+               "y" : 130,
                "big" : false,
                "icon" : "exnihilo:sifting_table size(1) dmg(0)",
                "requirements" : [
@@ -799,7 +784,7 @@
                         {
                            "item" : "exnihilo:sifting_table size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -811,9 +796,93 @@
                ]
             },
             {
-               "id" : "quest018",
-               "x" : 150,
+               "id" : "quest012",
+               "x" : 182,
+               "y" : 150,
+               "big" : false,
+               "icon" : "minecraft:torch size(1) dmg(0)",
+               "requirements" : [
+                  "quest017"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:torch size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "TConstruct:decoration.stonetorch size(16) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest316",
+               "x" : 194,
                "y" : 130,
+               "big" : false,
+               "icon" : "minecraft:diamond_helmet size(1) dmg(0)",
+               "requirements" : [
+                  "quest017"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:diamond_helmet size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "minecraft:diamond_chestplate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "minecraft:diamond_leggings size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "minecraft:diamond_boots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest018",
+               "x" : 146,
+               "y" : 100,
                "big" : false,
                "icon" : "TConstruct:Smeltery size(1) dmg(0)",
                "requirements" : [
@@ -873,8 +942,8 @@
             },
             {
                "id" : "quest019",
-               "x" : 114,
-               "y" : 130,
+               "x" : 130,
+               "y" : 125,
                "big" : false,
                "icon" : "TConstruct:blankPattern size(1) dmg(1)",
                "requirements" : [
@@ -959,8 +1028,58 @@
                ]
             },
             {
+               "id" : "quest314",
+               "x" : 82,
+               "y" : 170,
+               "big" : false,
+               "icon" : "minecraft:iron_helmet size(1) dmg(0)",
+               "requirements" : [
+                  "quest020"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:iron_helmet size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "minecraft:iron_chestplate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "minecraft:iron_leggings size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "minecraft:iron_boots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
                "id" : "quest296",
-               "x" : 42,
+               "x" : 34,
                "y" : 130,
                "big" : false,
                "icon" : "minecraft:coal size(1) dmg(1)",
@@ -999,8 +1118,8 @@
             },
             {
                "id" : "quest004",
-               "x" : 62,
-               "y" : 105,
+               "x" : 46,
+               "y" : 110,
                "big" : false,
                "icon" : "StorageDrawers:upgrade size(1) dmg(2)",
                "requirements" : [
@@ -1039,7 +1158,7 @@
             },
             {
                "id" : "quest021",
-               "x" : 54,
+               "x" : 46,
                "y" : 150,
                "big" : false,
                "icon" : "backpacks16840:backpack size(1) dmg(3)",
@@ -1078,7 +1197,7 @@
             },
             {
                "id" : "quest022",
-               "x" : 66,
+               "x" : 58,
                "y" : 170,
                "big" : false,
                "icon" : "ThermalExpansion:Tank size(1) dmg(0)",
@@ -1112,7 +1231,7 @@
             },
             {
                "id" : "quest025",
-               "x" : 102,
+               "x" : 118,
                "y" : 150,
                "big" : false,
                "icon" : {
@@ -1126,7 +1245,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -1162,7 +1281,7 @@
             },
             {
                "id" : "quest023",
-               "x" : 90,
+               "x" : 106,
                "y" : 170,
                "big" : false,
                "icon" : "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
@@ -1201,8 +1320,8 @@
             },
             {
                "id" : "quest024",
-               "x" : 102,
-               "y" : 190,
+               "x" : 130,
+               "y" : 170,
                "big" : false,
                "icon" : "autopackager:packagerBlock size(1) dmg(0)",
                "requirements" : [
@@ -1231,6 +1350,56 @@
                   "ThermalExpansion:Frame size(4) dmg(0)"
                ],
                "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest326",
+               "x" : 118,
+               "y" : 90,
+               "big" : false,
+               "icon" : "TConstruct:travelGoggles size(1) dmg(0)",
+               "requirements" : [
+                  "quest019"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "TConstruct:travelGoggles size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "TConstruct:travelVest size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "TConstruct:travelWings size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "TConstruct:travelBoots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             }
          ]
@@ -1464,7 +1633,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -1501,6 +1670,60 @@
                   "harvestcraft:chilipepperseedItem size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest318",
+               "x" : 138,
+               "y" : 80,
+               "big" : false,
+               "icon" : "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
+               "requirements" : [
+                  "quest032"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "harvestcraft:hardenedleatherchestItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "harvestcraft:hardenedleatherleggingsItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "harvestcraft:hardenedleatherbootsItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -2073,6 +2296,10 @@
                   "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -2390,7 +2617,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -2468,7 +2695,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -2503,6 +2730,10 @@
                   "arsmagica2:itemOre size(2) dmg(7)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             }
          ]
@@ -2852,6 +3083,10 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -3092,7 +3327,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -3233,6 +3468,60 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest304",
+               "x" : 250,
+               "y" : 115,
+               "big" : false,
+               "icon" : "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
+               "requirements" : [
+                  "quest070"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "RedstoneArsenal:armor.plateFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "RedstoneArsenal:armor.legsFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "RedstoneArsenal:armor.bootsFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             }
          ]
@@ -3627,6 +3916,10 @@
                   "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -4110,6 +4403,10 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -4197,6 +4494,9 @@
                "y" : 40,
                "big" : false,
                "icon" : "arsmagica2:ArcaneCompendium size(1) dmg(0)",
+               "requirements" : [
+                  "quest292"
+               ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -4314,6 +4614,10 @@
                   "minecraft:leather size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -4640,6 +4944,10 @@
                   "arsmagica2:itemOre size(2) dmg(6)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -4654,7 +4962,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -4747,6 +5055,10 @@
                   "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -4897,7 +5209,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -4933,6 +5245,10 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -5338,8 +5654,8 @@
          "quests" : [
             {
                "id" : "quest126",
-               "x" : 22,
-               "y" : 20,
+               "x" : 46,
+               "y" : 40,
                "big" : false,
                "icon" : "Thaumcraft:WandCasting size(1) dmg(0)",
                "requirements" : [
@@ -5358,6 +5674,7 @@
                      "requirements" : [
                         {
                            "item" : "Thaumcraft:WandCasting size(1) dmg(0)",
+                           "nbt" : "=COMPOUND( cap=STRING('iron'), rod=STRING('wood') )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -5372,8 +5689,8 @@
             },
             {
                "id" : "quest127",
-               "x" : 22,
-               "y" : 50,
+               "x" : 34,
+               "y" : 60,
                "big" : false,
                "icon" : "Thaumcraft:WandCasting size(1) dmg(9)",
                "requirements" : [
@@ -5392,6 +5709,7 @@
                      "requirements" : [
                         {
                            "item" : "Thaumcraft:WandCasting size(1) dmg(9)",
+                           "nbt" : "=COMPOUND( cap=STRING('gold'), rod=STRING('greatwood') )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -5407,7 +5725,7 @@
             {
                "id" : "quest128",
                "x" : 46,
-               "y" : 105,
+               "y" : 80,
                "big" : false,
                "icon" : "Thaumcraft:WandCasting size(1) dmg(54)",
                "requirements" : [
@@ -5427,6 +5745,7 @@
                      "requirements" : [
                         {
                            "item" : "Thaumcraft:WandCasting size(1) dmg(54)",
+                           "nbt" : "=COMPOUND( cap=STRING('thaumium'), rod=STRING('silverwood') )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -5441,8 +5760,8 @@
             },
             {
                "id" : "quest129",
-               "x" : 50,
-               "y" : 20,
+               "x" : 58,
+               "y" : 60,
                "big" : false,
                "icon" : "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
                "requirements" : [
@@ -5462,7 +5781,7 @@
                         {
                            "item" : "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   },
@@ -5492,17 +5811,17 @@
             },
             {
                "id" : "quest130",
-               "x" : 50,
-               "y" : 50,
+               "x" : 78,
+               "y" : 25,
                "big" : false,
                "icon" : "Thaumcraft:blockTable size(1) dmg(14)",
                "requirements" : [
-                  "quest129"
+                  "quest131"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5526,8 +5845,8 @@
             },
             {
                "id" : "quest131",
-               "x" : 126,
-               "y" : 65,
+               "x" : 110,
+               "y" : 60,
                "big" : false,
                "icon" : "Thaumcraft:ItemThaumometer size(1) dmg(0)",
                "requirements" : [
@@ -5560,8 +5879,8 @@
             },
             {
                "id" : "quest132",
-               "x" : 106,
-               "y" : 20,
+               "x" : 102,
+               "y" : 25,
                "big" : false,
                "icon" : "Thaumcraft:ItemGoggles size(1) dmg(0)",
                "requirements" : [
@@ -5597,12 +5916,12 @@
             },
             {
                "id" : "quest133",
-               "x" : 162,
-               "y" : 80,
+               "x" : 174,
+               "y" : 25,
                "big" : false,
                "icon" : "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
                "requirements" : [
-                  "quest131"
+                  "quest322"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -5641,74 +5960,16 @@
                   }
                ],
                "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest134",
-               "x" : 186,
-               "y" : 80,
-               "big" : false,
-               "icon" : "WitchingGadgets:item.WG_Cloak size(1) dmg(0)",
-               "requirements" : [
-                  "quest133"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest135",
-               "x" : 174,
-               "y" : 60,
-               "big" : false,
-               "icon" : "Automagy:tallyLens size(1) dmg(0)",
-               "requirements" : [
-                  "quest131"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
                   {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Automagy:blockTally size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Automagy:tallyLens size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
+                     "reputation" : "rep001",
+                     "value" : 1
                   }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
                ]
             },
             {
                "id" : "quest136",
-               "x" : 198,
-               "y" : 20,
+               "x" : 194,
+               "y" : 45,
                "big" : false,
                "icon" : "Thaumcraft:ItemResource size(1) dmg(1)",
                "requirements" : [
@@ -5717,7 +5978,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -5746,8 +6007,8 @@
             },
             {
                "id" : "quest137",
-               "x" : 222,
-               "y" : 20,
+               "x" : 218,
+               "y" : 45,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(0)",
                "requirements" : [
@@ -5780,8 +6041,8 @@
             },
             {
                "id" : "quest138",
-               "x" : 246,
-               "y" : 20,
+               "x" : 242,
+               "y" : 45,
                "big" : false,
                "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(1)",
                "requirements" : [
@@ -5814,8 +6075,8 @@
             },
             {
                "id" : "quest139",
-               "x" : 270,
-               "y" : 20,
+               "x" : 254,
+               "y" : 25,
                "big" : false,
                "icon" : "Thaumcraft:blockTube size(1) dmg(0)",
                "requirements" : [
@@ -5853,8 +6114,8 @@
             },
             {
                "id" : "quest140",
-               "x" : 282,
-               "y" : 40,
+               "x" : 266,
+               "y" : 45,
                "big" : false,
                "icon" : "Thaumcraft:blockTube size(1) dmg(2)",
                "requirements" : [
@@ -5887,8 +6148,8 @@
             },
             {
                "id" : "quest141",
-               "x" : 294,
-               "y" : 20,
+               "x" : 278,
+               "y" : 25,
                "big" : false,
                "icon" : "Thaumcraft:blockTube size(1) dmg(7)",
                "requirements" : [
@@ -5921,8 +6182,8 @@
             },
             {
                "id" : "quest142",
-               "x" : 258,
-               "y" : 40,
+               "x" : 254,
+               "y" : 65,
                "big" : false,
                "icon" : "Thaumcraft:blockJar size(1) dmg(1)",
                "requirements" : [
@@ -5960,8 +6221,8 @@
             },
             {
                "id" : "quest143",
-               "x" : 246,
-               "y" : 60,
+               "x" : 266,
+               "y" : 85,
                "big" : false,
                "icon" : "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
                "requirements" : [
@@ -5994,8 +6255,8 @@
             },
             {
                "id" : "quest144",
-               "x" : 270,
-               "y" : 60,
+               "x" : 278,
+               "y" : 105,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(10)",
                "requirements" : [
@@ -6028,8 +6289,8 @@
             },
             {
                "id" : "quest145",
-               "x" : 258,
-               "y" : 80,
+               "x" : 266,
+               "y" : 125,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(11)",
                "requirements" : [
@@ -6073,8 +6334,8 @@
             },
             {
                "id" : "quest146",
-               "x" : 282,
-               "y" : 80,
+               "x" : 290,
+               "y" : 125,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(5)",
                "requirements" : [
@@ -6108,8 +6369,8 @@
             },
             {
                "id" : "quest147",
-               "x" : 270,
-               "y" : 100,
+               "x" : 278,
+               "y" : 145,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
                "requirements" : [
@@ -6138,12 +6399,16 @@
                   "minecraft:log size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
                "id" : "quest148",
-               "x" : 130,
-               "y" : 20,
+               "x" : 126,
+               "y" : 25,
                "big" : false,
                "icon" : "Thaumcraft:ItemResource size(1) dmg(2)",
                "requirements" : [
@@ -6175,9 +6440,59 @@
                ]
             },
             {
+               "id" : "quest322",
+               "x" : 150,
+               "y" : 25,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
+               "requirements" : [
+                  "quest148"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemBootsThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
                "id" : "quest149",
-               "x" : 70,
-               "y" : 105,
+               "x" : 58,
+               "y" : 100,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(2)",
                "requirements" : [
@@ -6215,8 +6530,8 @@
             },
             {
                "id" : "quest150",
-               "x" : 58,
-               "y" : 125,
+               "x" : 46,
+               "y" : 120,
                "big" : false,
                "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
                "requirements" : [
@@ -6254,8 +6569,8 @@
             },
             {
                "id" : "quest151",
-               "x" : 70,
-               "y" : 145,
+               "x" : 22,
+               "y" : 120,
                "big" : false,
                "icon" : "Thaumcraft:blockCustomPlant size(1) dmg(0)",
                "requirements" : [
@@ -6293,8 +6608,8 @@
             },
             {
                "id" : "quest152",
-               "x" : 94,
-               "y" : 105,
+               "x" : 58,
+               "y" : 140,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetFortress size(1) dmg(0)",
                "requirements" : [
@@ -6303,7 +6618,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -6333,12 +6648,16 @@
                   "Thaumcraft:ItemResource size(4) dmg(17)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
                "id" : "quest153",
-               "x" : 82,
-               "y" : 125,
+               "x" : 34,
+               "y" : 100,
                "big" : false,
                "icon" : "WitchingGadgets:tile.WG_MetalDevice.name size(1) dmg(1)",
                "requirements" : [
@@ -6371,8 +6690,8 @@
             },
             {
                "id" : "quest154",
-               "x" : 150,
-               "y" : 115,
+               "x" : 110,
+               "y" : 110,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(100)",
                "requirements" : [
@@ -6405,8 +6724,8 @@
             },
             {
                "id" : "quest155",
-               "x" : 162,
-               "y" : 135,
+               "x" : 122,
+               "y" : 130,
                "big" : false,
                "icon" : "Thaumcraft:GolemBell size(1) dmg(0)",
                "requirements" : [
@@ -6439,8 +6758,8 @@
             },
             {
                "id" : "quest156",
-               "x" : 138,
-               "y" : 135,
+               "x" : 98,
+               "y" : 130,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(3)",
                "requirements" : [
@@ -6486,8 +6805,8 @@
             },
             {
                "id" : "quest157",
-               "x" : 150,
-               "y" : 155,
+               "x" : 110,
+               "y" : 150,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(0)",
                "requirements" : [
@@ -6525,8 +6844,8 @@
             },
             {
                "id" : "quest158",
-               "x" : 174,
-               "y" : 155,
+               "x" : 134,
+               "y" : 150,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
                "requirements" : [
@@ -6569,8 +6888,8 @@
             },
             {
                "id" : "quest159",
-               "x" : 186,
-               "y" : 135,
+               "x" : 134,
+               "y" : 110,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(3)",
                "requirements" : [
@@ -6628,8 +6947,8 @@
             },
             {
                "id" : "quest160",
-               "x" : 174,
-               "y" : 115,
+               "x" : 146,
+               "y" : 130,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
                "requirements" : [
@@ -6672,8 +6991,8 @@
             },
             {
                "id" : "quest161",
-               "x" : 198,
-               "y" : 115,
+               "x" : 158,
+               "y" : 150,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(7)",
                "requirements" : [
@@ -6706,8 +7025,8 @@
             },
             {
                "id" : "quest162",
-               "x" : 222,
-               "y" : 115,
+               "x" : 170,
+               "y" : 170,
                "big" : false,
                "icon" : "Automagy:blockGolemWorkbench size(1) dmg(0)",
                "requirements" : [
@@ -6736,6 +7055,388 @@
                   "minecraft:log size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest332",
+               "x" : 158,
+               "y" : 75,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemResource size(1) dmg(17)",
+               "requirements" : [
+                  "quest131"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemResource size(1) dmg(17)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemResource size(1) dmg(16)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest298",
+               "x" : 182,
+               "y" : 75,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetVoid size(1) dmg(0)",
+               "requirements" : [
+                  "quest332"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetVoid size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateVoid size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsVoid size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemBootsVoid size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest300",
+               "x" : 206,
+               "y" : 75,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetVoidFortress size(1) dmg(0)",
+               "requirements" : [
+                  "quest298"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetVoidFortress size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateVoidFortress size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsVoidFortress size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest334",
+               "x" : 170,
+               "y" : 95,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemEldritchObject size(1) dmg(0)",
+               "requirements" : [
+                  "quest332"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemEldritchObject size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest336",
+               "x" : 194,
+               "y" : 95,
+               "big" : false,
+               "icon" : "exastrisrebirth:itemEldritchPortalSpawner size(1) dmg(0)",
+               "requirements" : [
+                  "quest334"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "exastrisrebirth:itemEldritchPortalSpawner size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest308",
+               "x" : 182,
+               "y" : 115,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetCultistPlate size(1) dmg(0)",
+               "requirements" : [
+                  "quest336"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetCultistPlate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateCultistPlate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsCultistPlate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest310",
+               "x" : 218,
+               "y" : 95,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetCultistRobe size(1) dmg(0)",
+               "requirements" : [
+                  "quest336"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetCultistRobe size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateCultistRobe size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsCultistRobe size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest312",
+               "x" : 206,
+               "y" : 115,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetCultistLeaderPlate size(1) dmg(0)",
+               "requirements" : [
+                  "quest336"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetCultistLeaderPlate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateCultistLeaderPlate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsCultistLeaderPlate size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest324",
+               "x" : 46,
+               "y" : 160,
+               "big" : false,
+               "icon" : "WitchingGadgets:item.WG_PrimordialHelm size(1) dmg(0)",
+               "requirements" : [
+                  "quest152"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "WitchingGadgets:item.WG_PrimordialHelm size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "WitchingGadgets:item.WG_PrimordialChest size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "WitchingGadgets:item.WG_PrimordialLegs size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "WitchingGadgets:item.WG_PrimordialBoots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             }
          ]
@@ -6745,10 +7446,13 @@
          "quests" : [
             {
                "id" : "quest163",
-               "x" : 18,
-               "y" : 60,
+               "x" : 30,
+               "y" : 40,
                "big" : false,
                "icon" : "Botania:lexicon size(1) dmg(0)",
+               "requirements" : [
+                  "quest292"
+               ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
@@ -6763,13 +7467,13 @@
                         {
                            "item" : "Botania:lexicon size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
                ],
                "reward" : [
-                  "Botania:fertilizer size(8) dmg(0)"
+                  "Botania:fertilizer size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6777,13 +7481,16 @@
             {
                "id" : "quest164",
                "x" : 42,
-               "y" : 20,
+               "y" : 60,
                "big" : false,
                "icon" : "Botania:flower size(1) dmg(1)",
+               "requirements" : [
+                  "quest163"
+               ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -6834,13 +7541,13 @@
             },
             {
                "id" : "quest165",
-               "x" : 42,
-               "y" : 60,
+               "x" : 54,
+               "y" : 80,
                "big" : false,
                "icon" : "Botania:altar size(1) dmg(0)",
                "requirements" : [
-                  "quest163",
-                  "quest010"
+                  "quest010",
+                  "quest164"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -6856,7 +7563,7 @@
                         {
                            "item" : "Botania:altar size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -6869,21 +7576,20 @@
             },
             {
                "id" : "quest166",
-               "x" : 54,
-               "y" : 40,
+               "x" : 66,
+               "y" : 60,
                "big" : false,
                "icon" : {
                   "item" : "Botania:specialFlower size(1) dmg(0)",
                   "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
                },
                "requirements" : [
-                  "quest164",
                   "quest165"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -6926,10 +7632,13 @@
             },
             {
                "id" : "quest167",
-               "x" : 66,
-               "y" : 60,
+               "x" : 30,
+               "y" : 80,
                "big" : false,
-               "icon" : "Botania:specialFlower size(1) dmg(0)",
+               "icon" : {
+                  "item" : "Botania:specialFlower size(1) dmg(0)",
+                  "nbt" : "=COMPOUND( type=STRING('manastar') )"
+               },
                "requirements" : [
                   "quest165"
                ],
@@ -6946,7 +7655,7 @@
                      "requirements" : [
                         {
                            "item" : "Botania:specialFlower size(1) dmg(0)",
-                           "nbt" : "=COMPOUND( type=STRING('daybloom') )",
+                           "nbt" : "=COMPOUND( type=STRING('manastar') )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -6961,8 +7670,8 @@
             },
             {
                "id" : "quest168",
-               "x" : 54,
-               "y" : 80,
+               "x" : 42,
+               "y" : 100,
                "big" : false,
                "icon" : {
                   "item" : "Botania:specialFlower size(1) dmg(0)",
@@ -6999,8 +7708,8 @@
             },
             {
                "id" : "quest169",
-               "x" : 66,
-               "y" : 20,
+               "x" : 90,
+               "y" : 60,
                "big" : false,
                "icon" : "Botania:grassHorn size(1) dmg(0)",
                "requirements" : [
@@ -7046,7 +7755,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -7056,9 +7765,8 @@
                      "requirements" : [
                         {
                            "item" : "Botania:twigWand size(1) dmg(0)",
-                           "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:spreader size(1) dmg(0)",
@@ -7168,60 +7876,6 @@
                ]
             },
             {
-               "id" : "quest173",
-               "x" : 166,
-               "y" : 20,
-               "big" : false,
-               "icon" : "Botania:manaTablet size(1) dmg(0)",
-               "requirements" : [
-                  "quest174"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Botania:distributor size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Botania:manaVoid size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Botania:manaDetector size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Botania:manaTablet size(1) dmg(0)",
-                           "nbt" : "=COMPOUND(  )",
-                           "required" : 1,
-                           "precision" : "FUZZY"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Botania:pool size(2) dmg(0)",
-                  {
-                     "item" : "Botania:manaTablet size(1) dmg(0)",
-                     "nbt" : "=COMPOUND(  )"
-                  }
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest174",
                "x" : 154,
                "y" : 40,
@@ -7280,7 +7934,60 @@
                "x" : 142,
                "y" : 20,
                "big" : false,
-               "icon" : "Botania:manasteelChest size(1) dmg(0)",
+               "icon" : "Botania:manasteelHelm size(1) dmg(0)",
+               "requirements" : [
+                  "quest174"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Botania:manasteelHelm size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "FUZZY"
+                        },
+                        {
+                           "item" : "Botania:manasteelChest size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "FUZZY"
+                        },
+                        {
+                           "item" : "Botania:manasteelLegs size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "FUZZY"
+                        },
+                        {
+                           "item" : "Botania:manasteelBoots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Botania:manaResource size(8) dmg(0)"
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest173",
+               "x" : 166,
+               "y" : 20,
+               "big" : false,
+               "icon" : "Botania:manaTablet size(1) dmg(0)",
                "requirements" : [
                   "quest174"
                ],
@@ -7296,22 +8003,66 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "Botania:manasteelHelm size(1) dmg(0)",
+                           "item" : "Botania:distributor size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "Botania:manasteelChest size(1) dmg(0)",
+                           "item" : "Botania:manaVoid size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "Botania:manasteelLegs size(1) dmg(0)",
+                           "item" : "Botania:manaDetector size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         },
                         {
-                           "item" : "Botania:manasteelBoots size(1) dmg(0)",
+                           "item" : "Botania:manaTablet size(1) dmg(0)",
+                           "nbt" : "=COMPOUND(  )",
+                           "required" : 1,
+                           "precision" : "FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Botania:pool size(2) dmg(0)",
+                  {
+                     "item" : "Botania:manaTablet size(1) dmg(0)",
+                     "nbt" : "=COMPOUND(  )"
+                  }
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest183",
+               "x" : 190,
+               "y" : 20,
+               "big" : false,
+               "icon" : "Botania:brewery size(1) dmg(0)",
+               "requirements" : [
+                  "quest174"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Botania:brewery size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Botania:vial size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -7319,7 +8070,8 @@
                   }
                ],
                "reward" : [
-                  "Botania:manaResource size(8) dmg(0)"
+                  "Botania:vial size(8) dmg(0)",
+                  "Botania:bloodPendant size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7339,7 +8091,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -7363,31 +8115,31 @@
                            "item" : "Botania:lens size(1) dmg(10)",
                            "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:lens size(1) dmg(9)",
                            "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:lens size(1) dmg(16)",
                            "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:lens size(1) dmg(15)",
                            "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:lens size(1) dmg(17)",
                            "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -7426,7 +8178,7 @@
                            "item" : "Botania:magnetRing size(1) dmg(0)",
                            "nbt" : "=COMPOUND(  )",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -7449,7 +8201,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -7485,7 +8237,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -7641,6 +8393,10 @@
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -7709,49 +8465,9 @@
                ]
             },
             {
-               "id" : "quest183",
-               "x" : 190,
-               "y" : 20,
-               "big" : false,
-               "icon" : "Botania:brewery size(1) dmg(0)",
-               "requirements" : [
-                  "quest174"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "parentRequirementCount" : null,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Botania:brewery size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Botania:vial size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Botania:vial size(8) dmg(0)",
-                  "Botania:bloodPendant size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest184",
-               "x" : 110,
-               "y" : 110,
+               "x" : 126,
+               "y" : 100,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(4)",
                "requirements" : [
@@ -7795,17 +8511,17 @@
             },
             {
                "id" : "quest185",
-               "x" : 98,
-               "y" : 90,
+               "x" : 102,
+               "y" : 100,
                "big" : false,
-               "icon" : "Botania:terrasteelChest size(1) dmg(0)",
+               "icon" : "Botania:terrasteelHelm size(1) dmg(0)",
                "requirements" : [
                   "quest184"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -7816,22 +8532,22 @@
                         {
                            "item" : "Botania:terrasteelHelm size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Botania:terrasteelChest size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Botania:terrasteelLegs size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Botania:terrasteelBoots size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -7840,12 +8556,16 @@
                   "Botania:manaResource size(8) dmg(4)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
                "id" : "quest186",
-               "x" : 134,
-               "y" : 110,
+               "x" : 150,
+               "y" : 100,
                "big" : false,
                "icon" : "Botania:terraformRod size(1) dmg(0)",
                "requirements" : [
@@ -7878,8 +8598,8 @@
             },
             {
                "id" : "quest187",
-               "x" : 122,
-               "y" : 130,
+               "x" : 138,
+               "y" : 120,
                "big" : false,
                "icon" : "Botania:alfheimPortal size(1) dmg(0)",
                "requirements" : [
@@ -7917,8 +8637,8 @@
             },
             {
                "id" : "quest188",
-               "x" : 110,
-               "y" : 150,
+               "x" : 126,
+               "y" : 140,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(7)",
                "requirements" : [
@@ -7951,17 +8671,17 @@
             },
             {
                "id" : "quest189",
-               "x" : 86,
-               "y" : 150,
+               "x" : 102,
+               "y" : 140,
                "big" : false,
-               "icon" : "Botania:elementiumChest size(1) dmg(0)",
+               "icon" : "Botania:elementiumHelm size(1) dmg(0)",
                "requirements" : [
                   "quest188"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -7972,22 +8692,22 @@
                         {
                            "item" : "Botania:elementiumHelm size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Botania:elementiumChest size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Botania:elementiumLegs size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Botania:elementiumBoots size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -7996,12 +8716,16 @@
                   "Botania:manaResource size(8) dmg(7)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
                "id" : "quest190",
-               "x" : 122,
-               "y" : 170,
+               "x" : 138,
+               "y" : 160,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(8)",
                "requirements" : [
@@ -8046,8 +8770,8 @@
             },
             {
                "id" : "quest191",
-               "x" : 134,
-               "y" : 190,
+               "x" : 150,
+               "y" : 180,
                "big" : false,
                "icon" : "Botania:skyDirtRod size(1) dmg(0)",
                "requirements" : [
@@ -8090,8 +8814,8 @@
             },
             {
                "id" : "quest192",
-               "x" : 146,
-               "y" : 170,
+               "x" : 162,
+               "y" : 160,
                "big" : false,
                "icon" : "Botania:sparkUpgrade size(1) dmg(0)",
                "requirements" : [
@@ -8136,12 +8860,16 @@
                   "Botania:lens size(1) dmg(18)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
                "id" : "quest193",
-               "x" : 134,
-               "y" : 150,
+               "x" : 150,
+               "y" : 140,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(5)",
                "requirements" : [
@@ -8185,8 +8913,8 @@
             },
             {
                "id" : "quest194",
-               "x" : 146,
-               "y" : 130,
+               "x" : 162,
+               "y" : 120,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(14)",
                "requirements" : [
@@ -8225,8 +8953,8 @@
             },
             {
                "id" : "quest195",
-               "x" : 158,
-               "y" : 150,
+               "x" : 174,
+               "y" : 140,
                "big" : false,
                "icon" : "Botania:rainbowRod size(1) dmg(0)",
                "requirements" : [
@@ -9215,14 +9943,14 @@
                "x" : 166,
                "y" : 180,
                "big" : false,
-               "icon" : "AWWayofTime:boundPlate size(1) dmg(0)",
+               "icon" : "AWWayofTime:boundHelmet size(1) dmg(0)",
                "requirements" : [
                   "quest217"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -9273,6 +10001,10 @@
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(17)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -9406,6 +10138,10 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -9837,6 +10573,10 @@
                   "AWWayofTime:bloodMagicBaseItems size(2) dmg(31)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -9882,6 +10622,58 @@
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest320",
+               "x" : 142,
+               "y" : 180,
+               "big" : false,
+               "icon" : "AWWayofTime:sanguineHelmet size(1) dmg(0)",
+               "requirements" : [
+                  "quest217",
+                  "quest132",
+                  "quest322"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AWWayofTime:sanguineHelmet size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AWWayofTime:sanguineRobe size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AWWayofTime:sanguinePants size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AWWayofTime:sanguineBoots size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             }
          ]
@@ -10303,7 +11095,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10328,6 +11120,10 @@
                   "DraconicEvolution:draconiumDust size(16) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -10381,7 +11177,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10417,6 +11213,10 @@
                   "DraconicEvolution:draconium size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -10431,7 +11231,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10465,7 +11265,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10499,7 +11299,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10538,7 +11338,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10587,7 +11387,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10622,6 +11422,10 @@
                   "DraconicEvolution:dragonHeart size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -10636,7 +11440,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "parentRequirementCount" : null,
                "tasks" : [
@@ -10656,6 +11460,10 @@
                   "DraconicEvolution:draconicBlock size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             }
          ]
@@ -10709,6 +11517,10 @@
                   "minecraft:ice size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -10757,6 +11569,10 @@
                   "minecraft:gold_ore size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -10863,6 +11679,10 @@
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -10911,6 +11731,10 @@
                   "DraconicEvolution:draconicCore size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11012,6 +11836,10 @@
                   "minecraft:gold_nugget size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11060,6 +11888,10 @@
                   "minecraft:sandstone size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11144,6 +11976,10 @@
                   "minecraft:melon_seeds size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11192,6 +12028,10 @@
                   "minecraft:coal size(16) dmg(1)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11278,6 +12118,10 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11357,6 +12201,10 @@
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11398,6 +12246,10 @@
                   "minecraft:magma_cream size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11487,6 +12339,10 @@
                   "Forestry:propolis size(8) dmg(3)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11535,6 +12391,10 @@
                   "minecraft:spider_eye size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11614,6 +12474,10 @@
                   "minecraft:coal size(16) dmg(1)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11662,6 +12526,10 @@
                   "minecraft:ghast_tear size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11746,6 +12614,10 @@
                   "minecraft:feather size(16) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11787,6 +12659,10 @@
                   "minecraft:gold_nugget size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11835,6 +12711,10 @@
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11876,6 +12756,10 @@
                   "minecraft:nether_star size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11924,6 +12808,10 @@
                   "minecraft:leather size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -11972,6 +12860,10 @@
                   "minecraft:gunpowder size(16) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -12063,6 +12955,10 @@
                   "minecraft:red_mushroom size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -12111,6 +13007,10 @@
                   "minecraft:string size(8) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep000",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -12148,11 +13048,16 @@
                ],
                "reputations" : [
                ]
-            },
+            }
+         ]
+      },
+      {
+         "id" : "set010",
+         "quests" : [
             {
                "id" : "quest288",
-               "x" : 158,
-               "y" : 110,
+               "x" : 70,
+               "y" : 45,
                "big" : false,
                "icon" : "DraconicEvolution:dragonHeart size(1) dmg(0)",
                "requirements" : [
@@ -12188,21 +13093,141 @@
                "parentRequirementCount" : null,
                "tasks" : [
                   {
-                     "id" : "task000",
-                     "type" : "TASK_MOB",
-                     "mobs" : [
+                     "id" : "task001",
+                     "type" : "TASK_LOCATION",
+                     "locations" : [
                         {
-                           "id" : "mob000",
+                           "id" : "loc000",
                            "icon" : "customnpcs:npcHarp size(1) dmg(0)",
-                           "mob" : "unknown",
-                           "count" : 1,
-                           "exact" : false
+                           "x" : 0,
+                           "y" : 0,
+                           "z" : 0,
+                           "radius" : 3,
+                           "visible" : "LOCATION",
+                           "dim" : 0
                         }
                      ]
                   }
                ],
                "reward" : [
-                  "DraconicEvolution:dragonHeart size(1) dmg(0)"
+                  "customnpcs:npcSkull size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest328",
+               "x" : 70,
+               "y" : 90,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemSwordElemental size(1) dmg(0)",
+               "requirements" : [
+                  "quest326",
+                  "quest314",
+                  "quest316",
+                  "quest318",
+                  "quest054",
+                  "quest304",
+                  "quest103",
+                  "quest110",
+                  "quest322",
+                  "quest133",
+                  "quest152",
+                  "quest324",
+                  "quest300",
+                  "quest298",
+                  "quest308",
+                  "quest310",
+                  "quest312",
+                  "quest175",
+                  "quest185",
+                  "quest189",
+                  "quest320",
+                  "quest218",
+                  "quest279",
+                  "quest284",
+                  "quest068"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_LOCATION",
+                     "locations" : [
+                        {
+                           "id" : "loc000",
+                           "icon" : "customnpcs:npcFullDiaShield size(1) dmg(0)",
+                           "x" : 0,
+                           "y" : 0,
+                           "z" : 0,
+                           "radius" : 3,
+                           "visible" : "LOCATION",
+                           "dim" : 0
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "customnpcs:npcArtifact size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest330",
+               "x" : 70,
+               "y" : 135,
+               "big" : false,
+               "icon" : "minecraft:carrot_on_a_stick size(1) dmg(0)",
+               "requirements" : [
+                  "quest032",
+                  "quest044",
+                  "quest061",
+                  "quest070",
+                  "quest092",
+                  "quest114",
+                  "quest147",
+                  "quest192",
+                  "quest231",
+                  "quest285",
+                  "quest078",
+                  "quest125",
+                  "quest162",
+                  "quest181",
+                  "quest221",
+                  "quest277"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "parentRequirementCount" : null,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_LOCATION",
+                     "locations" : [
+                        {
+                           "id" : "loc000",
+                           "icon" : "customnpcs:npcLetter size(1) dmg(0)",
+                           "x" : 0,
+                           "y" : 0,
+                           "z" : 0,
+                           "radius" : 3,
+                           "visible" : "LOCATION",
+                           "dim" : 0
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "customnpcs:npcAncientScroll size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -12216,19 +13241,61 @@
          "markers" : [
             {
                "id" : "mark000",
-               "value" : 10
+               "value" : 5
             },
             {
                "id" : "mark001",
-               "value" : 20
+               "value" : 10
             },
             {
                "id" : "mark003",
-               "value" : 30
+               "value" : 15
             },
             {
                "id" : "mark004",
-               "value" : 40
+               "value" : 20
+            }
+         ]
+      },
+      {
+         "id" : "rep001",
+         "markers" : [
+            {
+               "id" : "mark000",
+               "value" : 5
+            },
+            {
+               "id" : "mark001",
+               "value" : 10
+            },
+            {
+               "id" : "mark002",
+               "value" : 15
+            },
+            {
+               "id" : "mark003",
+               "value" : 20
+            }
+         ]
+      },
+      {
+         "id" : "rep002",
+         "markers" : [
+            {
+               "id" : "mark000",
+               "value" : 4
+            },
+            {
+               "id" : "mark001",
+               "value" : 8
+            },
+            {
+               "id" : "mark002",
+               "value" : 12
+            },
+            {
+               "id" : "mark003",
+               "value" : 16
             }
          ]
       }

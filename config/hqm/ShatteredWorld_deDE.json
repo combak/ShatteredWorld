@@ -1,6 +1,6 @@
 {
    "parent" : "ShatteredWorld",
-   "decription" : "Diese Pack ist anderes als andere!\n- Jeder Spieler ist in einer eigenen Welt auf einer Insel.\n- Alle Arten von Querries sind deaktiviert oder erschwert.\n- Im Boden sind nur ein paar Rohstoffe.\n- In andere Welten gelangt man ueber die Lobby und den dazu gehoerigen NPCs.\n- Viele Rezepte sind nach Schwierigkeit veraendert und teilweise voneinander abhaengig.\n- Es spawnen mehr und gefaehrlichere Mobs. Die Nacht ist unheimlich. Auch die Naehe zu Fluessigkeiten birgt Gefahren.",
+   "decription" : "Diese Pack ist anderes als andere!\n- Alle Arten von Querries sind deaktiviert oder erschwert.\n- Im Boden sind nur ein paar Rohstoffe.\n- Viele Rezepte sind nach Schwierigkeit veraendert und teilweise voneinander abhaengig.\n- Es spawnen mehr und gefaehrlichere Mobs. Die Nacht ist unheimlich. Auch die Naehe zu Fluessigkeiten birgt Gefahren.",
    "questSetCatalog" : [
       {
          "id" : "set000",
@@ -16,11 +16,6 @@
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Durch das Abschlagen des Laubs von den Baeumen finden wir ab und zu einen Ast. Manchmal schneller, manchmal langsamer."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
-                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Gravelbloecke fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen."
                   }
                ]
             },
@@ -30,26 +25,14 @@
                "description" : "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit der Axt zerlegen wir einen Baum in seine Einzelteile.",
                "tasks" : [
                   {
+                     "id" : "task002",
+                     "name" : "Crafting Task",
+                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Gravelbloecke fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen."
+                  },
+                  {
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Holz ist die Grundlage fuer viele Rezepte hier. Aber achte auf die Waechter, die auftauchen koennen"
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
-                     "description" : "Wenn man das Holz in ein Crafting Grid legt, kann man daraus Bretter (Planks) machen."
-                  }
-               ]
-            },
-            {
-               "id" : "quest012",
-               "name" : "Es werde Licht",
-               "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
                   }
                ]
             },
@@ -79,6 +62,18 @@
                      "id" : "task001",
                      "name" : "Detection Task",
                      "description" : "Ruhig Blut, angeln ist kein Sport, hier liegt die Kraft in der inneren Ruhe."
+                  }
+               ]
+            },
+            {
+               "id" : "quest306",
+               "name" : "Holzschutz",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             },
@@ -281,6 +276,30 @@
                ]
             },
             {
+               "id" : "quest012",
+               "name" : "Es werde Licht",
+               "description" : "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
+                  }
+               ]
+            },
+            {
+               "id" : "quest316",
+               "name" : "Das Glitzerding",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
                "id" : "quest018",
                "name" : "Der Metallkoch",
                "description" : "Jetzt haben wir doch schon das eine oder andere Rohmetall (Ore) gefunden. Man kann viele davon in einen Ofen (Furnace) werfen und brennen, aber dieser Weg ist nicht effektiv. Eine Schmelze ist der bessere Weg.",
@@ -313,6 +332,18 @@
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Die beim Sieben entstehenden kleineren Teilchen muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt."
+                  }
+               ]
+            },
+            {
+               "id" : "quest314",
+               "name" : "Rostlaube",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
                   }
                ]
             },
@@ -402,6 +433,18 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Links und Rechts davon eine Kiste oder aehnliches aufstellen und er versucht die Gegenstaende aus der linken Kiste zusammenzufassen und legt sie dann in die rechte Kiste. Die Seite mit dem aufgemalten Crafting Grid auf der Maschine ist die Vorderseite."
+                  }
+               ]
+            },
+            {
+               "id" : "quest326",
+               "name" : "Traveller's Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             }
@@ -494,6 +537,18 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann."
+                  }
+               ]
+            },
+            {
+               "id" : "quest318",
+               "name" : "Hardened Leather",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             },
@@ -1047,6 +1102,18 @@
                      "id" : "task001",
                      "name" : "Crafting Task",
                      "description" : "... den wir dann im Wireless Charger verbauen. Die Reichweiter betraegt 24 Bloecke und hat einen internen Puffer von 200.000 RF."
+                  }
+               ]
+            },
+            {
+               "id" : "quest304",
+               "name" : "Flux-Infused Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             }
@@ -1911,25 +1978,6 @@
                ]
             },
             {
-               "id" : "quest134",
-               "name" : "Der Superheld",
-               "description" : "???",
-               "tasks" : [
-               ]
-            },
-            {
-               "id" : "quest135",
-               "name" : "Der Erbsenzaehler",
-               "description" : "Automagy ???",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
                "id" : "quest136",
                "name" : "Explosives Licht",
                "description" : "Nitor und Alumentum sind die ersten magischen Gegenstaende, die ein Magier keonnen muss.",
@@ -2082,6 +2130,18 @@
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Dieses magische Metall wird in einem magischen Schmelzofen hergestellt. Wie sollte es auch anders sein."
+                  }
+               ]
+            },
+            {
+               "id" : "quest322",
+               "name" : "Thaumium Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             },
@@ -2252,6 +2312,114 @@
                      "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
                   }
                ]
+            },
+            {
+               "id" : "quest332",
+               "name" : "Void Metal",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest298",
+               "name" : "Void Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest300",
+               "name" : "Thaumaturge Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest334",
+               "name" : "Eldrich Eye",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest336",
+               "name" : "Port in a Box",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest308",
+               "name" : "Crimson Cult",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest310",
+               "name" : "Crimson Cult Robe",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest312",
+               "name" : "Crimson Praetor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest324",
+               "name" : "Primordial Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
             }
          ]
       },
@@ -2280,17 +2448,17 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die Mystical White Flower ist da die wichtigste, die wir auf jeden Fall finden muessen."
+                     "description" : "Die Mystical Flower, die Farbe ist egal, sind die Basis der Forschung in Botania. Der Floral Fertilizer hilft dir dabei. Einfach auf die Erde anwenden."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Petal",
-                     "description" : "Von allen Kraetern interessieren uns am meisten die Bluetenblaetter (Petal), denn sie enthalten die wichtigen Wirkstoffe."
+                     "description" : "Von allen Kraetern interessieren uns am meisten die Bluetenblaetter (Petal), denn sie enthalten die wichtigen Wirkstoffe. (Farbe ist egal)"
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task Powder",
-                     "description" : "Mitunter werden die Bluetenblaetter aber in pulverisierter Form gebraucht."
+                     "description" : "Mitunter werden die Bluetenblaetter aber in pulverisierter Form gebraucht. (auch hier ist die Farbe egal)"
                   }
                ]
             },
@@ -2325,13 +2493,13 @@
             },
             {
                "id" : "quest167",
-               "name" : "Daybloom",
-               "description" : "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind diese alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
+               "name" : "Manastar",
+               "description" : "Gerade am Anfang weiss man nie wieviel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die Daybloom darf nicht direkt nebeneinander aufgestellt werden. In den Zwischenraeumen koennen aber andere Blumen stehen."
+                     "description" : "Mit dieser Blume kann man den Verbrauch an Mana besser einschaetzen. Sie leuchtet je nach Bedarf in verschiedenen Farben."
                   }
                ]
             },
@@ -2374,12 +2542,12 @@
             {
                "id" : "quest171",
                "name" : "Mana Produktion",
-               "description" : "Der Anfang der Manaproduktion. Es gibt ein Blume fuer den Tag und eine fuer die Nacht.",
+               "description" : "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind diese alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Man sollte beachten, das die gleichen Blumen nicht zu nah bei einander plaziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden."
+                     "description" : "Man sollte beachten, das gleiche Blumen nicht zu nah bei einander plaziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden."
                   }
                ]
             },
@@ -2392,18 +2560,6 @@
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Jetzt lernst du die einfache Benutzung deines Manas. Wenn du ein Item in einen gefuellten Manapool wirfst, werden diese in eine verbesserte Form verwandelt. Das geht natuerlich nicht mit allen Dingen. Aber der Tooltip an deinem Cursor hilft die da weiter."
-                  }
-               ]
-            },
-            {
-               "id" : "quest173",
-               "name" : "Mana Tools",
-               "description" : "Unser Mananetzwerk wird jetzt immer groesser. Dann wird es Zeit fuer weiter Werkzeuge zum Steuern des Manaflusses.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Den Mana Distributor und das Mana Tablet wird man sich oft brauchen. Die ander werden eher selten gebraucht."
                   }
                ]
             },
@@ -2433,6 +2589,30 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Diese Ruestung haelt viel aus. Wenn man ein gefuelltet Manatablet in seinem Inventar mit sich fuehrt, wird es auch automatisch repariert."
+                  }
+               ]
+            },
+            {
+               "id" : "quest173",
+               "name" : "Mana Tools",
+               "description" : "Unser Mananetzwerk wird jetzt immer groesser. Dann wird es Zeit fuer weiter Werkzeuge zum Steuern des Manaflusses.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Den Mana Distributor und das Mana Tablet wird man sich oft brauchen. Die ander werden eher selten gebraucht."
+                  }
+               ]
+            },
+            {
+               "id" : "quest183",
+               "name" : "Botanische Brauerei",
+               "description" : "Die normalen Traenke sind in vielen Faellen schon sehr nuetzlich. Aber sie koennten staerker sind und laenger dauern.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Dieser Braustand sieht zwar etwas ulkig aus, aber er arbeitet sehr zuverlaessig. Ueber deine Moeglichkeiten mit dem Teil solltest du genau dein Lexikon studieren."
                   }
                ]
             },
@@ -2522,18 +2702,6 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Mit diesen Staeben lassen sich Bloecke und Soucebloecke setzen."
-                  }
-               ]
-            },
-            {
-               "id" : "quest183",
-               "name" : "Botanische Brauerei",
-               "description" : "Die normalen Traenke sind in vielen Faellen schon sehr nuetzlich. Aber sie koennten staerker sind und laenger dauern.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Dieser Braustand sieht zwar etwas ulkig aus, aber er arbeitet sehr zuverlaessig. Ueber deine Moeglichkeiten mit dem Teil solltest du genau dein Lexikon studieren."
                   }
                ]
             },
@@ -3214,6 +3382,18 @@
                      "id" : "task001",
                      "name" : "Crafting Task",
                      "description" : "Mit der neuer Tinte hast du dir auch eine neue Wuenschelrute frei geschalten."
+                  }
+               ]
+            },
+            {
+               "id" : "quest320",
+               "name" : "Sanguine Armor",
+               "description" : "Unnamed quest",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
                   }
                ]
             }
@@ -4197,20 +4377,63 @@
                      "description" : "Die kannst du bei der Jagd erbeuten oder selbst herstellen."
                   }
                ]
-            },
+            }
+         ]
+      },
+      {
+         "id" : "set010",
+         "name" : "Das Endspiel",
+         "decription" : "No description",
+         "quests" : [
             {
                "id" : "quest288",
                "name" : "Die Trophaee",
+               "description" : "Es wird zwar keine schoene Mail befreit, aber was kuemmert das uns Helden.",
+               "tasks" : [
+                  {
+                     "id" : "task001",
+                     "name" : "Location Task",
+                     "description" : "Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam.",
+                     "locations" : [
+                        {
+                           "id" : "loc000",
+                           "name" : "Drachen"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest328",
+               "name" : "Das Bollwerk",
                "description" : "Nur der Beste der Besten der Besten kann hier bestehen.",
                "tasks" : [
                   {
                      "id" : "task000",
-                     "name" : "Killing Task",
-                     "description" : "Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam.",
-                     "mobs" : [
+                     "name" : "Location Task",
+                     "description" : "A task where the player has to reach one or more locations.",
+                     "locations" : [
                         {
-                           "id" : "mob000",
-                           "name" : "Dragon"
+                           "id" : "loc000",
+                           "name" : "Krieger"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id" : "quest330",
+               "name" : "Der Streber",
+               "description" : "Dieser Dummkopf hat leider die dunkle Seite gewaehlt und muss dashalb mit allen Mitteln bekaempft werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Location Task",
+                     "description" : "A task where the player has to reach one or more locations.",
+                     "locations" : [
+                        {
+                           "id" : "loc000",
+                           "name" : "Wissenschaftler"
                         }
                      ]
                   }
@@ -4222,7 +4445,7 @@
    "reputationCatalog" : [
       {
          "id" : "rep000",
-         "name" : "Test",
+         "name" : "Jagd",
          "neutral" : "neutral",
          "markers" : [
             {
@@ -4239,6 +4462,52 @@
             },
             {
                "id" : "mark004",
+               "name" : "Experte"
+            }
+         ]
+      },
+      {
+         "id" : "rep001",
+         "name" : "Ruestung",
+         "neutral" : "Neutral",
+         "markers" : [
+            {
+               "id" : "mark000",
+               "name" : "Anfaenger"
+            },
+            {
+               "id" : "mark001",
+               "name" : "Lehrling"
+            },
+            {
+               "id" : "mark002",
+               "name" : "Meister"
+            },
+            {
+               "id" : "mark003",
+               "name" : "Experte"
+            }
+         ]
+      },
+      {
+         "id" : "rep002",
+         "name" : "Forschung",
+         "neutral" : "Neutral",
+         "markers" : [
+            {
+               "id" : "mark000",
+               "name" : "Anfaenger"
+            },
+            {
+               "id" : "mark001",
+               "name" : "Lehrling"
+            },
+            {
+               "id" : "mark002",
+               "name" : "Meister"
+            },
+            {
+               "id" : "mark003",
                "name" : "Experte"
             }
          ]
