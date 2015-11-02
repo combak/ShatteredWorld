@@ -1368,14 +1368,14 @@
                ]
             },
             {
-               "id" : "quest090",
-               "name" : "Der Meister",
-               "description" : "Jetzt haben wir acht Maschinen. Aber da stehen doch noch so viele rum. ",
+               "id" : "quest093",
+               "name" : "Der Administrator",
+               "description" : "Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "An jeder Seite des ME Controllers koennen bis zu 32 Geraete angeschlossen werden, voraus gesetzt, es ist das richtige Kabel."
+                     "description" : "Mit diesen beiden Komponenten sehn wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen."
                   }
                ]
             },
@@ -1404,18 +1404,6 @@
                ]
             },
             {
-               "id" : "quest093",
-               "name" : "Der Administrator",
-               "description" : "Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Mit diesen beiden Komponenten sehn wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen."
-                  }
-               ]
-            },
-            {
                "id" : "quest290",
                "name" : "Sternenstaub",
                "description" : "Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoreinschlaegen koennen weiter verarbeitet werden.",
@@ -1424,6 +1412,18 @@
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Um Sky Stone zu erhalten musst du nur ein Barrel mit Lava fullen und mit einem Sky Stone Dust darauf rechts klicken. Ist doch ganz einfach."
+                  }
+               ]
+            },
+            {
+               "id" : "quest090",
+               "name" : "Der Meister",
+               "description" : "Jetzt haben wir acht Maschinen. Aber da stehen doch noch so viele rum. ",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "An jeder Seite des ME Controllers koennen bis zu 32 Geraete angeschlossen werden, voraus gesetzt, es ist das richtige Kabel."
                   }
                ]
             }
@@ -2158,6 +2158,18 @@
                ]
             },
             {
+               "id" : "quest153",
+               "name" : "Der Architekt",
+               "description" : "???",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
                "id" : "quest150",
                "name" : "Die Wunderlampen",
                "description" : "Es ist zwar nicht Aladins Wunderlampe, aber diese Lampen haben es ganz schoen in sich.",
@@ -2194,9 +2206,9 @@
                ]
             },
             {
-               "id" : "quest153",
-               "name" : "Der Architekt",
-               "description" : "???",
+               "id" : "quest324",
+               "name" : "Primordial Armor",
+               "description" : "Unnamed quest",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2339,7 +2351,7 @@
             },
             {
                "id" : "quest300",
-               "name" : "Thaumaturge Armor",
+               "name" : "Void Fortress",
                "description" : "Unnamed quest",
                "tasks" : [
                   {
@@ -2400,18 +2412,6 @@
             {
                "id" : "quest312",
                "name" : "Crimson Praetor",
-               "description" : "Unnamed quest",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest324",
-               "name" : "Primordial Armor",
                "description" : "Unnamed quest",
                "tasks" : [
                   {
@@ -2711,14 +2711,14 @@
                "description" : "Die naechste Stufe des Kraeuterkundlers. ",
                "tasks" : [
                   {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Den genauen Aufbau findest du wieder in deinem Lexikon. Die Versurgung mit Mana erfolgt ueber Sparks. Aber beachte, das der Manaverbrauch gewaltig ist."
-                  },
-                  {
                      "id" : "task001",
                      "name" : "Detection Task",
                      "description" : "Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besserern Stahl. Ob der Transformationsprozess startet zeigt dir die Effekteshow."
+                  },
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Den genauen Aufbau findest du wieder in deinem Lexikon. Die Versurgung mit Mana erfolgt ueber Sparks. Aber beachte, das der Manaverbrauch gewaltig ist."
                   }
                ]
             },
