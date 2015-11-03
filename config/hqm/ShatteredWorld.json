@@ -152,7 +152,7 @@
                         {
                            "item" : "minecraft:fish size(1) dmg(0)",
                            "required" : 4,
-                           "precision" : "FUZZY"
+                           "precision" : "ORE_DICTIONARY"
                         }
                      ]
                   }
@@ -204,6 +204,9 @@
                         }
                      ]
                   }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                   {
@@ -283,7 +286,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:SearedBrick size(4) dmg(5)"
+                  "TConstruct:materials size(2) dmg(11)"
                ],
                "reputations" : [
                ]
@@ -317,7 +320,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -392,7 +395,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(4)"
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -441,7 +444,7 @@
                   }
                ],
                "reward" : [
-                  "Forestry:gearTin size(3) dmg(0)"
+                  "Forestry:gearTin size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -480,7 +483,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:toolRod size(3) dmg(0)"
+                  "minecraft:obsidian size(2) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -524,7 +527,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:stone size(4) dmg(0)"
+                  "minecraft:feather size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -591,7 +594,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:stone size(8) dmg(0)"
+                  "minecraft:emerald size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -695,7 +698,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:clay size(4) dmg(0)"
+                  "minecraft:glowstone_dust size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -766,7 +769,7 @@
                   }
                ],
                "reward" : [
-                  "exnihilo:mesh size(1) dmg(0)"
+                  "minecraft:string size(6) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -845,6 +848,9 @@
                         }
                      ]
                   }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                   {
@@ -1040,6 +1046,9 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -1080,7 +1089,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:coal size(32) dmg(1)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1356,6 +1365,9 @@
                         }
                      ]
                   }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                   {

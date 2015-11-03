@@ -10,7 +10,7 @@
             {
                "id" : "quest292",
                "name" : "Der Anfang der Ewigkeit",
-               "description" : "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas einfachen Taetigkeiten.",
+               "description" : "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas Einfachem.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -27,7 +27,7 @@
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Gravelbloecke fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen."
+                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Kiesbloecke (Gravel) fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen. (2 Flint ueber 2 Sticks)"
                   },
                   {
                      "id" : "task000",
@@ -39,19 +39,19 @@
             {
                "id" : "quest002",
                "name" : "Sichere Nacht",
-               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die furchtbarste Nacht wie im Fluge.",
+               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die schlimmste Nacht wie im Fluge.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe keonnen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
+                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe koennen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
                   }
                ]
             },
             {
                "id" : "quest001",
                "name" : "In der Ruhe liegt die Kraft",
-               "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenen Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
+               "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenem Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -61,19 +61,19 @@
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Ruhig Blut, angeln ist kein Sport, hier liegt die Kraft in der inneren Ruhe."
+                     "description" : "Ruhig Blut, angeln ist kein Sport, hier liegt die Kraft in der inneren Ruhe. Das Anglerglueck bring auch wunderliche Teile an die Oberflaeche."
                   }
                ]
             },
             {
                "id" : "quest306",
-               "name" : "Holzschutz",
-               "description" : "Unnamed quest",
+               "name" : "Der Holzschutz",
+               "description" : "Mit einer Freizeitkleidung in dieser Umgebung zu ueberleben ist sicher keine gute Idee. Ein bisschen Ruestung kann nicht schaden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Wir sollten den ersten Rohstoff nutzen, den wir zur Verfuegung haben. Der Schutz ist allerdings minimal!"
                   }
                ]
             },
@@ -104,19 +104,19 @@
             {
                "id" : "quest006",
                "name" : "Wilde Tiere",
-               "description" : "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die meisten sind nicht gut auf mich zu sprechen, leben sie doch schon laenger hier als ich.",
+               "description" : "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die meisten sind nicht gut auf mich zu sprechen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Ein Longsword ist eine gute Allround Waffe mit mittlerer Geschwindigkeit und mittlerem Schaden."
+                     "description" : "Ein Longsword ist eine gute Allroundwaffe mit mittlerer Geschwindigkeit und mittlerem Schaden."
                   }
                ]
             },
             {
                "id" : "quest007",
                "name" : "Wer hat denn da Angst?",
-               "description" : "Manchmal habe ich in der Nacht so komische Geraeusche draussen gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
+               "description" : "Manchmal habe ich in der Nacht so komische Geraeusche gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -160,19 +160,19 @@
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Nachdem du die Werkbank aufgestellt hast, legst du die File in den oberen Slot. Oben rechts kann man den Arbeitsmodus dieser Aendern. Ein Stueck Holz legt man in den linken Slot. Nach mehreren Arbeitsschritten erhaelt man dann das fertige Zahnrad."
+                     "description" : "Nachdem du die Werkbank aufgestellt hast, legst du die Feile in den oberen Slot. Oben rechts kann man den Arbeitsmodus aendern. Ein Stueck Holz legt man in den linken Slot. Nach mehreren Arbeitsschritten erhaelt man dann das fertige Zahnrad."
                   }
                ]
             },
             {
                "id" : "quest010",
                "name" : "Die Steinmine",
-               "description" : "Wo kommt man am besten an die guten Steine, man geht unter Tage. Dazu sollte man aber auch eine kleine Spitzhake dabei haben.",
+               "description" : "Wie kommt man am besten an die guten Steine heran? Man geht unter Tage. Aber auch hier gibt es Waechter. Sei gewarnt!",
                "tasks" : [
                   {
                      "id" : "task002",
                      "name" : "Detection Task",
-                     "description" : "Eine Spitzhacke besteht aus Kopf, Stiel und Bindung. Fuer alle drei erhaelt man in der Stancil Table die Vorlagen. Im Part Builder stellt man mit Flint bzw. Holzbrettern (Planks) die Einzelteile her. Alles wird in der Tool Station zusammen gebaut. Jetzt kann man ganz leicht Steine abbauen und bekommt Cobblestone. Aber auch hier gibt es Waechter. Sei gewarnt!"
+                     "description" : "Eine Spitzhacke besteht aus Kopf, Stiel und Bindung. Fuer alle drei erhaelt man in der Stancil Table die Vorlagen. Im Part Builder stellt man mit Flint bzw. Holzbrettern (Planks) die Einzelteile her. Alles wird in der Tool Station zusammen gebaut."
                   }
                ]
             },
@@ -184,12 +184,12 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Ein richtiges Feuer besteht aus einem korrekt erstelltem Holzstapel, in dem sich die Hitze schnell bilden kann. Ausserdem ist eine Steinumrandung wichtig, damit der Brandschutz gewaehrleistet ist."
+                     "description" : "Ein richtiges Feuer besteht aus einem korrekt erstelltem Steinumrandung. Damit ist der Brandschutz gewaehrleistet. Jetzt nur einen Brennstoff plaziert und schon sind wir bereit. (Rechtsklick und Holz in der Mitte unten)"
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Jetzt sind wir in der Lage unseren ruhen Stein zu brennen. Nutze dein Lagerfeuer mit etwas Brennstoff."
+                     "description" : "Jetzt sind wir in der Lage unseren rohen Stein zu brennen. Nutze dein Lagerfeuer mit etwas Brennstoff."
                   }
                ]
             },
@@ -213,19 +213,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Dieses Teil ist so simple, aber auch so hilfreich. Man kann Stein, Erze, aber auch Essen kochen. Das darf natuerlich in keinem Haushalt fehlen."
+                     "description" : "Dieses Teil ist so simple, aber auch so hilfreich. Man kann Stein, Erze, aber auch Essen kochen. Das darf natuerlich in keinem Haushalt fehlen. Der Ofen (Furnace) wird aus Stein (Clean Stone) und Steinziegeln (Brick) gebaut."
                   }
                ]
             },
             {
                "id" : "quest014",
                "name" : "Alles kurz und klein schlagen",
-               "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steins besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
+               "description" : "Jetzt haben wir uns schon ein wenig diese broeckeligen Steine besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit dem Hammer kann man Feldstein (Cobblestone) zu Kies (Gravel) zerkleinern. "
+                     "description" : "Mit dem Hammer kann man Feldstein (Cobblestone) zu Kies (Gravel) und weiter zu Sand und Staub (Dust) zerkleinern. "
                   },
                   {
                      "id" : "task001",
@@ -237,17 +237,17 @@
             {
                "id" : "quest015",
                "name" : "Toepfers ist so schoen",
-               "description" : "Jetzt brauchen wir nur noch Wasser und etwas mit dem wir Wasser von einem Punkt A zu einem Punkt B bringen koennen. ",
+               "description" : "Wir brauchen nur noch Wasser und etwas mit dem wir Wasser von Punkt A zu Punkt B tragen koennen. ",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Die Barrel kann fuer verschiedene Sachen verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren."
+                     "description" : "Das Barrel kann fuer verschiedene Dinge verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Wenn man in die mit Wasser gefuellte Barrel Staub (Dust) legt, kommt Lehm (Clay) heraus. Aus dem Lehm stellt man den Eimer her, den man nochmal im Ofen brennen kann."
+                     "description" : "Wenn das Barrel mit Wasser gefuellt ist, kann man Staub (Dust) darin einweichen. Heraus kommt nach kurzer Zeit Lehm (Clay). Aus dem Lehm stellt man den Eimer her. Dieser muss nur noch im Ofen gebrannt werden."
                   }
                ]
             },
@@ -271,7 +271,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Da wir kaum Rohstoffe aus dem Boden holen koennen, muessen wir andere Wege gehen. Das Sieben der feinen Materialien bringt manchen Schatz zum Vorschein."
+                     "description" : "Da wir kaum Rohstoffe aus dem Boden holen koennen, muessen wir andere Wege finden. Das Sieben der feinen Materialien bringt manchen Schatz zum Vorschein."
                   }
                ]
             },
@@ -283,26 +283,26 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Hierfuer brauchst du Kohle oder Charcoal und Sticks."
+                     "description" : "Hierfuer brauchst du Kohle oder Holzkohle (Charcoal) und Stoecke (Sticks)."
                   }
                ]
             },
             {
                "id" : "quest316",
                "name" : "Das Glitzerding",
-               "description" : "Unnamed quest",
+               "description" : "Da wir jetzt Zugang zu vielen Materialien haben, ist es Zeit sich eine erste starke Ruestung zu bauen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Du weisst wie es geht. Fehlen jetzt nur noch genug Diamanten. Sicher kein Problem fuer dich."
                   }
                ]
             },
             {
                "id" : "quest018",
                "name" : "Der Metallkoch",
-               "description" : "Jetzt haben wir doch schon das eine oder andere Rohmetall (Ore) gefunden. Man kann viele davon in einen Ofen (Furnace) werfen und brennen, aber dieser Weg ist nicht effektiv. Eine Schmelze ist der bessere Weg.",
+               "description" : "Wir haben das eine oder andere Erz (Ore) gefunden. Man kann viele davon in einen Ofen werfen und zu Barren brennen, aber dieser Weg ist nicht sehr effektiv.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -314,36 +314,36 @@
             {
                "id" : "quest019",
                "name" : "Die Giesserei",
-               "description" : "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Form haben. Dafuer brauchen wir Negativformen (Casts).",
+               "description" : "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (Casts).",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die zwei wichtigsten Formen sind Barren und Zahnrad. Um den Cast herzustellen muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold drauflaufen lassen."
+                     "description" : "Die zwei wichtigsten Formen sind Barren und Zahnrad. Um diese zu erhalten muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold darueber giessen. Das Muster wird bei diesem Vorgang zustoert!"
                   }
                ]
             },
             {
                "id" : "quest020",
                "name" : "Das neue Zeitalter",
-               "description" : "Heureka, endlich ist es so weit. Mit den ersten Metallen stossen wir ein komplett neue Welt auf. Die totale Automatisierung ist bestimmt nicht mehr weit.",
+               "description" : "Heureka, endlich ist es so weit. Mit den ersten Metallen stossen wir eine komplett neue Welt auf. Die totale Automatisierung ist bestimmt nicht mehr weit.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die beim Sieben entstehenden kleineren Teilchen muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt."
+                     "description" : "Die beim Sieben entstehenden kleineren Erzteile muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt. Danach kann man es in der Schmelze zu Barren schmelzen."
                   }
                ]
             },
             {
                "id" : "quest314",
                "name" : "Rostlaube",
-               "description" : "Unnamed quest",
+               "description" : "Mit einer ordentlichen Eisenruestung werden wir zu einem gefaehrlichen Krieger und koennen unsere Festung effektiver verteidigen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Diese Ruestung kann auch aus erbeuteten Abfall (Drop) der Monster, die hier rumlaufen, erstellt werden. Ansonsten muss die Schmelze nur lange genug arbeiten, um das notwendige Eisen zu produzieren."
                   }
                ]
             },
@@ -362,12 +362,12 @@
             {
                "id" : "quest004",
                "name" : "Mehr ist immer besser",
-               "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese auch aufwerten.",
+               "description" : "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese aufwerten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Wenn du mit dem Storage Upgrade auf einen Storage Drawer rechtsklickst, dann wird dessen Kapazitaet erhoeht. Mit der leeren Hand oeffent man ein Konfigurationsmenue zu den Boxen, mit dem man die Upgrades verwalten kann."
+                     "description" : "Wenn du mit dem Storage Upgrade auf einen Storage Drawer rechtsklickst, dann wird dessen Kapazitaet erhoeht. Mit der leeren Hand oeffnet man ein Konfigurationsmenue zu den Boxen, mit dem man die Upgrades verwalten kann."
                   }
                ]
             },
@@ -379,19 +379,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, was braucht man mehr. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!\nEs gibt auch eine Schnelltaste, um den ersten Rucksack im Inventar zu oeffnen."
+                     "description" : "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, fehlt fast nichts zu unserem Glueck. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!\nEs gibt auch eine Schnelltaste, um den ersten Rucksack im Inventar zu oeffnen."
                   }
                ]
             },
             {
                "id" : "quest022",
-               "name" : "Wie man einen See versetzt",
-               "description" : "Da ist mir doch glatt ein kleiner Teich im Weg, aber wohin mit dem ganzen Wasser aus dem Teich.",
+               "name" : "Der Wassertank",
+               "description" : "Da ist mir doch glatt ein kleiner Teich im Weg, aber wohin mit dem ganzen Wasser.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Der Tank kann vergroessert werden. Mit einem Crescent Hammer kann man mit SHIFT und Rechtklick den Tank abbauen, ohne das die Fluessigkeiten verloren gehen. Wenn man den Tank auf eine Maschine setzt und dem Tank mit dem Crescent Hammer einen rechtsklick verpasst, so funktioniert er meistens als Fluessigkeitsquelle."
+                     "description" : "Ein Tank ist genau das Richtige um Fluessigkeiten zu transportieren. Man sollte wissen, das mit einem Crescent Hammer der Tank leicht abgebaut werden kann."
                   }
                ]
             },
@@ -408,19 +408,19 @@
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Mit dieser Axt reicht es den Baum unten zu faellen. Der Rest kommt von selbst."
+                     "description" : "Mit dieser Axt reicht es den untersten Block des Baumes zu faellen. Der Rest kommt von allein."
                   }
                ]
             },
             {
                "id" : "quest023",
                "name" : "Dummheit schafft Freiraum",
-               "description" : "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und auch noch selber sich um die Steine kuemmern ... das muss doch viel einfacher gehen.",
+               "description" : "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und sich auch noch selber um die Steine zu kuemmern ... das muss doch viel einfacher gehen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Der Hammer kann alles, was auch der Stone Hammer kann, braucht dafuer aber Energie. Das Sieb funktioniert genauso, wie das andere Sieb, nur das hier auch schon ein wenig Platz vorhanden ist, aber auch das braucht Energie."
+                     "description" : "Der Hammer kann alles, was auch der Handhammer kann, braucht dafuer aber Energie. Das Selbe gilt auch fuer das Sieb. Eine einfache Energieproduktion sollte aber kein Problem mehr sein."
                   }
                ]
             },
@@ -438,13 +438,13 @@
             },
             {
                "id" : "quest326",
-               "name" : "Traveller's Armor",
-               "description" : "Unnamed quest",
+               "name" : "Wandern ist des Muellers Lust",
+               "description" : "Eine starke Ruestung ist ja ganz nett. Aber eine Ausruestung mit nuetzlichen Eigenschaften ist viel besser. Man kann schneller laufen, hoeher springen, schneller schwimmen und weiter sehen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Wir sollten eine Kuhfarm haben oder die richtigen Mobs jagen. Genug Leder ist hier das Problem."
                   }
                ]
             }
