@@ -15,7 +15,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Durch das Abschlagen des Laubs von den Baeumen finden wir ab und zu einen Ast. Manchmal schneller, manchmal langsamer."
+                     "description" : "Durch das Abschlagen des Laubs von den Baeumen finden wir ab und zu einen Stock (stick). Manchmal schneller, manchmal langsamer."
                   }
                ]
             },
@@ -27,7 +27,7 @@
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Kiesbloecke (Gravel) fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen. (2 Flint ueber 2 Sticks)"
+                     "description" : "Zu unserem ersten Werkzeug brauchen wir auch noch eine gute Schneide. Sammle drei Kiesbloecke (gravel) fuer je einen Flint. Danach kannst du dir deine erste Axt anfertigen. (2 Flint ueber 2 Sticks)"
                   },
                   {
                      "id" : "task000",
@@ -92,7 +92,7 @@
             {
                "id" : "quest005",
                "name" : "Die Toolstation",
-               "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\nDafuer muessen wir uns zunaechst mal eine Werkbank (Crafting Table) bauen.",
+               "description" : "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\nDafuer muessen wir uns zunaechst mal eine Werkbank (crafting table) bauen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -172,7 +172,7 @@
                   {
                      "id" : "task002",
                      "name" : "Detection Task",
-                     "description" : "Eine Spitzhacke besteht aus Kopf, Stiel und Bindung. Fuer alle drei erhaelt man in der Stancil Table die Vorlagen. Im Part Builder stellt man mit Flint bzw. Holzbrettern (Planks) die Einzelteile her. Alles wird in der Tool Station zusammen gebaut."
+                     "description" : "Eine Spitzhacke besteht aus Kopf, Stiel und Bindung. Fuer alle drei erhaelt man in der Stancil Table die Vorlagen. Im Part Builder stellt man mit Flint bzw. Holzbrettern (plank) die Einzelteile her. Alles wird in der Tool Station zusammen gebaut."
                   }
                ]
             },
@@ -213,7 +213,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Dieses Teil ist so simple, aber auch so hilfreich. Man kann Stein, Erze, aber auch Essen kochen. Das darf natuerlich in keinem Haushalt fehlen. Der Ofen (Furnace) wird aus Stein (Clean Stone) und Steinziegeln (Brick) gebaut."
+                     "description" : "Dieses Teil ist so simple, aber auch so hilfreich. Man kann Stein, Erze, aber auch Essen kochen. Das darf natuerlich in keinem Haushalt fehlen. Der Ofen (Furnace) wird aus Stein (clean stone) und Steinziegeln (brick) gebaut."
                   }
                ]
             },
@@ -225,12 +225,12 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit dem Hammer kann man Feldstein (Cobblestone) zu Kies (Gravel) und weiter zu Sand und Staub (Dust) zerkleinern. "
+                     "description" : "Mit dem Hammer kann man Feldstein (cobblestone) zu Kies (gravel) zerkleinern ..."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "... und wenn man das mehrfach macht, dann entstehen Kies (Gravel) -> Sand -> Staub (Dust)"
+                     "description" : "... und wenn man das mehrfach macht, dann entstehen Kies -> Sand -> Staub (dust)"
                   }
                ]
             },
@@ -247,7 +247,7 @@
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Wenn das Barrel mit Wasser gefuellt ist, kann man Staub (Dust) darin einweichen. Heraus kommt nach kurzer Zeit Lehm (Clay). Aus dem Lehm stellt man den Eimer her. Dieser muss nur noch im Ofen gebrannt werden."
+                     "description" : "Wenn das Barrel mit Wasser gefuellt ist, kann man Staub darin einweichen. Heraus kommt nach kurzer Zeit Lehm (clay). Aus dem Lehm stellt man den Eimer her. Dieser muss nur noch im Ofen gebrannt werden."
                   }
                ]
             },
@@ -259,7 +259,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Mit einer simplem Fackel und diesem Schmelztiegel (Crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingestzt werden."
+                     "description" : "Mit einer simplem Fackel und diesem Schmelztiegel (crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingestzt werden."
                   }
                ]
             },
@@ -283,7 +283,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Hierfuer brauchst du Kohle oder Holzkohle (Charcoal) und Stoecke (Sticks)."
+                     "description" : "Hierfuer brauchst du Kohle (coal) oder Holzkohle (charcoal) und Stoecke."
                   }
                ]
             },
@@ -302,7 +302,7 @@
             {
                "id" : "quest018",
                "name" : "Der Metallkoch",
-               "description" : "Wir haben das eine oder andere Erz (Ore) gefunden. Man kann viele davon in einen Ofen werfen und zu Barren brennen, aber dieser Weg ist nicht sehr effektiv.",
+               "description" : "Wir haben das eine oder andere Erz (ore) gefunden. Man kann viele davon in einen Ofen werfen und zu Barren brennen, aber dieser Weg ist nicht sehr effektiv.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -314,7 +314,7 @@
             {
                "id" : "quest019",
                "name" : "Die Giesserei",
-               "description" : "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (Casts).",
+               "description" : "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -331,7 +331,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die beim Sieben entstehenden kleineren Erzteile muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt. Danach kann man es in der Schmelze zu Barren schmelzen."
+                     "description" : "Die beim Sieben entstehenden kleineren Erzteile muss man zusammenfassen, indem man 4 davon im Quadrat ins Crafting Grid legt. Danach kann man es in der Schmelze zu Barren (ingot) schmelzen."
                   }
                ]
             },
@@ -343,7 +343,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Diese Ruestung kann auch aus erbeuteten Abfall (Drop) der Monster, die hier rumlaufen, erstellt werden. Ansonsten muss die Schmelze nur lange genug arbeiten, um das notwendige Eisen zu produzieren."
+                     "description" : "Diese Ruestung kann auch aus erbeuteten Abfall (drop) der Monster, die hier rumlaufen, erstellt werden. Ansonsten muss die Schmelze nur lange genug arbeiten, um das notwendige Eisen zu produzieren."
                   }
                ]
             },
@@ -355,7 +355,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einem Feuerzeug (Flint and Steel) an. Nach einiger Zeit ist der Holzstapel in Holzkohle (Charcoal) umgewandelt."
+                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einem Feuerzeug (flint and steel) an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt."
                   }
                ]
             },
@@ -1127,24 +1127,24 @@
             {
                "id" : "quest071",
                "name" : "Der Staub der Sterne",
-               "description" : "Nachdem wir jetzt so viel Material haben, haben wir ein Problem. Wohin damit? Aber dafuer gibt es etwas ganz praktisches. Aber bis das funktioniert, muessen wir noch so einiges tun.",
+               "description" : "Nachdem wir jetzt mehr und mehr Material bekommen, haben wir ein Problem. Wohin damit? Dafuer gibt es eine sinnvolle Loesung. Aber bis das funktioniert, muessen wir noch so einiges tun.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Um an Fluixkristalle zu kommen, muss man geladenen Certusquartz, Netherquartz und Redstone im Verhaeltniss 1:1:1 in Wasser werfen. Diesen kann man danach zerkleinern um an Fluix Staub (Dust) zu kommen."
+                     "description" : "Um an Fluixkristalle zu bekommen, muss man geladenen Certusquartz, Netherquartz und Redstone im Verhaeltnis 1:1:1 in Wasser werfen. Diesen kann man danach zerkleinern, um an Fluix Staub zu kommen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "Aus dem Staub \/ Dust kann man auch noch spezielles Glass herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist."
+                     "description" : "Aus dem Staub kann man spezielles Glass herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist."
                   }
                ]
             },
             {
                "id" : "quest072",
                "name" : "Der geladene Kristall",
-               "description" : "Fuer manche Rezepte braucht man geladenen Certus Quartz. Um diesen zu produzieren, braucht man eine kleine Maschine. ",
+               "description" : "Fuer manche Rezepte braucht man geladenen Certus Quartz. Dieser ist sehr schwer zu finden. Mit einem Ladegeraet (charger) kann man normalen Certus Quartz aufladen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1161,19 +1161,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Die ME Kabel gibt es in mehreren Arten. Das einfachste ist das Glass Cable, das man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen."
+                     "description" : "Die ME Kabel (cable) gibt es in verschienen Arten. Das einfachste ist das Glas Kabel, welches man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen."
                   }
                ]
             },
             {
                "id" : "quest073",
                "name" : "Die Wachstumsblasen",
-               "description" : "Da wir nicht im Ueberfluss die Quartz Arten zur Verfuegung haben, muessen wir mal schauen, ob man diese nicht auch noch zuechten kann.",
+               "description" : "Das Zuechten der Kristalle im naechsten Schritt nimmt sehr, sehr viel Zeit in Anspruch. Da wir aber schlau sind, bauen wir uns gleich das Werkzeug um diesen Vorgang zu beschleunigen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Der Crystal Growth Accelerator beschleunigt den Vorgang, aus Kristall Seeds Kristalle zu erzeugen. Dazu muss dieser neben dem Wasser plaziert werden, in den die Seeds geworfen werden. Mehr hilft hier tatsaechlich mehr, aber die brauchen auch maechtig viel Strom."
+                     "description" : "Der Crystal Growth Accelerator macht genau das geforderte, beschleunigtes Kristallwachstum. Mehr hilft hier tatsaechlich mehr, braucht aber auch maechtig viel Strom."
                   }
                ]
             },
@@ -1185,36 +1185,36 @@
                   {
                      "id" : "task003",
                      "name" : "Crafting Task",
-                     "description" : "Diese Seeds muss man einfach nur in Wasser werfen damit sie wachsen. Um das Wachstum zu beschleunigen, sollte man den Crystal Growth Accelerator verwenden."
+                     "description" : "Diese Samen (seeds) muss man einfach nur in Wasser werfen damit sie wachsen. Um das Wachstum zu beschleunigen, sollte man den Crystal Growth Accelerator verwenden."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mit etwas Gedult erhaelt man am Ende formschoene Kristalle."
                   }
                ]
             },
             {
                "id" : "quest075",
                "name" : "Der Graveur",
-               "description" : "Fuer die komplizierteren Maschinen brauchen wir spezielle Prozessoren.",
+               "description" : "Viele folgenden Maschinen und Bauteile basieren auf  Prozessoren. Es ist deshalb eine gute Idee so zeitig als moeglich damit zu beginnen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit dieser Maschine und den passenden Formen koennen wir dann Prozessoren und die dafuer notwendigen Komponenten herstellen."
+                     "description" : "Mit dem Gravierer (inscriber) und den passenden Formen koennen wir Prozessoren und die dafuer notwendigen Komponenten herstellen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Entgegen dem ueblichen Weg, finden von speziellen Meteoren, muessen diese Teile im Lasertisch von Buildcraft hergestellt werden."
                   }
                ]
             },
             {
                "id" : "quest076",
                "name" : "Der Microchip",
-               "description" : "Jetzt wird es Zeit, den ersten Prozessor zu bauen",
+               "description" : "Kommen wir zum ersten Prozessor. Dieser ist einfach aufgebaut und fuer den Anfang vollkommen ausreichend.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1231,19 +1231,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Um Materie in Bytes und umgekehrt zu wandeln, gibt es zwei Standard Bauteile, die man dann in den einzelnen Komponenten verbauen muss, je nach Verwendungszweck."
+                     "description" : "Um Materie in Bytes und umgekehrt zu wandeln, gibt es diese zwei Standard Bauteile, die man in den einzelnen Komponenten verbauen muss."
                   }
                ]
             },
             {
-               "id" : "quest078",
-               "name" : "Die Umlagerung",
-               "description" : "Mit der Hand das Material rein oder wieder raus zu bekommen ist langwierig und langweilig. ",
+               "id" : "quest082",
+               "name" : "Klein aber fein",
+               "description" : "Ein paar Maschinen stehen in der Naehe unseres ME Netzwerkes. Kann man die vielleicht daran anschliessen?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit dem IO Port kann man zwischen dem ME Netzwerk und den Festplatten \/ Storage Cells Gegenstaende transferieren."
+                     "description" : "Mit dem Speicher Bus (storage bus) sieht man den Inhalt der angeschlossenen Kisten oder Maschinen. Der Export bzw. Import Bus dient zum heraus- bzw. hereinleiten. Das ME-Interface dient komplexeren Aufgaben, wie automatischer Produktion und Pseudoinventar."
                   }
                ]
             },
@@ -1255,7 +1255,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Das ist die Zukunft moderner Lagerhaltung."
+                     "description" : "Das ist die Zukunft moderner Lagerhaltung. Alles irgendwo gespeichert, keiner weiss wo, aber trotzdem alles im Ueberblick."
                   }
                ]
             },
@@ -1267,43 +1267,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Das ME Drive hat verschiedene Seiten. An einer Seite kann man die Festplatte \/ Storage Cell reinstecken, an der anderen Seite kann man dann sehen, was auf der Festplatte liegt, vorrausgesetzt das ME Drive hat Strom."
-                  }
-               ]
-            },
-            {
-               "id" : "quest082",
-               "name" : "Klein aber fein",
-               "description" : "Ein paar Maschinen stehen ja um unser ME Netzwerk schon herum. Kann man die vielleicht daran anschliessen?",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Mit dem Storage Bus sieht man im ME Netzwerk, welche Gegenstaende in der angeschlossenen Kiste oder Maschine sind. Der Export Bus dient zum Exportieren von Gegenstaenden AUS dem Netzwerk heraus in Kisten oder Maschinen, der Import Bus Importiert Gegenstaende IN das ME Netzwerk"
+                     "description" : "Das ME Drive ist ein einfacher Speicher, der nur eine Festplatte (storage cell) benutzen kann. Von der Seite erreicht amn die Festplatte selbst. Von Oben sieht man den Inhalt derselben, vorrausgesetzt das ME Drive hat Strom."
                   }
                ]
             },
             {
                "id" : "quest083",
                "name" : "Der Microprocessor",
-               "description" : "Jetzt sollten wir gleich noch schauen, ob wir mehr speichern koennen",
+               "description" : "Wir errichen das naechste Level der Prozessorherstellung. Damit erweitert sich der Pool des Maschienenparks.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Zum Speichern der Informationen gibt es noch andere, verbesserte Geraete. Da diese aber komplizierter sind, braucht es hier einen verbesserten Prozessor."
-                  }
-               ]
-            },
-            {
-               "id" : "quest084",
-               "name" : "Der grosse Speicher",
-               "description" : "Pro Festplatte eine ME Chest, da ist ja trotzdem ganz viel Platz weg. Dann bringt das ja nicht so viel, oder?",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Storage Cells koennen auch in einem Plattenschrank \/ ME Drive verwendet werden. Hier passen dann 10 Platten \/ Storage Cells rein. "
+                     "description" : "Die Form fuer diesen Prozessor ist um einiges aufwendiger. Ansonsten ist die Herstellung analog zur einfachen Form."
                   }
                ]
             },
@@ -1315,19 +1291,31 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Fuer die Verbesserung der einzelnen Komponenten eines Applied Energistics Netzwerkes gibt es Karten. Fuer die Karten braucht man eine dieser beiden Komponenten."
+                     "description" : "Ja man kann. Es gibt Karten, mit denen einzelne Eigenschaften beeinflusst werden koennen. Fuer diese Karten braucht man eine dieser beiden Komponenten."
+                  }
+               ]
+            },
+            {
+               "id" : "quest088",
+               "name" : "Die helfende Hand",
+               "description" : "Ein Profi wird nach Perfektion streben. Das heisst auch wiederkehrende Arbeitsschritte zu automatisieren. Dazu braucht Sensoren und Dedektoren.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der ME Level Emitter misst die Menge eines Gegenstandes im Netzwerk und gib bei Ueber- oder Unterschreitung ein Redstonesignal ab."
                   }
                ]
             },
             {
                "id" : "quest086",
                "name" : "Der Formatierer",
-               "description" : "Irgendwie sieht es auf den Platten \/ Storage Cells aus wie Kraut und Rueben. Kann man das darauf nicht etwas \"organisierter\" gestalten?",
+               "description" : "Irgendwie sieht es auf den Festplatten aus wie Kraut und Rueben. Kann man das darauf nicht etwas \"organisierter\" gestalten?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit dieser Cell Workbench kann man sehr genau festlegen, welche Gegenstaende \/ Items auf die Platte sollen."
+                     "description" : "Mit der Cell Workbench kann man sehr genau festlegen, welche Gegenstaende auf die Platte sollen und welche nicht."
                   }
                ]
             },
@@ -1339,67 +1327,43 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Das Crafting Terminal verwendet die Gegenstaende aus dem ME Netzwerk oder aus deinem Inventar. Rezepte kann man auch per Klick auf das \"?\" in NEI uebernehmen."
+                     "description" : "Das Crafting Terminal beitet uns die Moeglichkeit direkt im ME Netzwerk Gegenstaende herzustellen. Rezepte kann man auch aus NEI uebernehmen."
                   }
                ]
             },
             {
-               "id" : "quest088",
-               "name" : "Die helfende Hand",
-               "description" : "Unnamed quest",
+               "id" : "quest084",
+               "name" : "Der grosse Speicher",
+               "description" : "Pro Festplatte eine ME Chest, ist nicht sehr Platzsparend. In modernen Rechenzentren benutzt man Speicherschraenke, in die mehrere Festplatten rein passen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "In einen Plattenschrank (ME drive) passen bis zu 10 Festplatten verschiedender Groesse rein."
+                  }
+               ]
+            },
+            {
+               "id" : "quest078",
+               "name" : "Die Umlagerung",
+               "description" : "Grosse Mengen mit der Hand sortieren ist langwierig und langweilig. Eine Maschine, die Speicherzellen schnell fuellen und leeren kann, waere super.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit dem IO Port kann man zwischen dem ME Netzwerk und den Festplatten (storage cells) Gegenstaende transferieren."
                   }
                ]
             },
             {
                "id" : "quest089",
                "name" : "Der Microcomputer",
-               "description" : "Immer komplizierter werden die Geraete, die wir anschliessen koennen. Nun brauchen wir wohl noch bessere Prozessoren",
+               "description" : "Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschienen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Mit diesen Prozessoren werden nun die letzten Maschinen moeglich, die man an ein ME Netzwerk anschliessen kann."
-                  }
-               ]
-            },
-            {
-               "id" : "quest093",
-               "name" : "Der Administrator",
-               "description" : "Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Mit diesen beiden Komponenten sehn wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen."
-                  }
-               ]
-            },
-            {
-               "id" : "quest091",
-               "name" : "Der Zauberer",
-               "description" : "Jetzt geht schon so viel mit diesem Zauberkasten. Bin ja mal gespannt, was noch so alles gehen soll.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "In diesem Geraet werden Gegenstaende automatisch hergestellt. Dazu muss man ein ME Interface anschliessen, in dass man die Rezepte reinlegt. Jede Seite kann ein eigenes ME Interface bekommen. Ein ME Interface kann auch mehrere Crafting Chambers verwenden."
-                  }
-               ]
-            },
-            {
-               "id" : "quest092",
-               "name" : "Der Grossrechner",
-               "description" : "Jetzt wird es langsam umfangreich, ok, das ist es ja bereits. Aber mit jeder Ausbaustufe kann das Monster hier mehr.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Jeder Crafting Prozessor hat eine maximale Kapazitaet fuer die Gegenstaende, die man fuer den Bauvorgang braucht. Der Co Prozessor kann zusaetzliche Assembler mit Material versorgen, damit z.B. zwei Assembler gleichzeitig einen Gegenstand produzieren."
+                     "description" : "Die Form fuer diesen Prozessor ist nicht sehr kompliziert, allerdings schwer zu erreichen. Ansonsten ist die Herstellung analog zur einfachen Form."
                   }
                ]
             },
@@ -1411,19 +1375,55 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Um Sky Stone zu erhalten musst du nur ein Barrel mit Lava fullen und mit einem Sky Stone Dust darauf rechts klicken. Ist doch ganz einfach."
+                     "description" : "Um Sky Stone zu erhalten musst du nur ein Barrel mit Lava fuellen und mit einem Sky Stone Dust darauf rechts klicken. Ist doch ganz einfach."
                   }
                ]
             },
             {
                "id" : "quest090",
                "name" : "Der Meister",
-               "description" : "Jetzt haben wir acht Maschinen. Aber da stehen doch noch so viele rum. ",
+               "description" : "Aktuell koennen wir nur acht Maschinen an eine Leitung anschliessen. Fuer groessere Konstruktionen brauchen wir eine zentrale Steuereinheit.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "An jeder Seite des ME Controllers koennen bis zu 32 Geraete angeschlossen werden, voraus gesetzt, es ist das richtige Kabel."
+                     "description" : "An jeder Seite des ME Controllers koennen bis zu 32 Geraete angeschlossen werden, voraus gesetzt, du benutzt das richtige Kabel."
+                  }
+               ]
+            },
+            {
+               "id" : "quest091",
+               "name" : "Der Zauberer",
+               "description" : "Wie heisst es so schoen? Hinreichend weit fortschrittliche Technologie ist von Zauberei nicht zu unterscheiden. Und wir sind jetzt schon so weit gekommen!",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "In diesem Geraet werden Gegenstaende automatisch hergestellt. Dazu muss es mit Energie versorgt und an ein ME Interface, welches die Rezepte aufnimmt, angeschlossen werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest092",
+               "name" : "Der Grossrechner",
+               "description" : "Gehe wir den letzten Schritt vom Taschenrechner zum Grossrechner. Mit jeder Ausbaustufe kann das Monster mehr.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Jeder Crafting Prozessor hat eine maximale Kapazitaet an Arbeitschritten, die er ausfuehren kann. Der Coprozessor kann die Ausfuehrung parallelisieren und damit beschleunigen. Im Monitor sieht man den aktuellen Arbeitschritt."
+                  }
+               ]
+            },
+            {
+               "id" : "quest093",
+               "name" : "Der Administrator",
+               "description" : "Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit diesen beiden Komponenten sehen wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen."
                   }
                ]
             }

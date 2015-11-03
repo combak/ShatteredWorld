@@ -493,7 +493,7 @@
                "x" : 242,
                "y" : 70,
                "big" : false,
-               "icon" : "ForestDay:wood_base size(1) dmg(0)",
+               "icon" : "customnpcs:npcCampfire size(1) dmg(0)",
                "requirements" : [
                   "quest010"
                ],
@@ -3507,7 +3507,8 @@
                   }
                ],
                "reward" : [
-                  "appliedenergistics2:item.ItemPaintBall size(32) dmg(0)"
+                  "appliedenergistics2:item.ItemPaintBall size(32) dmg(0)",
+                  "Thaumcraft:ItemLootBag size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -3806,13 +3807,13 @@
                ]
             },
             {
-               "id" : "quest078",
-               "x" : 94,
-               "y" : 175,
+               "id" : "quest082",
+               "x" : 110,
+               "y" : 20,
                "big" : false,
-               "icon" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
+               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
                "requirements" : [
-                  "quest084"
+                  "quest077"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3825,7 +3826,22 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(260)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(220)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "appliedenergistics2:tile.BlockInterface size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -3833,13 +3849,9 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "appliedenergistics2:tile.BlockInterface size(2) dmg(0)"
                ],
                "reputations" : [
-                  {
-                     "reputation" : "rep002",
-                     "value" : 1
-                  }
                ]
             },
             {
@@ -3914,54 +3926,6 @@
                ]
             },
             {
-               "id" : "quest082",
-               "x" : 110,
-               "y" : 20,
-               "big" : false,
-               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
-               "requirements" : [
-                  "quest077"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(260)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(220)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "appliedenergistics2:tile.BlockInterface size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "appliedenergistics2:tile.BlockInterface size(2) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest083",
                "x" : 126,
                "y" : 125,
@@ -3990,39 +3954,6 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemBasicStorageCell.1k size(3) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest084",
-               "x" : 110,
-               "y" : 150,
-               "big" : false,
-               "icon" : "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
-               "requirements" : [
-                  "quest083"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(27)"
                ],
                "reputations" : [
                ]
@@ -4061,6 +3992,39 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(30)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest088",
+               "x" : 142,
+               "y" : 100,
+               "big" : false,
+               "icon" : "minecraft:lever size(1) dmg(0)",
+               "requirements" : [
+                  "quest083"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(280)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ProjRed|Integration:projectred.integration.gate size(2) dmg(26)"
                ],
                "reputations" : [
                ]
@@ -4133,13 +4097,46 @@
                ]
             },
             {
-               "id" : "quest088",
-               "x" : 142,
-               "y" : 100,
+               "id" : "quest084",
+               "x" : 110,
+               "y" : 150,
                "big" : false,
-               "icon" : "minecraft:lever size(1) dmg(0)",
+               "icon" : "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
                "requirements" : [
                   "quest083"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(27)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest078",
+               "x" : 94,
+               "y" : 175,
+               "big" : false,
+               "icon" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
+               "requirements" : [
+                  "quest084"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -4152,7 +4149,7 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(280)",
+                           "item" : "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -4160,9 +4157,13 @@
                   }
                ],
                "reward" : [
-                  "ProjRed|Integration:projectred.integration.gate size(2) dmg(26)"
+                  "appliedenergistics2:item.ItemBasicStorageCell.4k size(1) dmg(0)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -4199,13 +4200,46 @@
                ]
             },
             {
-               "id" : "quest093",
-               "x" : 262,
-               "y" : 125,
+               "id" : "quest290",
+               "x" : 214,
+               "y" : 100,
                "big" : false,
-               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
+               "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(45)",
                "requirements" : [
                   "quest089"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "appliedenergistics2:tile.BlockSkyStone size(1) dmg(0)",
+                           "required" : 4,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(76)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest090",
+               "x" : 198,
+               "y" : 75,
+               "big" : false,
+               "icon" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
+               "requirements" : [
+                  "quest290"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -4218,12 +4252,7 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(340)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
+                           "item" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -4231,8 +4260,7 @@
                   }
                ],
                "reward" : [
-                  "appliedenergistics2:item.ItemMultiMaterial size(8) dmg(52)",
-                  "appliedenergistics2:item.ToolPortableCell size(1) dmg(0)"
+                  "appliedenergistics2:item.ItemMultiPart size(2) dmg(460)"
                ],
                "reputations" : [
                ]
@@ -4323,46 +4351,13 @@
                ]
             },
             {
-               "id" : "quest290",
-               "x" : 214,
-               "y" : 100,
+               "id" : "quest093",
+               "x" : 262,
+               "y" : 125,
                "big" : false,
-               "icon" : "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(45)",
+               "icon" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
                "requirements" : [
                   "quest089"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "appliedenergistics2:tile.BlockSkyStone size(1) dmg(0)",
-                           "required" : 4,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "appliedenergistics2:item.ItemMultiPart size(4) dmg(76)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest090",
-               "x" : 198,
-               "y" : 75,
-               "big" : false,
-               "icon" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
-               "requirements" : [
-                  "quest290"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -4375,7 +4370,12 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "appliedenergistics2:tile.BlockController size(1) dmg(0)",
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(340)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -4383,7 +4383,8 @@
                   }
                ],
                "reward" : [
-                  "appliedenergistics2:item.ItemMultiPart size(2) dmg(460)"
+                  "appliedenergistics2:item.ItemMultiMaterial size(8) dmg(52)",
+                  "appliedenergistics2:item.ToolPortableCell size(1) dmg(0)"
                ],
                "reputations" : [
                ]
