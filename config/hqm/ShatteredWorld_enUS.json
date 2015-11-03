@@ -1236,7 +1236,7 @@
                ]
             },
             {
-               "id" : "quest078",
+               "id" : "quest082",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1272,18 +1272,6 @@
                ]
             },
             {
-               "id" : "quest082",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_CRAFTING",
-                     "description" : "A task where the player has to craft specific items."
-                  }
-               ]
-            },
-            {
                "id" : "quest083",
                "name" : "Unnamed Quest",
                "description" : "No description",
@@ -1296,7 +1284,7 @@
                ]
             },
             {
-               "id" : "quest084",
+               "id" : "quest085",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1308,7 +1296,7 @@
                ]
             },
             {
-               "id" : "quest085",
+               "id" : "quest088",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1344,7 +1332,19 @@
                ]
             },
             {
-               "id" : "quest088",
+               "id" : "quest084",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest078",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1368,7 +1368,19 @@
                ]
             },
             {
-               "id" : "quest093",
+               "id" : "quest290",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_DETECT",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest090",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1404,19 +1416,7 @@
                ]
             },
             {
-               "id" : "quest290",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest090",
+               "id" : "quest093",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [

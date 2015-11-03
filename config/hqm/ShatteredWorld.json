@@ -4514,6 +4514,7 @@
                   }
                ],
                "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)",
                   "minecraft:leather size(8) dmg(0)"
                ],
                "reputations" : [
@@ -4618,7 +4619,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:netherrack size(16) dmg(0)"
+                  "arsmagica2:blueOrchid size(8) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -4944,7 +4945,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "arsmagica2:itemOre size(1) dmg(7)"
                ],
                "reputations" : [
                   {
@@ -5054,8 +5055,8 @@
             },
             {
                "id" : "quest108",
-               "x" : 58,
-               "y" : 75,
+               "x" : 62,
+               "y" : 80,
                "big" : false,
                "icon" : "arsmagica2:essenceRefiner size(1) dmg(0)",
                "requirements" : [
@@ -5088,7 +5089,7 @@
             {
                "id" : "quest110",
                "x" : 42,
-               "y" : 95,
+               "y" : 105,
                "big" : false,
                "icon" : "arsmagica2:battlemageHood size(1) dmg(0)",
                "requirements" : [
@@ -5128,8 +5129,8 @@
                   }
                ],
                "reward" : [
-                  "DraconicEvolution:draconiumDust size(8) dmg(0)",
-                  "Thaumcraft:blockAiry size(1) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(2)",
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
                   {

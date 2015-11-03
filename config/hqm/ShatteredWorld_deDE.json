@@ -1442,14 +1442,14 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Plaziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die Melodie siehst, bist du fast am Ziel."
+                     "description" : "Plaziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die fliegenden Noten siehst, bist du fast am Ziel."
                   }
                ]
             },
             {
                "id" : "quest107",
                "name" : "Die magischen Blumen",
-               "description" : "Was so ein richtiger Hexenmweister werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
+               "description" : "Was so ein richtiger Magier werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1478,7 +1478,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Der Occulus ist der wichtigste Block des Hexenmeisters. Hier kann man Erfahrungspunkte in neue Faehikgkeiten umwandeln, aus denen man dann maechtige Zauberspueche formen kann. Waehle deine Punkte mit bedacht!"
+                     "description" : "Der Occulus ist der wichtigste Block des Magiers. Hier kann man Erfahrungspunkte in neue Faehigkeiten umwandeln, aus denen man dann maechtige Zaubersprueche formen kann. Waehle deine Punkte mit bedacht!"
                   }
                ]
             },
@@ -1497,7 +1497,7 @@
             {
                "id" : "quest100",
                "name" : "Der Basteltisch",
-               "description" : "Wie ein Dichter muessen alle Zaubersprueche geformt werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magischem Papyrus gebannt. Hierbei zeigt sich der ware Meister.",
+               "description" : "Wie ein Gedicht muessen alle Zaubersprueche aufgeschrieben werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magisches Papyrus gebannt. Hierbei zeigt sich der ware Meister.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1514,31 +1514,31 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Dieser simple Buchstand kann einzeln butzt werden, wird aber auch fuer Crafting Altar gebraucht."
+                     "description" : "Dieser simple Buchstand kann einzeln butzt werden. Er wird aber auch fuer den Crafting Altar gebraucht."
                   }
                ]
             },
             {
                "id" : "quest102",
                "name" : "Der Platz der Wunder",
-               "description" : "Nur zu Wissen wie Zaubersprueche funktionieren genuegt natuerlich nicht. Man moechte sie auch anwenden. Dazu muss man sich diese erst zusammen bauen. Der Hexenmeister nutzt dazu ein Crafting Altar.",
+               "description" : "Nur zu Wissen wie Zaubersprueche funktionieren genuegt natuerlich nicht. Man moechte sie auch anwenden. Dazu muss man sich diese erst zusammen bauen. Der Magier nutzt dazu ein Crafting Altar.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Die genaue Form dieses Altars ist in deinem Compendium beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchts du ihn spaeter nicht aufzuruesten."
+                     "description" : "Die genaue Form dieses Altars ist in deinem Zauberbuch beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchts du ihn spaeter nicht aufzuruesten."
                   }
                ]
             },
             {
                "id" : "quest105",
                "name" : "Die magischen Tools",
-               "description" : "Die Basis fuer bessere Zauber sind die Essenzen. Es ist wichtig Werkzeuge zu besitzen, mit denen man diese sehen und auf verschiedene magischen Bloecke umzuleiten.",
+               "description" : "Die Basis fuer bessere Zauber sind die Essenzen. Es ist wichtig Werkzeuge zu besitzen, mit denen man diese sehen und auf verschiedene magischen Bloecke umleiten kann.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task Chalk",
-                     "description" : "Mit der magischen Kreiden kann man den Ausstoss von Essenzen erhoehen."
+                     "description" : "Mit der magischen Kreiden kann schone Runen auf den Boden zeichnen und den Ausstoss von Essenzen erhoehen."
                   },
                   {
                      "id" : "task001",
@@ -1555,7 +1555,7 @@
             {
                "id" : "quest124",
                "name" : "Fang die flackernden Dinger",
-               "description" : "Flicker sind schon ulkige Dinger. Ich glaube in einem anderen Mod machen diese Sigils fast das gleiche. Mit Flickers kann man verschieden Flaecheneffekte erreichen, um z.B. Monster fern zu halten oder anzulocken, Holz faellen, Felder zu ernten oder auch Biome zu aendern.",
+               "description" : "Flicker sind schon ulkige Dinger.Mit ihnen kann man verschieden Flaecheneffekte erreichen, um z.B. Monster fern zu halten oder anzulocken, Holz faellen, Felder zu ernten oder auch Biome zu aendern.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1584,12 +1584,12 @@
             {
                "id" : "quest112",
                "name" : "Der mysterioese Meteor",
-               "description" : "Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Das Gestein, welches diese Meteore mit sich feuhren, habe besonder magische Eigenschaften. Halte staendig ausschau nach diesen Dingern.",
+               "description" : "Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Die Gesteine, welche diese Meteore mit sich feuhren, haben besonder magische Eigenschaften. Halte staendig Ausschau nach diesen Dingern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die Wahrscheinlichkeit fuer Meteore ist sehr gering. Trotzdem werden einige davon gebraucht."
+                     "description" : "Die Wahrscheinlichkeit fuer Meteore ist sehr gering. Trotzdem werden einige davon gebraucht. Ich habe aber gehoert das es ein Crossmod Ritual geben soll, mit dem man sich diese Dinger herstellen lassen."
                   }
                ]
             },
@@ -1601,7 +1601,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Ein normaler Obelisk wird mit einem speziellen Kreidemuster und verschiedenen Gegenstaenden aufgewertet. Die genaue Beschreibung findest du in deinem Compendium"
+                     "description" : "Ein normaler Obelisk wird mit einem speziellen Kreidemuster und verschiedenen Gegenstaenden aufgewertet. Die genaue Beschreibung findest du in deinem Zauberbuch."
                   }
                ]
             },
@@ -1613,19 +1613,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Auch hierfeur ist wieder ein Kreidemuster und verschiedene Gegenstaende noetig. Wie immer alles im Compendium beschrieben."
+                     "description" : "Auch hierfeur sind wieder ein Kreidemuster und verschiedene Gegenstaende noetig. Wie immer alles im Zauberbuch beschrieben."
                   }
                ]
             },
             {
                "id" : "quest111",
                "name" : "Die etwas andere Verzauberung",
-               "description" : "Ein guter Zauberer ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuehgt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
+               "description" : "Ein guter Magier ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuegt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden."
+                     "description" : "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden. Diese sind Endgueltig und koennen nicht erweitert werden."
                   }
                ]
             },
@@ -1656,7 +1656,7 @@
             {
                "id" : "quest108",
                "name" : "Die magischen Essencen",
-               "description" : "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Dazu braucht man viel von den rohen Essenzen und natuelich disen netten Veredler (Refiner).",
+               "description" : "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Man braucht viel rohe Essenzen und natuelich diesen netten Veredler (Refiner).",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1685,7 +1685,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Du solltest einen einfachen Zauber aus nur einem Zauberteilbaum bauen. Diesen kannst du dann so oft anwenden wie moeglich. Mit jeder Benutzung eines Zauber erhoehst du deine Erfahrung und kannst weider Zauber frei schalten."
+                     "description" : "Du solltest einen einfachen Zauber aus nur einem Zauberteilbaum erstellen. Diesen kannst du dann so oft anwenden wie moeglich. Mit jeder Benutzung eines Zauber erhoehst du deine Erfahrung und kannst weitere Zauber frei schalten."
                   }
                ]
             },
@@ -1715,7 +1715,7 @@
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "Dieser Boss zerstoert seine Umgebung, wenn er erscheint. Ihr sollten somit ein abgelenes Plaetzchen aussuchen.",
+                     "description" : "Dieser Boss zerstoert einen kleinen Bereich seiner Umgebung, wenn er erscheint. Ihr sollten somit ein abgelegenes Plaetzchen suchen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1787,7 +1787,7 @@
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "Nachdem du 5 Draden getoetest hast, erscheint dieser Boss. Er kann viel einstecken und teilt auch gut aus.",
+                     "description" : "Nachdem du 5 Draden getoetest hast, erscheint dieser Boss. Er kann viel einstecken, teilt aber auch gut aus.",
                      "mobs" : [
                         {
                            "id" : "mob000",
@@ -1841,7 +1841,7 @@
                   {
                      "id" : "task000",
                      "name" : "Killing Task",
-                     "description" : "Naja, wenn du schon gegen Blitze gekampft hast, wird dir der Kampf gegen Feuer doch genauso leicht fallen.",
+                     "description" : "Naja, wenn du schon gegen Blitze gekaempft hast, wird dir der Kampf gegen Feuer doch genauso leicht fallen.",
                      "mobs" : [
                         {
                            "id" : "mob000",
