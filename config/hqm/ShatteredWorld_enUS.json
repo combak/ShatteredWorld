@@ -37,6 +37,23 @@
                ]
             },
             {
+               "id" : "quest001",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "TASK_ITEMS_DETECT",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
                "id" : "quest002",
                "name" : "Unnamed Quest",
                "description" : "No description",
@@ -49,17 +66,12 @@
                ]
             },
             {
-               "id" : "quest001",
+               "id" : "quest296",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
                   {
                      "id" : "task000",
-                     "name" : "TASK_ITEMS_CRAFTING",
-                     "description" : "A task where the player has to craft specific items."
-                  },
-                  {
-                     "id" : "task001",
                      "name" : "TASK_ITEMS_DETECT",
                      "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
                   }
@@ -337,18 +349,6 @@
             },
             {
                "id" : "quest314",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest296",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1889,30 +1889,6 @@
                ]
             },
             {
-               "id" : "quest127",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest128",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
                "id" : "quest129",
                "name" : "Unnamed Quest",
                "description" : "No description",
@@ -1924,6 +1900,18 @@
                   },
                   {
                      "id" : "task001",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest131",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
                      "name" : "TASK_ITEMS_CRAFTING",
                      "description" : "A task where the player has to craft specific items."
                   }
@@ -1942,7 +1930,31 @@
                ]
             },
             {
-               "id" : "quest131",
+               "id" : "quest132",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_DETECT",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest148",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_DETECT",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest340",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1954,7 +1966,7 @@
                ]
             },
             {
-               "id" : "quest132",
+               "id" : "quest147",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -1962,6 +1974,18 @@
                      "id" : "task000",
                      "name" : "TASK_ITEMS_DETECT",
                      "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest322",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             },
@@ -2026,7 +2050,7 @@
                ]
             },
             {
-               "id" : "quest140",
+               "id" : "quest141",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2038,7 +2062,7 @@
                ]
             },
             {
-               "id" : "quest141",
+               "id" : "quest140",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2110,7 +2134,7 @@
                ]
             },
             {
-               "id" : "quest147",
+               "id" : "quest127",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2122,7 +2146,7 @@
                ]
             },
             {
-               "id" : "quest148",
+               "id" : "quest128",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2130,47 +2154,11 @@
                      "id" : "task000",
                      "name" : "TASK_ITEMS_DETECT",
                      "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest322",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_CRAFTING",
-                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             },
             {
                "id" : "quest149",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest153",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest150",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2194,7 +2182,7 @@
                ]
             },
             {
-               "id" : "quest152",
+               "id" : "quest150",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2206,7 +2194,7 @@
                ]
             },
             {
-               "id" : "quest324",
+               "id" : "quest152",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
@@ -2314,18 +2302,6 @@
                ]
             },
             {
-               "id" : "quest162",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_DETECT",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
                "id" : "quest332",
                "name" : "Unnamed Quest",
                "description" : "No description",
@@ -2399,6 +2375,18 @@
             },
             {
                "id" : "quest310",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_DETECT",
+                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                  }
+               ]
+            },
+            {
+               "id" : "quest338",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [

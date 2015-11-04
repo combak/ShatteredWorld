@@ -37,18 +37,6 @@
                ]
             },
             {
-               "id" : "quest002",
-               "name" : "Sichere Nacht",
-               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die schlimmste Nacht wie im Fluge.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe koennen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
-                  }
-               ]
-            },
-            {
                "id" : "quest001",
                "name" : "In der Ruhe liegt die Kraft",
                "description" : "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenem Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
@@ -62,6 +50,30 @@
                      "id" : "task001",
                      "name" : "Detection Task",
                      "description" : "Ruhig Blut, angeln ist kein Sport, hier liegt die Kraft in der inneren Ruhe. Das Anglerglueck bring auch wunderliche Teile an die Oberflaeche."
+                  }
+               ]
+            },
+            {
+               "id" : "quest002",
+               "name" : "Sichere Nacht",
+               "description" : "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die schlimmste Nacht wie im Fluge.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Das grosse Problem an einem Bett ist die Wolle und insbesondere die Faeden dazu. Schafe koennen wir noch nicht scheren. Aber alle Arten von Spinnen sind da sehr hilfreich. Nur keine Angst!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest296",
+               "name" : "Der rauchende Berg",
+               "description" : "Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwasenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einem Feuerzeug (flint and steel) an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt."
                   }
                ]
             },
@@ -344,18 +356,6 @@
                      "id" : "task000",
                      "name" : "Detection Task",
                      "description" : "Diese Ruestung kann auch aus erbeuteten Abfall (drop) der Monster, die hier rumlaufen, erstellt werden. Ansonsten muss die Schmelze nur lange genug arbeiten, um das notwendige Eisen zu produzieren."
-                  }
-               ]
-            },
-            {
-               "id" : "quest296",
-               "name" : "Der rauchende Berg",
-               "description" : "Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwasenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einem Feuerzeug (flint and steel) an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt."
                   }
                ]
             },
@@ -1879,7 +1879,7 @@
             {
                "id" : "quest126",
                "name" : "Ein Stab sie alle zu Binden",
-               "description" : "Jeder gute Zauberer braucht einen Zauberstab. Aber jeder faengt mal klein an.",
+               "description" : "Ein gute Zauberer braucht einen Zauberstab. Aber jeder faengt mal klein an.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1889,9 +1889,254 @@
                ]
             },
             {
+               "id" : "quest129",
+               "name" : "Der gedultige Forscher",
+               "description" : "Mit unserem Zauberstab lassen sich die wichtigen Basisgegenstaende herstellen, die ein Zauberer braucht.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Das Zauberbuch haelt alle Informationen bereit, die wir brauchen. Es zeigt uns moegliche neue Zauber an und beschreibt alle Techniken. Stelle ein Bookshelf auf und mache einen Rechtsklick mit deinem Zauberstab darauf."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Bestimmte Zauber muessen erforscht werden. Das ist nur mit einem besonderen Zaubertisch moeglich. Stelle einen deiner Tables auf und mache auch hier einen Rechtsklick. Du erhaelst damit die Arcane Worktable. Diese werden wir in Zukunft viel brauchen. Die anderen zwei Tables stellst du zusammen. Nachdem du das Scribing Tools darauf gestellt hast, erhaelst du deinen Zaubertisch."
+                  }
+               ]
+            },
+            {
+               "id" : "quest131",
+               "name" : "Der Durchblick",
+               "description" : "Das wichtigste Werkzeug fuer den angehenden Zauberer. Viele Gegenstaende enthalten magische Energien. Man muss nur wissen was worin steckt.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Das Thaumometer dient zum Scannen nach magischen Energien."
+                  }
+               ]
+            },
+            {
+               "id" : "quest130",
+               "name" : "Die Tiefensonde",
+               "description" : "Der Bedarf an Vis fuer die verschiedenen Zauber ist enorm. Nur mit scannen von Gegenstaenden kann man seinen Bedarf nicht decken.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Im Rueckbautisch (Deconstruction Table) koennen Gegenstaende wieder in ihre Teile zerlegt und das darin enthaltene Vis freigelegt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest132",
+               "name" : "Durch die rosa Brille",
+               "description" : "Fuer einen guten Zauberer ist es von Vorteil, wenn man die Vorgaenge in der Vis-Sphaere immer im Auge hat. Mit einer magischen Brille macht man diese Dinge sichtbar.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Diese Brille kann allein getragen werden und laesst seinen Besitzer viel intelligenter aussehen. Sie kann aber auch mit verschiedenen Ruestungsteilen kombiniert werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest148",
+               "name" : "Magisches Metall",
+               "description" : "Der wahre Magier braucht natuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzusellen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Dieses magische Metall wird in einem magischen Schmelzofen hergestellt. Wie sollte es auch anders sein."
+                  }
+               ]
+            },
+            {
+               "id" : "quest340",
+               "name" : "Der Herr der Kappen",
+               "description" : "Mit einem Zauberstab kann man nicht nur zaubern. Man kann damit auch kaempfen. Aber nicht wie du jetzt denkst. Ein richtiger Kampfmagier ist kein Nahkaempfer.\n",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit diesen Kappen kann der Zauberstab in ein Werkzeug oder eine Waffe gewandelt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest147",
+               "name" : "Der Manipulator",
+               "description" : "Die Kappen, in ihrer normalen Form, sind ja ganz nett. Sie lassen sich aber weiter aufwerten und mit zusaetzlichen Effekten kombinieren.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Jede Kappe laesst sich bis zu 5 mal aufwerten. Diese koennen nicht zurueck genommen werden. Allerdings lohnt sich der Aufwand."
+                  }
+               ]
+            },
+            {
+               "id" : "quest322",
+               "name" : "Magische Ruestung",
+               "description" : "Was liegt naeher, als sich aus diesem magischen Metall ein standesbemaesse Ruestung zu bauen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Diese Ruestung sieht zwar aus wie eine dunke Eisenruestung, aber sie verbessert auch deine magischen Faehigkeiten."
+                  }
+               ]
+            },
+            {
+               "id" : "quest133",
+               "name" : "Gepanzerter Stoff",
+               "description" : "Die Dienstkleidung des Magiers. Sie ist nicht nur schoen sondern hat auch starke Widerstaende gegen magische Attacken.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Diese Ruestung besteht scheinbar nur aus drei Teilen, aber der schlaue Magier hat ja noch seine Brille."
+                  }
+               ]
+            },
+            {
+               "id" : "quest136",
+               "name" : "Explosives Licht",
+               "description" : "Nitor und Alumentum sind die ersten magischen Gegenstaende, die ein Magier koennen muss.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Nitor dient als Feuerersatz, da es genauso gut heizt aber nichts anzuendet. Alumentum hat einen besseren Heizwert als Kohle."
+                  }
+               ]
+            },
+            {
+               "id" : "quest137",
+               "name" : "Der Wunderofen",
+               "description" : "Um weiter magische Energie nutzen zu koennen, muessen diese aus den Gegenstaenden geloest werden. Das erfolgt durch verbrennen im Alchemischen Ofen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die frei gesetzten magischen Energien muessen mit anderen Mitteln abtransportiert und weiter verarbeitet werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest138",
+               "name" : "Die Destillerie",
+               "description" : "Und schon sind wir beim Transport der magischen Energien.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Im Alchemischen Offen liegen die magischen Energien noch in gemischter Form vor. Mit der Alchemical Destillerie koennen diese getrennt werden."
+                  }
+               ]
+            },
+            {
+               "id" : "quest139",
+               "name" : "Tubes",
+               "description" : "Natuerlich brauch man auch ein Transportsystem. Wie ein Gas kann so die magische Energie transportiert werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die Essenzeroehre (Tube) transport umkontrolliert die Energie und das Ventil (Valve) regelt den Transport."
+                  }
+               ]
+            },
+            {
+               "id" : "quest141",
+               "name" : "Der Kristallisierer",
+               "description" : "Magische Essenzen sind so fluechtige Aggregatzustaende. In seiner festen Form lassen sich die magischen Energien viel leichter handhaben.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Mit einem angeschlossenen Lager hat man einen guten Vorrat und ist flexibel beim Einsatz der magischer Energien."
+                  }
+               ]
+            },
+            {
+               "id" : "quest140",
+               "name" : "Schleudertrauma",
+               "description" : "Mitunter erhaelt man Vis, welches man nicht braucht. Es waere ein super Sache dieses in seine Bestandteile zu zerlegen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Diese Maschine braucht keine Energie. Man leitet das nutzlose Vis unten herein und bekommt das zerlegte Vis oben heraus."
+                  }
+               ]
+            },
+            {
+               "id" : "quest142",
+               "name" : "Das Parfuem",
+               "description" : "Magische Essenzen bewahrt man besser in Flaschen auf. Wenn man diese gut beschriftet, weiss man immer was drin ist.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Das klassische Aufbewahrungssystem fuer magische Energien."
+                  }
+               ]
+            },
+            {
+               "id" : "quest143",
+               "name" : "Der Geist in der Flasche",
+               "description" : "Die magischen Knoten (node) koennen weit in der Welt verteilt sein. Es waere viel einfacher diese direkt vor der Haustuer zu haben. Nur wie transportiert man diese Dinger?",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Man baut ein makroskopisches Gefaess um eine Node herum und verwandelt es danach in eine Node in a Bottle um. Ist doch einfach."
+                  }
+               ]
+            },
+            {
+               "id" : "quest144",
+               "name" : "Der schuetzende Schild",
+               "description" : "Diese Nodes sind ganz schoen aggressiv. Sie duerfen nicht zu nahe beieinander aufgestellt werden. Ausser man schirmt sie voneinader ab.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Mit einem Node Stabilizer kann man die Nodes stabilisieren, wie der Name schon sagt. Sie kann nicht von anderen gefressen werden, kann aber auch selbst keine anderen fressen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest145",
+               "name" : "Der Fluss der Seelen",
+               "description" : "Mit einem magischen Netzwerk kann man Maschinen an angeregte Nodes koppeln.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Mit diesen Bloecken kann man die magische Energie direkt aus den Nodes abziehen und zu den Punkten transportieren, wo sie gebraucht wird."
+                  }
+               ]
+            },
+            {
+               "id" : "quest146",
+               "name" : "Die Tankstelle",
+               "description" : "Jetzt ist es Zeit fuer ein automatisches Zauberstab Fuellsystem.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Mit dem Wand Recharge Pedestal kann man seinen Zauberstab schnell wieder aufladen. Es bezieht das Vis aus benachbarten Nodes oder ueber ein angeschlossenes Vis Transportsystem."
+                  }
+               ]
+            },
+            {
                "id" : "quest127",
                "name" : "Der Stab des Lehrlings",
-               "description" : "Jetzt, da du ein Lehrling geworden bist, solltest du auch einen besseren Zauberstab haben.",
+               "description" : "Du bist kein Anfaenger mehr. Es wird Zeit fuer einen besseren Zauberstab.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -1913,239 +2158,6 @@
                ]
             },
             {
-               "id" : "quest129",
-               "name" : "Der gedultige Forscher",
-               "description" : "Mit unserem Zauberstab lassen sich die wichtigen Basisgegenstaende herstellen, die ein Zauberer braucht.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Das Zauberbuch haelt alle Informationen bereit, die wir brauchen. Es zeigt uns moeglich neue Zauber an und beschreibt alle Techniken. Stelle ein Bookshelf auf und mache einen Rechtsklick mit deinem Zauberstab darauf."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
-                     "description" : "Bestimmte Zauber muessen erforscht werden. Das ist nur mit einem besonderen Zaubertisch moeglich. Stelle einen deiner Tables auf und mache auch hier einen Rechtsklick. Du erhaelst damit die Arcane Worktable. Diese werden wir in Zukunft viel brauchen. Die anderen zwei Tables stellst du zusammen. Nachdem du das Scribing Tools darauf gestellt hast, erhaelst du deinen Zaubertisch."
-                  }
-               ]
-            },
-            {
-               "id" : "quest130",
-               "name" : "Es geht immer mal was daneben",
-               "description" : "Manchmal geht schon etwas daneben oder wird nicht mehr gebraucht. Da die Zauberutensilien selten sind, ist es immer gut einige davon zurueck zu gewinnen.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Im Rueckbautisch (Deconstruction Table) koennen Items wieder in ihre Teile zerlegt werden. Allerdings erfolgt das mit einem kleinen Verlust."
-                  }
-               ]
-            },
-            {
-               "id" : "quest131",
-               "name" : "Der Durchblick",
-               "description" : "Da wichtigste Werkzeug fuer den angehenden Zauberer. Viele Gegenstaende enthalten magische Energien. Man muss nur wissen was worin steckt.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Das Thaumometer dient zum Scannen nach magischen Energien."
-                  }
-               ]
-            },
-            {
-               "id" : "quest132",
-               "name" : "Durch die rosa Brille",
-               "description" : "Diese magischen Knoten zu finden ist schwer, weil sie kaum zu sehen sind. Mit dieser speziellen Brille wirst du sie sicher nicht mehr uebersehen.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Diese Brille kann allein getragen werden und laesst seinen Bezitzer viel intelligenter aus sehen. Sie kann aber auch mit manchem Ruestungsteil kombiniert werden."
-                  }
-               ]
-            },
-            {
-               "id" : "quest133",
-               "name" : "Thaumaturge Armor",
-               "description" : "Die Dienstkleidung des Magiers. Sie ist nicht nur schoen sondern hat auch starke Widerstaende gegen magische Attacken.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Diese Ruestung besteht scheinbar nur aus drei Teilen, aber der schlaue Magier hat ja noch seine Brille."
-                  }
-               ]
-            },
-            {
-               "id" : "quest136",
-               "name" : "Explosives Licht",
-               "description" : "Nitor und Alumentum sind die ersten magischen Gegenstaende, die ein Magier keonnen muss.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Alumentum dient als Sprengstoff und Nitor als Feuer."
-                  }
-               ]
-            },
-            {
-               "id" : "quest137",
-               "name" : "Der Wunderofen",
-               "description" : "Um weiter magische Energie herzustellen, muss diese aus den Gegenstaenden geloest werden. Das erfolgt duch verbrennen im Alchemischen Ofen.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Die frei gesetzten magischen Energien muessen mit anderen Mitteln abtransportiert werden."
-                  }
-               ]
-            },
-            {
-               "id" : "quest138",
-               "name" : "Die Destillerie",
-               "description" : "Um schon sind wir beim Transport der magischen Energien.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Im Alchemischen Offen liegen die magischen Energien noch in gemischter Form vor. Mit der Alchemical Destillerie koennen diese getrennt werden."
-                  }
-               ]
-            },
-            {
-               "id" : "quest139",
-               "name" : "Tubes",
-               "description" : "Natuerlich brauch man auch ein Transportsystem. Wie ein Gas kann so die magische Energie transportiert werden.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Die essenze Roehre (Tube) transport umkontrolliert die Energie und das Ventil (Valve) regelt den Transport."
-                  }
-               ]
-            },
-            {
-               "id" : "quest140",
-               "name" : "Schleudertrauma",
-               "description" : "???",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest141",
-               "name" : "Der Kristallisierer",
-               "description" : "Gase sind so fluechtige Aggregatzustaenden. In seiner festen Form lassen sich die magischen Energien viel leichter handhaben.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Mit einem angeschlossenen Lager hat man einen guten Vorrat und ist flexibel beim Einsatz magischer Energien."
-                  }
-               ]
-            },
-            {
-               "id" : "quest142",
-               "name" : "Das Parfuem",
-               "description" : "Gas bewahrt man besser in Flaschen auf. Wenn man diese gut beschriftet, weiss man immer was drin ist.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Das klassische Aufbewahrungssystem fuer magische Energien."
-                  }
-               ]
-            },
-            {
-               "id" : "quest143",
-               "name" : "Der Geist in der Flasche",
-               "description" : "Die magischen Knoten koennen weit in der Welt verteilt sein. Es waere viel einfachen diese direkt vor der Haustuer zu haben. Nur wie transportiert man diese Dinger?",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Man baut ein makroskopisches Gefaess um einen Knoten herum und verwandelt es danach in einen Knoten in einer Flasche um. Ist doch einfach."
-                  }
-               ]
-            },
-            {
-               "id" : "quest144",
-               "name" : "Der schuetzende Schild",
-               "description" : "Diese Knoten sind ganz schoen aggressiv. Sie duerfen nicht zu nahe bei einander anfgestellt werden. Ausser man schirmt sie voneinader ab.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Mit einem Node Stabilizer kann man die Knoten stabilisieren, wie der Name schon sagt."
-                  }
-               ]
-            },
-            {
-               "id" : "quest145",
-               "name" : "Der Fluss der Seelen",
-               "description" : "Jetzt waere doch dir beste Zeit ein Netzwerk zu errichten, so das die magische Energie direkt von den Knoten in die entsprechenden Maschinen fliesst.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Mit diesen Bloecken kann man die magische Energie direkt aus den Knoten abziehen und zu den Punkten transportieren, wo sie gebraucht wird."
-                  }
-               ]
-            },
-            {
-               "id" : "quest146",
-               "name" : "Die Tankstelle",
-               "description" : "Jetzt ist es Zeit fuer ein automatisches Zauberstab Fuellsystem.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Wenn du das Vis Transportsystem mit den Knoten und dem Charger verbindest kannst du deine Zauberstaebe automatisch laden."
-                  }
-               ]
-            },
-            {
-               "id" : "quest147",
-               "name" : "Der Manipulator",
-               "description" : "Was kann man alles mit Focies machen?",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest148",
-               "name" : "Magisches Metall",
-               "description" : "Der wahre Magier braucht ntuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzusellen.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Dieses magische Metall wird in einem magischen Schmelzofen hergestellt. Wie sollte es auch anders sein."
-                  }
-               ]
-            },
-            {
-               "id" : "quest322",
-               "name" : "Thaumium Armor",
-               "description" : "Unnamed quest",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
-                  }
-               ]
-            },
-            {
                "id" : "quest149",
                "name" : "Die Infusion",
                "description" : "Es gibt maechtige Zauber, die ein besonderes Instrument benoetigen. Dies ist der Infusion Altar. Hier koennen verschiedene Gegenstaende und magische Energien miteinander verschmolzen werden.",
@@ -2153,31 +2165,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Der Infusion Altar basiert auf 2 wichtigen Elementen. Den Arcane Pedestal, auf denen Gegenstaende plziert werden koennen und der Runic Matrix, die die Umwandlung erst moeglich macht. Die Arcane Pedestal muessen immer zentral symmetrisch zur Runic Matrix angeordnet werden."
-                  }
-               ]
-            },
-            {
-               "id" : "quest153",
-               "name" : "Der Architekt",
-               "description" : "???",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
-               "id" : "quest150",
-               "name" : "Die Wunderlampen",
-               "description" : "Es ist zwar nicht Aladins Wunderlampe, aber diese Lampen haben es ganz schoen in sich.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Die eine Lampe laesst die Jungtiere schneller wachsen, die andere zeigt im Ackerbau ihre ganze Kraft."
+                     "description" : "Der Infusion Altar basiert auf 2 wichtigen Elementen. Den Arcane Pedestal, auf denen Gegenstaende plaziert werden koennen und der Runic Matrix, die die Umwandlung erst moeglich macht. Die Arcane Pedestal muessen immer zentral symmetrisch zur Runic Matrix angeordnet werden."
                   }
                ]
             },
@@ -2194,26 +2182,26 @@
                ]
             },
             {
-               "id" : "quest152",
-               "name" : "Fortress Armor",
-               "description" : "Und wieder eine tolle Ruestung.",
+               "id" : "quest150",
+               "name" : "Die Wunderlampen",
+               "description" : "Es ist zwar nicht Aladins Wunderlampe, aber diese Lampen haben es ganz schoen in sich.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Auch hier gibt es leider nur drei Teile."
+                     "description" : "Die eine Lampe laesst die Jungtiere schneller wachsen, die andere zeigt im Ackerbau ihre ganze Kraft."
                   }
                ]
             },
             {
-               "id" : "quest324",
-               "name" : "Primordial Armor",
-               "description" : "Unnamed quest",
+               "id" : "quest152",
+               "name" : "Der Ninja",
+               "description" : "Die Thaumium Ruestung kann mit dem Infusion Ritual verstaerkt werden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Leider gibt es hier nur drei Teile."
                   }
                ]
             },
@@ -2232,7 +2220,7 @@
             {
                "id" : "quest155",
                "name" : "Der Gong",
-               "description" : "Um deine Golems dirigieren zu koennen brauchst du ein besonderes Werkzeug. Damit kannst du deine Golems einsammeln, als auch ihnen bestimme Aufgaben zuteilen.",
+               "description" : "Um deine Golems dirigieren zu koennen brauchst du ein besonderes Werkzeug. Damit kannst du deine Golems einsammeln, als auch ihnen bestimme Aufgaben zuweisen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2256,7 +2244,7 @@
             {
                "id" : "quest157",
                "name" : "Das fleissige Bienchen",
-               "description" : "Jetzt geht es daran den Golems das Transportieren zwischen Kisten bei zu bringen.",
+               "description" : "Jetzt geht es daran den Golems das Transportieren zwischen Kisten beizubringen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2267,7 +2255,7 @@
             },
             {
                "id" : "quest158",
-               "name" : "Der intelligenter Soldat",
+               "name" : "Die intelligente Drone",
                "description" : "So, jetzt kommen die Spezialisten.",
                "tasks" : [
                   {
@@ -2292,12 +2280,12 @@
             {
                "id" : "quest160",
                "name" : "Die Armee",
-               "description" : "Es wird Zeit fuer deine persoenlicher Helferarmee.",
+               "description" : "Jeder Type eines Golems hat seine Existenzberechtigung.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Entsprechend des Basismaterials herhaelst du einen Golem mit speziellen Eigenschaften."
+                     "description" : "Entsprechend des Basismaterials erhaelst du einen Golem mit speziellen Eigenschaften."
                   }
                ]
             },
@@ -2314,110 +2302,110 @@
                ]
             },
             {
-               "id" : "quest162",
-               "name" : "Der Perfektionist",
-               "description" : "???",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
-                  }
-               ]
-            },
-            {
                "id" : "quest332",
-               "name" : "Void Metal",
-               "description" : "Unnamed quest",
+               "name" : "Das kristallisierte Nichts",
+               "description" : "Ein Magier erschafft Dinge aus dem Nichts. Logischer Weise kann er somit das Nichts auch kondensieren und in eine massive Form wandeln.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Den Anfang der Nichtsproduktion stellen diese einfachen Nichtsbasiswerkstoffe dar."
                   }
                ]
             },
             {
                "id" : "quest298",
-               "name" : "Void Armor",
-               "description" : "Unnamed quest",
+               "name" : "Das kleidende Nichts",
+               "description" : "Der naechste Schritt ist logischer Weise eine Ruestung aus Nichts.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Ein Traum aus Nichts. Schick, aber leider wenig Ruestung."
                   }
                ]
             },
             {
                "id" : "quest300",
-               "name" : "Void Fortress",
-               "description" : "Unnamed quest",
+               "name" : "Das schuetzende Nichts",
+               "description" : "Warum machen wir uns nicht gleich eine ganze Kollektion?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Diese Kleidungsstuecke schuetzen uns nicht besonders, sie reduzieren aber stark den Visverbrauch."
                   }
                ]
             },
             {
                "id" : "quest334",
-               "name" : "Eldrich Eye",
-               "description" : "Unnamed quest",
+               "name" : "Das allsehende Auge",
+               "description" : "Wir sind auf dem Weg in das Aeussere Land (Outer Land). Dazu sind einige Vorbereitungen notwendig.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Man fuehlt sich immer etwas beobachtet von diesem Auge. Kann es vielleicht unsere Gedanken lesen?"
                   }
                ]
             },
             {
                "id" : "quest336",
-               "name" : "Port in a Box",
-               "description" : "Unnamed quest",
+               "name" : "Das schwarze Loch",
+               "description" : "Das Outer Land kann man nicht direkt betretet. Diese Muggels reden immer von Wurmloechern und so. Wir wissen es besser, es ist nur eine magische Tuer.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Du benoetigst eine ausreichend freie Flaeche. Mit einem Rechtsklick wird das Portal plaziert. Nach kurzer Zeit erscheinen dann die Kultisten."
                   }
                ]
             },
             {
                "id" : "quest308",
-               "name" : "Crimson Cult",
-               "description" : "Unnamed quest",
+               "name" : "Der Purpur Klan",
+               "description" : "Die Waechter des Portals sehen so niedlich aus in ihren roten Kleidern.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Waren wir nicht auf der Suche nach einer Kollektion?"
                   }
                ]
             },
             {
                "id" : "quest310",
-               "name" : "Crimson Cult Robe",
-               "description" : "Unnamed quest",
+               "name" : "Der Purpur Kult",
+               "description" : "Von Zeit zu Zeit erscheinen auch die Meister des Klans. Sie schauen zwar finsterer drein, stellen aber auch keine groessere Bedrohung dar.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Dieses nette Set komplettiert unsere Kollektion."
+                  }
+               ]
+            },
+            {
+               "id" : "quest338",
+               "name" : "Der Hort des Boesen",
+               "description" : "In den Outer Lands muessen wir erst den Schluessel suchen und koennen dann das Tor zu einem der Bosse in dieser Welt oeffnen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Du solltest gut vorbereitet in den Kampf gehen. Das ist nichts fuer schwache Herzen. Schutzmauern koennten hilfreich sein."
                   }
                ]
             },
             {
                "id" : "quest312",
-               "name" : "Crimson Praetor",
-               "description" : "Unnamed quest",
+               "name" : "Der Purpur Gladiator",
+               "description" : "Beim Durchwuehlen unserer Beute vom Boss finden wir auch ein paar tolle Kleidungsstuecke.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Vervollstaendige dieses Set und fuege es deiner Kollektion hinzu. Jetzt bist du bereit deine eigene Boutique zu eroeffnen."
                   }
                ]
             }

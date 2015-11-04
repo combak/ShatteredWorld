@@ -86,42 +86,8 @@
                ]
             },
             {
-               "id" : "quest002",
-               "x" : 46,
-               "y" : 15,
-               "big" : false,
-               "icon" : "minecraft:bed size(1) dmg(0)",
-               "requirements" : [
-                  "quest000"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:bed size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:string size(8) dmg(0)",
-                  "harvestcraft:bananasmoothieItem size(8) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest001",
-               "x" : 70,
+               "x" : 46,
                "y" : 15,
                "big" : false,
                "icon" : "minecraft:cooked_fished size(1) dmg(0)",
@@ -164,9 +130,81 @@
                ]
             },
             {
-               "id" : "quest306",
+               "id" : "quest002",
+               "x" : 70,
+               "y" : 15,
+               "big" : false,
+               "icon" : "minecraft:bed size(1) dmg(0)",
+               "requirements" : [
+                  "quest000"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:bed size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:string size(8) dmg(0)",
+                  "harvestcraft:bananasmoothieItem size(8) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest296",
                "x" : 94,
                "y" : 15,
+               "big" : false,
+               "icon" : "minecraft:coal size(1) dmg(1)",
+               "requirements" : [
+                  "quest000"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:flint_and_steel size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "FUZZY"
+                        },
+                        {
+                           "item" : "minecraft:coal size(1) dmg(1)",
+                           "required" : 18,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:ItemLootBag size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest306",
+               "x" : 38,
+               "y" : 70,
                "big" : false,
                "icon" : "TConstruct:helmetWood size(1) dmg(0)",
                "requirements" : [
@@ -1006,7 +1044,7 @@
             },
             {
                "id" : "quest314",
-               "x" : 82,
+               "x" : 58,
                "y" : 170,
                "big" : false,
                "icon" : "minecraft:iron_helmet size(1) dmg(0)",
@@ -1057,44 +1095,6 @@
                ]
             },
             {
-               "id" : "quest296",
-               "x" : 34,
-               "y" : 130,
-               "big" : false,
-               "icon" : "minecraft:coal size(1) dmg(1)",
-               "requirements" : [
-                  "quest020"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:flint_and_steel size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "FUZZY"
-                        },
-                        {
-                           "item" : "minecraft:coal size(1) dmg(1)",
-                           "required" : 18,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:ItemLootBag size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest004",
                "x" : 46,
                "y" : 110,
@@ -1107,7 +1107,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "tasks" : [
                   {
@@ -1135,8 +1135,8 @@
             },
             {
                "id" : "quest021",
-               "x" : 46,
-               "y" : 150,
+               "x" : 34,
+               "y" : 130,
                "big" : false,
                "icon" : "backpacks16840:backpack size(1) dmg(3)",
                "requirements" : [
@@ -1173,8 +1173,8 @@
             },
             {
                "id" : "quest022",
-               "x" : 58,
-               "y" : 170,
+               "x" : 46,
+               "y" : 150,
                "big" : false,
                "icon" : "ThermalExpansion:Tank size(1) dmg(0)",
                "requirements" : [
@@ -1255,7 +1255,7 @@
             },
             {
                "id" : "quest023",
-               "x" : 106,
+               "x" : 82,
                "y" : 170,
                "big" : false,
                "icon" : "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
@@ -1293,7 +1293,7 @@
             },
             {
                "id" : "quest024",
-               "x" : 130,
+               "x" : 106,
                "y" : 170,
                "big" : false,
                "icon" : "autopackager:packagerBlock size(1) dmg(0)",
@@ -5532,7 +5532,7 @@
             {
                "id" : "quest126",
                "x" : 46,
-               "y" : 40,
+               "y" : 55,
                "big" : false,
                "icon" : "Thaumcraft:WandCasting size(1) dmg(0)",
                "requirements" : [
@@ -5564,78 +5564,9 @@
                ]
             },
             {
-               "id" : "quest127",
-               "x" : 34,
-               "y" : 60,
-               "big" : false,
-               "icon" : "Thaumcraft:WandCasting size(1) dmg(9)",
-               "requirements" : [
-                  "quest126"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Thaumcraft:WandCasting size(1) dmg(9)",
-                           "nbt" : "=COMPOUND( cap=STRING('gold'), rod=STRING('greatwood') )",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:blockCrystal size(4) dmg(6)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest128",
-               "x" : 46,
-               "y" : 80,
-               "big" : false,
-               "icon" : "Thaumcraft:WandCasting size(1) dmg(54)",
-               "requirements" : [
-                  "quest127",
-                  "quest149"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Thaumcraft:WandCasting size(1) dmg(54)",
-                           "nbt" : "=COMPOUND( cap=STRING('thaumium'), rod=STRING('silverwood') )",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:ItemResource size(2) dmg(2)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest129",
-               "x" : 58,
-               "y" : 60,
+               "x" : 78,
+               "y" : 75,
                "big" : false,
                "icon" : "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
                "requirements" : [
@@ -5683,42 +5614,9 @@
                ]
             },
             {
-               "id" : "quest130",
-               "x" : 78,
-               "y" : 25,
-               "big" : false,
-               "icon" : "Thaumcraft:blockTable size(1) dmg(14)",
-               "requirements" : [
-                  "quest131"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Thaumcraft:blockTable size(1) dmg(14)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:ItemShard size(8) dmg(2)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest131",
-               "x" : 110,
-               "y" : 60,
+               "x" : 114,
+               "y" : 90,
                "big" : false,
                "icon" : "Thaumcraft:ItemThaumometer size(1) dmg(0)",
                "requirements" : [
@@ -5749,9 +5647,42 @@
                ]
             },
             {
+               "id" : "quest130",
+               "x" : 90,
+               "y" : 40,
+               "big" : false,
+               "icon" : "Thaumcraft:blockTable size(1) dmg(14)",
+               "requirements" : [
+                  "quest131"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:blockTable size(1) dmg(14)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:ItemShard size(8) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest132",
-               "x" : 102,
-               "y" : 25,
+               "x" : 138,
+               "y" : 40,
                "big" : false,
                "icon" : "Thaumcraft:ItemGoggles size(1) dmg(0)",
                "requirements" : [
@@ -5785,9 +5716,186 @@
                ]
             },
             {
+               "id" : "quest148",
+               "x" : 114,
+               "y" : 40,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemResource size(1) dmg(2)",
+               "requirements" : [
+                  "quest131"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemResource size(1) dmg(2)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:ItemResource size(2) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest340",
+               "x" : 102,
+               "y" : 20,
+               "big" : false,
+               "icon" : "Thaumcraft:FocusTrade size(1) dmg(0)",
+               "requirements" : [
+                  "quest148"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:FocusExcavation size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:FocusFire size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:FocusTrade size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:FocusShock size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:FocusFrost size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:ItemShard size(8) dmg(3)",
+                  "Thaumcraft:ItemShard size(4) dmg(6)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest147",
+               "x" : 78,
+               "y" : 20,
+               "big" : false,
+               "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
+               "requirements" : [
+                  "quest340"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:blockCrystal size(4) dmg(6)",
+                  "Thaumcraft:ItemLootBag size(1) dmg(1)"
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest322",
+               "x" : 126,
+               "y" : 20,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
+               "requirements" : [
+                  "quest148"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemChestplateThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemLeggingsThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemBootsThaumium size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)"
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
                "id" : "quest133",
-               "x" : 174,
-               "y" : 25,
+               "x" : 150,
+               "y" : 20,
                "big" : false,
                "icon" : "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
                "requirements" : [
@@ -5806,23 +5914,23 @@
                         {
                            "item" : "Thaumcraft:ItemBootsRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemChestplateRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
                ],
                "reward" : [
-                  "exnihilo:bucket_witchwater size(3) dmg(0)",
+                  "TConstruct:heartCanister size(1) dmg(6)",
                   {
                      "item" : "Thaumcraft:ItemEssence size(2) dmg(1)",
                      "nbt" : "=COMPOUND( Aspects=LIST( COMPOUND( amount=INT(8), key=STRING('praecantatio') ) ) )"
@@ -5978,39 +6086,6 @@
                ]
             },
             {
-               "id" : "quest140",
-               "x" : 266,
-               "y" : 45,
-               "big" : false,
-               "icon" : "Thaumcraft:blockTube size(1) dmg(2)",
-               "requirements" : [
-                  "quest139"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Thaumcraft:blockTube size(1) dmg(2)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:ItemResource size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest141",
                "x" : 278,
                "y" : 25,
@@ -6039,6 +6114,39 @@
                ],
                "reward" : [
                   "Thaumcraft:blockTube size(1) dmg(7)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest140",
+               "x" : 266,
+               "y" : 45,
+               "big" : false,
+               "icon" : "Thaumcraft:blockTube size(1) dmg(2)",
+               "requirements" : [
+                  "quest139"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:blockTube size(1) dmg(2)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:ItemResource size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -6220,24 +6328,24 @@
                   }
                ],
                "reward" : [
-                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
+                  "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
                "reputations" : [
                ]
             },
             {
-               "id" : "quest147",
-               "x" : 278,
-               "y" : 145,
+               "id" : "quest127",
+               "x" : 34,
+               "y" : 75,
                "big" : false,
-               "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
+               "icon" : "Thaumcraft:WandCasting size(1) dmg(9)",
                "requirements" : [
-                  "quest146"
+                  "quest126"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "tasks" : [
                   {
@@ -6245,7 +6353,8 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "Thaumcraft:blockStoneDevice size(1) dmg(13)",
+                           "item" : "Thaumcraft:WandCasting size(1) dmg(9)",
+                           "nbt" : "=COMPOUND( cap=STRING('gold'), rod=STRING('greatwood') )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -6253,28 +6362,25 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockCrystal size(4) dmg(6)"
                ],
                "reputations" : [
-                  {
-                     "reputation" : "rep002",
-                     "value" : 1
-                  }
                ]
             },
             {
-               "id" : "quest148",
-               "x" : 126,
-               "y" : 25,
+               "id" : "quest128",
+               "x" : 46,
+               "y" : 95,
                "big" : false,
-               "icon" : "Thaumcraft:ItemResource size(1) dmg(2)",
+               "icon" : "Thaumcraft:WandCasting size(1) dmg(54)",
                "requirements" : [
-                  "quest131"
+                  "quest127",
+                  "quest149"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "tasks" : [
                   {
@@ -6282,7 +6388,8 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "Thaumcraft:ItemResource size(1) dmg(2)",
+                           "item" : "Thaumcraft:WandCasting size(1) dmg(54)",
+                           "nbt" : "=COMPOUND( cap=STRING('thaumium'), rod=STRING('silverwood') )",
                            "required" : 1,
                            "precision" : "PRECISE"
                         }
@@ -6296,58 +6403,9 @@
                ]
             },
             {
-               "id" : "quest322",
-               "x" : 150,
-               "y" : 25,
-               "big" : false,
-               "icon" : "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
-               "requirements" : [
-                  "quest148"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Thaumcraft:ItemChestplateThaumium size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Thaumcraft:ItemLeggingsThaumium size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Thaumcraft:ItemBootsThaumium size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        }
-                     ]
-                  }
-               ],
-               "reputations" : [
-                  {
-                     "reputation" : "rep001",
-                     "value" : 1
-                  }
-               ]
-            },
-            {
                "id" : "quest149",
                "x" : 58,
-               "y" : 100,
+               "y" : 115,
                "big" : false,
                "icon" : "Thaumcraft:blockStoneDevice size(1) dmg(2)",
                "requirements" : [
@@ -6383,80 +6441,9 @@
                ]
             },
             {
-               "id" : "quest153",
-               "x" : 34,
-               "y" : 100,
-               "big" : false,
-               "icon" : "WitchingGadgets:tile.WG_MetalDevice.name size(1) dmg(1)",
-               "requirements" : [
-                  "quest149"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "WitchingGadgets:tile.WG_MetalDevice.name size(1) dmg(1)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest150",
-               "x" : 46,
-               "y" : 120,
-               "big" : false,
-               "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
-               "requirements" : [
-                  "quest149"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Thaumcraft:blockMetalDevice size(1) dmg(13)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Thaumcraft:blockMetalDevice size(1) dmg(8)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest151",
-               "x" : 22,
-               "y" : 120,
+               "x" : 34,
+               "y" : 115,
                "big" : false,
                "icon" : "Thaumcraft:blockCustomPlant size(1) dmg(0)",
                "requirements" : [
@@ -6486,15 +6473,53 @@
                   }
                ],
                "reward" : [
-                  "minecraft:nether_star size(1) dmg(0)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest150",
+               "x" : 46,
+               "y" : 135,
+               "big" : false,
+               "icon" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
+               "requirements" : [
+                  "quest149"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:blockMetalDevice size(1) dmg(8)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:blockMetalDevice size(1) dmg(13)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:blockMetalDevice size(1) dmg(8)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest152",
-               "x" : 58,
-               "y" : 140,
+               "x" : 70,
+               "y" : 135,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetFortress size(1) dmg(0)",
                "requirements" : [
@@ -6529,56 +6554,7 @@
                   }
                ],
                "reward" : [
-                  "Thaumcraft:ItemResource size(4) dmg(17)"
-               ],
-               "reputations" : [
-                  {
-                     "reputation" : "rep001",
-                     "value" : 1
-                  }
-               ]
-            },
-            {
-               "id" : "quest324",
-               "x" : 46,
-               "y" : 160,
-               "big" : false,
-               "icon" : "WitchingGadgets:item.WG_PrimordialHelm size(1) dmg(0)",
-               "requirements" : [
-                  "quest152"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "WitchingGadgets:item.WG_PrimordialHelm size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "WitchingGadgets:item.WG_PrimordialChest size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "WitchingGadgets:item.WG_PrimordialLegs size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "WitchingGadgets:item.WG_PrimordialBoots size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        }
-                     ]
-                  }
+                  "TConstruct:heartCanister size(1) dmg(6)"
                ],
                "reputations" : [
                   {
@@ -6589,8 +6565,8 @@
             },
             {
                "id" : "quest154",
-               "x" : 110,
-               "y" : 110,
+               "x" : 114,
+               "y" : 140,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(100)",
                "requirements" : [
@@ -6622,8 +6598,8 @@
             },
             {
                "id" : "quest155",
-               "x" : 122,
-               "y" : 130,
+               "x" : 126,
+               "y" : 160,
                "big" : false,
                "icon" : "Thaumcraft:GolemBell size(1) dmg(0)",
                "requirements" : [
@@ -6655,8 +6631,8 @@
             },
             {
                "id" : "quest156",
-               "x" : 98,
-               "y" : 130,
+               "x" : 102,
+               "y" : 160,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(3)",
                "requirements" : [
@@ -6701,8 +6677,8 @@
             },
             {
                "id" : "quest157",
-               "x" : 110,
-               "y" : 150,
+               "x" : 114,
+               "y" : 180,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(0)",
                "requirements" : [
@@ -6739,8 +6715,8 @@
             },
             {
                "id" : "quest158",
-               "x" : 134,
-               "y" : 150,
+               "x" : 138,
+               "y" : 180,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemCore size(1) dmg(10)",
                "requirements" : [
@@ -6775,15 +6751,15 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:blockCosmeticSolid size(1) dmg(4)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest159",
-               "x" : 134,
-               "y" : 110,
+               "x" : 138,
+               "y" : 140,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemUpgrade size(1) dmg(3)",
                "requirements" : [
@@ -6833,15 +6809,15 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:ItemResource size(6) dmg(9)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest160",
-               "x" : 146,
-               "y" : 130,
+               "x" : 150,
+               "y" : 160,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
                "requirements" : [
@@ -6857,6 +6833,11 @@
                      "id" : "task000",
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemGolemPlacer size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
                         {
                            "item" : "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
                            "required" : 1,
@@ -6876,15 +6857,15 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "minecraft:diamond size(10) dmg(0)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest161",
-               "x" : 158,
-               "y" : 150,
+               "x" : 162,
+               "y" : 180,
                "big" : false,
                "icon" : "Thaumcraft:ItemGolemPlacer size(1) dmg(7)",
                "requirements" : [
@@ -6909,52 +6890,15 @@
                   }
                ],
                "reward" : [
-                  "minecraft:log size(1) dmg(0)"
+                  "Thaumcraft:WandCap size(3) dmg(6)"
                ],
                "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest162",
-               "x" : 170,
-               "y" : 170,
-               "big" : false,
-               "icon" : "Automagy:blockGolemWorkbench size(1) dmg(0)",
-               "requirements" : [
-                  "quest161"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Automagy:blockGolemWorkbench size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:log size(1) dmg(0)"
-               ],
-               "reputations" : [
-                  {
-                     "reputation" : "rep002",
-                     "value" : 1
-                  }
                ]
             },
             {
                "id" : "quest332",
                "x" : 158,
-               "y" : 75,
+               "y" : 90,
                "big" : false,
                "icon" : "Thaumcraft:ItemResource size(1) dmg(17)",
                "requirements" : [
@@ -6983,13 +6927,16 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "Thaumcraft:ItemResource size(4) dmg(16)"
+               ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest298",
                "x" : 182,
-               "y" : 75,
+               "y" : 90,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetVoid size(1) dmg(0)",
                "requirements" : [
@@ -7028,6 +6975,9 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(6)"
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7038,7 +6988,7 @@
             {
                "id" : "quest300",
                "x" : 206,
-               "y" : 75,
+               "y" : 90,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetVoidFortress size(1) dmg(0)",
                "requirements" : [
@@ -7072,6 +7022,9 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(6)"
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7082,7 +7035,7 @@
             {
                "id" : "quest334",
                "x" : 170,
-               "y" : 95,
+               "y" : 110,
                "big" : false,
                "icon" : "Thaumcraft:ItemEldritchObject size(1) dmg(0)",
                "requirements" : [
@@ -7106,13 +7059,16 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "Thaumcraft:ItemEldritchObject size(1) dmg(0)"
+               ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest336",
                "x" : 194,
-               "y" : 95,
+               "y" : 110,
                "big" : false,
                "icon" : "exastrisrebirth:itemEldritchPortalSpawner size(1) dmg(0)",
                "requirements" : [
@@ -7136,13 +7092,16 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "Thaumcraft:ItemEldritchObject size(1) dmg(0)"
+               ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest308",
                "x" : 182,
-               "y" : 115,
+               "y" : 130,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetCultistPlate size(1) dmg(0)",
                "requirements" : [
@@ -7176,6 +7135,9 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(6)"
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7185,8 +7147,8 @@
             },
             {
                "id" : "quest310",
-               "x" : 206,
-               "y" : 115,
+               "x" : 218,
+               "y" : 110,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetCultistRobe size(1) dmg(0)",
                "requirements" : [
@@ -7216,9 +7178,17 @@
                            "item" : "Thaumcraft:ItemLeggingsCultistRobe size(1) dmg(0)",
                            "required" : 1,
                            "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Thaumcraft:ItemBootsCultist size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(6)"
                ],
                "reputations" : [
                   {
@@ -7228,13 +7198,46 @@
                ]
             },
             {
+               "id" : "quest338",
+               "x" : 206,
+               "y" : 130,
+               "big" : false,
+               "icon" : "Thaumcraft:ItemEldritchObject size(1) dmg(3)",
+               "requirements" : [
+                  "quest336"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Thaumcraft:ItemEldritchObject size(1) dmg(3)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest312",
                "x" : 218,
-               "y" : 95,
+               "y" : 150,
                "big" : false,
                "icon" : "Thaumcraft:ItemHelmetCultistLeaderPlate size(1) dmg(0)",
                "requirements" : [
-                  "quest336"
+                  "quest338"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -7263,6 +7266,9 @@
                         }
                      ]
                   }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(4)"
                ],
                "reputations" : [
                   {
@@ -12837,7 +12843,6 @@
                   "quest322",
                   "quest133",
                   "quest152",
-                  "quest324",
                   "quest300",
                   "quest298",
                   "quest308",
@@ -12902,10 +12907,10 @@
                   "quest285",
                   "quest078",
                   "quest125",
-                  "quest162",
                   "quest181",
                   "quest221",
-                  "quest277"
+                  "quest277",
+                  "quest161"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
