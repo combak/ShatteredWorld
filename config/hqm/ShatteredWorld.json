@@ -1432,7 +1432,8 @@
                   }
                ],
                "reward" : [
-                  "GardenCore:garden_soil size(3) dmg(0)"
+                  "GardenCore:garden_soil size(3) dmg(0)",
+                  "minecraft:book size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7410,61 +7411,6 @@
                ]
             },
             {
-               "id" : "quest166",
-               "x" : 66,
-               "y" : 60,
-               "big" : false,
-               "icon" : {
-                  "item" : "Botania:specialFlower size(1) dmg(0)",
-                  "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
-               },
-               "requirements" : [
-                  "quest165"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Botania:specialFlower size(1) dmg(0)",
-                           "nbt" : "=COMPOUND( type=STRING('puredaisy') )",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "Botania:livingwood size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Botania:livingrock size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Botania:fertilizer size(8) dmg(0)",
-                  "Botania:livingwood size(4) dmg(0)",
-                  "Botania:livingrock size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest167",
                "x" : 30,
                "y" : 80,
@@ -7539,9 +7485,64 @@
                ]
             },
             {
-               "id" : "quest169",
-               "x" : 90,
+               "id" : "quest166",
+               "x" : 66,
                "y" : 60,
+               "big" : false,
+               "icon" : {
+                  "item" : "Botania:specialFlower size(1) dmg(0)",
+                  "nbt" : "=COMPOUND( type=STRING('puredaisy') )"
+               },
+               "requirements" : [
+                  "quest165"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Botania:specialFlower size(1) dmg(0)",
+                           "nbt" : "=COMPOUND( type=STRING('puredaisy') )",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  },
+                  {
+                     "id" : "task001",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "Botania:livingwood size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Botania:livingrock size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Botania:fertilizer size(8) dmg(0)",
+                  "Botania:livingwood size(4) dmg(0)",
+                  "Botania:livingrock size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest169",
+               "x" : 78,
+               "y" : 40,
                "big" : false,
                "icon" : "Botania:grassHorn size(1) dmg(0)",
                "requirements" : [
@@ -7573,8 +7574,8 @@
             },
             {
                "id" : "quest170",
-               "x" : 78,
-               "y" : 40,
+               "x" : 90,
+               "y" : 60,
                "big" : false,
                "icon" : {
                   "item" : "Botania:twigWand size(1) dmg(0)",
@@ -7862,45 +7863,6 @@
                ]
             },
             {
-               "id" : "quest183",
-               "x" : 214,
-               "y" : 20,
-               "big" : false,
-               "icon" : "Botania:brewery size(1) dmg(0)",
-               "requirements" : [
-                  "quest179"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Botania:brewery size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Botania:vial size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "Botania:vial size(8) dmg(0)",
-                  "Botania:bloodPendant size(1) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest176",
                "x" : 166,
                "y" : 60,
@@ -8101,6 +8063,109 @@
                ]
             },
             {
+               "id" : "quest183",
+               "x" : 214,
+               "y" : 20,
+               "big" : false,
+               "icon" : "Botania:brewery size(1) dmg(0)",
+               "requirements" : [
+                  "quest179"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Botania:brewery size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Botania:vial size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Botania:vial size(8) dmg(0)",
+                  "Botania:bloodPendant size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest182",
+               "x" : 226,
+               "y" : 40,
+               "big" : false,
+               "icon" : "Botania:dirtRod size(1) dmg(0)",
+               "requirements" : [
+                  "quest179"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Botania:dirtRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Botania:cobbleRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Botania:smeltRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Botania:waterRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Botania:tornadoRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Botania:fireRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "Botania:diviningRod size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:blockAiry size(1) dmg(0)",
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest180",
                "x" : 214,
                "y" : 60,
@@ -8214,69 +8279,6 @@
                      "reputation" : "rep002",
                      "value" : 1
                   }
-               ]
-            },
-            {
-               "id" : "quest182",
-               "x" : 226,
-               "y" : 40,
-               "big" : false,
-               "icon" : "Botania:dirtRod size(1) dmg(0)",
-               "requirements" : [
-                  "quest179"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Botania:dirtRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Botania:cobbleRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Botania:smeltRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Botania:waterRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Botania:tornadoRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Botania:fireRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "Botania:diviningRod size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:nether_star size(1) dmg(0)"
-               ],
-               "reputations" : [
                ]
             },
             {
@@ -8598,17 +8600,17 @@
                         {
                            "item" : "Botania:skyDirtRod size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:gravityRod size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "Botania:rainbowRod size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -8777,13 +8779,12 @@
                         {
                            "item" : "Botania:missileRod size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
                ],
                "reward" : [
-                  "minecraft:nether_star size(1) dmg(0)",
                   "Botania:manaResource size(8) dmg(7)"
                ],
                "reputations" : [
@@ -8791,8 +8792,8 @@
             },
             {
                "id" : "quest196",
-               "x" : 286,
-               "y" : 180,
+               "x" : 274,
+               "y" : 165,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(15)",
                "repeatInfo" : {
@@ -8821,8 +8822,8 @@
             },
             {
                "id" : "quest197",
-               "x" : 262,
-               "y" : 180,
+               "x" : 250,
+               "y" : 165,
                "big" : false,
                "icon" : "Botania:flightTiara size(1) dmg(0)",
                "requirements" : [
@@ -8854,8 +8855,8 @@
             },
             {
                "id" : "quest198",
-               "x" : 274,
-               "y" : 160,
+               "x" : 262,
+               "y" : 145,
                "big" : false,
                "icon" : "Botania:manaResource size(1) dmg(12)",
                "requirements" : [
@@ -8887,8 +8888,8 @@
             },
             {
                "id" : "quest199",
-               "x" : 262,
-               "y" : 140,
+               "x" : 250,
+               "y" : 125,
                "big" : false,
                "icon" : "Botania:redStringRelay size(1) dmg(0)",
                "requirements" : [

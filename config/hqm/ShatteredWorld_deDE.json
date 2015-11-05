@@ -2418,7 +2418,7 @@
          "quests" : [
             {
                "id" : "quest163",
-               "name" : "Lexica Botania",
+               "name" : "Buch der Blumen",
                "description" : "Ein Meister der Kraeuterkunde braucht natuerlich ein gutes Lexikon.",
                "tasks" : [
                   {
@@ -2430,18 +2430,18 @@
             },
             {
                "id" : "quest164",
-               "name" : "Mystical Flower",
+               "name" : "Wiesen Power",
                "description" : "Kraeterkunde ohne Kraeuter ist brotlose Kunst. Deshalb wird es deine Aufgabe sein, erst einmal einige Kraeuter zu sammeln und ihre einfachste Verarbeitung zu lernen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Die Mystical Flower, die Farbe ist egal, sind die Basis der Forschung in Botania. Der Floral Fertilizer hilft dir dabei. Einfach auf die Erde anwenden."
+                     "description" : "Die geheimnisvollen Blumen (Mystical Flower) sind die Basis der Forschung in Botania. Der Blumenduenger (Floral Fertilizer) hilft dir, wenn in deiner Umgebung keine Blumen wachsen. Einfach auf die Erde anwenden. Die Farbe ist bei diesem Quest egal."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Petal",
-                     "description" : "Von allen Kraetern interessieren uns am meisten die Bluetenblaetter (Petal), denn sie enthalten die wichtigen Wirkstoffe. (Farbe ist egal)"
+                     "description" : "Von allen Blumen interessieren uns am meisten die Bluetenblaetter (Petal), denn sie enthalten die wichtigen Wirkstoffe. (Farbe ist egal)"
                   },
                   {
                      "id" : "task002",
@@ -2452,72 +2452,72 @@
             },
             {
                "id" : "quest165",
-               "name" : "Petal Apothecary",
-               "description" : "Wenn man die Bluetenblaetter unterschiedlicher Kraeuter kombiniert erhaelt man neue Pflanzen mit interessanten Eigenschaften.",
+               "name" : "Der Jungbrunnen",
+               "description" : "Wenn man die Bluetenblaetter unterschiedlicher Kraeuter kombiniert, erhaelt man neue Pflanzen mit interessanten Eigenschaften.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Neben diesem einfachen Aphotheke brauchst du noch eine Wasserquelle. Fuer jede neue Mischung brauchst zuerst Wasser und am Ende noch einen beliebigen Samen (Seed)."
-                  }
-               ]
-            },
-            {
-               "id" : "quest166",
-               "name" : "Pure Daisy",
-               "description" : "Der schlaue Kraeuterkundler weiss das in Holz und Stein auch pure Eigenschaften stecken. Diese muessen aber erst heraus gearbeitet werden.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Die Pure Daisy ist genau die Blume, die diese Eigenschaft besitzt."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Detection Task",
-                     "description" : "Wenn man eine Pure Daisy mit acht Bloecken Holz oder Stein umgibt, kann sie diese in ihre Living Form wandeln."
+                     "description" : "Neben dieser einfachen Aphotheke brauchst du noch eine Wasserquelle. Die Herstellung der Blumen startet mit Wasser und endet mit einem beliebigen Samen (Seed)."
                   }
                ]
             },
             {
                "id" : "quest167",
-               "name" : "Manastar",
+               "name" : "Im Sternzeichen der Blume",
                "description" : "Gerade am Anfang weiss man nie wieviel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Mit dieser Blume kann man den Verbrauch an Mana besser einschaetzen. Sie leuchtet je nach Bedarf in verschiedenen Farben."
+                     "description" : "Mit dieser Blume kann man den Verbrauch an Mana besser einschaetzen. Sie leuchtet je nach Verbrauch in verschiedenen Farben."
                   }
                ]
             },
             {
                "id" : "quest168",
-               "name" : "Endoflame",
-               "description" : "Eine gute Manaquelle ist die Endoflame. Sie kann Mana aus allem was brennbar ist generieren. Und wenn man genug davon hat, sollte man sie benutzen.",
+               "name" : "Die Feuerblume",
+               "description" : "Eine gute Manaquelle ist die Endoflame. Sie kann Mana aus allem was brennbar ist generieren. Und wenn man genug davon hat, sollte man diese benutzen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Das Problem hier ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kuntinuierliche Versorgung geben."
+                     "description" : "Das Problem ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kuntinuierliche Versorgung geben."
+                  }
+               ]
+            },
+            {
+               "id" : "quest166",
+               "name" : "Das pure Weiss",
+               "description" : "Der schlaue Kraeuterkundler weiss das in Holz und Stein auch lebende Eigenschaften stecken. Diese muessen aber erst heraus gearbeitet werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die Pure Daisy ist genau die Blume, die diese Faehigkeit besitzt."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Wenn man eine Pure Daisy mit acht Bloecken Holz oder Stein umgibt, kann sie diese in ihre Lebende (living) Form wandeln."
                   }
                ]
             },
             {
                "id" : "quest169",
-               "name" : "Horn of the Wild",
-               "description" : "Unnamed quest",
+               "name" : "Das Alpenhorn",
+               "description" : "Das staendige Buecken nach den Blumen geht ganz schoen auf den Ruecken. Koennen diese nicht von allein in den Beutel springen?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Horn erledigt zwar nicht den ganzen Job. Aber so brauchen wir uns wenigstens nicht mehr buecken."
                   }
                ]
             },
             {
                "id" : "quest170",
-               "name" : "Livingrock Twig",
+               "name" : "Blaues Wasser",
                "description" : "Wir sind erst am Anfang unserer Kraeuterkunde. Aber dafuer brauchen wir wichtig Gegenstaende um das Mana der Natur zu sammeln.",
                "tasks" : [
                   {
@@ -2529,31 +2529,31 @@
             },
             {
                "id" : "quest171",
-               "name" : "Mana Produktion",
-               "description" : "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind diese alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
+               "name" : "Die Kraft der Blumen",
+               "description" : "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Man sollte beachten, das gleiche Blumen nicht zu nah bei einander plaziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden."
+                     "description" : "Man sollte beachten, das gleiche Blumen nicht zu nah beieinander plaziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden."
                   }
                ]
             },
             {
                "id" : "quest172",
-               "name" : "Mana Pool",
+               "name" : "Das blaue Bassin",
                "description" : "Unser erster Manapool war recht schnell voll. Er scheint wohl kein grosses Fassungsvermoegen zu haben.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Jetzt lernst du die einfache Benutzung deines Manas. Wenn du ein Item in einen gefuellten Manapool wirfst, werden diese in eine verbesserte Form verwandelt. Das geht natuerlich nicht mit allen Dingen. Aber der Tooltip an deinem Cursor hilft die da weiter."
+                     "description" : "Jetzt lernst du die einfache Benutzung deines Manas. Wenn du ein Item in einen gefuellten Manapool wirfst, wird dieses in eine verbesserte Form verwandelt. Das geht natuerlich nicht mit allen Dingen. Aber der Tooltip an deinem Cursor hilft dir da weiter."
                   }
                ]
             },
             {
                "id" : "quest174",
-               "name" : "Mana Items",
+               "name" : "Das blaue Werkzeug",
                "description" : "Und schon sind wir bei den naechsten aufgewertetet Gegenstaenden, die du als Meister der Kraeuterkunde kennen musst.",
                "tasks" : [
                   {
@@ -2570,8 +2570,8 @@
             },
             {
                "id" : "quest175",
-               "name" : "Manasteel Armor",
-               "description" : "Was liegt naeher aus Stahl herzustellen, als ein super Ruestung.",
+               "name" : "Die blaue Kostuem",
+               "description" : "Was liegt naeher, als ein super Ruestung aus Manasteel herzustellen?",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2582,31 +2582,19 @@
             },
             {
                "id" : "quest173",
-               "name" : "Mana Tools",
+               "name" : "Der Schaltkasten",
                "description" : "Unser Mananetzwerk wird jetzt immer groesser. Dann wird es Zeit fuer weiter Werkzeuge zum Steuern des Manaflusses.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Den Mana Distributor und das Mana Tablet wird man sich oft brauchen. Die ander werden eher selten gebraucht."
-                  }
-               ]
-            },
-            {
-               "id" : "quest183",
-               "name" : "Botanische Brauerei",
-               "description" : "Die normalen Traenke sind in vielen Faellen schon sehr nuetzlich. Aber sie koennten staerker sind und laenger dauern.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Dieser Braustand sieht zwar etwas ulkig aus, aber er arbeitet sehr zuverlaessig. Ueber deine Moeglichkeiten mit dem Teil solltest du genau dein Lexikon studieren."
+                     "description" : "Der Mana Verteiler (Distributor) verteilt das Mana, welches er erhaelt, gleichmaessig auf alle angeschlossenen Pools auf. Mit dem Mana Tablet kann man Mana transportieren. Die ander werden eher selten gebraucht."
                   }
                ]
             },
             {
                "id" : "quest176",
-               "name" : "Mana Lens",
+               "name" : "Das Teleskop",
                "description" : "Mit Manalinsen laesst sich das Verhalten der Manaspreader veraendern. Sie koennen auch fuer schoene Schmuckstuecke benutzt werden.",
                "tasks" : [
                   {
@@ -2617,26 +2605,26 @@
                   {
                      "id" : "task001",
                      "name" : "Crafting Task special",
-                     "description" : "Stelle von jeder Linse je ein Muster her."
+                     "description" : "Stelle von jeder Linse je ein Muster her. Sieh in dein Buch, wenn du wissen willst, was die Funktion der Linsen ist. Muss man dir den alles erklaeren?"
                   }
                ]
             },
             {
                "id" : "quest177",
-               "name" : "Ring of Magnetization",
-               "description" : "Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgenwand irgendie sinnvoll.",
+               "name" : "Der grosse Attraktor",
+               "description" : "Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik zu dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgenwann irgendwie sinnvoll.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Nie wieder buecken. Der Magnetring sammelt alles, was auf dem Boden liegt, ein. Sehr praktisches Teil!"
+                     "description" : "Nie wieder buecken. Der Magnetring sammelt alles, was auf dem Boden liegt, ein. Sehr praktisches, das Teil!"
                   }
                ]
             },
             {
                "id" : "quest178",
-               "name" : "Runic Altar",
-               "description" : "Manche Dinge lassen sich ja wunderbar mit speziellen Blumen erledigen, aber da sind auch mchtigere Zauber. Fuer diese Dinge bedarf es einer maechigeren Waffe, dem Altar.",
+               "name" : "Die heilige Staette",
+               "description" : "Manche Dinge lassen sich ja wunderbar mit speziellen Blumen erledigen, aber da sind auch maechtigere Zauber. Fuer diese Dinge bedarf es eines maechigeren Werkzeugs, dem Altar.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2647,8 +2635,8 @@
             },
             {
                "id" : "quest179",
-               "name" : "Runen der 5 Elemente",
-               "description" : "Die wichtigsten Teile, die mit dem Altar hersgestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichigte Zauber.",
+               "name" : "Die fuenf Elemente",
+               "description" : "Die wichtigsten Teile, die mit dem Altar hergestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichigte Zauber.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2658,26 +2646,14 @@
                ]
             },
             {
-               "id" : "quest180",
-               "name" : "Runen der 4 Jahreszeiten",
-               "description" : "Diese Runen sind um einiges maechtiger.",
+               "id" : "quest183",
+               "name" : "Das verbotene Gesoeff",
+               "description" : "Die normalen Traenke sind in vielen Faellen schon sehr nuetzlich. Aber sie koennten staerker sind und laenger dauern.",
                "tasks" : [
                   {
                      "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Das Problem mit den Runen der vier Jahreszeiten ist die geringe Anzahl bei der Herstellung."
-                  }
-               ]
-            },
-            {
-               "id" : "quest181",
-               "name" : "Runen der Glueckseligkeiten",
-               "description" : "Die hohe Kunst der Runen. Diese Spezielrunen dienen als Grundlage fuer maechtige Zauber.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Ich koennte jetzt aufzaehlen, wo diese Runen ueberall eingesetzt werden koennen. Aber das wuerde dir nur den Spass verderben."
+                     "name" : "Crafting Task",
+                     "description" : "Dieser Braustand sieht zwar etwas ulkig aus, aber er arbeitet sehr zuverlaessig. Ueber deine Moeglichkeiten mit dem Teil solltest du genau dein Lexikon konsultieren."
                   }
                ]
             },
@@ -2689,55 +2665,79 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit diesen Staeben lassen sich Bloecke und Soucebloecke setzen."
+                     "description" : "Mit diesen Staeben lassen sich Bloecke und Soucebloecke setzen und vieles, vieles mehr."
+                  }
+               ]
+            },
+            {
+               "id" : "quest180",
+               "name" : "Die vier Jahreszeiten",
+               "description" : "Diese Runen sind um einiges maechtiger.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Das Problem mit den Runen der vier Jahreszeiten ist die geringe Anzahl bei der Herstellung, aber das gleichst du ja durch deinen Fleiss aus."
+                  }
+               ]
+            },
+            {
+               "id" : "quest181",
+               "name" : "Die Basis des Glaubens",
+               "description" : "Die hohe Kunst der Runen. Diese Spezielrunen dienen als Grundlage fuer die maechtigsten Zauber.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Ich koennte jetzt aufzaehlen, wo diese Runen ueberall eingesetzt werden koennen. Aber das wuerde dir nur den Spass verderben."
                   }
                ]
             },
             {
                "id" : "quest184",
-               "name" : "Terrasteel Ingot",
+               "name" : "Das gruene Monster",
                "description" : "Die naechste Stufe des Kraeuterkundlers. ",
                "tasks" : [
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besserern Stahl. Ob der Transformationsprozess startet zeigt dir die Effekteshow."
+                     "description" : "Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besseren Stahl. Ob der Transformationsprozess startet zeigt dir die Effekteshow."
                   },
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Den genauen Aufbau findest du wieder in deinem Lexikon. Die Versurgung mit Mana erfolgt ueber Sparks. Aber beachte, das der Manaverbrauch gewaltig ist."
+                     "description" : "Den genauen Aufbau findest du wieder in deinem Lexikon. Die Versorgung mit Mana erfolgt ueber Sparks. Aber beachte, das der Manaverbrauch gewaltig ist."
                   }
                ]
             },
             {
                "id" : "quest185",
-               "name" : "Terrasteel Armor",
+               "name" : "Der gruene Teufel",
                "description" : "Und wieder eine formschoene Ruestung.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Diese Ruestung haelt mehr aus."
+                     "description" : "Diese Ruestung haelt mehr aus und schreckt Gegner schon von weitem ab."
                   }
                ]
             },
             {
                "id" : "quest186",
-               "name" : "Rod of the Terra Firma",
+               "name" : "Die Kraft der Erde",
                "description" : "Mit diesem einzigartigen Stab kannst du den Bereich auf dem du stehst einebenen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Dieser Stab stellt ein Upgrade fuer den Rod of the Lands dar."
+                     "description" : "Der Stab stellt ein Upgrade fuer den Rod of the Lands dar."
                   }
                ]
             },
             {
                "id" : "quest187",
-               "name" : "Elven Portal",
-               "description" : "Das Elven Portal oeffnet uns den Weg zu den maechtigsten Zaubern eines Krauterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal handel treiben.",
+               "name" : "Das Tor zum Himmel",
+               "description" : "Das Elven Portal oeffnet uns den Weg zu einzigartigen Zaubern eines Krauterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal handel treiben.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2748,7 +2748,7 @@
             },
             {
                "id" : "quest188",
-               "name" : "Elementium Ingot",
+               "name" : "Die pinke Zelle",
                "description" : "Elementium Steel ist das staerkste Metall, das du jetzt herstellen kannst.",
                "tasks" : [
                   {
@@ -2760,31 +2760,31 @@
             },
             {
                "id" : "quest189",
-               "name" : "Elementium Armor",
+               "name" : "Pink Panther",
                "description" : "Die letzte Ruestung, versprochen!",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "So eine rosarote Ruestung ist der Traum eines jeden Spielers."
+                     "description" : "So eine rosarote Ruestung ist der Traum eines jeden Spielers. Die Wirkung auf Gegener ist allerding umstritten."
                   }
                ]
             },
             {
                "id" : "quest190",
-               "name" : "Elementium Items",
-               "description" : "Mit dem Elvenportal lassen sich neu wichtig Gegenstaende herstellen.",
+               "name" : "Das pinke Werkzeug",
+               "description" : "Mit dem Elvenportal lassen sich neue wichtig Gegenstaende herstellen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Je nachdem was du durch das Elven Portal wirfst, erhaelst du von den Elven die gewuenschten Gegenstaende."
+                     "description" : "Je nachdem was du durch das Elven Portal wirfst, erhaelst du von den Elven die gewuenschten Tauschobjekte."
                   }
                ]
             },
             {
                "id" : "quest191",
-               "name" : "Elven Rods",
+               "name" : "Der Krueckstock",
                "description" : "Und wieder Upgrades fuer einfache Staebe.",
                "tasks" : [
                   {
@@ -2796,7 +2796,7 @@
             },
             {
                "id" : "quest192",
-               "name" : "Spark Augment",
+               "name" : "Runen der Macht",
                "description" : "Du hast ja schon die Sparks kennen gelernt. Mit den Erweiterungen (Augment) kannst du neue Effekte mit den Sparks erreichen.",
                "tasks" : [
                   {
@@ -2808,7 +2808,7 @@
             },
             {
                "id" : "quest193",
-               "name" : "Ritual of Gaia",
+               "name" : "Die boese Hexe",
                "description" : "Es wird Zeit fuer einen ordentlichen Bosskampf. Aber dieser hat es in sich. Du solltest eine gute Ruestung und starke Traenke am Start haben.",
                "tasks" : [
                   {
@@ -2825,7 +2825,7 @@
             },
             {
                "id" : "quest194",
-               "name" : "Gaia Items",
+               "name" : "Verhexte Dinge",
                "description" : "Wer haette es gedacht, aus den Gaia Spirit lassen sich noch bessere Gegestaende herstellen.",
                "tasks" : [
                   {
@@ -2837,7 +2837,7 @@
             },
             {
                "id" : "quest195",
-               "name" : "Gaia Rod",
+               "name" : "Der Hexenbesen",
                "description" : "Wir hatten lange keinen Stab mehr. Aber dieser ist etwas besonderes.",
                "tasks" : [
                   {
@@ -2849,7 +2849,7 @@
             },
             {
                "id" : "quest196",
-               "name" : "Ender Air Bottle",
+               "name" : "Die Flaschenpost",
                "description" : "Du hast das End betreten. Nachdem du den Drachen getoetet hast, siehst du dich etwas um. Dir faellt auch dieses besondere Aroma in der Luft auf. Ob sich das wohl nutzen laesst?",
                "tasks" : [
                   {
@@ -2861,19 +2861,19 @@
             },
             {
                "id" : "quest197",
-               "name" : "Fluegel Tiara",
+               "name" : "Wie auf Wolke 7",
                "description" : "Es wird Zeit fuer unsere Flugfaehigkeit.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Diese formschoenen Fluegel lassen sich an den Geschmack des Bezitzer anpassen. Denn nichts ist wichtiger als der aessere Schein."
+                     "description" : "Diese formschoenen Fluegel lassen sich an den Geschmack des Besitzer anpassen. Denn nichts ist wichtiger als der aessere Schein."
                   }
                ]
             },
             {
                "id" : "quest198",
-               "name" : "Red String",
+               "name" : "Der rote Faden",
                "description" : "Rote Faeden, was soll das schon bringen? Die machen bestimmt nur rote Kleidungsstuecke.",
                "tasks" : [
                   {
@@ -2885,7 +2885,7 @@
             },
             {
                "id" : "quest199",
-               "name" : "Red String Items",
+               "name" : "Die Fernwaffe",
                "description" : "Doch keine rote Kleidung. Bloecke, die eine magische Fernwirkung haben. Was sich damit alles machen laesst?",
                "tasks" : [
                   {
