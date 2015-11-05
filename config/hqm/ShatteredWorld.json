@@ -9046,7 +9046,7 @@
                         {
                            "item" : "AWWayofTime:weakBloodOrb size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -9079,7 +9079,7 @@
                         {
                            "item" : "AWWayofTime:divinationSigil size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -9236,7 +9236,7 @@
                         {
                            "item" : "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -9443,7 +9443,7 @@
                         {
                            "item" : "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -9529,6 +9529,65 @@
                "reward" : [
                   "DraconicEvolution:longRangeDislocator size(2) dmg(1)",
                   "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(3)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest219",
+               "x" : 78,
+               "y" : 115,
+               "big" : false,
+               "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
+               "requirements" : [
+                  "quest209",
+                  "quest211"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(2)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(8)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(1)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(7)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(6)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "AWWayofTime:bloodMagicBaseAlchemyItems size(8) dmg(3)"
                ],
                "reputations" : [
                ]
@@ -9789,19 +9848,20 @@
                ]
             },
             {
-               "id" : "quest219",
-               "x" : 78,
-               "y" : 115,
+               "id" : "quest320",
+               "x" : 142,
+               "y" : 180,
                "big" : false,
-               "icon" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
+               "icon" : "AWWayofTime:sanguineHelmet size(1) dmg(0)",
                "requirements" : [
-                  "quest209",
-                  "quest211"
+                  "quest217",
+                  "quest132",
+                  "quest322"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "tasks" : [
                   {
@@ -9809,42 +9869,36 @@
                      "type" : "TASK_ITEMS_DETECT",
                      "requirements" : [
                         {
-                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
+                           "item" : "AWWayofTime:sanguineHelmet size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
-                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(2)",
+                           "item" : "AWWayofTime:sanguineRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
-                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(8)",
+                           "item" : "AWWayofTime:sanguinePants size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
-                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(1)",
+                           "item" : "AWWayofTime:sanguineBoots size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(7)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(6)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
                ],
                "reward" : [
-                  "AWWayofTime:bloodMagicBaseAlchemyItems size(8) dmg(3)"
+                  "TConstruct:heartCanister size(1) dmg(6)"
                ],
                "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
                ]
             },
             {
@@ -9880,7 +9934,7 @@
                   }
                ],
                "reward" : [
-                  "minecraft:nether_star size(1) dmg(0)"
+                  "AWWayofTime:standardBindingAgent size(10) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -9978,7 +10032,7 @@
                         {
                            "item" : "AWWayofTime:masterBloodOrb size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -10263,7 +10317,7 @@
                         {
                            "item" : "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -10330,7 +10384,7 @@
                         {
                            "item" : "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -10387,57 +10441,6 @@
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
                "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest320",
-               "x" : 142,
-               "y" : 180,
-               "big" : false,
-               "icon" : "AWWayofTime:sanguineHelmet size(1) dmg(0)",
-               "requirements" : [
-                  "quest217",
-                  "quest132",
-                  "quest322"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "AWWayofTime:sanguineHelmet size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "AWWayofTime:sanguineRobe size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "AWWayofTime:sanguinePants size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        },
-                        {
-                           "item" : "AWWayofTime:sanguineBoots size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "NBT_FUZZY"
-                        }
-                     ]
-                  }
-               ],
-               "reputations" : [
-                  {
-                     "reputation" : "rep001",
-                     "value" : 1
-                  }
                ]
             }
          ]

@@ -2915,14 +2915,14 @@
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "Sich einfach nur zu verletzen ist sehr gefaehrlich. Das das richtige Werkzeug fuer diesen rituellen Vorgang ist zwingend notwendig."
+                     "description" : "Sich einfach nur zu verletzen ist sehr gefaehrlich. Das richtige Werkzeug ist fuer diesen rituellen Vorgang zwingend notwendig."
                   }
                ]
             },
             {
                "id" : "quest201",
                "name" : "Die Basisplatte",
-               "description" : "Die Schieferplatten sind die Basiskomponenten aus denen die Werkzeuge des Blutmagier gemacht sind. Der erste ist der Blank Slate.",
+               "description" : "Die Schieferplatten (slate) sind die Basiskomponenten aus denen die Werkzeuge des Blutmagier gemacht sind. Der erste ist die Blank Slate.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -2939,7 +2939,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Stelle diesen einfachen Orb her."
+                     "description" : "Stelle diesen einfachen Orb her. Mit einem Rechstklick bindest du den Orb an dich."
                   }
                ]
             },
@@ -2951,7 +2951,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Mit den Divination Sigil kannst du sowohl die Menge an Blut im Altar als auch in deinem Netzwerk bestimmen."
+                     "description" : "Mit dem Weissagungs (Divination) Sigil kannst du sowohl die Menge an Blut im Altar als auch in deinem Netzwerk bestimmen."
                   }
                ]
             },
@@ -2970,7 +2970,7 @@
             {
                "id" : "quest205",
                "name" : "Stroh zu Gold",
-               "description" : "Was waere ein Zaubermod ohne Traenke. Auch der Blutmagier hat seinen eigenen Braustand, oder sollte ich besser Hexenkueche sagen.",
+               "description" : "Was waere ein Zaubermod ohne Traenke. Auch der Blutmagier hat seinen eigenen Braustand, oder sollte ich besser Giftkueche sagen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3004,36 +3004,36 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk halten vorhalten kann."
+                     "description" : "Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk vorhalten kann. Ja, ein bischen Grips ist schon notwendig."
                   }
                ]
             },
             {
                "id" : "quest208",
                "name" : "Aufbauen und Zerstoeren",
-               "description" : "Jetzt legen wir mit den Siegeln richtig los.",
+               "description" : "Wir legen mit den Sigils richtig los.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit diesen Siegeln kann man kurzzeitig fliegen. Das ander Siegel zeigt den Fortschritt und die Geschwindigkeit des Altars an."
+                     "description" : "Mit dem einen Sigils kann man kurzzeitig fliegen. Das andere zeigt den Fortschritt und die Geschwindigkeit des Altars an."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "Mit diesen Siegeln kann man schneller Erz abbauen und Pflanzen wachsen in der Umgebung wie wild."
+                     "description" : "Mit diesem Sigil kann man schneller Erz abbauen und Pflanzen wachsen in der Umgebung wie wild."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "Ein sehr interessantes Siegel. Zum einen kann es Fluessigkeiten verschwinden lassen. Aber verhindert auch Void Schaden, wenn es in eine Ruestung eingearbeitet ist."
+                     "description" : "Ein sehr interessantes Sigil. Zum einen kann es Fluessigkeiten verschwinden lassen. Aber verhindert auch Void Schaden, wenn es in eine Ruestung eingearbeitet ist."
                   }
                ]
             },
             {
                "id" : "quest209",
                "name" : "Der Schluesselsatz",
-               "description" : "Die Basis alle weiteren Beschwoerungen sind diese Basis Essenzen.",
+               "description" : "Die Basis alle weiteren Beschwoerungen sind diese Essenzen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3045,7 +3045,7 @@
             {
                "id" : "quest210",
                "name" : "Die nasse Platte",
-               "description" : "Und noch eine bessere Stufe der Slates.",
+               "description" : "Und noch eine bessere Variante der Slates.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3057,7 +3057,7 @@
             {
                "id" : "quest211",
                "name" : "Die Wasserkugel",
-               "description" : "Das dritte Level des Orbs.",
+               "description" : "Das dritte Level der Orbs.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3069,32 +3069,44 @@
             {
                "id" : "quest212",
                "name" : "Hoch und runter",
-               "description" : "Kommen wir jetzt zur hohen Schule der Siegel.",
+               "description" : "Kommen wir jetzt zur hohen Schule der Sigils.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task Affinity",
-                     "description" : "Diese Siegel schuetzt vor dem Ertrinken, Feuer und dem Sterben bei tiefen Fallen."
+                     "description" : "Diese Sigil schuetzt vor dem Ertrinken, Feuer und dem Sterben nach tiefem Fallen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Magnetism",
-                     "description" : "Der Magnet unter den Siegel. Zieht alles im Radius von 5 Bloecken an."
+                     "description" : "Der Magnet unter den Sigil. Zieht alles im Radius von 5 Bloecken an."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task Lamp",
-                     "description" : "Ein sehr nuetzliches Siegel. Man kann damit Blutlicht werfen. Ausserdem gewaehrt es Nachtsicht in einer Ruestung."
+                     "description" : "Ein sehr nuetzliches Sigil. Man kann damit Blutlicht werfen. Ausserdem gewaehrt es Nachtsicht in einer Ruestung."
                   },
                   {
                      "id" : "task003",
                      "name" : "Crafting Task Bridge",
-                     "description" : "Sicher das lustigste Siegel. Man erzeugt damit ein Luftbruecke, ueber die man laufen kann."
+                     "description" : "Sicher das lustigste Sigil. Man erzeugt damit ein Luftbruecke, ueber die man laufen kann."
                   },
                   {
                      "id" : "task004",
                      "name" : "Crafting Task Holding",
-                     "description" : "Das schweizer Taschenmesser unter den Siegeln. Es kann bis zu vier andere Siegel aufnehmen und damit Platz im Inventar sparen."
+                     "description" : "Das schweizer Taschenmesser unter den Sigils. Es kann bis zu vier andere Sigil aufnehmen und damit Platz im Inventar sparen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest219",
+               "name" : "Das Spezialwerkzeug",
+               "description" : "Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Demonen herbei zaubern.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Stelle auch hiervon je eine Probe her, auch wenn du spaeter mehr davon brauchen wirst."
                   }
                ]
             },
@@ -3113,7 +3125,7 @@
             {
                "id" : "quest214",
                "name" : "Die Wuenschelrute",
-               "description" : "Die meisten Rituale sind sehr komplex, auch fuer das super Gedaechtnis eines Blutmagiers. Die Ritual Wuenchelrute hilft beim Aufbauen der Ritual Konstruktionen.",
+               "description" : "Die meisten Rituale sind sehr komplex, auch fuer das super Gedaechtnis eines Blutmagiers. Die Ritual Wuenchelrute hilft beim Aufbauen der Konstruktionen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3137,24 +3149,24 @@
             {
                "id" : "quest216",
                "name" : "Mein Schatz",
-               "description" : "Das ist das erste Ritual das du brauchst um weiter zu kommen. Damit bindest du Items an dich.",
+               "description" : "Das ist das erste Ritual das du brauchst um weiter zu kommen. Damit bindest du Gegenstaende an dich.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Diese besondere Schwert ist notwendig zum Ernten der Bood Shards. Damit kann der Altar auf Stufe 4 aufgeruestet werden."
+                     "description" : "Diese besondere Schwert ist notwendig zum Ernten der Blood Shards. Damit kann der Altar auf Stufe 4 aufgeruestet werden."
                   }
                ]
             },
             {
                "id" : "quest217",
                "name" : "Das gefrorene Blut",
-               "description" : "Die Blutscherben sind die einfachsten Scherben, die du erhalten kannst. Benutze dein Bound Sword und gehe auf Monsterjagd.",
+               "description" : "Die Blutscherben sind die einfachsten Scherben, die du erhalten kannst. Benutze dein Bounded Sword und gehe auf Monsterjagd.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Um die Ausbeute hoch und das eigene Risiko gering zu halten ist ein speziell konstruierte Monsterfarm eine gute Hilfe."
+                     "description" : "Um die Ausbeute hoch und das eigene Risiko gering zu halten ist ein speziell konstruierte Monsterfarm eine gute Idee."
                   }
                ]
             },
@@ -3176,14 +3188,14 @@
                ]
             },
             {
-               "id" : "quest219",
-               "name" : "Das Spezialwerkzeug",
-               "description" : "Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Demonen herbei zaubern.",
+               "id" : "quest320",
+               "name" : "Der Grenzgaenger",
+               "description" : "Die blutrote (sanguine) Ruestung stellt ein Bindeglied zu einem anderen Mod dar und kann eigenstaendig genutzt werden oder in die Blood Magig Ruestung eingearbeitet werden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Stelle auch hiervon je eine Probe her, auch wenn du spaeter mehr davon brauchen wirst."
+                     "description" : "Mit dem Ritual of Binding wandelt man Gegenstaende aus dem anderen Mod um und erhaelt neue mit Eigenschaften aus zwei Welten."
                   }
                ]
             },
@@ -3238,32 +3250,32 @@
             {
                "id" : "quest224",
                "name" : "Hin und weg",
-               "description" : "Was, noch mehr Siegel. Wir koennen doch schon alles moegliche.",
+               "description" : "Was, noch mehr Sigil? Wir koennen doch schon alles moegliche.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task Compress",
-                     "description" : "Ein wohl eher selten genutzes Siegel, der Autopacker im Inventar. Es kann Items zu Bloecken wandeln (2x2 oder 3x3)."
+                     "description" : "Ein wohl eher selten genutzes Sigil, der Autopacker im Inventar. Es kann Gegenstaende zu Bloecken wandeln (2x2 oder 3x3)."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task Ender",
-                     "description" : "Sicher auch ein sehr spassiges Siegel. Es verhindert, das sich Endermaenner wegporten koennen."
+                     "description" : "Sicher auch ein sehr spassiges Sigil. Es verhindert, das sich Endermaenner wegporten koennen."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task Haste",
-                     "description" : "Dieses Siegel macht genau das was uns der Name sagt. Der Spieler bekommt einen Geschwingkeitsbuff."
+                     "description" : "Dieses Sigil macht genau das was uns der Name sagt. Der Spieler bekommt einen Geschwingkeitsbuff."
                   },
                   {
                      "id" : "task003",
                      "name" : "Crafting Task Whirlwind",
-                     "description" : "Diese Siegel ist als Teil der Ruestung gold wert. Es reflektiert alle Projektile und Pfleile."
+                     "description" : "Diese Sigil ist als Teil der Ruestung gold wert. Es reflektiert alle Projektile und Pfleile."
                   },
                   {
                      "id" : "task004",
                      "name" : "Crafting Task Supression",
-                     "description" : "Auch ein Siegel aus der Kategorie Spass. Es entferrnt alle Fluessigleitsbloecke in einem Radius von 5. Man geht also in einer Blase durch Wasser oder Lava."
+                     "description" : "Auch ein Sigil aus der Kategorie Spass. Es entferrnt alle Fluessigleitsbloecke in einem Radius von 5. Man geht in einer Blase durch Wasser oder Lava."
                   }
                ]
             },
@@ -3287,7 +3299,7 @@
             {
                "id" : "quest226",
                "name" : "Der Kristalltank",
-               "description" : "Bei einigen Ritualen ist es notwendig magische Reagenzien zu benutzen. Damit wird das Ritual erst moeglich gemacht oder bestimmte Effekte frei geschalten.",
+               "description" : "Bei einigen Ritualen ist es notwendig magische Reagenzien zu benutzen. Damit werden bestimmte Effekte frei geschalten.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3335,12 +3347,12 @@
             {
                "id" : "quest230",
                "name" : "Wachsen und vergehen",
-               "description" : "Nimmt das den gar kein Ende mit den Siegeln.",
+               "description" : "Nimmt das den gar kein Ende mit den Sigil.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Ein Must Have fuer alle Gaertner unter uns. Mit deisem Siegel wird automatisch geerntet, eingesammlt und geplanzt. Sehr nuetzlich!"
+                     "description" : "Ein Unbeding Habe Wollen (Must Have) fuer alle Gaertner unter uns. Mit deisem Siegel wird automatisch geerntet, eingesammlt und geplanzt. Sehr nuetzlich!"
                   }
                ]
             },
@@ -3369,19 +3381,7 @@
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "Mit der neuer Tinte hast du dir auch eine neue Wuenschelrute frei geschalten."
-                  }
-               ]
-            },
-            {
-               "id" : "quest320",
-               "name" : "Sanguine Armor",
-               "description" : "Unnamed quest",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Mit der neuer Tinte hast du dir auch eine neue Wuenschelrute frei geschaltet."
                   }
                ]
             }
