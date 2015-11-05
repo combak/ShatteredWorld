@@ -10516,12 +10516,12 @@
                         {
                            "item" : "DraconicEvolution:teleporterMKI size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "DraconicEvolution:teleporterStand size(1) dmg(0)",
                            "required" : 2,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -10599,39 +10599,6 @@
                ]
             },
             {
-               "id" : "quest270",
-               "x" : 234,
-               "y" : 100,
-               "big" : false,
-               "icon" : "DraconicEvolution:sunDial size(1) dmg(0)",
-               "requirements" : [
-                  "quest285"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "DraconicEvolution:sunDial size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "DraconicEvolution:draconicIngot size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest271",
                "x" : 38,
                "y" : 105,
@@ -10686,7 +10653,7 @@
                         {
                            "item" : "DraconicEvolution:energyInfuser size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -10719,7 +10686,7 @@
                         {
                            "item" : "DraconicEvolution:draconiumChest size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -10861,12 +10828,12 @@
                         {
                            "item" : "DraconicEvolution:mobSoul size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         },
                         {
                            "item" : "DraconicEvolution:customSpawner size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -11039,6 +11006,76 @@
                ]
             },
             {
+               "id" : "quest285",
+               "x" : 234,
+               "y" : 135,
+               "big" : false,
+               "icon" : "DraconicEvolution:awakenedCore size(1) dmg(0)",
+               "requirements" : [
+                  "quest281"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "DraconicEvolution:awakenedCore size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:draconicBlock size(1) dmg(0)"
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest270",
+               "x" : 234,
+               "y" : 100,
+               "big" : false,
+               "icon" : "DraconicEvolution:sunDial size(1) dmg(0)",
+               "requirements" : [
+                  "quest285"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "DraconicEvolution:sunDial size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:draconicIngot size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest282",
                "x" : 262,
                "y" : 110,
@@ -11172,43 +11209,6 @@
                "reputations" : [
                   {
                      "reputation" : "rep001",
-                     "value" : 1
-                  }
-               ]
-            },
-            {
-               "id" : "quest285",
-               "x" : 234,
-               "y" : 135,
-               "big" : false,
-               "icon" : "DraconicEvolution:awakenedCore size(1) dmg(0)",
-               "requirements" : [
-                  "quest281"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "DraconicEvolution:awakenedCore size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "DraconicEvolution:draconicBlock size(1) dmg(0)"
-               ],
-               "reputations" : [
-                  {
-                     "reputation" : "rep002",
                      "value" : 1
                   }
                ]

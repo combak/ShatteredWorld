@@ -3395,7 +3395,7 @@
             {
                "id" : "quest266",
                "name" : "Der Gluecksritter",
-               "description" : "Diese edle Erz ist schwer zu finden. Trotzdem lassen sich daraus maechtige Waffen und Werkzeuge herstellen. Man findet es sehr selten im Nether oder aber im End. Auch kann man es aus Endstone heraus sieben, wenn man fleissig ist.",
+               "description" : "Dieses edle Erz ist schwer zu finden. Trotzdem lassen sich daraus maechtige Waffen und Werkzeuge herstellen. Man findet es sehr selten im Nether oder aber im End. Auch kann man es aus Endstone heraus sieben, wenn man fleissig ist.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3429,7 +3429,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Diese einfache Teil gibt uns eine Vorahnung auf den Materialbedarf dieses Mods."
+                     "description" : "Dieses einfache Teil gibt uns eine Vorahnung auf den Materialbedarf dieses Mods."
                   }
                ]
             },
@@ -3446,33 +3446,21 @@
                ]
             },
             {
-               "id" : "quest270",
-               "name" : "Der Sonnenanbeter",
-               "description" : "Jetzt zeigt sich die ware Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Mit einem Redstone Signal kann die Zeit beschleunigt werden. Aber, die Tickrate des Spiels wird nicht veraendert!"
-                  }
-               ]
-            },
-            {
                "id" : "quest271",
                "name" : "Der Killer",
-               "description" : "Fuer die automatische Jadg auf Grosswild braucht man eine besonders gefaehliche Maschine, die auch unkontrollierten Explosionen stand haellt.",
+               "description" : "Fuer die automatische Jadg auf Grosswild braucht man eine besonders gefaehrliche Maschine. Diese haellt auch schweren Explosionen stand.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Diese nette kleine Maschine kann auch zum Toeten von Withern eingesetzt werden."
+                     "description" : "Diese nette kleine Maschine eignet sich hervorragend zum Toeten eines Withers."
                   }
                ]
             },
             {
                "id" : "quest272",
                "name" : "Der Lieferant",
-               "description" : "Was waere eine bessere Energieerzeugung ohne eine bessere Ladestation. Hier haben wir genau das richtige.",
+               "description" : "Was waere eine bessere Energieerzeugung ohne eine bessere Ladestation. Hier haben wir genau das Richtige.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3484,7 +3472,7 @@
             {
                "id" : "quest273",
                "name" : "Der Nimmersatte",
-               "description" : "Eins der Highlights dieses Mods ist diese Zauberkisten. Sie ist ein warer Alleskoenner. Passt viel rein und bietet allen Luxus fuer einfache Verarbeitungsschritte.",
+               "description" : "Eins der Highlights dieses Mods ist diese Zauberkisten. Sie ist ein wahrer Alleskoenner. Passt viel rein und bietet allen Luxus fuer einfache Verarbeitungsschritte.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3519,7 +3507,7 @@
             },
             {
                "id" : "quest276",
-               "name" : "Der flinke Wiesel",
+               "name" : "Das flinke Wiesel",
                "description" : "Auch der friedliche Aspekt sollte nicht zu kurz kommen. Aber wer braucht schon ewigen Frieden?",
                "tasks" : [
                   {
@@ -3532,7 +3520,7 @@
             {
                "id" : "quest277",
                "name" : "Der Beastmaster",
-               "description" : "Manchmal benoetigt man Drops von ganz bestimmten Mobs fur die es aber keine Spawner gibt. Da gibt es jetzt Abhilfe.",
+               "description" : "Manchmal benoetigt man Drops von ganz bestimmten Mobs fuer die es aber keine Spawner gibt. Da haben wir jetzt Abhilfe.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3544,7 +3532,7 @@
             {
                "id" : "quest278",
                "name" : "Die Energiekugel",
-               "description" : "Das Filetstueck dieses Mods ist der Energiekern. Ein riesen Teil, das auf jeden Fall nett anzusehen ist.",
+               "description" : "Das Filetstueck dieses Mods ist der Energiekern. Ein riesiges Teil, das auf jeden Fall nett anzusehen ist.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3590,6 +3578,30 @@
                ]
             },
             {
+               "id" : "quest285",
+               "name" : "Awakend Core",
+               "description" : "Der Kern der Meister. Nach dem letzten Ritual ist das hier schon wieder zu einfach, aber die Muehe hat sich gelohnt.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Stelle diesen Kern her!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest270",
+               "name" : "Der Sonnenanbeter",
+               "description" : "Jetzt zeigt sich die ware Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit einem Redstone Signal kann die Zeit beschleunigt werden. Aber, die Tickrate des Spiels wird nicht veraendert!"
+                  }
+               ]
+            },
+            {
                "id" : "quest282",
                "name" : "Der Zinnsoldat",
                "description" : "Ein Meister und seine Waffen. Niemand ist vor ihnen sicher.",
@@ -3604,7 +3616,7 @@
             {
                "id" : "quest283",
                "name" : "Der Schwerarbeiter",
-               "description" : "Ein erwachter Meister wird aber eher an die freidliche Nutzung seines Wissens interessiert sein.",
+               "description" : "Ein erleuchteter Meister wird eher an der freidlichen Nutzung seines Wissens interessiert sein.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -3616,24 +3628,12 @@
             {
                "id" : "quest284",
                "name" : "Draconic Armor",
-               "description" : "Die letzte Ruestung, die du tragen wirst. Die Ruestung eines Meisters.",
+               "description" : "Die letzte Ruestung, die du tragen wirst. Die Ruestung eines erleuchteten Meisters.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Die hoechste Ausbaustufe bietet natuerlich auch die meisten Moeglichkeiten."
-                  }
-               ]
-            },
-            {
-               "id" : "quest285",
-               "name" : "Awakend Core",
-               "description" : "Der Kern der Meister. Nach dem letzten Ritual ist das hier schon wieder zu einfach, aber die Muehe hat sich gelohnt.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Stelle diesen Kern her!"
                   }
                ]
             }
