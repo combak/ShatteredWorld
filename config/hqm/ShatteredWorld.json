@@ -5130,8 +5130,8 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)",
-                  "DraconicEvolution:draconiumDust size(8) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(6)",
+                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
                   {
@@ -7024,7 +7024,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(6)"
+                  "TConstruct:heartCanister size(1) dmg(4)"
                ],
                "reputations" : [
                   {
@@ -7189,7 +7189,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(6)"
+                  "TConstruct:heartCanister size(1) dmg(4)"
                ],
                "reputations" : [
                   {
@@ -7800,7 +7800,7 @@
                   }
                ],
                "reward" : [
-                  "Botania:manaResource size(8) dmg(0)"
+                  "TConstruct:heartCanister size(1) dmg(2)"
                ],
                "reputations" : [
                   {
@@ -8368,7 +8368,7 @@
                   }
                ],
                "reward" : [
-                  "Botania:manaResource size(8) dmg(4)"
+                  "TConstruct:heartCanister size(1) dmg(6)"
                ],
                "reputations" : [
                   {
@@ -8524,7 +8524,7 @@
                   }
                ],
                "reward" : [
-                  "Botania:manaResource size(8) dmg(7)"
+                  "TConstruct:heartCanister size(1) dmg(4)"
                ],
                "reputations" : [
                   {
@@ -11310,8 +11310,8 @@
                   }
                ],
                "reward" : [
-                  "minecraft:iron_ore size(4) dmg(0)",
-                  "minecraft:gold_ore size(4) dmg(0)"
+                  "TConstruct:materials size(8) dmg(19)",
+                  "minecraft:gold_nugget size(8) dmg(0)"
                ],
                "reputations" : [
                   {
@@ -11365,7 +11365,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -11519,7 +11519,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
                "reputations" : [
                ]
@@ -11573,7 +11573,7 @@
                ],
                "reward" : [
                   "TConstruct:materials size(8) dmg(19)",
-                  "minecraft:gold_nugget size(8) dmg(0)"
+                  "TConstruct:materials size(8) dmg(21)"
                ],
                "reputations" : [
                   {
@@ -12758,7 +12758,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
                "reputations" : [
                ]

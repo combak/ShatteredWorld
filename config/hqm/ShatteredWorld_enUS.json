@@ -3446,18 +3446,6 @@
                ]
             },
             {
-               "id" : "quest270",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_CRAFTING",
-                     "description" : "A task where the player has to craft specific items."
-                  }
-               ]
-            },
-            {
                "id" : "quest271",
                "name" : "Unnamed Quest",
                "description" : "No description",
@@ -3590,6 +3578,30 @@
                ]
             },
             {
+               "id" : "quest285",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
+               "id" : "quest270",
+               "name" : "Unnamed Quest",
+               "description" : "No description",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "TASK_ITEMS_CRAFTING",
+                     "description" : "A task where the player has to craft specific items."
+                  }
+               ]
+            },
+            {
                "id" : "quest282",
                "name" : "Unnamed Quest",
                "description" : "No description",
@@ -3615,18 +3627,6 @@
             },
             {
                "id" : "quest284",
-               "name" : "Unnamed Quest",
-               "description" : "No description",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "TASK_ITEMS_CRAFTING",
-                     "description" : "A task where the player has to craft specific items."
-                  }
-               ]
-            },
-            {
-               "id" : "quest285",
                "name" : "Unnamed Quest",
                "description" : "No description",
                "tasks" : [
