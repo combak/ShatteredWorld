@@ -458,7 +458,7 @@
             {
                "id" : "quest028",
                "name" : "Farmland vorbereiten",
-               "description" : "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns bereits mal ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
+               "description" : "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -485,7 +485,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Diese Gegenstaende werden fuer bessere Rezepte benoetigt. Je besser und aufwendiger das Essen, desto mehr Hunger kann damit auch gestillt werden."
+                     "description" : "Diese Gegenstaende werden fuer bessere Rezepte benoetigt. Je besser und aufwendiger das Essen, desto mehr Hunger kann damit gestillt werden."
                   }
                ]
             },
@@ -497,19 +497,19 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Zuerst die Crops aufs Feld setzen, dann in das gesetzt Crop den Samen setzen. Ernten geht dann mit der leeren rechten Hand. Dabei bleibt die eigentliche Pflanze stehen und kann gleich wieder wachsen."
+                     "description" : "Zuerst die Crops aufs Feld stellen, dann dahinein den Samen setzen. Ernten geht dann mit der leeren rechten Hand. Dabei bleibt die eigentliche Pflanze stehen und kann gleich wieder wachsen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Eventuell muss man hier noch ein wenig Zuechten."
+                     "description" : "Ich weiss, Gartenarbeit ist oede. Aber mit etwas Gedult wirst auch du dir deinen gruenen Daumen verdienen."
                   }
                ]
             },
             {
                "id" : "quest031",
                "name" : "Brot fuer die Welt",
-               "description" : "Nachdem wir ein so schoenes Feld haben, sollten wir Weizen anbauen. Aus dem machen wir uns dann Mehl und daraus stellen wir Teig her. Das koennen wir zum Schluss zu nahrhaftem Brot backen. Das klingt doch nach einem Plan. ",
+               "description" : "Nachdem Weizen geht es jetzt an die weiter Verarbeitung. Zuerst machen wir uns Mehl und daraus stellen wir Teig her. Das koennen wir zum Schluss zu nahrhaftem Brot backen. Klingt doch nach einem Plan. ",
                "tasks" : [
                   {
                      "id" : "task000",
@@ -524,9 +524,101 @@
                ]
             },
             {
+               "id" : "quest034",
+               "name" : "Darwin hatte recht",
+               "description" : "Mit diesen paar Samen, die wir in der Erde gefunden haben, kann man nicht viel anfangen. Aber der versierte Gaertner kennt die Methode der Veredlung und Kreuzung.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Beginnen wir mit einem Tools zur Bestimmung der Qualitaet der gezuechteten Samen. Das Buch informiert dich ueber moegliche Kreuzungen."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task",
+                     "description" : "Anfangen sollten wir mit einfachen Kreuzungen. Diese Samen werden als Basis fuer andere Zuechtungen gebraucht."
+                  }
+               ]
+            },
+            {
+               "id" : "quest039",
+               "name" : "Die Bewaesserung",
+               "description" : "Wir muessen dafuer sorgen, das unsere Anpflanzungen nicht austrocknen. Eine gute Bewaesserung ist die Basis eines guten Ertrags.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Den Tank kann man beliebig gross machen und er kann Regenwasser auffangen. Das Wassertranspportsystem ist einfach aber effektiv."
+                  }
+               ]
+            },
+            {
+               "id" : "quest037",
+               "name" : "Die eigenen Burgerkette",
+               "description" : "Mit etwas Tomate und Salat wird jedes Gericht viel gesuender aussehen. ",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Das zuechten dieser Pflanzen wird die Nahrungspalette dramatisch erweitern. Worauf wartest du?"
+                  }
+               ]
+            },
+            {
+               "id" : "quest038",
+               "name" : "Vegetarische Kost",
+               "description" : "Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Die Soyabone ist ideal als Fleischersatz. Nun ruempfe nicht die Nase und koste erst mal."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Crafting Task",
+                     "description" : "Roh kann man diese aber nicht geniessen."
+                  },
+                  {
+                     "id" : "task002",
+                     "name" : "Detection Task",
+                     "description" : "Und hier haben wir die vegetarischen Basisprodukte. Die schmecken bestimmt genauso gut."
+                  }
+               ]
+            },
+            {
+               "id" : "quest035",
+               "name" : "Sag es mit Blumen",
+               "description" : "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task Blumen",
+                     "description" : "Ein paar einfache Blumen und gleich sieht es in deiner Behausung viel freundlicher aus."
+                  },
+                  {
+                     "id" : "task001",
+                     "name" : "Detection Task Botania",
+                     "description" : "Exotischen Blumen haben besondere Eigenschaften. Ihr nutzen reicht von Medizin bis Magie. Und schoen sehen sie auch noch aus."
+                  }
+               ]
+            },
+            {
+               "id" : "quest036",
+               "name" : "Die Wunder der Genetic",
+               "description" : "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Samen, die Metalle und andere Stoffe produzieren, das waere in der realen Welt eine Revolution. Mit diesen hier ist die Produktion von Nuggets besonders einfach."
+                  }
+               ]
+            },
+            {
                "id" : "quest032",
                "name" : "Der Schnellkochtopf",
-               "description" : "Der wahre Schefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
+               "description" : "Der wahre Chefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
                "tasks" : [
                   {
                      "id" : "task001",
@@ -537,18 +629,6 @@
                      "id" : "task000",
                      "name" : "Crafting Task",
                      "description" : "Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann."
-                  }
-               ]
-            },
-            {
-               "id" : "quest318",
-               "name" : "Hardened Leather",
-               "description" : "Unnamed quest",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
                   }
                ]
             },
@@ -565,94 +645,14 @@
                ]
             },
             {
-               "id" : "quest034",
-               "name" : "Darwin hatte recht",
-               "description" : "Mit diesen paar Samen, die wir in der Erde gefunden haben, kann man nicht viel anfangen. Aber der versierte Gaertner kennt die Methode der Veredlung und Kreuzung.",
+               "id" : "quest318",
+               "name" : "Hardened Leather",
+               "description" : "Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit diesen Tools kann man die Qualitaet der gezuechteten Samen bestimmen. Das Buch informiert dich ueber moegliche Kreuzungen."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Detection Task",
-                     "description" : "Diese Samen werden als Basis fuer andere Zuechtungen gebraucht."
-                  }
-               ]
-            },
-            {
-               "id" : "quest035",
-               "name" : "Sag es mit Blumen",
-               "description" : "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task Blumen",
-                     "description" : "Ein paar einfache Blumen."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Detection Task Botania",
-                     "description" : "Diese exotischen Blumen haben besondere Eigenschaften."
-                  }
-               ]
-            },
-            {
-               "id" : "quest036",
-               "name" : "Die Wunder der Genetic",
-               "description" : "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Mit diesen speziellen Samen ist die Produktion von Nuggets besonders einfach."
-                  }
-               ]
-            },
-            {
-               "id" : "quest037",
-               "name" : "Die eigenen Burgerkette",
-               "description" : "Mit etwas Salat wird jedes Gericht viel gesuender aussehen. ",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Das zuechten dieser Pflanzen wird die Nahrungspalette dramatisch erweitern."
-                  }
-               ]
-            },
-            {
-               "id" : "quest038",
-               "name" : "Vegetarische Kost",
-               "description" : "Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Die Soyabone ist ideal als Fleischersatz."
-                  },
-                  {
-                     "id" : "task001",
-                     "name" : "Crafting Task",
-                     "description" : "Roh kann man diese aber nicht geniessen."
-                  },
-                  {
-                     "id" : "task002",
-                     "name" : "Detection Task",
-                     "description" : "Und hier haben wir die vegetarischen Basisprodukte. Die schmecken bestimmt genauso gut."
-                  }
-               ]
-            },
-            {
-               "id" : "quest039",
-               "name" : "Die Bewaesserung",
-               "description" : "Wir sollten dafuer sorgen, das unsere Anpflanzungen nicht austrocknen. Eine gute Bewaesserung ist die Basis eines guten Ertrags.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Den Tank kann man beliebig gross machen und er kann Regenwasser auffangen. Das Wassertranspportsystem ist einfach aber effektiv."
+                     "description" : "Oh, was fuer eine tolle Lederruestung oder Arbeitsruestung. Ich bin verwirrt."
                   }
                ]
             },
@@ -700,43 +700,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschienen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsshritt."
-                  }
-               ]
-            },
-            {
-               "id" : "quest044",
-               "name" : "Der Schwarm",
-               "description" : "Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen."
-                  }
-               ]
-            },
-            {
-               "id" : "quest045",
-               "name" : "Das echte Gold",
-               "description" : "Bienen die Erze einsammeln. Ein Wunder der Natur.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Stelle diese Bienen her. Welche? Natuerlich die Glittering Bee. Diese liefern dir den Golden Comb, den du nur noch schleudern musst."
-                  }
-               ]
-            },
-            {
-               "id" : "quest046",
-               "name" : "Das schwarze Gold",
-               "description" : "Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Detection Task",
-                     "description" : "Wenn du von dieser Biene genuegend herstellst, sollte dein Energieproblem geloest sein."
+                     "description" : "Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschienen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsschritt."
                   }
                ]
             },
@@ -760,12 +724,24 @@
             {
                "id" : "quest048",
                "name" : "Der Oelzweig",
-               "description" : "Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen.",
+               "description" : "Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen. Aber das Seedoil ist fuer andere Dinge wertvoll.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Arbeite dich bis zu diesem Baum vor. Viel Spass."
+                     "description" : "Arbeite dich bis zu diesem Baum vor. Viel Spass und nicht den Mut verlieren."
+                  }
+               ]
+            },
+            {
+               "id" : "quest052",
+               "name" : "Der Wettergott",
+               "description" : "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit dem Rainmaker kannst du den Regen ein- und ausschalten."
                   }
                ]
             },
@@ -804,6 +780,42 @@
                ]
             },
             {
+               "id" : "quest044",
+               "name" : "Der Schwarm",
+               "description" : "Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest046",
+               "name" : "Das schwarze Gold",
+               "description" : "Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Wenn du von dieser Biene genuegend herstellst, sollte dein Energieproblem geloest sein."
+                  }
+               ]
+            },
+            {
+               "id" : "quest045",
+               "name" : "Das echte Gold",
+               "description" : "Bienen die Erze einsammeln. Ein Wunder der Natur.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Stelle diese Bienen her. Welche? Natuerlich die Glittering Bee. Diese liefern dir den Golden Comb, den du nur noch schleudern musst."
+                  }
+               ]
+            },
+            {
                "id" : "quest051",
                "name" : "Schleudern will gelernt sein",
                "description" : "Die Pollen, die die Bienen einsammeln, koennen nicht direkt verarbeitet werden. Man muss die Bestandteile herauspressen.",
@@ -817,18 +829,6 @@
                      "id" : "task001",
                      "name" : "Detection Task",
                      "description" : "Jetzt kommst du an den Lebenssaft der Bienen heran, den Honig."
-                  }
-               ]
-            },
-            {
-               "id" : "quest052",
-               "name" : "Der Wettergott",
-               "description" : "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "name" : "Crafting Task",
-                     "description" : "Mit dem Rainmaker kannst du den Regen ein- und ausschalten."
                   }
                ]
             },

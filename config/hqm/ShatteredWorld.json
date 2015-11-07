@@ -1563,7 +1563,7 @@
                         },
                         {
                            "item" : "harvestcraft:doughItem size(1) dmg(0)",
-                           "required" : 1,
+                           "required" : 8,
                            "precision" : "PRECISE"
                         }
                      ]
@@ -1574,12 +1574,12 @@
                      "requirements" : [
                         {
                            "item" : "minecraft:bread size(1) dmg(0)",
-                           "required" : 1,
+                           "required" : 8,
                            "precision" : "PRECISE"
                         },
                         {
                            "item" : "harvestcraft:toastItem size(1) dmg(0)",
-                           "required" : 1,
+                           "required" : 8,
                            "precision" : "PRECISE"
                         }
                      ]
@@ -1587,6 +1587,322 @@
                ],
                "reward" : [
                   "harvestcraft:deluxecheeseburgerItem size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest034",
+               "x" : 82,
+               "y" : 50,
+               "big" : false,
+               "icon" : "AgriCraft:seedAnalyzer size(1) dmg(0)",
+               "requirements" : [
+                  "quest028"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "AgriCraft:seedAnalyzer size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "AgriCraft:journal size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  },
+                  {
+                     "id" : "task001",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AgriCraft:seedSugarcane size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "minecraft:pumpkin_seeds size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "harvestcraft:blueberryseedItem size(4) dmg(0)"
+               ],
+               "choice" : [
+                  "harvestcraft:coffeeseedItem size(4) dmg(0)",
+                  "harvestcraft:teaseedItem size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest039",
+               "x" : 122,
+               "y" : 50,
+               "big" : false,
+               "icon" : "AgriCraft:sprinklerItem size(1) dmg(0)",
+               "requirements" : [
+                  "quest034",
+                  "quest020"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "AgriCraft:waterTank size(1) dmg(0)",
+                           "required" : 4,
+                           "precision" : "FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:waterChannel size(1) dmg(0)",
+                           "required" : 4,
+                           "precision" : "FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:sprinklerItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:piston size(2) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest037",
+               "x" : 54,
+               "y" : 80,
+               "big" : false,
+               "icon" : "harvestcraft:tomatoItem size(1) dmg(0)",
+               "requirements" : [
+                  "quest034"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "harvestcraft:tomatoseedItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "harvestcraft:lettuceseedItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "harvestcraft:cheeseItem size(8) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest038",
+               "x" : 54,
+               "y" : 110,
+               "big" : false,
+               "icon" : "harvestcraft:soybeanItem size(1) dmg(0)",
+               "requirements" : [
+                  "quest037"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "harvestcraft:soybeanseedItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  },
+                  {
+                     "id" : "task001",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "harvestcraft:presser size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  },
+                  {
+                     "id" : "task002",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "harvestcraft:soymilkItem size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "harvestcraft:silkentofuItem size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "harvestcraft:firmtofuItem size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ThermalExpansion:Machine size(2) dmg(9)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest035",
+               "x" : 82,
+               "y" : 80,
+               "big" : false,
+               "icon" : "AgriCraft:seedPoppy size(1) dmg(0)",
+               "requirements" : [
+                  "quest034"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AgriCraft:seedPoppy size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:seedDandelion size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:seedTulipWhite size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  },
+                  {
+                     "id" : "task001",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AgriCraft:seedBotaniaRed size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:seedBotaniaYellow size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:seedBotaniaWhite size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "AgriCraft:seedBotaniaPurple size(4) dmg(0)"
+               ],
+               "choice" : [
+                  "AgriCraft:seedBotaniaLightGray size(4) dmg(0)",
+                  "AgriCraft:seedBotaniaBrown size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest036",
+               "x" : 82,
+               "y" : 110,
+               "big" : false,
+               "icon" : "AgriCraft:seedRedstodendron size(1) dmg(0)",
+               "requirements" : [
+                  "quest035"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "AgriCraft:seedRedstodendron size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:seedCuprosia size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "AgriCraft:seedPetinia size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "AgriCraft:seedPlombean size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -1636,6 +1952,9 @@
                   }
                ],
                "reward" : [
+                  "harvestcraft:onionseedItem size(4) dmg(0)"
+               ],
+               "choice" : [
                   "harvestcraft:bellpepperseedItem size(4) dmg(0)",
                   "harvestcraft:chilipepperseedItem size(4) dmg(0)"
                ],
@@ -1644,6 +1963,44 @@
                      "reputation" : "rep002",
                      "value" : 1
                   }
+               ]
+            },
+            {
+               "id" : "quest033",
+               "x" : 110,
+               "y" : 110,
+               "big" : false,
+               "icon" : "IguanaTweaksTConstruct:clayBucketMilk size(1) dmg(0)",
+               "requirements" : [
+                  "quest032"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "minecraft:milk_bucket size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "harvestcraft:freshmilkItem size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "harvestcraft:butterItem size(16) dmg(0)"
+               ],
+               "reputations" : [
                ]
             },
             {
@@ -1688,360 +2045,15 @@
                      ]
                   }
                ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(2)",
+                  "minecraft:leather size(6) dmg(0)"
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
                      "value" : 1
                   }
-               ]
-            },
-            {
-               "id" : "quest033",
-               "x" : 110,
-               "y" : 110,
-               "big" : false,
-               "icon" : "IguanaTweaksTConstruct:clayBucketMilk size(1) dmg(0)",
-               "requirements" : [
-                  "quest032"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "minecraft:milk_bucket size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "harvestcraft:freshmilkItem size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "harvestcraft:butterItem size(16) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest034",
-               "x" : 82,
-               "y" : 50,
-               "big" : false,
-               "icon" : "AgriCraft:seedAnalyzer size(1) dmg(0)",
-               "requirements" : [
-                  "quest028"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "AgriCraft:seedAnalyzer size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:journal size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "AgriCraft:seedSugarcane size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "minecraft:pumpkin_seeds size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "harvestcraft:blueberryseedItem size(4) dmg(0)",
-                  "harvestcraft:coffeeseedItem size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest035",
-               "x" : 82,
-               "y" : 80,
-               "big" : false,
-               "icon" : "AgriCraft:seedPoppy size(1) dmg(0)",
-               "requirements" : [
-                  "quest034"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "AgriCraft:seedPoppy size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:seedDandelion size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:seedTulipWhite size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "AgriCraft:seedBotaniaRed size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:seedBotaniaYellow size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:seedBotaniaWhite size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "AgriCraft:seedBotaniaPurple size(2) dmg(0)",
-                  "AgriCraft:seedBotaniaLightGray size(2) dmg(0)",
-                  "AgriCraft:seedBotaniaBrown size(2) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest036",
-               "x" : 82,
-               "y" : 110,
-               "big" : false,
-               "icon" : "AgriCraft:seedRedstodendron size(1) dmg(0)",
-               "requirements" : [
-                  "quest035"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "AgriCraft:seedRedstodendron size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:seedCuprosia size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "AgriCraft:seedPetinia size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "AgriCraft:seedPlombean size(2) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest037",
-               "x" : 54,
-               "y" : 80,
-               "big" : false,
-               "icon" : "harvestcraft:tomatoItem size(1) dmg(0)",
-               "requirements" : [
-                  "quest034"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "harvestcraft:tomatoseedItem size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "harvestcraft:lettuceseedItem size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "harvestcraft:cheeseItem size(8) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest038",
-               "x" : 54,
-               "y" : 110,
-               "big" : false,
-               "icon" : "harvestcraft:soybeanItem size(1) dmg(0)",
-               "requirements" : [
-                  "quest037"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "harvestcraft:soybeanseedItem size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task001",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "harvestcraft:presser size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  },
-                  {
-                     "id" : "task002",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "harvestcraft:soymilkItem size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "harvestcraft:silkentofuItem size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "harvestcraft:firmtofuItem size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "ThermalExpansion:Machine size(2) dmg(9)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest039",
-               "x" : 122,
-               "y" : 50,
-               "big" : false,
-               "icon" : "AgriCraft:sprinklerItem size(1) dmg(0)",
-               "requirements" : [
-                  "quest034",
-                  "quest020"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "AgriCraft:waterTank size(1) dmg(0)",
-                           "required" : 4,
-                           "precision" : "FUZZY"
-                        },
-                        {
-                           "item" : "AgriCraft:waterChannel size(1) dmg(0)",
-                           "required" : 4,
-                           "precision" : "FUZZY"
-                        },
-                        {
-                           "item" : "AgriCraft:sprinklerItem size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:piston size(2) dmg(0)"
-               ],
-               "reputations" : [
                ]
             },
             {
@@ -2203,129 +2215,6 @@
                ]
             },
             {
-               "id" : "quest044",
-               "x" : 246,
-               "y" : 145,
-               "big" : false,
-               "icon" : "Forestry:alveary size(1) dmg(0)",
-               "requirements" : [
-                  "quest050"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "ANTI_TRIGGER",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Forestry:alveary size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Forestry:alveary size(1) dmg(3)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Forestry:alveary size(1) dmg(4)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Forestry:alveary size(1) dmg(5)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Forestry:alveary size(1) dmg(6)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
-               ],
-               "reputations" : [
-                  {
-                     "reputation" : "rep002",
-                     "value" : 1
-                  }
-               ]
-            },
-            {
-               "id" : "quest045",
-               "x" : 262,
-               "y" : 175,
-               "big" : false,
-               "icon" : "ExtraBees:misc size(1) dmg(7)",
-               "requirements" : [
-                  "quest044"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "ExtraBees:misc size(1) dmg(7)",
-                           "required" : 4,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "minecraft:gold_ingot size(16) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest046",
-               "x" : 234,
-               "y" : 175,
-               "big" : false,
-               "icon" : "ExtraBees:honeyComb size(1) dmg(3)",
-               "requirements" : [
-                  "quest044"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_DETECT",
-                     "requirements" : [
-                        {
-                           "item" : "ExtraBees:propolis size(1) dmg(1)",
-                           "required" : 4,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "BuildCraft|Energy:bucketOil size(4) dmg(0)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
                "id" : "quest047",
                "x" : 282,
                "y" : 80,
@@ -2358,12 +2247,12 @@
                         {
                            "item" : "Forestry:grafter size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Forestry:naturalistHelmet size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -2402,7 +2291,51 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(2)"
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)",
+                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest052",
+               "x" : 282,
+               "y" : 145,
+               "big" : false,
+               "icon" : "Forestry:factory size(1) dmg(7)",
+               "requirements" : [
+                  "quest048"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Forestry:factory size(1) dmg(7)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Forestry:iodineCapsule size(1) dmg(0)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Forestry:craftingMaterial size(1) dmg(4)",
+                           "required" : 8,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:nether_star size(1) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2494,7 +2427,7 @@
                         {
                            "item" : "Forestry:scoop size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Forestry:apiculture size(1) dmg(0)",
@@ -2507,6 +2440,129 @@
                "reward" : [
                   "Forestry:habitatLocator size(1) dmg(0)",
                   "Forestry:apiculture size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest044",
+               "x" : 246,
+               "y" : 145,
+               "big" : false,
+               "icon" : "Forestry:alveary size(1) dmg(0)",
+               "requirements" : [
+                  "quest050"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "Forestry:alveary size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Forestry:alveary size(1) dmg(3)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Forestry:alveary size(1) dmg(4)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Forestry:alveary size(1) dmg(5)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "Forestry:alveary size(1) dmg(6)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "Thaumcraft:ItemLootBag size(1) dmg(2)"
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep002",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest046",
+               "x" : 234,
+               "y" : 175,
+               "big" : false,
+               "icon" : "ExtraBees:honeyComb size(1) dmg(3)",
+               "requirements" : [
+                  "quest044"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "ExtraBees:propolis size(1) dmg(1)",
+                           "required" : 4,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "BuildCraft|Energy:bucketOil size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest045",
+               "x" : 262,
+               "y" : 175,
+               "big" : false,
+               "icon" : "ExtraBees:misc size(1) dmg(7)",
+               "requirements" : [
+                  "quest044"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "ExtraBees:misc size(1) dmg(7)",
+                           "required" : 4,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:gold_ingot size(16) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -2551,49 +2607,6 @@
                ],
                "reward" : [
                   "Forestry:craftingMaterial size(2) dmg(3)"
-               ],
-               "reputations" : [
-               ]
-            },
-            {
-               "id" : "quest052",
-               "x" : 282,
-               "y" : 145,
-               "big" : false,
-               "icon" : "Forestry:factory size(1) dmg(7)",
-               "requirements" : [
-                  "quest048"
-               ],
-               "repeatInfo" : {
-                  "type" : "NONE"
-               },
-               "triggerType" : "NONE",
-               "triggerTasks" : 0,
-               "tasks" : [
-                  {
-                     "id" : "task000",
-                     "type" : "TASK_ITEMS_CRAFTING",
-                     "requirements" : [
-                        {
-                           "item" : "Forestry:factory size(1) dmg(7)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Forestry:iodineCapsule size(1) dmg(0)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "Forestry:craftingMaterial size(1) dmg(4)",
-                           "required" : 8,
-                           "precision" : "PRECISE"
-                        }
-                     ]
-                  }
-               ],
-               "reward" : [
-                  "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
                "reputations" : [
                ]
@@ -7121,17 +7134,17 @@
                         {
                            "item" : "Thaumcraft:ItemHelmetCultistPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemChestplateCultistPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemLeggingsCultistPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -7168,22 +7181,22 @@
                         {
                            "item" : "Thaumcraft:ItemHelmetCultistRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemChestplateCultistRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemLeggingsCultistRobe size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemBootsCultist size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
@@ -7253,17 +7266,17 @@
                         {
                            "item" : "Thaumcraft:ItemHelmetCultistLeaderPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemChestplateCultistLeaderPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         },
                         {
                            "item" : "Thaumcraft:ItemLeggingsCultistLeaderPlate size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "NBT_FUZZY"
+                           "precision" : "FUZZY"
                         }
                      ]
                   }
