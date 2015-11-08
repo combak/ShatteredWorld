@@ -866,12 +866,12 @@
             {
                "id" : "quest055",
                "name" : "Die Rohrpost",
-               "description" : "Jetzt liegen wieder meine Gegenstaende an der falschen Stelle. Kann ich die nicht automatisch weiterschicken?",
+               "description" : "Wollen wir mit einem einfachen Transportsystem anfangen. Je einfacher desto besser.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Die Leitungen gibt es in verschiednen Varianten. Sie unterscheiden sich durch das, was sie weiterleiten. Das Material bestimmt viele Eigenschaften der Leitung, wie z.B. Geschwindigkeit. Es gibt drei Arten, die entweder Gegenstaende transportieren ..."
+                     "description" : "Die Leitungen gibt es in verschiedenen Varianten. Sie unterscheiden sich durch das, was sie weiterleiten. Das Material bestimmt viele Eigenschaften der Leitung, wie z.B. die Geschwindigkeit. Es gibt drei Arten, die entweder Gegenstaende transportieren ..."
                   },
                   {
                      "id" : "task001",
@@ -881,135 +881,267 @@
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
-                     "description" : "... oder Strom weitergeleitet."
+                     "description" : "... oder Strom uebertragen."
                   }
                ]
             },
             {
                "id" : "quest056",
                "name" : "Der Sortierer",
-               "description" : "Unnamed quest",
+               "description" : "Nur transportieren reicht natuerlich nicht. Koennen wir die transportierten Gegenstaende nicht irgendwie markieren und dann sortieren?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die Lazulipipe kann Gegenstaende einfaerben. Die Daizulipipe laesst nur die erlaubten Farben durch. Zu guter Letzt faerbt die Eizulipipe alles schon beim herausziehen aus einem Inventar ein. Ansonsten arbeitet sie wie eine Holzpipe. Mit dem Maulschluessel (wrench) stellst du die Farben ein."
                   },
                   {
                      "id" : "task001",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Maschine erinnert an eine alte aus laengst vergangenen Zeiten."
                   }
                ]
             },
             {
                "id" : "quest057",
                "name" : "Die Huepfburg",
-               "description" : "Unnamed quest",
+               "description" : "Wir suchen eine einfache Moeglichkeit verschiedene Stoffe zu pulverisieren.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Diese Maschine stellt wohl eher eine Antiaggressionstherapie dar. Allerdings ist es eine fruehe Moeglichkeit die Ausbeute aus Erzen zu verdoppeln."
                   }
                ]
             },
             {
                "id" : "quest058",
                "name" : "Der Laserstrahl",
-               "description" : "Unnamed quest",
+               "description" : "Mit einem Laserstrahl kannst du komplizierte Gegenstaende aus harten Materialien herausfraesen. Desweiteren lassen sich Legierungen herstellen, die sich sonst nicht mischen wuerden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Mindestens ein Laser muss mit dem Herstellungstisch (assembly table) kombiniert werden. Du solltest aber eine einigermassen gute Energieversorgung haben."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Auf dem Gatter (gate) basieren verschieden Steuerelemente des Pipesystems."
+                  }
+               ]
+            },
+            {
+               "id" : "quest342",
+               "name" : "Ich der Roboter",
+               "description" : "Diestbare Geister helfen dir bei der Automatisierung. Sie lassen sich zum Ernten, Pflanzen oder Einsammeln benutzen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Roboter stellt die Basiseinheit dar und muss durch Spezialisierungen aufgewertet werden. Jeder hat seine Basisstation, an der er verwaltet wird. Mit dem Bereichsplaner (zone planner) legt man das Einsatzgebiet fest. DIes solltest du immer tun, damit deine Roboter nicht Amok laufen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest344",
+               "name" : "Die Hilfskraft",
+               "description" : "Jeder Roboter kann immer nur eine Aktion ausfuehren. Dazu muss er spezialisiert werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Im Integrationstisch (integration table) werden die Vorlagen fuer die Spezialisierungen der Roboter hergestellt. Die Vorlage hinein legen und das gewuenschte heraus nehmen."
                   }
                ]
             },
             {
                "id" : "quest059",
                "name" : "Der Architekt",
-               "description" : "Unnamed quest",
+               "description" : "Einige einfache Schaltteile koennen zu kompliziertere zusammen gesetzt werden. Ausserdem werden hier die Roboter mit ihren Spezialisierungen verbunden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Einbautisch (integration table) muss ueber Laser mit Energie versorgt werden."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Das Pulsar Gate kann in die verschiedenen Pipes eingesetzt werden, um Gegenstaende oder Fluessigkeiten aus Inventaren heraus zu ziehen."
                   }
                ]
             },
             {
                "id" : "quest060",
                "name" : "Der Tycoon",
-               "description" : "Unnamed quest",
+               "description" : "Fuer eine bessere Energieversorgung brauchen wir eine Maschine, die hochwertigeren Treibstoff herstellt.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Die Raffinerie (refinery) wandelt Oel, das wir irgendwo finden, in Benzin um."
                   }
                ]
             },
             {
                "id" : "quest061",
                "name" : "Der Wasserturm",
-               "description" : "Unnamed quest",
+               "description" : "Das rohe Benzin liegt noch in einer heissen Form vor und muss durch eine Kuehlung stabilisiert werden.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Kuehlturm (cooling tower) dient zum abkuehlen heisser Fluessigkeiten, was sonst!"
+                  }
+               ]
+            },
+            {
+               "id" : "quest354",
+               "name" : "Dynotopia",
+               "description" : "Es gibt verschiendene Arten Dynamos. Jeder hat sein spezielles Einsatzgebiet.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Stelle je einen von jedem Typ her und mache dich mit ihnen vertraut."
+                  }
+               ]
+            },
+            {
+               "id" : "quest356",
+               "name" : "Der Basisspeicher",
+               "description" : "Um Lastspitzen entgegen zu wirken, ist ein Puffer notwendig.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Dies ist die kleinste Energiezelle. Darauf aufbauend lassen sich dann die groesseren herstellen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest358",
+               "name" : "Das Kruemelmonster",
+               "description" : "Die Huepfburg ist ganz nett. Aber eigentlich hat man ja wichtigere Dinge zu tun.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Pulverisierer (pulverizer) kann nicht nur Erze zerkleinern. Auch viele andere Materialien sind moeglich. Bei einigen ist die Ausbeute erhoeht."
+                  }
+               ]
+            },
+            {
+               "id" : "quest362",
+               "name" : "Der nasse Fleck",
+               "description" : "Einige Materialien lassen sich in eine fluessige Form wandeln. Diese koennen dann zum Veredeln benutzt werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Die Magma Crucible wandelt feste Materialien in fluessige um. Und mit dem Fluid Transposer koennen diese in Eimer oder andere Container abgefuellt werden. Ausserdem dient er zum Veredeln."
+                  }
+               ]
+            },
+            {
+               "id" : "quest364",
+               "name" : "Der Rubin",
+               "description" : "Der Flux Crystal ist ein kuenstlich hergestellter Edelstein.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Detection Task",
+                     "description" : "Technische Edelsteine sind zwar nicht so wertvoll, lassen sich aber leichter weiter verarbeiten."
+                  }
+               ]
+            },
+            {
+               "id" : "quest304",
+               "name" : "Der gelbe Blitz",
+               "description" : "Eine aufladbare Ruestung, die sehr viel Schaden absorbieren kann.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Der Aufwand ist schon etwas extrem. Ich weiss nicht, ob sich dieser lohnt."
+                  }
+               ]
+            },
+            {
+               "id" : "quest360",
+               "name" : "Der Lichtbogen",
+               "description" : "Um besondere Legierungen herstellen zu koennen, braucht man sehr hohe Temperaturen. Diese kann man leicht mit einem Lichtbogen erreichen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Die Induktionsschmelze (induction smelter) kann vielseitige Werkstoffe herstellen. Die Palette unserer Endprodukte wird sich dadurch massiv erweitern."
+                  }
+               ]
+            },
+            {
+               "id" : "quest368",
+               "name" : "Die Booster",
+               "description" : "Die Maschinen, die du bis hierher hergestellt hast, koennen durch verschiedene Verbesserungen aufgewertet werden.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Mit diesen Verstarkungen (augment) kann man Ausbeute, Energieverbrauch und andere Eigenschaften beeinflussen."
+                  }
+               ]
+            },
+            {
+               "id" : "quest366",
+               "name" : "Die 5. Dimension",
+               "description" : "Mitunter moechte man Energie, Fluessigkeiten und Gegenstaende ueber groesser Entfernungen oder in andere Dimensionen transportieren.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Das Tesserakt (tesseract) ist ein vierdimensionaler Wuerfel. Dadurch lassen sich Verbindungen durch den Hyperraum herstellen. Hat den eigentlich schon jemand gesehen?"
                   }
                ]
             },
             {
                "id" : "quest062",
                "name" : "Der Energiespeicher",
-               "description" : "Unnamed quest",
+               "description" : "Eine andere Art des Energie speichern kann nicht schaden. Man sollte nie nur auf ein Pferd setzen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Der Vorteil an dieser Energiezelle ist die Moeglichkeit andere Gegenstaende aufladen zu koennen."
                   }
                ]
             },
             {
                "id" : "quest063",
                "name" : "Das Universaltalent",
-               "description" : "Manches stoert mich, dass man fuer viele Schritte immer wieder eine andere Maschine braucht. Aber da gibt es ein quasi Universaltalent, wenn es um Brennen und Legierungen geht.",
+               "description" : "Manchmal stoert es mich, dass fuer bestimmte Aufgaben immer eine andere Maschine gebraucht wird. Aber es gibt ein Universaltalent, wenn es um Brennen und Legierungen geht.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Beim Alloy Smelter ist es wichtig, das der Knopf rechts unten in der GUI richtig eingestellt ist \"Furnace only\", Alloys ..."
+                     "description" : "Beim Alloy Smelter ist es wichtig, das der Knopf rechts unten in der GUI richtig eingestellt ist \"Furnace only\" oder Alloys."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+                     "description" : "Der Elektrisierte Stahl (electrical steel) ist eine hochwertige Verbindung aus drei Materialien."
                   }
                ]
             },
             {
                "id" : "quest064",
                "name" : "Die Induktionsschleife",
-               "description" : "Dann werfen wir doch mal das Universaltalent an.",
+               "description" : "Elektrische Leiter aus drei Materialien zeichnen sich durch einen geringen Widerstand aus, habe ich gehoert.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Fuer die Upgrades und viele andere Dinge braucht man spezielle Legierungen, die man im Alloy Smelter herstellen kann."
+                     "description" : "Das Elektrisierte Gemisch (energetic alloy) ist eine weiter Legierung aus drei Materialien."
                   },
                   {
                      "id" : "task001",
@@ -1026,7 +1158,7 @@
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Um Maschinen oder Pipes einzustellen oder sie mit \"SHIFT-RechtsKlick\" abzubauen verwendet man eine Zange \/ Wrench"
+                     "description" : "Um Maschinen oder Pipes einzustellen oder abzubauen (SHIFT-RechtsKlick), verwendet man einen Maulschluessel (wrench)."
                   }
                ]
             },
@@ -1045,46 +1177,58 @@
             {
                "id" : "quest067",
                "name" : "Das Fass mit Boden",
-               "description" : "Kann man nicht auch noch ein paar brennbare Fluessigkeiten herstellen? Damit wuerden ja grenzenlose Moeglichkeiten auf mich zukommen.",
+               "description" : "Kann man noch besser brennbare Fluessigkeiten herstellen? Ja, man kann. Damit wuerden grenzenlose Moeglichkeiten auf mich zukommen.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Mit dem Vat kann man verschiedene Fluessigkeiten herstellen. Am besten mal in der Maschine dann den Rezept Knopf druecken."
+                     "description" : "Mit dem Bottich (vat) stellt man verschiedene Fluessigkeiten her. Am besten mal in der Maschine dann den Rezept Knopf druecken."
                   }
                ]
             },
             {
                "id" : "quest068",
                "name" : "Dark Armor",
-               "description" : "Jetzt habe ich doch glatt zu viel Dark Steel in der Tasche. Das verwenden wir jetzt aber so richtig sinnvoll fuer eine tolle Ruestung",
+               "description" : "Jetzt habe ich doch glatt zu viel Dark Steel in der Tasche. Das verwenden wir sinnvoller fuer eine tolle Ruestung",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "Der Dark Armor sieht nicht nur duester aus, man kann ihn auch durch allerlei Upgrades so richtig gut ausstatten."
+                     "description" : "Die Dark Armor sieht nicht nur duester aus, man kann sie auch durch allerlei Upgrades so richtig gut ausstatten."
                   }
                ]
             },
             {
                "id" : "quest069",
                "name" : "Die boese Seele",
-               "description" : "Monster sind extrem laestig. Aber manchmal haben sie ganz nuetzliche Sachen bei sich. Kann man das nicht irgendwie sicherer gestalten?",
+               "description" : "Monster sind extrem laestig. Aber manchmal haben sie ganz nuetzliche Sachen bei sich. Kann man das Farmen dieser Uebeltaeter nicht irgendwie sicherer gestalten?",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "In dem Soul Binder kann man mit RF und Erfahrungspunkten Gegenstaende kombinieren. Ausserdem kann man bei kaputten Spawnern den Typen einstellen, indem man eine Monster Seele mit dem Spawner kombiniert."
+                     "description" : "In dem Soul Binder kombiniert man mit RF, Erfahrungspunkten und Gegenstaende zu seelengebunden Maschienen."
                   },
                   {
                      "id" : "task001",
                      "name" : "Detection Task",
-                     "description" : "Die neue Maschine nutzen wir gleich mal um uns einen Franken Zombie zu erschaffen ... Duesteres Gelaechter ... um danach ..."
+                     "description" : "Die neue Maschine nutzen wir gleich mal um uns einen Frankenstein Zombie zu erschaffen ... Duesteres Gelaechter ... um danach ..."
                   },
                   {
                      "id" : "task002",
                      "name" : "Crafting Task",
                      "description" : "... uns einen kontrollierbaren Spawner zu bauen. "
+                  }
+               ]
+            },
+            {
+               "id" : "quest346",
+               "name" : "Die Farm",
+               "description" : "Mit den gebundenen Seelen lassen sich auch nuetzliche Maschinen herstellen.",
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "name" : "Crafting Task",
+                     "description" : "Die Farm gibt uns eine weitere Moeglichkeit Feldarbeiten zu automatisieren."
                   }
                ]
             },
@@ -1096,7 +1240,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Fuer die Maschine brauchen wir da zunaechst mal einen Ender Resonator"
+                     "description" : "Fuer diese Maschine brauchen wir zunaechst mal einen Ender Resonator ..."
                   },
                   {
                      "id" : "task001",
@@ -1106,14 +1250,14 @@
                ]
             },
             {
-               "id" : "quest304",
-               "name" : "Flux-Infused Armor",
-               "description" : "Unnamed quest",
+               "id" : "quest352",
+               "name" : "Die Verschraenkung",
+               "description" : "Eine andere Art der Fernwirkung ist die Quantenverschraenkung. Irgendein verrueckter Wissenschaftler hat sogar den Transport von Energie, Fluessigkeiten und Gegenstaenden darueber realisiert.",
                "tasks" : [
                   {
                      "id" : "task000",
                      "name" : "Crafting Task",
-                     "description" : "A task where the player has to craft specific items."
+                     "description" : "Fuer eine funktionierende Verbindung brauchen wir natuerlich zwei von diesen Dingern."
                   }
                ]
             }

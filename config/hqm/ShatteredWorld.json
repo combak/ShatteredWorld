@@ -2775,7 +2775,7 @@
             {
                "id" : "quest056",
                "x" : 42,
-               "y" : 50,
+               "y" : 45,
                "big" : false,
                "icon" : "bcadditions:blockItemSorter size(1) dmg(0)",
                "requirements" : [
@@ -2834,8 +2834,8 @@
             },
             {
                "id" : "quest057",
-               "x" : 58,
-               "y" : 25,
+               "x" : 66,
+               "y" : 45,
                "big" : false,
                "icon" : "bcadditions:blockDusterBasic size(1) dmg(0)",
                "requirements" : [
@@ -2867,8 +2867,8 @@
             },
             {
                "id" : "quest058",
-               "x" : 70,
-               "y" : 50,
+               "x" : 54,
+               "y" : 65,
                "big" : false,
                "icon" : "BuildCraft|Silicon:laserBlock size(1) dmg(0)",
                "requirements" : [
@@ -2918,9 +2918,90 @@
                ]
             },
             {
+               "id" : "quest342",
+               "x" : 66,
+               "y" : 85,
+               "big" : false,
+               "icon" : "BuildCraft|Robotics:robot size(1) dmg(0)",
+               "requirements" : [
+                  "quest058"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "BuildCraft|Robotics:robot size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "BuildCraft|Robotics:robotStation size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "BuildCraft|Robotics:zonePlan size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "BuildCraft|Core:diamondGearItem size(2) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest344",
+               "x" : 54,
+               "y" : 105,
+               "big" : false,
+               "icon" : "BuildCraft|Robotics:redstone_board size(1) dmg(0)",
+               "requirements" : [
+                  "quest342"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "BuildCraft|Robotics:redstone_board size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "BuildCraft|Silicon:laserTableBlock size(1) dmg(4)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:emerald size(3) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest059",
-               "x" : 98,
-               "y" : 50,
+               "x" : 42,
+               "y" : 85,
                "big" : false,
                "icon" : "BuildCraft|Silicon:laserTableBlock size(1) dmg(2)",
                "requirements" : [
@@ -2964,8 +3045,8 @@
             },
             {
                "id" : "quest060",
-               "x" : 126,
-               "y" : 50,
+               "x" : 30,
+               "y" : 105,
                "big" : false,
                "icon" : "bcadditions:refinerywals size(1) dmg(0)",
                "requirements" : [
@@ -3002,8 +3083,8 @@
             },
             {
                "id" : "quest061",
-               "x" : 154,
-               "y" : 50,
+               "x" : 42,
+               "y" : 125,
                "big" : false,
                "icon" : "bcadditions:blockCoolingTowerWalls) size(1) dmg(0)",
                "requirements" : [
@@ -3043,9 +3124,372 @@
                ]
             },
             {
+               "id" : "quest354",
+               "x" : 134,
+               "y" : 25,
+               "big" : false,
+               "icon" : "ThermalExpansion:Dynamo size(1) dmg(0)",
+               "requirements" : [
+                  "quest020"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:Dynamo size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "ThermalExpansion:Dynamo size(1) dmg(1)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "ThermalExpansion:Dynamo size(1) dmg(2)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "ThermalExpansion:Dynamo size(1) dmg(3)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "ThermalExpansion:Dynamo size(1) dmg(4)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ThermalExpansion:Frame size(2) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest356",
+               "x" : 146,
+               "y" : 45,
+               "big" : false,
+               "icon" : "ThermalExpansion:Frame size(1) dmg(9)",
+               "requirements" : [
+                  "quest354"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:Cell size(1) dmg(1)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ThermalExpansion:Glass size(4) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest358",
+               "x" : 122,
+               "y" : 45,
+               "big" : false,
+               "icon" : "ThermalExpansion:Machine size(1) dmg(1)",
+               "requirements" : [
+                  "quest356"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:Machine size(1) dmg(1)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ThermalExpansion:Frame size(2) dmg(1)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest362",
+               "x" : 134,
+               "y" : 65,
+               "big" : false,
+               "icon" : "ThermalExpansion:Machine size(1) dmg(4)",
+               "requirements" : [
+                  "quest356"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:Machine size(1) dmg(4)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        },
+                        {
+                           "item" : "ThermalExpansion:Machine size(1) dmg(5)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "advgenerators:PowerIO size(2) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest364",
+               "x" : 122,
+               "y" : 85,
+               "big" : false,
+               "icon" : "RedstoneArsenal:material size(1) dmg(96)",
+               "requirements" : [
+                  "quest362"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_DETECT",
+                     "requirements" : [
+                        {
+                           "item" : "RedstoneArsenal:material size(1) dmg(96)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "minecraft:redstone size(16) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest304",
+               "x" : 134,
+               "y" : 105,
+               "big" : false,
+               "icon" : "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
+               "requirements" : [
+                  "quest364"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "RedstoneArsenal:armor.plateFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "RedstoneArsenal:armor.legsFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "RedstoneArsenal:armor.bootsFlux size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "TConstruct:heartCanister size(1) dmg(6)",
+                  "RedstoneArsenal:material size(6) dmg(32)"
+               ],
+               "reputations" : [
+                  {
+                     "reputation" : "rep001",
+                     "value" : 1
+                  }
+               ]
+            },
+            {
+               "id" : "quest360",
+               "x" : 158,
+               "y" : 65,
+               "big" : false,
+               "icon" : "ThermalExpansion:Machine size(1) dmg(3)",
+               "requirements" : [
+                  "quest356"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:Machine size(1) dmg(3)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ThermalExpansion:Frame size(2) dmg(2)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest368",
+               "x" : 170,
+               "y" : 85,
+               "big" : false,
+               "icon" : "ThermalExpansion:augment size(1) dmg(112)",
+               "requirements" : [
+                  "quest360"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:augment size(1) dmg(64)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "ThermalExpansion:augment size(1) dmg(80)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "ThermalExpansion:augment size(1) dmg(112)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "ThermalExpansion:augment size(1) dmg(128)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        },
+                        {
+                           "item" : "ThermalExpansion:augment size(1) dmg(312)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "ThermalExpansion:Frame size(1) dmg(3)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
+               "id" : "quest366",
+               "x" : 146,
+               "y" : 85,
+               "big" : false,
+               "icon" : "ThermalExpansion:Tesseract size(1) dmg(0)",
+               "requirements" : [
+                  "quest360",
+                  "quest268"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "ANTI_TRIGGER",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "ThermalExpansion:Tesseract size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "NBT_FUZZY"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "DraconicEvolution:draconicCore size(1) dmg(0)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest062",
-               "x" : 30,
-               "y" : 165,
+               "x" : 238,
+               "y" : 20,
                "big" : false,
                "icon" : "EnderIO:blockCapBank size(1) dmg(1)",
                "requirements" : [
@@ -3064,7 +3508,7 @@
                         {
                            "item" : "EnderIO:blockCapBank size(1) dmg(1)",
                            "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
@@ -3077,8 +3521,8 @@
             },
             {
                "id" : "quest063",
-               "x" : 46,
-               "y" : 140,
+               "x" : 226,
+               "y" : 40,
                "big" : false,
                "icon" : "EnderIO:blockAlloySmelter size(1) dmg(0)",
                "requirements" : [
@@ -3121,8 +3565,8 @@
             },
             {
                "id" : "quest064",
-               "x" : 62,
-               "y" : 115,
+               "x" : 250,
+               "y" : 40,
                "big" : false,
                "icon" : "EnderIO:itemBasicCapacitor size(1) dmg(1)",
                "requirements" : [
@@ -3165,8 +3609,8 @@
             },
             {
                "id" : "quest065",
-               "x" : 90,
-               "y" : 115,
+               "x" : 238,
+               "y" : 60,
                "big" : false,
                "icon" : "EnderIO:itemYetaWrench size(1) dmg(0)",
                "requirements" : [
@@ -3198,8 +3642,8 @@
             },
             {
                "id" : "quest066",
-               "x" : 122,
-               "y" : 115,
+               "x" : 250,
+               "y" : 80,
                "big" : false,
                "icon" : "EnderIO:blockPowerMonitor size(1) dmg(0)",
                "requirements" : [
@@ -3231,8 +3675,8 @@
             },
             {
                "id" : "quest067",
-               "x" : 134,
-               "y" : 140,
+               "x" : 262,
+               "y" : 100,
                "big" : false,
                "icon" : "EnderIO:blockVat size(1) dmg(0)",
                "requirements" : [
@@ -3264,8 +3708,8 @@
             },
             {
                "id" : "quest068",
-               "x" : 154,
-               "y" : 115,
+               "x" : 226,
+               "y" : 80,
                "big" : false,
                "icon" : "EnderIO:item.darkSteel_helmet size(1) dmg(0)",
                "requirements" : [
@@ -3305,19 +3749,20 @@
                   }
                ],
                "reward" : [
-                  "EnderIO:itemAlloy size(4) dmg(7)"
+                  "TConstruct:heartCanister size(1) dmg(6)",
+                  "EnderIO:itemAlloy size(6) dmg(6)"
                ],
                "reputations" : [
                ]
             },
             {
                "id" : "quest069",
-               "x" : 186,
-               "y" : 115,
+               "x" : 238,
+               "y" : 100,
                "big" : false,
                "icon" : "EnderIO:itemFrankenSkull size(1) dmg(1)",
                "requirements" : [
-                  "quest068"
+                  "quest066"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
@@ -3371,9 +3816,42 @@
                ]
             },
             {
+               "id" : "quest346",
+               "x" : 250,
+               "y" : 120,
+               "big" : false,
+               "icon" : "EnderIO:blockFarmStation size(1) dmg(0)",
+               "requirements" : [
+                  "quest069"
+               ],
+               "repeatInfo" : {
+                  "type" : "NONE"
+               },
+               "triggerType" : "NONE",
+               "triggerTasks" : 0,
+               "tasks" : [
+                  {
+                     "id" : "task000",
+                     "type" : "TASK_ITEMS_CRAFTING",
+                     "requirements" : [
+                        {
+                           "item" : "EnderIO:blockFarmStation size(1) dmg(0)",
+                           "required" : 1,
+                           "precision" : "PRECISE"
+                        }
+                     ]
+                  }
+               ],
+               "reward" : [
+                  "EnderIO:itemAlloy size(4) dmg(7)"
+               ],
+               "reputations" : [
+               ]
+            },
+            {
                "id" : "quest070",
-               "x" : 218,
-               "y" : 115,
+               "x" : 226,
+               "y" : 120,
                "big" : false,
                "icon" : "EnderIO:itemFrankenSkull size(1) dmg(3)",
                "requirements" : [
@@ -3382,7 +3860,7 @@
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "NONE",
+               "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
                "tasks" : [
                   {
@@ -3419,18 +3897,18 @@
                ]
             },
             {
-               "id" : "quest304",
-               "x" : 250,
-               "y" : 115,
+               "id" : "quest352",
+               "x" : 238,
+               "y" : 140,
                "big" : false,
-               "icon" : "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
+               "icon" : "EnderIO:blockTransceiver size(1) dmg(0)",
                "requirements" : [
                   "quest070"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
-               "triggerType" : "ANTI_TRIGGER",
+               "triggerType" : "NONE",
                "triggerTasks" : 0,
                "tasks" : [
                   {
@@ -3438,33 +3916,17 @@
                      "type" : "TASK_ITEMS_CRAFTING",
                      "requirements" : [
                         {
-                           "item" : "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
+                           "item" : "EnderIO:blockTransceiver size(1) dmg(0)",
                            "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "RedstoneArsenal:armor.plateFlux size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "RedstoneArsenal:armor.legsFlux size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
-                        },
-                        {
-                           "item" : "RedstoneArsenal:armor.bootsFlux size(1) dmg(0)",
-                           "required" : 1,
-                           "precision" : "PRECISE"
+                           "precision" : "NBT_FUZZY"
                         }
                      ]
                   }
                ],
+               "reward" : [
+                  "EnderIO:itemBasicCapacitor size(2) dmg(2)"
+               ],
                "reputations" : [
-                  {
-                     "reputation" : "rep001",
-                     "value" : 1
-                  }
                ]
             }
          ]
@@ -9905,7 +10367,7 @@
                   }
                ],
                "reward" : [
-                  "TConstruct:heartCanister size(1) dmg(6)"
+                  "TConstruct:heartCanister size(1) dmg(4)"
                ],
                "reputations" : [
                   {
@@ -12880,7 +13342,7 @@
                },
                "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
-               "parentRequirementCount" : 15,
+               "parentRequirementCount" : 17,
                "tasks" : [
                   {
                      "id" : "task000",
@@ -12912,29 +13374,33 @@
                "big" : false,
                "icon" : "minecraft:carrot_on_a_stick size(1) dmg(0)",
                "requirements" : [
-                  "quest032",
-                  "quest044",
                   "quest061",
                   "quest070",
                   "quest092",
                   "quest114",
-                  "quest147",
                   "quest192",
-                  "quest231",
                   "quest285",
                   "quest078",
                   "quest125",
-                  "quest181",
                   "quest221",
                   "quest277",
-                  "quest161"
+                  "quest161",
+                  "quest023",
+                  "quest368",
+                  "quest146",
+                  "quest150",
+                  "quest231",
+                  "quest181",
+                  "quest033",
+                  "quest046",
+                  "quest048"
                ],
                "repeatInfo" : {
                   "type" : "NONE"
                },
                "triggerType" : "ANTI_TRIGGER",
                "triggerTasks" : 0,
-               "parentRequirementCount" : 12,
+               "parentRequirementCount" : 14,
                "tasks" : [
                   {
                      "id" : "task000",
