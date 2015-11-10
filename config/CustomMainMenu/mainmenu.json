@@ -1,24 +1,24 @@
 {
   "images":
   {
-    "blackbackground":
-    {
-      "image" : "shatteredworld:BlackBackground.png",
-      "posX" : 10,
-      "posY" : 0,
-      "width" : 130,
-      "height" : 2000,
-      "alignment" : "top_left"
-    },
     "logo":
     {
       "image" : "shatteredworld:logo.png",
-      "posX" : 0,
-      "posY" : 5,
-      "width" : 150,
-      "height" : 52,
-      "alignment" : "top_left"
-    }
+      "posX" : -118,
+      "posY" : -100,
+      "width" : 236,
+      "height" : 80,
+      "alignment" : "center"
+    }/*,
+    "blackbackground":
+    {
+      "image" : "shatteredworld:menu-background.png",
+      "posX" : -360,
+      "posY" : 0,
+      "width" : 720,
+      "height" : 48,
+      "alignment" : "center"
+    }  */  
   },
   
   "buttons":
@@ -26,12 +26,16 @@
     "singleplayer":
     {
       "text" : "menu.singleplayer",
-      "posX" : 25,
-      "posY" : -44,
-      "width" : 100,
-      "height" : 20, 
-      "alignment" : "left_center",
-      "action" : 
+      "posX" : -175,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      /*"texture" : "projectretv8:btn.png",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 16711680,*/
+      "shadow" : false,
+      "action" :
       {
 	  "type" : "openGui",
 	  "gui" : "singleplayer"
@@ -41,12 +45,16 @@
     "multiplayer":
     {
       "text" : "menu.multiplayer",
-      "posX" : 25,
-      "posY" : -22,
-      "width" : 100,
-      "height" : 20, 
-      "alignment" : "left_center",
-      "action" : 
+      "posX" : -105,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      /*"texture" : "projectretv8:btn.png",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 16711680,*/
+      "shadow" : false,
+      "action" :
       {
 	  "type" : "openGui",
 	  "gui" : "multiplayer"
@@ -56,12 +64,16 @@
     "mods":
     {
       "text" : "Mods",
-      "posX" : 25,
+      "posX" : -35,
       "posY" : 0,
-      "width" : 100,
-      "height" : 20, 
-      "alignment" : "left_center",
-      "action" : 
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      /*"texture" : "projectretv8:btn.png",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 16711680,*/
+      "shadow" : false,
+      "action" :
       {
 	  "type" : "openGui",
 	  "gui" : "mods"
@@ -71,12 +83,16 @@
     "options":
     {
       "text" : "menu.options",
-      "posX" : 25,
-      "posY" : 22,
-      "width" : 100,
-      "height" : 20, 
-      "alignment" : "left_center",
-      "action" : 
+      "posX" : 35,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      /*"texture" : "projectretv8:btn.png",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 16711680,*/
+      "shadow" : false,
+      "action" :
       {
 	  "type" : "openGui",
 	  "gui" : "options"
@@ -86,17 +102,20 @@
     "quit":
     {
       "text" : "menu.quit",
-      "posX" : 25,
-      "posY" : 44,
-      "width" : 100,
-      "height" : 20, 
-      "alignment" : "left_center",
-      "action" : 
+      "posX" : 105,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      /*"texture" : "projectretv8:btn.png",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 16711680,*/
+      "shadow" : false,
+      "action" :
       {
 	  "type" : "quit"
       }
-    }
-    /*
+    }/*,
     "refresh":
     {
       "text" : "",
@@ -110,33 +129,24 @@
       {
 	  "type" : "refresh"
       }
-    }
-    */
+    }*/
   },
   
   "texts":
   {
     "mcversion":
     {
-      "text": "Minecraft #mcversion#",
-      "posX" : 35,
-      "posY" : -30,
-      "color" : -1,
-      "alignment" : "bottom_left"
-    },
-    "forgeversion":
-    {
-      "text": "FML #forgeversion#",
-      "posX" : 35,
-      "posY" : -20,
+      "text": "#mcversion# - #forgeversion#",
+      "posX" : 5,
+      "posY" : -10,
       "color" : -1,
       "alignment" : "bottom_left"
     },
     "mods":
     {
       "text": "#modsactive# active Mods ",
-      "posX" : 35,
-      "posY" : -10,
+      "posX" : 5,
+      "posY" : -20,
       "color" : -1,
       "alignment" : "bottom_left"
     },
