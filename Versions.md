@@ -52,6 +52,7 @@
 - inpurecore-1.7.10-1.0.0B9-62.jar
 - inventorytweaks-1.7.10-1.58-147.jar
 - ironchest-1.7.10-6.0.62.742.jar
+- launchgui-client-1.7.10-2.0-18.jar
 - limitedresources-1.7.10-1.1.0.jar
 - lycanitesmobscomplete-1.7.10-1.11.0.1.jar
 - magistics-1.7.10-0.7.6.jar

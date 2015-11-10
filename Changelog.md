@@ -2,6 +2,11 @@
 
 # Version 0.7.2
 
+# Version 0.7.1d
+
+**Mod Additions**
+- LaunchGUI 2.0-18
+
 # Version 0.7.1c
 
 **Mod Updates**
