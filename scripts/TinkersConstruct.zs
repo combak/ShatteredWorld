@@ -184,7 +184,7 @@ val gardStuffWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
 # Redstone Arsenal 
 val rsArsenalFluxedElectrumNugget	= <RedstoneArsenal:material:64>;
 val rsArsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
-
+val rsArsenalCrystalFlux            = <RedstoneArsenal:material:96>;
 # EnderIO
 val enderioPulsatingIronNugget	= <EnderIO:itemMaterial:3>;
 val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
@@ -202,6 +202,7 @@ val agriCraftDiamondNugget = <AgriCraft:nuggetDiamond>;
 val vanillaRedstone      = <minecraft:redstone>;
 val vanillaGlowstoneDust = <minecraft:glowstone_dust>;
 val vanillaBucket        = <minecraft:bucket>;
+val vanillaDiamond       = <minecraft:diamond>;
 
 # Thaumcraft
 val thaumcraftThaumiumNugget	= <Thaumcraft:ItemNugget:6>;
@@ -536,8 +537,8 @@ mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumBlock, frFluxedElect
 
 # Redstone Melting -> Destabilized Redstone & Redstone Block
 
-mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 2000, vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 2000, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 1300, vanillaRedstoneBlock );
+mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 1300, vanillaRedstoneBlock );
 
 # Pulsating Iron
 mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronNugget, frPulsatingIron * 16, 500, enderioPulsatingIronBlock );
@@ -623,3 +624,4 @@ mods.tconstruct.Smeltery.addMelting( <minecraft:red_mushroom> * 1 , frMushroom *
 mods.tconstruct.Smeltery.addMelting( <harvestcraft:whitemushroomItem> * 1 , frMushroom * 144, 180, <minecraft:brown_mushroom_block> );
 mods.tconstruct.Smeltery.addMelting( <Forestry:mushroom> * 1 , frMushroom * 144, 180, <minecraft:brown_mushroom_block> );
 mods.tconstruct.Casting.addTableRecipe( <minecraft:mushroom_stew> * 1 , frMushroom * 288, <minecraft:bowl>, false, 20 );
+mods.tconstruct.Casting.addBasinRecipe( rsArsenalCrystalFlux, frRedstone * 600, vanillaDiamond, true, 20 );
