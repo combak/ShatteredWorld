@@ -615,6 +615,13 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/225095-thaumcraft-nei-plugin/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2237271-1-6-4-1-7-10-thaumcraft-nei-plugin-nei
 
+**Thaumcraft - Node Tracker**
+> Thaumcraft Node Tracker by Dyonovan is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+- Author: Dyonovan
+- Files: http://minecraft.curseforge.com/projects/thaumcraft-node-tracker/files
+- Licence: https://github.com/Dyonovan/TCNodeTracker/blob/master/README.md
+
 **Thaumcraft - Travellers Gear**
 > Public Domain
 
