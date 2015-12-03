@@ -37,6 +37,10 @@
 /config/INpureProjects/logs/
 /config/cofh/core/friends.cfg
 
+/config/contenttweaker/ContentTweaker-Resourcepack/
+/config/contenttweaker/resourcepack/
+
+
 # CustomNPCs
 *.dat_old
 /customnpcs/playerdata/
