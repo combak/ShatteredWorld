@@ -1,0 +1,28 @@
+# Botania
+tile.molten_manasteel.name=Molten Manasteel
+tile.molten_terrasteel.name=Molten Terrasteel
+tile.molten_elementium.name=Molten Elementium
+
+# EnderIO
+tile.molten_electricalsteel.name=Molten Electrical Steel
+tile.molten_pulsatingiron.name=Molten Pulsating Iron
+tile.molten_vibrantalloy.name=Molten Vibrant Alloy
+tile.molten_darksteel.name=Molten Dark Steel
+tile.molten_redstonealloy.name=Molten Redstone Alloy
+tile.molten_conductiveiron.name=Molten Conductive Iron
+tile.molten_energeticalloy.name=Molten Energetic Alloy
+tile.molten_soularium.name=Molten Soularium
+
+# GardenStuff
+tile.molten_wroughtiron.name=Molten Wrought Iron
+
+# Redstone Arsenal
+tile.molten_fluxedelectrum.name=Molten Fluxed Electrum
+
+# Thaumcraft
+tile.molten_thaumium.name=Molten Thaumium
+tile.molten_voidmetal.name=Molten Void Metal
+
+# Dragonic Evolution
+tile.molten_draconium.name=Molten Draconium
+tile.molten_draconiumawakened.name=Molten Awakened Draconium

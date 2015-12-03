@@ -1,0 +1,29 @@
+# Botania
+tile.molten_manasteel.name=Geschmolzener Manastahl
+tile.molten_terrasteel.name=Geschmolzener Terrastahl
+tile.molten_elementium.name=Geschmolzenes Elementium
+
+# EnderIO
+tile.molten_electricalsteel.name=Geschmolzener elektrischer Stahl
+tile.molten_pulsatingiron.name=Geschmolzenes pulsierendes Eisen
+tile.molten_vibrantalloy.name=Geschmolzene dynamische Legierung
+tile.molten_darksteel.name=Geschmolzener Dunkelstahl
+tile.molten_redstonealloy.name=Geschmolzene Redstone Legierung
+tile.molten_conductiveiron.name=Geschmolzenes leitendes Eisen
+tile.molten_energeticalloy.name=Geschmolzene energetisierte Legierung
+tile.molten_soularium.name=Geschmolzenes Soularium
+
+
+# GardenStuff
+tile.molten_wroughtiron.name=Geschmolzenes Schmiedeeisen
+
+# Redstone Arsenal
+tile.molten_fluxedelectrum.name=Geschmolzenes fluxierendes Elektrum
+
+# Thaumcraft
+tile.molten_thaumium.name=Geschmolzenes Thaumium
+tile.molten_voidmetal.name=Geschmolzenes Leermetall
+
+# Dragonic Evolution
+tile.molten_draconium.name=Geschmolzenes drakonisches Metall
+tile.molten_draconiumawakened.name=Geschmolzenes erwachtes drakonisches Metall
