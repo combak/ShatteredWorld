@@ -2,6 +2,21 @@
 
 # Version 0.7.2
 
+**Config Changes**
+- Fixed Melting of Redstone + added Fluxed Crystal Recipe
+
+**Mod Additions**
+- Fluxed Core 1.0.6
+- Content Tweaker 1.0.5
+- Thaumcraft - NodeTracker 1.1.2
+
+**Mod Updates**
+- Minecraft Forge 10.13.4.1492 to 10.13.4.1558
+- CustomnNPCs d (2015-09) to d (2015-12)
+
+**Mod Removed**
+- Custom Fluids
+
 # Version 0.7.1d
 
 **Mod Additions**
