@@ -159,6 +159,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/225236-chisel-2/files
 - Licence: https://github.com/TheCricket/Chisel-2/blob/master/LICENSE
 
+**Content Tweaker**
+> I don't really care if people use my mod, like sending me a message would be nice, but I will very rarely say no
+
+- Author: jaredlll08
+- Files: http://minecraft.curseforge.com/projects/contenttweaker/files
+- Permission: https://github.com/jaredlll08/ContentTweaker/issues/2#issuecomment-161663062
+
 **CookieCore**
 > You're free to include this mod in any modpack
 
@@ -166,13 +173,6 @@
 - Required for: Tinker's Steelworks
 - Files: http://minecraft.curseforge.com/mc-mods/222908-cookiecore/files
 - Permission: https://github.com/Ephys/CookieCore/blob/1.7/README.md
-
-**Custom Fluids**
-> GNU Lesser General Public License v3
-
-- Author: DerOli82
-- Files: coming soon
-- Licence: https://github.com/DerOli82/CustomFluids/blob/master/Licence.md
 
 **Custom Main Menu**
 > Please notify me when you use this mod in a modpack, you don't have to wait for an answer (There won't actually be an answer unless you ask me something) just send me the name of your pack. 
@@ -270,12 +270,12 @@
 - Files: http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
 - Permission: http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
 
-**Fun World Gen**
-> Can I include FWG in my modpack? A Yes, as long as you don't make any money out of it. 
+**Fluxed Core**
+> If you ask me if you can use my mod in a modpack, you will be denied, however, if you don't then go ahead.
 
-- Author: ted80
-- Files: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281910-teds-world-gen-mods-realistic-world-gen-alpha-1-3
-- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281910-teds-world-gen-mods-realistic-world-gen-alpha-1-3
+- Author: jaredlll08
+- Files: http://minecraft.curseforge.com/projects/fluxed-core/files
+- Permission: http://minecraft.curseforge.com/projects/fluxed-core
 
 **Forestry**
 > GNU Lesser General Public License
@@ -297,6 +297,14 @@
 - Author: luacs1998, AbrarSyed, dries007, Malkierian, olee92
 - Files: http://minecraft.curseforge.com/mc-mods/74735-forge-essentials-74735/files
 - Licence: https://github.com/ForgeEssentials/ForgeEssentialsMain/blob/develop/LICENSE.TXT
+
+
+**Fun World Gen**
+> Can I include FWG in my modpack? A Yes, as long as you don't make any money out of it. 
+
+- Author: ted80
+- Files: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281910-teds-world-gen-mods-realistic-world-gen-alpha-1-3
+- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281910-teds-world-gen-mods-realistic-world-gen-alpha-1-3
 
 ## G
 
