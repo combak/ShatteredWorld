@@ -4,143 +4,20 @@ import minetweaker.item.IItemStack;
 # Blocks
 ########################################################################################################################
 
-val forestryLogs = [
-  <Forestry:log1>,			/*  0 - Larch */
-  <Forestry:log1:1>,			/*  1 - Teak */
-  <Forestry:log1:2>,			/*  2 - Acacia */
-  <Forestry:log1:3>,			/*  3 - Lime */
-  <Forestry:log2>,			/*  4 - Chestnut */
-  <Forestry:log2:1>,			/*  5 - Wenge */
-  <Forestry:log2:2>,			/*  6 - Baobab */
-  <Forestry:log2:3>,			/*  7 - Sequoia */
-  <Forestry:log3>,			/*  8 - Kapok */
-  <Forestry:log3:1>,			/*  9 - Ebony */
-  <Forestry:log3:2>,			/* 10 - Mahogany */
-  <Forestry:log3:3>,			/* 11 - Balsa */
-  <Forestry:log4>,			/* 12 - Willow */
-  <Forestry:log4:1>,			/* 13 - Walnut */
-  <Forestry:log4:2>,			/* 14 - Greenheart */
-  <Forestry:log4:3>,			/* 15 - Cherry */
-  <Forestry:log5>,			/* 16 - Mahoe */
-  <Forestry:log5:1>,			/* 17 - Poplar */
-  <Forestry:log5:2>,			/* 18 - Palm */
-  <Forestry:log5:3>,			/* 19 - Papaya */
-  <Forestry:log6>,			/* 20 - Pine */
-  <Forestry:log6:1>,			/* 21 - Plum */
-  <Forestry:log6:2>,			/* 22 - Maple */
-  <Forestry:log6:3>,			/* 23 - Citrus */
-  <Forestry:log7>,			/* 24 - Giant Sequoia */
-  <Forestry:log7:1>,			/* 25 - Ipe */
-  <Forestry:log7:2>,			/* 26 - Padauk */
-  <Forestry:log7:3>,			/* 27 - Cocobolo */
-  <Forestry:log8>,			/* 28 - Zebrawood */
-
-  <Forestry:fireproofLog1>,		/* 29 - Larch */
-  <Forestry:fireproofLog1:1>,		/* 30 - Teak */
-  <Forestry:fireproofLog1:2>,		/* 31 - Acacia */
-  <Forestry:fireproofLog1:3>,		/* 32 - Lime */
-  <Forestry:fireproofLog2>,		/* 33 - Chestnut */
-  <Forestry:fireproofLog2:1>,		/* 34 - Wenge */
-  <Forestry:fireproofLog2:2>,		/* 35 - Baobab */
-  <Forestry:fireproofLog2:3>,		/* 36 - Sequoia */
-  <Forestry:fireproofLog3>,		/* 37 - Kapok */
-  <Forestry:fireproofLog3:1>,		/* 38 - Ebony */
-  <Forestry:fireproofLog3:2>,		/* 39 - Mahogany */
-  <Forestry:fireproofLog3:3>,		/* 40 - Balsa */
-  <Forestry:fireproofLog4>,		/* 41 - Willow */
-  <Forestry:fireproofLog4:1>,		/* 42 - Walnut */
-  <Forestry:fireproofLog4:2>,		/* 43 - Greenheart */
-  <Forestry:fireproofLog4:3>,		/* 44 - Cherry */
-  <Forestry:fireproofLog5>,		/* 45 - Mahoe */
-  <Forestry:fireproofLog5:1>,		/* 46 - Poplar */
-  <Forestry:fireproofLog5:2>,		/* 47 - Palm */
-  <Forestry:fireproofLog5:3>,		/* 48 - Papaya */
-  <Forestry:fireproofLog6>,		/* 49 - Pine */
-  <Forestry:fireproofLog6:1>,		/* 50 - Plum */
-  <Forestry:fireproofLog6:2>,		/* 51 - Maple */
-  <Forestry:fireproofLog6:3>,		/* 52 - Citrus */
-  <Forestry:fireproofLog7>,		/* 53 - Giant Sequoia */
-  <Forestry:fireproofLog7:1>,		/* 54 - Ipe */
-  <Forestry:fireproofLog7:2>,		/* 55 - Padauk */
-  <Forestry:fireproofLog7:3>,		/* 56 - Cocobolo */
-  <Forestry:fireproofLog8>		/* 57 - Zebrawood */
-] as IItemStack[];
-
-val forestryPlanks = [
-  <Forestry:planks>,			/*  0 - Larch */
-  <Forestry:planks:1>,			/*  1 - Teak */
-  <Forestry:planks:2>,			/*  2 - Acacia */
-  <Forestry:planks:3>,			/*  3 - Lime */
-  <Forestry:planks:4>,			/*  4 - Chestnut */
-  <Forestry:planks:5>,			/*  5 - Wenge */
-  <Forestry:planks:6>,			/*  6 - Baobab */
-  <Forestry:planks:7>,			/*  7 - Sequoia */
-  <Forestry:planks:8>,			/*  8 - Kapok */
-  <Forestry:planks:9>,			/*  9 - Ebony */
-  <Forestry:planks:10>,			/* 10 - Mahogany */
-  <Forestry:planks:11>,			/* 11 - Balsa */
-  <Forestry:planks:12>,			/* 12 - Willow */
-  <Forestry:planks:13>,			/* 13 - Walnut */
-  <Forestry:planks:14>,			/* 14 - Greenheart */
-  <Forestry:planks:15>,			/* 15 - Cherry */
-  <Forestry:planks2>,			/* 16 - Mahoe */
-  <Forestry:planks2:1>,			/* 17 - Poplar */
-  <Forestry:planks2:2>,			/* 18 - Palm */
-  <Forestry:planks2:3>,			/* 19 - Papaya */
-  <Forestry:planks2:4>,			/* 20 - Pine */
-  <Forestry:planks2:5>,			/* 21 - Plum */
-  <Forestry:planks2:6>,			/* 22 - Maple */
-  <Forestry:planks2:7>,			/* 23 - Citrus */
-  <Forestry:planks2:8>,			/* 24 - Giant Sequoia */
-  <Forestry:planks2:9>,			/* 25 - Ipe */
-  <Forestry:planks2:10>,		/* 26 - Padauk */
-  <Forestry:planks2:11>,		/* 27 - Cocobolo */
-  <Forestry:planks2:12>,		/* 28 - Zebrawood */
-  
-  <Forestry:fireproofPlanks1>,		/* 29 - Larch */
-  <Forestry:fireproofPlanks1:1>,	/* 30 - Teak */
-  <Forestry:fireproofPlanks1:2>,	/* 31 - Acacia */
-  <Forestry:fireproofPlanks1:3>,	/* 32 - Lime */
-  <Forestry:fireproofPlanks1:4>,	/* 33 - Chestnut */
-  <Forestry:fireproofPlanks1:5>,	/* 34 - Wenge */
-  <Forestry:fireproofPlanks1:6>,	/* 35 - Baobab */
-  <Forestry:fireproofPlanks1:7>,	/* 36 - Sequoia */
-  <Forestry:fireproofPlanks1:8>,	/* 37 - Kapok */
-  <Forestry:fireproofPlanks1:9>,	/* 38 - Ebony */
-  <Forestry:fireproofPlanks1:10>,	/* 39 - Mahogany */
-  <Forestry:fireproofPlanks1:11>,	/* 40 - Balsa */
-  <Forestry:fireproofPlanks1:12>,	/* 41 - Willow */
-  <Forestry:fireproofPlanks1:13>,	/* 42 - Walnut */
-  <Forestry:fireproofPlanks1:14>,	/* 43 - Greenheart */
-  <Forestry:fireproofPlanks1:15>,	/* 44 - Cherry */
-  <Forestry:fireproofPlanks2>,		/* 45 - Mahoe */
-  <Forestry:fireproofPlanks2:1>,	/* 46 - Poplar */
-  <Forestry:fireproofPlanks2:2>,	/* 47 - Palm */
-  <Forestry:fireproofPlanks2:3>,	/* 48 - Papaya */
-  <Forestry:fireproofPlanks2:4>,	/* 49 - Pine */
-  <Forestry:fireproofPlanks2:5>,	/* 50 - Plum */
-  <Forestry:fireproofPlanks2:6>,	/* 51 - Maple */
-  <Forestry:fireproofPlanks2:7>,	/* 52 - Citrus */
-  <Forestry:fireproofPlanks2:8>,	/* 53 - Giant Sequoia */
-  <Forestry:fireproofPlanks2:9>,	/* 54 - Ipe */
-  <Forestry:fireproofPlanks2:10>,	/* 55 - Padauk */
-  <Forestry:fireproofPlanks2:11>,	/* 56 - Cocobolo */
-  <Forestry:fireproofPlanks2:12>	/* 57 - Zebrawood */  
-] as IItemStack[];
-
 # Forestry
 val forestryEngineClockwork	= <Forestry:engine:1>;
 val forestryEnginePeat		= <Forestry:engine:2>;
 val forestryEngineBiogas	= <Forestry:engine:4>;
-val forestryHoneyDrop		= <Forestry:honeyDrop>;
+# val forestryHoneyDrop		= <Forestry:honeyDrop>;
+
 # EnderIO
 val enderioChassis                  = <EnderIO:itemMachinePart>;
 
 # ExtraBees
-val extBeesShadowComb = <ExtraBees:honeyComb:36>;
+# val extBeesShadowComb = <ExtraBees:honeyComb:36>;
 
 # BuildCraft Additions
-val bcAdditionObsidianDust = <bcadditions:dust:58>;
+# val bcAdditionObsidianDust = <bcadditions:dust:58>;
 
 ########################################################################################################################
 # Items
@@ -154,9 +31,76 @@ val buildCraftPipePowerEmerald      = <BuildCraft|Transport:item.buildcraftPipe.
 # Thermal Expansion
 val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
 
+########################################################################################################################
+# (Mixed) Data Structures - Forestry Wood
+########################################################################################################################
+
+val forestryWoods = [
+  [ <Forestry:logs>, <Forestry:planks> ],				/*  0 - Larch */
+  [ <Forestry:logs:1>, <Forestry:planks:1> ],				/*  1 - Teak */
+  [ <Forestry:logs:2>, <Forestry:planks:2> ],				/*  2 - Acacia */
+  [ <Forestry:logs:3>, <Forestry:planks:3> ],				/*  3 - Lime */
+  [ <Forestry:logs:4>, <Forestry:planks:4> ],				/*  4 - Chestnut */
+  [ <Forestry:logs:5>, <Forestry:planks:5> ],				/*  5 - Wenge */
+  [ <Forestry:logs:6>, <Forestry:planks:6> ],				/*  6 - Baobab */
+  [ <Forestry:logs:7>, <Forestry:planks:7> ],				/*  7 - Sequoia */
+  [ <Forestry:logs:8>, <Forestry:planks:8> ],				/*  8 - Kapok */
+  [ <Forestry:logs:9>, <Forestry:planks:9> ],				/*  9 - Ebony */
+  [ <Forestry:logs:10>, <Forestry:planks:10> ],				/* 10 - Mahogany */
+  [ <Forestry:logs:11>, <Forestry:planks:11> ],				/* 11 - Balsa */
+  [ <Forestry:logs:12>, <Forestry:planks:12> ],				/* 12 - Willow */
+  [ <Forestry:logs:13>, <Forestry:planks:13> ],				/* 13 - Walnut */
+  [ <Forestry:logs:14>, <Forestry:planks:14> ],				/* 14 - Greenheart */
+  [ <Forestry:logs:15>, <Forestry:planks:15> ],				/* 15 - Cherry */
+  [ <Forestry:logs:16>, <Forestry:planks:16> ],				/* 16 - Mahoe */
+  [ <Forestry:logs:17>, <Forestry:planks:17> ],				/* 17 - Poplar */
+  [ <Forestry:logs:18>, <Forestry:planks:18> ],				/* 18 - Palm */
+  [ <Forestry:logs:19>, <Forestry:planks:19> ],				/* 19 - Papaya */
+  [ <Forestry:logs:20>, <Forestry:planks:20> ],				/* 20 - Pine */
+  [ <Forestry:logs:21>, <Forestry:planks:21> ],				/* 21 - Plum */
+  [ <Forestry:logs:22>, <Forestry:planks:22> ],				/* 22 - Maple */
+  [ <Forestry:logs:23>, <Forestry:planks:23> ],				/* 23 - Citrus */
+  [ <Forestry:logs:24>, <Forestry:planks:24> ],				/* 24 - Giant Sequoia */
+  [ <Forestry:logs:25>, <Forestry:planks:25> ],				/* 25 - Ipe */
+  [ <Forestry:logs:26>, <Forestry:planks:26> ],				/* 26 - Padauk */
+  [ <Forestry:logs:27>, <Forestry:planks:27> ],				/* 27 - Cocobolo */
+  [ <Forestry:logs:28>, <Forestry:planks:28> ],				/* 28 - Zebrawood */
+  
+  [ <Forestry:logsFireproof>, <Forestry:planksFireproof> ],		/* 29 - Larch */
+  [ <Forestry:logsFireproof:1>, <Forestry:planksFireproof:1> ],		/* 30 - Teak */
+  [ <Forestry:logsFireproof:2>, <Forestry:planksFireproof:2> ],		/* 31 - Acacia */
+  [ <Forestry:logsFireproof:3>, <Forestry:planksFireproof:3> ],		/* 32 - Lime */
+  [ <Forestry:logsFireproof:4>, <Forestry:planksFireproof:4> ],		/* 33 - Chestnut */
+  [ <Forestry:logsFireproof:5>, <Forestry:planksFireproof:5> ],		/* 34 - Wenge */
+  [ <Forestry:logsFireproof:6>, <Forestry:planksFireproof:6> ],		/* 35 - Baobab */
+  [ <Forestry:logsFireproof:7>, <Forestry:planksFireproof:7> ],		/* 36 - Sequoia */
+  [ <Forestry:logsFireproof:8>, <Forestry:planksFireproof:8> ],		/* 37 - Kapok */
+  [ <Forestry:logsFireproof:9>, <Forestry:planksFireproof:9> ],		/* 38 - Ebony */
+  [ <Forestry:logsFireproof:10>, <Forestry:planksFireproof:10> ],	/* 39 - Mahogany */
+  [ <Forestry:logsFireproof:11>, <Forestry:planksFireproof:11> ],	/* 40 - Balsa */
+  [ <Forestry:logsFireproof:12>, <Forestry:planksFireproof:12> ],	/* 41 - Willow */
+  [ <Forestry:logsFireproof:13>, <Forestry:planksFireproof:13> ],	/* 42 - Walnut */
+  [ <Forestry:logsFireproof:14>, <Forestry:planksFireproof:14> ],	/* 43 - Greenheart */
+  [ <Forestry:logsFireproof:15>, <Forestry:planksFireproof:15> ],	/* 44 - Cherry */
+  [ <Forestry:logsFireproof:16>, <Forestry:planksFireproof:16> ],	/* 45 - Mahoe */
+  [ <Forestry:logsFireproof:17>, <Forestry:planksFireproof:17> ],	/* 46 - Poplar */
+  [ <Forestry:logsFireproof:18>, <Forestry:planksFireproof:18> ],	/* 47 - Palm */
+  [ <Forestry:logsFireproof:19>, <Forestry:planksFireproof:19> ],	/* 48 - Papaya */
+  [ <Forestry:logsFireproof:20>, <Forestry:planksFireproof:20> ],	/* 49 - Pine */
+  [ <Forestry:logsFireproof:21>, <Forestry:planksFireproof:21> ],	/* 50 - Plum */
+  [ <Forestry:logsFireproof:22>, <Forestry:planksFireproof:22> ],	/* 51 - Maple */
+  [ <Forestry:logsFireproof:23>, <Forestry:planksFireproof:23> ],	/* 52 - Citrus */
+  [ <Forestry:logsFireproof:24>, <Forestry:planksFireproof:24> ],	/* 53 - Giant Sequoia */
+  [ <Forestry:logsFireproof:25>, <Forestry:planksFireproof:25> ],	/* 54 - Ipe */
+  [ <Forestry:logsFireproof:26>, <Forestry:planksFireproof:26> ],	/* 55 - Padauk */
+  [ <Forestry:logsFireproof:27>, <Forestry:planksFireproof:27> ],	/* 56 - Cocobolo */
+  [ <Forestry:logsFireproof:28>, <Forestry:planksFireproof:28> ]	/* 57 - Zebrawood */  
+]as IItemStack[][];
+
 ######################################################################################################################
 # Oredict
 ######################################################################################################################
+
 val odIngotSilver                   = <ore:ingotSilver>;
 val odIngotGildedRedMetal           = <ore:ingotGildedRedMetal>;
 val odIngotAluminum                 = <ore:ingotAluminum>;
@@ -180,16 +124,19 @@ recipes.addShaped( forestryEngineBiogas, [ [ odIngotGildedRedMetal, odIngotGilde
 ########################################################################################################################
 
 # 1 Log = 2 Planks
-for i, log in forestryLogs
+for entry in forestryWoods
 {
-  var plank = forestryPlanks[ i ];
+  var log	= entry[ 0 ];
+  var plank	= entry[ 1 ];
+
+  # 1 Log = 2 Planks
   recipes.remove( plank );
-  recipes.addShapeless( plank * 2, [ log ] );
+  recipes.addShapeless( plank * 2, [ log  ] );  
 }
 
 ########################################################################################################################
 # Machine - Centrifuge
 ########################################################################################################################
 
-mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
-mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
+# mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
+# mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
