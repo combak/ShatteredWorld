@@ -15,9 +15,6 @@ val enderioSolarpanel               = <EnderIO:blockSolarPanel:1>;
 val enderioChassis                  = <EnderIO:itemMachinePart>;
 val enderioTank                     = <EnderIO:blockTank>;
 
-# Forestry
-val ForestryGlassBlue               = <Forestry:stained:11>;
-
 # Extra Utilities
 val extUtilGlassThickened           = <ExtraUtilities:decorativeBlock2>;
 
@@ -25,8 +22,8 @@ val extUtilGlassThickened           = <ExtraUtilities:decorativeBlock2>;
 val thermExpGlassLumiumHardened     = <ThermalExpansion:Glass:1>;
 
 # Vanilla
-val vanillaIronBar                  = <minecraft:iron_bars>;
-val vanillaFurnace                  = <minecraft:furnace>;
+val vanillaIronBar		= <minecraft:iron_bars>;
+val vanillaFurnace		= <minecraft:furnace>;
 
 ########################################################################################################################
 # Items
@@ -60,6 +57,7 @@ val rsArsenalFluxCrystal            = <RedstoneArsenal:material:96>;
 val odCobblestone	= <ore:cobblestone>;
 val odAluminumIngot	= <ore:ingotAluminum>;
 val odGearWood		= <ore:gearWood>;
+val odGlassBlue		= <ore:blockGlassBlue>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -84,7 +82,7 @@ recipes.remove(enderioGeneratorZombie);
 recipes.addShaped( enderioGeneratorZombie, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, enderioZombieElectrode, projectRedConductivePlate ], [ extUtilGlassThickened, vanillaFurnace, extUtilGlassThickened ] ]);
 
 recipes.remove(enderioSolarpanelsmall);
-recipes.addShaped( enderioSolarpanelsmall, [ [ projectRedChipEnergized, ForestryGlassBlue , projectRedChipEnergized ], [ buildCraftChipComp, enderioVibrantCrystal, buildCraftChipComp ], [ projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ] ]);
+recipes.addShaped( enderioSolarpanelsmall, [ [ projectRedChipEnergized, odGlassBlue , projectRedChipEnergized ], [ buildCraftChipComp, enderioVibrantCrystal, buildCraftChipComp ], [ projectRedChipSilicon, advGenePowerIO, projectRedChipSilicon ] ]);
 
 recipes.remove(enderioSolarpanel);
 recipes.addShaped( enderioSolarpanel, [ [ buildCraftChipPulsating, thermExpGlassLumiumHardened , buildCraftChipPulsating ], [ rsArsenalFluxCrystal, thermExpGlassLumiumHardened, rsArsenalFluxCrystal ], [ enderioSolarpanelsmall, advGenePowerIO, enderioSolarpanelsmall ] ]);

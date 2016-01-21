@@ -18,6 +18,7 @@ import minetweaker.item.IItemStack;
 # Botania clay to ceramic smelting
 val botaniaClaySmelting = [
   /* <Input>, <Output> */
+  /*
   [ <Botany:clay>, <Botany:ceramic> ],
   [ <Botany:clay:1>, <Botany:ceramic:1> ],
   [ <Botany:clay:2>, <Botany:ceramic:2> ],
@@ -98,6 +99,7 @@ val botaniaClaySmelting = [
   [ <Botany:clay:77>, <Botany:ceramic:77> ],
   [ <Botany:clay:78>, <Botany:ceramic:78> ],
   [ <Botany:clay:79>, <Botany:ceramic:79> ]
+  */
 ] as IItemStack[][];
 
 # Botania Metamorphic Cobble => Stone
@@ -209,7 +211,7 @@ val furnacesSmelting = [
   
   [ <appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone:1> ],
   
-  [ <ExtraTrees:misc:9>, <ExtraTrees:misc:12> ],
+  /* [ <ExtraTrees:misc:9>, <ExtraTrees:misc:12> ], */
 
   [ <Natura:impmeat>, <Natura:impmeat:1> ],
   [ <Natura:heatsand>, <Natura:NetherGlass:1> ],

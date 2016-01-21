@@ -3,9 +3,10 @@
 #####################################################################################################################################
 
 # Vanilla
-val vanillaCobblestone              = <minecraft:cobblestone>;
-val vanillaTNT                      = <minecraft:tnt>;
-val obsidian         				= <minecraft:obsidian>;
+val vanillaCobblestone		= <minecraft:cobblestone>;
+val vanillaTNT			= <minecraft:tnt>;
+val obsidian         		= <minecraft:obsidian>;
+val vanillaStainedClayPink	= <minecraft:stained_hardened_clay:6>;
 
 # Buildcraft
 val buildcraftHopper                = <BuildCraft|Factory:blockHopper>;
@@ -16,7 +17,7 @@ val bcAdditionCoilBasic             = <bcadditions:blockCoilBasic>;
 val bcAdditionCoilLava              = <bcadditions:blockCoilLava>;
 
 # Botany
-val botanyCeramicDeepPink           = <Botany:ceramic:21>;
+/*val botanyCeramicDeepPink           = <Botany:ceramic:21>;*/
 
 # EnderIO
 val enderioChassis                  = <EnderIO:itemMachinePart>;
@@ -96,7 +97,7 @@ recipes.remove( extUtilGeneratorTNT );
 recipes.addShaped( extUtilGeneratorTNT, [ [ vanillaTNT, advGenePowerIO , vanillaTNT ], [ projectRedConductivePlate, bcAdditionCoilBasic, projectRedConductivePlate ], [ enderioChassis, vanillaFurnace, enderioChassis ] ]);
 
 recipes.remove( extUtilGeneratorPink );
-recipes.addShaped( extUtilGeneratorPink, [ [ botanyCeramicDeepPink, advGenePowerIO , botanyCeramicDeepPink ], [ projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate ], [ enderioChassis, vanillaFurnace, enderioChassis ] ]);
+recipes.addShaped( extUtilGeneratorPink, [ [ vanillaStainedClayPink, advGenePowerIO , vanillaStainedClayPink ], [ projectRedConductivePlate, extUtilGeneratorSurvivalist, projectRedConductivePlate ], [ enderioChassis, vanillaFurnace, enderioChassis ] ]);
 
 recipes.remove( extUtilGeneratorHighTemp );
 recipes.addShaped( extUtilGeneratorHighTemp, [ [ bcAdditionCoilLava, advGenePowerIO , bcAdditionCoilLava], [ projectRedConductivePlate, extUtilGeneratorFurnace, projectRedConductivePlate ], [ enderioChassis, bcAdditionHeatedFurnace, enderioChassis ] ]);
