@@ -13,9 +13,13 @@
 
 **Mod Updates**
 - Minecraft Forge 10.13.4.1492 to 10.13.4.1614
-- CustomnNPCs d (2015-09) to d (2015-12)
-- Binnie Mods 2.0 pre12 to 2.0 pre14
+
 - Ars Magica 2 1.4.0.008 to 1.4.0.009
+- Binnie Mods 2.0 pre12 to 2.0 pre14
+- CustomnNPCs d (2015-09) to d (2015-12)
+- ModTweaker2 0.9.2 to 0.9.5
+- NEI Addons 1.12.11.36 to 1.12.14.40
+- NEI Integration 1.0.12 to 1.1.2
 
 **Mod Removed**
 - Custom Fluids
