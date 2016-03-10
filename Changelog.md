@@ -9,10 +9,13 @@
 - Fluxed Core 1.0.6
 - Content Tweaker 1.0.5
 - Thaumcraft - NodeTracker 1.1.2
+- Binnie Patcher 1.6
 
 **Mod Updates**
-- Minecraft Forge 10.13.4.1492 to 10.13.4.1558
+- Minecraft Forge 10.13.4.1492 to 10.13.4.1614
 - CustomnNPCs d (2015-09) to d (2015-12)
+- Binnie Mods 2.0 pre12 to 2.0 pre14
+- Ars Magica 2 1.4.0.008 to 1.4.0.009
 
 **Mod Removed**
 - Custom Fluids

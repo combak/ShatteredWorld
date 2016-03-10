@@ -106,6 +106,13 @@
 - Files: http://minecraft.curseforge.com/mc-mods/223525-binnies-mods/files
 - Permission: http://minecraft.curseforge.com/mc-mods/223525-binnies-mods
 
+**Binnie Patcher**
+> If it's a public pack, saying you're using it in the thread is nice so I can get an idea of where it's being used, but you don't have to explicitly ask my permission to use it. 
+
+- Author: Chocohead
+- Files: http://minecraft.curseforge.com/projects/binniepatcher/files
+- Permission: http://minecraft.curseforge.com/projects/binniepatcher
+
 **Blood Magic**
 >  Creative Commons Attribution 4.0 International License.
 
