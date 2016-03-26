@@ -1,5 +1,5 @@
 {
-   "version" : "REPUTATION_KILL",
+   "version" : "CUSTOM_PRECISION_TYPES",
    "languages" : [
       "enUS",
       "deDE"
@@ -8,6 +8,8 @@
    "questSetCatalog" : [
       {
          "id" : "set000",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest292",
@@ -1375,6 +1377,8 @@
       },
       {
          "id" : "set001",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest028",
@@ -2695,6 +2699,8 @@
       },
       {
          "id" : "set002",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest055",
@@ -3928,6 +3934,8 @@
       },
       {
          "id" : "set003",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest071",
@@ -4863,6 +4871,8 @@
       },
       {
          "id" : "set004",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest097",
@@ -6025,6 +6035,8 @@
       },
       {
          "id" : "set005",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest126",
@@ -7782,6 +7794,8 @@
       },
       {
          "id" : "set006",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest163",
@@ -9444,6 +9458,8 @@
       },
       {
          "id" : "set007",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest200",
@@ -10947,6 +10963,8 @@
       },
       {
          "id" : "set009",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest266",
@@ -11717,6 +11735,8 @@
       },
       {
          "id" : "set008",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest233",
@@ -13267,6 +13287,8 @@
       },
       {
          "id" : "set010",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest288",

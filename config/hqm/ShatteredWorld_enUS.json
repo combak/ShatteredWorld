@@ -6,6 +6,8 @@
          "id" : "set000",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest292",
@@ -454,6 +456,8 @@
          "id" : "set001",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest028",
@@ -862,6 +866,8 @@
          "id" : "set002",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest055",
@@ -1267,6 +1273,8 @@
          "id" : "set003",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest071",
@@ -1577,6 +1585,8 @@
          "id" : "set004",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest097",
@@ -2019,6 +2029,8 @@
          "id" : "set005",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest126",
@@ -2559,6 +2571,8 @@
          "id" : "set006",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest163",
@@ -3045,6 +3059,8 @@
          "id" : "set007",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest200",
@@ -3535,6 +3551,8 @@
          "id" : "set009",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest266",
@@ -3787,6 +3805,8 @@
          "id" : "set008",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest233",
@@ -4516,6 +4536,8 @@
          "id" : "set010",
          "name" : "Unnamed Set",
          "decription" : "No description",
+         "bars" : [
+         ],
          "quests" : [
             {
                "id" : "quest288",
