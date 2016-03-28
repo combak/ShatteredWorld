@@ -43,8 +43,11 @@
 /config/contenttweaker/ContentTweaker-Resourcepack/
 /config/contenttweaker/resourcepack/
 
+# Botania
+BotaniaVars.dat
 
 # CustomNPCs
 *.dat_old
 /customnpcs/playerdata/
 /customnpcs/assets/customnpcs/textures/cache/
+
