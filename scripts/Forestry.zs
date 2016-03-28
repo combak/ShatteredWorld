@@ -14,10 +14,10 @@ val forestryEngineBiogas	= <Forestry:engine:4>;
 val enderioChassis                  = <EnderIO:itemMachinePart>;
 
 # ExtraBees
-# val extBeesShadowComb = <ExtraBees:honeyComb:36>;
+val extBeesShadowComb = <ExtraBees:honeyComb:36>;
 
 # BuildCraft Additions
-# val bcAdditionObsidianDust = <bcadditions:dust:58>;
+val bcAdditionObsidianDust = <bcadditions:dust:58>;
 
 ########################################################################################################################
 # Items
@@ -138,5 +138,5 @@ for entry in forestryWoods
 # Machine - Centrifuge
 ########################################################################################################################
 
-# mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
-# mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
+mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
+mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
