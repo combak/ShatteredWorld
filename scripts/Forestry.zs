@@ -8,7 +8,7 @@ import minetweaker.item.IItemStack;
 val forestryEngineClockwork	= <Forestry:engine:1>;
 val forestryEnginePeat		= <Forestry:engine:2>;
 val forestryEngineBiogas	= <Forestry:engine:4>;
-# val forestryHoneyDrop		= <Forestry:honeyDrop>;
+val forestryHoneyDrop		= <Forestry:honeyDrop>;
 
 # EnderIO
 val enderioChassis                  = <EnderIO:itemMachinePart>;
