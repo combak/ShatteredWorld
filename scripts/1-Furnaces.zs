@@ -166,7 +166,6 @@ val furnacesSmelting = [
   [ <minecraft:clay>, <minecraft:hardened_clay> ],
   [ <minecraft:sand:*>, <minecraft:glass> ],
   
-  [ <minecraft:soul_sand>, <Natura:NetherGlass> ],
   [ <minecraft:pumpkin_seeds>, <harvestcraft:roastedpumpkinseedsItem> ],
   [ <minecraft:red_mushroom>, <harvestcraft:grilledmushroomItem> ],
   [ <minecraft:brown_mushroom>, <harvestcraft:grilledmushroomItem> ],
@@ -211,11 +210,7 @@ val furnacesSmelting = [
   
   [ <appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone:1> ],
   
-  /* [ <ExtraTrees:misc:9>, <ExtraTrees:misc:12> ], */
-
-  [ <Natura:impmeat>, <Natura:impmeat:1> ],
-  [ <Natura:heatsand>, <Natura:NetherGlass:1> ],
-  [ <Natura:Saguaro>, <minecraft:dye:2> ],
+  [ <ExtraTrees:misc:9>, <ExtraTrees:misc:12> ],
   
   [ <TConstruct:CraftedSoil>, <TConstruct:materials:1> ],
   [ <TConstruct:CraftedSoil:1>, <TConstruct:materials:2> ],

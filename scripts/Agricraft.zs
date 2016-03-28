@@ -80,9 +80,7 @@ val foodSeeds = [
   <harvestcraft:kiwiseedItem>,			/* 58 - HarvCraft Kiwi */
   <harvestcraft:cranberryseedItem>,		/* 59 - HarvCraft Cranberry */
   <harvestcraft:riceseedItem>,			/* 60 - HarvCraft Rice */
-  <harvestcraft:seaweedseedItem>,		/* 61 - HarvCraft Seaweed */
-  <Natura:barley.seed:0>,			/* 62 - Natura Barley */
-  <Natura:barley.seed:1>			/* 63 - Natura Cotton */
+  <harvestcraft:seaweedseedItem>		/* 61 - HarvCraft Seaweed */
 ] as IItemStack[];
 
 val flowerSeeds = [
