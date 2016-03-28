@@ -6,23 +6,70 @@
 - Fixed Melting of Redstone + added Fluxed Crystal Recipe
 
 **Mod Additions**
-- Fluxed Core 1.0.6
-- Content Tweaker 1.0.5
-- Thaumcraft - NodeTracker 1.1.2
 - Binnie Patcher 1.6
+- BrandonsCore 1.0.0.11 (New Draconic Evolution dependency)
+- Content Tweaker 1.0.5
+- Fluxed Core 1.0.6
+- Thaumcraft - NodeTracker 1.1.2
 
 **Mod Updates**
 - Minecraft Forge 10.13.4.1492 to 10.13.4.1614
 
+- Advanced Generators 0.9.17.102 to 0.9.19.120
+- AE2 Stuff 0.3.1.33 to 0.5.0.56
+- AppleCore 1.1.0 to 1.3.0
 - Ars Magica 2 1.4.0.008 to 1.4.0.009
+- AutoPackager 1.5.4 to 1.5.9
+- Backpacks 3.0.4 to 3.0.8
+- BdLib 1.9.1.97 to 1.9.4.109
+- BiblioCraft 1.10.4 to 1.11.4
 - Binnie Mods 2.0 pre12 to 2.0 pre14
+- BloodMagic 1.3.3-4 to 1.3.3-17
+- Botania r1.6-192 to r1.8-249
+- BuildCraft 7.0.20 to 7.1.15
+- BuildCraft Additions 2.2.0 to 2.2.5
+- BuildCraft Compat 7.0.11 to 7.1.3
+- Carpenter Blocks 3.3.6 to 3.3.7
+- CoFHCore 3.0.3-303 to 3.1.2-325
+- CookieCore 1.3.1-7 to 1.4.0-11
+- CustomMainMenu 1.5 to 1.9.2
 - CustomnNPCs d (2015-09) to d (2015-12)
+- Draconic Evolution 1.0.1c to 1.0.2 RC2
+- EnderTech 0.3.2.388 to 0.3.2.405
+- Ex Nihilo 1.38-45 to 1.38-49
+- ExtraCells 2.2.68b-nightly to 2.3.9b188
+- Extra Utilities 1.2.4c to 1.2.12
+- Forestry 3.6.6.24 to 4.2.5.53
+- HarvestCraft j to lb
+- Hardcore Darkness 1.5 to 1.7
+- Hardcore Ender Expansion 1.8.2 to 1.8.5
+- HQM The Journey 4.2.4 to 4.4.4
+- LycanitesMobsComplete 1.11.0.1 to 1.13.0.5
+- Mantle 0.3.2 to 0.3.2b
 - ModTweaker2 0.9.2 to 0.9.5
 - NEI Addons 1.12.11.36 to 1.12.14.40
 - NEI Integration 1.0.12 to 1.1.2
+- Nether Ores 2.3.0-12 to 2.3.1-22
+- NotEnoughKeys 1.0.0b29 to 3.0.0b45
+- NotEnoughItems 1.0.5.111 to 1.0.5.120
+- NoteEnoughResources 0.1.0.95 to 0.1.0-122
+- OpenBlocks 1.4.3 to 1.5.1
+- OpenModsLib 0.7.3 to 0.9.1
+- RedstoneArsenal 1.1.1B1-85 to 1.1.2-92
+- SimplyJetpacks 1.5.1 to 1.5.3
+- The Spice of Life 1.2.3 to 1.3.1
+- Thaumcraft - Automagy 0.22.2 to 0.28.2
+- Thaumcraft - Forbidden Magic 0.562 to 0.572
+- Thaumcraft - Travellers Gear 1.16.4 to 1.16.6
+- Thermal Expansion 4.0.3B1-218 to 4.1.2-240
+- Thermal Foundation 1.2.0-102 to 1.2.3-112
+- Tinkers Mechworks 0.2.14.100 to 0.2.15.106
+- Tinkers Steelworks 1.1.0-13 to 1.1.2-20
+- Waila Harvestability 1.1.2 to 1.1.6
 
 **Mod Removed**
 - Custom Fluids
+- Natura
 
 # Version 0.7.1d
 
