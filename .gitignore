@@ -18,6 +18,7 @@
 /mods/
 /resourcepacks/
 /saves/
+/screenshots/
 /server-resource-packs/
 /src/
 /zipped/
@@ -30,6 +31,7 @@
 *.log
 
 # Config
+/config/draconicevolution/resources/
 /config/MapWriterBlockColours.txt
 /config/MapWriterBlockColourOverrides.txt
 /config/NEI/
