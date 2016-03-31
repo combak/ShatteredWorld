@@ -39,6 +39,7 @@
 - Ex Nihilo 1.38-45 to 1.38-49
 - ExtraCells 2.2.68b-nightly to 2.3.9b188
 - Extra Utilities 1.2.4c to 1.2.12
+- FastCraft 1.22-ctest17 to 1.22
 - Forestry 3.6.6.24 to 4.2.5.53
 - ForgeEssentials 1.4.3.1011 to 1.4.4.1164
 - HarvestCraft j to lb
