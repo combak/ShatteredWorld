@@ -40,6 +40,7 @@
 - ExtraCells 2.2.68b-nightly to 2.3.9b188
 - Extra Utilities 1.2.4c to 1.2.12
 - Forestry 3.6.6.24 to 4.2.5.53
+- ForgeEssentials 1.4.3.1011 to 1.4.4.1164
 - HarvestCraft j to lb
 - Hardcore Darkness 1.5 to 1.7
 - Hardcore Ender Expansion 1.8.2 to 1.8.5
