@@ -63,10 +63,11 @@
 - SimplyJetpacks 1.5.1 to 1.5.3
 - The Spice of Life 1.2.3 to 1.3.1
 - Thaumcraft - Automagy 0.22.2 to 0.28.2
-- Thaumcraft - Forbidden Magic 0.562 to 0.572
+- Thaumcraft - Forbidden Magic 0.562 to 0.573
 - Thaumcraft - Travellers Gear 1.16.4 to 1.16.6
 - Thermal Expansion 4.0.3B1-218 to 4.1.2-240
 - Thermal Foundation 1.2.0-102 to 1.2.3-112
+- Tinkers Construct 1.8.5 to 1.8.8
 - Tinkers Mechworks 0.2.14.100 to 0.2.15.106
 - Tinkers Steelworks 1.1.0-13 to 1.1.2-20
 - Waila Harvestability 1.1.2 to 1.1.6
