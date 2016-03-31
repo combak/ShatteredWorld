@@ -838,8 +838,7 @@ val thermExpPulverizerOutput2 = [
 ########################################################################################################################
 # Remove Items/Recipies from the Induction Smelter
 val removeInduction = [
- # <ThermalFoundation:Ore>,		/* Copper Ore to Ingot */
-  <ThermalFoundation:material:32>,	/* Copper Dust to Ingot */
+  
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -858,9 +857,7 @@ val thermExpSmelterAddInput = [
   [ <Thaumcraft:blockCustomOre:7>, <minecraft:sand> ],				/* Amber Bearing Ore */
   
   [ <ExtraUtilities:cobblestone_compressed:7>, <minecraft:sand> ],		/* Octuple Compressed Cobblestone */
-  [ <ExtraUtilities:cobblestone_compressed:3> * 9, <Botania:manaResource:2> ],	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
-  
-  [ <HardcoreEnderExpansion:endium_ore>, <minecraft:sand> ]			/* Endium Ore */
+  [ <ExtraUtilities:cobblestone_compressed:3> * 9, <Botania:manaResource:2> ]	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
 ] as IItemStack[][];
 
 val thermExpSmelterAddEnergyChance = [
@@ -874,9 +871,7 @@ val thermExpSmelterAddEnergyChance = [
   [ 4000, 5 ],		/* Amber Bearing Ore */
   
   [ 100000, 100 ],	/* Octuple Compressed Cobblestone */
-  [ 50000, 100 ],	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
-  
-  [ 4000, 5 ],		/* Endium Ore */
+  [ 50000, 100 ]	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
 ] as int[][];
 
 val thermExpSmelterAddOutput = [
@@ -890,9 +885,7 @@ val thermExpSmelterAddOutput = [
   [ <Thaumcraft:ItemResource:6> * 2, <Thaumcraft:ItemResource:6> ],			/* Amber */
   
   [ <ExtraUtilities:block_bedrockium>, <Forestry:ash> * 4 ],				/* Block of Bedrockium, Ash */
-  [ <ExtraUtilities:bedrockiumIngot>, <Forestry:ash> * 2 ],				/* Bedrockium Ingot, Ash */
-  
-  [ <HardcoreEnderExpansion:endium_ingot> * 2, <ThermalExpansion:material:515> ],	/* Endium Ingot, Rich Slag */
+  [ <ExtraUtilities:bedrockiumIngot>, <Forestry:ash> * 2 ]				/* Bedrockium Ingot, Ash */
 ] as IItemStack[][];
 
 ########################################################################################################################
@@ -904,7 +897,6 @@ for i, item in removeInduction
 { 
   mods.thermalexpansion.Smelter.removeRecipe( item, vanillaSand );
 }
-mods.thermalexpansion.Smelter.removeRecipe( <minecraft:iron_ingot>, <minecraft:redstone> );
 
 # Producing Sky Stone form Sky Stone Dust
 mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSand, appEngSkyStoneBlock, null, 20 );
