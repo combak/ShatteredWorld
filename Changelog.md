@@ -1,7 +1,5 @@
 # Changelog
 
-# Version 0.7.3
-
 # Version 0.7.2
 
 **Config Changes**
