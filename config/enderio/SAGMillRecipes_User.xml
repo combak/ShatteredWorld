@@ -102,6 +102,23 @@ found in the core file.
     </excludes>
   </grindingBalls>
  --> 
+  
+ 
+  <recipeGroup name="Vanilla">  
+    
+    <!-- Saltpeter Dust -->
+    <recipe name="Sandstone" energyCost="2400">
+      <input>
+        <itemStack modID="minecraft" itemName="sandstone" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="sand" number="2" />
+        <itemStack modID="minecraft" itemName="sand" number="2" chance="0.4" />
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="64" chance="0.15"/>	<!-- Saltpeter Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+  </recipeGroup>    
+    
   <recipeGroup name="EnderIO">
     
     <!-- Coal Dust -->
@@ -226,17 +243,7 @@ found in the core file.
 	<itemStack modID="bcadditions" itemName="dust" itemMeta="54" number="9"/>	<!-- Iron Dust (BuildCraft Additions)-->
       </output>
     </recipe>      
-    
-    <!-- Silver Dust -->
-    <recipe name="SilverBlock" energyCost="3600">
-      <input>
-	<itemStack oreDictionary="blockSilver" />
-      </input>
-      <output>
-	<itemStack modID="bcadditions" itemName="dust" itemMeta="53" number="9"/>	<!-- Silver Dust (BuildCraft Additions)-->
-      </output>
-    </recipe>    
-    
+
     <!-- Copper Dust -->
     <recipe name="CopperBlock" energyCost="3600">
       <input>
@@ -405,8 +412,7 @@ found in the core file.
   </recipeGroup><!-- EnderIO End-->
 
   
-  <recipeGroup name="Common Ores/Ingots">
-      
+  <recipeGroup name="Common Ores/Ingots">    
     <!-- Tin Dust -->
     <recipe name="TinOre" energyCost="3600">
       <input>
@@ -466,15 +472,6 @@ found in the core file.
     </recipe>    
     
     <!-- Nickel Dust -->
-    <recipe name="NickelIngot" energyCost="2400">
-      <input>
-	<itemStack oreDictionary="ingotNickel" />
-      </input>
-      <output>
-	<itemStack modID="bcadditions" itemName="dust" itemMeta="51"/>			<!-- Nickel Dust (BuildCraft Additions)-->     
-      </output>
-    </recipe>
-
     <recipe name="NickelOre" energyCost="3600">
       <input>
 	<itemStack oreDictionary="oreNickel" />
@@ -484,6 +481,22 @@ found in the core file.
 	<itemStack modID="bcadditions" itemName="dust" itemMeta="52" chance="0.1"/>	<!-- Platinum Dust (BuildCraft Additions)-->     
       </output>
     </recipe>    
+    <recipe name="NickelIngot" energyCost="2400">
+      <input>
+	<itemStack oreDictionary="ingotNickel" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="51"/>			<!-- Nickel Dust (BuildCraft Additions)-->     
+      </output>
+    </recipe>    
+    <recipe name="NickelBlock" energyCost="3600">
+      <input>
+	<itemStack oreDictionary="blockNickel" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="51" number="9"/>	<!-- Nickel Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>   
     
     <!-- Lead Dust -->
     <recipe name="LeadOre" energyCost="3600">
@@ -518,16 +531,13 @@ found in the core file.
   </recipeGroup><!-- Common Ores/Ingots End -->
     
   <recipeGroup name="Engineer's Toolbox">
-      
+    
+     
+       
     <!-- Nickel dust -->
-    <recipe name="NickelBlock" energyCost="3600">
-      <input>
-	<itemStack oreDictionary="blockNickel" />
-      </input>
-      <output>
-	<itemStack modID="bcadditions" itemName="dust" itemMeta="51" number="9"/>	<!-- Nickel Dust (BuildCraft Additions)-->
-      </output>
-    </recipe>    
+    <recipe name="NickelOre" />
+    <recipe name="NickelIngot" />
+    <recipe name="NickelBlock" />  
     
     <!-- Alumminum Dust -->
     <recipe name="AluminumOre" energyCost="3600">
@@ -571,6 +581,104 @@ found in the core file.
 
   <recipeGroup name="Metallurgy">
     
+    <!-- Invar Dust -->
+    <recipe name="InvarBlock" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="blockInvar" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="69" number="9"/>	<!-- Invar Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+    <recipe name="InvarIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotInvar" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="69" number="1"/>	<!-- Invar Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+    
+    <!-- Draconium Dust -->
+    <recipe name="DraconiumBlock" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="blockDraconium" />
+      </input>
+      <output>
+        <itemStack modID="DraconicEvolution" itemName="draconiumDust" number="9"/>	<!-- Draconium Dust (Draconic Evolution)-->
+      </output>
+    </recipe>
+    <recipe name="DraconiumIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotDraconium" />
+      </input>
+      <output>
+        <itemStack modID="DraconicEvolution" itemName="draconiumDust" number="1"/>	<!-- Draconium Dust (Draconic Evolution)-->
+      </output>
+    </recipe>       
+    
+    <!-- Mithril Dust -->    
+    <recipe name="MithrilBlock" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="blockMithril" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="20" number="9"/>	<!-- Mithril Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+    <recipe name="MithrilIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotMithril" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="20" number="1"/>	<!-- Mithril Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+    <recipe name="MithrilOre" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreMithril" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="20" number="2"/>	<!-- Mithril Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+    
+    <!-- Platinum Dust -->
+    <recipe name="PlatinumBlock" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="blockPlatinum" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="52" number="9"/>	<!-- Platinum Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+    <recipe name="PlatinumIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotPlatinum" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="52" number="1"/>	<!-- Platinum Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+    <recipe name="PlatinumOre" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="orePlatinum" />
+      </input>
+      <output>
+        <itemStack modID="bcadditions" itemName="dust" itemMeta="52" number="2"/>	<!-- Platinum Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+    
+    <!-- Silver Dust -->
+    <recipe name="SilverBlock" energyCost="3600">
+      <input>
+	<itemStack oreDictionary="blockSilver" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="53" number="9"/>	<!-- Silver Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
+        
     <!-- Bronze Dust -->
     <recipe name="BronzeBlock" energyCost="3600">
       <input>

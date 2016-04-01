@@ -230,6 +230,20 @@ val thermExpPulverizerRemove = [
   <ore:ingotAluminumBrass>,		/* 87 - Aluminum Brass Ingot (OreDict) */
   
   <minecraft:wheat>,			/* 88 - Wheat (Vanilla) */
+  <minecraft:ender_pearl>,		/* 89 - Ender Pearl (Vanilla) */
+  
+  /* Diamond Dust */
+  <ore:oreNetherDiamond>,		/* 90 - Nether Diamond Ore (OreDict) */
+  <ore:gemDiamond>,			/* 91 - Diamond (OreDict) */
+  
+  /* Saltpeter Dust */
+  <ore:sandstone>,			/* 92 - Sandstone (OreDict) */
+  <ore:rodBlitz>,			/* 93 - Blitz Rod (OreDict) */
+  <ore:oreNetherSaltpeter>,		/* 94 - Nether Saltpeter Ore (OreDict) */
+  
+  /* Invar Dust */
+  <ore:ingotInvar>,			/* 95 - Invar Ingot (OreDict) */
+
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -353,6 +367,17 @@ val thermExpPulverizerAdd = [
   
   <ForestDay:item.corn>,		/* 92 - Corn (Forest Day) */
   <harvestcraft:cornItem>,		/* 93 - Corn (HarvestCraft) */
+  <minecraft:ender_pearl>,		/* 94 - Ender Pearl (Vanilla) */
+  
+  <minecraft:diamond>,			/* 95 - Diamond (Vanilla) */
+  
+  /* Saltpeter Dust */
+  <minecraft:sandstone>,		/* 96 - Sandstone (Vanilla) */
+  <ThermalFoundation:material:1026>,	/* 97 - Blitz Rod (Thermal Foundation) */
+  <NetherOres:tile.netherores.ore.1:14>,/* 98 - Nether Saltpeter Ore (Nether Ores) */
+  
+  /* Invar Dust */
+  <ThermalFoundation:material:72>	/* 99 - Invar Ingot (OreDict) */  
 ] as IItemStack[];
 
 val thermExpPulverizerEnergy = [
@@ -472,6 +497,18 @@ val thermExpPulverizerEnergy = [
   
   1600,					/* 92 - Corn (Forest Day) */
   1600,					/* 93 - Corn (HarvestCraft) */
+  
+  800,					/* 94 - Ender Pearl (Vanilla) */
+  
+  3200,					/* 95 - Diamond (Vanilla) */
+  
+  /* Saltpeter Dust */
+  3200,					/* 96 - Sandstone (Vanilla) */
+  1600,					/* 97 - Blitz Rod (Thermal Foundation) */
+  3200,					/* 98 - Nether Saltpeter Ore (Nether Ores) */  
+  
+  /* Invar Dust */
+  2400					/* 99 - Invar Ingot (OreDict) */    
 ] as int[];
 
 val thermExpPulverizerChance = [
@@ -591,7 +628,17 @@ val thermExpPulverizerChance = [
   
   0,					/* 92 - Corn (Forest Day) */
   0,					/* 93 - Corn (HarvestCraft) */
+  0,					/* 94 - Ender Pearl (Vanilla) */
   
+  0,					/* 95 - Diamond (Vanilla) */
+  
+  /* Saltpeter Dust */
+  50,					/* 96 - Sandstone (Vanilla) */
+  50,					/* 97 - Blitz Rod (Thermal Foundation) */
+  15,					/* 98 - Nether Saltpeter Ore (Nether Ores) */    
+  
+  /* Invar Dust */
+  0					/* 99 - Invar Ingot (OreDict) */      
 ] as int[];
 
 val thermExpPulverizerOutput1 = [
@@ -711,7 +758,17 @@ val thermExpPulverizerOutput1 = [
   
   <ForestDay:item.nature:9>,		/* 92 - Starch (Forest Day) */
   <ForestDay:item.nature:9>,		/* 93 - Starch (Forest Day) */
+  <bcadditions:dust:59>,		/* 94 - Ender Pearl Dust (BuildCraft Additions) */
   
+  <bcadditions:dust:3>,			/* 95 - Diamond (Vanilla) */
+  
+  /* Saltpeter Dust */
+  <minecraft:sand>*2,			/* 96 - Sand (Vanilla) */
+  <ThermalFoundation:material:1027>*4,	/* 97 - Blitz Powder (Thermal Foundation) */
+  <bcadditions:dust:64>*10,		/* 98 - Saltpeter Dust (BuildCraft Additions) */
+  
+  /* Invar Dust */
+  <bcadditions:dust:69>			/* 99 - Invar Dust (BuildCraft Additions) */
 ] as IItemStack[];
 
 val thermExpPulverizerOutput2 = [
@@ -831,6 +888,17 @@ val thermExpPulverizerOutput2 = [
   
   null,					/* 92 - Nothing */ 
   null,					/* 93 - Nothing */ 
+  null,					/* 94 - Nothing */ 
+  
+  null,					/* 95 - Nothing */ 
+  
+  /* Saltpeter Dust */
+  <bcadditions:dust:64>,		/* 96 - Saltpeter Dust (BuildCraft Additions) */
+  <bcadditions:dust:64>,		/* 97 - Saltpeter Dust (BuildCraft Additions) */
+  <minecraft:netherrack>,		/* 98 - Netherrack (Vanilla) */  
+  
+  /* Invar Dust */  
+  null,					/* 99 - Nothing */ 
 ] as IItemStack[];
 
 ########################################################################################################################

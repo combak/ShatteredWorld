@@ -3,10 +3,12 @@
 ########################################################################################################################
 
 # BuildCraft Additions
-val bcAdditionElectrumDust = <bcadditions:dust:44>;
+val bcAdditionElectrumDust	= <bcadditions:dust:44>;
+val bcAdditionInvarDust		= <bcadditions:dust:69>;
 
 # Thermal Foundation
-val thermFoundElectrumDust = <ThermalFoundation:material:39>;
+val thermFoundElectrumDust	= <ThermalFoundation:material:39>;
+val thermFoundInvarDust		= <ThermalFoundation:material:40>;
 
 ########################################################################################################################
 # Ore Dictionary
@@ -15,6 +17,8 @@ val thermFoundElectrumDust = <ThermalFoundation:material:39>;
 val odSlime	= <ore:slimeball>;
 val odGold	= <ore:dustGold>;
 val odSilver	= <ore:dustSilver>;
+val odIron	= <ore:dustIron>;
+val odNickel	= <ore:dustNickel>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -41,3 +45,7 @@ recipes.addShaped(<bcadditions:grindingWheel>,
 # Change Electrum Blend
 recipes.remove( thermFoundElectrumDust );  
 recipes.addShapeless( bcAdditionElectrumDust * 2, [ odGold, odSilver] );
+
+# Change Invar Blend
+recipes.remove( thermFoundInvarDust );  
+recipes.addShapeless( bcAdditionInvarDust * 3, [ odIron*2, odNickel] );

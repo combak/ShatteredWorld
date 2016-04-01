@@ -9,15 +9,23 @@ val forestryEngineClockwork	= <Forestry:engine:1>;
 val forestryEnginePeat		= <Forestry:engine:2>;
 val forestryEngineBiogas	= <Forestry:engine:4>;
 val forestryHoneyDrop		= <Forestry:honeyDrop>;
+val forestryBeewax		= <Forestry:beeswax>;
 
 # EnderIO
-val enderioChassis                  = <EnderIO:itemMachinePart>;
+val enderioChassis		= <EnderIO:itemMachinePart>;
 
 # ExtraBees
-val extBeesShadowComb = <ExtraBees:honeyComb:36>;
+val extBeesAcidicDrop		= <ExtraBees:honeyDrop:1>;
+val extBeesShadowComb 		= <ExtraBees:honeyComb:36>;
+val extBeesShimmeringComb	= <ExtraBees:honeyComb:82>;
+val extBeesUnstableComb		= <ExtraBees:honeyComb:76>;
+val extBeesBrimstoneComb	= <ExtraBees:honeyComb:27>;
 
 # BuildCraft Additions
-val bcAdditionObsidianDust = <bcadditions:dust:58>;
+val bcAdditionObsidianDust	= <bcadditions:dust:58>;
+val bcAdditionEnderDust		= <bcadditions:dust:59>;
+val bcAdditionSaltpeter		= <bcadditions:dust:64>;
+val bcAdditionSulfur		= <bcadditions:dust:63>;
 
 ########################################################################################################################
 # Items
@@ -138,5 +146,18 @@ for entry in forestryWoods
 # Machine - Centrifuge
 ########################################################################################################################
 
+# Shadow Comb
 mods.forestry.Centrifuge.removeRecipe( extBeesShadowComb );
 mods.forestry.Centrifuge.addRecipe( 20, extBeesShadowComb, [ forestryHoneyDrop, bcAdditionObsidianDust ], [ 50, 75 ] );
+
+# Shimmering Comb
+mods.forestry.Centrifuge.removeRecipe( extBeesShimmeringComb );
+mods.forestry.Centrifuge.addRecipe( 20, extBeesShimmeringComb, [ forestryHoneyDrop, bcAdditionEnderDust ], [ 25, 25 ] );
+
+# Unstable Comb
+mods.forestry.Centrifuge.removeRecipe( extBeesUnstableComb );
+mods.forestry.Centrifuge.addRecipe( 20, extBeesUnstableComb, [ forestryHoneyDrop, bcAdditionSaltpeter ], [ 25, 100 ] );
+
+# Brimstone Comb
+mods.forestry.Centrifuge.removeRecipe( extBeesBrimstoneComb );
+mods.forestry.Centrifuge.addRecipe( 20, extBeesBrimstoneComb, [ forestryBeewax, bcAdditionSulfur, extBeesAcidicDrop ], [ 80, 75, 50 ] );

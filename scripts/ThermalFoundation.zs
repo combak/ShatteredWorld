@@ -5,6 +5,7 @@ import minetweaker.item.IItemStack;
 
 # Thermal Foundation
 val thermFoundBronzeDust 	= <ThermalFoundation:material:41>;
+val thermFoundBlitzPowder	= <ThermalFoundation:material:1027>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -12,3 +13,6 @@ val thermFoundBronzeDust 	= <ThermalFoundation:material:41>;
 
 # Remove Bronze Blend
 recipes.remove( thermFoundBronzeDust );
+
+# Remove Blitz Powder
+recipes.remove( thermFoundBlitzPowder );
