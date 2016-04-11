@@ -1,5 +1,5 @@
 {
-   "version" : "CUSTOM_PRECISION_TYPES",
+   "version" : "COMMAND_REWARDS",
    "languages" : [
       "enUS",
       "deDE"
@@ -38,6 +38,8 @@
                "reward" : [
                   "minecraft:flint size(4) dmg(0)",
                   "minecraft:torch size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -84,6 +86,8 @@
                   "minecraft:apple size(10) dmg(0)",
                   "minecraft:torch size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -128,6 +132,8 @@
                "reward" : [
                   "harvestcraft:fishandchipsItem size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -162,6 +168,8 @@
                   "minecraft:string size(8) dmg(0)",
                   "harvestcraft:bananasmoothieItem size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -194,6 +202,8 @@
                ],
                "reward" : [
                   "minecraft:diamond size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -243,6 +253,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -290,6 +302,8 @@
                "reward" : [
                   "StorageDrawers:fullDrawers4 size(4) dmg(5)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -322,6 +336,8 @@
                ],
                "reward" : [
                   "TConstruct:materials size(2) dmg(11)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -357,6 +373,8 @@
                "reward" : [
                   "minecraft:string size(20) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -389,6 +407,8 @@
                ],
                "reward" : [
                   "minecraft:ender_pearl size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -431,6 +451,8 @@
                ],
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -481,6 +503,8 @@
                "reward" : [
                   "Forestry:gearTin size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -519,6 +543,8 @@
                ],
                "reward" : [
                   "minecraft:obsidian size(2) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -564,6 +590,8 @@
                "reward" : [
                   "minecraft:feather size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -598,6 +626,8 @@
                   "minecraft:leather size(4) dmg(0)",
                   "minecraft:bread size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -630,6 +660,8 @@
                ],
                "reward" : [
                   "minecraft:emerald size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -686,6 +718,8 @@
                   "minecraft:redstone size(8) dmg(0)",
                   "minecraft:diamond size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -735,6 +769,8 @@
                "reward" : [
                   "minecraft:glowstone_dust size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -773,6 +809,8 @@
                "reward" : [
                   "minecraft:bucket size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -806,6 +844,8 @@
                "reward" : [
                   "minecraft:string size(6) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -838,6 +878,8 @@
                ],
                "reward" : [
                   "TConstruct:decoration.stonetorch size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -886,6 +928,8 @@
                ],
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -951,6 +995,8 @@
                   "TConstruct:Smeltery size(12) dmg(2)",
                   "ThermalFoundation:material size(4) dmg(66)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -991,6 +1037,8 @@
                "reward" : [
                   "TConstruct:frypanHead size(1) dmg(2)",
                   "harvestcraft:hamburgerItem size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1035,6 +1083,8 @@
                "reward" : [
                   "minecraft:gold_ingot size(4) dmg(0)",
                   "minecraft:diamond size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1084,6 +1134,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -1127,6 +1179,8 @@
                "reward" : [
                   "StorageDrawers:upgrade size(4) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1165,6 +1219,8 @@
                "reward" : [
                   "backpacks16840:backpack_pouch size(3) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1197,6 +1253,8 @@
                ],
                "reward" : [
                   "OpenBlocks:tank size(2) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1247,6 +1305,8 @@
                "reward" : [
                   "TConstruct:materials size(10) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1285,6 +1345,8 @@
                "reward" : [
                   "minecraft:hopper size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1317,6 +1379,8 @@
                ],
                "reward" : [
                   "ThermalExpansion:Frame size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1365,6 +1429,8 @@
                ],
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -1434,6 +1500,8 @@
                   "GardenCore:garden_soil size(3) dmg(0)",
                   "minecraft:book size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1477,6 +1545,8 @@
                "reward" : [
                   "AgriCraft:handRake size(1) dmg(1)",
                   "harvestcraft:spagettiandmeatballsItem size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1533,6 +1603,8 @@
                   "harvestcraft:cornseedItem size(4) dmg(0)",
                   "harvestcraft:barleyseedItem size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1586,6 +1658,8 @@
                ],
                "reward" : [
                   "harvestcraft:deluxecheeseburgerItem size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1645,6 +1719,8 @@
                   "harvestcraft:coffeeseedItem size(4) dmg(0)",
                   "harvestcraft:teaseedItem size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1689,6 +1765,8 @@
                "reward" : [
                   "minecraft:piston size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1726,6 +1804,8 @@
                ],
                "reward" : [
                   "harvestcraft:cheeseItem size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1791,6 +1871,8 @@
                ],
                "reward" : [
                   "ThermalExpansion:Machine size(2) dmg(9)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1860,6 +1942,8 @@
                   "AgriCraft:seedBotaniaLightGray size(4) dmg(0)",
                   "AgriCraft:seedBotaniaBrown size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -1902,6 +1986,8 @@
                ],
                "reward" : [
                   "AgriCraft:seedPlombean size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -1957,6 +2043,8 @@
                   "harvestcraft:bellpepperseedItem size(4) dmg(0)",
                   "harvestcraft:chilipepperseedItem size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -1998,6 +2086,8 @@
                ],
                "reward" : [
                   "harvestcraft:butterItem size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2048,6 +2138,8 @@
                   "TConstruct:heartCanister size(1) dmg(2)",
                   "minecraft:leather size(6) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -2086,6 +2178,8 @@
                   "Forestry:beeCombs size(4) dmg(0)",
                   "Forestry:pipette size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2118,6 +2212,8 @@
                ],
                "reward" : [
                   "Forestry:gearTin size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2167,6 +2263,8 @@
                "reward" : [
                   "EnderIO:blockReservoir size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2209,6 +2307,8 @@
                ],
                "reward" : [
                   "ThermalExpansion:Tank size(2) dmg(3)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2259,6 +2359,8 @@
                "reward" : [
                   "Forestry:pollenFertile size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2292,6 +2394,8 @@
                "reward" : [
                   "Thaumcraft:ItemLootBag size(1) dmg(2)",
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2335,6 +2439,8 @@
                ],
                "reward" : [
                   "minecraft:nether_star size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2390,6 +2496,8 @@
                "reward" : [
                   "Forestry:frameProven size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2439,6 +2547,8 @@
                "reward" : [
                   "Forestry:habitatLocator size(1) dmg(0)",
                   "Forestry:apiculture size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2493,6 +2603,8 @@
                "reward" : [
                   "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -2530,6 +2642,8 @@
                "reward" : [
                   "BuildCraft|Energy:bucketOil size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2562,6 +2676,8 @@
                ],
                "reward" : [
                   "minecraft:gold_ingot size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2607,6 +2723,8 @@
                "reward" : [
                   "Forestry:craftingMaterial size(2) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2639,6 +2757,8 @@
                ],
                "reward" : [
                   "Forestry:craftingMaterial size(2) dmg(3)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2687,6 +2807,8 @@
                ],
                "reward" : [
                   "arsmagica2:itemOre size(2) dmg(7)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -2770,6 +2892,8 @@
                   "minecraft:obsidian size(4) dmg(0)",
                   "minecraft:dye size(16) dmg(4)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2830,6 +2954,8 @@
                   "minecraft:diamond size(2) dmg(0)",
                   "minecraft:redstone size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2862,6 +2988,8 @@
                ],
                "reward" : [
                   "BuildCraft|Energy:bucketOil size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -2915,6 +3043,8 @@
                   "ThermalFoundation:material size(2) dmg(128)",
                   "minecraft:ender_pearl size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2958,6 +3088,8 @@
                "reward" : [
                   "BuildCraft|Core:diamondGearItem size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -2995,6 +3127,8 @@
                ],
                "reward" : [
                   "minecraft:emerald size(3) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3041,6 +3175,8 @@
                "reward" : [
                   "ThermalFoundation:material size(2) dmg(13)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3079,6 +3215,8 @@
                "reward" : [
                   "ThermalFoundation:material size(4) dmg(44)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3116,6 +3254,8 @@
                ],
                "reward" : [
                   "Thaumcraft:blockAiry size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -3174,6 +3314,8 @@
                "reward" : [
                   "ThermalExpansion:Frame size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3207,6 +3349,8 @@
                "reward" : [
                   "ThermalExpansion:Glass size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3239,6 +3383,8 @@
                ],
                "reward" : [
                   "ThermalExpansion:Frame size(2) dmg(1)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3278,6 +3424,8 @@
                "reward" : [
                   "advgenerators:PowerIO size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3310,6 +3458,8 @@
                ],
                "reward" : [
                   "minecraft:redstone size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3360,6 +3510,8 @@
                   "TConstruct:heartCanister size(1) dmg(6)",
                   "RedstoneArsenal:material size(6) dmg(32)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -3396,6 +3548,8 @@
                ],
                "reward" : [
                   "ThermalExpansion:Frame size(2) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3450,6 +3604,8 @@
                "reward" : [
                   "ThermalExpansion:Frame size(1) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3484,6 +3640,8 @@
                "reward" : [
                   "DraconicEvolution:draconicCore size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3516,6 +3674,8 @@
                ],
                "reward" : [
                   "EnderIO:itemMaterial size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3561,6 +3721,8 @@
                "reward" : [
                   "EnderIO:itemAlloy size(2) dmg(5)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3605,6 +3767,8 @@
                "reward" : [
                   "EnderIO:itemConduitProbe size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3637,6 +3801,8 @@
                ],
                "reward" : [
                   "EnderIO:itemBasicFilterUpgrade size(2) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3671,6 +3837,8 @@
                "reward" : [
                   "EnderIO:itemAlloy size(8) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3703,6 +3871,8 @@
                ],
                "reward" : [
                   "EnderIO:blockEndermanSkull size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3752,6 +3922,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(6)",
                   "EnderIO:itemAlloy size(6) dmg(6)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3813,6 +3985,8 @@
                "reward" : [
                   "EnderIO:itemBasicCapacitor size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -3845,6 +4019,8 @@
                ],
                "reward" : [
                   "EnderIO:itemAlloy size(4) dmg(7)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3890,6 +4066,8 @@
                "reward" : [
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -3926,6 +4104,8 @@
                ],
                "reward" : [
                   "EnderIO:itemBasicCapacitor size(2) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -3988,6 +4168,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemPaintBall size(32) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4021,6 +4203,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemMultiPart size(4) dmg(140)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4053,6 +4237,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemMultiPart size(4) dmg(56)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4092,6 +4278,8 @@
                ],
                "reward" : [
                   "minecraft:redstone size(32) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4160,6 +4348,8 @@
                "reward" : [
                   "appliedenergistics2:tile.BlockQuartzTorch size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4210,6 +4400,8 @@
                "reward" : [
                   "appliedenergistics2:tile.BlockTinyTNT size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4242,6 +4434,8 @@
                ],
                "reward" : [
                   "ThermalExpansion:Frame size(2) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4280,6 +4474,8 @@
                ],
                "reward" : [
                   "minecraft:piston size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4329,6 +4525,8 @@
                "reward" : [
                   "appliedenergistics2:tile.BlockInterface size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4361,6 +4559,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemMultiPart size(8) dmg(16)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4400,6 +4600,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemViewCell size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4432,6 +4634,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemBasicStorageCell.1k size(3) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4471,6 +4675,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(30)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4504,6 +4710,8 @@
                "reward" : [
                   "ProjRed|Integration:projectred.integration.gate size(2) dmg(26)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4536,6 +4744,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ToolColorApplicator size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4571,6 +4781,8 @@
                   "extracells:storage.fluid size(1) dmg(0)",
                   "extracells:part.base size(1) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4604,6 +4816,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(27)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4636,6 +4850,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemBasicStorageCell.4k size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -4674,6 +4890,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemMultiMaterial size(2) dmg(9)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4706,6 +4924,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemMultiPart size(4) dmg(76)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4740,6 +4960,8 @@
                "reward" : [
                   "appliedenergistics2:item.ItemMultiPart size(2) dmg(460)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -4772,6 +4994,8 @@
                ],
                "reward" : [
                   "appliedenergistics2:item.ItemMultiPart size(3) dmg(440)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4821,6 +5045,8 @@
                "reward" : [
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -4864,6 +5090,8 @@
                   "appliedenergistics2:item.ItemMultiMaterial size(8) dmg(52)",
                   "appliedenergistics2:item.ToolPortableCell size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             }
@@ -4903,6 +5131,8 @@
                ],
                "reward" : [
                   "arsmagica2:itemOre size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4947,6 +5177,8 @@
                "reward" : [
                   "arsmagica2:lesserManaPotion size(4) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -4998,6 +5230,8 @@
                   "TConstruct:heartCanister size(1) dmg(2)",
                   "minecraft:leather size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -5037,6 +5271,8 @@
                   "arsmagica2:itemOre size(8) dmg(5)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5070,6 +5306,8 @@
                "reward" : [
                   "arsmagica2:itemOre size(2) dmg(8)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5105,6 +5343,8 @@
                   "arsmagica2:blueOrchid size(8) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5138,6 +5378,8 @@
                "reward" : [
                   "arsmagica2:desertNova size(8) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5177,6 +5419,8 @@
                "reward" : [
                   "arsmagica2:Aum size(8) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5239,6 +5483,8 @@
                   "arsmagica2:itemOre size(8) dmg(4)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5289,6 +5535,8 @@
                   "arsmagica2:goldInlay size(2) dmg(0)",
                   "arsmagica2:rune size(1) dmg(18)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5328,6 +5576,8 @@
                   "arsmagica2:itemOre size(2) dmg(6)",
                   "arsmagica2:rune size(1) dmg(19)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -5365,6 +5615,8 @@
                "reward" : [
                   "arsmagica2:itemOre size(2) dmg(7)",
                   "arsmagica2:rune size(1) dmg(18)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5405,6 +5657,8 @@
                   "arsmagica2:redstoneInlay size(2) dmg(0)",
                   "arsmagica2:rune size(1) dmg(18)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5438,6 +5692,8 @@
                "reward" : [
                   "arsmagica2:itemOre size(2) dmg(6)",
                   "arsmagica2:rune size(1) dmg(19)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -5477,6 +5733,8 @@
                   "arsmagica2:manaBattery size(1) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5510,6 +5768,8 @@
                "reward" : [
                   "arsmagica2:liquidEssenceBucket size(2) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5545,6 +5805,8 @@
                   "arsmagica2:itemOre size(4) dmg(2)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5578,6 +5840,8 @@
                "reward" : [
                   "arsmagica2:lesserManaPotion size(4) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5628,6 +5892,8 @@
                   "TConstruct:heartCanister size(1) dmg(6)",
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -5667,6 +5933,8 @@
                   "arsmagica2:itemOre size(4) dmg(3)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5702,6 +5970,8 @@
                "reward" : [
                   "minecraft:diamond size(16) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5739,6 +6009,8 @@
                   "minecraft:golden_apple size(4) dmg(0)",
                   "arsmagica2:rune size(1) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5774,6 +6046,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(6)",
                   "arsmagica2:rune size(1) dmg(17)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5812,6 +6086,8 @@
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(28)",
                   "arsmagica2:rune size(1) dmg(18)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5847,6 +6123,8 @@
                "reward" : [
                   "Thaumcraft:WandCasting size(1) dmg(72)",
                   "arsmagica2:rune size(1) dmg(18)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5884,6 +6162,8 @@
                   "DraconicEvolution:draconiumDust size(16) dmg(0)",
                   "arsmagica2:rune size(1) dmg(18)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5919,6 +6199,8 @@
                "reward" : [
                   "minecraft:nether_star size(2) dmg(0)",
                   "arsmagica2:rune size(1) dmg(19)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -5956,6 +6238,8 @@
                   "minecraft:dragon_egg size(1) dmg(0)",
                   "arsmagica2:rune size(1) dmg(19)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -5992,6 +6276,8 @@
                   "DraconicEvolution:draconicIngot size(8) dmg(0)",
                   "arsmagica2:rune size(1) dmg(19)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6027,6 +6313,8 @@
                "reward" : [
                   "DraconicEvolution:dragonHeart size(1) dmg(0)",
                   "arsmagica2:rune size(1) dmg(19)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6071,6 +6359,8 @@
                      "item" : "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
                      "nbt" : "=COMPOUND( nodetype=INT(0), Aspects=LIST( COMPOUND( amount=INT(10), key=STRING('ordo') ), COMPOUND( amount=INT(10), key=STRING('aqua') ), COMPOUND( amount=INT(10), key=STRING('ignis') ), COMPOUND( amount=INT(10), key=STRING('terra') ), COMPOUND( amount=INT(10), key=STRING('perditio') ), COMPOUND( amount=INT(10), key=STRING('aer') ) ) )"
                   }
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6122,6 +6412,8 @@
                   "Thaumcraft:ItemShard size(8) dmg(0)",
                   "Thaumcraft:ItemNugget size(16) dmg(5)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6156,6 +6448,8 @@
                   "Thaumcraft:ItemShard size(8) dmg(5)",
                   "Thaumcraft:ItemShard size(8) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6188,6 +6482,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemShard size(8) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6225,6 +6521,8 @@
                      "nbt" : "=COMPOUND( Aspects=LIST( COMPOUND( amount=INT(8), key=STRING('ordo') ) ) )"
                   }
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6257,6 +6555,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemResource size(2) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6312,6 +6612,8 @@
                   "Thaumcraft:ItemShard size(8) dmg(3)",
                   "Thaumcraft:ItemShard size(4) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6345,6 +6647,8 @@
                "reward" : [
                   "Thaumcraft:blockCrystal size(4) dmg(6)",
                   "Thaumcraft:ItemLootBag size(1) dmg(1)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -6398,6 +6702,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -6449,6 +6755,8 @@
                      "nbt" : "=COMPOUND( Aspects=LIST( COMPOUND( amount=INT(8), key=STRING('praecantatio') ) ) )"
                   }
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -6491,6 +6799,8 @@
                "reward" : [
                   "Thaumcraft:blockMagicalLog size(4) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6524,6 +6834,8 @@
                "reward" : [
                   "minecraft:gold_ingot size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6556,6 +6868,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemResource size(4) dmg(8)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6595,6 +6909,8 @@
                "reward" : [
                   "Thaumcraft:ItemResource size(4) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6628,6 +6944,8 @@
                "reward" : [
                   "Thaumcraft:blockTube size(1) dmg(7)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6660,6 +6978,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemResource size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6699,6 +7019,8 @@
                "reward" : [
                   "Thaumcraft:blockMagicalLog size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6732,6 +7054,8 @@
                "reward" : [
                   "Thaumcraft:ItemResource size(2) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6764,6 +7088,8 @@
                ],
                "reward" : [
                   "Thaumcraft:blockStoneDevice size(1) dmg(9)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6809,6 +7135,8 @@
                   "Thaumcraft:blockMetalDevice size(2) dmg(14)",
                   "Thaumcraft:ItemShard size(2) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6842,6 +7170,8 @@
                ],
                "reward" : [
                   "Thaumcraft:blockAiry size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6877,6 +7207,8 @@
                "reward" : [
                   "Thaumcraft:blockCrystal size(4) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6911,6 +7243,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemResource size(2) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -6950,6 +7284,8 @@
                "reward" : [
                   "Thaumcraft:ItemResource size(8) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -6988,6 +7324,8 @@
                "reward" : [
                   "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7025,6 +7363,8 @@
                ],
                "reward" : [
                   "Thaumcraft:blockMetalDevice size(1) dmg(8)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7069,6 +7409,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7106,6 +7448,8 @@
                "reward" : [
                   "Thaumcraft:ItemResource size(4) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7138,6 +7482,8 @@
                ],
                "reward" : [
                   "minecraft:comparator size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7185,6 +7531,8 @@
                      "nbt" : "=COMPOUND( type=STRING('hopperhock') )"
                   }
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7222,6 +7570,8 @@
                ],
                "reward" : [
                   "IronChest:BlockIronChest size(4) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7265,6 +7615,8 @@
                ],
                "reward" : [
                   "Thaumcraft:blockCosmeticSolid size(1) dmg(4)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7324,6 +7676,8 @@
                "reward" : [
                   "Thaumcraft:ItemResource size(6) dmg(9)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7372,6 +7726,8 @@
                "reward" : [
                   "minecraft:diamond size(10) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7404,6 +7760,8 @@
                ],
                "reward" : [
                   "Thaumcraft:WandCap size(3) dmg(6)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7442,6 +7800,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemResource size(4) dmg(16)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7491,6 +7851,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7538,6 +7900,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(4)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7575,6 +7939,8 @@
                "reward" : [
                   "Thaumcraft:ItemEldritchObject size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7607,6 +7973,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemEldritchObject size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7650,6 +8018,8 @@
                ],
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(6)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -7703,6 +8073,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(4)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7739,6 +8111,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7783,6 +8157,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(4)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -7826,6 +8202,8 @@
                ],
                "reward" : [
                   "Botania:fertilizer size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7887,6 +8265,8 @@
                "reward" : [
                   "Botania:fertilizer size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7920,6 +8300,8 @@
                ],
                "reward" : [
                   "Botania:fertilizer size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -7958,6 +8340,8 @@
                "reward" : [
                   "Thaumcraft:ItemResource size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -7994,6 +8378,8 @@
                ],
                "reward" : [
                   "arsmagica2:ParticleEmitter size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8050,6 +8436,8 @@
                   "Botania:livingwood size(4) dmg(0)",
                   "Botania:livingrock size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8082,6 +8470,8 @@
                ],
                "reward" : [
                   "Botania:fertilizer size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8128,6 +8518,8 @@
                ],
                "reward" : [
                   "Botania:pump size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8179,6 +8571,8 @@
                      "nbt" : "=COMPOUND( type=STRING('nightshade') )"
                   }
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8214,6 +8608,8 @@
                      "item" : "Botania:specialFlower size(1) dmg(0)",
                      "nbt" : "=COMPOUND( type=STRING('thermalily') )"
                   }
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8268,6 +8664,8 @@
                   "Botania:manaResource size(4) dmg(2)",
                   "Botania:manaResource size(4) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8315,6 +8713,8 @@
                ],
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -8372,6 +8772,8 @@
                      "item" : "Botania:manaTablet size(1) dmg(0)",
                      "nbt" : "=COMPOUND(  )"
                   }
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8446,6 +8848,8 @@
                   "Botania:hourglass size(1) dmg(0)",
                   "Botania:forestDrum size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8483,6 +8887,8 @@
                "reward" : [
                   "Botania:manaRing size(1) dmg(10000)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8517,6 +8923,8 @@
                   "minecraft:feather size(4) dmg(0)",
                   "minecraft:nether_wart size(4) dmg(0)",
                   "minecraft:brown_mushroom size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8573,6 +8981,8 @@
                   "minecraft:slime_ball size(4) dmg(0)",
                   "minecraft:spider_eye size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8611,6 +9021,8 @@
                "reward" : [
                   "Botania:vial size(8) dmg(0)",
                   "Botania:bloodPendant size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8676,6 +9088,8 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)",
                   "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8723,6 +9137,8 @@
                ],
                "reward" : [
                   "Botania:manaResource size(8) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8788,6 +9204,8 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)",
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -8835,6 +9253,8 @@
                ],
                "reward" : [
                   "Botania:manaResource size(4) dmg(4)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8884,6 +9304,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(6)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -8920,6 +9342,8 @@
                ],
                "reward" : [
                   "Botania:thornChakram size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -8959,6 +9383,8 @@
                "reward" : [
                   "Botania:spark size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -8991,6 +9417,8 @@
                ],
                "reward" : [
                   "Botania:manaResource size(4) dmg(7)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9039,6 +9467,8 @@
                ],
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(4)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -9089,6 +9519,8 @@
                   "Botania:manaResource size(4) dmg(8)",
                   "Botania:manaResource size(4) dmg(9)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9131,6 +9563,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9181,6 +9615,8 @@
                   "Botania:worldSeed size(4) dmg(0)",
                   "Botania:lens size(1) dmg(18)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep002",
@@ -9229,6 +9665,8 @@
                "reward" : [
                   "Botania:manaResource size(4) dmg(5)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9268,6 +9706,8 @@
                   "Botania:manaResource size(4) dmg(5)",
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9301,6 +9741,8 @@
                "reward" : [
                   "Botania:manaResource size(8) dmg(7)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9330,6 +9772,8 @@
                ],
                "reward" : [
                   "Botania:corporeaSpark size(1) dmg(1)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9364,6 +9808,8 @@
                "reward" : [
                   "Botania:spawnerClaw size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9396,6 +9842,8 @@
                ],
                "reward" : [
                   "Botania:manaResource size(3) dmg(12)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9451,6 +9899,8 @@
                   "Thaumcraft:blockAiry size(1) dmg(0)",
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             }
@@ -9503,6 +9953,8 @@
                "reward" : [
                   "AWWayofTime:runeOfSelfSacrifice size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9537,6 +9989,8 @@
                   "AWWayofTime:mundaneLengtheningCatalyst size(2) dmg(0)",
                   "AWWayofTime:mundanePowerCatalyst size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9570,6 +10024,8 @@
                "reward" : [
                   "AWWayofTime:speedRune size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9602,6 +10058,8 @@
                ],
                "reward" : [
                   "AWWayofTime:bucketLife size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9642,6 +10100,8 @@
                "reward" : [
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(4)",
                   "AWWayofTime:bloodMagicBaseItems size(2) dmg(25)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9693,6 +10153,8 @@
                   "minecraft:gunpowder size(32) dmg(0)",
                   "AWWayofTime:simpleCatalyst size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9727,6 +10189,8 @@
                   "AWWayofTime:averageLengtheningCatalyst size(2) dmg(0)",
                   "AWWayofTime:averagePowerCatalyst size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9759,6 +10223,8 @@
                ],
                "reward" : [
                   "AWWayofTime:runeOfSacrifice size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9826,6 +10292,8 @@
                "reward" : [
                   "minecraft:ender_pearl size(4) dmg(0)",
                   "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(3)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -9901,6 +10369,8 @@
                "reward" : [
                   "AWWayofTime:simpleCatalyst size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9934,6 +10404,8 @@
                "reward" : [
                   "AWWayofTime:weakBindingAgent size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -9966,6 +10438,8 @@
                ],
                "reward" : [
                   "AWWayofTime:AlchemicalWizardrybloodRune size(4) dmg(1)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -10046,6 +10520,8 @@
                   "DraconicEvolution:longRangeDislocator size(2) dmg(1)",
                   "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10105,6 +10581,8 @@
                "reward" : [
                   "AWWayofTime:bloodMagicBaseAlchemyItems size(8) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10154,6 +10632,8 @@
                   "AWWayofTime:masterStone size(1) dmg(0)",
                   "minecraft:diamond size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10186,6 +10666,8 @@
                ],
                "reward" : [
                   "minecraft:diamond_sword size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -10225,6 +10707,8 @@
                "reward" : [
                   "AWWayofTime:ritualStone size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10259,6 +10743,8 @@
                "reward" : [
                   "AWWayofTime:emptySocket size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10291,6 +10777,8 @@
                ],
                "reward" : [
                   "AWWayofTime:weakBloodShard size(10) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -10356,6 +10844,8 @@
                "reward" : [
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(17)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -10410,6 +10900,8 @@
                "reward" : [
                   "TConstruct:heartCanister size(1) dmg(4)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -10452,6 +10944,8 @@
                "reward" : [
                   "AWWayofTime:standardBindingAgent size(10) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10484,6 +10978,8 @@
                ],
                "reward" : [
                   "Thaumcraft:blockAiry size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -10523,6 +11019,8 @@
                   "AWWayofTime:greaterLengtheningCatalyst size(2) dmg(0)",
                   "AWWayofTime:greaterPowerCatalyst size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10555,6 +11053,8 @@
                ],
                "reward" : [
                   "AWWayofTime:AlchemicalWizardrybloodRune size(2) dmg(4)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -10635,6 +11135,8 @@
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(1)",
                   "AWWayofTime:bloodMagicBaseAlchemyItems size(4) dmg(3)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10679,6 +11181,8 @@
                ],
                "reward" : [
                   "AWWayofTime:masterStone size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -10736,6 +11240,8 @@
                "reward" : [
                   "AWWayofTime:blockCrystalBelljar size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10775,6 +11281,8 @@
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(28)",
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(29)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10808,6 +11316,8 @@
                "reward" : [
                   "AWWayofTime:bloodMagicBaseItems size(4) dmg(15)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10840,6 +11350,8 @@
                ],
                "reward" : [
                   "AWWayofTime:bloodMagicBaseAlchemyItems size(4) dmg(4)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -10875,6 +11387,8 @@
                "reward" : [
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -10907,6 +11421,8 @@
                ],
                "reward" : [
                   "AWWayofTime:bloodMagicBaseItems size(2) dmg(31)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -10955,6 +11471,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -11009,6 +11527,8 @@
                "reward" : [
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11047,6 +11567,8 @@
                "reward" : [
                   "minecraft:ender_pearl size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11079,6 +11601,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconicCore size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -11113,6 +11637,8 @@
                "reward" : [
                   "DraconicEvolution:playerDetector size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11145,6 +11671,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconium size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -11179,6 +11707,8 @@
                "reward" : [
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11212,6 +11742,8 @@
                "reward" : [
                   "DraconicEvolution:rainSensor size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11244,6 +11776,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:wyvernCore size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -11283,6 +11817,8 @@
                "reward" : [
                   "DraconicEvolution:draconiumEnergyCore size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11321,6 +11857,8 @@
                "reward" : [
                   "DraconicEvolution:draconiumEnergyCore size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11358,6 +11896,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconiumDust size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -11400,6 +11940,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconium size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -11450,6 +11992,8 @@
                   "DraconicEvolution:draconiumDust size(16) dmg(0)",
                   "DraconicEvolution:draconium size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep001",
@@ -11487,6 +12031,8 @@
                "reward" : [
                   "DraconicEvolution:draconium size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11520,6 +12066,8 @@
                "reward" : [
                   "DraconicEvolution:draconicBlock size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11552,6 +12100,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconicBlock size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -11590,6 +12140,8 @@
                "reward" : [
                   "DraconicEvolution:draconicIngot size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11627,6 +12179,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:draconiumDust size(32) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -11676,6 +12230,8 @@
                "reward" : [
                   "DraconicEvolution:draconicBlock size(2) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11723,6 +12279,8 @@
                ],
                "reward" : [
                   "DraconicEvolution:dragonHeart size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -11782,6 +12340,8 @@
                   "minecraft:snowball size(8) dmg(0)",
                   "minecraft:ice size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -11832,6 +12392,8 @@
                "reward" : [
                   "TConstruct:materials size(8) dmg(19)",
                   "minecraft:gold_nugget size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -11887,6 +12449,8 @@
                "reward" : [
                   "Thaumcraft:ItemLootBag size(1) dmg(2)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -11941,6 +12505,8 @@
                   "minecraft:nether_wart size(8) dmg(0)",
                   "DraconicEvolution:draconiumDust size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -11992,6 +12558,8 @@
                   "minecraft:ghast_tear size(4) dmg(0)",
                   "DraconicEvolution:draconicCore size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12040,6 +12608,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemLootBag size(1) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12095,6 +12665,8 @@
                   "TConstruct:materials size(8) dmg(19)",
                   "TConstruct:materials size(8) dmg(21)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12146,6 +12718,8 @@
                   "minecraft:flint size(8) dmg(0)",
                   "minecraft:sandstone size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12184,6 +12758,8 @@
                ],
                "reward" : [
                   "minecraft:bread size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12231,6 +12807,8 @@
                "reward" : [
                   "minecraft:pumpkin_seeds size(8) dmg(0)",
                   "minecraft:melon_seeds size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -12283,6 +12861,8 @@
                   "minecraft:wheat_seeds size(8) dmg(0)",
                   "minecraft:coal size(16) dmg(1)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12316,6 +12896,8 @@
                ],
                "reward" : [
                   "minecraft:redstone size(16) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12371,6 +12953,8 @@
                   "minecraft:dye size(8) dmg(0)",
                   "Thaumcraft:blockAiry size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12404,6 +12988,8 @@
                ],
                "reward" : [
                   "minecraft:dye size(16) dmg(4)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12452,6 +13038,8 @@
                   "minecraft:blaze_rod size(8) dmg(0)",
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12496,6 +13084,8 @@
                   "minecraft:blaze_powder size(8) dmg(0)",
                   "minecraft:magma_cream size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12539,6 +13129,8 @@
                ],
                "reward" : [
                   "minecraft:glowstone size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12586,6 +13178,8 @@
                "reward" : [
                   "minecraft:clay_ball size(8) dmg(0)",
                   "Forestry:propolis size(8) dmg(3)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -12638,6 +13232,8 @@
                   "minecraft:string size(8) dmg(0)",
                   "minecraft:spider_eye size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12671,6 +13267,8 @@
                ],
                "reward" : [
                   "minecraft:torch size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12718,6 +13316,8 @@
                "reward" : [
                   "minecraft:leather size(8) dmg(0)",
                   "minecraft:coal size(16) dmg(1)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -12770,6 +13370,8 @@
                   "minecraft:glowstone_dust size(8) dmg(0)",
                   "minecraft:ghast_tear size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12808,6 +13410,8 @@
                ],
                "reward" : [
                   "minecraft:diamond size(4) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -12856,6 +13460,8 @@
                   "minecraft:leather size(16) dmg(0)",
                   "minecraft:feather size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12899,6 +13505,8 @@
                "reward" : [
                   "TConstruct:materials size(8) dmg(19)",
                   "minecraft:gold_nugget size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -12951,6 +13559,8 @@
                   "minecraft:dye size(8) dmg(0)",
                   "DraconicEvolution:draconiumDust size(4) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -12994,6 +13604,8 @@
                "reward" : [
                   "minecraft:fish size(8) dmg(0)",
                   "minecraft:nether_star size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                   {
@@ -13046,6 +13658,8 @@
                   "minecraft:ender_pearl size(4) dmg(0)",
                   "minecraft:leather size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -13097,6 +13711,8 @@
                   "minecraft:obsidian size(8) dmg(0)",
                   "minecraft:gunpowder size(16) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -13135,6 +13751,8 @@
                ],
                "reward" : [
                   "minecraft:emerald size(8) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -13190,6 +13808,8 @@
                   "minecraft:brown_mushroom size(8) dmg(0)",
                   "minecraft:red_mushroom size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -13241,6 +13861,8 @@
                   "minecraft:coal size(16) dmg(1)",
                   "minecraft:string size(8) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                   {
                      "reputation" : "rep000",
@@ -13279,6 +13901,8 @@
                ],
                "reward" : [
                   "Thaumcraft:ItemLootBag size(1) dmg(2)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
@@ -13348,6 +13972,8 @@
                "reward" : [
                   "customnpcs:npcSkull size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -13411,6 +14037,8 @@
                "reward" : [
                   "customnpcs:npcArtifact size(1) dmg(0)"
                ],
+               "commands" : [
+               ],
                "reputations" : [
                ]
             },
@@ -13468,6 +14096,8 @@
                ],
                "reward" : [
                   "customnpcs:npcAncientScroll size(1) dmg(0)"
+               ],
+               "commands" : [
                ],
                "reputations" : [
                ]
