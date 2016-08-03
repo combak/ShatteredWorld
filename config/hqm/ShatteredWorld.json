@@ -1,5 +1,5 @@
 {
-   "version" : "COMMAND_REWARDS",
+   "version" : "REPUTATION_BARS",
    "languages" : [
       "enUS",
       "deDE"
@@ -363,7 +363,7 @@
                      "requirements" : [
                         {
                            "item" : "TConstruct:longsword size(1) dmg(0)",
-                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Â§fFlint Longsword') ) )",
+                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Flint Longsword') ) )",
                            "required" : 1,
                            "precision" : "NBT_FUZZY"
                         }
@@ -529,7 +529,7 @@
                      "requirements" : [
                         {
                            "item" : "TConstruct:pickaxe size(1) dmg(0)",
-                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Â§fFlint Pickaxe') ) )",
+                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Flint Pickaxe') ) )",
                            "required" : 1,
                            "precision" : "NBT_FUZZY"
                         },
@@ -1295,7 +1295,7 @@
                      "requirements" : [
                         {
                            "item" : "TConstruct:lumberaxe size(1) dmg(0)",
-                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Â§fLumber Axe') ) )",
+                           "nbt" : "=COMPOUND( display=COMPOUND( Name=STRING('Lumber Axe') ) )",
                            "required" : 1,
                            "precision" : "NBT_FUZZY"
                         }

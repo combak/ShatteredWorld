@@ -75,7 +75,7 @@
                   {
                      "id" : "task000",
                      "name" : "Detection Task",
-                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einem Feuerzeug (flint and steel) an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt."
+                     "description" : "Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einer Fackel an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt."
                   }
                ]
             },
