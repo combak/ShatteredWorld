@@ -40,6 +40,7 @@ val forestryTinOre	= <Forestry:resources:1>;
 
 # Tinkers 
 val tConstructAluminumOre = <TConstruct:SearedBrick:5>;
+val tConstructGlassPane   = <TConstruct:GlassPane>;
 
 # EnderIO
 val enderioChassis                  = <EnderIO:itemMachinePart>;
@@ -92,8 +93,7 @@ val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
 # Draconic Evolution
 val dracEvoDraconiumIngot = <DraconicEvolution:draconiumIngot>;
 
-# Botania
-val botaniaManaLens = <Botania:lens:2>;
+
 
 # Tinkers
 val tConstructCopperIngot	= <TConstruct:materials:9>;
@@ -133,7 +133,7 @@ recipes.remove( buildCraftMiningWell );
 
 # Laser
 recipes.remove( buildCraftLaser );
-recipes.addShaped( buildCraftLaser, [ [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ], [ odFluxCrystal, botaniaManaLens, extUtilObsiGlass ], [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ] ] );
+recipes.addShaped( buildCraftLaser, [ [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ], [ odFluxCrystal, tConstructGlassPane , extUtilObsiGlass ], [ bcAdditionKineticBuffer, extUtilObsiGlass, extUtilObsiGlass ] ] );
 
 # RF Generators Recipes
 recipes.remove( buildCraftEngineStirling );
