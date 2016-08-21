@@ -35,8 +35,8 @@ val thermFoundPlatinumOre	= <ThermalFoundation:Ore:5>;
 val thermFoundSilverOre		= <ThermalFoundation:Ore:2>;
 
 # Forestry
-val forestryCopperOre	= <Forestry:resources:2>;
-val forestryTinOre	= <Forestry:resources:1>;
+val forestryCopperOre	= <Forestry:resources:1>;
+val forestryTinOre	= <Forestry:resources:2>;
 
 # Tinkers 
 val tConstructAluminumOre = <TConstruct:SearedBrick:5>;
