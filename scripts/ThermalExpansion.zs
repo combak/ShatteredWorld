@@ -244,6 +244,14 @@ val thermExpPulverizerRemove = [
   /* Invar Dust */
   <ore:ingotInvar>,			/* 95 - Invar Ingot (OreDict) */
 
+  /* Sulfur Dust */
+  <ore:netherrack>,			/* 96 - Netherrack (OreDict) */
+  <ore:oreLapis>,			/* 97 - Lapis Lazuli Ore (OreDict) */
+  <ore:rodBlaze>,			/* 98 - Blaze Rod (OreDict) */
+  <ore:oreApatite>,			/* 99 - Apatite Ore (OreDict) */
+  <ore:oreNetherSulfur>,		/*100 - Nether Sulfur Ore (OreDict) */
+  <ore:oreQuartz>,			/*101 - Nether Quartz Ore (OreDict) */
+  
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -377,7 +385,14 @@ val thermExpPulverizerAdd = [
   <NetherOres:tile.netherores.ore.1:14>,/* 98 - Nether Saltpeter Ore (Nether Ores) */
   
   /* Invar Dust */
-  <ThermalFoundation:material:72>	/* 99 - Invar Ingot (OreDict) */  
+  <ThermalFoundation:material:72>,	/* 99 - Invar Ingot (OreDict) */  
+  
+  /* Sulfur Dust */
+  <minecraft:lapis_ore>,		/*100 - Lapis Lazuli Ore (Vanilla) */
+  <minecraft:netherrack>,		/*101 - Netherrack (Vanillia) */
+  <minecraft:blaze_rod>,		/*102 - Blaze Rod (Vanilla) */
+  <NetherOres:tile.netherores.ore.1:5>, /*103 - Nether Sulfur Ore (Nether Ores) */
+  <minecraft:quartz_ore>,		/*104 - Nether Quartz Ore (Vanilla) */
 ] as IItemStack[];
 
 val thermExpPulverizerEnergy = [
@@ -508,7 +523,14 @@ val thermExpPulverizerEnergy = [
   3200,					/* 98 - Nether Saltpeter Ore (Nether Ores) */  
   
   /* Invar Dust */
-  2400					/* 99 - Invar Ingot (OreDict) */    
+  2400,					/* 99 - Invar Ingot (OreDict) */    
+  
+  /* Sulfur Dust */
+  2400,					/*100 - Lapis Lazuli Ore (Vanilla) */
+  3200,					/*101 - Netherrack (Vanillia) */
+  1600,					/*102 - Blaze Rod (Vanilla) */
+  3200,					/*103 - Nether Sulfur Ore (Nether Ores) */
+  2400,					/*104 - Nether Quartz Ore (Vanilla) */  
 ] as int[];
 
 val thermExpPulverizerChance = [
@@ -638,7 +660,14 @@ val thermExpPulverizerChance = [
   15,					/* 98 - Nether Saltpeter Ore (Nether Ores) */    
   
   /* Invar Dust */
-  0					/* 99 - Invar Ingot (OreDict) */      
+  0,					/* 99 - Invar Ingot (OreDict) */      
+  
+  /* Sulfur Dust */
+  20,					/*100 - Lapis Lazuli Ore (Vanilla) */
+  15,					/*101 - Netherrack (Vanillia) */
+  50,					/*102 - Blaze Rod (Vanilla) */
+  15,					/*103 - Nether Sulfur Ore (Nether Ores) */
+  15,					/*104 - Nether Quartz Ore (Vanilla) */    
 ] as int[];
 
 val thermExpPulverizerOutput1 = [
@@ -768,7 +797,14 @@ val thermExpPulverizerOutput1 = [
   <bcadditions:dust:64>*10,		/* 98 - Saltpeter Dust (BuildCraft Additions) */
   
   /* Invar Dust */
-  <bcadditions:dust:69>			/* 99 - Invar Dust (BuildCraft Additions) */
+  <bcadditions:dust:69>,			/* 99 - Invar Dust (BuildCraft Additions) */
+  
+  /* Sulfur Dust */
+  <minecraft:dye:4>*12,			/*100 - Lapis Lazuli (Vanilla) */
+  <exnihilo:exnihilo.gravel_nether>,	/*101 - Crushed Netherrack (Ex Nihilo) */
+  <minecraft:blaze_powder>*4,		/*102 - Blaze Powder (Vanilla) */
+  <bcadditions:dust:63>*24,		/*103 - Sulfur Dust (BuildCraft Additions) */
+  <minecraft:quartz>*2,			/*104 - Nether Quartz (Vanilla) */      
 ] as IItemStack[];
 
 val thermExpPulverizerOutput2 = [
@@ -899,6 +935,14 @@ val thermExpPulverizerOutput2 = [
   
   /* Invar Dust */  
   null,					/* 99 - Nothing */ 
+  
+  /* Sulfur Dust */
+  <bcadditions:dust:63>,		/*100 - Sulfur Dust (BuildCraft Additions) */
+  <bcadditions:dust:63>,		/*101 - Sulfur Dust (BuildCraft Additions) */
+  <bcadditions:dust:63>,		/*102 - Sulfur Dust (BuildCraft Additions) */
+  <minecraft:netherrack>,		/*103 - Netherrack (Vanilla) */  
+  <bcadditions:dust:63>,		/*104 - Sulfur Dust (BuildCraft Additions) */
+  
 ] as IItemStack[];
 
 ########################################################################################################################
@@ -906,8 +950,8 @@ val thermExpPulverizerOutput2 = [
 ########################################################################################################################
 # Remove Items/Recipies from the Induction Smelter
 val removeInduction = [
-  
-] as IIngredient[];
+  [ <ore:soulSand>, <ore:netherrack>*4 ]
+] as IIngredient[][];
 
 ########################################################################################################################
 # (Mixed) Data Structures - Smelter - Add 
@@ -925,7 +969,8 @@ val thermExpSmelterAddInput = [
   [ <Thaumcraft:blockCustomOre:7>, <minecraft:sand> ],				/* Amber Bearing Ore */
   
   [ <ExtraUtilities:cobblestone_compressed:7>, <minecraft:sand> ],		/* Octuple Compressed Cobblestone */
-  [ <ExtraUtilities:cobblestone_compressed:3> * 9, <Botania:manaResource:2> ]	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
+  [ <ExtraUtilities:cobblestone_compressed:3> * 9, <Botania:manaResource:2> ],	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
+  [ <minecraft:soul_sand>, <minecraft:netherrack>*4 ]				/* Nether Brick + Sulfur */
 ] as IItemStack[][];
 
 val thermExpSmelterAddEnergyChance = [
@@ -939,7 +984,8 @@ val thermExpSmelterAddEnergyChance = [
   [ 4000, 5 ],		/* Amber Bearing Ore */
   
   [ 100000, 100 ],	/* Octuple Compressed Cobblestone */
-  [ 50000, 100 ]	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
+  [ 50000, 100 ],	/* Quadruple Compressed Cobblestone, Mana Diamond */ 
+  [ 4000, 25 ]		/* Nether Brick + Sulfur */
 ] as int[][];
 
 val thermExpSmelterAddOutput = [
@@ -953,7 +999,8 @@ val thermExpSmelterAddOutput = [
   [ <Thaumcraft:ItemResource:6> * 2, <Thaumcraft:ItemResource:6> ],			/* Amber */
   
   [ <ExtraUtilities:block_bedrockium>, <Forestry:ash> * 4 ],				/* Block of Bedrockium, Ash */
-  [ <ExtraUtilities:bedrockiumIngot>, <Forestry:ash> * 2 ]				/* Bedrockium Ingot, Ash */
+  [ <ExtraUtilities:bedrockiumIngot>, <Forestry:ash> * 2 ],				/* Bedrockium Ingot, Ash */
+  [ <minecraft:nether_brick>*2, <bcadditions:dust:63> ]					/* Nether Brick + Sulfur */
 ] as IItemStack[][];
 
 ########################################################################################################################
@@ -961,9 +1008,12 @@ val thermExpSmelterAddOutput = [
 ########################################################################################################################
 
 # Smelter remove
-for i, item in removeInduction
+for i, entry in removeInduction
 { 
-  mods.thermalexpansion.Smelter.removeRecipe( item, vanillaSand );
+  var input1	= entry[ 0 ];
+  var input2	= entry[ 1 ];
+  
+  mods.thermalexpansion.Smelter.removeRecipe( input1, input2 );
 }
 
 # Producing Sky Stone form Sky Stone Dust

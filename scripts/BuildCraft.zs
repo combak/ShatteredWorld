@@ -79,13 +79,15 @@ val thermFoundLeadIngot		= <ThermalFoundation:material:67>;
 val thermFoundNickelIngot	= <ThermalFoundation:material:68>;
 val thermFoundPlatinumIngot	= <ThermalFoundation:material:69>;
 val thermFoundSilverIngot	= <ThermalFoundation:material:66>;
-val thermFoundPyrotheum		= <ThermalFoundation:material:512>;
 
 # BuildCraft
 val buildCraftRedstoneCrystal	= <BuildCraft|Silicon:redstoneCrystal>;
 val buildCraftPipePowerIron	= <BuildCraft|Transport:item.buildcraftPipe.pipepoweriron>;
 val buildCraftPipePowerGold	= <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>;
 val buildCraftPipePowerDiamond	= <BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>;
+
+# BuildCraft Additions
+val bcAdditionPyrotheumDust	= <bcadditions:dust:89>;
 
 # Thermal Expansion
 val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
@@ -153,19 +155,19 @@ AssemblyTable.addRecipe( appEngInscriberCalculation, 200000, [ vanillaIronBlock,
 AssemblyTable.addRecipe( appEngInscriberEnginering, 400000, [ vanillaIronBlock, vanillaNetherstar * 2, dracEvoDraconiumIngot * 4 ] );
 
 # Ore Block Recipe 
-AssemblyTable.addRecipe( vanillaLapisOre, 250000, [ vanillaLapis*128, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaDiamondOre, 250000, [ vanillaDiamond*64, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaGoldOre , 250000, [ vanillaGoldIngot*128, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaEmeraldOre , 250000, [ vanillaEmerald*64, thermFoundPyrotheum*8,vanillaStone ] );
-AssemblyTable.addRecipe( vanillaIronOre, 250000, [ vanillaIronIngot, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaRedstoneOre, 250000, [ vanillaRedstone*128, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundLeadOre, 250000, [ thermFoundLeadIngot*128, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundNickelOre, 250000, [ thermFoundNickelIngot*128, thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundPlatinumOre, 250000, [ thermFoundPlatinumIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundSilverOre, 250000, [ thermFoundSilverIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( forestryCopperOre, 250000, [ tConstructCopperIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( forestryTinOre, 250000, [ tConstructTinIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
-AssemblyTable.addRecipe( tConstructAluminumOre, 250000, [ tConstructAluminumIngot*128 , thermFoundPyrotheum*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaLapisOre, 250000, [ vanillaLapis*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaDiamondOre, 250000, [ vanillaDiamond*64, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaGoldOre , 250000, [ vanillaGoldIngot*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaEmeraldOre , 250000, [ vanillaEmerald*64, bcAdditionPyrotheumDust*8,vanillaStone ] );
+AssemblyTable.addRecipe( vanillaIronOre, 250000, [ vanillaIronIngot, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( vanillaRedstoneOre, 250000, [ vanillaRedstone*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundLeadOre, 250000, [ thermFoundLeadIngot*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundNickelOre, 250000, [ thermFoundNickelIngot*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundPlatinumOre, 250000, [ thermFoundPlatinumIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( thermFoundSilverOre, 250000, [ thermFoundSilverIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( forestryCopperOre, 250000, [ tConstructCopperIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( forestryTinOre, 250000, [ tConstructTinIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
+AssemblyTable.addRecipe( tConstructAluminumOre, 250000, [ tConstructAluminumIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
 
 # QED Recipes
 AssemblyTable.addRecipe( extUtilRetrievalNodeItem, 100000, [ extUtilTransferNodeItem * 2 , vanillaEnderPearl * 2, vanillaEmerald ] );

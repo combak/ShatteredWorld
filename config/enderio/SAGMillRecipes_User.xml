@@ -117,6 +117,26 @@ found in the core file.
 	<itemStack modID="bcadditions" itemName="dust" itemMeta="64" chance="0.15"/>	<!-- Saltpeter Dust (BuildCraft Additions)-->
       </output>
     </recipe>
+    
+    <!-- Sulfur Dust -->
+    <recipe name="Netherrack" energyCost="2400">
+      <input>
+        <itemStack modID="minecraft" itemName="netherrack" />
+      </input>
+      <output>
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="63" chance="0.15"/>	<!-- Sulfur Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>
+
+    <recipe name="BlazeRod" energyCost="2400">
+      <input>
+        <itemStack modID="minecraft" itemName="blaze_rod" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="blaze_powder" number="4" />
+	<itemStack modID="bcadditions" itemName="dust" itemMeta="63" chance="0.5"/>	<!-- Sulfur Dust (BuildCraft Additions)-->
+      </output>
+    </recipe>    
   </recipeGroup>    
     
   <recipeGroup name="EnderIO">

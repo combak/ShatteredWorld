@@ -1,18 +1,21 @@
 import minetweaker.item.IItemStack;
 ########################################################################################################################
-# Items
+# (Mixed) Data Structures
 ########################################################################################################################
 
-# Thermal Foundation
-val thermFoundBronzeDust 	= <ThermalFoundation:material:41>;
-val thermFoundBlitzPowder	= <ThermalFoundation:material:1027>;
+val thermFoundCraftingRemove = [
+  <ThermalFoundation:material:41>,	/* Bronze Dust */
+  <ThermalFoundation:material:1027>,	/* Blitz Powder */
+  <ThermalFoundation:material:512>,	/* Pyrotheum Dust */
+  <ThermalFoundation:material:513>	/* Cyrotheum Dust */
+] as IItemStack[];
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
 
-# Remove Bronze Blend
-recipes.remove( thermFoundBronzeDust );
-
-# Remove Blitz Powder
-recipes.remove( thermFoundBlitzPowder );
+# Crafting remove
+for remove in thermFoundCraftingRemove
+{
+  recipes.remove( remove );
+}
