@@ -2,7 +2,9 @@
 
 # Version 0.7.3
 
-# Version 0.7.2 - Sneak preview
+# Version 0.7.2 - Sneak preview 2
+
+# Version 0.7.2 - Sneak preview 1
 
 **Config Changes**
 - Added BuildCraft Additions Iron Wire furnace recipe
