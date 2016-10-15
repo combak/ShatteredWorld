@@ -1,0 +1,31 @@
+{
+  "default": [
+    {
+      "name": "nether",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "nether"
+        }
+      ]
+    },
+    {
+      "name": "end",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "end"
+        }
+      ]
+    },
+    {
+      "name": "overworld",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "overworld"
+        }
+      ]
+    }
+  ]
+}
