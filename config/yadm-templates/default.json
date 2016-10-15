@@ -26,6 +26,74 @@
           "name": "overworld"
         }
       ]
+    },
+    {
+      "name": "skydim",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "overworld"
+        },
+        {
+	  "type": "worldType",
+	  "name": "FWG"
+        },
+        {
+	  "type": "generatorOptions",
+	  "value": "SKYDIM#1"
+        }
+      ]
+    },
+    {
+      "name": "skyland",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "overworld"
+        },
+        {
+	  "type": "worldType",
+	  "name": "FWG"
+        },
+        {
+	  "type": "generatorOptions",
+	  "value": "SKYLAND#0"
+        }
+      ]
+    },
+    {
+      "name": "skyland-snow",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "overworld"
+        },
+        {
+	  "type": "worldType",
+	  "name": "FWG"
+        },
+        {
+	  "type": "generatorOptions",
+	  "value": "SKYLAND#1"
+        }
+      ]
+    },
+    {
+      "name": "skyland-jungle",
+      "settings": [
+        {
+          "type": "worldProvider",
+          "name": "overworld"
+        },
+        {
+	  "type": "worldType",
+	  "name": "FWG"
+        },
+        {
+	  "type": "generatorOptions",
+	  "value": "SKYLAND#2"
+        }
+      ]
     }
   ]
 }
