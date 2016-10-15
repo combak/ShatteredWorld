@@ -2,6 +2,28 @@
 
 # Version 0.7.3
 
+# Version 0.7.2 - Sneak preview
+
+**Config Changes**
+- Added BuildCraft Additions Iron Wire furnace recipe
+- Temporary disabled Roc spawn (LycanitesMobs)
+- Changed Buildcraft Laser recipe
+- Disabled Thaumcraft transmutations
+
+**Mod Additions**
+- YADM -Yes another dimension manager 0.4.2
+
+**Mod Updates**
+- Agricraft 1.3.1 to 1.5.0
+- Fastcraft 1.22 to 1.23
+- Gardenstuff 1.6.3 to 1.7.0
+- Storage Drawers 1.5.5 to 1.9.5
+- Storage Drawers - Forestry 1.0.1 to 1.1.2
+
+**Mod Removed**
+- Forge Essentials temporary (?)
+- Storage Drawers - Natura
+
 # Version 0.7.2
 
 **Config Changes**
