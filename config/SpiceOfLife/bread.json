@@ -14,6 +14,7 @@
       "foodWalnutraisinbread",		/* Walnut Raisin Bread */
       "foodZucchinibread",		/* Zucchini Bread */
       "foodCroissant", /* Croissant */
+      "foodNaan" /* Naan */
       
     ],
     "items": 
