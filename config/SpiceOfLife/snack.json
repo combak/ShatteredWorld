@@ -12,7 +12,9 @@
       "foodZeppole",		/* Zeppole */
       "foodCranberrybar",	/* Cranberry Bar */
       "foodLemonbar",		/* Lemon Bar */
-      "foodFigbar"		/* Fig Bar */
+      "foodFigbar",		/* Fig Bar */
+      "foodMuesli", /* Muesli */
+      "foodOkraships" /* Okra Ships */
     ]
   },
   "name": "Snack",
