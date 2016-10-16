@@ -9,6 +9,15 @@
       ]
     },
     {
+      "name": "outerlands",
+      "settings": [
+        { "type": "worldProvider", "name": "overworld" },
+        { "type": "worldType", "name": "FWG" },
+        { "type": "generatorOptions", "value": "SKYDIM#1" },
+        { "type": "seed", "value": 7308741327247404037 }
+      ]
+    },    
+    {
       "name": "skyland",
       "settings": [
         { "type": "worldProvider", "name": "overworld" },
