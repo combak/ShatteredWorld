@@ -22,7 +22,9 @@
       "foodLamington",				/* Lamington */
       "foodPeachcobbler",			/* Peach Cobbler */
       "foodBlackberrycobbler",			/* Blackberry Cobbler */
-      "foodFruitcrumble"			/* Fruit Crumble */    
+      "foodFruitcrumble",			/* Fruit Crumble */    
+      "foodYorkshirepuddiing", /* Yorkshire Pudding */
+      "foodJamroll" /* Jam Roll */
     ],
     "items": 
     [
