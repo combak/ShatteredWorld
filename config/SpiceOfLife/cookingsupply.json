@@ -18,8 +18,8 @@
       "foodStock",			/* Stock */
       "foodTortilla",			/* Tortillia */
       "foodVegemite",			/* Vegemite */
-      "foodKimchi" , /* Kimchi */
-      "foodGravy" ,  /* Gravy */
+      "foodKimchi", /* Kimchi */
+      "foodGravy",  /* Gravy */
       "foodSausage", /* Sausage */
       "foodPaneer", /* Paneer */
       "foodPepperonie", /* Pepperonie */

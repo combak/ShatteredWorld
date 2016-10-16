@@ -25,7 +25,7 @@
       "foodFigjelly",			/* Fig */
       "foodGrapefruitjelly",		/* Grapefruit */
       "foodPersimmonjelly",		/* Persimmon */  
-      "foodPearjelly" /* Pear */
+      "foodPearjelly", /* Pear */
       "foodPlumjelly", /*Plum */
       "foodGooseberryjelly" /* Gooseberry */
     ]

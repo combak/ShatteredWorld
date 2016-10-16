@@ -47,7 +47,7 @@
       "BinnieCore:containerGlass:262", /* Lime Juice Bottle */
       "BinnieCore:containerGlass:271", /* Pienapple Juice Bottle */
       "BinnieCore:containerGlass:272", /* Pear Juice Bottle */
-      "BinnieCore:containerGlass:263", /* Orange Juice Bottle */
+      "BinnieCore:containerGlass:263" /* Orange Juice Bottle */
    ]   
   },
   "name": "Juice",

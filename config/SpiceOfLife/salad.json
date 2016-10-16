@@ -16,7 +16,7 @@
       "foodMixedsalad",			/* Mixed */
       "foodCitrussalad",		/* Citrus */
       "foodCeasarsalad",		/* Ceasar */
-      "foodColeslaw",			/* Coleslaw */
+      "foodColeslaw"			/* Coleslaw */
       
     ],
     "items": 

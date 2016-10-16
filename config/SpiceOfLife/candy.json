@@ -18,12 +18,12 @@
       "foodSaltedsunflowerseeds",	/* Salted Sunflower Seeds */
       "foodTaffy",			/* Taffy */
       "foodTrailmix",			/* Trail Mix */
-      "foodMaplecandiedbacon"  /*  Maple Candied Bacon */
-      "foodSesameball",  /* Sesame Ball */
-      "foodMochi",  /* Mochi */
-      "foodSweetpickle", /* Sweet Pickle */
-      "foodCracker",  /* Cracker */
-      "foodMarzipan"  /* Marzipan */
+      "foodMaplecandiedbacon",          /*  Maple Candied Bacon */
+      "foodSesameball",                 /* Sesame Ball */
+      "foodMochi",                      /* Mochi */
+      "foodSweetpickle",                /* Sweet Pickle */
+      "foodCracker",                    /* Cracker */
+      "foodMarzipan"                    /* Marzipan */
 
     ],
     "items":

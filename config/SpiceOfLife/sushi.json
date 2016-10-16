@@ -6,7 +6,7 @@
       "foodSushi",   		/* Sushi */
       "foodCaliforniaroll",    	/* California Roll */
       "foodFutomaki",    	/* Futo Maki */
-      "saltwatermobs:seashellmaki" , /* Seashell Maki */
+      "saltwatermobs:seashellmaki"  /* Seashell Maki */
     ]
   },
   "name": "Sushi",
