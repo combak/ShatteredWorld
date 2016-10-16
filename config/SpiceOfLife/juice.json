@@ -14,7 +14,6 @@
       "foodBlackberryjuice",		/* Blackberry */
       "foodBlueberryjuice",		/* Blueberry */
       "foodCactusfruitjuice",		/* Cactus Fruit */
-      "foodCactusfruitjuice",		/* Cactus */
       "foodCherryjuice",		/* Cherry */
       "foodCranberryjuice",		/* Cranberry */
       "foodGrapejuice",			/* Grape */
@@ -30,7 +29,26 @@
       "foodStrawberryjuice",		/* Strawberry */    
       "foodPeachjuice",			/* Peach */
       "foodLemonaide"			/* Lemonade */
-    ]
+    ],
+    "items":
+    [
+      "BinnieCore:containerGlass:256", /* Apple Juice Bottle */
+      "BinnieCore:containerGlass:264", /* Peach Juice Bottle */
+      "BinnieCore:containerGlass:273", /* White Grape Juice Bottle */
+      "BinnieCore:containerGlass:274", /* Red Grape Juice Bottle */
+      "BinnieCore:containerGlass:265", /* Plum Juice Bottle */
+      "BinnieCore:containerGlass:257", /* Apricot Juice Bottle */
+      "BinnieCore:containerGlass:258", /* Banana Juice Bottle */
+      "BinnieCore:containerGlass:266", /* Carott Juice Bottle */
+      "BinnieCore:containerGlass:260", /* Elderberry Juice Bottle */
+      "BinnieCore:containerGlass:268", /* Cranberry Juice Bottle */
+      "BinnieCore:containerGlass:269", /* Grapefruit Juice Bottle */
+      "BinnieCore:containerGlass:261", /* Lemon Juice Bottle */
+      "BinnieCore:containerGlass:262", /* Lime Juice Bottle */
+      "BinnieCore:containerGlass:271", /* Pienapple Juice Bottle */
+      "BinnieCore:containerGlass:272", /* Pear Juice Bottle */
+      "BinnieCore:containerGlass:263", /* Orange Juice Bottle */
+   ]   
   },
   "name": "Juice",
   "enabled": true,
