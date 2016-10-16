@@ -27,6 +27,8 @@
       "foodLambbarleysoup",		/* Lambbarley */
       "foodLeekbaconsoup",		/* Leekbacon */
       "foodGuacamole",   		/* Guacamole */
+      "foodPeaandhamsoup" , /* Pea and Ham */
+      "foodPotatoandleeksoup"  /* Potato and Leek */
     ],
     "items": 
     [
