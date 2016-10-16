@@ -45,7 +45,13 @@
       "TConstruct:jerky:3",   		/* Mutton Jerky */
       "shadowmobs:bloodchili",    	/* Blood Chili */
       "mountainmobs:peakskebab",    	/* Peaks Kebab */
-      "junglemobs:tropicalcurry"   	/* Tropical Curry */
+      "junglemobs:tropicalcurry",   	/* Tropical Curry */
+      "forestmobs:arisaurmeatraw", /*  Raw Arisaur Meat */
+      "demonmobs:pinkymeatraw", /* Raw Pinky Meat */
+      "desertmobs:joustmeatraw", /* Raw Joust Meat */
+      "plainsmobs:makameatraw", /* Raw Maka Meat */
+      "shadowmobs:chupacabrameatraw", /* Raw Chupacabra Meat */
+      "arcticmobs:yetimeatraw" /* Raw Yeti Meat /*
     ]
   },
   "name": "Dishes with Meat",
