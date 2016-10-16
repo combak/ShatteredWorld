@@ -11,7 +11,10 @@
       "foodSpinachpie",			/* Spinach Pie */
       "foodMincepie",			/* Mince Pie */
       "foodChickenpotpie",   		/* Chicken Pot Pie */
-      "foodShepherdspie"   		/* Shepherd´s Pie */
+      "foodShepherdspie",   		/* Shepherd´s Pie */
+      "foodCornishpasty", /* Cornisch Pasty */
+      "foodCottagepie", /* Cottage Pie */
+      "foodGooseberrypie" /* Gooseberry Pie */
     ],
     "items":
     [
