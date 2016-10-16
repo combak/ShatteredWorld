@@ -3,7 +3,7 @@
   {
     "oredict": 
     [ 
-      "listAllfishcooked",
+      "listAllfishcooked", "listAllfishraw",
       
       "foodClamcooked",   			/* Cooked Clam */
       "foodCrabcooked",    			/* Cooked Crab */
