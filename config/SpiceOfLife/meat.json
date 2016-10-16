@@ -21,15 +21,21 @@
       "foodPineappleham",    		/* Pineapple Ham */
       "foodSpicymustardpork",    	/* Spicy Mustard Pork */
       "foodBaconwrappeddates",   	/* Bacon Wrapped Dates */
-      "foodBatteredsausage"   		/* Battered Sausage */  
+      "foodBatteredsausage",   		/* Battered Sausage */  
+      "foodZombiejerky", /* Zombie Jerky */
+      "foodBeefjerky" , /* Beef Jerky */
+      "foodsausageroll", /* Sausage Roll */
+      "foodPorklomein", /* Pork Lo Mein */
+      "foodDimdum", /* Dim Sum */
+      "foodToasinthehole" /* Toad in the Hole */
     ],
     "items":
     [
       "demonmobs:devillasagna",   	/* Devil Lasagna */
       "lycanitesmobs:explorersrisotto", /* Explorers Risotto */ 
-      "Natura:natura.stewbowl",   	/* Glowshroom Stew */
       "Thaumcraft:TripleMeatTreat",    	/* Triple Meat Treat */
       "TConstruct:jerky",   		/* Beef Jerky */
+      "harvestcraft:ploughmanslunchItem",  /* Ploughmann´s Lunch */
       "TConstruct:jerky:2",   		/* Bacon Jerky */
       "TConstruct:jerky:3",   		/* Mutton Jerky */
       "shadowmobs:bloodchili",    	/* Blood Chili */
