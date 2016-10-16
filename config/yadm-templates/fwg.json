@@ -1,0 +1,39 @@
+{
+  "fwg": [
+    {
+      "name": "skydim",
+      "settings": [
+        { "type": "worldProvider", "name": "overworld" },
+        { "type": "worldType", "name": "FWG" },
+        { "type": "generatorOptions", "value": "SKYDIM#1" }
+      ]
+    },
+    {
+      "name": "skyland",
+      "settings": [
+        { "type": "worldProvider", "name": "overworld" },
+        { "type": "worldType", "name": "FWG" },
+        { "type": "generatorOptions", "value": "SKYLAND#0" },
+        { "type": "spawn", "x": 0, "y": 150, "z": 0, "mode": "platform" }
+      ]
+    },
+    {
+      "name": "skyland-snow",
+      "settings": [
+        { "type": "worldProvider", "name": "overworld" },
+        { "type": "worldType", "name": "FWG" },
+        { "type": "generatorOptions", "value": "SKYLAND#1" },
+        { "type": "spawn", "x": 0, "y": 150, "z": 0, "mode": "platform" }
+      ]
+    },
+    {
+      "name": "skyland-jungle",
+      "settings": [
+        { "type": "worldProvider", "name": "overworld" },
+        { "type": "worldType", "name": "FWG" },
+        { "type": "generatorOptions", "value": "SKYLAND#2" },
+        { "type": "spawn", "x": 0, "y": 150, "z": 0, "mode": "platform" }
+      ]
+    }
+  ]
+}
