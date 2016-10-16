@@ -12,7 +12,7 @@
     ],
     "items": 
     [
-      "arsmagica2:manaMartini"		/* Mana Martini */      
+      "arsmagica2:manaMartini",		/* Mana Martini */      
 "BinnieCore:containerGlass:407", /* Corn Beer Bottle */
 "BinnieCore:containerGlass:406", /* Rye Beer Bottle */
 "BinnieCore:containerGlass:405", /* Wheat Beer Bottle */                      
@@ -85,7 +85,9 @@
 "BinnieCore:containerGlass:411", /* Fermented Rye Mash Bottle */
 "BinnieCore:containerGlass:412", /* Fermented Corn Mash Bottle */
 "BinnieCore:containerGlass:397", /* Fermented Potato Mash Bottle */
-"BinnieCore:containerGlass:409" /* Fermented Grain Mash Bottle */
+"BinnieCore:containerGlass:409", /* Fermented Grain Mash Bottle */
+ "Forestry:beverage", /* Short Mead */
+      "Forestry:beverage:1" /* Curative Mead */
    ]
   },
   "name": "Alcoholic Drink",
