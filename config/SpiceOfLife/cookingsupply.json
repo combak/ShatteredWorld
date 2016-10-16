@@ -3,6 +3,9 @@
   {
     "oredict": 
     [ 
+      
+      "listAllnutbutter",
+      
       "foodApplesauce",			/* Apple Sauce */
       "foodCheese",			/* Cheese */
       "foodCranberrysauce",		/* Cranberry Sauce */
@@ -14,7 +17,14 @@
       "foodPeanutbutter",		/* Peanut Butter */      
       "foodStock",			/* Stock */
       "foodTortilla",			/* Tortillia */
-      "foodVegemite"			/* Vegemite */
+      "foodVegemite",			/* Vegemite */
+      "foodKimchi" , /* Kimchi */
+      "foodGravy" ,  /* Gravy */
+      "foodSausage", /* Sausage */
+      "foodPaneer", /* Paneer */
+      "foodPepperonie", /* Pepperonie */
+      "foodCoconutcream", /* Coconut Cream */
+      "foodMangochutney" /* Mango Chutney */
     ],
     "items": 
     [
