@@ -21,11 +21,17 @@
       "foodCoconutshrimp",   			/* Coconut Shrimp */
       "foodSalmonpatties", /* Salmon Patties */
       "foodTunapotato", /* Tuna Potato */
-      "foodShrimpporkokrahuspuppies" /* Shrimp Pork Okra Hushpuppies */
+      "foodShrimpporkokrahuspuppies", /* Shrimp Pork Okra Hushpuppies */
+      "foodClamraw" , /* Raw Clam */ 
+      "foodFrograw", /* Raw Frog */
+      "foodJellyfishraw", /* Raw Jellyfish */
+      "foodTurtleraw", /* Raw Turtle */
+      "foodCrabraw" /* Raw Crab */
     ],
     "Items":
     [
       "freshwatermobs:silexmeatcooked",   	/* Cooked Silex Meat */
+      "freshwatermobs:silexmeatraw",    /* Raw Silex Meat */
       "TConstruct:jerky"  			/* Fish Jerky */  
     ]
   },
