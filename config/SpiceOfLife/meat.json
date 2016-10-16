@@ -51,7 +51,7 @@
       "desertmobs:joustmeatraw", /* Raw Joust Meat */
       "plainsmobs:makameatraw", /* Raw Maka Meat */
       "shadowmobs:chupacabrameatraw", /* Raw Chupacabra Meat */
-      "arcticmobs:yetimeatraw" /* Raw Yeti Meat /*
+      "arcticmobs:yetimeatraw" /* Raw Yeti Meat */
     ]
   },
   "name": "Dishes with Meat",

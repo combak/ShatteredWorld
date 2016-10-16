@@ -24,50 +24,49 @@
       "foodSummersquashwithradish",	/* Summer Squash with Radish */
       "foodSweetpotatosouffle",		/* Sweet Potato Souffle */
       "foodToastedcoconut",		/* Toasted Coconut */
-      "foodAvocadoburrito",		/* Avocado Burrito /*/
-      "foodBakedbeans",			/* Baked Beans /*/
-      "foodBakedbeets",			/* Baked Beets /*/
-      "foodBakedsweetpotato",		/* Baked Sweet Potato /*/
-      "foodBakedturnips",		/* Baked Turnips /*/
-      "foodBamboosteamedrice",		/* Bamboo Steamed Rice /*/
-      "foodBeansandrice",		/* Beans and Rice /*/
-      "foodBoiledegg",			/* Boiled Egg /*/
-      "foodLoadedbakedpotato",		/* Loaded Baked Potato /*/
-      "foodMapleoatmeal",		/* Maple Oatmeal /*/
-      "foodMarinatedcucumbers",		/* Marinated Cucumbers /*/
-      "foodMashedpotatoes",		/* Mashed Potatoes /*/
-      "foodPickles",			/* Pickles /*/
-      "foodPoachedpear",		/* Poached Pear /*/
-      "foodPotatoandcheesepirogi",	/* Potato and Cheese Pirogi /*/
-      "foodRainbowcurry",		/* Rainbow Curry /*/
-      "foodRefriedbeans",		/* Refried Beans /*/
-      "foodVeggiestirfry",		/* Veggie Stirfry /*/
-      "foodZestyzucchini",		/* Zesty Zucchini /*/
-      "foodStuffedmushroom",		/* Stuffed Mushroom /*/
-      "foodStuffedpepper",		/* Stuffed Pepper /*/
-      "foodCreamedcorn",		/* Creamed Corn /*/
-      "foodCurry",			/* Curry Rice /*/
-      "foodEggnog",			/* Egg Nog /*/
-      "foodEggplantparm",		/* Eggplant Parm /*/
-      "foodFriedegg",			/* Fried Egg /*/
-      "foodFriedrice",			/* Fried Rice /*/
-      "foodGarlicmashedpotatoes",	/* Garlic Mashed Potatoes /*/
-      "foodGlazedcarrots",		/* Glazed Carrots /*/
-      "foodGrilledasparagus",		/* Grilled Asparagus /*/
-      "foodGrilledeggplant",		/* Grilled Eggplant /*/
-      "foodGrilledmushroom",		/* Grilled Mushroom /*/
-      "foodHeartybreakfast",		/* Hearty Breakfast /*/
-      "foodRoastpotatoes",		/* Roast Potatoes /*/
-      "foodRoastedpumpkinseeds",	/* Roasted Pumpkin Seeds /*/
-      "foodRoastedrootveggiemedley",	/* Roasted Root Veggie Medley /*/
-      "foodScallionbakedpotato",	/* Scallion Baked Potato /*/
-      "foodScrambledegg",		/* Scrambled Egg /*/
-      "foodZucchinibake",		/* Zucchini Bake /*/
-      "foodSpicygreens",		/* Spicy Greens /*/
-      "foodSteamedpeas",		/* Steamed Peas /*/
-      "foodSteamedspinach",		/* Steamed Spinach /*/
-      "foodStuffedeggplant",		/* Stuffed Eggplant /*/
-      "foodBakedsweetpotato", /* Baked Sweet Potato */
+      "foodAvocadoburrito",		/* Avocado Burrito */
+      "foodBakedbeans",			/* Baked Beans */
+      "foodBakedbeets",			/* Baked Beets */
+      "foodBakedsweetpotato",		/* Baked Sweet Potato */
+      "foodBakedturnips",		/* Baked Turnips */
+      "foodBamboosteamedrice",		/* Bamboo Steamed Rice */
+      "foodBeansandrice",		/* Beans and Rice */
+      "foodBoiledegg",			/* Boiled Egg */
+      "foodLoadedbakedpotato",		/* Loaded Baked Potato */
+      "foodMapleoatmeal",		/* Maple Oatmeal */
+      "foodMarinatedcucumbers",		/* Marinated Cucumbers */
+      "foodMashedpotatoes",		/* Mashed Potatoes */
+      "foodPickles",			/* Pickles */
+      "foodPoachedpear",		/* Poached Pear */
+      "foodPotatoandcheesepirogi",	/* Potato and Cheese Pirogi */
+      "foodRainbowcurry",		/* Rainbow Curry */
+      "foodRefriedbeans",		/* Refried Beans */
+      "foodVeggiestirfry",		/* Veggie Stirfry */
+      "foodZestyzucchini",		/* Zesty Zucchini */
+      "foodStuffedmushroom",		/* Stuffed Mushroom */
+      "foodStuffedpepper",		/* Stuffed Pepper */
+      "foodCreamedcorn",		/* Creamed Corn */
+      "foodCurry",			/* Curry Rice */
+      "foodEggnog",			/* Egg Nog */
+      "foodEggplantparm",		/* Eggplant Parm */
+      "foodFriedegg",			/* Fried Egg */
+      "foodFriedrice",			/* Fried Rice */
+      "foodGarlicmashedpotatoes",	/* Garlic Mashed Potatoes */
+      "foodGlazedcarrots",		/* Glazed Carrots */
+      "foodGrilledasparagus",		/* Grilled Asparagus */
+      "foodGrilledeggplant",		/* Grilled Eggplant */
+      "foodGrilledmushroom",		/* Grilled Mushroom */
+      "foodHeartybreakfast",		/* Hearty Breakfast */
+      "foodRoastpotatoes",		/* Roast Potatoes */
+      "foodRoastedpumpkinseeds",	/* Roasted Pumpkin Seeds */
+      "foodRoastedrootveggiemedley",	/* Roasted Root Veggie Medley */
+      "foodScallionbakedpotato",	/* Scallion Baked Potato */
+      "foodScrambledegg",		/* Scrambled Egg */
+      "foodZucchinibake",		/* Zucchini Bake */
+      "foodSpicygreens",		/* Spicy Greens */
+      "foodSteamedpeas",		/* Steamed Peas */
+      "foodSteamedspinach",		/* Steamed Spinach */
+      "foodStuffedeggplant",		/* Stuffed Eggplant */
       "foodSunflowerwheatrolls", /* Sunflower Wheat Rolls */
       "foodVeggiestrips", /* Veggie Strips */
       "foodFriedpecanokra", /* Fried Pecan Okra */
@@ -81,7 +80,7 @@
     ],
     "items":
     [
-      "minecraft:baked_potato",		/* Baked Potato /*/
+      "minecraft:baked_potato",		/* Baked Potato */
       "Automagy:foodstuff" /* Vishroom Stew */
     ]
   },
