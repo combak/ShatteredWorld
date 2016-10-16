@@ -29,7 +29,15 @@
       "foodFishsandwich",   			/* Fish Sandwich */
       "foodLeafychickensandwich",		/* Leafy Chicken Sandwich */
       "foodToastsandwich",			/* Toast Sandwich  */
-      "foodLeafyfishsandwich"			/* Leafy Fish Sandwich */    
+      "foodLeafyfishsandwich"	,		/* Leafy Fish Sandwich */       
+      "foodGooseberryfruitjellysandwich", /* Gooseberryfruitjelly */
+      "foodHamandsweetpicklesandwich", /* Ham & Sweet Pickle */
+      "foodPearjellysandwich", /* Pear */
+      "foodPlumjellysandwich", /* Plum */
+      "foodHoneysandwich" /* Honey */
+
+
+
     ]
   },
   "name": "Sandwich",
