@@ -8,7 +8,7 @@
       "foodPeppermint",			/* Peppermint */
       "foodCandiedginger",		/* Candied Ginder */
       "foodCandiedlemon",		/* Candied Lemon */
-      "foodCcandiedwalnuts",		/* Candied Walnuts */
+      "foodCandiedwalnuts",		/* Candied Walnuts */
       "foodCaramel", 			/* Caramel */
       "foodCaramelapple",		/* Caramel Apple */
       "foodGummybears",			/* Gummbie Bears */
@@ -17,7 +17,14 @@
       "foodSoftpretzelandmustard",	/* Soft Pretzel and Mustard */
       "foodSaltedsunflowerseeds",	/* Salted Sunflower Seeds */
       "foodTaffy",			/* Taffy */
-      "foodTrailmix"			/* Trail Mix */
+      "foodTrailmix",			/* Trail Mix */
+      "foodMaplecandiedbacon"  /*  Maple Candied Bacon */
+      "foodSesameball",  /* Sesame Ball */
+      "foodMochi",  /* Mochi */
+      "foodSweetpickle", /* Sweet Pickle */
+      "foodCracker",  /* Cracker */
+      "foodMarzipan"  /* Marzipan */
+
     ],
     "items":
     [
