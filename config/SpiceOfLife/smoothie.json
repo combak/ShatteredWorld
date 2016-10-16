@@ -22,7 +22,15 @@
       "foodApricotsmoothie",		/* Apricot */
       "foodFigsmoothie",		/* Fig */
       "foodGrapefruitjellysmoothie",	/* Grapefruit */
-      "foodPersimmonsmoothie"		/* Persimmon */    
+      "foodPersimmonsmoothie",		/* Persimmon */
+      "foodGoosberrysmoothie", /* Gooseberry */
+      "foodApplesmoothie", /* Apple*/
+      "foodCoconutsmoothie", /* Coconut */
+      "foodCranberrysmoothie", /* Cranberry */
+      "foodGrapesmoothie", /* Grape */
+      "foodPearsmoothie", /* Pear */
+      "foodPlumsmoothie" /* Plum*/
+
     ]
   },
   "name": "Smoothie",
