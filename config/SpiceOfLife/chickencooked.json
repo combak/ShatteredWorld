@@ -16,7 +16,8 @@
       "foodGeneraltsochicken",   	/* General Tso's Chicken */
       "foodGingerchicken",   		/* Ginger Chicken */
       "foodOrangechicken",   		/* Orange Chicken */
-      "foodSundayroast"    		/* Sunday Roast*/    
+      "foodSundayroast" ,   		/* Sunday Roast*/   
+      "foodDeluxeckickencurry" /* Deluxe Chicken Curry */
     ],
     "items":
     [
