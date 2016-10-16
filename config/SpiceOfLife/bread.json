@@ -13,6 +13,7 @@
       "foodPumpkinbread",		/* Pumpkin Bread */
       "foodWalnutraisinbread",		/* Walnut Raisin Bread */
       "foodZucchinibread",		/* Zucchini Bread */
+      "foodCroissant", /* Croissant */
       
     ],
     "items": 
