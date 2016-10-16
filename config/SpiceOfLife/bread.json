@@ -19,7 +19,8 @@
     ],
     "items": 
     [
-      "minecraft:bread"			/* Bread */ 
+      "minecraft:bread"	,		/* Bread */ 
+      "Forestry:honeyedSlice" /* Honeyed Slice */ 
     ]
   },
   "name": "Bread",
