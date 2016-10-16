@@ -4,6 +4,13 @@
 
 # Version 0.7.2 - Sneak preview 2
 
+**Config Changes**
+- Split YADM templates into default and fwg
+
+**Mod Updates**
+- Forest-Mods 0.3.2e-beta to 0.4.0-beta
+- YADM -Yes another dimension manager 0.4.2 to 0.4.4
+
 # Version 0.7.2 - Sneak preview 1
 
 **Config Changes**
