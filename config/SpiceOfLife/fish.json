@@ -18,7 +18,8 @@
       "foodFishdinner",   			/* Fish Dinner */
       "foodFishsticks",   			/* Fish Sticks */
       "foodPistachiobakedsalmon",   		/* Pistachio Baked Salmon */
-      "foodCoconutshrimp"    			/* Coconut Shrimp */
+      "foodCoconutshrimp",   			/* Coconut Shrimp */
+      "foodSalmonpatties" /* Salmon Patties */
     ],
     "Items":
     [
