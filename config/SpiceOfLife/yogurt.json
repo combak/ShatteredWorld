@@ -32,7 +32,9 @@
       "foodFigyogurt",			/* Fig */
       "foodGrapefruityogurt",		/* Grapefruit */
       "foodPersimmonyogurt",		/* Persimmon */
-      "foodPlainyogurt"			/* Plain */    
+      "foodPlainyogurt",			/* Plain */  
+      "foodGoosberryyoghurt", /* Goosberry */
+      "foodAppleyoghurt" /* Apple*/
     ]
   },
   "name": "Yogurt",
