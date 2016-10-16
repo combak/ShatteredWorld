@@ -10,7 +10,9 @@
     ],
     "items":
     [
-      "harvestcraft:pumpkinmuffinItem"		/* Pumpkin Muffin */
+      "harvestcraft:pumpkinmuffinItem",		/* Pumpkin Muffin */
+      "harvestcraft:potatocakeItem", /* Potato Cake */
+      "harvestcraft:ricecakeItem" /* Rice Cake */
     ]
   },
   "name": "Biscuit",
