@@ -24,7 +24,10 @@
       "foodApricotjelly",		/* Apricot */
       "foodFigjelly",			/* Fig */
       "foodGrapefruitjelly",		/* Grapefruit */
-      "foodPersimmonjelly"		/* Persimmon */    
+      "foodPersimmonjelly",		/* Persimmon */  
+      "foodPearjelly" /* Pear */
+      "foodPlumjelly", /*Plum */
+      "foodGooseberryjelly" /* Gooseberry */
     ]
   },
   "name": "Jelly",
