@@ -19,7 +19,8 @@
       "foodFishsticks",   			/* Fish Sticks */
       "foodPistachiobakedsalmon",   		/* Pistachio Baked Salmon */
       "foodCoconutshrimp",   			/* Coconut Shrimp */
-      "foodSalmonpatties" /* Salmon Patties */
+      "foodSalmonpatties", /* Salmon Patties */
+      "foodTunapotato" /* Tuna Potato */
     ],
     "Items":
     [
