@@ -11,11 +11,14 @@
       "foodOrangesoda",			/* Orange */
       "foodStrawberrysoda",		/* Strawberry */
       "foodGrapefruitsoda",		/* Grapefruit */
-      "foodRaspberryicedtea"		/* Raspberry Iced Tea */    
-    ],
+      "foodRaspberryicedtea",		/* Raspberry Iced Tea */  
+      "foodEnergydrink", /* Energy Drink */
+          ],
     "items": 
     [
-      "Forestry:ambrosia"            	/* Ambrosia */
+      "Forestry:ambrosia",            	/* Ambrosia */
+      "Forestry:honeyPot", /* Honey Pot */
+      "OpenBlocks:tastyClay" /* Tasty Clay */
     ]
   },
   "name": "Soda",
