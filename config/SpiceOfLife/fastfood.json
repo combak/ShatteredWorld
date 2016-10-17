@@ -22,7 +22,8 @@
     [
       "lycanitesmobs:battleburrito",		/* Battle Burrito */
       "infernomobs:searingtaco",		/* Searing Taco */
-      "freshwatermobs:lapisfishandchips"	/* Lapis Fish and Chips */
+      "freshwatermobs:lapisfishandchips",	/* Lapis Fish and Chips */
+      "harvestcraft:randomtacoItem" /* Random Taco */
     ]
   },
   "name": "Fastfood",
