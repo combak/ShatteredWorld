@@ -8,28 +8,28 @@
     "items": 
     [
       "minecraft:melon",		/* Melon */
-      "cropHazelnut", /* Hazelnut */
-      "cropCitron", /* CItron */
-      "cropFingerLime", /* Finger LIme */
-      "cropSandpear", /* Sand Pear */
-      "cropPear", /* Pear */
-      "cropKeyLime", /* KeyLime */
-      "cropCherryPlum", /* CHerry PLum */
-      "cropTangerine", /* Tangerine */
-      "cropNectarine", /* Nectarine */
-      "cropBlackthorn", /* Blackthorn */
-      "cropBlackCherry", /* Black Cherry */
-      "cropAlmond", /* Almond */
-      "cropSourCherry", /* Sour Cherry */
-      "cropManderine", /* Manderine */
+      "cropHazelnut",    /* Hazelnut */
+      "cropCitron",     /* Citron */
+      "cropFingerLime",     /* Finger Lime */
+      "cropSandpear",    /* Sand Pear */
+      "cropPear",     /* Pear */
+      "cropKeyLime",    /* Key Lime */
+      "cropCherryPlum",    /* CHerry PLum */
+      "cropTangerine",     /* Tangerine */
+      "cropNectarine",     /* Nectarine */
+      "cropBlackthorn",    /* Blackthorn */
+      "cropBlackCherry",    /* Black Cherry */
+      "cropAlmond",     /* Almond */
+      "cropSourCherry",    /* Sour Cherry */
+      "cropManderine",    /* Manderine */
       "cropApricot", /* Apricot */
-      "cropWildCherry", /* WIld Cherry */
+      "cropWildCherry", /* Wild Cherry */
       "cropLime", /* Lime */
       "cropGrapefruit", /* Grapefruit */
       "cropPeach", /* Peach */
       "cropKumquat", /* Kumquat */
       "cropOrange", /* Orange */
-      "cropBuddhaHand", /* BUddhas Hand */
+      "cropBuddhaHand", /* Buddhas Hand */
       "cropSatsuma", /* Satsuma */
       "cropCrabapple", /* Crabapple */
       "cropRedBanana", /* Red Banana */
