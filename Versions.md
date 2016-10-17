@@ -101,5 +101,5 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.4.4-235f67d.jar
+- yadm-1.7.10-0.4.4-00f5720.jar
 - zz-backpacks-1.7.10-3.0.8.jar
