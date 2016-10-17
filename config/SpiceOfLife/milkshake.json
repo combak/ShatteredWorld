@@ -9,6 +9,7 @@
       "foodChocolatemilkshake",		/* Chocolate Milkshake */
       "foodCoconutmilk",		/* Coconut Milk */
       "foodStrawberrymilkshake"		/* Strawberry Milkshake */
+      "foodGooseberrymiklshake" /* Goosberry Miklshake */
     ]
   },
   "name": "Milk & Milkshake",
