@@ -373,7 +373,7 @@ val thermExpPulverizerAdd = [
   /* Thaumcraft */
   <Thaumcraft:ItemShard:6>,		/* 91 - Balanced Shard (Thaumcraft) */
   
-  <ForestDay:item.corn>,		/* 92 - Corn (Forest Day) */
+  <ForestDay:corn>,			/* 92 - Corn (Forest Day) */
   <harvestcraft:cornItem>,		/* 93 - Corn (HarvestCraft) */
   <minecraft:ender_pearl>,		/* 94 - Ender Pearl (Vanilla) */
   
@@ -785,8 +785,8 @@ val thermExpPulverizerOutput1 = [
   /* Thaumcraft */
   <Thaumcraft:ItemResource:14>,		/* 91 - Salis Mundis (Thaumcraft) */
   
-  <ForestDay:item.nature:9>,		/* 92 - Starch (Forest Day) */
-  <ForestDay:item.nature:9>,		/* 93 - Starch (Forest Day) */
+  <ForestDay:nature:9>,			/* 92 - Starch (Forest Day) */
+  <ForestDay:nature:9>,			/* 93 - Starch (Forest Day) */
   <bcadditions:dust:59>,		/* 94 - Ender Pearl Dust (BuildCraft Additions) */
   
   <bcadditions:dust:3>,			/* 95 - Diamond (Vanilla) */

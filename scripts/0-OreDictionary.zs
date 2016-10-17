@@ -166,8 +166,8 @@ val oreDictRemoveGears = [
 <ore:ingotRedAlloy>.add( <EnderIO:itemAlloy:3> );
 
 # Harvestcraft Corn <=> Forest Day Corn
-<ore:cropCorn>.add( <ForestDay:item.corn> );
-<ore:listAllveggie>.add( <ForestDay:item.corn> );
+<ore:cropCorn>.add( <ForestDay:corn> );
+<ore:listAllveggie>.add( <ForestDay:corn> );
 
 # Remove EnderIO Quite Clear Glass from glass OreDict
 <ore:glass>.remove( <EnderIO:blockFusedQuartz:1> );

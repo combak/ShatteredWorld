@@ -223,7 +223,7 @@ val furnacesSmelting = [
   
   [ <Forestry:peat>, <Forestry:ash> ],
   
-  [ <ForestDay:item.corn>, <harvestcraft:popcornItem> ],
+  [ <ForestDay:corn>, <harvestcraft:popcornItem> ],
   
   [ <bcadditions:wireIronUnhardened>, <bcadditions:wireIron> ]
 ] as IItemStack[][];
