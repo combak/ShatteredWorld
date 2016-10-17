@@ -15,7 +15,6 @@
       "foodExtremechili",    		/* Extreme Chili */
       "foodGrilledskewers",   		/* Grilled Skewer */
       "foodMeatystew",   		/* Meaty Stew */
-      "foodSuadero",   			/* Suadero */
       "foodApricotglazedpork",    	/* Apricot Glazed Pork */
       "foodBeansontoast",    		/* Beans on Toast */
       "foodBeefwellington",    		/* Beef Wellington */
@@ -37,6 +36,7 @@
       "Thaumcraft:TripleMeatTreat",    	/* Triple Meat Treat */
       "TConstruct:jerky",   		/* Beef Jerky */
       "harvestcraft:ploughmanslunchItem",  /* Ploughmann´s Lunch */
+      "harvestcraft:suaderoItem", /* Suadero */
       "TConstruct:jerky:2",   		/* Bacon Jerky */
       "TConstruct:jerky:3",   		/* Mutton Jerky */
       "shadowmobs:bloodchili",    	/* Blood Chili */
