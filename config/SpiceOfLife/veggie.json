@@ -26,8 +26,7 @@
       "foodToastedcoconut",		/* Toasted Coconut */
       "foodAvocadoburrito",		/* Avocado Burrito */
       "foodBakedbeans",			/* Baked Beans */
-      "foodBakedbeets",			/* Baked Beets */
-      "foodBakedsweetpotato",		/* Baked Sweet Potato */
+      "foodBakedbeets",			/* Baked Beets */      
       "foodBakedturnips",		/* Baked Turnips */
       "foodBamboosteamedrice",		/* Bamboo Steamed Rice */
       "foodBeansandrice",		/* Beans and Rice */
@@ -81,7 +80,8 @@
     "items":
     [
       "minecraft:baked_potato",		/* Baked Potato */
-      "Automagy:foodstuff" /* Vishroom Stew */
+      "Automagy:foodstuff", /* Vishroom Stew */
+      "harvestcraft:bakedsweetpotatoItem,"		/* Baked Sweet Potato */
     ]
   },
   "name": "Veggie",
