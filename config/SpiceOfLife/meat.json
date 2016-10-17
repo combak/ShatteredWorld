@@ -3,11 +3,8 @@
   {
     "oredict": 
    [ 
-      "listAllmeatraw" 
-    ], 
-     "items":
-    [ 
-       
+      "listAllmeatraw",
+      
       "foodBakedham",    		/* Baked Ham */
       "foodBangersandmash",    		/* Bangers and Mash */
       "foodHoneylemonlamb",    		/* Honey Lemon Lamp */
@@ -31,7 +28,7 @@
       "foodsausageroll", /* Sausage Roll */
       "foodPorklomein", /* Pork Lo Mein */
       "foodDimdum", /* Dim Sum */
-      "foodToasinthehole" /* Toad in the Hole */
+      "foodToasinthehole" /* Toad in the Hole */      
     ],
     "items":
     [

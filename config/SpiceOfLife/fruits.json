@@ -3,12 +3,9 @@
     "oredict": 
     [ 
       "listAllfruit", 
-      "listAllberry" 
-    ],
-    "items": 
-    [
-      "minecraft:melon",		/* Melon */
-      "cropHazelnut",    /* Hazelnut */
+      "listAllberry",
+      
+"cropHazelnut",    /* Hazelnut */
       "cropCitron",     /* Citron */
       "cropFingerLime",     /* Finger Lime */
       "cropSandpear",    /* Sand Pear */
@@ -68,10 +65,11 @@
       "cropTea", /* Tea Leaf */
       "cropSunflower", /* Sunflower Seeds */
       "cropSesame", /* Sesame Seeds */
-      "cropGherkin", /* Gherkin */
+      "cropGherkin" /* Gherkin */      
     ],
     "items": 
     [
+      "minecraft:melon",		/* Melon */
       "ExtraTrees:food:56", /* Star Anise */
       "ExtraTrees:food:55", /* Chilli */
       "ExtraTrees:food:54", /* Allspice */
@@ -95,7 +93,7 @@
       "ExtraTrees:food:35", /* Olive */
       "harvestcraft:oliveItem", /* Olive */
       "ExtraTrees:food:37", /* Coffee */
-      "harvestcraft:coffeebeanItem", /* Coffee Bean */
+      "harvestcraft:coffeebeanItem" /* Coffee Bean */
     ] 
   },
   "name": "Fruits",
