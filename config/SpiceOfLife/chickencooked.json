@@ -17,7 +17,7 @@
       "foodGingerchicken",   		/* Ginger Chicken */
       "foodOrangechicken",   		/* Orange Chicken */
       "foodSundayroast" ,   		/* Sunday Roast*/   
-      "foodDeluxeckickencurry", /* Deluxe Chicken Curry */
+      "foodDeluxechickencurry", /* Deluxe Chicken Curry */
       "foodVindaloo" /* Vindaloo */
     ],
     "items":
