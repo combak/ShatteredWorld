@@ -28,7 +28,6 @@
       "foodBaconwrappeddates",   	/* Bacon Wrapped Dates */
       "foodBatteredsausage",   		/* Battered Sausage */  
       "foodZombiejerky", /* Zombie Jerky */
-      "foodBeefjerky" , /* Beef Jerky */
       "foodsausageroll", /* Sausage Roll */
       "foodPorklomein", /* Pork Lo Mein */
       "foodDimdum", /* Dim Sum */
@@ -51,6 +50,7 @@
       "desertmobs:joustmeatraw", /* Raw Joust Meat */
       "plainsmobs:makameatraw", /* Raw Maka Meat */
       "shadowmobs:chupacabrameatraw", /* Raw Chupacabra Meat */
+      "harvestcraft:beefjerkyItem", /* Beef Jerky */
       "arcticmobs:yetimeatraw" /* Raw Yeti Meat */
     ]
   },
