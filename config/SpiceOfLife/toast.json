@@ -9,7 +9,7 @@
       "foodFrenchtoast",		/* French Toast */
       "foodVegemiteontoast",		/* Vegemite on Toast */
       "foodToast",			/* Toast */
-      "foodCheesontoast" /* Chees on Toast */
+      "foodCheeseontoast" /* Chees on Toast */
     ]
   },
   "name": "Toast",
