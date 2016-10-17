@@ -3,7 +3,10 @@
   {
     "oredict": 
     [ 
-      "listAllveggie"
+      "listAllveggie",
+      "listAllgrain",
+      "listAllherb",
+      "listAllspice"
     ]
   },
   "name": "Vegetable",
