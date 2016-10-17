@@ -11,7 +11,7 @@
     "items":
     [
       "harvestcraft:pumpkinmuffinItem",		/* Pumpkin Muffin */
-      "harvestcraft:potatocakeItem", /* Potato Cake */
+      "harvestcraft:potatocakesItem", /* Potato Cake */
       "harvestcraft:ricecakeItem" /* Rice Cake */
     ]
   },
