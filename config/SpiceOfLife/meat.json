@@ -26,7 +26,8 @@
       "foodZombiejerky", /* Zombie Jerky */
       "foodsausageroll", /* Sausage Roll */
       "foodPorklomein", /* Pork Lo Mein */
-      "foodDimdum", /* Dim Sum */
+      "foodDimsum", /* Dim Sum */
+      "foodSausageroll", /* Sausage Roll */
       "foodToasinthehole" /* Toad in the Hole */      
     ],
     "items":
