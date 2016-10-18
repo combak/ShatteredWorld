@@ -1,0 +1,634 @@
+  1 x 1k Crafting Storage
+  1 x 1k ME Storage Cell
+  1 x Advanced Card, dmg=28
+  1 x Aether
+  1 x Agricultural Journal
+  1 x Air Sigil
+  1 x Alchemic Calcinator
+  1 x Alchemic Chemistry Set
+  1 x Alchemic Cleanser
+  1 x Alchemic Router
+  1 x Alchemic Segmenter
+  1 x Alchemical Centrifuge, dmg=2
+  1 x Alchemical Furnace
+  1 x Alloy Smelter
+  1 x Alumentum
+  1 x Alveary
+  1 x Alveary Fan, dmg=3
+  1 x Alveary Heater, dmg=4
+  1 x Alveary Hygroregulator, dmg=5
+  1 x Alveary Stabiliser, dmg=6
+  1 x Annihilation Core, dmg=44
+  1 x Apiarist's Hat
+  1 x Apiarist's Pants
+  1 x Apiarist's Shirt
+  1 x Apiarist's Shoes
+  1 x Apiary
+  1 x Apprentice Blood Orb
+  1 x Aqua Pulse Scepter
+  1 x Aquasalus
+  1 x Arcane Alembic, dmg=1
+  1 x Arcane Compendium
+  1 x Arcane Laser Storm Scepter
+  1 x Arcane Pedestal
+  1 x Arcane Pedestal_2, dmg=1
+  1 x Arcane Plinth
+  1 x Archmage's Blood Orb
+  1 x Armor Imbuement Table
+  1 x Assembly Table
+  1 x Augment_ Accelerated Extrusion, dmg=312
+  1 x Augment_ Secondary Gearbox, dmg=64
+  1 x Augment_ Secondary Reception Coil, dmg=128
+  1 x Augment_ Secondary Sieve, dmg=112
+  1 x Augment_ Secondary Transmission Coil, dmg=80
+  1 x Aum
+  1 x AutoPackager
+  1 x Automatic Hammerer
+  1 x Automatic Sieve
+  1 x Awakened Core
+  1 x Awakened Draconium Ingot
+  1 x Backpack Pouch
+  1 x Backpack_2, dmg=3
+  1 x Bakeware
+  1 x Basic Capacitor Bank, dmg=1
+  1 x Basic Card, dmg=25
+  1 x Basic Duster
+  1 x Basic Gate, nbt{mat:0b,logic:0b}
+  1 x Basic Gate_2, nbt{mat:0b,ex:[0:"buildcraft:pulsar"],logic:0b}
+  1 x Battlemage Armor
+  1 x Battlemage Boots
+  1 x Battlemage Circlet
+  1 x Battlemage Leggings
+  1 x Bed
+  1 x Beealyzer
+  1 x Blank Slate
+  1 x Blizzard Scepter
+  1 x Blood Altar
+  1 x Bloodleech Scepter
+  1 x Botanical Brewery
+  1 x Boulder Blast Scepter
+  1 x Bound Blade
+  1 x Bound Boots
+  1 x Bound Helmet
+  1 x Bound Leggings
+  1 x Bound Plate
+  1 x Bow of the Wyvern
+  1 x Bread
+  1 x Calculation Processor, dmg=23
+  1 x Carrot
+  1 x Casting Basin, dmg=2
+  1 x Casting Table
+  1 x Cell Workbench
+  1 x Centrifuge, dmg=2
+  1 x Certus Quartz Seed
+  1 x Cerublossom
+  1 x Charcoal, dmg=1
+  1 x Charger
+  1 x Charm of Dislocation
+  1 x Chestnut, dmg=2
+  1 x Clay
+  1 x Clay Golem, dmg=3
+  1 x Cobblestone
+  1 x Cobblestone Fluid Pipe
+  1 x Cobblestone Kinesis Pipe
+  1 x Cobblestone Transport Pipe
+  1 x Compost Bin
+  1 x Compression Dynamo, dmg=2
+  1 x Cooling Tower Valve
+  1 x Cooling Tower Walls
+  1 x Copper Ingot_2, dmg=9
+  1 x Crafting Altar
+  1 x Crafting Co-Processing Unit, dmg=1
+  1 x Crafting Monitor
+  1 x Crafting Unit
+  1 x Crepitous
+  1 x Crimson Cult Boots
+  1 x Crimson Cult Chestplate
+  1 x Crimson Cult Greaves
+  1 x Crimson Cult Helm
+  1 x Crimson Cult Hood
+  1 x Crimson Cult Leggings
+  1 x Crimson Cult Robe
+  1 x Crimson Praetor Chestplate
+  1 x Crimson Praetor Greaves
+  1 x Crimson Praetor Helm
+  1 x Crop Sticks
+  1 x Crucible_2
+  1 x Crystal Belljar
+  1 x Crystal Growth Accelerator
+  1 x Crystal Wrench
+  1 x Crystallos
+  1 x Cuprosia Seeds
+  1 x Daizuli Transport Pipe
+  1 x Dandelion Seeds
+  1 x Dark Boots
+  1 x Dark Helm
+  1 x Dark Leggings
+  1 x Dark Plate
+  1 x Daybloom, nbt{type:"daybloom"}
+  1 x Deconstruction Table, dmg=14
+  1 x Demon Blood Shard
+  1 x Demonic Lightning Scepter
+  1 x Demonic Slate
+  1 x Desert Nova
+  1 x Devilstar Scepter
+  1 x Diamond Boots
+  1 x Diamond Chestplate
+  1 x Diamond Helmet
+  1 x Diamond Leggings
+  1 x Diluted Mana Pool, dmg=2
+  1 x Dimensional Transceiver
+  1 x Dislocator Pedestal
+  1 x Dissipation Charge, dmg=4
+  1 x Divination Sigil
+  1 x Docking Station
+  1 x Doomfire Scepter
+  1 x Double-Layer Capacitor, dmg=1
+  1 x Dough
+  1 x Draconic Axe
+  1 x Draconic Boots
+  1 x Draconic Bow
+  1 x Draconic Chest
+  1 x Draconic Chestplate
+  1 x Draconic Core
+  1 x Draconic Evolution Information Tablet
+  1 x Draconic Helm
+  1 x Draconic Hoe
+  1 x Draconic Leggings
+  1 x Draconic Pickaxe
+  1 x Draconic Shovel
+  1 x Draconic Sword
+  1 x Draconium Dust
+  1 x Draconium Ingot
+  1 x Dragon Heart
+  1 x Dragonstone, dmg=9
+  1 x Dreamwood
+  1 x Dust
+  1 x Earth Flicker Jar, dmg=4
+  1 x Eldritch Eye
+  1 x Elemental Inscription Tool_ Air
+  1 x Elemental Inscription Tool_ Dawn
+  1 x Elemental Inscription Tool_ Dusk
+  1 x Elemental Inscription Tool_ Earth
+  1 x Elemental Inscription Tool_ Fire
+  1 x Elemental Inscription Tool_ Water
+  1 x Elementium Boots
+  1 x Elementium Chestplate
+  1 x Elementium Helmet
+  1 x Elementium Ingot, dmg=7
+  1 x Elementium Leggings
+  1 x Elven Gateway Core
+  1 x Ember Scepter
+  1 x Empty Flicker Jar
+  1 x Emzuli Transport Pipe
+  1 x Ender Air Bottle, dmg=15
+  1 x Ender Pearl
+  1 x Ender Resonator, dmg=3
+  1 x Endoflame, nbt{type:"endoflame"}
+  1 x Energetic Alloy, dmg=1
+  1 x Energy Acceptor
+  1 x Energy Core
+  1 x Energy Infuser
+  1 x Energy Pylon
+  1 x Enervation Dynamo, dmg=4
+  1 x Engineering Processor, dmg=24
+  1 x Essence Refiner
+  1 x Essentia Crystallizer, dmg=7
+  1 x Essentia Tube
+  1 x Ethereal Slate, dmg=27
+  1 x Farm Control, dmg=5
+  1 x Farm Gearbox, dmg=2
+  1 x Farm Hatch, dmg=3
+  1 x Farm Valve, dmg=4
+  1 x Farming Station
+  1 x Fermenter, dmg=3
+  1 x Filled Socket
+  1 x Fired Clay Bucket
+  1 x Firm Tofu
+  1 x Fishing Rod
+  1 x Flicker Focus_ Lunar Tides, dmg=134
+  1 x Flicker Habitat
+  1 x Flicker Lure
+  1 x Flint Axe
+  1 x Floral White Powder
+  1 x Fluid Transposer (Resonant), dmg=5
+  1 x Fluix Crystal, dmg=7
+  1 x Fluix Dust, dmg=8
+  1 x Fluix Seed, dmg=1200
+  1 x Flux Crystal, dmg=96
+  1 x Flux-Infused Boots
+  1 x Flux-Infused Chestplate
+  1 x Flux-Infused Helm
+  1 x Flux-Infused Leggings
+  1 x Flügel Tiara
+  1 x Focal Manipulator, dmg=13
+  1 x Forest Hive, dmg=1
+  1 x Formation Core, dmg=43
+  1 x Fractured Bone, dmg=5
+  1 x Fresh Milk
+  1 x Frostbolt Scepter
+  1 x Frostweb Scepter
+  1 x Furnace
+  1 x Gaia Mana Spreader, dmg=3
+  1 x Gaia Pylon, dmg=2
+  1 x Gaia Spirit, dmg=5
+  1 x Gaia Spirit Ingot, dmg=14
+  1 x Garden Soil
+  1 x Gear Cast
+  1 x Generator, dmg=3
+  1 x Goggles of Revealing
+  1 x Gold Banded Greatwood Wand, dmg=9, nbt{cap:"gold",rod:"greatwood"}
+  1 x Gold Grains, dmg=7
+  1 x Golem Animation Core, dmg=100
+  1 x Golem Animation Core_10, dmg=8
+  1 x Golem Animation Core_12, dmg=10
+  1 x Golem Animation Core_13, dmg=11
+  1 x Golem Animation Core_2
+  1 x Golem Animation Core_3, dmg=1
+  1 x Golem Animation Core_5, dmg=3
+  1 x Golem Animation Core_7, dmg=5
+  1 x Golem Animation Core_9, dmg=7
+  1 x Golem Upgrade_ Air
+  1 x Golem Upgrade_ Earth, dmg=1
+  1 x Golem Upgrade_ Entropy, dmg=5
+  1 x Golem Upgrade_ Fire, dmg=2
+  1 x Golem Upgrade_ Order, dmg=4
+  1 x Golem Upgrade_ Water, dmg=3
+  1 x Golemancer's Bell
+  1 x Grafter
+  1 x Gravel
+  1 x Greatwood Sapling
+  1 x Hardened Leather Boots
+  1 x Hardened Leather Chest
+  1 x Hardened Leather Helm
+  1 x Hardened Leather Leggings
+  1 x Harvest Goddess Sigil
+  1 x Hellfire Scepter
+  1 x Honey Drop
+  1 x Horn of the Wild
+  1 x Icefire Scepter
+  1 x Imbued Slate
+  1 x Incendium
+  1 x Induction Smelter (Resonant), dmg=3
+  1 x Ingot Cast
+  1 x Inscriber
+  1 x Inscriber Logic Press, dmg=15
+  1 x Inscriber Silicon Press, dmg=19
+  1 x Inscription Table
+  1 x Integration Table, dmg=2
+  1 x Iodine Capsule
+  1 x Iron Boots
+  1 x Iron Capped Wooden Wand, nbt{cap:"iron",rod:"wood"}
+  1 x Iron Chestplate
+  1 x Iron Golem, dmg=6
+  1 x Iron Helmet
+  1 x Iron Ingot
+  1 x Iron Leggings
+  1 x Jar Label, dmg=13
+  1 x Juicer
+  1 x Lamp of Fertility, dmg=13
+  1 x Lamp of Growth, dmg=8
+  1 x Laser
+  1 x Lava Clay Bucket
+  1 x Lava Sigil
+  1 x Lazuli Transport Pipe
+  1 x Leadstone Energy Cell, dmg=1
+  1 x Lectern
+  1 x Lettuce Seed
+  1 x Lexica Botania
+  1 x Life Drain Scepter
+  1 x Life Shard, dmg=28
+  1 x Livingrock
+  1 x Livingwood
+  1 x Logic Processor, dmg=22
+  1 x ME Chest
+  1 x ME Controller
+  1 x ME Crafting Terminal, dmg=360
+  1 x ME Drive
+  1 x ME Export Bus, dmg=260
+  1 x ME Glass Cable - Fluix, dmg=16
+  1 x ME IO Port
+  1 x ME Import Bus, dmg=240
+  1 x ME Interface
+  1 x ME Interface Terminal, dmg=480
+  1 x ME Level Emitter, dmg=280
+  1 x ME Pattern Terminal, dmg=340
+  1 x ME Storage Bus, dmg=220
+  1 x ME Terminal, dmg=380
+  1 x Mage Boots
+  1 x Mage Hood
+  1 x Mage Leggings
+  1 x Mage Robes
+  1 x Magic Wall
+  1 x Magicales
+  1 x Magician's Blood Orb
+  1 x Magitech Goggles
+  1 x Magitech's Staff
+  1 x Magma Crucible (Resonant), dmg=4
+  1 x Magma Scepter
+  1 x Magmatic Dynamo, dmg=1
+  1 x Malformed Spell
+  1 x Mana Battery
+  1 x Mana Detector
+  1 x Mana Diamond, dmg=2
+  1 x Mana Distributor
+  1 x Mana Focus
+  1 x Mana Lens
+  1 x Mana Lens_ Flash, dmg=17, nbt{}
+  1 x Mana Lens_ Force, dmg=16, nbt{}
+  1 x Mana Lens_ Kindle, dmg=15, nbt{}
+  1 x Mana Lens_ Magnetizing, dmg=10, nbt{}
+  1 x Mana Lens_ Phantom, dmg=9, nbt{}
+  1 x Mana Pearl, dmg=1
+  1 x Mana Pool
+  1 x Mana Spreader
+  1 x Mana Tablet, nbt{}
+  1 x Mana Void
+  1 x Managlass Vial
+  1 x Manastar, nbt{type:"manastar"}
+  1 x Manasteel Boots
+  1 x Manasteel Chestplate
+  1 x Manasteel Helmet
+  1 x Manasteel Ingot
+  1 x Manasteel Leggings
+  1 x Marshy Hive, dmg=7
+  1 x Master Blood Orb
+  1 x Master Ritual Stone
+  1 x Meadows Hive, dmg=2
+  1 x Milk
+  1 x Mixing Bowl
+  1 x Mob Grinder, dmg=3
+  1 x Mob Soul
+  1 x Molecular Assembler
+  1 x Monster Focus
+  1 x Moonstone, dmg=7
+  1 x Mortar and Pestle
+  1 x Mudshot Scepter
+  1 x Mystical Red Flower Seeds
+  1 x Mystical White Flower
+  1 x Mystical White Flower Seeds
+  1 x Mystical White Petal
+  1 x Mystical Yellow Flower Seeds
+  1 x Natura Pylon, dmg=1
+  1 x Nether Quartz Dust, dmg=3
+  1 x Nether Quartz Seed, dmg=600
+  1 x Nightshade, nbt{type:"nightshade"}
+  1 x Nitor, dmg=1
+  1 x Node Stabilizer, dmg=9
+  1 x Node Transducer, dmg=11
+  1 x Node in a Jar
+  1 x Oak Barrel
+  1 x Oak Drawer
+  1 x Oak Drawers 1x2
+  1 x Oak Drawers 2x2
+  1 x Oak Sieve
+  1 x Oak Wood
+  1 x Obelisk
+  1 x Occulus
+  1 x Offensa
+  1 x Oily Propolis, dmg=1
+  1 x Orbis Terrae, dmg=2
+  1 x Pestle and Mortar
+  1 x Petal Apothecary
+  1 x Petinia Seeds
+  1 x Pickaxe of the Wyvern
+  1 x Pixie Dust, dmg=8
+  1 x Poison Ray Scepter
+  1 x Poop Scepter
+  1 x Poppy Seeds
+  1 x Portable Tank, dmg=1
+  1 x Portal-in-a-Box
+  1 x Pot_2
+  1 x Potato
+  1 x Potentia, dmg=8
+  1 x Power Monitor
+  1 x Powered Spawner
+  1 x Praesidium, dmg=1
+  1 x Presser
+  1 x Primordial Pearl, dmg=3
+  1 x Programming Table, dmg=4
+  1 x Pulverizer (Resonant), dmg=1
+  1 x Pumpkin Seeds
+  1 x Pure Certus Quartz Crystal, dmg=10
+  1 x Pure Daisy, nbt{type:"puredaisy"}
+  1 x Pure Fluix Crystal, dmg=12
+  1 x Pure Nether Quartz Crystal, dmg=11
+  1 x Quartz Glass
+  1 x Rainmaker, dmg=7
+  1 x Raw Fish
+  1 x Reactant Dynamo, dmg=3
+  1 x Red String, dmg=12
+  1 x Red Stringed Comparator
+  1 x Red Stringed Container
+  1 x Red Stringed Dispenser
+  1 x Red Stringed Nutrifier
+  1 x Red Stringed Spoofer
+  1 x Redstodendron Seeds
+  1 x Redstone Alloy, dmg=3
+  1 x Redstone Board
+  1 x Reductus, dmg=7
+  1 x Refinery Plating
+  1 x Refinery Valve
+  1 x Reinforced Slate
+  1 x Restricted Essentia Tube, dmg=5
+  1 x Ring of Magnetization, nbt{}
+  1 x Ritual Diviner
+  1 x Ritual Diviner_2, dmg=1
+  1 x Ritual Diviner_3, dmg=2
+  1 x Ritual Stone
+  1 x Robot
+  1 x Rod of the Bifrost
+  1 x Rod of the Depths
+  1 x Rod of the Hells
+  1 x Rod of the Highlands
+  1 x Rod of the Lands
+  1 x Rod of the Molten Core
+  1 x Rod of the Plentiful Mantle
+  1 x Rod of the Seas
+  1 x Rod of the Shaded Mesa
+  1 x Rod of the Skies
+  1 x Rod of the Terra Firma
+  1 x Rod of the Unstable Reservoir
+  1 x Rune of Air, dmg=3
+  1 x Rune of Autumn, dmg=6
+  1 x Rune of Earth, dmg=2
+  1 x Rune of Envy, dmg=14
+  1 x Rune of Fire, dmg=1
+  1 x Rune of Gluttony, dmg=10
+  1 x Rune of Greed, dmg=11
+  1 x Rune of Lust, dmg=9
+  1 x Rune of Mana, dmg=8
+  1 x Rune of Pride, dmg=15
+  1 x Rune of Sloth, dmg=12
+  1 x Rune of Spring, dmg=4
+  1 x Rune of Summer, dmg=5
+  1 x Rune of Water
+  1 x Rune of Winter, dmg=7
+  1 x Rune of Wrath, dmg=13
+  1 x Runic Altar
+  1 x Runic Matrix, dmg=2
+  1 x Sacrificial Knife
+  1 x Sanctus
+  1 x Sand
+  1 x Sanguine Boots
+  1 x Sanguine Helmet
+  1 x Sanguine Leggings
+  1 x Sanguine Robes
+  1 x Saucepan
+  1 x Scented Artificial Hive
+  1 x Scoop
+  1 x Scorchfire Scepter
+  1 x Scribing Tools
+  1 x Scythe Scepter
+  1 x Seared Faucet, dmg=1
+  1 x Seared Tank
+  1 x Seed Analyzer
+  1 x Shiny Longsword, nbt{display:{Name:"Flint Longsword"}}
+  1 x Shiny Lumber Axe, nbt{display:{Name:"Lumber Axe"}}
+  1 x Shiny Mattock, nbt{display:{Name:"Â§fMattock"}}
+  1 x Shiny Pickaxe, nbt{display:{Name:"Flint Pickaxe"}}
+  1 x Shovel of the Wyvern
+  1 x Sigil of Compression
+  1 x Sigil of Elemental Affinity
+  1 x Sigil of Ender Severance
+  1 x Sigil of Haste
+  1 x Sigil of Holding
+  1 x Sigil of Magnetism
+  1 x Sigil of Sight
+  1 x Sigil of Supression
+  1 x Sigil of the Blood Lamp
+  1 x Sigil of the Fast Miner
+  1 x Sigil of the Green Grove
+  1 x Sigil of the Phantom Bridge
+  1 x Sigil of the Whirlwind
+  1 x Silk Wisp, dmg=2
+  1 x Silken Tofu
+  1 x Silverwood Sapling, dmg=1
+  1 x Simple Catalyst
+  1 x Skillet
+  1 x Sky Stone
+  1 x Smeltery Controller
+  1 x Smeltery Drain, dmg=1
+  1 x Sort-O-Tron
+  1 x Soul Armour Forge
+  1 x Soul Binder
+  1 x Soul Shard, dmg=29
+  1 x Soul Vial
+  1 x Soy Milk
+  1 x Soybean Seed
+  1 x Spark Augment_ Dispersive
+  1 x Spark Augment_ Dominant, dmg=1
+  1 x Spark Augment_ Isolated, dmg=3
+  1 x Spark Augment_ Recessive, dmg=2
+  1 x Spectacles
+  1 x Spectral Bolt Scepter
+  1 x Spell Book
+  1 x Sprinkler
+  1 x Squeezer, dmg=5
+  1 x Stabilized Mob Spawner
+  1 x Steam Dynamo
+  1 x Stick
+  1 x Still, dmg=6
+  1 x Stone
+  1 x Stone Curbs
+  1 x Stone File
+  1 x Stone Golem, dmg=5
+  1 x Stone Hammer
+  1 x Storage Upgrade (II), dmg=2
+  1 x Straw Golem
+  1 x Sugarcane Seeds
+  1 x Sun Dial
+  1 x Sword of the Wyvern
+  1 x Table
+  1 x Tenebrae
+  1 x Terrae
+  1 x Terrasteel Boots
+  1 x Terrasteel Chestplate
+  1 x Terrasteel Helmet
+  1 x Terrasteel Ingot, dmg=4
+  1 x Terrasteel Leggings
+  1 x Terrestrial Agglomeration Plate
+  1 x Tesseract
+  1 x Thaumaturge's Boots
+  1 x Thaumaturge's Leggings
+  1 x Thaumaturge's Robe
+  1 x Thaumium Boots
+  1 x Thaumium Bossed Silverwood Wand, dmg=54, nbt{cap:"thaumium",rod:"silverwood"}
+  1 x Thaumium Chestplate
+  1 x Thaumium Fortress Cuirass
+  1 x Thaumium Fortress Helm
+  1 x Thaumium Fortress Thigh Guards
+  1 x Thaumium Golem, dmg=7
+  1 x Thaumium Helm
+  1 x Thaumium Ingot, dmg=2
+  1 x Thaumium Leggings
+  1 x Thaumometer
+  1 x Thaumonomicon
+  1 x The Vat
+  1 x Thermionic Fabricator
+  1 x Tin Ingot_3, dmg=10
+  1 x Toast
+  1 x Tomato Seed
+  1 x Tool Forge
+  1 x Tool Station
+  1 x Torch
+  1 x Transcendent Blood Orb
+  1 x Trash Can
+  1 x Traveller's Boots
+  1 x Traveller's Goggles
+  1 x Traveller's Vest
+  1 x Traveller's Wings
+  1 x Treealyzer
+  1 x Tundra Scepter
+  1 x Upgrade Template
+  1 x Venom Shot Scepter
+  1 x Virtus, dmg=6
+  1 x Vis Charge Relay, dmg=2
+  1 x Vis Relay, dmg=14
+  1 x Void Boots
+  1 x Void Chestplate
+  1 x Void Helm
+  1 x Void Leggings
+  1 x Void Seed, dmg=17
+  1 x Void Sigil
+  1 x Void Thaumaturge Hood
+  1 x Void Thaumaturge Leggings
+  1 x Void Thaumaturge Robe
+  1 x Void metal Ingot, dmg=16
+  1 x Wand Focus_ Equal Trade
+  1 x Wand Focus_ Excavation
+  1 x Wand Focus_ Fire
+  1 x Wand Focus_ Frost
+  1 x Wand Focus_ Shock
+  1 x Wand Recharge Pedestal, dmg=5
+  1 x Wand of the Forest
+  1 x Warded Jar
+  1 x Warding Candle (Unattuned)
+  1 x Water Sigil
+  1 x Weak Blood Orb
+  1 x Weak Blood Shard
+  1 x Wheat
+  1 x White Tulip Seeds
+  1 x Wireless Charger
+  1 x Wizard's Chalk
+  1 x Wood Gear_2, dmg=1
+  1 x Wooden Boots
+  1 x Wooden Chestplate
+  1 x Wooden Fluid Pipe
+  1 x Wooden Helmet
+  1 x Wooden Irrigation Channel
+  1 x Wooden Kinesis Pipe
+  1 x Wooden Leggings
+  1 x Wooden Transport Pipe
+  1 x Wooden Water Tank
+  1 x Workbench, dmg=1
+  1 x Worktable, dmg=2
+  1 x Wrench
+  1 x Wyvern Boots
+  1 x Wyvern Chestplate
+  1 x Wyvern Core
+  1 x Wyvern Helm
+  1 x Wyvern Leggings
+  1 x Yeta Wrench
+  1 x Z-Logic Controller, dmg=1
+  1 x Zone Planner
