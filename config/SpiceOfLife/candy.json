@@ -28,7 +28,15 @@
     ],
     "items":
     [
-      "harvestcraft:popcornItem"	/* Popcorn */
+      "harvestcraft:popcornItem",	/* Popcorn */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple:3", /* Green Toffee Apple */
+      "DCsAppleMilk:defeatedcrow.ToffyApple",  /* Toffee Apple */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple", /* Icy Toffee Apple */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple:1", /* Toffee Aplle of Wind */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple:2", /* Golden Toffee Apple */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple:5", /* Mint Candy */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple:6", /* Yuzu Candy */
+      "DCsAppleMilk:defeatedcrow.icyToffyApple:4" /* Cassis Candy */      
     ]
   },
   "name": "Candy",
