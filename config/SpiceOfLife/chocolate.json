@@ -15,6 +15,24 @@
       "foodCherrycoconutchocolatebar",	/* Cherry Coconut Chocolate Bar */
       "foodChilichocolate",		/* Chili Chocolate */
       "foodTimtam"			/* Soft Tim Tam */
+    ],
+    "items":
+    [
+      "DCsAppleMilk:defeatedcrow.chcolateFruits", /* Almond Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:1", /* Peanut Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:2", /* Crushed Nut Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:3", /* Strawberry Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:4", /* Cherry Chocholate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:5", /* Berry Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:6", /* Banana Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:13", /* Chocolate Plate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:7", /* Cereal Chocolate Bar */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:12", /* Chocolate Applee */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:11", /* Chocolate Candy */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:10", /* Chocolate Truffles */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:9", /* Cookie Chocolate */
+      "DCsAppleMilk:defeatedcrow.chcolateFruits:8", /* Chocolate Bread */
+      "DCsAppleMilk:defeatedcrow.basesoupitem:1" /* Chocholate Bowl */
     ]
   },
   "name": "Chocolate",
