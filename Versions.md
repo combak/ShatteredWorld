@@ -6,10 +6,12 @@
 - agricraft-1.7.10-1.5.0.jar
 - animationapi-1.7.10-1.2.4.jar
 - applecore-1.7.10-1.3.0.jar
+- applemilktea2-1.7.10_2.9m.jar
 - appliedenergistics2-1.7.10-rv2-stable-10.jar
 - arsmagica2-1.7.10-1.4.0.009.jar
 - automagy-1.7.10-0.28.2.jar
 - autopackager-1.7.10-1.5.9.jar
+- avaritia-1.7.10-1.11.jar
 - bdlib-1.7.10-1.9.4.109.jar
 - bibliocraft-1.7.10-1.11.4.jar
 - binnie-mods-1.7.10-2.0-pre14.jar
@@ -40,8 +42,9 @@
 - fastcraft-1.7.10-1.23.jar
 - fluxed-core-1.7.10-1.0.6.jar
 - forbidden-magic-1.7.10-0.573.jar
-- forest-mods-1.7.10-0.4.0-beta.jar
+- forest-mods-1.7.10-0.4.1-beta.jar
 - forestry-1.7.10-4.2.5.53.jar
+- fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
 - gardenstuff-1.7.10-1.7.0.jar
 - generators-1.7.10-0.9.19.120.jar
@@ -79,6 +82,7 @@
 - projectred-lighting-1.7.10-4.6.2.82.jar
 - redstonearsenal-1.7.10-1.1.2-92.jar
 - resourceloader-1.7.10-1.2.jar
+- sanguimancy-1.7.10-1.1.9-35.jar
 - simplyjetpacks-1.7.10-1.5.3.jar
 - spiceoflife-1.7.10-1.3.1.jar
 - storagedrawers-1.7.10-1.9.5.jar

@@ -2,10 +2,28 @@
 
 # Version 0.7.3
 
+# Version 0.7.2 - Sneak preview 3
+
+**Config Changes**
+- Updated Spice of Life food groups
+- HQM fixes
+- Remove evil chicken server message (Sanguimancy)
+- Disabeled not needed mod compatibility and break bedrock (Avaritia)
+
+**Mod Additions**
+- Apple, Milk and Tea 2 2.9m
+- Avaritia 1.11
+- FullscreenWindowed 1.3.0b
+- Sanguimancy 1.1.9-35
+
+**Mod Updates**
+- Forest-Mods 0.4.0-beta to 0.4.1-beta
+
 # Version 0.7.2 - Sneak preview 2
 
 **Config Changes**
 - Split YADM templates into default and fwg
+- Updated Spice of Life food groups
 
 **Mod Updates**
 - Forest-Mods 0.3.2e-beta to 0.4.0-beta
