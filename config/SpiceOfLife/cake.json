@@ -31,7 +31,11 @@
       "harvestcraft:pumpkincheesecakeItem", 	/* Pumpkin Cheese Cake */
       "minecraft:cake",   			/* Cake */
       "arsmagica2:manaCake",    		/* Mana Cake */
-      "WitchingGadgets:item.WG_MagicFood:1"  	/* Nethercake */
+      "WitchingGadgets:item.WG_MagicFood:1",  	/* Nethercake */
+      "DCsAppleMilk:defeatedcrow.appleTart:1", /* Cassis Tart */
+      "DCsAppleMilk:defeatedcrow.appleTart", /* Apple Tart */
+      "DCsAppleMilk:defeatedcrow.appleTart:2", /* Yuzzu Mousse Cake */
+      "DCsAppleMilk:defeatedcrow.appleTart" /* Apricot Mousse Cake */
     ]
   },
   "name": "Piece of Cake",
