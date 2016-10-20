@@ -38,7 +38,14 @@
 
 
 
-    ]
+    ],
+   "items": 
+    [
+    "DCsAppleMilk:defeatedcrow.appleSandwich", /* Apple Sandwich */
+    "DCsAppleMilk:defeatedcrow.appleSandwich:1", /* Egg Sandwich */
+    "DCsAppleMilk:defeatedcrow.appleSandwich:2", /* Cassis Sandwich */
+    "DCsAppleMilk:defeatedcrow.appleSandwich:3" /* Yuzu Sandwich */
+]
   },
   "name": "Sandwich",
   "enabled": true,
