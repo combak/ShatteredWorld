@@ -49,7 +49,10 @@
       "plainsmobs:makameatraw", /* Raw Maka Meat */
       "shadowmobs:chupacabrameatraw", /* Raw Chupacabra Meat */
       "harvestcraft:beefjerkyItem", /* Beef Jerky */
-      "arcticmobs:yetimeatraw" /* Raw Yeti Meat */
+      "arcticmobs:yetimeatraw", /* Raw Yeti Meat */
+      "DCsAppleMilk:defeatedcrow.foodPlate", /* Beef Steak Plate */
+      "DCsAppleMilk:defeatedcrow.foodPlate:1", /* Pork Steak Plate */
+      "DCsAppleMilk:defeatedcrow.clam:2" /* Burnt Meat */
     ]
   },
   "name": "Dishes with Meat",
