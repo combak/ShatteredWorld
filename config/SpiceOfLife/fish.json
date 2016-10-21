@@ -33,6 +33,9 @@
       "freshwatermobs:silexmeatcooked",   	/* Cooked Silex Meat */
       "freshwatermobs:silexmeatraw",    /* Raw Silex Meat */
       "TConstruct:jerky"  			/* Fish Jerky */  
+      "DCsAppleMilk:defeatedcrow.foodPlate:3", /* Roasted Clam Plate */
+      "DCsAppleMilk:defeatedcrow.clam", /* Clam */
+      "DCsAppleMilk:defeatedcrow.clam:1" /* Cooked Clam */
     ]
   },
   "name": "Fish & Seafood",
