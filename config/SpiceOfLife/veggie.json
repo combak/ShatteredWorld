@@ -89,7 +89,9 @@
       "DCsAppleMilk:defeatedcrow.bowlBlock:5", /* Tofu-Nabe */
       "DCsAppleMilk:defeatedcrow.bowlBlock:1", /* Mushroom Stew */
       "DCsAppleMilk:defeatedcrow.bowlBlock", /* Boiled Rice */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:4" /* Kayakumeshi (Variety Mixed Rice ) */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:4", /* Kayakumeshi (Variety Mixed Rice ) */
+      "DCsAppleMilk:defeatedcrow.clam:3", /* Black Egg*/
+      "Avaritia:Ultimate_Stew" /* Ultimate Stew */
     ]
   },
   "name": "Veggie",
