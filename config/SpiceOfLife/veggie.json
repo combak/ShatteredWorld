@@ -81,7 +81,15 @@
     [
       "minecraft:baked_potato",		/* Baked Potato */
       "Automagy:foodstuff", /* Vishroom Stew */
-      "harvestcraft:bakedsweetpotatoItem,"		/* Baked Sweet Potato */
+      "harvestcraft:bakedsweetpotatoItem",		/* Baked Sweet Potato */
+      "DCsAppleMilk:defeatedcrow.bowlJP:4", /* Kayakumeshi w/ Jp. Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlJP:1", /* Mushroom Stew w/ Jp. Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlJP", /* Boiled Rice w/ Jp. Bowl */ 
+      "DCsAppleMilk:defeatedcrow.bowlJP:5", /* Tofu-Nabe w/ Jp. Bowl */ 
+      "DCsAppleMilk:defeatedcrow.bowlBlock:5", /* Tofu-Nabe */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:1", /* Mushroom Stew */
+      "DCsAppleMilk:defeatedcrow.bowlBlock", /* Boiled Rice */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:4" /* Kayakumeshi (Variety Mixed Rice ) */
     ]
   },
   "name": "Veggie",
