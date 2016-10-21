@@ -35,7 +35,9 @@
       "TConstruct:jerky"  			/* Fish Jerky */  
       "DCsAppleMilk:defeatedcrow.foodPlate:3", /* Roasted Clam Plate */
       "DCsAppleMilk:defeatedcrow.clam", /* Clam */
-      "DCsAppleMilk:defeatedcrow.clam:1" /* Cooked Clam */
+      "DCsAppleMilk:defeatedcrow.clam:1", /* Cooked Clam */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:2" , /* Salmon Stew */
+      "DCsAppleMilk:defeatedcrow.bowlJP:2" /* Salmon Stew w/ Jp. Bowl */
     ]
   },
   "name": "Fish & Seafood",
