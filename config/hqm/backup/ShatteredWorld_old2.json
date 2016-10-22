@@ -14,7 +14,7 @@
           "id": "quest000",
           "name": "Karate Tiger",
           "description": "Wie die Beschreibung schon sagt, aller Anfang ist schwer. Zunaechst muessen wir uns etwas Holz besorgen. Mit der Axt zerlegen wir einen Baum in seine Einzelteile.",
-          "uuid": "dc9b7687-fc7d-4f7e-9e90-520639cb920f",
+          "uuid": "95661f1a-5fa9-4a7c-8427-bf04f0c608ab",
           "x": 70,
           "y": 45,
           "icon": "minecraft:log size(1) dmg(0)",
@@ -63,7 +63,7 @@
           "id": "quest001",
           "name": "In der Ruhe liegt die Kraft",
           "description": "Neben dem Brot muss es doch noch was anderes zu Essen geben. Ich habe gehoert, dass Fisch sehr gesund sein soll und wunderbar zu einem trockenem Stueck Brot passen soll. Manch einer packt sich auch den Fisch ins Brot.",
-          "uuid": "1fe934d6-ee99-4e2c-9859-eafdcf23d8ea",
+          "uuid": "1dbad771-fbce-4907-a29e-1131deb66794",
           "x": 46,
           "y": 15,
           "icon": "minecraft:cooked_fished size(1) dmg(0)",
@@ -111,7 +111,7 @@
           "id": "quest002",
           "name": "Sichere Nacht",
           "description": "Fuer eine Sichere Nacht braucht man eine Behausung, etwas Bewaffnung und eventuell auch noch ein Bett. Damit vergeht auch die schlimmste Nacht wie im Fluge.",
-          "uuid": "d6449c61-ef50-4422-89ba-33121f4ec602",
+          "uuid": "019615bc-d030-4a11-92e5-7cd25a6d4bf5",
           "x": 70,
           "y": 15,
           "icon": "minecraft:bed size(1) dmg(0)",
@@ -147,7 +147,7 @@
           "id": "quest003",
           "name": "Der beste Ordnungssinn",
           "description": "So langsam haeufen sich ein paar Gegenstaende. Den ganzen Cobblestone, das Holz und ein paar andere Dinge muss man doch besser unterbringen koennen, als in einer Kiste.",
-          "uuid": "0287fcb9-8a94-41de-b329-ad6f3b2a8f70",
+          "uuid": "b4bd488b-f952-4287-81bc-e20bca244f1b",
           "x": 58,
           "y": 90,
           "icon": "StorageDrawersForestry:fullDrawers2B size(1) dmg(12)",
@@ -192,7 +192,7 @@
           "id": "quest004",
           "name": "Mehr ist immer besser",
           "description": "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese aufwerten.",
-          "uuid": "ae13144d-f4df-4721-a82a-9683e5094e4a",
+          "uuid": "860da03b-32ca-4853-8665-dae184e92077",
           "x": 46,
           "y": 110,
           "icon": "StorageDrawers:upgrade size(1) dmg(2)",
@@ -233,7 +233,7 @@
           "id": "quest005",
           "name": "Die Toolstation",
           "description": "Das faellen der Baeume mit der Hand ist eine muessige Taetigkeit. Da muss es doch was besseres geben. Und ja das gibt es. Ist ganz einfach, nur ruhig bleiben.\nDafuer muessen wir uns zunaechst mal eine Werkbank (crafting table) bauen.",
-          "uuid": "1342e38a-876b-4cba-b21a-5b9718d04090",
+          "uuid": "085d453b-4c7b-43d9-aa12-21f2a4f4d1b3",
           "x": 130,
           "y": 45,
           "icon": "TConstruct:ToolStationBlock size(1) dmg(0)",
@@ -261,14 +261,14 @@
             }
           ],
           "reward": [
-            "TConstruct:materials size(2) dmg(11)"
+            "TConstruct:materials size(4) dmg(11)"
           ]
         },
         {
           "id": "quest006",
           "name": "Wilde Tiere",
           "description": "Um Himmels willen, was laufen da in der Nacht alles fuer merkwuerdige Tiere in der Gegend rum. Einige von ihnen scheinen zwar freundlich zu sein, aber die meisten sind nicht gut auf mich zu sprechen.",
-          "uuid": "ed437612-12db-461f-a885-7bd26c37ae8d",
+          "uuid": "e2682a90-ae0d-4d40-9253-c3a3b6d5be3f",
           "x": 186,
           "y": 35,
           "icon": "minecraft:iron_sword size(1) dmg(0)",
@@ -304,7 +304,7 @@
           "id": "quest007",
           "name": "Wer hat denn da Angst?",
           "description": "Manchmal habe ich in der Nacht so komische Geraeusche gehoert und dunkle lange Gestalten huschen an meinem Fenster vorbei. Die haben sicher schoene Sachen dabei, auch wenn sie die nicht freiwillig heraus ruecken",
-          "uuid": "a64c0997-e375-4ea7-9758-44f8a99732c3",
+          "uuid": "4e8f0d49-f1d8-4d89-9d03-dbf8d49557f8",
           "x": 198,
           "y": 15,
           "icon": "minecraft:ender_pearl size(1) dmg(0)",
@@ -339,7 +339,7 @@
           "id": "quest008",
           "name": "Unbesiegbar",
           "description": "Zum Glueck leben wir in einer kleinen Behausung, manche sagen auch Loch dazu. Aber was wollen die ganzen boesen Gesellen von mir da draussen. Ich gehe mal raus und frage sie.",
-          "uuid": "8c7b2676-b719-4cd0-a7ed-50b424509a72",
+          "uuid": "31de72c6-4f20-4fd1-8bd9-2cf66e88e8f4",
           "x": 210,
           "y": 35,
           "icon": "minecraft:skull size(1) dmg(4)",
@@ -385,10 +385,10 @@
           "id": "quest009",
           "name": "Die Werkbank",
           "description": "Im weiteren Spielverlauf werden viele Zahnraeder benoetigt. Es ist deshalb eine gute Gelegenheit schon jetzt zu wissen, wie man dies herstellt.",
-          "uuid": "04329386-7e5d-4f96-b7ad-4a49b3702eec",
+          "uuid": "acd3fca7-a070-4542-b5eb-8b432e0d4c2c",
           "x": 90,
           "y": 90,
-          "icon": "ForestDay:wood_base size(1) dmg(1)",
+          "icon": "BiblioCraft:BiblioSeats size(1) dmg(0)",
           "requirements": [
             "quest000"
           ],
@@ -431,14 +431,15 @@
             }
           ],
           "reward": [
-            "Forestry:gearTin size(2) dmg(0)"
+            "ThermalFoundation:material size(2) dmg(12)",
+            "ThermalFoundation:material size(2) dmg(129)"
           ]
         },
         {
           "id": "quest010",
           "name": "Die Steinmine",
           "description": "Wie kommt man am besten an die guten Steine heran? Man geht unter Tage. Aber auch hier gibt es Waechter. Sei gewarnt!",
-          "uuid": "de086305-5436-4222-bfc5-68974d0d785e",
+          "uuid": "95d0db9d-01e3-4b8b-8b0f-18b6f8d4e45b",
           "x": 210,
           "y": 70,
           "icon": "minecraft:iron_pickaxe size(1) dmg(0)",
@@ -472,14 +473,14 @@
             }
           ],
           "reward": [
-            "minecraft:obsidian size(2) dmg(0)"
+            "minecraft:obsidian size(6) dmg(0)"
           ]
         },
         {
           "id": "quest011",
           "name": "Der Schmelzofen",
           "description": "Da muss es doch noch was geben, was man sich aus den schnoeden Steinen bauen kann. Und siehe da, man kann sich daraus einen Ofen bauen.",
-          "uuid": "92441960-cb2d-4916-aa97-858734b5f68d",
+          "uuid": "ddf1b05b-c943-4ef7-9447-aae75c1fe386",
           "x": 266,
           "y": 70,
           "icon": "minecraft:furnace size(1) dmg(0)",
@@ -507,14 +508,14 @@
             }
           ],
           "reward": [
-            "minecraft:emerald size(1) dmg(0)"
+            "minecraft:emerald size(2) dmg(0)"
           ]
         },
         {
           "id": "quest012",
           "name": "Es werde Licht",
           "description": "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
-          "uuid": "968a4ee4-332c-4fa5-9806-f1c202051489",
+          "uuid": "6a00a636-bcc1-4488-9e5d-964671d0e026",
           "x": 182,
           "y": 150,
           "icon": "minecraft:torch size(1) dmg(0)",
@@ -549,7 +550,7 @@
           "id": "quest013",
           "name": "Das ist alles fuer den Popo",
           "description": "Wenn ich wirklich alles, was ich hier so finde, aufbewahren moechte, dann fehlt mir auf meiner Insel der Platz. Also muss ich ein paar Sachen wegwerfen. Ein Muelleimer ist doch genau das richtige.",
-          "uuid": "1e4e3e48-ccc8-4dbd-9d06-f533962370d5",
+          "uuid": "3e88a59b-194b-4eca-9b4d-f3e7cd99ef7d",
           "x": 254,
           "y": 50,
           "icon": "ExtraUtilities:trashcan size(1) dmg(0)",
@@ -585,7 +586,7 @@
           "id": "quest014",
           "name": "Alles kurz und klein schlagen",
           "description": "Jetzt haben wir uns schon ein wenig diese broeckeligen Steine besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
-          "uuid": "3f58236c-0693-4837-9534-6de98e9167c3",
+          "uuid": "d0db82f2-b9e1-4b92-9314-a91ce8759ca7",
           "x": 194,
           "y": 100,
           "icon": "exnihilo:hammer_stone size(1) dmg(0)",
@@ -644,7 +645,7 @@
           "id": "quest015",
           "name": "Toepfers ist so schoen",
           "description": "Wir brauchen nur noch Wasser und etwas mit dem wir Wasser von Punkt A zu Punkt B tragen koennen. ",
-          "uuid": "a182983a-fa8b-4fff-b67e-1486a5802d1e",
+          "uuid": "ca854cde-92d7-4e01-b7c8-ecf8fe382b71",
           "x": 182,
           "y": 80,
           "icon": "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
@@ -690,14 +691,14 @@
             }
           ],
           "reward": [
-            "minecraft:glowstone_dust size(4) dmg(0)"
+            "minecraft:glowstone_dust size(8) dmg(0)"
           ]
         },
         {
           "id": "quest016",
           "name": "Herrschaft des Feuers",
           "description": "Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.",
-          "uuid": "bd0dc045-5397-40c9-bd39-f6a290fb2d80",
+          "uuid": "df9c4649-9b90-4b92-9dde-c74098b1b297",
           "x": 158,
           "y": 80,
           "icon": "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
@@ -737,7 +738,7 @@
           "id": "quest017",
           "name": "Sieben bis der Arzt kommt",
           "description": "Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?",
-          "uuid": "0b0dbe1d-3683-4604-ae4d-1ed4d34b1b4d",
+          "uuid": "6051e0f8-0845-47e2-b666-ffa1071f273d",
           "x": 170,
           "y": 130,
           "icon": "exnihilo:sifting_table size(1) dmg(0)",
@@ -772,7 +773,7 @@
           "id": "quest018",
           "name": "Der Metallkoch",
           "description": "Wir haben das eine oder andere Erz (ore) gefunden. Man kann viele davon in einen Ofen werfen und zu Barren brennen, aber dieser Weg ist nicht sehr effektiv.",
-          "uuid": "c506bd2e-2170-4d47-8b9e-739fdbf5aeac",
+          "uuid": "502b98db-74ee-4d8f-85cc-0fbda4a40ddb",
           "x": 146,
           "y": 100,
           "icon": "TConstruct:Smeltery size(1) dmg(0)",
@@ -834,7 +835,7 @@
           "id": "quest019",
           "name": "Die Giesserei",
           "description": "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
-          "uuid": "0063d17b-6983-4cc8-93c9-5231f3d2cc16",
+          "uuid": "42071856-8461-4054-8612-6c8525715c21",
           "x": 130,
           "y": 125,
           "icon": "TConstruct:blankPattern size(1) dmg(1)",
@@ -877,7 +878,7 @@
           "id": "quest020",
           "name": "Das neue Zeitalter",
           "description": "Heureka, endlich ist es so weit. Mit den ersten Metallen stossen wir eine komplett neue Welt auf. Die totale Automatisierung ist bestimmt nicht mehr weit.",
-          "uuid": "11c01953-2ba0-4ee6-8106-88f3a0c857f0",
+          "uuid": "2dfebe4f-cc47-496b-b6af-e0fb60dfa712",
           "x": 78,
           "y": 130,
           "icon": "minecraft:iron_ingot size(1) dmg(0)",
@@ -923,7 +924,7 @@
           "id": "quest021",
           "name": "Wie passt nur alles da rein",
           "description": "Andauernd habe ich die Taschen voll. Eine weitere Transportmoeglichkeit muss her.",
-          "uuid": "036be63a-95f3-40c0-8883-b515000424fe",
+          "uuid": "4da78ff0-0dec-48bc-9456-7f0d5ff09033",
           "x": 34,
           "y": 130,
           "icon": "backpacks16840:backpack size(1) dmg(3)",
@@ -963,7 +964,7 @@
           "id": "quest022",
           "name": "Der Wassertank",
           "description": "Da ist mir doch glatt ein kleiner Teich im Weg, aber wohin mit dem ganzen Wasser.",
-          "uuid": "0cd36344-19c7-4b6b-92c0-e51d72a964b8",
+          "uuid": "951222de-d64d-4f6e-a1ac-f504a763e424",
           "x": 46,
           "y": 150,
           "icon": "ThermalExpansion:Tank size(1) dmg(0)",
@@ -998,7 +999,7 @@
           "id": "quest023",
           "name": "Dummheit schafft Freiraum",
           "description": "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und sich auch noch selber um die Steine zu kuemmern ... das muss doch viel einfacher gehen.",
-          "uuid": "91f373ad-374c-45a6-b44b-f841226052cf",
+          "uuid": "a223db1e-e07f-4e2c-9bbe-5a4f42e9f6f4",
           "x": 82,
           "y": 170,
           "icon": "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
@@ -1038,7 +1039,7 @@
           "id": "quest024",
           "name": "Der Held der Automatisierung",
           "description": "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen.",
-          "uuid": "5c97cad3-9a0a-4ad7-8080-325e74746dda",
+          "uuid": "1d92405d-0af8-4210-a7fe-fa20aa1d7945",
           "x": 106,
           "y": 170,
           "icon": "autopackager:packagerBlock size(1) dmg(0)",
@@ -1066,14 +1067,15 @@
             }
           ],
           "reward": [
-            "ThermalExpansion:Frame size(4) dmg(0)"
+            "ThermalExpansion:Frame size(2) dmg(0)",
+            "arsmagica2:rune size(1) dmg(17)"
           ]
         },
         {
           "id": "quest025",
           "name": "Wie die Axt im Wald",
           "description": "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
-          "uuid": "efff4665-ed99-4819-86ef-5e9d499baef5",
+          "uuid": "b868b4d3-9bd3-49c0-9f33-19954e7cff26",
           "x": 118,
           "y": 150,
           "icon": {
@@ -1126,7 +1128,7 @@
           "id": "quest292",
           "name": "Der Anfang der Ewigkeit",
           "description": "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas Einfachem.",
-          "uuid": "2d61af26-fd82-4f73-ad79-e45bc331597f",
+          "uuid": "517d7b4c-a9dd-4608-b44f-f44ae698d48a",
           "x": 26,
           "y": 45,
           "icon": "minecraft:stick size(1) dmg(0)",
@@ -1159,7 +1161,7 @@
           "id": "quest294",
           "name": "Der Pfadfinder",
           "description": "Wir muessen beweisen, das wir in der Wildnis ueberleben koennen. Die erste Pruefung besteht im Feuer machen.",
-          "uuid": "99ecc31a-d446-469d-aca7-38b575cc16f7",
+          "uuid": "f46e56e1-7814-46be-86df-d1da835fd804",
           "x": 242,
           "y": 70,
           "icon": "customnpcs:npcCampfire size(1) dmg(0)",
@@ -1207,7 +1209,7 @@
           "id": "quest296",
           "name": "Der rauchende Berg",
           "description": "Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwasenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.",
-          "uuid": "3c4ba57a-af9f-4cd1-ab59-6ec709fa52db",
+          "uuid": "8242965d-c1cf-4bdf-b232-57607d694ecb",
           "x": 94,
           "y": 15,
           "icon": "minecraft:coal size(1) dmg(1)",
@@ -1242,7 +1244,7 @@
           "id": "quest306",
           "name": "Der Holzschutz",
           "description": "Mit einer Freizeitkleidung in dieser Umgebung zu ueberleben ist sicher keine gute Idee. Ein bisschen Ruestung kann nicht schaden.",
-          "uuid": "1210908c-2ffc-49e9-a0d3-c391a55998da",
+          "uuid": "68fbf05c-ce28-4f8f-9ad5-982bc7a30434",
           "x": 38,
           "y": 70,
           "icon": "TConstruct:helmetWood size(1) dmg(0)",
@@ -1298,7 +1300,7 @@
           "id": "quest314",
           "name": "Rostlaube",
           "description": "Mit einer ordentlichen Eisenruestung werden wir zu einem gefaehrlichen Krieger und koennen unsere Festung effektiver verteidigen.",
-          "uuid": "8cd57ba0-1793-408b-b34d-e5275e4b29fc",
+          "uuid": "4df1484d-37d6-4628-96c0-482492efb7cf",
           "x": 58,
           "y": 170,
           "icon": "minecraft:iron_helmet size(1) dmg(0)",
@@ -1354,7 +1356,7 @@
           "id": "quest316",
           "name": "Das Glitzerding",
           "description": "Da wir jetzt Zugang zu vielen Materialien haben, ist es Zeit sich eine erste starke Ruestung zu bauen.",
-          "uuid": "7a10d586-0e0c-4806-a3ec-a1d2102ad4e7",
+          "uuid": "1ac44808-9b3d-4445-b17c-c6e41de8b77d",
           "x": 194,
           "y": 130,
           "icon": "minecraft:diamond_helmet size(1) dmg(0)",
@@ -1397,7 +1399,8 @@
             }
           ],
           "reward": [
-            "TConstruct:heartCanister size(1) dmg(2)"
+            "TConstruct:heartCanister size(1) dmg(2)",
+            "arsmagica2:rune size(1) dmg(17)"
           ],
           "reputations": [
             {
@@ -1410,7 +1413,7 @@
           "id": "quest326",
           "name": "Wandern ist des Muellers Lust",
           "description": "Eine starke Ruestung ist ja ganz nett. Aber eine Ausruestung mit nuetzlichen Eigenschaften ist viel besser. Man kann schneller laufen, hoeher springen, schneller schwimmen und weiter sehen.",
-          "uuid": "48a92693-3c68-4e72-975c-a485aa06d67e",
+          "uuid": "c4f05a9e-3acc-4dea-8441-887f210ecffb",
           "x": 118,
           "y": 90,
           "icon": "TConstruct:travelGoggles size(1) dmg(0)",
@@ -1473,7 +1476,7 @@
           "id": "quest028",
           "name": "Farmland vorbereiten",
           "description": "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
-          "uuid": "000303a1-e73b-4ac9-b3ba-82e7d74f93d7",
+          "uuid": "c2e7f818-c193-4aea-bc5c-0f38321bcd11",
           "x": 26,
           "y": 50,
           "icon": "GardenCore:compost_bin size(1) dmg(0)",
@@ -1536,7 +1539,7 @@
           "id": "quest029",
           "name": "Kochen will gelernt sein",
           "description": "Fuer eine gesunde Ernaehrung fehlt noch die Abwechslung. Vielleicht sollten wir uns ja an ausgefalleneren Rezepten versuchen. Wir brauchen dafuer nur noch ein paar Kuechenutensilien.",
-          "uuid": "b5d00d2e-3b5c-4b15-a872-63bb8c5857cc",
+          "uuid": "7801aa0f-17c7-441d-b660-cef85b1f669f",
           "x": 42,
           "y": 25,
           "icon": "harvestcraft:mixingbowlItem size(1) dmg(0)",
@@ -1582,7 +1585,7 @@
           "id": "quest030",
           "name": "Nahrung vorbereiten",
           "description": "Aus meinem Appetit von vorhin wird langsam ein ausgewachsener Hunger. Jetzt ist es an der Zeit das Feld zu bestellen und etwas anzupflanzen",
-          "uuid": "9ebce21a-1964-4f68-96bd-5d2f292873fe",
+          "uuid": "997c049f-fda3-442f-9177-a5a46f1e65e2",
           "x": 26,
           "y": 80,
           "icon": "minecraft:wheat size(1) dmg(0)",
@@ -1641,7 +1644,7 @@
           "id": "quest031",
           "name": "Brot fuer die Welt",
           "description": "Nachdem Weizen geht es jetzt an die weiter Verarbeitung. Zuerst machen wir uns Mehl und daraus stellen wir Teig her. Das koennen wir zum Schluss zu nahrhaftem Brot backen. Klingt doch nach einem Plan. ",
-          "uuid": "82626b24-5d14-4f39-9966-2bb033507791",
+          "uuid": "fc229007-bcef-417f-b7ba-84f9d0f27418",
           "x": 26,
           "y": 110,
           "icon": "minecraft:bread size(1) dmg(0)",
@@ -1699,7 +1702,7 @@
           "id": "quest032",
           "name": "Der Schnellkochtopf",
           "description": "Der wahre Chefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
-          "uuid": "58dc0da9-5127-4a22-be0e-7998325e8752",
+          "uuid": "b086a5cb-4bf9-44db-aa87-74e6e779919d",
           "x": 110,
           "y": 80,
           "icon": "harvestcraft:potItem size(1) dmg(0)",
@@ -1763,7 +1766,7 @@
           "id": "quest033",
           "name": "Milch macht Maenner munter",
           "description": "Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.",
-          "uuid": "4ec8cd8f-0578-4731-9a18-c6f14ed7f820",
+          "uuid": "a3dfb704-4be5-417a-ba80-045715d12abf",
           "x": 110,
           "y": 110,
           "icon": "IguanaTweaksTConstruct:clayBucketMilk size(1) dmg(0)",
@@ -1803,7 +1806,7 @@
           "id": "quest034",
           "name": "Darwin hatte recht",
           "description": "Mit diesen paar Samen, die wir in der Erde gefunden haben, kann man nicht viel anfangen. Aber der versierte Gaertner kennt die Methode der Veredlung und Kreuzung.",
-          "uuid": "8c0bd1e4-2a0c-4fce-926f-3856a0bd62d4",
+          "uuid": "c25ab813-dcea-442e-9b34-39c763902ad8",
           "x": 82,
           "y": 50,
           "icon": "AgriCraft:seedAnalyzer size(1) dmg(0)",
@@ -1865,7 +1868,7 @@
           "id": "quest035",
           "name": "Sag es mit Blumen",
           "description": "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
-          "uuid": "70b16fb2-b65c-4e8d-b726-196cdbd5f3ba",
+          "uuid": "2eb68b72-85c4-4f84-a77c-60a6bf7f3b12",
           "x": 82,
           "y": 80,
           "icon": "AgriCraft:seedPoppy size(1) dmg(0)",
@@ -1937,7 +1940,7 @@
           "id": "quest036",
           "name": "Die Wunder der Genetic",
           "description": "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
-          "uuid": "6ba9733e-c62c-4154-83d9-d1c3d317d0d2",
+          "uuid": "d869c2f4-e231-42ad-a4bc-dc59380ed37b",
           "x": 82,
           "y": 110,
           "icon": "AgriCraft:seedRedstodendron size(1) dmg(0)",
@@ -1982,7 +1985,7 @@
           "id": "quest037",
           "name": "Die eigenen Burgerkette",
           "description": "Mit etwas Tomate und Salat wird jedes Gericht viel gesuender aussehen. ",
-          "uuid": "882ea685-2706-43f9-bd26-ad71c5fe9867",
+          "uuid": "6b81eb81-897e-4ce8-9f66-4d17946dc5c4",
           "x": 54,
           "y": 80,
           "icon": "harvestcraft:tomatoItem size(1) dmg(0)",
@@ -2022,7 +2025,7 @@
           "id": "quest038",
           "name": "Vegetarische Kost",
           "description": "Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.",
-          "uuid": "3d55c70a-db7c-477e-8298-95820025abc8",
+          "uuid": "7c93ede5-e13d-49c7-ba48-358a0fc072a7",
           "x": 54,
           "y": 110,
           "icon": "harvestcraft:soybeanItem size(1) dmg(0)",
@@ -2093,7 +2096,7 @@
           "id": "quest039",
           "name": "Die Bewaesserung",
           "description": "Wir muessen dafuer sorgen, das unsere Anpflanzungen nicht austrocknen. Eine gute Bewaesserung ist die Basis eines guten Ertrags.",
-          "uuid": "7c4be719-f635-4dea-b727-b8212de27868",
+          "uuid": "821cfdab-d114-4f1f-98ea-49d8bee56188",
           "x": 122,
           "y": 50,
           "icon": "AgriCraft:sprinkler size(1) dmg(0)",
@@ -2139,7 +2142,7 @@
           "id": "quest040",
           "name": "Das kleine Autocrafting",
           "description": "Gerade am Anfang braucht man mitunter Teile oeffter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.",
-          "uuid": "871e0e34-374c-49ae-b023-ebcb9042c181",
+          "uuid": "2ac9a55d-13df-4455-b7ba-b011ed53a72d",
           "x": 226,
           "y": 20,
           "icon": "Forestry:factory2 size(1) dmg(2)",
@@ -2175,7 +2178,7 @@
           "id": "quest041",
           "name": "Gluehkathodenverarbeiter",
           "description": "In diesem Beruf sind sensible Werkzeuge notwendig. Dies erreicht man mit speziellen Beschichtungen.",
-          "uuid": "075cc2f5-f028-4603-bdf8-de886a8d4499",
+          "uuid": "de5e5b08-ca5d-43bb-adc6-f73a74a790f1",
           "x": 226,
           "y": 50,
           "icon": "Forestry:factory2 size(1) dmg(0)",
@@ -2203,14 +2206,14 @@
             }
           ],
           "reward": [
-            "Forestry:gearTin size(4) dmg(0)"
+            "ThermalFoundation:material size(4) dmg(129)"
           ]
         },
         {
           "id": "quest042",
           "name": "Die kleine Farm",
           "description": "Gerade fuer die Massenproduktion von Holz ist eine automatische Farm genau das Richtige.",
-          "uuid": "21cbc160-efdf-463d-a359-4121924a3f1a",
+          "uuid": "3aba4112-4412-4961-bfe7-41ca444ee319",
           "x": 254,
           "y": 50,
           "icon": "Forestry:ffarm size(1) dmg(0)",
@@ -2260,7 +2263,7 @@
           "id": "quest043",
           "name": "Der sauber Treibstoff",
           "description": "Auch in diesem Spiel wird der Umweltschutz gross geschrieben. Ein nachwachsender Rohstoff ist eine saubere und effiziente Energiequelle.",
-          "uuid": "aac48308-1a77-4bda-b6d7-fc926a53ed72",
+          "uuid": "9887bd7a-b15c-49af-b607-73212bbd846d",
           "x": 282,
           "y": 50,
           "icon": "Forestry:factory size(1) dmg(6)",
@@ -2305,7 +2308,7 @@
           "id": "quest044",
           "name": "Der Schwarm",
           "description": "Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.",
-          "uuid": "2fe2ee41-5327-4a41-8cc9-63f08d227ec7",
+          "uuid": "bcb39f78-5bd5-471a-b44a-a12c4ce168c4",
           "x": 246,
           "y": 145,
           "icon": "Forestry:alveary size(1) dmg(0)",
@@ -2366,7 +2369,7 @@
           "id": "quest045",
           "name": "Das echte Gold",
           "description": "Bienen die Erze einsammeln. Ein Wunder der Natur.",
-          "uuid": "bdb2b580-f51b-42c1-8a47-ff911c6d8924",
+          "uuid": "0d84b10b-8003-478b-9540-bd472835deb7",
           "x": 262,
           "y": 175,
           "icon": "ExtraBees:misc size(1) dmg(7)",
@@ -2394,14 +2397,15 @@
             }
           ],
           "reward": [
-            "minecraft:gold_ingot size(16) dmg(0)"
+            "minecraft:gold_ingot size(16) dmg(0)",
+            "arsmagica2:rune size(1) dmg(17)"
           ]
         },
         {
           "id": "quest046",
           "name": "Das schwarze Gold",
           "description": "Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.",
-          "uuid": "fa0ecaef-3a20-4caa-92d1-2ace5fc943fd",
+          "uuid": "4f7a08ce-739e-4710-8838-f704b8b60cea",
           "x": 234,
           "y": 175,
           "icon": "ExtraBees:honeyComb size(1) dmg(3)",
@@ -2436,7 +2440,7 @@
           "id": "quest047",
           "name": "Der Weg zum Baumpfleger",
           "description": "Baeume dienen nicht nur als Energielieferant. Interessant sind auch die Designmoeglichkeiten der einzelnen Baumarten.",
-          "uuid": "06838574-4257-4050-a244-be9bf4576c44",
+          "uuid": "8cc1344c-9201-4ae1-b5b8-47bc51a54f20",
           "x": 282,
           "y": 80,
           "icon": "Forestry:treealyzer size(1) dmg(0)",
@@ -2489,7 +2493,7 @@
           "id": "quest048",
           "name": "Der Oelzweig",
           "description": "Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen. Aber das Seedoil ist fuer andere Dinge wertvoll.",
-          "uuid": "4879ecb1-4279-41bd-aedb-ce203083617a",
+          "uuid": "a563abe1-ce95-484d-a482-c9ca2d803f6a",
           "x": 282,
           "y": 115,
           "icon": "Forestry:fruits size(1) dmg(2)",
@@ -2525,7 +2529,7 @@
           "id": "quest049",
           "name": "Der Weg des Imkers",
           "description": "Die Bienenzuechterei ist wichtiger Beruf. Es gibt fuer viele Bereiche nuetzliche Bienen. Beginnen wir mit etwas einfachen.",
-          "uuid": "22ec029d-1a83-408e-b555-db745ae0d24d",
+          "uuid": "b79bc65f-0ab6-4165-8729-2f6d5c804950",
           "x": 226,
           "y": 80,
           "icon": "exnihilo:bee_trap_treated size(1) dmg(0)",
@@ -2583,7 +2587,7 @@
           "id": "quest050",
           "name": "Die Bienenkoenigin",
           "description": "Ein Bienenvolk zu verwalten ist eine Sisyphosarbeit. Aber der wichtigste Teil ist immer die Koenigin.",
-          "uuid": "3322d625-fc43-4568-a965-29df5f8ce957",
+          "uuid": "a585af62-7f3d-42a6-b21d-ef0b4849a650",
           "x": 226,
           "y": 115,
           "icon": "Forestry:beealyzer size(1) dmg(0)",
@@ -2637,7 +2641,7 @@
           "id": "quest051",
           "name": "Schleudern will gelernt sein",
           "description": "Die Pollen, die die Bienen einsammeln, koennen nicht direkt verarbeitet werden. Man muss die Bestandteile herauspressen.",
-          "uuid": "d6ee9c1b-7653-4a2e-86a8-90d065f74763",
+          "uuid": "d1a7a86d-09f6-4c15-9c45-490811f66969",
           "x": 206,
           "y": 145,
           "icon": "Forestry:factory size(1) dmg(2)",
@@ -2685,7 +2689,7 @@
           "id": "quest052",
           "name": "Der Wettergott",
           "description": "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
-          "uuid": "b74689ab-fc5c-4909-8c76-9de2b1d895e6",
+          "uuid": "874f79f1-1cf1-4b88-9eda-65eeed08c1cd",
           "x": 282,
           "y": 145,
           "icon": "Forestry:factory size(1) dmg(7)",
@@ -2730,7 +2734,7 @@
           "id": "quest053",
           "name": "Der feiner Faden",
           "description": "Eine Ruestung fuer den Imker kann bei einigen Bienen sehr nuetzlich sein. Aber dazu ist ein sehr dichter Faden notwendig.",
-          "uuid": "e9d8fb02-fc71-47a3-aaeb-ddf2405911c9",
+          "uuid": "84012ac6-5e2b-455b-8c6f-c4b4273327a9",
           "x": 206,
           "y": 175,
           "icon": "Forestry:craftingMaterial size(1) dmg(3)",
@@ -2758,14 +2762,15 @@
             }
           ],
           "reward": [
-            "Forestry:craftingMaterial size(2) dmg(3)"
+            "Forestry:craftingMaterial size(2) dmg(3)",
+            "arsmagica2:rune size(1) dmg(18)"
           ]
         },
         {
           "id": "quest054",
           "name": "Des Imkers Ruestung",
           "description": "Diese Ruestung besteht zwar aus Stoff, aber einem speziellen. Er kann von keiner Biene durchstochen werden und schuetzt damit zuverlaessig von negativen Effekten.",
-          "uuid": "7ebd51f4-14fc-443b-894d-f8584e6563e7",
+          "uuid": "c47b9d06-7121-413c-a946-a8ece82fe469",
           "x": 178,
           "y": 175,
           "icon": "Forestry:apiaristHelmet size(1) dmg(0)",
@@ -2808,6 +2813,7 @@
             }
           ],
           "reward": [
+            "TConstruct:heartCanister size(1) dmg(2)",
             "arsmagica2:itemOre size(2) dmg(7)"
           ],
           "reputations": [
@@ -2821,7 +2827,7 @@
           "id": "quest318",
           "name": "Hardened Leather",
           "description": "Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.",
-          "uuid": "b4729dc6-c2b9-4302-9060-3ef8aee5562a",
+          "uuid": "03949d2e-e386-4a98-a2e8-de47f6e0cc1c",
           "x": 138,
           "y": 80,
           "icon": "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
@@ -2885,9 +2891,9 @@
           "id": "quest055",
           "name": "Die Rohrpost",
           "description": "Wollen wir mit einem einfachen Transportsystem anfangen. Je einfacher desto besser.",
-          "uuid": "a276e90c-a9ec-4b60-beaf-c09669ca1cba",
-          "x": 30,
-          "y": 25,
+          "uuid": "7c840196-41a8-4213-bba0-af45b90169e8",
+          "x": 38,
+          "y": 80,
           "icon": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsstone size(1) dmg(0)",
           "requirements": [
             "quest010"
@@ -2962,12 +2968,13 @@
           "id": "quest056",
           "name": "Der Sortierer",
           "description": "Nur transportieren reicht natuerlich nicht. Koennen wir die transportierten Gegenstaende nicht irgendwie markieren und dann sortieren?",
-          "uuid": "503a662b-894e-4447-ab34-c038ac93a2fc",
-          "x": 42,
-          "y": 45,
+          "uuid": "7962f382-7f8f-456f-a52d-9dbb0d064b6c",
+          "x": 50,
+          "y": 100,
           "icon": "bcadditions:blockItemSorter size(1) dmg(0)",
           "requirements": [
-            "quest055"
+            "quest055",
+            "quest370"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3026,9 +3033,9 @@
           "id": "quest057",
           "name": "Die Huepfburg",
           "description": "Wir suchen eine einfache Moeglichkeit verschiedene Stoffe zu pulverisieren.",
-          "uuid": "eb6fab42-a469-4694-929d-710279adb0f5",
-          "x": 66,
-          "y": 45,
+          "uuid": "61f809d9-0389-44c2-9983-411aee81681c",
+          "x": 126,
+          "y": 20,
           "icon": "bcadditions:blockDusterBasic size(1) dmg(0)",
           "requirements": [
             "quest294"
@@ -3054,20 +3061,22 @@
             }
           ],
           "reward": [
-            "BuildCraft|Energy:bucketOil size(1) dmg(0)"
+            "bcadditions:dust size(5) dmg(1)",
+            "bcadditions:dust size(5) dmg(49)",
+            "bcadditions:dust size(5) dmg(54)",
+            "bcadditions:dust size(5) dmg(53)"
           ]
         },
         {
           "id": "quest058",
           "name": "Der Laserstrahl",
           "description": "Mit einem Laserstrahl kannst du komplizierte Gegenstaende aus harten Materialien herausfraesen. Desweiteren lassen sich Legierungen herstellen, die sich sonst nicht mischen wuerden.",
-          "uuid": "60ef43c4-21f3-4254-b19b-60b2edbe071e",
-          "x": 54,
-          "y": 65,
+          "uuid": "568ee9ba-1f52-4671-a794-c61734a8220d",
+          "x": 62,
+          "y": 120,
           "icon": "BuildCraft|Silicon:laserBlock size(1) dmg(0)",
           "requirements": [
-            "quest056",
-            "quest057"
+            "quest056"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3117,9 +3126,9 @@
           "id": "quest059",
           "name": "Der Architekt",
           "description": "Einige einfache Schaltteile koennen zu kompliziertere zusammen gesetzt werden. Ausserdem werden hier die Roboter mit ihren Spezialisierungen verbunden.",
-          "uuid": "cf14f851-ab26-4efc-8242-064250b5c551",
-          "x": 42,
-          "y": 85,
+          "uuid": "87bf8154-e035-43b7-bb74-1c7e2b65aff7",
+          "x": 50,
+          "y": 140,
           "icon": "BuildCraft|Silicon:laserTableBlock size(1) dmg(2)",
           "requirements": [
             "quest058"
@@ -3166,12 +3175,12 @@
           "id": "quest060",
           "name": "Der Tycoon",
           "description": "Fuer eine bessere Energieversorgung brauchen wir eine Maschine, die hochwertigeren Treibstoff herstellt.",
-          "uuid": "ae8db6de-df35-47ab-9e41-87321276d8ef",
-          "x": 30,
-          "y": 105,
+          "uuid": "8ba3c09e-ad32-470c-8539-8a89f416d4ec",
+          "x": 190,
+          "y": 45,
           "icon": "bcadditions:refinerywals size(1) dmg(0)",
           "requirements": [
-            "quest059"
+            "quest063"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3199,16 +3208,16 @@
             }
           ],
           "reward": [
-            "ThermalFoundation:material size(4) dmg(44)"
+            "ThermalFoundation:material size(8) dmg(44)"
           ]
         },
         {
           "id": "quest061",
           "name": "Der Wasserturm",
           "description": "Das rohe Benzin liegt noch in einer heissen Form vor und muss durch eine Kuehlung stabilisiert werden.",
-          "uuid": "35ba6084-e4bd-4098-bba1-06b87e28c3dc",
-          "x": 42,
-          "y": 125,
+          "uuid": "ed9ea2d8-10ce-452d-a2da-01f69b15d8c3",
+          "x": 214,
+          "y": 45,
           "icon": "bcadditions:blockCoolingTowerWalls) size(1) dmg(0)",
           "requirements": [
             "quest060"
@@ -3227,7 +3236,7 @@
               "requirements": [
                 {
                   "item": "bcadditions:blockCoolingTowerWalls) size(1) dmg(0)",
-                  "required": 8,
+                  "required": 20,
                   "precision": "PRECISE"
                 },
                 {
@@ -3252,8 +3261,8 @@
           "id": "quest062",
           "name": "Der Energiespeicher",
           "description": "Eine andere Art des Energie speichern kann nicht schaden. Man sollte nie nur auf ein Pferd setzen.",
-          "uuid": "e59923b8-2098-46ef-98e2-15818f5c90bd",
-          "x": 238,
+          "uuid": "7b1579fb-f4d7-431a-848f-2bfa38267bdf",
+          "x": 150,
           "y": 20,
           "icon": "EnderIO:blockCapBank size(1) dmg(1)",
           "requirements": [
@@ -3287,12 +3296,13 @@
           "id": "quest063",
           "name": "Das Universaltalent",
           "description": "Manchmal stoert es mich, dass fuer bestimmte Aufgaben immer eine andere Maschine gebraucht wird. Aber es gibt ein Universaltalent, wenn es um Brennen und Legierungen geht.",
-          "uuid": "3ce052b4-965a-42a6-a97f-d58c51df35bd",
-          "x": 226,
-          "y": 40,
+          "uuid": "4c479ee0-1bdc-48f7-9e8a-a15228ee7356",
+          "x": 138,
+          "y": 55,
           "icon": "EnderIO:blockAlloySmelter size(1) dmg(0)",
           "requirements": [
-            "quest062"
+            "quest062",
+            "quest057"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3312,83 +3322,23 @@
                   "precision": "PRECISE"
                 }
               ]
-            },
-            {
-              "id": "task001",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Der Elektrisierte Stahl (electrical steel) ist eine hochwertige Verbindung aus drei Materialien.",
-              "requirements": [
-                {
-                  "item": "EnderIO:itemAlloy size(1) dmg(3)",
-                  "required": 8,
-                  "precision": "PRECISE"
-                }
-              ]
             }
           ],
           "reward": [
-            "EnderIO:itemAlloy size(2) dmg(5)"
-          ]
-        },
-        {
-          "id": "quest064",
-          "name": "Die Induktionsschleife",
-          "description": "Elektrische Leiter aus drei Materialien zeichnen sich durch einen geringen Widerstand aus, habe ich gehoert.",
-          "uuid": "c00c5e60-2af6-407e-8722-8f7a86a9e0cb",
-          "x": 250,
-          "y": 40,
-          "icon": "EnderIO:itemBasicCapacitor size(1) dmg(1)",
-          "requirements": [
-            "quest063"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Das Elektrisierte Gemisch (energetic alloy) ist eine weiter Legierung aus drei Materialien.",
-              "requirements": [
-                {
-                  "item": "EnderIO:itemAlloy size(1) dmg(1)",
-                  "required": 8,
-                  "precision": "PRECISE"
-                }
-              ]
-            },
-            {
-              "id": "task001",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "Mit Kapazitatoren kann man nicht nur Dinge bauen, man kann auch Maschinen verbessern.",
-              "requirements": [
-                {
-                  "item": "EnderIO:itemBasicCapacitor size(1) dmg(1)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "EnderIO:itemConduitProbe size(1) dmg(0)"
+            "EnderIO:itemAlloy size(4) dmg(5)",
+            "EnderIO:itemAlloy size(4) dmg(3)"
           ]
         },
         {
           "id": "quest065",
           "name": "Die Kneifzange",
           "description": "Um Maschinen abzubauen eine Spitzhake verwenden? Das geht nun wirklich nicht.",
-          "uuid": "67240aee-3482-4830-89ed-230c2c347805",
-          "x": 238,
-          "y": 60,
+          "uuid": "0e7d6108-3282-46db-b24b-abc83c0750b7",
+          "x": 190,
+          "y": 85,
           "icon": "EnderIO:itemYetaWrench size(1) dmg(0)",
           "requirements": [
-            "quest064"
+            "quest372"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3418,12 +3368,12 @@
           "id": "quest066",
           "name": "Die Ueberwachung",
           "description": "Irgendwie produziere ich manchmal zu viel Strom und verbrauche dadurch zu viel Brennstoff. Das geht auch anders.",
-          "uuid": "c13c1791-4fde-4a89-96de-313c96b97065",
-          "x": 250,
-          "y": 80,
+          "uuid": "7fee7c75-d7f4-427b-9b66-3910d01b6e02",
+          "x": 178,
+          "y": 105,
           "icon": "EnderIO:blockPowerMonitor size(1) dmg(0)",
           "requirements": [
-            "quest065"
+            "quest372"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3453,9 +3403,9 @@
           "id": "quest067",
           "name": "Das Fass mit Boden",
           "description": "Kann man noch besser brennbare Fluessigkeiten herstellen? Ja, man kann. Damit wuerden grenzenlose Moeglichkeiten auf mich zukommen.",
-          "uuid": "012034ef-5868-4435-bc9c-4d8a6f406e71",
-          "x": 262,
-          "y": 100,
+          "uuid": "9ea9ce17-895e-42c8-b61a-255054f3b428",
+          "x": 190,
+          "y": 125,
           "icon": "EnderIO:blockVat size(1) dmg(0)",
           "requirements": [
             "quest066"
@@ -3488,12 +3438,12 @@
           "id": "quest068",
           "name": "Dark Armor",
           "description": "Jetzt habe ich doch glatt zu viel Dark Steel in der Tasche. Das verwenden wir sinnvoller fuer eine tolle Ruestung",
-          "uuid": "ee3ab727-a254-4532-a222-f62d8299584c",
-          "x": 226,
-          "y": 80,
+          "uuid": "653d6f3a-c95c-430a-bb6a-20e9c6a6e735",
+          "x": 202,
+          "y": 65,
           "icon": "EnderIO:item.darkSteel_helmet size(1) dmg(0)",
           "requirements": [
-            "quest066"
+            "quest374"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3505,7 +3455,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Die Dark Armor sieht nicht nur duester aus, man kann sie auch durch allerlei Upgrades so richtig gut ausstatten.",
+              "description": "Die Dark Armor sieht nicht nur duester aus, man kann sie auch durch allerlei Upgrades richtig gut aufpumpen.",
               "requirements": [
                 {
                   "item": "EnderIO:item.darkSteel_helmet size(1) dmg(0)",
@@ -3539,12 +3489,12 @@
           "id": "quest069",
           "name": "Die boese Seele",
           "description": "Monster sind extrem laestig. Aber manchmal haben sie ganz nuetzliche Sachen bei sich. Kann man das Farmen dieser Uebeltaeter nicht irgendwie sicherer gestalten?",
-          "uuid": "ecb007e8-08ed-405c-8e7e-ea5f69b65aa8",
+          "uuid": "955dd463-4f32-4624-a12b-9dfe69547bf2",
           "x": 238,
-          "y": 100,
-          "icon": "EnderIO:itemFrankenSkull size(1) dmg(1)",
+          "y": 125,
+          "icon": "EnderIO:blockSoulBinder size(1) dmg(0)",
           "requirements": [
-            "quest066"
+            "quest376"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3574,23 +3524,10 @@
               "id": "task001",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Die neue Maschine nutzen wir gleich mal um uns einen Frankenstein Zombie zu erschaffen ... Duesteres Gelaechter ... um danach ...",
+              "description": "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
               "requirements": [
                 {
-                  "item": "EnderIO:itemFrankenSkull size(1) dmg(1)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            },
-            {
-              "id": "task002",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "... uns einen kontrollierbaren Spawner zu bauen. ",
-              "requirements": [
-                {
-                  "item": "EnderIO:blockPoweredSpawner size(1) dmg(0)",
+                  "item": "EnderIO:itemMaterial size(1) dmg(8)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -3598,19 +3535,19 @@
             }
           ],
           "reward": [
-            "EnderIO:itemBasicCapacitor size(1) dmg(2)"
+            "EnderIO:itemBasicCapacitor size(3) dmg(2)"
           ]
         },
         {
           "id": "quest070",
           "name": "Die Resonanze",
           "description": "Einige unsere Gegenstaende muessen geladen werden.",
-          "uuid": "21591dac-1ff7-41ae-90b8-a5bdd99ae908",
-          "x": 226,
-          "y": 120,
+          "uuid": "ce58d616-6714-4807-a0fc-befe27902d44",
+          "x": 262,
+          "y": 125,
           "icon": "EnderIO:itemFrankenSkull size(1) dmg(3)",
           "requirements": [
-            "quest069"
+            "quest378"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3659,9 +3596,9 @@
           "id": "quest304",
           "name": "Der gelbe Blitz",
           "description": "Eine aufladbare Ruestung, die sehr viel Schaden absorbieren kann.",
-          "uuid": "5baa6d57-da94-465b-ad2a-f7fa39c08dec",
-          "x": 134,
-          "y": 105,
+          "uuid": "99c4fa19-da8d-4140-88a3-004482a7bd0a",
+          "x": 162,
+          "y": 175,
           "icon": "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
           "requirements": [
             "quest364"
@@ -3716,9 +3653,9 @@
           "id": "quest342",
           "name": "Ich der Roboter",
           "description": "Diestbare Geister helfen dir bei der Automatisierung. Sie lassen sich zum Ernten, Pflanzen oder Einsammeln benutzen.",
-          "uuid": "dd1d7927-26a3-4c5f-ad75-e8ef99cdbf4d",
-          "x": 66,
-          "y": 85,
+          "uuid": "4c083c21-8898-4f62-b747-02732698c31c",
+          "x": 38,
+          "y": 120,
           "icon": "BuildCraft|Robotics:robot size(1) dmg(0)",
           "requirements": [
             "quest058"
@@ -3761,9 +3698,9 @@
           "id": "quest344",
           "name": "Die Hilfskraft",
           "description": "Jeder Roboter kann immer nur eine Aktion ausfuehren. Dazu muss er spezialisiert werden.",
-          "uuid": "438134cf-07d1-4b2f-8a93-411523b538ac",
-          "x": 54,
-          "y": 105,
+          "uuid": "68cf97a7-66ec-46e8-9c4e-a1d393de2abc",
+          "x": 26,
+          "y": 140,
           "icon": "BuildCraft|Robotics:redstone_board size(1) dmg(0)",
           "requirements": [
             "quest342"
@@ -3794,19 +3731,20 @@
             }
           ],
           "reward": [
-            "minecraft:emerald size(3) dmg(0)"
+            "minecraft:emerald size(3) dmg(0)",
+            "arsmagica2:rune size(1) dmg(17)"
           ]
         },
         {
           "id": "quest346",
           "name": "Die Farm",
-          "description": "Mit den gebundenen Seelen lassen sich auch nuetzliche Maschinen herstellen.",
-          "uuid": "6c9cc9da-a410-489f-b1db-118cd52cf867",
-          "x": 250,
-          "y": 120,
+          "description": "Aus einem Zombiekopf eine Maschine zu bauen. In welcher Welt leben wir hier eigentlich?",
+          "uuid": "6067752c-1b98-4520-ab83-29087125cd2c",
+          "x": 286,
+          "y": 125,
           "icon": "EnderIO:blockFarmStation size(1) dmg(0)",
           "requirements": [
-            "quest069"
+            "quest380"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3829,19 +3767,21 @@
             }
           ],
           "reward": [
-            "EnderIO:itemAlloy size(4) dmg(7)"
+            "EnderIO:itemAlloy size(4) dmg(7)",
+            "arsmagica2:rune size(1) dmg(19)"
           ]
         },
         {
           "id": "quest352",
           "name": "Die Verschraenkung",
           "description": "Eine andere Art der Fernwirkung ist die Quantenverschraenkung. Irgendein verrueckter Wissenschaftler hat sogar den Transport von Energie, Fluessigkeiten und Gegenstaenden darueber realisiert.",
-          "uuid": "8914d628-d217-4a46-b5ed-ad291aecbee2",
-          "x": 238,
-          "y": 140,
+          "uuid": "0dee43e1-531d-4eee-910a-92722bfec0a9",
+          "x": 250,
+          "y": 145,
           "icon": "EnderIO:blockTransceiver size(1) dmg(0)",
           "requirements": [
-            "quest070"
+            "quest070",
+            "quest069"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3864,19 +3804,21 @@
             }
           ],
           "reward": [
-            "EnderIO:itemBasicCapacitor size(2) dmg(2)"
+            "EnderIO:itemBasicCapacitor size(3) dmg(2)"
           ]
         },
         {
           "id": "quest354",
           "name": "Dynotopia",
           "description": "Es gibt verschiendene Arten Dynamos. Jeder hat sein spezielles Einsatzgebiet.",
-          "uuid": "01053a81-1d06-47de-a25f-0c66b346d6f2",
-          "x": 134,
-          "y": 25,
+          "uuid": "e6b48718-c74a-4a2a-98b8-9a03ff56b72c",
+          "x": 114,
+          "y": 105,
           "icon": "ThermalExpansion:Dynamo size(1) dmg(0)",
           "requirements": [
-            "quest020"
+            "quest020",
+            "quest384",
+            "quest382"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3919,19 +3861,19 @@
             }
           ],
           "reward": [
-            "ThermalExpansion:Frame size(2) dmg(0)"
+            "ThermalExpansion:Frame size(2) dmg(3)"
           ]
         },
         {
           "id": "quest356",
           "name": "Der Basisspeicher",
           "description": "Um Lastspitzen entgegen zu wirken, ist ein Puffer notwendig.",
-          "uuid": "b0d9ed51-03f8-4e3c-a134-b286b141b964",
-          "x": 146,
-          "y": 45,
+          "uuid": "06fa6d3e-1f48-4e3b-8eae-6753d04d122c",
+          "x": 114,
+          "y": 75,
           "icon": "ThermalExpansion:Frame size(1) dmg(9)",
           "requirements": [
-            "quest354"
+            "quest063"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3954,19 +3896,19 @@
             }
           ],
           "reward": [
-            "ThermalExpansion:Glass size(4) dmg(0)"
+            "ThermalExpansion:Glass size(10) dmg(0)"
           ]
         },
         {
           "id": "quest358",
           "name": "Das Kruemelmonster",
           "description": "Die Huepfburg ist ganz nett. Aber eigentlich hat man ja wichtigere Dinge zu tun.",
-          "uuid": "d3cee97c-fdeb-40f8-976f-130454d0d977",
-          "x": 122,
-          "y": 45,
+          "uuid": "d04f3d5c-4c5b-4fe0-bd4b-21be91391a97",
+          "x": 102,
+          "y": 155,
           "icon": "ThermalExpansion:Machine size(1) dmg(1)",
           "requirements": [
-            "quest356"
+            "quest382"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -3996,12 +3938,13 @@
           "id": "quest360",
           "name": "Der Lichtbogen",
           "description": "Um besondere Legierungen herstellen zu koennen, braucht man sehr hohe Temperaturen. Diese kann man leicht mit einem Lichtbogen erreichen.",
-          "uuid": "443717b8-2a58-4057-9de2-5a4de0e71bd8",
-          "x": 158,
-          "y": 65,
+          "uuid": "cd63a0ea-1ae2-4145-a1f7-d810b6a77156",
+          "x": 138,
+          "y": 135,
           "icon": "ThermalExpansion:Machine size(1) dmg(3)",
           "requirements": [
-            "quest356"
+            "quest382",
+            "quest384"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -4031,12 +3974,12 @@
           "id": "quest362",
           "name": "Der nasse Fleck",
           "description": "Einige Materialien lassen sich in eine fluessige Form wandeln. Diese koennen dann zum Veredeln benutzt werden.",
-          "uuid": "1b1d2cdb-0a8e-475b-85ea-5360f81d394b",
-          "x": 134,
-          "y": 65,
+          "uuid": "ea104395-532e-45e6-ae57-16a956618cf1",
+          "x": 126,
+          "y": 155,
           "icon": "ThermalExpansion:Machine size(1) dmg(4)",
           "requirements": [
-            "quest356"
+            "quest382"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -4071,9 +4014,9 @@
           "id": "quest364",
           "name": "Der Rubin",
           "description": "Der Flux Crystal ist ein kuenstlich hergestellter Edelstein.",
-          "uuid": "b9c8344b-662a-44a3-afe5-c2ae174e1057",
-          "x": 122,
-          "y": 85,
+          "uuid": "08e5d18c-9856-4b95-94ac-aaa0ab941d91",
+          "x": 138,
+          "y": 175,
           "icon": "RedstoneArsenal:material size(1) dmg(96)",
           "requirements": [
             "quest362"
@@ -4099,16 +4042,17 @@
             }
           ],
           "reward": [
-            "minecraft:redstone size(16) dmg(0)"
+            "minecraft:redstone size(32) dmg(0)",
+            "arsmagica2:rune size(1) dmg(18)"
           ]
         },
         {
           "id": "quest366",
           "name": "Die 5. Dimension",
           "description": "Mitunter moechte man Energie, Fluessigkeiten und Gegenstaende ueber groesser Entfernungen oder in andere Dimensionen transportieren.",
-          "uuid": "9700040b-1a50-4d02-84f5-984ea3023ed8",
-          "x": 146,
-          "y": 85,
+          "uuid": "6be821eb-45ad-4b10-8199-846eed2d4c24",
+          "x": 150,
+          "y": 155,
           "icon": "ThermalExpansion:Tesseract size(1) dmg(0)",
           "requirements": [
             "quest360",
@@ -4139,15 +4083,15 @@
           ]
         },
         {
-          "id": "quest368",
-          "name": "Die Booster",
-          "description": "Die Maschinen, die du bis hierher hergestellt hast, koennen durch verschiedene Verbesserungen aufgewertet werden.",
-          "uuid": "b4c3d61c-8298-4f12-b0ec-39d946256cec",
-          "x": 170,
-          "y": 85,
-          "icon": "ThermalExpansion:augment size(1) dmg(112)",
+          "id": "quest370",
+          "name": "Die flache Platte",
+          "description": "Flache Platten platziert in Maschinen macht krumme Sachen platt.",
+          "uuid": "5c33bc31-c3f2-4667-87d2-191bde54c984",
+          "x": 82,
+          "y": 55,
+          "icon": "bcadditions:upgrade size(1) dmg(0)",
           "requirements": [
-            "quest360"
+            "quest063"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -4159,30 +4103,41 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Mit diesen Verstarkungen (augment) kann man Ausbeute, Energieverbrauch und andere Eigenschaften beeinflussen.",
+              "description": "Zuerst eine rohe Platte schoen weich geknetet.",
               "requirements": [
                 {
-                  "item": "ThermalExpansion:augment size(1) dmg(64)",
-                  "required": 1,
+                  "item": "bcadditions:heatPlatingRaw size(1) dmg(0)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Dann alles in den Ofen und schoen heiss backen.",
+              "requirements": [
+                {
+                  "item": "bcadditions:heatPlating size(1) dmg(0)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                }
+              ]
+            },
+            {
+              "id": "task002",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Zum Schluss noch die Spezialplatten herausloesen.",
+              "requirements": [
+                {
+                  "item": "bcadditions:upgrades/base size(1) dmg(0)",
+                  "required": 4,
                   "precision": "PRECISE"
                 },
                 {
-                  "item": "ThermalExpansion:augment size(1) dmg(80)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "ThermalExpansion:augment size(1) dmg(112)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "ThermalExpansion:augment size(1) dmg(128)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "ThermalExpansion:augment size(1) dmg(312)",
+                  "item": "bcadditions:upgrade size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -4190,7 +4145,272 @@
             }
           ],
           "reward": [
-            "ThermalExpansion:Frame size(1) dmg(3)"
+            "bcadditions:upgrade size(4) dmg(1)",
+            "bcadditions:upgrade size(4) dmg(4)"
+          ]
+        },
+        {
+          "id": "quest372",
+          "name": "Gebundene Elektrizitaet",
+          "description": "Noch so ein Spezialstahl. Die Alchemisten in grauer Vorzeit haben ja ganze Arbeit geleistet.",
+          "uuid": "237ff8a7-fd1c-41c7-b44e-88bd368b5280",
+          "x": 166,
+          "y": 85,
+          "icon": "EnderIO:itemAlloy size(1) dmg(0)",
+          "requirements": [
+            "quest063"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Ein bischen Eisen, Kohle und Ob... aeh Silicon. Der kleine Unteschied macht es. Wie kommt man nur auf solche Kleinigkeiten?",
+              "requirements": [
+                {
+                  "item": "EnderIO:itemAlloy size(1) dmg(0)",
+                  "required": 6,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "EnderIO:itemMaterial size(4) dmg(5)"
+          ]
+        },
+        {
+          "id": "quest374",
+          "name": "Das dunkle Omen",
+          "description": "Dieser dunkle Stahl ist haerter und wiederstandsfaehiger. Allerding ranken sich um die Entdeckungsgeschichte manch selsames Mysterium.",
+          "uuid": "c8a3785e-7e12-4c90-9a3c-70f94970ccbb",
+          "x": 178,
+          "y": 65,
+          "icon": "EnderIO:itemAlloy size(1) dmg(6)",
+          "requirements": [
+            "quest063"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Ein bischen Eisen, Kohle und Obsidian und etwas dunkle Magie. Jeder Alchemist haette seine Freude daran.",
+              "requirements": [
+                {
+                  "item": "EnderIO:itemAlloy size(1) dmg(6)",
+                  "required": 6,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "EnderIO:blockCapBank size(1) dmg(1)",
+              "nbt": "{type:'SIMPLE',storedEnergyRF:1000000}"
+            }
+          ]
+        },
+        {
+          "id": "quest376",
+          "name": "Gebundene Sonne",
+          "description": "Die Kraft der Sonne nutzen. Und das auch noch in handlichen Bloecken. Was will man mehr?",
+          "uuid": "a7eaae78-227c-4a99-99f1-a4cc7ad810a3",
+          "x": 226,
+          "y": 105,
+          "icon": "EnderIO:itemAlloy size(1) dmg(7)",
+          "requirements": [
+            "quest066"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Aus Seelensand, Gold und etwas Spucke wird wie durch Zauberhand dieser wunderschoene neue Block.",
+              "requirements": [
+                {
+                  "item": "EnderIO:itemAlloy size(1) dmg(7)",
+                  "required": 6,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "EnderIO:itemPowerConduit size(4) dmg(2)"
+          ]
+        },
+        {
+          "id": "quest378",
+          "name": "Teilen und Herstellen",
+          "description": "Das Ganze ist mehr als die Summe seiner Teile. Was passiert, wenn man die Teile anders zusammensetzt. Muss da nicht wieder das gleiche Ganze entstehen?",
+          "uuid": "557f0230-66bd-4da9-ac30-fe0b40a86ace",
+          "x": 250,
+          "y": 105,
+          "icon": "EnderIO:blockSliceAndSplice size(1) dmg(0)",
+          "requirements": [
+            "quest376"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Diese Maschine spaltet Materialien auf und verbindet sie zu neuen interessanten Sachen!",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockSliceAndSplice size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "EnderIO:blockCapBank size(1) dmg(3)",
+              "nbt": "{type:'VIBRANT',storedEnergyRF:25000000}"
+            }
+          ]
+        },
+        {
+          "id": "quest380",
+          "name": "Die Monsterschwemme",
+          "description": "Monster sind extrem laestig. Aber manchmal haben sie ganz nuetzliche Sachen bei sich. Kann man das Farmen dieser Uebeltaeter nicht irgendwie sicherer gestalten?",
+          "uuid": "ee01579d-dbda-4262-a162-7bce4574a77d",
+          "x": 274,
+          "y": 105,
+          "icon": "EnderIO:itemFrankenSkull size(1) dmg(1)",
+          "requirements": [
+            "quest378"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Die neue Maschine nutzen wir gleich mal um uns einen Frankenstein Zombie zu erschaffen ... Duesteres Gelaechter ... um danach ...",
+              "requirements": [
+                {
+                  "item": "EnderIO:itemFrankenSkull size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "... uns einen kontrollierbaren Spawner zu bauen. ",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockPoweredSpawner size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "EnderIO:itemFrankenSkull size(1) dmg(2)"
+          ]
+        },
+        {
+          "id": "quest382",
+          "name": "Die Basis allen Uebels",
+          "description": "Ein weiterer wichtiger Teil einer Maschiene ist das Gehaeuse in das alle weiteren Komponeneten eingebaut werden.",
+          "uuid": "45a26b00-d7fd-4099-997b-78876795ea2a",
+          "x": 114,
+          "y": 135,
+          "icon": "ThermalExpansion:Frame size(1) dmg(0)",
+          "requirements": [
+            "quest058"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Stelle am besten gleich mehrer dieser Gehaeuse her. Du wirst sie brauche. Ganz bestimmt, glaub mir!",
+              "requirements": [
+                {
+                  "item": "ThermalExpansion:Frame size(1) dmg(0)",
+                  "required": 2,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "ThermalExpansion:Frame size(2) dmg(2)"
+          ]
+        },
+        {
+          "id": "quest384",
+          "name": "Der heisse Kern",
+          "description": "Hoeherwertige Maschienen brauche bessere Basiskomponenten. Ein heisser Kern kann da sicher nicht schaden.",
+          "uuid": "7dc7d6b5-2287-49dd-a132-7fe43698cd2b",
+          "x": 138,
+          "y": 85,
+          "icon": "bcadditions:blockCoilLava size(1) dmg(0)",
+          "requirements": [
+            "quest063"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Der Lava Kern ist einfach gestrickt und besteht grundlegend auch aus Gold.",
+              "requirements": [
+                {
+                  "item": "bcadditions:blockCoilLava size(1) dmg(0)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "ThermalExpansion:Frame size(1) dmg(10)"
           ]
         }
       ]
@@ -4204,7 +4424,7 @@
           "id": "quest071",
           "name": "Der Staub der Sterne",
           "description": "Nachdem wir jetzt mehr und mehr Material bekommen, haben wir ein Problem. Wohin damit? Dafuer gibt es eine sinnvolle Loesung. Aber bis das funktioniert, muessen wir noch so einiges tun.",
-          "uuid": "5e219636-9027-432e-bb3f-2f1d8f934384",
+          "uuid": "dcf1bb21-6fa8-44de-8a5c-b32a3a84af83",
           "x": 22,
           "y": 20,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(7)",
@@ -4262,7 +4482,7 @@
           "id": "quest072",
           "name": "Der geladene Kristall",
           "description": "Fuer manche Rezepte braucht man geladenen Certus Quartz. Dieser ist sehr schwer zu finden. Mit einem Ladegeraet (charger) kann man normalen Certus Quartz aufladen.",
-          "uuid": "ab1e2ec0-2390-43cb-9211-b2c87870b8c2",
+          "uuid": "57156177-e2da-4d9b-87c7-ed615d4c8228",
           "x": 38,
           "y": 45,
           "icon": "appliedenergistics2:tile.BlockCharger size(1) dmg(0)",
@@ -4297,7 +4517,7 @@
           "id": "quest073",
           "name": "Die Wachstumsblasen",
           "description": "Das Zuechten der Kristalle im naechsten Schritt nimmt sehr, sehr viel Zeit in Anspruch. Da wir aber schlau sind, bauen wir uns gleich das Werkzeug um diesen Vorgang zu beschleunigen.",
-          "uuid": "27a8f62d-7a08-4c7f-8ae7-1b527f2ec96e",
+          "uuid": "10eeb085-e629-4f71-9e25-3862133c3c3a",
           "x": 70,
           "y": 45,
           "icon": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator size(1) dmg(0)",
@@ -4338,7 +4558,7 @@
           "id": "quest074",
           "name": "Der Herr der Kristalle",
           "description": "Endlich haben wir einen Weg gefunden, um die Kristalle zu vervielfachen. Aber es dauert seine Zeit, bis wir die Kristalle gezuechtet haben.",
-          "uuid": "9f1870a5-d2bf-4620-84da-9a7d3890d614",
+          "uuid": "6a70a3cf-c65f-4b22-a7b1-8f722fdb00d7",
           "x": 70,
           "y": 75,
           "icon": {
@@ -4409,7 +4629,7 @@
           "id": "quest075",
           "name": "Der Graveur",
           "description": "Viele folgenden Maschinen und Bauteile basieren auf  Prozessoren. Es ist deshalb eine gute Idee so zeitig als moeglich damit zu beginnen.",
-          "uuid": "cfabd5fb-fc78-4f33-aea7-969695b1c5e2",
+          "uuid": "02f904c9-b832-41e2-a68f-2eb7c5b88a68",
           "x": 98,
           "y": 75,
           "icon": "appliedenergistics2:tile.BlockInscriber size(1) dmg(0)",
@@ -4463,7 +4683,7 @@
           "id": "quest076",
           "name": "Der Microchip",
           "description": "Kommen wir zum ersten Prozessor. Dieser ist einfach aufgebaut und fuer den Anfang vollkommen ausreichend.",
-          "uuid": "95358d58-e6fc-4458-9bdd-91773d90f751",
+          "uuid": "0ed2d060-a5d8-4d60-888d-542249234a5e",
           "x": 126,
           "y": 75,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(22)",
@@ -4498,7 +4718,7 @@
           "id": "quest077",
           "name": "Der Innere Kern",
           "description": "In Applied Energistics geht es um das Thema Materie in Bits und Bytes zu wandeln und umgekehrt aus Bits und Bytes wieder Materie herzustellen.",
-          "uuid": "29c22552-174f-4722-82f6-76015d5af443",
+          "uuid": "d966e270-2e8f-4f1a-94fc-9eb2b66366d5",
           "x": 126,
           "y": 45,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(44)",
@@ -4538,7 +4758,7 @@
           "id": "quest078",
           "name": "Die Umlagerung",
           "description": "Grosse Mengen mit der Hand sortieren ist langwierig und langweilig. Eine Maschine, die Speicherzellen schnell fuellen und leeren kann, waere super.",
-          "uuid": "8e7173e4-415b-465e-b8ac-71ead15c316a",
+          "uuid": "8991f465-ecef-496e-9c95-a5eb32f6395b",
           "x": 94,
           "y": 175,
           "icon": "appliedenergistics2:tile.BlockIOPort size(1) dmg(0)",
@@ -4566,7 +4786,8 @@
             }
           ],
           "reward": [
-            "appliedenergistics2:item.ItemBasicStorageCell.4k size(1) dmg(0)"
+            "appliedenergistics2:item.ItemBasicStorageCell.4k size(1) dmg(0)",
+            "arsmagica2:rune size(1) dmg(18)"
           ],
           "reputations": [
             {
@@ -4579,7 +4800,7 @@
           "id": "quest079",
           "name": "Das Fenster in die Seele",
           "description": "Jetzt haben wir vielleicht schon die ersten Gegenstaende in unserem schoenen ME Netzwerk, aber wie kann ich da reinschauen?",
-          "uuid": "0903f6c2-fc63-4156-b522-15f6847d6ce7",
+          "uuid": "56bdfb4b-42aa-4675-8bbd-d8689ade64a3",
           "x": 142,
           "y": 20,
           "icon": "appliedenergistics2:item.ItemMultiPart size(1) dmg(380)",
@@ -4614,7 +4835,7 @@
           "id": "quest080",
           "name": "Der Kabelbinder",
           "description": "Jetzt werden das schon mehr und mehr Geraete. Wir brauchen Kabel.",
-          "uuid": "564c9b12-c787-4029-b1f6-ce0eb6e1c085",
+          "uuid": "89a6f54a-cdc0-46be-b239-c21bc0492813",
           "x": 54,
           "y": 20,
           "icon": "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
@@ -4649,7 +4870,7 @@
           "id": "quest081",
           "name": "Der kleine Speicher",
           "description": "Es muss nicht immer Gross sein. Manchmal reicht auch schon was Kleines und Schlichtes.",
-          "uuid": "676a8fdc-4315-4f76-8b08-d584d86c7417",
+          "uuid": "bb15b731-d664-4102-b9a9-91573fcdbdeb",
           "x": 170,
           "y": 20,
           "icon": "appliedenergistics2:tile.BlockChest size(1) dmg(0)",
@@ -4682,14 +4903,15 @@
             }
           ],
           "reward": [
-            "appliedenergistics2:item.ItemViewCell size(1) dmg(0)"
+            "appliedenergistics2:item.ItemViewCell size(1) dmg(0)",
+            "arsmagica2:rune size(1) dmg(17)"
           ]
         },
         {
           "id": "quest082",
           "name": "Klein aber fein",
           "description": "Ein paar Maschinen stehen in der Naehe unseres ME Netzwerkes. Kann man die vielleicht daran anschliessen?",
-          "uuid": "98d2022b-408c-497d-9d97-d6c77d6ae6f0",
+          "uuid": "c3a34084-626d-4d32-b055-c05cac138b06",
           "x": 110,
           "y": 20,
           "icon": "appliedenergistics2:item.ItemMultiPart size(1) dmg(240)",
@@ -4739,7 +4961,7 @@
           "id": "quest083",
           "name": "Der Microprocessor",
           "description": "Wir errichen das naechste Level der Prozessorherstellung. Damit erweitert sich der Pool des Maschienenparks.",
-          "uuid": "825e53a4-a709-4e01-b4ca-79d5693d2703",
+          "uuid": "b2e6352a-160e-4aac-9588-80fc9b9ef095",
           "x": 126,
           "y": 125,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(23)",
@@ -4774,7 +4996,7 @@
           "id": "quest084",
           "name": "Der grosse Speicher",
           "description": "Pro Festplatte eine ME Chest, ist nicht sehr Platzsparend. In modernen Rechenzentren benutzt man Speicherschraenke, in die mehrere Festplatten rein passen.",
-          "uuid": "33b5a310-1d7c-4e3d-a3c1-5412278c2faf",
+          "uuid": "866ecb7d-1f74-4ec6-aed4-339c5409bd2e",
           "x": 110,
           "y": 150,
           "icon": "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
@@ -4809,7 +5031,7 @@
           "id": "quest085",
           "name": "Die Steckkarten",
           "description": "Viele der Maschinen aus Applied Energistics erscheinen mir noch recht einfach. Kann man die noch verbessern?",
-          "uuid": "a8f687d7-bd51-4ce9-accb-9e3aa3a6fc14",
+          "uuid": "101a8194-06ec-495a-b087-b93dc0e838e3",
           "x": 110,
           "y": 100,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(25)",
@@ -4849,7 +5071,7 @@
           "id": "quest086",
           "name": "Der Formatierer",
           "description": "Irgendwie sieht es auf den Festplatten aus wie Kraut und Rueben. Kann man das darauf nicht etwas \"organisierter\" gestalten?",
-          "uuid": "e8399d04-34b6-447e-b6a4-a4305a24cb1f",
+          "uuid": "ddb061f6-fc85-4b0a-8a4a-cc261f07198b",
           "x": 98,
           "y": 125,
           "icon": "appliedenergistics2:tile.BlockCellWorkbench size(1) dmg(0)",
@@ -4884,7 +5106,7 @@
           "id": "quest087",
           "name": "Der Erbauer",
           "description": "Irgendwie ist das doof, die Gegenstaende heraus zu nehmen und dann in einem normalen Crafting Table zu verwenden.",
-          "uuid": "eee36063-4789-4ae5-be47-d2ac93e0eb48",
+          "uuid": "d348fd94-f72c-4c19-8f50-cf2f12d3bb48",
           "x": 142,
           "y": 150,
           "icon": "appliedenergistics2:item.ItemMultiPart size(1) dmg(360)",
@@ -4920,7 +5142,7 @@
           "id": "quest088",
           "name": "Die helfende Hand",
           "description": "Ein Profi wird nach Perfektion streben. Das heisst auch wiederkehrende Arbeitsschritte zu automatisieren. Dazu braucht Sensoren und Dedektoren.",
-          "uuid": "a209c3d3-0334-4678-8e9b-92d594880eec",
+          "uuid": "58888daa-c315-47f2-91f8-a1ebaafc1df3",
           "x": 142,
           "y": 100,
           "icon": "minecraft:lever size(1) dmg(0)",
@@ -4955,7 +5177,7 @@
           "id": "quest089",
           "name": "Der Microcomputer",
           "description": "Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschienen.",
-          "uuid": "ccc4ffc0-abf7-40b2-b600-d96a77cdcc73",
+          "uuid": "2142419e-e085-477a-be81-1ff45a990177",
           "x": 230,
           "y": 125,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(24)",
@@ -4990,7 +5212,7 @@
           "id": "quest090",
           "name": "Der Meister",
           "description": "Aktuell koennen wir nur acht Maschinen an eine Leitung anschliessen. Fuer groessere Konstruktionen brauchen wir eine zentrale Steuereinheit.",
-          "uuid": "998503c8-1805-4f5b-bf04-12d584e51bd9",
+          "uuid": "0f1c83c6-54f3-4f75-ab95-a86035b74a65",
           "x": 198,
           "y": 75,
           "icon": "appliedenergistics2:tile.BlockController size(1) dmg(0)",
@@ -5018,14 +5240,15 @@
             }
           ],
           "reward": [
-            "appliedenergistics2:item.ItemMultiPart size(2) dmg(460)"
+            "appliedenergistics2:item.ItemMultiPart size(2) dmg(460)",
+            "arsmagica2:rune size(1) dmg(19)"
           ]
         },
         {
           "id": "quest091",
           "name": "Der Zauberer",
           "description": "Wie heisst es so schoen? Hinreichend weit fortschrittliche Technologie ist von Zauberei nicht zu unterscheiden. Und wir sind jetzt schon so weit gekommen!",
-          "uuid": "8d376798-feff-41e5-a2b8-a31c3d40d1a6",
+          "uuid": "0e390c18-2712-4a64-8a41-daab6d7c493d",
           "x": 246,
           "y": 100,
           "icon": "appliedenergistics2:tile.BlockMolecularAssembler size(1) dmg(0)",
@@ -5060,7 +5283,7 @@
           "id": "quest092",
           "name": "Der Grossrechner",
           "description": "Gehe wir den letzten Schritt vom Taschenrechner zum Grossrechner. Mit jeder Ausbaustufe kann das Monster mehr.",
-          "uuid": "d8c84aa0-9c57-4f22-800b-fc3ba846c764",
+          "uuid": "5029d4b4-e149-4963-ad6f-2fce2c146cd7",
           "x": 262,
           "y": 75,
           "icon": "appliedenergistics2:tile.BlockCraftingUnit size(1) dmg(0)",
@@ -5116,7 +5339,7 @@
           "id": "quest093",
           "name": "Der Administrator",
           "description": "Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.",
-          "uuid": "42d96f00-7691-48ee-bb01-cb0cd98dd01f",
+          "uuid": "b43670d3-912c-48c9-9c23-8fdfd858b391",
           "x": 262,
           "y": 125,
           "icon": "appliedenergistics2:item.ItemMultiPart size(1) dmg(480)",
@@ -5157,7 +5380,7 @@
           "id": "quest290",
           "name": "Sternenstaub",
           "description": "Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoreinschlaegen koennen weiter verarbeitet werden.",
-          "uuid": "cfc00bec-3f50-42fb-96a6-816a701b68c3",
+          "uuid": "d243fc84-e6c8-4f63-b286-20aa85750c4c",
           "x": 214,
           "y": 100,
           "icon": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(45)",
@@ -5199,7 +5422,7 @@
           "id": "quest097",
           "name": "Der singende See",
           "description": "Ein guter Zauberer braucht auch immer ein geheimnisvolles Zauberbuch. Darin kann er all seine Geheimnisse notieren. Ein solches Buch ist auch mit Magie erfuellt und zeichnet wundersame Dinge auf, die dir nuetzlich sind.",
-          "uuid": "ebe32175-bfd5-4a9e-b859-796a1a2bbeff",
+          "uuid": "7d4bd408-2b9b-482f-b9e9-49ac6ad0a554",
           "x": 34,
           "y": 40,
           "icon": "arsmagica2:ArcaneCompendium size(1) dmg(0)",
@@ -5234,7 +5457,7 @@
           "id": "quest098",
           "name": "Das stille Oertchen",
           "description": "Der sichere Weg zu neuer Erkenntnis ist die Meditation. Dafuer braucht man einen speziellen Altar. Hier kann man seine Meisterschaft zu neuen Faehigkeiten formen.",
-          "uuid": "339bd019-e68f-4920-9f13-91d197bea152",
+          "uuid": "008e8e8e-94f3-4ed6-99fe-009617cc8312",
           "x": 62,
           "y": 20,
           "icon": "arsmagica2:occulus size(1) dmg(0)",
@@ -5271,7 +5494,7 @@
           "id": "quest099",
           "name": "Der Trommelrevolver",
           "description": "Mit der Zeit wirst du immer mehr Zaubersprueche kenne. Ein besonders Gefaess sollte nicht schaden. Ausserdem kann man die Zauber damit leicht auswaehlen und benutzen.",
-          "uuid": "e3c97e44-98c9-432e-8c6d-74b064e38058",
+          "uuid": "66c4c9ff-23ba-401b-a6a6-e79eb68e9f69",
           "x": 94,
           "y": 20,
           "icon": "arsmagica2:spellBook size(1) dmg(0)",
@@ -5307,7 +5530,7 @@
           "id": "quest100",
           "name": "Der Basteltisch",
           "description": "Wie ein Gedicht muessen alle Zaubersprueche aufgeschrieben werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magisches Papyrus gebannt. Hierbei zeigt sich der ware Meister.",
-          "uuid": "84e70768-3858-475a-8c53-b311ff134631",
+          "uuid": "5e12e19b-7f1a-4a06-a116-9495050a4c92",
           "x": 126,
           "y": 20,
           "icon": "arsmagica2:InscriptionTable size(1) dmg(0)",
@@ -5343,7 +5566,7 @@
           "id": "quest101",
           "name": "Das Rednerpult",
           "description": "So ein Zauberbuch kann die Taschen schon ganz schoen ausbeulen. Damit die Zauberruestung immer top aussieht, gibt es ein nettes Pult. Auf diesem kann man alle Buecher und Zauberspruchanleitungen plazieren.",
-          "uuid": "3a5952d5-01be-4f0f-9cfb-f98e0e473d68",
+          "uuid": "414de2d5-2dbf-4040-a8a9-deeeb65ec1d7",
           "x": 158,
           "y": 20,
           "icon": "arsmagica2:blockLectern size(1) dmg(0)",
@@ -5379,7 +5602,7 @@
           "id": "quest102",
           "name": "Der Platz der Wunder",
           "description": "Nur zu Wissen wie Zaubersprueche funktionieren genuegt natuerlich nicht. Man moechte sie auch anwenden. Dazu muss man sich diese erst zusammen bauen. Der Magier nutzt dazu ein Crafting Altar.",
-          "uuid": "85a68853-1c73-4f4d-aaa2-84c7fb5353b5",
+          "uuid": "e4f9b3b6-6e31-49e4-8d26-d4da128e009e",
           "x": 166,
           "y": 55,
           "icon": "arsmagica2:CraftingAltar size(1) dmg(0)",
@@ -5420,7 +5643,7 @@
           "id": "quest103",
           "name": "Mage Amor",
           "description": "Wenn man zu einem erlesenen Kreis gehoeren will muss man sich auch dessen Etiketten unterwerfen. Die richtige Kleidung muss bei allen Empfaengen unbedingt getragen werden. Ausserdem dient sie natuerlich als magischer Schutzanzug.",
-          "uuid": "2a2bbc42-1fc8-4bc0-a31a-bdb7d41e1d13",
+          "uuid": "4ddfce5d-1262-42b9-9e9a-01a9d8c63da1",
           "x": 26,
           "y": 75,
           "icon": "arsmagica2:mageHood size(1) dmg(0)",
@@ -5478,7 +5701,7 @@
           "id": "quest104",
           "name": "Der Ofen der Weisen",
           "description": "Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.",
-          "uuid": "e4abb3f5-2566-4ec9-9413-e8bc5dd8ce7f",
+          "uuid": "0c44ff75-60aa-497b-8acf-f623e53e7aae",
           "x": 134,
           "y": 60,
           "icon": "arsmagica2:obelisk size(1) dmg(0)",
@@ -5514,7 +5737,7 @@
           "id": "quest105",
           "name": "Die magischen Tools",
           "description": "Die Basis fuer bessere Zauber sind die Essenzen. Es ist wichtig Werkzeuge zu besitzen, mit denen man diese sehen und auf verschiedene magischen Bloecke umleiten kann.",
-          "uuid": "4027df76-e892-4f11-bc8d-5dbd87a6acdb",
+          "uuid": "a3143b55-e06f-493c-b508-ce050554ec4e",
           "x": 194,
           "y": 25,
           "icon": "arsmagica2:magitechGoggles size(1) dmg(0)",
@@ -5581,7 +5804,7 @@
           "id": "quest106",
           "name": "Der magischen Speicher",
           "description": "Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuehgung.",
-          "uuid": "b9276528-c51e-43bf-b45a-07c36beff44e",
+          "uuid": "8cb0df42-c394-48fb-b29d-4953cf782bff",
           "x": 110,
           "y": 80,
           "icon": "arsmagica2:manaBattery size(1) dmg(0)",
@@ -5617,7 +5840,7 @@
           "id": "quest107",
           "name": "Die magischen Blumen",
           "description": "Was so ein richtiger Magier werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
-          "uuid": "49d0fc75-8fc6-4625-9e4f-3059b9b7034a",
+          "uuid": "d2bda094-1017-4a96-b086-93c44dd94142",
           "x": 70,
           "y": 50,
           "icon": "arsmagica2:blueOrchid size(1) dmg(0)",
@@ -5663,7 +5886,7 @@
           "id": "quest108",
           "name": "Die magischen Essencen",
           "description": "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Man braucht viel rohe Essenzen und natuelich diesen netten Veredler (Refiner).",
-          "uuid": "93946945-99ee-4bcd-bbec-bc75cbe0e820",
+          "uuid": "6a22f06d-d954-4f56-a1ba-03ccfc7d535a",
           "x": 62,
           "y": 80,
           "icon": "arsmagica2:essenceRefiner size(1) dmg(0)",
@@ -5699,7 +5922,7 @@
           "id": "quest109",
           "name": "Der erste Zauber",
           "description": "Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erstmal etwas ueben.",
-          "uuid": "2f77e4d1-9c41-4698-958f-f71e517cd8fb",
+          "uuid": "a6b07966-8d74-42ab-8cd9-2dfa31ad7259",
           "x": 82,
           "y": 105,
           "icon": "arsmagica2:spellBase size(1) dmg(0)",
@@ -5736,7 +5959,7 @@
           "id": "quest110",
           "name": "Battlemage Amor",
           "description": "Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausreustung genau das richtige.",
-          "uuid": "c947b7de-e8bf-404c-b7f7-7d37ea4ad4c0",
+          "uuid": "a9f9c36c-1a00-4c62-b46f-696ff0de1b53",
           "x": 42,
           "y": 105,
           "icon": "arsmagica2:battlemageHood size(1) dmg(0)",
@@ -5793,7 +6016,7 @@
           "id": "quest111",
           "name": "Die etwas andere Verzauberung",
           "description": "Ein guter Magier ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuegt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
-          "uuid": "cad5bba3-4a15-4e1e-b64c-197fd78e6f4c",
+          "uuid": "85584c3c-4f05-438c-a5c9-86e17f49863a",
           "x": 166,
           "y": 90,
           "icon": "arsmagica2:armorInfuser size(1) dmg(0)",
@@ -5829,7 +6052,7 @@
           "id": "quest112",
           "name": "Der mysterioese Meteor",
           "description": "Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Die Gesteine, welche diese Meteore mit sich feuhren, haben besonder magische Eigenschaften. Halte staendig Ausschau nach diesen Dingern.",
-          "uuid": "209f3c1d-665b-457a-bebd-8e1ec03b29dc",
+          "uuid": "1c5b32f0-a1cd-465f-b7b5-0d1a82a6909c",
           "x": 194,
           "y": 75,
           "icon": "arsmagica2:itemOre size(1) dmg(7)",
@@ -5865,7 +6088,7 @@
           "id": "quest113",
           "name": "Der Kristall der Weisen",
           "description": "Neben der Neutralen Essenze gibt es noch andere rohe Essenze. Die Lichtessenze ist eine davon und kann nur am Tag gewonnen werden. Allerdings braucht sie keinen Rohstoff.",
-          "uuid": "22d1d0b5-4fc6-4152-852a-349b7966c78e",
+          "uuid": "715b6e77-7247-49ad-b004-441c0acfdd1a",
           "x": 210,
           "y": 100,
           "icon": "arsmagica2:celestialPrism size(1) dmg(0)",
@@ -5906,7 +6129,7 @@
           "id": "quest114",
           "name": "Der Wirbel der Weisen",
           "description": "Die letzte rohe Essenze wird aus sterbenden Monstern gewonnen.",
-          "uuid": "2a203de6-7c86-4978-96a2-15f46e3d16dd",
+          "uuid": "54c44d47-cfc8-48d1-aa25-2f7dc4f8d5d2",
           "x": 238,
           "y": 100,
           "icon": "arsmagica2:blackAurem size(1) dmg(0)",
@@ -5948,7 +6171,7 @@
           "id": "quest115",
           "name": "Water Guardian",
           "description": "So der 1. Boss (Level 10). Er sollte nicht all zu schwer sein.",
-          "uuid": "0b69081c-bd6d-49e2-b9ab-6b99b51b7bd8",
+          "uuid": "fe737464-661b-44d8-81b2-f98dc0c83f50",
           "x": 58,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(16)",
@@ -5987,7 +6210,7 @@
           "id": "quest116",
           "name": "Earth Guardian",
           "description": "Der 2. Boss (Level 25) ist da schon etwas schwerer.",
-          "uuid": "268ac1cc-0360-42da-b3ea-d94f813f33b7",
+          "uuid": "d30948cc-a85d-40a0-bbfd-991d749632b0",
           "x": 82,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(15)",
@@ -6026,7 +6249,7 @@
           "id": "quest117",
           "name": "Air Guardian",
           "description": "Der 3. Boss (Level 35). Jetzt wird es langsam spannend.",
-          "uuid": "5a036ac4-109d-47a5-b83b-3c2c30c65d6f",
+          "uuid": "c55c13b8-7eb9-4c67-a2a0-32e1f7773a9f",
           "x": 106,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(18)",
@@ -6065,7 +6288,7 @@
           "id": "quest118",
           "name": "Arcane Guardian",
           "description": "Der 4. Boss (Level 45) ist nicht fuer schwache Magier.",
-          "uuid": "d6a85d05-248b-4a74-8751-80440995fb07",
+          "uuid": "c33ad67e-905a-492a-9500-dc4b46afee85",
           "x": 130,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(14)",
@@ -6105,7 +6328,7 @@
           "id": "quest119",
           "name": "Life Guardian",
           "description": "Gegen den 5. Boss (Level 50) sollte man nicht direkt bekaempfen.",
-          "uuid": "f0e15bda-8051-4fe9-b3ac-ded069a0262a",
+          "uuid": "657e2649-7886-49a8-ad84-d97418bc95de",
           "x": 154,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(20)",
@@ -6144,7 +6367,7 @@
           "id": "quest120",
           "name": "Nature Guardian",
           "description": "Dieser 6. Boss (Level 60) erscheint, wenn du dich zu sehr an den Dryaden vergreifst, die in der Welt rumlaufen.",
-          "uuid": "93262fb8-8fde-4fc2-b3e8-807a33bb6ec2",
+          "uuid": "5bac4e63-8417-467b-944e-ed637ef9cdc3",
           "x": 178,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(13)",
@@ -6183,7 +6406,7 @@
           "id": "quest121",
           "name": "Winter Guardian",
           "description": "Dieser 7. Boss (Level 70) friert alles in seiner Umgebung ein.",
-          "uuid": "b17ab374-4d86-4f1e-8e56-c8e2a9e0ac54",
+          "uuid": "716ddbd1-5d42-4b97-a79d-21e8b7851d00",
           "x": 202,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(17)",
@@ -6222,7 +6445,7 @@
           "id": "quest122",
           "name": "Lightning Guardian",
           "description": "Der 8. Boss (Level 70) ist ein Meister des Fernkampfes.",
-          "uuid": "329dc4b5-35eb-458e-a89e-d607c920421c",
+          "uuid": "df6bfab9-1f57-4994-9a0f-78852844562d",
           "x": 226,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(21)",
@@ -6261,7 +6484,7 @@
           "id": "quest123",
           "name": "Ender Guardian",
           "description": "Der 10. Boss (Level 90+) ist aktuell der letzte und schwerste.",
-          "uuid": "94d2dec5-2eaa-4a89-831b-0b4df318e96f",
+          "uuid": "4789e638-2857-44c7-a060-d163f7f33085",
           "x": 274,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(22)",
@@ -6300,7 +6523,7 @@
           "id": "quest124",
           "name": "Fang die flackernden Dinger",
           "description": "Flicker sind schon ulkige Dinger.Mit ihnen kann man verschieden Flaecheneffekte erreichen, um z.B. Monster fern zu halten oder anzulocken, Holz faellen, Felder zu ernten oder auch Biome zu aendern.",
-          "uuid": "f7eeb7b2-ed66-46d4-beef-da8380e84cc0",
+          "uuid": "14569a12-aee9-4301-91e3-03d2e41fcb4c",
           "x": 210,
           "y": 50,
           "icon": "arsmagica2:flickerJar size(1) dmg(0)",
@@ -6354,7 +6577,7 @@
           "id": "quest125",
           "name": "Fang den Mond",
           "description": "Um den entspechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.",
-          "uuid": "543efbb9-9ce6-4674-91f1-f371ad2a7240",
+          "uuid": "92c47c62-1e0c-426a-867e-d285d94aeb28",
           "x": 238,
           "y": 50,
           "icon": "arsmagica2:elementalAttuner size(1) dmg(0)",
@@ -6401,7 +6624,7 @@
           "id": "quest286",
           "name": "Fire Guardian",
           "description": "Dieser 9. Boss (Level 90) muss im Nether beschworen werden.",
-          "uuid": "e1be46fa-1172-4626-8cc9-7ef741bdfd50",
+          "uuid": "b033ef3b-eb09-42bb-ba42-c434a0c50010",
           "x": 250,
           "y": 145,
           "icon": "arsmagica2:AMSpawnEgg size(1) dmg(19)",
@@ -6447,7 +6670,7 @@
           "id": "quest126",
           "name": "Ein Stab sie alle zu Binden",
           "description": "Ein gute Zauberer braucht einen Zauberstab. Aber jeder faengt mal klein an.",
-          "uuid": "9a94e398-4fbf-45cf-8246-2bf5780c700a",
+          "uuid": "dfb691fe-7389-4ac2-b8d5-18e55dd4c857",
           "x": 46,
           "y": 55,
           "icon": "Thaumcraft:WandCasting size(1) dmg(0)",
@@ -6478,7 +6701,7 @@
           "reward": [
             {
               "item": "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
-              "nbt": "{nodetype:0,Aspects:[0:{amount:10,key:'ordo'},1:{amount:10,key:'aqua'},2:{amount:10,key:'ignis'},3:{amount:10,key:'terra'},4:{amount:10,key:'perditio'},5:{amount:10,key:'aer'}]}"
+              "nbt": "{nodetype:0,Aspects:[0:{amount:10,key:'aer'},1:{amount:10,key:'terra'},2:{amount:10,key:'ignis'},3:{amount:10,key:'aqua'},4:{amount:10,key:'ordo'},5:{amount:10,key:'perditio'}]}"
             }
           ]
         },
@@ -6486,7 +6709,7 @@
           "id": "quest127",
           "name": "Der Stab des Lehrlings",
           "description": "Du bist kein Anfaenger mehr. Es wird Zeit fuer einen besseren Zauberstab.",
-          "uuid": "a7476836-20c7-4309-b41d-14681a8e81e4",
+          "uuid": "b4da8402-d94a-4069-9a44-e0c0804f6516",
           "x": 34,
           "y": 75,
           "icon": "Thaumcraft:WandCasting size(1) dmg(9)",
@@ -6522,7 +6745,7 @@
           "id": "quest128",
           "name": "Der Stab des Meisters",
           "description": "Einem Meister gebuehrt einer der besten Zauberstaebe.",
-          "uuid": "7d2fa26f-cea3-4466-9929-4a57e7c4ea23",
+          "uuid": "38d4b861-b548-4baa-9b4d-ee44d2196fe3",
           "x": 46,
           "y": 95,
           "icon": "Thaumcraft:WandCasting size(1) dmg(54)",
@@ -6559,7 +6782,7 @@
           "id": "quest129",
           "name": "Der gedultige Forscher",
           "description": "Mit unserem Zauberstab lassen sich die wichtigen Basisgegenstaende herstellen, die ein Zauberer braucht.",
-          "uuid": "52f105be-3978-4289-98a4-6b51bb3ddc63",
+          "uuid": "505a9234-74f0-4266-96a8-83ed2fa2bd6c",
           "x": 78,
           "y": 75,
           "icon": "Thaumcraft:ItemThaumonomicon size(1) dmg(0)",
@@ -6613,7 +6836,7 @@
           "id": "quest130",
           "name": "Die Tiefensonde",
           "description": "Der Bedarf an Vis fuer die verschiedenen Zauber ist enorm. Nur mit scannen von Gegenstaenden kann man seinen Bedarf nicht decken.",
-          "uuid": "ca6839a3-fdcd-4b6b-b0e8-f9afccd19e19",
+          "uuid": "58e7913d-5835-4a77-a035-ed4ffa7fb0f0",
           "x": 90,
           "y": 40,
           "icon": "Thaumcraft:blockTable size(1) dmg(14)",
@@ -6648,7 +6871,7 @@
           "id": "quest131",
           "name": "Der Durchblick",
           "description": "Das wichtigste Werkzeug fuer den angehenden Zauberer. Viele Gegenstaende enthalten magische Energien. Man muss nur wissen was worin steckt.",
-          "uuid": "09c19682-0b19-4b92-a0ab-c24286b39d54",
+          "uuid": "06e84c2a-ad9d-46b3-800c-f05ed11cd199",
           "x": 114,
           "y": 90,
           "icon": "Thaumcraft:ItemThaumometer size(1) dmg(0)",
@@ -6684,7 +6907,7 @@
           "id": "quest132",
           "name": "Durch die rosa Brille",
           "description": "Fuer einen guten Zauberer ist es von Vorteil, wenn man die Vorgaenge in der Vis-Sphaere immer im Auge hat. Mit einer magischen Brille macht man diese Dinge sichtbar.",
-          "uuid": "a8990940-4cef-4e76-af76-a3ca5ec12470",
+          "uuid": "0131dcea-1b14-4c55-b656-09bf3f367a47",
           "x": 138,
           "y": 40,
           "icon": "Thaumcraft:ItemGoggles size(1) dmg(0)",
@@ -6722,7 +6945,7 @@
           "id": "quest133",
           "name": "Gepanzerter Stoff",
           "description": "Die Dienstkleidung des Magiers. Sie ist nicht nur schoen sondern hat auch starke Widerstaende gegen magische Attacken.",
-          "uuid": "52b1c398-c6a5-4e0b-9119-82a88b741d0c",
+          "uuid": "de78f89a-f3f2-4989-8eca-b266edc830cc",
           "x": 150,
           "y": 20,
           "icon": "Thaumcraft:ItemLeggingsRobe size(1) dmg(0)",
@@ -6777,7 +7000,7 @@
           "id": "quest136",
           "name": "Explosives Licht",
           "description": "Nitor und Alumentum sind die ersten magischen Gegenstaende, die ein Magier koennen muss.",
-          "uuid": "149600b1-c069-4df0-bb41-aac928238f9b",
+          "uuid": "9cbe4797-f819-4bdd-a91b-d6cbab4a6c4e",
           "x": 194,
           "y": 45,
           "icon": "Thaumcraft:ItemResource size(1) dmg(1)",
@@ -6817,7 +7040,7 @@
           "id": "quest137",
           "name": "Der Wunderofen",
           "description": "Um weiter magische Energie nutzen zu koennen, muessen diese aus den Gegenstaenden geloest werden. Das erfolgt durch verbrennen im Alchemischen Ofen.",
-          "uuid": "5ec52026-e3b0-42fe-8a2c-d2e23c3759be",
+          "uuid": "e4adf894-af6e-479e-93a1-994f528b1cae",
           "x": 218,
           "y": 45,
           "icon": "Thaumcraft:blockStoneDevice size(1) dmg(0)",
@@ -6852,7 +7075,7 @@
           "id": "quest138",
           "name": "Die Destillerie",
           "description": "Und schon sind wir beim Transport der magischen Energien.",
-          "uuid": "581e2228-c793-4615-9427-99b0275c9cff",
+          "uuid": "fe49a565-78ea-4f53-9429-c0a610b2fba2",
           "x": 242,
           "y": 45,
           "icon": "Thaumcraft:blockMetalDevice size(1) dmg(1)",
@@ -6887,7 +7110,7 @@
           "id": "quest139",
           "name": "Tubes",
           "description": "Natuerlich brauch man auch ein Transportsystem. Wie ein Gas kann so die magische Energie transportiert werden.",
-          "uuid": "1810b07c-d14c-4158-a894-e841d41f50b7",
+          "uuid": "8ef545f9-95f0-4ee2-b68f-4dd5e2f15598",
           "x": 254,
           "y": 25,
           "icon": "Thaumcraft:blockTube size(1) dmg(0)",
@@ -6927,7 +7150,7 @@
           "id": "quest140",
           "name": "Schleudertrauma",
           "description": "Mitunter erhaelt man Vis, welches man nicht braucht. Es waere ein super Sache dieses in seine Bestandteile zu zerlegen.",
-          "uuid": "8f66a8db-60e2-4ecc-a825-2ea2715c792c",
+          "uuid": "33f4d40c-1f65-4ce3-81ae-e162dc4353a8",
           "x": 266,
           "y": 45,
           "icon": "Thaumcraft:blockTube size(1) dmg(2)",
@@ -6962,7 +7185,7 @@
           "id": "quest141",
           "name": "Der Kristallisierer",
           "description": "Magische Essenzen sind so fluechtige Aggregatzustaende. In seiner festen Form lassen sich die magischen Energien viel leichter handhaben.",
-          "uuid": "13922635-0f11-489b-8a8a-de8380a57c88",
+          "uuid": "7828a76f-ef60-44b5-bf03-a17aa905c944",
           "x": 278,
           "y": 25,
           "icon": "Thaumcraft:blockTube size(1) dmg(7)",
@@ -6997,7 +7220,7 @@
           "id": "quest142",
           "name": "Das Parfuem",
           "description": "Magische Essenzen bewahrt man besser in Flaschen auf. Wenn man diese gut beschriftet, weiss man immer was drin ist.",
-          "uuid": "8d6af0c3-a1b3-477b-bb46-cb12a44eaf67",
+          "uuid": "52e66440-75ab-4eb8-818b-de36ec48c5e3",
           "x": 254,
           "y": 65,
           "icon": "Thaumcraft:blockJar size(1) dmg(1)",
@@ -7037,7 +7260,7 @@
           "id": "quest143",
           "name": "Der Geist in der Flasche",
           "description": "Die magischen Knoten (node) koennen weit in der Welt verteilt sein. Es waere viel einfacher diese direkt vor der Haustuer zu haben. Nur wie transportiert man diese Dinger?",
-          "uuid": "ed91c4da-7f10-4d85-8f9f-623c02b67cc5",
+          "uuid": "509a73b4-00f2-42a0-875b-ba066d5b7596",
           "x": 266,
           "y": 85,
           "icon": "Thaumcraft:BlockJarNodeItem size(1) dmg(0)",
@@ -7072,7 +7295,7 @@
           "id": "quest144",
           "name": "Der schuetzende Schild",
           "description": "Diese Nodes sind ganz schoen aggressiv. Sie duerfen nicht zu nahe beieinander aufgestellt werden. Ausser man schirmt sie voneinader ab.",
-          "uuid": "6ec929d8-52bc-4428-82c1-a2b375e1f2ca",
+          "uuid": "6d860aa7-f6b2-4ea5-84e8-243526669df1",
           "x": 278,
           "y": 105,
           "icon": "Thaumcraft:blockStoneDevice size(1) dmg(10)",
@@ -7107,7 +7330,7 @@
           "id": "quest145",
           "name": "Der Fluss der Seelen",
           "description": "Mit einem magischen Netzwerk kann man Maschinen an angeregte Nodes koppeln.",
-          "uuid": "872bfa6a-3c8f-432c-8c7b-653284a70a16",
+          "uuid": "75eec867-99fa-4242-a64c-71330b4582c3",
           "x": 266,
           "y": 125,
           "icon": "Thaumcraft:blockStoneDevice size(1) dmg(11)",
@@ -7153,7 +7376,7 @@
           "id": "quest146",
           "name": "Die Tankstelle",
           "description": "Jetzt ist es Zeit fuer ein automatisches Zauberstab Fuellsystem.",
-          "uuid": "9f0a068e-63f9-4da0-9283-6edc79677a00",
+          "uuid": "b7703f10-3e16-4aa1-ab2a-ec08fc990319",
           "x": 290,
           "y": 125,
           "icon": "Thaumcraft:blockStoneDevice size(1) dmg(5)",
@@ -7189,7 +7412,7 @@
           "id": "quest147",
           "name": "Der Manipulator",
           "description": "Die Kappen, in ihrer normalen Form, sind ja ganz nett. Sie lassen sich aber weiter aufwerten und mit zusaetzlichen Effekten kombinieren.",
-          "uuid": "ada8de76-df33-474a-bb98-940d7e99a03d",
+          "uuid": "0c40e0b4-6b3b-4f42-8f10-be761d0c1c4b",
           "x": 78,
           "y": 20,
           "icon": "Thaumcraft:blockStoneDevice size(1) dmg(13)",
@@ -7231,7 +7454,7 @@
           "id": "quest148",
           "name": "Magisches Metall",
           "description": "Der wahre Magier braucht natuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzusellen.",
-          "uuid": "c0baca76-2c0c-46e2-9e0c-24eb1525dbd4",
+          "uuid": "3d1927a2-3d62-42d2-b815-200d80995461",
           "x": 114,
           "y": 40,
           "icon": "Thaumcraft:ItemResource size(1) dmg(2)",
@@ -7266,7 +7489,7 @@
           "id": "quest149",
           "name": "Die Infusion",
           "description": "Es gibt maechtige Zauber, die ein besonderes Instrument benoetigen. Dies ist der Infusion Altar. Hier koennen verschiedene Gegenstaende und magische Energien miteinander verschmolzen werden.",
-          "uuid": "fdfaff18-d58d-4f15-b6ca-794e185192f9",
+          "uuid": "3db28593-0d7d-4d60-8659-956c24faa024",
           "x": 58,
           "y": 115,
           "icon": "Thaumcraft:blockStoneDevice size(1) dmg(2)",
@@ -7306,7 +7529,7 @@
           "id": "quest150",
           "name": "Die Wunderlampen",
           "description": "Es ist zwar nicht Aladins Wunderlampe, aber diese Lampen haben es ganz schoen in sich.",
-          "uuid": "be3155d5-0536-47b0-8984-b1f13c740fa9",
+          "uuid": "82b34d2b-1c9a-4926-967d-2965c779d8ca",
           "x": 46,
           "y": 135,
           "icon": "Thaumcraft:blockMetalDevice size(1) dmg(8)",
@@ -7346,7 +7569,7 @@
           "id": "quest151",
           "name": "Der Wunderbaum",
           "description": "Es gibt einige besondere Baeume, die den angehenden Zauberer interessieren. Diese kann man mit etwas Glueck finden. Besser ist aber ein kontrollierte Herstellung.",
-          "uuid": "ae273851-a0f4-4612-b9ba-05c11913dc16",
+          "uuid": "9679a6ab-58a9-4384-aae2-60336159bc4f",
           "x": 34,
           "y": 115,
           "icon": "Thaumcraft:blockCustomPlant size(1) dmg(0)",
@@ -7386,7 +7609,7 @@
           "id": "quest152",
           "name": "Der Ninja",
           "description": "Die Thaumium Ruestung kann mit dem Infusion Ritual verstaerkt werden.",
-          "uuid": "6c68433a-4b9c-454a-84a3-e9d42a03672f",
+          "uuid": "a0b7f522-5a7f-4ec8-a3b1-51d6915eaa82",
           "x": 70,
           "y": 135,
           "icon": "Thaumcraft:ItemHelmetFortress size(1) dmg(0)",
@@ -7437,7 +7660,7 @@
           "id": "quest154",
           "name": "Minions",
           "description": "Da wir noch grosse Weltherrschaftsplaene haben, brauchen wir dringend Helfer fuer unser Resourcenproblem.",
-          "uuid": "0425f29d-cd6e-4919-8191-c89c185a8067",
+          "uuid": "189c7f1b-4715-4a3a-97f7-fbe0cedce917",
           "x": 114,
           "y": 140,
           "icon": "Thaumcraft:ItemGolemCore size(1) dmg(100)",
@@ -7472,7 +7695,7 @@
           "id": "quest155",
           "name": "Der Gong",
           "description": "Um deine Golems dirigieren zu koennen brauchst du ein besonderes Werkzeug. Damit kannst du deine Golems einsammeln, als auch ihnen bestimme Aufgaben zuweisen.",
-          "uuid": "55a0e6f0-d81f-4e03-a412-dc761d2119c0",
+          "uuid": "7ea02bcc-d62e-40cc-957c-5edc8206b406",
           "x": 126,
           "y": 160,
           "icon": "Thaumcraft:GolemBell size(1) dmg(0)",
@@ -7507,7 +7730,7 @@
           "id": "quest156",
           "name": "Die Arbeiterkaste",
           "description": "Die einfachsten Spezialisierungen fuer Golems sind das Ernten, Fischen und Holzfaellen.",
-          "uuid": "b0fa523f-1b01-42ed-a6e3-1c83c201ac60",
+          "uuid": "18cf1f79-d58c-4502-b50a-8034ed9ce769",
           "x": 102,
           "y": 160,
           "icon": "Thaumcraft:ItemGolemCore size(1) dmg(3)",
@@ -7555,7 +7778,7 @@
           "id": "quest157",
           "name": "Das fleissige Bienchen",
           "description": "Jetzt geht es daran den Golems das Transportieren zwischen Kisten beizubringen.",
-          "uuid": "cc3606a3-feef-4eca-a902-e25f47e44b46",
+          "uuid": "153d2b70-5a44-4324-9a72-f9d1dbb1a238",
           "x": 114,
           "y": 180,
           "icon": "Thaumcraft:ItemGolemCore size(1) dmg(0)",
@@ -7595,7 +7818,7 @@
           "id": "quest158",
           "name": "Die intelligente Drone",
           "description": "So, jetzt kommen die Spezialisten.",
-          "uuid": "0aa653aa-3bf1-4896-bb01-2449da3b7668",
+          "uuid": "6e22fcb3-101e-4fad-8323-eb1ef1bfe9c4",
           "x": 138,
           "y": 180,
           "icon": "Thaumcraft:ItemGolemCore size(1) dmg(10)",
@@ -7640,7 +7863,7 @@
           "id": "quest159",
           "name": "Die Schoenheitskoenigin",
           "description": "Mitunter sind deine Golems ganz schoen limitiert in ihren Faehigkeiten. Es waere schoen, wenn sie schneller, intelligenter und staerker waeren.",
-          "uuid": "bce130ae-30ce-4732-8708-c6743ddc091c",
+          "uuid": "df7c03b3-9d7d-4141-a777-5d14e4919104",
           "x": 138,
           "y": 140,
           "icon": "Thaumcraft:ItemGolemUpgrade size(1) dmg(3)",
@@ -7700,7 +7923,7 @@
           "id": "quest160",
           "name": "Die Armee",
           "description": "Jeder Type eines Golems hat seine Existenzberechtigung.",
-          "uuid": "c56ddadd-e327-4cee-8b65-d88899c56036",
+          "uuid": "3c107068-9c45-450e-a309-707ec577052f",
           "x": 150,
           "y": 160,
           "icon": "Thaumcraft:ItemGolemPlacer size(1) dmg(3)",
@@ -7750,7 +7973,7 @@
           "id": "quest161",
           "name": "Der Elitesoldat",
           "description": "Es gibt ein Soldat, der alle anderen uebertrifft.",
-          "uuid": "0c23e493-9d62-4f59-ad28-4418993277bb",
+          "uuid": "00d1a423-d019-4711-ac46-0adcff93662d",
           "x": 162,
           "y": 180,
           "icon": "Thaumcraft:ItemGolemPlacer size(1) dmg(7)",
@@ -7785,7 +8008,7 @@
           "id": "quest298",
           "name": "Das kleidende Nichts",
           "description": "Der naechste Schritt ist logischer Weise eine Ruestung aus Nichts.",
-          "uuid": "4146ef58-9bee-4f34-a78a-0328591298a7",
+          "uuid": "12b09b22-9d31-49bb-920c-36f30c0d41a6",
           "x": 182,
           "y": 90,
           "icon": "Thaumcraft:ItemHelmetVoid size(1) dmg(0)",
@@ -7841,7 +8064,7 @@
           "id": "quest300",
           "name": "Das schuetzende Nichts",
           "description": "Warum machen wir uns nicht gleich eine ganze Kollektion?",
-          "uuid": "eecb5fd6-33bf-4e85-a6ad-b956760d7136",
+          "uuid": "5ccc66c5-5535-44fd-aa21-cf861156e76f",
           "x": 206,
           "y": 90,
           "icon": "Thaumcraft:ItemHelmetVoidFortress size(1) dmg(0)",
@@ -7892,7 +8115,7 @@
           "id": "quest308",
           "name": "Der Purpur Klan",
           "description": "Die Waechter des Portals sehen so niedlich aus in ihren roten Kleidern.",
-          "uuid": "28863a84-f286-4fb0-a42b-ead17b23649f",
+          "uuid": "e5f1dd46-eb30-4bd3-aab1-700e282ef595",
           "x": 182,
           "y": 130,
           "icon": "Thaumcraft:ItemHelmetCultistPlate size(1) dmg(0)",
@@ -7943,7 +8166,7 @@
           "id": "quest310",
           "name": "Der Purpur Kult",
           "description": "Von Zeit zu Zeit erscheinen auch die Meister des Klans. Sie schauen zwar finsterer drein, stellen aber auch keine groessere Bedrohung dar.",
-          "uuid": "d4ba7759-8870-44d0-80e9-8fc703a9cbf4",
+          "uuid": "becc634e-c03c-4275-8528-9e77466baacb",
           "x": 218,
           "y": 110,
           "icon": "Thaumcraft:ItemHelmetCultistRobe size(1) dmg(0)",
@@ -7999,7 +8222,7 @@
           "id": "quest312",
           "name": "Der Purpur Gladiator",
           "description": "Beim Durchwuehlen unserer Beute vom Boss finden wir auch ein paar tolle Kleidungsstuecke.",
-          "uuid": "ffe0f746-a385-4336-9b4c-42205bf38fc3",
+          "uuid": "e7c86b2d-42a9-4aa0-92e4-8821880a466d",
           "x": 218,
           "y": 150,
           "icon": "Thaumcraft:ItemHelmetCultistLeaderPlate size(1) dmg(0)",
@@ -8050,7 +8273,7 @@
           "id": "quest322",
           "name": "Magische Ruestung",
           "description": "Was liegt naeher, als sich aus diesem magischen Metall ein standesbemaesse Ruestung zu bauen.",
-          "uuid": "22221e72-5194-470b-9b6d-aade9640415d",
+          "uuid": "f3bf571e-bcaf-46ba-9a02-2ecbe1464e1a",
           "x": 126,
           "y": 20,
           "icon": "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
@@ -8106,7 +8329,7 @@
           "id": "quest332",
           "name": "Das kristallisierte Nichts",
           "description": "Ein Magier erschafft Dinge aus dem Nichts. Logischer Weise kann er somit das Nichts auch kondensieren und in eine massive Form wandeln.",
-          "uuid": "02bd18a9-b0a3-4635-b9d1-81ef5a2ce5fa",
+          "uuid": "ae42af0e-567f-4a20-bb7e-85b074cba6a0",
           "x": 158,
           "y": 90,
           "icon": "Thaumcraft:ItemResource size(1) dmg(17)",
@@ -8146,7 +8369,7 @@
           "id": "quest334",
           "name": "Das allsehende Auge",
           "description": "Wir sind auf dem Weg in das Aeussere Land (Outer Land). Dazu sind einige Vorbereitungen notwendig.",
-          "uuid": "7979acd6-2131-4032-83af-4c3c54786676",
+          "uuid": "36bb95f7-6901-4a2f-bb38-99cd9214e65b",
           "x": 170,
           "y": 110,
           "icon": "Thaumcraft:ItemEldritchObject size(1) dmg(0)",
@@ -8181,7 +8404,7 @@
           "id": "quest336",
           "name": "Das schwarze Loch",
           "description": "Das Outer Land kann man nicht direkt betretet. Diese Muggels reden immer von Wurmloechern und so. Wir wissen es besser, es ist nur eine magische Tuer.",
-          "uuid": "98877542-5464-4f4c-a813-cb275967c666",
+          "uuid": "1b85c3b4-f2d0-4515-96b3-5d2f5c6323ad",
           "x": 194,
           "y": 110,
           "icon": "exastrisrebirth:itemEldritchPortalSpawner size(1) dmg(0)",
@@ -8216,7 +8439,7 @@
           "id": "quest338",
           "name": "Der Hort des Boesen",
           "description": "In den Outer Lands muessen wir erst den Schluessel suchen und koennen dann das Tor zu einem der Bosse in dieser Welt oeffnen.",
-          "uuid": "81b04cd2-e22e-4412-a77e-cc95eefd737f",
+          "uuid": "be2a9bf9-9d2d-4890-8237-abe7e7667086",
           "x": 206,
           "y": 130,
           "icon": "Thaumcraft:ItemEldritchObject size(1) dmg(3)",
@@ -8251,7 +8474,7 @@
           "id": "quest340",
           "name": "Der Herr der Kappen",
           "description": "Mit einem Zauberstab kann man nicht nur zaubern. Man kann damit auch kaempfen. Aber nicht wie du jetzt denkst. Ein richtiger Kampfmagier ist kein Nahkaempfer.\n",
-          "uuid": "bff886f8-8be3-4ae8-8bad-d6dddcb06352",
+          "uuid": "e05d3ad3-eea6-4ec7-a23a-19eba9b017de",
           "x": 102,
           "y": 20,
           "icon": "Thaumcraft:FocusTrade size(1) dmg(0)",
@@ -8314,7 +8537,7 @@
           "id": "quest163",
           "name": "Buch der Blumen",
           "description": "Ein Meister der Kraeuterkunde braucht natuerlich ein gutes Lexikon.",
-          "uuid": "a54a507a-9772-4035-8579-268c6a37771f",
+          "uuid": "2b3628e3-3bda-4426-a569-0620ca45e089",
           "x": 30,
           "y": 40,
           "icon": "Botania:lexicon size(1) dmg(0)",
@@ -8349,7 +8572,7 @@
           "id": "quest164",
           "name": "Wiesen Power",
           "description": "Kraeterkunde ohne Kraeuter ist brotlose Kunst. Deshalb wird es deine Aufgabe sein, erst einmal einige Kraeuter zu sammeln und ihre einfachste Verarbeitung zu lernen.",
-          "uuid": "fc9d2b5c-efae-4fed-8859-c25e9c3155df",
+          "uuid": "74e87c16-5b58-419a-aaa1-965a11e4946b",
           "x": 42,
           "y": 60,
           "icon": "Botania:flower size(1) dmg(1)",
@@ -8415,7 +8638,7 @@
           "id": "quest165",
           "name": "Der Jungbrunnen",
           "description": "Wenn man die Bluetenblaetter unterschiedlicher Kraeuter kombiniert, erhaelt man neue Pflanzen mit interessanten Eigenschaften.",
-          "uuid": "6b9e8c07-b199-4878-b45f-9d08621b1080",
+          "uuid": "b7a7da3e-25fc-450c-8756-7e08ea978a98",
           "x": 54,
           "y": 80,
           "icon": "Botania:altar size(1) dmg(0)",
@@ -8451,7 +8674,7 @@
           "id": "quest166",
           "name": "Das pure Weiss",
           "description": "Der schlaue Kraeuterkundler weiss das in Holz und Stein auch lebende Eigenschaften stecken. Diese muessen aber erst heraus gearbeitet werden.",
-          "uuid": "aa96aa68-3dbe-4596-bf07-a779c534bde3",
+          "uuid": "eb04a9d2-0f40-405a-bc7f-e5e868148c15",
           "x": 66,
           "y": 60,
           "icon": {
@@ -8510,7 +8733,7 @@
           "id": "quest167",
           "name": "Im Sternzeichen der Blume",
           "description": "Gerade am Anfang weiss man nie wieviel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.",
-          "uuid": "83747030-b143-48bc-9637-27fc78f524de",
+          "uuid": "14b10c8d-336f-4c0a-a255-e70cc8a969ba",
           "x": 30,
           "y": 80,
           "icon": {
@@ -8549,7 +8772,7 @@
           "id": "quest168",
           "name": "Die Feuerblume",
           "description": "Eine gute Manaquelle ist die Endoflame. Sie kann Mana aus allem was brennbar ist generieren. Und wenn man genug davon hat, sollte man diese benutzen.",
-          "uuid": "5634aa5b-8cad-4c71-98ff-47b35e7864bc",
+          "uuid": "efaf97ae-251c-44bb-9438-c7c2c2f26814",
           "x": 42,
           "y": 100,
           "icon": {
@@ -8588,7 +8811,7 @@
           "id": "quest169",
           "name": "Das Alpenhorn",
           "description": "Das staendige Buecken nach den Blumen geht ganz schoen auf den Ruecken. Koennen diese nicht von allein in den Beutel springen?",
-          "uuid": "89cbf10c-c478-4a3c-bfb9-947573d97c8e",
+          "uuid": "4c124ce9-b2ad-452a-9091-68ab79d7f1da",
           "x": 78,
           "y": 40,
           "icon": "Botania:grassHorn size(1) dmg(0)",
@@ -8623,7 +8846,7 @@
           "id": "quest170",
           "name": "Blaues Wasser",
           "description": "Wir sind erst am Anfang unserer Kraeuterkunde. Aber dafuer brauchen wir wichtig Gegenstaende um das Mana der Natur zu sammeln.",
-          "uuid": "de9717e9-1bcb-4374-a428-f505a33669ff",
+          "uuid": "3413b4a3-de5c-4c16-82b8-92b14d6bcb8a",
           "x": 90,
           "y": 60,
           "icon": {
@@ -8656,7 +8879,7 @@
                   "precision": "PRECISE"
                 },
                 {
-                  "item": "Botania:pool size(1) dmg(2)",
+                  "item": "Botania:pool size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -8671,7 +8894,7 @@
           "id": "quest171",
           "name": "Die Kraft der Blumen",
           "description": "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
-          "uuid": "7859e04a-e967-429c-9445-5fa6993ebf35",
+          "uuid": "7de9ec01-bbff-4c19-8c3a-8c7edfd2ecc3",
           "x": 102,
           "y": 40,
           "icon": {
@@ -8684,7 +8907,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -8720,48 +8943,10 @@
           ]
         },
         {
-          "id": "quest172",
-          "name": "Das blaue Bassin",
-          "description": "Unser erster Manapool war recht schnell voll. Er scheint wohl kein grosses Fassungsvermoegen zu haben.",
-          "uuid": "0fcaedae-777f-4548-9391-e97eab1f39b1",
-          "x": 130,
-          "y": 40,
-          "icon": "Botania:pool size(1) dmg(0)",
-          "requirements": [
-            "quest171"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Jetzt lernst du die einfache Benutzung deines Manas. Wenn du ein Item in einen gefuellten Manapool wirfst, wird dieses in eine verbesserte Form verwandelt. Das geht natuerlich nicht mit allen Dingen. Aber der Tooltip an deinem Cursor hilft dir da weiter.",
-              "requirements": [
-                {
-                  "item": "Botania:pool size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            {
-              "item": "Botania:specialFlower size(1) dmg(0)",
-              "nbt": "{type:'thermalily'}"
-            }
-          ]
-        },
-        {
           "id": "quest173",
           "name": "Der Schaltkasten",
           "description": "Unser Mananetzwerk wird jetzt immer groesser. Dann wird es Zeit fuer weiter Werkzeuge zum Steuern des Manaflusses.",
-          "uuid": "87b824c9-fd83-496c-b395-bae8fbf691a5",
+          "uuid": "836b6943-af16-41b2-9b60-b75e66a7d915",
           "x": 166,
           "y": 20,
           "icon": "Botania:manaTablet size(1) dmg(0)",
@@ -8816,12 +9001,12 @@
           "id": "quest174",
           "name": "Das blaue Werkzeug",
           "description": "Und schon sind wir bei den naechsten aufgewertetet Gegenstaenden, die du als Meister der Kraeuterkunde kennen musst.",
-          "uuid": "64d8855b-ad2e-4956-a52c-6f9f56e93a35",
+          "uuid": "1e35affb-741a-4dd0-a732-18b5f156449b",
           "x": 154,
           "y": 40,
           "icon": "Botania:manaResource size(1) dmg(0)",
           "requirements": [
-            "quest172"
+            "quest171"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -8873,7 +9058,7 @@
           "id": "quest175",
           "name": "Die blaue Kostuem",
           "description": "Was liegt naeher, als ein super Ruestung aus Manasteel herzustellen?",
-          "uuid": "def69612-fbca-479d-92f4-1f59572fd7c1",
+          "uuid": "96a5b69f-c90b-4639-b82b-30b0c3370ad5",
           "x": 142,
           "y": 20,
           "icon": "Botania:manasteelHelm size(1) dmg(0)",
@@ -8929,7 +9114,7 @@
           "id": "quest176",
           "name": "Das Teleskop",
           "description": "Mit Manalinsen laesst sich das Verhalten der Manaspreader veraendern. Sie koennen auch fuer schoene Schmuckstuecke benutzt werden.",
-          "uuid": "13dc903e-af5d-4c5f-9d00-e8b358fb295f",
+          "uuid": "dea4ea78-f062-40ff-8b29-dd51f4bef4a8",
           "x": 166,
           "y": 60,
           "icon": {
@@ -9006,7 +9191,7 @@
           "id": "quest177",
           "name": "Der grosse Attraktor",
           "description": "Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik zu dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgenwann irgendwie sinnvoll.",
-          "uuid": "f244303a-70bb-4cae-a640-acf2f278c321",
+          "uuid": "d4e9ded4-2277-4697-b572-0810deccf966",
           "x": 178,
           "y": 80,
           "icon": {
@@ -9045,7 +9230,7 @@
           "id": "quest178",
           "name": "Die heilige Staette",
           "description": "Manche Dinge lassen sich ja wunderbar mit speziellen Blumen erledigen, aber da sind auch maechtigere Zauber. Fuer diese Dinge bedarf es eines maechigeren Werkzeugs, dem Altar.",
-          "uuid": "2495e37d-4059-47e7-89d2-4abc8801454b",
+          "uuid": "3f786a72-1c80-493f-914d-0f64888511b2",
           "x": 178,
           "y": 40,
           "icon": "Botania:runeAltar size(1) dmg(0)",
@@ -9082,7 +9267,7 @@
           "id": "quest179",
           "name": "Die fuenf Elemente",
           "description": "Die wichtigsten Teile, die mit dem Altar hergestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichigte Zauber.",
-          "uuid": "262cbc5c-4574-49d2-9120-2880d9945882",
+          "uuid": "a37fa3f3-057b-4f5d-803f-6008a22accab",
           "x": 202,
           "y": 40,
           "icon": "Botania:rune size(1) dmg(8)",
@@ -9139,7 +9324,7 @@
           "id": "quest180",
           "name": "Die vier Jahreszeiten",
           "description": "Diese Runen sind um einiges maechtiger.",
-          "uuid": "08969d67-2536-4967-9c73-745dc38a2ea3",
+          "uuid": "a37d0bfe-1480-4cac-8b7e-60bf8b92fcbf",
           "x": 214,
           "y": 60,
           "icon": "Botania:rune size(1) dmg(5)",
@@ -9189,7 +9374,7 @@
           "id": "quest181",
           "name": "Die Basis des Glaubens",
           "description": "Die hohe Kunst der Runen. Diese Spezielrunen dienen als Grundlage fuer die maechtigsten Zauber.",
-          "uuid": "3793e9dd-4371-448d-94d4-df5773a9f1e7",
+          "uuid": "0cac9196-3915-41e3-9b2f-7c239c9cd4b5",
           "x": 226,
           "y": 80,
           "icon": "Botania:rune size(1) dmg(12)",
@@ -9261,7 +9446,7 @@
           "id": "quest182",
           "name": "Welt der Staebe",
           "description": "Mit den Runen oeffnet sich uns auch der Weg zu interessanten Zauberstaeben.",
-          "uuid": "51ef9e08-2623-4102-aa99-d5640e993e68",
+          "uuid": "04d5c453-b456-43c8-8dcf-299353ec7909",
           "x": 226,
           "y": 40,
           "icon": "Botania:dirtRod size(1) dmg(0)",
@@ -9327,7 +9512,7 @@
           "id": "quest183",
           "name": "Das verbotene Gesoeff",
           "description": "Die normalen Traenke sind in vielen Faellen schon sehr nuetzlich. Aber sie koennten staerker sind und laenger dauern.",
-          "uuid": "f05b9264-d952-4443-b132-62d12454b8d2",
+          "uuid": "88458d31-c16a-4fe5-931b-b4657b522172",
           "x": 214,
           "y": 20,
           "icon": "Botania:brewery size(1) dmg(0)",
@@ -9368,7 +9553,7 @@
           "id": "quest184",
           "name": "Das gruene Monster",
           "description": "Die naechste Stufe des Kraeuterkundlers. ",
-          "uuid": "065cef7c-84b7-45ca-bfac-d21c7df2cefe",
+          "uuid": "b45b6917-f0c7-4ff8-805b-ec4cac91ec1e",
           "x": 126,
           "y": 100,
           "icon": "Botania:manaResource size(1) dmg(4)",
@@ -9416,7 +9601,7 @@
           "id": "quest185",
           "name": "Der gruene Teufel",
           "description": "Und wieder eine formschoene Ruestung.",
-          "uuid": "96e62187-0818-4528-892f-431eb6e2c2ea",
+          "uuid": "e33e81d0-618b-49e1-9dee-cdfb1c0385e3",
           "x": 102,
           "y": 100,
           "icon": "Botania:terrasteelHelm size(1) dmg(0)",
@@ -9472,7 +9657,7 @@
           "id": "quest186",
           "name": "Die Kraft der Erde",
           "description": "Mit diesem einzigartigen Stab kannst du den Bereich auf dem du stehst einebenen.",
-          "uuid": "54d5f813-c8cd-4eaa-89a4-bb493d93845b",
+          "uuid": "d8fbe8b3-10e7-4afa-abee-fb2751d51a60",
           "x": 150,
           "y": 100,
           "icon": "Botania:terraformRod size(1) dmg(0)",
@@ -9507,7 +9692,7 @@
           "id": "quest187",
           "name": "Das Tor zum Himmel",
           "description": "Das Elven Portal oeffnet uns den Weg zu einzigartigen Zaubern eines Krauterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal handel treiben.",
-          "uuid": "f2262ce9-2830-44c2-b8f2-57a5eb08919d",
+          "uuid": "b92d8bef-bfac-472e-8830-0a62d612adb7",
           "x": 138,
           "y": 120,
           "icon": "Botania:alfheimPortal size(1) dmg(0)",
@@ -9547,7 +9732,7 @@
           "id": "quest188",
           "name": "Die pinke Zelle",
           "description": "Elementium Steel ist das staerkste Metall, das du jetzt herstellen kannst.",
-          "uuid": "55d73f81-a6eb-4ef9-b326-af0f0d78705e",
+          "uuid": "54ef07b5-7e27-433f-ad62-941937b45718",
           "x": 126,
           "y": 140,
           "icon": "Botania:manaResource size(1) dmg(7)",
@@ -9582,7 +9767,7 @@
           "id": "quest189",
           "name": "Pink Panther",
           "description": "Die letzte Ruestung, versprochen!",
-          "uuid": "9707ecca-26b1-46c4-b065-06bdd712b91e",
+          "uuid": "10c96da6-a35d-4d28-b902-53a0bb0a0c38",
           "x": 102,
           "y": 140,
           "icon": "Botania:elementiumHelm size(1) dmg(0)",
@@ -9638,7 +9823,7 @@
           "id": "quest190",
           "name": "Das pinke Werkzeug",
           "description": "Mit dem Elvenportal lassen sich neue wichtig Gegenstaende herstellen.",
-          "uuid": "c7ede1a3-51e1-4db2-8321-e59236479a1d",
+          "uuid": "56d4d6a4-416c-49a8-be8b-1c73fb70d35a",
           "x": 138,
           "y": 160,
           "icon": "Botania:manaResource size(1) dmg(8)",
@@ -9685,7 +9870,7 @@
           "id": "quest191",
           "name": "Der Krueckstock",
           "description": "Und wieder Upgrades fuer einfache Staebe.",
-          "uuid": "5ac2b27b-6c9d-42f9-9a88-0b33eaf312cb",
+          "uuid": "85717eff-2ccc-4f76-9d88-7df371de4b05",
           "x": 150,
           "y": 180,
           "icon": "Botania:skyDirtRod size(1) dmg(0)",
@@ -9730,7 +9915,7 @@
           "id": "quest192",
           "name": "Runen der Macht",
           "description": "Du hast ja schon die Sparks kennen gelernt. Mit den Erweiterungen (Augment) kannst du neue Effekte mit den Sparks erreichen.",
-          "uuid": "47bbd274-da5d-4089-a3d9-841a58c53e77",
+          "uuid": "3637e34a-323a-49e0-97c4-06ab8ce9a1db",
           "x": 162,
           "y": 160,
           "icon": "Botania:sparkUpgrade size(1) dmg(0)",
@@ -9787,7 +9972,7 @@
           "id": "quest193",
           "name": "Die boese Hexe",
           "description": "Es wird Zeit fuer einen ordentlichen Bosskampf. Aber dieser hat es in sich. Du solltest eine gute Ruestung und starke Traenke am Start haben.",
-          "uuid": "e965a7b5-3403-4b83-8fb6-76b11664ae3f",
+          "uuid": "8fe588e1-a623-4036-a58d-a1e89f299fa8",
           "x": 150,
           "y": 140,
           "icon": "Botania:manaResource size(1) dmg(5)",
@@ -9835,7 +10020,7 @@
           "id": "quest194",
           "name": "Verhexte Dinge",
           "description": "Wer haette es gedacht, aus den Gaia Spirit lassen sich noch bessere Gegestaende herstellen.",
-          "uuid": "6099161f-7564-458b-b5da-ac0d5d064684",
+          "uuid": "f8930440-4e05-4ee6-b746-8ed54cc30826",
           "x": 162,
           "y": 120,
           "icon": "Botania:manaResource size(1) dmg(14)",
@@ -9876,7 +10061,7 @@
           "id": "quest195",
           "name": "Der Hexenbesen",
           "description": "Wir hatten lange keinen Stab mehr. Aber dieser ist etwas besonderes.",
-          "uuid": "db40519e-2614-4ffa-ae64-81f4176d01ff",
+          "uuid": "7b3650ab-150d-4355-9147-0ae3fa2a8a7f",
           "x": 174,
           "y": 140,
           "icon": "Botania:rainbowRod size(1) dmg(0)",
@@ -9911,7 +10096,7 @@
           "id": "quest196",
           "name": "Die Flaschenpost",
           "description": "Du hast das End betreten. Nachdem du den Drachen getoetet hast, siehst du dich etwas um. Dir faellt auch dieses besondere Aroma in der Luft auf. Ob sich das wohl nutzen laesst?",
-          "uuid": "1ca06ae7-2527-4854-8e14-cb36c8cbab64",
+          "uuid": "a235aa7a-c805-4705-81f7-6d503ce9ffcd",
           "x": 274,
           "y": 165,
           "icon": "Botania:manaResource size(1) dmg(15)",
@@ -9943,7 +10128,7 @@
           "id": "quest197",
           "name": "Wie auf Wolke 7",
           "description": "Es wird Zeit fuer unsere Flugfaehigkeit.",
-          "uuid": "f6e078a4-8f30-41f8-9b02-5ac778ebf663",
+          "uuid": "9e16db50-d6f3-42a4-9611-d1f0ac464c2a",
           "x": 250,
           "y": 165,
           "icon": "Botania:flightTiara size(1) dmg(0)",
@@ -9978,7 +10163,7 @@
           "id": "quest198",
           "name": "Der rote Faden",
           "description": "Rote Faeden, was soll das schon bringen? Die machen bestimmt nur rote Kleidungsstuecke.",
-          "uuid": "647267d0-d984-4c11-ab68-d39dc43730c5",
+          "uuid": "9ca97cd8-0ddf-422b-971c-61df229882f7",
           "x": 262,
           "y": 145,
           "icon": "Botania:manaResource size(1) dmg(12)",
@@ -10013,7 +10198,7 @@
           "id": "quest199",
           "name": "Die Fernwaffe",
           "description": "Doch keine rote Kleidung. Bloecke, die eine magische Fernwirkung haben. Was sich damit alles machen laesst?",
-          "uuid": "b7ca7bd1-e99b-4b85-8cd8-2df74dcc273e",
+          "uuid": "5bd3a3b6-9226-4aad-b8b0-2dcec434f472",
           "x": 250,
           "y": 125,
           "icon": "Botania:redStringRelay size(1) dmg(0)",
@@ -10076,7 +10261,7 @@
           "id": "quest200",
           "name": "Opfere dich selbst",
           "description": "Jeder faengt mal klein an. Auch der Meister des Blutes muss das. Klein bedeutet aber auch das eigene Blut zu benutzen.",
-          "uuid": "b5dbc953-e89e-4e41-9c90-a63d2dc949e4",
+          "uuid": "c1a34113-0303-4b70-880b-0c9100bc079d",
           "x": 22,
           "y": 20,
           "icon": "AWWayofTime:Altar size(1) dmg(0)",
@@ -10125,7 +10310,7 @@
           "id": "quest201",
           "name": "Die Basisplatte",
           "description": "Die Schieferplatten (slate) sind die Basiskomponenten aus denen die Werkzeuge des Blutmagier gemacht sind. Der erste ist die Blank Slate.",
-          "uuid": "a15a384f-1638-4b02-9011-9b1fc2d65e99",
+          "uuid": "d1d86251-7b87-4f12-bb67-8d40fb2acdae",
           "x": 74,
           "y": 45,
           "icon": "AWWayofTime:blankSlate size(1) dmg(0)",
@@ -10161,7 +10346,7 @@
           "id": "quest202",
           "name": "Gib mir die Kugel",
           "description": "Die Orbs sind magische Gegenstaende zum Speichern von Blut.",
-          "uuid": "cacf2d01-3e23-4ace-a91c-3ed542dc8f0b",
+          "uuid": "55543941-36d0-405c-9788-61cf2afb17c9",
           "x": 50,
           "y": 85,
           "icon": "AWWayofTime:weakBloodOrb size(1) dmg(0)",
@@ -10196,7 +10381,7 @@
           "id": "quest203",
           "name": "Allwissend",
           "description": "Damit die Zauber am Altar auch alle auf Anhieb klappen, muss man immer wissen wie viel Blut im Netzwerk ist.",
-          "uuid": "3a42e58b-2452-41d2-8775-bd23c3af6896",
+          "uuid": "52699a29-9863-4e8b-b2e3-88c481d925f3",
           "x": 86,
           "y": 25,
           "icon": "AWWayofTime:divinationSigil size(1) dmg(0)",
@@ -10224,14 +10409,15 @@
             }
           ],
           "reward": [
-            "AWWayofTime:bucketLife size(1) dmg(0)"
+            "AWWayofTime:bucketLife size(1) dmg(0)",
+            "Sanguimancy:soulCorruptionTest size(1) dmg(2)"
           ]
         },
         {
           "id": "quest204",
           "name": "Feuer und Wasser",
           "description": "Die Siegel sind das Hauptwerkzeug des Blutmagiers. Fangen wir klein an.",
-          "uuid": "b1d7e7cc-bbde-46d1-971d-cf978f148679",
+          "uuid": "8d7df601-9658-4fe9-9f63-6a266e76ca2b",
           "x": 62,
           "y": 65,
           "icon": "AWWayofTime:lavaSigil size(1) dmg(0)",
@@ -10273,7 +10459,7 @@
           "id": "quest205",
           "name": "Stroh zu Gold",
           "description": "Was waere ein Zaubermod ohne Traenke. Auch der Blutmagier hat seinen eigenen Braustand, oder sollte ich besser Giftkueche sagen.",
-          "uuid": "b41d3ebb-ba73-4ad8-b294-20b66873fe3a",
+          "uuid": "80a057c6-d1d2-428e-9ada-7b50256f4f94",
           "x": 22,
           "y": 115,
           "icon": "AWWayofTime:blockWritingTable size(1) dmg(0)",
@@ -10327,7 +10513,7 @@
           "id": "quest206",
           "name": "Die bewehrte Platte",
           "description": "Ein besseres Sigil oeffnet den Weg zu besseren Items.",
-          "uuid": "0e9cdfcd-6f49-4573-badd-638013affdb6",
+          "uuid": "f861e614-ad85-4c60-ad26-2adafc632d4f",
           "x": 106,
           "y": 45,
           "icon": "AWWayofTime:reinforcedSlate size(1) dmg(0)",
@@ -10363,7 +10549,7 @@
           "id": "quest207",
           "name": "Die Kugel rollt",
           "description": "Das zweite Level der Orbs.",
-          "uuid": "e47e5326-976b-4478-9f05-29d0e7ef9143",
+          "uuid": "316da57d-67de-407d-b481-b9670b31d6f9",
           "x": 82,
           "y": 85,
           "icon": "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
@@ -10398,7 +10584,7 @@
           "id": "quest208",
           "name": "Aufbauen und Zerstoeren",
           "description": "Wir legen mit den Sigils richtig los.",
-          "uuid": "9ced960b-e357-42ec-b1a4-7203b0ceeb2a",
+          "uuid": "35cb1603-91f3-4c69-b6e5-403700906df9",
           "x": 94,
           "y": 65,
           "icon": "AWWayofTime:airSigil size(1) dmg(0)",
@@ -10471,7 +10657,7 @@
           "id": "quest209",
           "name": "Der Schluesselsatz",
           "description": "Die Basis alle weiteren Beschwoerungen sind diese Essenzen.",
-          "uuid": "804f470d-2f5a-49f3-bde0-e75fe8033e5f",
+          "uuid": "5ff532be-5ab8-4dba-9c85-745f778fd2dd",
           "x": 50,
           "y": 115,
           "icon": "AWWayofTime:aether size(1) dmg(0)",
@@ -10547,7 +10733,7 @@
           "id": "quest210",
           "name": "Die nasse Platte",
           "description": "Und noch eine bessere Variante der Slates.",
-          "uuid": "6ba20cec-2df2-4f3b-bba7-2d9b0bae3733",
+          "uuid": "066b50e3-fbde-4534-9d91-64a2c838d8b1",
           "x": 138,
           "y": 45,
           "icon": "AWWayofTime:imbuedSlate size(1) dmg(0)",
@@ -10582,7 +10768,7 @@
           "id": "quest211",
           "name": "Die Wasserkugel",
           "description": "Das dritte Level der Orbs.",
-          "uuid": "e756ff5e-3421-4877-8a9a-07eded08880d",
+          "uuid": "b1d2dd04-a3db-47af-8b4c-60bc6d1fffcb",
           "x": 114,
           "y": 85,
           "icon": "AWWayofTime:magicianBloodOrb size(1) dmg(0)",
@@ -10617,7 +10803,7 @@
           "id": "quest212",
           "name": "Hoch und runter",
           "description": "Kommen wir jetzt zur hohen Schule der Sigils.",
-          "uuid": "59262043-d49f-4e0b-8a49-5d556172de7c",
+          "uuid": "c416c811-c804-4a04-aa44-a2a048663cab",
           "x": 126,
           "y": 65,
           "icon": "AWWayofTime:sigilOfElementalAffinity size(1) dmg(0)",
@@ -10706,7 +10892,7 @@
           "id": "quest213",
           "name": "Die Malstifte",
           "description": "Eine wichtige Vorarbeit fuer die Rituale. Die Ritualsteine muessen mit bestimmten Runen bemalt werden.",
-          "uuid": "1c0c5327-9e68-427b-9129-5309f7878c24",
+          "uuid": "7ee47952-0217-45de-aede-203b8142003a",
           "x": 130,
           "y": 120,
           "icon": "AWWayofTime:fireScribeTool size(1) dmg(0)",
@@ -10757,7 +10943,7 @@
           "id": "quest214",
           "name": "Die Wuenschelrute",
           "description": "Die meisten Rituale sind sehr komplex, auch fuer das super Gedaechtnis eines Blutmagiers. Die Ritual Wuenchelrute hilft beim Aufbauen der Konstruktionen.",
-          "uuid": "03bd553b-afc4-4517-8bb6-98c6c9e895bd",
+          "uuid": "1198baef-cfe5-4e3d-ac20-e6bbd2279fd2",
           "x": 142,
           "y": 140,
           "icon": "AWWayofTime:itemRitualDiviner size(1) dmg(0)",
@@ -10792,7 +10978,7 @@
           "id": "quest215",
           "name": "Der schwere Stein",
           "description": "Rituale sind gewaltige Konstruktionen, mit den man auf seine Umgebung einwirken kann.",
-          "uuid": "c15db336-1a33-4c45-af18-665744f18575",
+          "uuid": "c12e9f77-4b5c-4e10-b066-f2bda553d54c",
           "x": 106,
           "y": 160,
           "icon": "AWWayofTime:masterStone size(1) dmg(0)",
@@ -10832,7 +11018,7 @@
           "id": "quest216",
           "name": "Mein Schatz",
           "description": "Das ist das erste Ritual das du brauchst um weiter zu kommen. Damit bindest du Gegenstaende an dich.",
-          "uuid": "3284636a-e954-41da-a2e1-234e8add793b",
+          "uuid": "354c2b2b-b1de-4e2e-a309-3f8a785207b8",
           "x": 130,
           "y": 160,
           "icon": "AWWayofTime:energySword size(1) dmg(0)",
@@ -10868,7 +11054,7 @@
           "id": "quest217",
           "name": "Das gefrorene Blut",
           "description": "Die Blutscherben sind die einfachsten Scherben, die du erhalten kannst. Benutze dein Bounded Sword und gehe auf Monsterjagd.",
-          "uuid": "4bad7aed-96bb-407e-85c9-7fd9031b2cb5",
+          "uuid": "5311a296-a9ad-4765-b94d-32d76f251ca1",
           "x": 154,
           "y": 160,
           "icon": "AWWayofTime:weakBloodShard size(1) dmg(0)",
@@ -10903,7 +11089,7 @@
           "id": "quest218",
           "name": "Der Unzerstoerbare",
           "description": "Was haelst du von einer Ruestung, die fast alles absorbieren  und ausserdem mit zusaetzlichen Eigenschaften aufgeruestet werden kann.",
-          "uuid": "eb0b03ee-aeb4-4959-b5d3-2d90765e388e",
+          "uuid": "a2602609-6ef2-4d51-9443-ae517b3c09d8",
           "x": 166,
           "y": 180,
           "icon": "AWWayofTime:boundHelmet size(1) dmg(0)",
@@ -10977,7 +11163,7 @@
           "id": "quest219",
           "name": "Das Spezialwerkzeug",
           "description": "Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Demonen herbei zaubern.",
-          "uuid": "7c9ac6b3-e73f-48c7-9003-e2fef41f12ba",
+          "uuid": "e01c1cac-8e2a-4a11-8631-7771ef01829b",
           "x": 78,
           "y": 115,
           "icon": "AWWayofTime:bloodMagicBaseAlchemyItems size(1) dmg(0)",
@@ -11038,7 +11224,7 @@
           "id": "quest220",
           "name": "Der Debattierzirkel",
           "description": "Ein wichtiger Teil des Mods sind aber auch die Begleiter und Demonen, die man beschwoeren kann. Dazu ist ein weiterer spezieller Ritualaufbau notwendig.",
-          "uuid": "6546165f-e98b-4a76-87bb-5fb7404e66ec",
+          "uuid": "a7c12dad-c067-4277-b3c1-ebf6260d18ba",
           "x": 190,
           "y": 160,
           "icon": "AWWayofTime:blockPedestal size(1) dmg(0)",
@@ -11078,7 +11264,7 @@
           "id": "quest221",
           "name": "Der Satansbraten",
           "description": "Zur weiteren Ausbildung eines Blutmagiers ist der Demon Blood Shard notwendig. Diesen erhaelst du nur von Elementaren. Jeder dieser Elementare hat aber einen Angriffseffekt, der dir das Leben schwer macht.",
-          "uuid": "f89db9c9-157c-49eb-b963-b9318bdda556",
+          "uuid": "0ac256b0-dcca-45f2-b2a9-245c040c7ec6",
           "x": 214,
           "y": 160,
           "icon": "AWWayofTime:demonBloodShard size(1) dmg(0)",
@@ -11119,7 +11305,7 @@
           "id": "quest222",
           "name": "Die teuflische Platte",
           "description": "Und weiter geht es mit den Slates.",
-          "uuid": "4359efc4-0546-4ffd-a0aa-8265f9578737",
+          "uuid": "a6d0687a-b032-4524-a842-ff94d32b87f0",
           "x": 170,
           "y": 45,
           "icon": "AWWayofTime:demonicSlate size(1) dmg(0)",
@@ -11155,7 +11341,7 @@
           "id": "quest223",
           "name": "Die runde Kugel",
           "description": "Das vierte Level des Orbs. Jetzt beginnen die Probleme beim Aufbau des Altar.",
-          "uuid": "ddf3a37e-93b5-442d-b144-c42eda3c3eeb",
+          "uuid": "64a93b28-b661-4d9c-90b5-fb78c20d3167",
           "x": 146,
           "y": 85,
           "icon": "AWWayofTime:masterBloodOrb size(1) dmg(0)",
@@ -11190,7 +11376,7 @@
           "id": "quest224",
           "name": "Hin und weg",
           "description": "Was, noch mehr Sigil? Wir koennen doch schon alles moegliche.",
-          "uuid": "981eb590-268c-425e-83f2-70144d71b593",
+          "uuid": "aec44232-4312-488a-bcae-160c19a2ac9f",
           "x": 158,
           "y": 65,
           "icon": "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
@@ -11279,7 +11465,7 @@
           "id": "quest225",
           "name": "Der Filzstift",
           "description": "Einige Rituale sind so komplex, das eine weiter magische Tinte gebraucht wird. Mit deinem neuen Altar ist es jetzt moeglich diese herzustellen.",
-          "uuid": "13f0f3d7-e3d6-4577-98b4-dd9c547c7c77",
+          "uuid": "d90c7baf-b751-4e6b-a2af-4a25223cbc57",
           "x": 154,
           "y": 120,
           "icon": "AWWayofTime:duskScribeTool size(1) dmg(0)",
@@ -11328,7 +11514,7 @@
           "id": "quest226",
           "name": "Der Kristalltank",
           "description": "Bei einigen Ritualen ist es notwendig magische Reagenzien zu benutzen. Damit werden bestimmte Effekte frei geschalten.",
-          "uuid": "7f7f829b-aa61-4214-a316-47a8e1170b5f",
+          "uuid": "b358bb59-e795-46f9-93de-6f04846c6950",
           "x": 182,
           "y": 120,
           "icon": {
@@ -11386,7 +11572,7 @@
           "id": "quest227",
           "name": "Das Plueschtier",
           "description": "Ein Stadt voller Daemonen. Wer denkt sich sowas nur aus. Mit dem Ritual \"Convocation of the damned\" startest du den Prozess.",
-          "uuid": "0473c87a-e73a-4e48-a918-c82461afb868",
+          "uuid": "75c37e4a-4bb1-405e-b67b-cca82df8bd09",
           "x": 206,
           "y": 120,
           "icon": "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
@@ -11427,7 +11613,7 @@
           "id": "quest228",
           "name": "Die himmlische Platte",
           "description": "Der aktuell staerkste Slate!",
-          "uuid": "1b9bf70f-6b9a-44c3-bbca-bf6737595c0d",
+          "uuid": "7fddbcca-3a39-4b66-a57c-77a670c02fba",
           "x": 202,
           "y": 45,
           "icon": "AWWayofTime:bloodMagicBaseItems size(1) dmg(27)",
@@ -11462,7 +11648,7 @@
           "id": "quest229",
           "name": "Die perfekte Kugel",
           "description": "Das fuenfte Level der Orbs. Jetzt benoetigt man schon vier Netherstars fuer den Altar.",
-          "uuid": "fcde24a9-e093-42b2-9397-f5d97f286581",
+          "uuid": "baa60258-f5be-4954-b039-9f142561ba87",
           "x": 178,
           "y": 85,
           "icon": "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
@@ -11497,7 +11683,7 @@
           "id": "quest230",
           "name": "Wachsen und vergehen",
           "description": "Nimmt das den gar kein Ende mit den Sigil.",
-          "uuid": "442aac5c-4447-4a8c-9d9c-6de93f8f45fa",
+          "uuid": "f61c87a9-3aee-4a36-b482-1a4755250a27",
           "x": 190,
           "y": 65,
           "icon": "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
@@ -11533,7 +11719,7 @@
           "id": "quest231",
           "name": "Der Kreis schliesst sich",
           "description": "Der sechste Level der Orbs. Das Problem ist hier wie immer der Altar. Vier Crystal Cluster sind eine harte Nuss.",
-          "uuid": "ccb7252d-431b-4630-b6b3-7771251b72af",
+          "uuid": "d38bb0a9-ffc3-4170-975a-16e7f42733a1",
           "x": 210,
           "y": 85,
           "icon": "AWWayofTime:transcendentBloodOrb size(1) dmg(0)",
@@ -11574,7 +11760,7 @@
           "id": "quest232",
           "name": "Alpha und Omega",
           "description": "Ein Blick in die Zukunft. Mit einer neuen Tinte eroeffnen sich neue Welten fuer den Meister der Meister. Du bist jetzt bereit fuer das Projekt Omega.",
-          "uuid": "5130d703-d75f-461a-8db4-2eb6f7bc2492",
+          "uuid": "6af103c8-fc08-4d52-803b-68391849bb5d",
           "x": 234,
           "y": 120,
           "icon": "AWWayofTime:dawnScribeTool size(1) dmg(0)",
@@ -11622,7 +11808,7 @@
           "id": "quest320",
           "name": "Der Grenzgaenger",
           "description": "Die blutrote (sanguine) Ruestung stellt ein Bindeglied zu einem anderen Mod dar und kann eigenstaendig genutzt werden oder in die Blood Magig Ruestung eingearbeitet werden.",
-          "uuid": "500c273f-c90f-4923-867e-f66c4f4eb25b",
+          "uuid": "a01ddbd8-7d73-48ed-b2aa-a222f07bd859",
           "x": 142,
           "y": 180,
           "icon": "AWWayofTime:sanguineHelmet size(1) dmg(0)",
@@ -11687,7 +11873,7 @@
           "id": "quest266",
           "name": "Der Gluecksritter",
           "description": "Dieses edle Erz ist schwer zu finden. Trotzdem lassen sich daraus maechtige Waffen und Werkzeuge herstellen. Man findet es sehr selten im Nether oder aber im End. Auch kann man es aus Endstone heraus sieben, wenn man fleissig ist.",
-          "uuid": "0c90d5cd-3d9f-4a48-8aa9-00edd08d5c1f",
+          "uuid": "cdd8082a-b26a-4056-b2b6-ab4cace558f8",
           "x": 78,
           "y": 15,
           "icon": "DraconicEvolution:draconiumIngot size(1) dmg(0)",
@@ -11737,7 +11923,7 @@
           "id": "quest267",
           "name": "Das Wurmloch",
           "description": "Ein einfachen und simpler Teleporter. Man kann aber immer nur zwei Punkte miteinander verbinden.",
-          "uuid": "98ca2340-964b-479e-b50f-0416cfc3625f",
+          "uuid": "92b82df2-c19b-4de4-a3a1-0de9bebe3fd7",
           "x": 106,
           "y": 15,
           "icon": "DraconicEvolution:teleporterStand size(1) dmg(0)",
@@ -11777,7 +11963,7 @@
           "id": "quest268",
           "name": "Des Pudels Kern",
           "description": "Der erste Kern, den man als junger Drachentoeter lernen muss.",
-          "uuid": "27f95381-3947-4be7-a638-fbf7b2736165",
+          "uuid": "4d70416e-af71-4bb0-be76-76e9253e4afa",
           "x": 78,
           "y": 100,
           "icon": "DraconicEvolution:draconicCore size(1) dmg(0)",
@@ -11812,7 +11998,7 @@
           "id": "quest269",
           "name": "Das Kraftpaket",
           "description": "Neue staerkere Waffen und Maschienen brauchen natuerlich auch einen staerkeren Generator.",
-          "uuid": "a8d52e53-63e3-4298-b4c8-54660363d349",
+          "uuid": "5fb2e3b9-fcc9-42b1-b71e-6c8737e8060a",
           "x": 50,
           "y": 85,
           "icon": "DraconicEvolution:generator size(1) dmg(3)",
@@ -11847,7 +12033,7 @@
           "id": "quest270",
           "name": "Der Sonnenanbeter",
           "description": "Jetzt zeigt sich die ware Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.",
-          "uuid": "2c5e20f1-0dfb-4d91-a35a-be167bbe21a9",
+          "uuid": "fb660098-d5d2-47aa-993d-dbdcc055361b",
           "x": 234,
           "y": 100,
           "icon": "DraconicEvolution:sunDial size(1) dmg(0)",
@@ -11882,7 +12068,7 @@
           "id": "quest271",
           "name": "Der Killer",
           "description": "Fuer die automatische Jadg auf Grosswild braucht man eine besonders gefaehrliche Maschine. Diese haellt auch schweren Explosionen stand.",
-          "uuid": "ca4edce7-ff76-4b09-991d-9ea431b61b1b",
+          "uuid": "664e07f0-17a0-457b-8eb8-ab774e350f18",
           "x": 38,
           "y": 105,
           "icon": "DraconicEvolution:grinder size(1) dmg(3)",
@@ -11917,7 +12103,7 @@
           "id": "quest272",
           "name": "Der Lieferant",
           "description": "Was waere eine bessere Energieerzeugung ohne eine bessere Ladestation. Hier haben wir genau das Richtige.",
-          "uuid": "5db087af-6830-4dac-a748-6a4c82cd4457",
+          "uuid": "e8da2883-6914-44de-ae40-bf5ef7d5b6ec",
           "x": 50,
           "y": 125,
           "icon": "DraconicEvolution:energyInfuser size(1) dmg(0)",
@@ -11952,7 +12138,7 @@
           "id": "quest273",
           "name": "Der Nimmersatte",
           "description": "Eins der Highlights dieses Mods ist diese Zauberkisten. Sie ist ein wahrer Alleskoenner. Passt viel rein und bietet allen Luxus fuer einfache Verarbeitungsschritte.",
-          "uuid": "95bdd941-78de-444b-a021-27a7a5497b97",
+          "uuid": "3cb61eaa-bf7c-4b84-9bb2-9bb06fc59265",
           "x": 62,
           "y": 145,
           "icon": "DraconicEvolution:draconiumChest size(1) dmg(0)",
@@ -11987,7 +12173,7 @@
           "id": "quest274",
           "name": "Die Kernfrage",
           "description": "Da du jetzt schon etwas Erfahrung hast mit dem Umgang der einfachen Kerne, sollte dir dieser neue bessere Kern keine Sorgen machen.",
-          "uuid": "4ddc4861-55dd-4839-800a-71e26d4978ae",
+          "uuid": "ff0e68db-1b41-4ac8-83d8-a1fc710e9731",
           "x": 126,
           "y": 100,
           "icon": "DraconicEvolution:wyvernCore size(1) dmg(0)",
@@ -12022,7 +12208,7 @@
           "id": "quest275",
           "name": "Der Blechkamerad",
           "description": "Die Waffen eines Wyvern Kriegers sollten in keinem gut gefuerten Kriegerzelt fehlen.",
-          "uuid": "a640c5e5-b424-467f-8fe7-9704181b13a8",
+          "uuid": "f271da68-9bb6-4eb5-b2bd-270b3b9f6aa9",
           "x": 102,
           "y": 60,
           "icon": {
@@ -12065,11 +12251,11 @@
           "id": "quest276",
           "name": "Das flinke Wiesel",
           "description": "Auch der friedliche Aspekt sollte nicht zu kurz kommen. Aber wer braucht schon ewigen Frieden?",
-          "uuid": "87ea3d33-4dd8-40dd-8ad4-cc1d58dddbdf",
+          "uuid": "d40dd823-a5fa-4cc1-8c77-19f514ff63b1",
           "x": 126,
           "y": 60,
           "icon": {
-            "item": "DraconicEvolution:wyvernShovel size(1) dmg(0)",
+            "item": "DraconicEvolution:wyvernPickaxe size(1) dmg(0)",
             "nbt": "{Energy:1000000}"
           },
           "requirements": [
@@ -12085,7 +12271,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Diese Werkzeuge sind nicht nur in ihrer Flaechenwirkung einstellbar. Sie habe auch eine spezielle AOE Eigenschaft. Finde sie heraus.",
+              "description": "Diese Werkzeuge sind nicht nur in ihrer Flaechenwirkung einstellbar. Sie habe auch eine spezielle AOE Eigenschaft. Finde sie heraus. (wird leider hier nicht sauber angezeigt)",
               "requirements": [
                 {
                   "item": "DraconicEvolution:wyvernPickaxe size(1) dmg(0)",
@@ -12108,7 +12294,7 @@
           "id": "quest277",
           "name": "Der Beastmaster",
           "description": "Manchmal benoetigt man Drops von ganz bestimmten Mobs fuer die es aber keine Spawner gibt. Da haben wir jetzt Abhilfe.",
-          "uuid": "491d3e9f-c9ee-438c-9f0e-2b04822e7828",
+          "uuid": "c34d3ce1-73f4-499b-913c-cf7d6965d57f",
           "x": 146,
           "y": 25,
           "icon": "DraconicEvolution:customSpawner size(1) dmg(0)",
@@ -12154,7 +12340,7 @@
           "id": "quest278",
           "name": "Die Energiekugel",
           "description": "Das Filetstueck dieses Mods ist der Energiekern. Ein riesiges Teil, das auf jeden Fall nett anzusehen ist.",
-          "uuid": "79c7a11b-50ee-4e4d-ad02-fb43871f4d65",
+          "uuid": "61de984f-37c9-4094-860e-f633a6d09b5b",
           "x": 150,
           "y": 60,
           "icon": "DraconicEvolution:energyPylon size(1) dmg(0)",
@@ -12194,7 +12380,7 @@
           "id": "quest279",
           "name": "Wyvern Armor",
           "description": "Es geht ja hier ums Drachen toeten. Logisch, das man dafuer auch eine besondere Ruestung braucht. Und die erste Stufe haben wir hier.",
-          "uuid": "19abe6ba-7f7f-4392-a52d-4ad777bbfccb",
+          "uuid": "d7a3c4f6-9ea9-42de-9ba8-6b700458b73a",
           "x": 166,
           "y": 100,
           "icon": {
@@ -12254,7 +12440,7 @@
           "id": "quest280",
           "name": "Der Drachentoeter",
           "description": "Und schon sind wir beim Drachen. Toete den Enderdrachen und ernte das Drachenherz. Wer zuerst kommt, malt zu erst. Oder nicht?",
-          "uuid": "b7c6cd24-c96a-41f3-9dfe-210f3651b4c6",
+          "uuid": "e7e9ad43-96c1-4f00-aea2-652af2dc7c8d",
           "x": 166,
           "y": 135,
           "icon": "DraconicEvolution:dragonHeart size(1) dmg(0)",
@@ -12289,7 +12475,7 @@
           "id": "quest281",
           "name": "Das Ritual",
           "description": "Wir sind auf der Zielgeraden zu einem Draconic Meister. Du musst jetzt das Ritual zur Herstellung des Erwachten Draconischen Metalls ausfuehren.",
-          "uuid": "c42243c2-6c64-4baf-9f63-701403e72ea4",
+          "uuid": "d7d69407-afa2-42f5-8632-7e7d80185652",
           "x": 198,
           "y": 135,
           "icon": "DraconicEvolution:draconicIngot size(1) dmg(0)",
@@ -12324,7 +12510,7 @@
           "id": "quest282",
           "name": "Der Zinnsoldat",
           "description": "Ein Meister und seine Waffen. Niemand ist vor ihnen sicher.",
-          "uuid": "30c1ab71-896d-43b7-965e-1b42950c0e04",
+          "uuid": "2b14dcbb-4f04-470b-a9bb-0f1e19d58bed",
           "x": 262,
           "y": 110,
           "icon": {
@@ -12367,11 +12553,11 @@
           "id": "quest283",
           "name": "Der Schwerarbeiter",
           "description": "Ein erleuchteter Meister wird eher an der freidlichen Nutzung seines Wissens interessiert sein.",
-          "uuid": "afa72e11-2d88-441d-bfa5-29757ee4c7ac",
+          "uuid": "e5e8c58c-3cc6-42b3-bd42-778482da4811",
           "x": 266,
           "y": 140,
           "icon": {
-            "item": "DraconicEvolution:draconicShovel size(1) dmg(0)",
+            "item": "DraconicEvolution:draconicPickaxe size(1) dmg(0)",
             "nbt": "{Energy:10000000}"
           },
           "requirements": [
@@ -12387,7 +12573,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Stelle alle diese Werkzeuge her und staune ueber ihre Faehigkeiten.",
+              "description": "Stelle alle diese Werkzeuge her und staune ueber ihre Faehigkeiten. (wird leider hier nicht sauber angezeigt)",
               "requirements": [
                 {
                   "item": "DraconicEvolution:draconicAxe size(1) dmg(0)",
@@ -12420,7 +12606,7 @@
           "id": "quest284",
           "name": "Draconic Armor",
           "description": "Die letzte Ruestung, die du tragen wirst. Die Ruestung eines erleuchteten Meisters.",
-          "uuid": "fcf1804e-c0ff-4747-87a3-0b85aea9a908",
+          "uuid": "bccb847b-23db-48ee-898d-74fb30c81fcb",
           "x": 254,
           "y": 165,
           "icon": {
@@ -12479,7 +12665,7 @@
           "id": "quest285",
           "name": "Awakend Core",
           "description": "Der Kern der Meister. Nach dem letzten Ritual ist das hier schon wieder zu einfach, aber die Muehe hat sich gelohnt.",
-          "uuid": "ae3450fd-eb63-4c50-84e1-f411a4cf63bd",
+          "uuid": "132cb1a8-1639-40fb-b5eb-3a0a236b19a2",
           "x": 234,
           "y": 135,
           "icon": "DraconicEvolution:awakenedCore size(1) dmg(0)",
@@ -12527,7 +12713,7 @@
           "id": "quest233",
           "name": "Arctic Mobs I",
           "description": "Jage alle arktischen Mobs (Teil 1).",
-          "uuid": "37a5585c-268a-40eb-bd8f-d8f27abc67fc",
+          "uuid": "7201dc7b-e0d4-4d92-aa33-da37fa6759dc",
           "x": 110,
           "y": 110,
           "icon": "arcticmobs:arcticegg size(1) dmg(0)",
@@ -12585,7 +12771,7 @@
           "id": "quest234",
           "name": "Arctic Mobs II",
           "description": "Jage alle arktischen Mobs (Teil 2).",
-          "uuid": "e309b326-9aa6-44dc-9cb0-549ffbc5cf86",
+          "uuid": "d40f4aef-ccb0-4f67-a11c-46bfec3de14e",
           "x": 86,
           "y": 110,
           "icon": "arcticmobs:arcticegg size(1) dmg(3)",
@@ -12643,7 +12829,7 @@
           "id": "quest235",
           "name": "Arctic Scepter",
           "description": "Sammle alle arktischen Zepter.",
-          "uuid": "b9b2ef65-6900-43b1-a5ec-1abdf39ccd88",
+          "uuid": "0227856e-19c3-4940-a113-15cbc491cd57",
           "x": 62,
           "y": 110,
           "icon": "arcticmobs:frostboltscepter size(1) dmg(0)",
@@ -12695,7 +12881,7 @@
           "id": "quest236",
           "name": "Demon Mobs I",
           "description": "Jage alle daemonischen Mobs (Teil 1).",
-          "uuid": "e40ca48e-25b2-4d66-becc-65a067526b07",
+          "uuid": "f66f2fcc-46c1-4e1e-a7c1-3aa1ec05901a",
           "x": 122,
           "y": 90,
           "icon": "demonmobs:demonegg size(1) dmg(0)",
@@ -12761,7 +12947,7 @@
           "id": "quest237",
           "name": "Demon Mobs II",
           "description": "Jage alle daemonischen Mobs (Teil 2).",
-          "uuid": "e9469a91-7a1e-41ff-adf4-2c223c0843f3",
+          "uuid": "26d25176-53bf-4aaf-93fa-623af6bbc549",
           "x": 98,
           "y": 75,
           "icon": "demonmobs:demonegg size(1) dmg(4)",
@@ -12819,7 +13005,7 @@
           "id": "quest238",
           "name": "Demon Scepter",
           "description": "Sammle alle daemonischen Zepter.",
-          "uuid": "a9c82755-0fbd-4b3e-b0df-821bc5efdc0a",
+          "uuid": "16715e07-697f-432f-a4e5-6d86373e6fa4",
           "x": 74,
           "y": 60,
           "icon": "demonmobs:doomfirescepter size(1) dmg(0)",
@@ -12866,7 +13052,7 @@
           "id": "quest239",
           "name": "Desert Mobs I",
           "description": "Jage alle Wuestenmobs (Teil 1).",
-          "uuid": "26a6f0e7-8d74-4ec1-805a-be1c391437be",
+          "uuid": "278ff085-b9ee-478f-a387-a57153705b18",
           "x": 134,
           "y": 70,
           "icon": "desertmobs:desertegg size(1) dmg(0)",
@@ -12932,7 +13118,7 @@
           "id": "quest240",
           "name": "Desert Mobs II",
           "description": "Jage alle Wuestenmobs (Teil 2).",
-          "uuid": "8f483f76-bdcc-49bf-a9e2-ebfee58b4ab3",
+          "uuid": "76bd97a7-103b-400f-b445-44072bf12593",
           "x": 122,
           "y": 50,
           "icon": "desertmobs:desertegg size(1) dmg(4)",
@@ -12990,7 +13176,7 @@
           "id": "quest241",
           "name": "Desert Scepter",
           "description": "Sammle alle Wuestenzepter.",
-          "uuid": "5125268b-19d0-4794-bcff-94584920cc32",
+          "uuid": "55529fb9-fb47-4a63-87a3-c30f8d89b77c",
           "x": 110,
           "y": 30,
           "icon": "desertmobs:scythescepter size(1) dmg(0)",
@@ -13027,7 +13213,7 @@
           "id": "quest242",
           "name": "Forest Mobs I",
           "description": "Jage alle Waldmobs (Teil 1).",
-          "uuid": "ebd3b492-71eb-4f30-9fd7-c1c4eea673d1",
+          "uuid": "7ac707b6-c7ff-40f5-a985-d504e9e1ea0e",
           "x": 158,
           "y": 70,
           "icon": "forestmobs:forestegg size(1) dmg(0)",
@@ -13085,7 +13271,7 @@
           "id": "quest243",
           "name": "Forest Mobs II",
           "description": "Jage alle Waldmobs (Teil 2).",
-          "uuid": "33b2a490-251f-4bf6-ba0c-7ad581c5841c",
+          "uuid": "df435430-869b-4892-af8b-c46e1840b753",
           "x": 158,
           "y": 45,
           "icon": "forestmobs:forestegg size(1) dmg(3)",
@@ -13143,7 +13329,7 @@
           "id": "quest244",
           "name": "Forest Scepter",
           "description": "Sammle alle Waldzepter.",
-          "uuid": "a241e70c-270c-4769-832f-fd7629a59e1a",
+          "uuid": "de439336-51f3-475c-9252-1aba419a37a7",
           "x": 158,
           "y": 20,
           "icon": "forestmobs:lifedrainscepter size(1) dmg(0)",
@@ -13175,7 +13361,7 @@
           "id": "quest245",
           "name": "Freshwater Mobs",
           "description": "Jage alle Sueswassermobs.",
-          "uuid": "1a850e68-8a20-408f-84bb-63098fbf1e17",
+          "uuid": "2c84d541-3ec5-4db0-9a6a-e04514ae5beb",
           "x": 134,
           "y": 150,
           "icon": "freshwatermobs:freshwateregg size(1) dmg(0)",
@@ -13241,7 +13427,7 @@
           "id": "quest246",
           "name": "Freshwater Scepter",
           "description": "Sammle alle Sueswasserzepter.",
-          "uuid": "1e9984a3-dd76-4b67-91fe-535cfc83718c",
+          "uuid": "b45b165d-05f5-41c3-a868-4ba87dbd68b4",
           "x": 122,
           "y": 170,
           "icon": "freshwatermobs:aquapulsescepter size(1) dmg(0)",
@@ -13273,7 +13459,7 @@
           "id": "quest247",
           "name": "Inferno Mobs I",
           "description": "Jage alle infernalen Mobs (Teil 1).",
-          "uuid": "b1244d2b-a12d-4b6f-8615-186cc5a43952",
+          "uuid": "2a923a56-ba9f-4261-9752-5ba7edbc4f20",
           "x": 194,
           "y": 90,
           "icon": "infernomobs:infernoegg size(1) dmg(0)",
@@ -13331,7 +13517,7 @@
           "id": "quest248",
           "name": "Inferno Mobs II",
           "description": "Jage alle infernalen Mobs (Teil 2).",
-          "uuid": "5b036910-bd87-4318-8dcf-eaa5cfd0ec60",
+          "uuid": "6d99791c-b36e-4850-a900-3dc4c3b3d7da",
           "x": 218,
           "y": 75,
           "icon": "infernomobs:infernoegg size(1) dmg(3)",
@@ -13381,7 +13567,7 @@
           "id": "quest249",
           "name": "Inferno Scepter",
           "description": "Sammle alle Infernozepter.",
-          "uuid": "d613d64e-b979-4204-9e6a-669b7f6a79b9",
+          "uuid": "8f4a8368-aadf-4f1b-91cb-28406e460a8b",
           "x": 242,
           "y": 60,
           "icon": "infernomobs:magmascepter size(1) dmg(0)",
@@ -13423,7 +13609,7 @@
           "id": "quest250",
           "name": "Jungle Mobs I",
           "description": "Jage alle Jungelmobs (Teil 1).",
-          "uuid": "f252484e-6e9f-49e1-bf56-424dd78b71f0",
+          "uuid": "9012d932-c833-4528-9388-9368f9f91112",
           "x": 206,
           "y": 110,
           "icon": "junglemobs:jungleegg size(1) dmg(0)",
@@ -13481,7 +13667,7 @@
           "id": "quest251",
           "name": "Jungle Mobs II",
           "description": "Jage alle Jungelmobs (Teil 2).",
-          "uuid": "75491849-45e4-4152-a185-179582861547",
+          "uuid": "fe7974a9-a770-43bf-80e7-31810ce0e2d2",
           "x": 230,
           "y": 110,
           "icon": "junglemobs:jungleegg size(1) dmg(3)",
@@ -13539,7 +13725,7 @@
           "id": "quest252",
           "name": "Jungle Scepter",
           "description": "Sammle alle Jungelzepter.",
-          "uuid": "07ad3165-0ebf-42ef-a208-bf4eaa52bac9",
+          "uuid": "5d50169c-050e-4e75-8995-51973061b598",
           "x": 254,
           "y": 110,
           "icon": "junglemobs:poopscepter size(1) dmg(0)",
@@ -13571,7 +13757,7 @@
           "id": "quest253",
           "name": "Mountain Mobs I",
           "description": "Jage alle Bergmobs (Teil 1).",
-          "uuid": "c54d0e69-22e8-45bf-9cc5-68598b2aa200",
+          "uuid": "2a531480-59e2-444d-be9d-ce281cae63a1",
           "x": 194,
           "y": 130,
           "icon": "mountainmobs:mountainegg size(1) dmg(0)",
@@ -13629,7 +13815,7 @@
           "id": "quest254",
           "name": "Mountain Mobs II",
           "description": "Jage alle Bergmobs (Teil 2).",
-          "uuid": "fd549dcd-20ca-41dc-b0e1-4aa4dc929783",
+          "uuid": "05004474-6c03-4fc0-9941-693f37e0d21e",
           "x": 218,
           "y": 145,
           "icon": "mountainmobs:mountainegg size(1) dmg(3)",
@@ -13687,7 +13873,7 @@
           "id": "quest255",
           "name": "Mountain Scepter",
           "description": "Sammle alle Bergzepter.",
-          "uuid": "cc09987c-1a37-4e0d-a4b0-41077e653797",
+          "uuid": "91967de1-da38-48f1-92d2-d9774891c0f8",
           "x": 242,
           "y": 160,
           "icon": "mountainmobs:boulderblastscepter size(1) dmg(0)",
@@ -13724,7 +13910,7 @@
           "id": "quest256",
           "name": "Plain Mobs I",
           "description": "Jage alle Flachlandmobs (Teil 1).",
-          "uuid": "d1598f04-da4a-42c4-97da-971095726cef",
+          "uuid": "6dfb4d51-16be-48ff-a801-387200975691",
           "x": 182,
           "y": 150,
           "icon": "plainsmobs:plainsegg size(1) dmg(0)",
@@ -13782,7 +13968,7 @@
           "id": "quest257",
           "name": "Plain Mobs II",
           "description": "Jage alle Flachlandmobs (Teil 2).",
-          "uuid": "251ea822-ab28-46c3-b7d4-a8019e7d9c56",
+          "uuid": "6bd72456-e886-40cd-b65e-9cd2dff2bfc0",
           "x": 194,
           "y": 170,
           "icon": "plainsmobs:plainsegg size(1) dmg(3)",
@@ -13832,7 +14018,7 @@
           "id": "quest258",
           "name": "Saltwater Mobs I",
           "description": "Jage alle Salzwassermobs (Teil 1).",
-          "uuid": "e581a88d-0963-456b-b8bc-05e90907e1e9",
+          "uuid": "9fa53907-1e22-4ebd-8a9c-9c8b6f4547ac",
           "x": 158,
           "y": 150,
           "icon": "saltwatermobs:saltwateregg size(1) dmg(0)",
@@ -13890,7 +14076,7 @@
           "id": "quest259",
           "name": "Saltwater Mobs II",
           "description": "Jage alle Salzwassermobs (Teil 2).",
-          "uuid": "0fc63ddc-381c-41d4-adea-44db52c1714e",
+          "uuid": "914d89c3-ded9-45a3-bcbc-43f16cb9d677",
           "x": 158,
           "y": 175,
           "icon": "saltwatermobs:saltwateregg size(1) dmg(3)",
@@ -13940,7 +14126,7 @@
           "id": "quest260",
           "name": "Shadow Mobs I",
           "description": "Jage alle Schattenmobs (Teil 1).",
-          "uuid": "a7c86d23-d0fe-4e73-844b-c0291ab46d87",
+          "uuid": "670983db-1dde-4730-a53c-a0ccde9eef89",
           "x": 182,
           "y": 70,
           "icon": "shadowmobs:shadowegg size(1) dmg(0)",
@@ -13998,7 +14184,7 @@
           "id": "quest261",
           "name": "Shadow Mobs II",
           "description": "Jage alle Schattenmobs (Teil 2).",
-          "uuid": "972770ab-8e78-470b-8872-a3191e409a49",
+          "uuid": "369a7af9-102b-4eed-ba82-ed990c89acf6",
           "x": 194,
           "y": 50,
           "icon": "shadowmobs:shadowegg size(1) dmg(3)",
@@ -14056,7 +14242,7 @@
           "id": "quest262",
           "name": "Shadow Scepter",
           "description": "Sammle alle Schattenzepter.",
-          "uuid": "405b2eec-5323-4644-b3cc-598485d1dc24",
+          "uuid": "b3742228-387e-400d-98b9-d99645d61d3b",
           "x": 206,
           "y": 30,
           "icon": "shadowmobs:spectralboltscepter size(1) dmg(0)",
@@ -14093,7 +14279,7 @@
           "id": "quest263",
           "name": "Swamp Mobs I",
           "description": "Jage alle Sumpfmobs (Teil 1).",
-          "uuid": "71116ada-2075-430a-8f36-92a6530d52aa",
+          "uuid": "9c1a3595-ff52-48e5-aa25-ce92358946cb",
           "x": 122,
           "y": 130,
           "icon": "swampmobs:swampegg size(1) dmg(0)",
@@ -14159,7 +14345,7 @@
           "id": "quest264",
           "name": "Swamp Mobs II",
           "description": "Jage alle Sumpfmobs (Teil 2).",
-          "uuid": "c276b5c4-1a2e-42fa-bc1f-9a89754ca5cc",
+          "uuid": "1b0ef421-7afb-48be-af5a-41cebe3cc466",
           "x": 98,
           "y": 145,
           "icon": "swampmobs:swampegg size(1) dmg(4)",
@@ -14217,7 +14403,7 @@
           "id": "quest265",
           "name": "Swamp Scepter",
           "description": "Sammle alle Sumpfzepter.",
-          "uuid": "33e257db-6ad5-4af2-bb75-f1dd8c518b0f",
+          "uuid": "4ade9eec-fc42-42b1-8a43-8ea78005624e",
           "x": 74,
           "y": 160,
           "icon": "swampmobs:poisonrayscepter size(1) dmg(0)",
@@ -14261,7 +14447,7 @@
           "id": "quest288",
           "name": "Die Trophaee",
           "description": "Es wird zwar keine schoene Mail befreit, aber was kuemmert das uns Helden.",
-          "uuid": "120cf62c-d494-4b8d-bee5-a1ae2a675d7e",
+          "uuid": "5ad6c5b5-efcd-497b-a91a-9c94d7fb5fd0",
           "x": 70,
           "y": 45,
           "icon": "DraconicEvolution:dragonHeart size(1) dmg(0)",
@@ -14307,12 +14493,12 @@
                   "id": "loc000",
                   "name": "Drachen",
                   "icon": "customnpcs:npcHarp size(1) dmg(0)",
-                  "x": 0,
-                  "y": 0,
-                  "z": 0,
-                  "radius": 3,
+                  "x": -881,
+                  "y": 66,
+                  "z": 48,
+                  "radius": 1,
                   "visible": "LOCATION",
-                  "dim": 0
+                  "dim": 1000
                 }
               ]
             }
@@ -14325,7 +14511,7 @@
           "id": "quest328",
           "name": "Das Bollwerk",
           "description": "Nur der Beste der Besten der Besten kann hier bestehen.",
-          "uuid": "d9de60cd-62a7-4625-8ca9-d0878e3ee617",
+          "uuid": "c2c2fbda-5910-4782-aa33-9398e7e3ce1c",
           "x": 70,
           "y": 90,
           "icon": "Thaumcraft:ItemSwordElemental size(1) dmg(0)",
@@ -14373,12 +14559,12 @@
                   "id": "loc000",
                   "name": "Krieger",
                   "icon": "customnpcs:npcFullDiaShield size(1) dmg(0)",
-                  "x": 0,
-                  "y": 0,
-                  "z": 0,
-                  "radius": 3,
+                  "x": 592,
+                  "y": 66,
+                  "z": -577,
+                  "radius": 1,
                   "visible": "LOCATION",
-                  "dim": 0
+                  "dim": 1000
                 }
               ]
             }
@@ -14391,7 +14577,7 @@
           "id": "quest330",
           "name": "Der Streber",
           "description": "Dieser Dummkopf hat leider die dunkle Seite gewaehlt und muss dashalb mit allen Mitteln bekaempft werden.",
-          "uuid": "e4ce6d5e-6d02-4306-81c2-edd91bd70c58",
+          "uuid": "b06782f5-0a13-4090-9694-815199832b7d",
           "x": 70,
           "y": 135,
           "icon": "minecraft:carrot_on_a_stick size(1) dmg(0)",
@@ -14408,7 +14594,6 @@
             "quest277",
             "quest161",
             "quest023",
-            "quest368",
             "quest146",
             "quest150",
             "quest231",
@@ -14434,12 +14619,12 @@
                   "id": "loc000",
                   "name": "Wissenschaftler",
                   "icon": "customnpcs:npcLetter size(1) dmg(0)",
-                  "x": 0,
-                  "y": 0,
-                  "z": 0,
-                  "radius": 3,
+                  "x": 560,
+                  "y": 66,
+                  "z": 479,
+                  "radius": 1,
                   "visible": "LOCATION",
-                  "dim": 0
+                  "dim": 1000
                 }
               ]
             }
@@ -14456,7 +14641,7 @@
       "id": "rep000",
       "name": "Jagd",
       "neutral": "neutral",
-      "uuid": "4d0d87b4-f614-437e-91e2-e652d5e767b5",
+      "uuid": "48489786-8618-4ade-a1bd-3116a78d8759",
       "markers": [
         {
           "id": "mark000",
@@ -14484,7 +14669,7 @@
       "id": "rep001",
       "name": "Ruestung",
       "neutral": "Neutral",
-      "uuid": "62167c7e-9afa-4ada-a87e-674cc5c00574",
+      "uuid": "178cb469-6579-4119-b565-08cb1b450a5e",
       "markers": [
         {
           "id": "mark000",
@@ -14512,7 +14697,7 @@
       "id": "rep002",
       "name": "Forschung",
       "neutral": "Neutral",
-      "uuid": "7b4649ce-fdf4-4301-ac4d-d9709d0bec76",
+      "uuid": "88a27c97-4ff1-4871-b467-25556d9e7841",
       "markers": [
         {
           "id": "mark000",

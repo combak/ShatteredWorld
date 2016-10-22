@@ -36,11 +36,6 @@
   1 x Archmage's Blood Orb
   1 x Armor Imbuement Table
   1 x Assembly Table
-  1 x Augment_ Accelerated Extrusion, dmg=312
-  1 x Augment_ Secondary Gearbox, dmg=64
-  1 x Augment_ Secondary Reception Coil, dmg=128
-  1 x Augment_ Secondary Sieve, dmg=112
-  1 x Augment_ Secondary Transmission Coil, dmg=80
   1 x Aum
   1 x AutoPackager
   1 x Automatic Hammerer
@@ -62,6 +57,7 @@
   1 x Bed
   1 x Beealyzer
   1 x Blank Slate
+  1 x Blank Upgrade
   1 x Blizzard Scepter
   1 x Blood Altar
   1 x Bloodleech Scepter
@@ -125,6 +121,7 @@
   1 x Dark Helm
   1 x Dark Leggings
   1 x Dark Plate
+  1 x Dark Steel, dmg=6
   1 x Daybloom, nbt{type:"daybloom"}
   1 x Deconstruction Table, dmg=14
   1 x Demon Blood Shard
@@ -136,14 +133,12 @@
   1 x Diamond Chestplate
   1 x Diamond Helmet
   1 x Diamond Leggings
-  1 x Diluted Mana Pool, dmg=2
   1 x Dimensional Transceiver
   1 x Dislocator Pedestal
   1 x Dissipation Charge, dmg=4
   1 x Divination Sigil
   1 x Docking Station
   1 x Doomfire Scepter
-  1 x Double-Layer Capacitor, dmg=1
   1 x Dough
   1 x Draconic Axe
   1 x Draconic Boots
@@ -166,6 +161,7 @@
   1 x Dust
   1 x Earth Flicker Jar, dmg=4
   1 x Eldritch Eye
+  1 x Electrical Steel
   1 x Elemental Inscription Tool_ Air
   1 x Elemental Inscription Tool_ Dawn
   1 x Elemental Inscription Tool_ Dusk
@@ -182,10 +178,10 @@
   1 x Empty Flicker Jar
   1 x Emzuli Transport Pipe
   1 x Ender Air Bottle, dmg=15
+  1 x Ender Crystal, dmg=8
   1 x Ender Pearl
   1 x Ender Resonator, dmg=3
   1 x Endoflame, nbt{type:"endoflame"}
-  1 x Energetic Alloy, dmg=1
   1 x Energy Acceptor
   1 x Energy Core
   1 x Energy Infuser
@@ -263,6 +259,7 @@
   1 x Hardened Leather Helm
   1 x Hardened Leather Leggings
   1 x Harvest Goddess Sigil
+  1 x Heat Conducting Plating
   1 x Hellfire Scepter
   1 x Honey Drop
   1 x Horn of the Wild
@@ -290,6 +287,7 @@
   1 x Lamp of Growth, dmg=8
   1 x Laser
   1 x Lava Clay Bucket
+  1 x Lava Coil
   1 x Lava Sigil
   1 x Lazuli Transport Pipe
   1 x Leadstone Energy Cell, dmg=1
@@ -315,6 +313,8 @@
   1 x ME Pattern Terminal, dmg=340
   1 x ME Storage Bus, dmg=220
   1 x ME Terminal, dmg=380
+  1 x Machine Frame (Basic)
+  1 x Machine Upgrade_ Auto-Eject
   1 x Mage Boots
   1 x Mage Hood
   1 x Mage Leggings
@@ -416,6 +416,7 @@
   1 x Quartz Glass
   1 x Rainmaker, dmg=7
   1 x Raw Fish
+  1 x Raw Heat Conducting Plating
   1 x Reactant Dynamo, dmg=3
   1 x Red String, dmg=12
   1 x Red Stringed Comparator
@@ -424,7 +425,6 @@
   1 x Red Stringed Nutrifier
   1 x Red Stringed Spoofer
   1 x Redstodendron Seeds
-  1 x Redstone Alloy, dmg=3
   1 x Redstone Board
   1 x Reductus, dmg=7
   1 x Refinery Plating
@@ -507,6 +507,7 @@
   1 x Simple Catalyst
   1 x Skillet
   1 x Sky Stone
+  1 x Slice'N'Splice
   1 x Smeltery Controller
   1 x Smeltery Drain, dmg=1
   1 x Sort-O-Tron
@@ -514,6 +515,7 @@
   1 x Soul Binder
   1 x Soul Shard, dmg=29
   1 x Soul Vial
+  1 x Soularium, dmg=7
   1 x Soy Milk
   1 x Soybean Seed
   1 x Spark Augment_ Dispersive

@@ -5,7 +5,7 @@
   8 x Air Shard
   4 x Alfglass Flask, dmg=1
   4 x Alumentum
-  2 x Aluminum Ingot, dmg=11
+  4 x Aluminum Ingot, dmg=11
   1 x Ancient Scroll
   4 x Apiary
  10 x Apple
@@ -22,6 +22,7 @@
   8 x Banana Smoothie
   1 x Band of Mana, dmg=10000
   4 x Barley Seed
+  1 x Basic Capacitor Bank_2, dmg=1, nbt{type:"SIMPLE",storedEnergyRF:1000000}
   2 x Basic Item Filter
   8 x Blank Pattern_2, dmg=52
   8 x Blaze Powder
@@ -45,7 +46,7 @@
   1 x Color Applicator - Empty
   2 x Comparator, dmg=26
   4 x Concentrated Catalyst, dmg=4
-  1 x Conduit Probe
+  5 x Copper Dust_3, dmg=49
   2 x Copper Gear_2, dmg=128
   4 x Corn Seed
   4 x Cracked Runic Plate, dmg=15
@@ -70,11 +71,12 @@
   8 x Earth Shard, dmg=3
   2 x Eldritch Eye
  12 x Elementium Ingot, dmg=7
- 12 x Emerald
+ 13 x Emerald
   4 x Empty Core, dmg=1
   4 x Empty Socket
+  4 x Ender Energy Conduit, dmg=2
  24 x Ender Pearl
-  4 x Enderium Blend, dmg=44
+  8 x Enderium Blend, dmg=44
   1 x Enderman Head
   8 x Entropy Shard, dmg=5
   1 x Essentia Crystallizer, dmg=7
@@ -85,11 +87,12 @@
  48 x Floral Fertilizer
   2 x Fluix Pearl, dmg=9
   6 x Fluxed Electrum Ingot, dmg=32
+  1 x Frank'N'Zombie, dmg=2
   8 x Gaia Spirit, dmg=5
   3 x Garden Soil
   8 x Ghast Tear
   4 x Glowstone
- 12 x Glowstone Dust
+ 16 x Glowstone Dust
   2 x Gold Gear_2, dmg=13
  36 x Gold Ingot
   2 x Gold Inlay
@@ -102,7 +105,7 @@
  48 x Gunpowder
   1 x Habitat Locator
   4 x Hamburger
-  4 x Hardened Glass
+ 10 x Hardened Glass
   4 x Honey Comb
   2 x Hopper
   2 x Hopperhock, nbt{type:"hopperhock"}
@@ -110,12 +113,14 @@
   4 x Ice
   4 x Imbued Runic Plate, dmg=17
   3 x Inert Thaumium Cap, dmg=6
- 15 x Infinity Orb, dmg=17
-  6 x Infinity Orb_2, dmg=18
-  6 x Infinity Orb_3, dmg=19
+ 20 x Infinity Orb, dmg=17
+  9 x Infinity Orb_2, dmg=18
+  8 x Infinity Orb_3, dmg=19
  16 x Ink Sac
+  5 x Iron Dust_3, dmg=1
+  2 x Iron Gear_2, dmg=12
   1 x Iron Hand Rake, dmg=1
- 24 x Iron Nugget_3, dmg=19
+ 24 x Iron Nugget_4, dmg=19
   1 x Iron Pan, dmg=2
   6 x Knowledge Fragment, dmg=9
   1 x Lamp of Growth, dmg=8
@@ -134,10 +139,12 @@
   2 x ME Interface
   3 x ME Interface_2, dmg=440
   4 x ME Smart Cable - Fluix, dmg=56
-  8 x Machine Frame (Basic)
+  4 x Machine Frame (Basic)
   2 x Machine Frame (Hardened), dmg=1
-  2 x Machine Frame (Reinforced), dmg=2
-  1 x Machine Frame (Resonant), dmg=3
+  4 x Machine Frame (Reinforced), dmg=2
+  2 x Machine Frame (Resonant), dmg=3
+  4 x Machine Upgrade_ Efficiency I, dmg=1
+  4 x Machine Upgrade_ Speed I, dmg=4
   4 x Magma Cream
   1 x Mana Battery
   8 x Mana Diamond, dmg=2
@@ -157,16 +164,17 @@
  12 x Mushroom
   8 x Mushroom_2
   4 x Mystical Purple Flower Seeds
+  1 x Negate Soul Corruption, dmg=2
   4 x Nether Star
  12 x Nether Wart
   3 x Nightshade, nbt{type:"nightshade"}
   8 x Nitor, dmg=1
   1 x Node Stabilizer, dmg=9
-  1 x Node in a Jar, nbt{nodetype:0,Aspects:[0:{amount:10,key:"ordo"},1:{amount:10,key:"aqua"},2:{amount:10,key:"ignis"},3:{amount:10,key:"terra"},4:{amount:10,key:"perditio"},5:{amount:10,key:"aer"}]}
- 14 x Obsidian
+  1 x Node in a Jar, nbt{nodetype:0,Aspects:[0:{amount:10,key:"aer"},1:{amount:10,key:"terra"},2:{amount:10,key:"ignis"},3:{amount:10,key:"aqua"},4:{amount:10,key:"ordo"},5:{amount:10,key:"perditio"}]}
+ 18 x Obsidian
   2 x Obsidian Brace, dmg=25
-  3 x Octadic Capacitor, dmg=2
-  5 x Oil Bucket
+  6 x Octadic Capacitor, dmg=2
+  4 x Oil Bucket
   4 x Onion Seed
   4 x Orchard Apple Pollen
   2 x P2P Tunnel - ME, dmg=460
@@ -183,7 +191,8 @@
   1 x Portable Cell
   2 x Power IO Module
   8 x Proven Frame
-  2 x Pulsating Iron, dmg=5
+  4 x Pulsating Crystal, dmg=5
+  4 x Pulsating Iron, dmg=5
   8 x Pumpkin Seeds
   4 x Purified Vinteum Dust, dmg=3
   4 x Quartz Fiber, dmg=140
@@ -191,9 +200,10 @@
   1 x Rain Sensor
   7 x Rare Treasure, dmg=2
   8 x Raw Fish
-  9 x Red Heart Canister, dmg=2
+ 10 x Red Heart Canister, dmg=2
   3 x Red String, dmg=12
- 88 x Redstone
+104 x Redstone
+  4 x Redstone Alloy, dmg=3
   4 x Redstone Comparator
   2 x Redstone Inlay
   2 x Reinforced Portable Tank, dmg=3
@@ -209,6 +219,7 @@
   8 x Seeds
  16 x Silicon
   8 x Silky Propolis, dmg=3
+  5 x Silver Dust_3, dmg=53
   4 x Silver Ingot_2, dmg=66
   4 x Silverwood Log, dmg=1
  32 x Simple Catalyst
@@ -231,17 +242,19 @@
   1 x Tainted Blood Pendant
   2 x Tank_2
   4 x Terrasteel Ingot, dmg=4
+  1 x Tesseract Frame (Empty), dmg=10
   1 x Thaumium Block, dmg=4
   1 x Thaumium Bossed Tainted Wand, dmg=72
  15 x Thaumium Ingot, dmg=2
-  1 x Thermalily, nbt{type:"thermalily"}
   1 x Thorn Chakram
-  6 x Tin Gear
-  8 x Tin Nugget_2, dmg=21
+  5 x Tin Dust_3, dmg=54
+  6 x Tin Gear_2, dmg=129
+  8 x Tin Nugget_3, dmg=21
   4 x Tiny TNT
  16 x Torch
  16 x Torch_2
   1 x Uncommon Treasure, dmg=1
+  1 x Vibrant Capacitor Bank_2, dmg=3, nbt{type:"VIBRANT",storedEnergyRF:25000000}
   1 x View Cell
  16 x Vinteum Dust
   4 x Vis Filter, dmg=8
