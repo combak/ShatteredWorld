@@ -4,6 +4,17 @@
 
 # Version 0.7.2 - Sneak preview 4
 
+**Config Changes**
+- Updated Spice of Life food groups
+- Added Dark Steel Ingot and Block to Tinkers Smeltery 
+- Use ThermalFoundation Gears (Iron, Gold, Copper, Tin & Bronze) 
+
+**Mod Additions**
+- DecoCraft 2.3.3
+
+**Mod Updates**
+- Forest-Mods 0.4.1-beta to 0.4.2-beta
+
 # Version 0.7.2 - Sneak preview 3
 
 **Config Changes**
