@@ -4,6 +4,12 @@
 
 # Version 0.7.2 - Sneak preview 5
 
+**Config Changes**
+- Added Ciruit Plates (ProjectRed) via Tinkers Smeltery 
+
+**Mod Updates**
+- YADM -Yes another dimension manager 0.4.5 to 0.4.6
+
 # Version 0.7.2 - Sneak preview 4
 
 **Config Changes**
