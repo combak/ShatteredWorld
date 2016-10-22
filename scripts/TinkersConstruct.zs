@@ -172,6 +172,7 @@ val tConstructManyullynDust	= <TConstruct:materials:41>;
 val tConstructAluminumBrassDust	= <TConstruct:materials:42>;
 val tConstructIngotCast		= <TConstruct:metalPattern>;
 val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
+val tConstructGearCast		= <TConstruct:gearCast>;
 
 # Botania
 val botaniaManasteelIngot	= <Botania:manaResource>;
@@ -346,6 +347,11 @@ val tConstructRemoveTableRecipes = [
   <ore:nuggetLead>,
   <ore:ingotMithril>,
   <ore:ingotRedAlloy>,
+  <ore:gearChalcedony>,
+  <ore:gearGold>,
+  <ore:gearCopper>,
+  <ore:gearTin>,
+  <ore:gearBronze>
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -386,6 +392,11 @@ val tConstructAddTableRecipes = [
   [ <Thaumcraft:ItemResource:16>,			tConstructIngotCast ],		/* 25 - Void Metal Ingot */
   [ <DraconicEvolution:draconiumIngot>,			tConstructIngotCast ],		/* 26 - Draconium Ingot */
   [ enderioDarkSteelIngot,				tConstructIngotCast ],		/* 27 - Dark Steel Ingot */
+  [ <ThermalFoundation:material:12>,			tConstructGearCast ],		/* 28 - Iron Gear */
+  [ <ThermalFoundation:material:13>,			tConstructGearCast ],		/* 29 - Gold Gear */
+  [ <ThermalFoundation:material:128>,			tConstructGearCast ],		/* 30 - Copper Gear */
+  [ <ThermalFoundation:material:129>,			tConstructGearCast ],		/* 31 - Tin Gear */
+  [ <ThermalFoundation:material:137>,			tConstructGearCast ],		/* 32 - Bronze Gear */
 ] as IItemStack[][];
 
 # Fluid * mb
@@ -418,6 +429,11 @@ val tConstructAddTableRecipesFluid = [
   frVoidMetal * 144,									/* 25 - Void Metal Ingot */
   frDraconium * 144,									/* 26 - Draconium Ingot */
   frDarkSteel * 144,									/* 27 - Dark Steel Ingot */
+  frIron * 576,										/* 28 - Iron Gear */
+  frGold * 576,										/* 29 - Gold Gear */
+  frCopper * 576,									/* 30 - Copper Gear */
+  frTin * 576,										/* 31 - Tin Gear */
+  frBronze * 576,									/* 32 - Bronze Gear */
 ] as ILiquidStack[];
 
 ########################################################################################################################
