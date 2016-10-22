@@ -14,6 +14,7 @@
 
 **Mod Updates**
 - Forest-Mods 0.4.1-beta to 0.4.2-beta
+- YADM -Yes another dimension manager 0.4.4 to 0.4.5
 
 # Version 0.7.2 - Sneak preview 3
 
