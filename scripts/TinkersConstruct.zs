@@ -23,6 +23,7 @@ val rsArsenalFluxedElectrumBlock = <RedstoneArsenal:Storage>;
 # Vanilla
 val vanillaRedstoneBlock = <minecraft:redstone_block>;
 val vanillaGlowstoneBlock = <minecraft:glowstone>;
+val vanillaClay = <minecraft:clay_ball>;
 
 # EnderIO
 val enderioPulsatingIronBlock 	= <EnderIO:blockIngotStorage:5>;
@@ -44,6 +45,12 @@ val dracEvoDraconiumOre		= <DraconicEvolution:draconiumOre>;
 #val exAstrisDraconiumOreGravel	= <exastrisrebirth:ender_draconiumdust_gravel>;
 #val exAstrisDraconiumOreSand	= <exastrisrebirth:draconiumdust_sand>;
 #val exAstrisDraconiumOreDust	= <exastrisrebirth:draconiumdust_dust>;
+
+# ThermalFoundation
+val thermFoundCopperBlock = <ThermalFoundation:Storage>;
+
+# Projectret
+val projredCircuitPlate = <ProjRed|Core:projectred.core.part>;
 
 ########################################################################################################################
 # Items
@@ -537,7 +544,8 @@ for i, entry in tConstructAddBasinRecipes
   mods.tconstruct.Casting.addBasinRecipe( output, fluid, null, false, 20 );
 }
 
-
+#Circiut plates
+mods.tconstruct.Casting.addTableRecipe( projredCircuitPlate, frCopper * 16, vanillaClay, true, 20 );
 
 # Terrasteel
 mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, frTerrasteel * 144, 500, botaniaTerrasteelBlock );
