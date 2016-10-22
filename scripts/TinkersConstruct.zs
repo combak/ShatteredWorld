@@ -28,6 +28,7 @@ val vanillaGlowstoneBlock = <minecraft:glowstone>;
 val enderioPulsatingIronBlock 	= <EnderIO:blockIngotStorage:5>;
 val enderioVibrantAlloyBlock	= <EnderIO:blockIngotStorage:2>;
 val enderioElectricalSteelBlock	= <EnderIO:blockIngotStorage>;
+val enderioDarkSteelBlock = <EnderIO:blockIngotStorage:6>;
 
 # Thaumcraft
 val thaumcraftThaumiumBlock = <Thaumcraft:blockCosmeticSolid:4>;
@@ -185,13 +186,14 @@ val gardStuffWroughtIronIngot	= <GardenStuff:wrought_iron_ingot>;
 val rsArsenalFluxedElectrumNugget	= <RedstoneArsenal:material:64>;
 val rsArsenalFluxedElectrumIngot	= <RedstoneArsenal:material:32>;
 val rsArsenalCrystalFlux            = <RedstoneArsenal:material:96>;
+
 # EnderIO
 val enderioPulsatingIronNugget	= <EnderIO:itemMaterial:3>;
 val enderioPulsatingIronIngot	= <EnderIO:itemAlloy:5>;
 val enderioVibrantAlloyNugget	= <EnderIO:itemMaterial:4>;
 val enderioVibrantAlloyIngot	= <EnderIO:itemAlloy:2>;
 val enderioElectricalSteelIngot	= <EnderIO:itemAlloy>;
-
+val enderioDarkSteelIngot	= <EnderIO:itemAlloy:6>;
 # Ex Astris
 val exAstrisElectricalSteelNugget = <exastrisrebirth:itemNuggetElectricalSteel>;
 
@@ -261,6 +263,7 @@ val frCobalt		= <liquid:cobalt.molten>;
 val frArdite		= <liquid:ardite.molten>;
 val frDraconium		= <liquid:molten_draconium>;
 val frMushroom		= <liquid:fluidmushroom>;
+val frDarkSteel		= <liquid:molten_darksteel>;
 
 ########################################################################################################################
 # (Mixed) Data Structures - Smeltery - Fuels
@@ -382,6 +385,7 @@ val tConstructAddTableRecipes = [
   [ <Thaumcraft:ItemNugget:7>,				tConstructNuggetCast ],		/* 24 - Void Metal Nugget */
   [ <Thaumcraft:ItemResource:16>,			tConstructIngotCast ],		/* 25 - Void Metal Ingot */
   [ <DraconicEvolution:draconiumIngot>,			tConstructIngotCast ],		/* 26 - Draconium Ingot */
+  [ enderioDarkSteelIngot,				tConstructIngotCast ],		/* 27 - Dark Steel Ingot */
 ] as IItemStack[][];
 
 # Fluid * mb
@@ -413,6 +417,7 @@ val tConstructAddTableRecipesFluid = [
   frVoidMetal * 16,									/* 24 - Void Metal Nugget */
   frVoidMetal * 144,									/* 25 - Void Metal Ingot */
   frDraconium * 144,									/* 26 - Draconium Ingot */
+  frDarkSteel * 144,									/* 27 - Dark Steel Ingot */
 ] as ILiquidStack[];
 
 ########################################################################################################################
@@ -437,7 +442,8 @@ val tConstructAddBasinRecipes = [
   <EnderIO:blockIngotStorage>,			/*  9 - Electrical Steel Block */
   <Thaumcraft:blockCosmeticSolid:4>,		/* 10 - Thaumium Block */
   <WitchingGadgets:WG_MetalDevice:7>,		/* 11 - Void Metal Block */
-  <DraconicEvolution:draconium>,		/* 12 - Draconium Block */			
+  <DraconicEvolution:draconium>,		/* 12 - Draconium Block */	
+  <EnderIO:blockIngotStorage:6>			/* 13 - Dark Steel Block */
 ] as IItemStack[];
 
 val tConstructAddTableBasinFluid = [
@@ -454,6 +460,7 @@ val tConstructAddTableBasinFluid = [
   frThaumium * 1296,				/* 10 - Thaumium Block */
   frVoidMetal * 1296,				/* 11 - Void Metal Block */
   frDraconium * 1296,				/* 12 - Draconium Block */
+  frDarkSteel * 1296				/* 13 - Dark Steel Block*/
 ] as ILiquidStack[];
 
 ########################################################################################################################
@@ -555,6 +562,10 @@ mods.tconstruct.Smeltery.addMelting( exAstrisElectricalSteelNugget, frElectrical
 mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelIngot, frElectricalSteel * 144, 500, enderioElectricalSteelBlock );
 mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelBlock, frElectricalSteel * 1296, 500, enderioElectricalSteelBlock );
 
+#Dark Steel
+mods.tconstruct.Smeltery.addMelting( enderioDarkSteelIngot, frDarkSteel * 144, 500, enderioDarkSteelBlock );
+mods.tconstruct.Smeltery.addMelting( enderioDarkSteelBlock, frDarkSteel * 1296, 500, enderioDarkSteelBlock );
+
 # Nugget Cast with Diamond Nugget
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frGold * 288, agriCraftDiamondNugget, true, 20 );
@@ -580,6 +591,7 @@ recipes.remove( pamsSaucePan );
 mods.tconstruct.Casting.addTableRecipe( pamsSaucePan, frAluminumBrass * 288, iguUnfiredClayBucket, true, 20 );
 recipes.remove( pamsPot );
 mods.tconstruct.Casting.addTableRecipe( pamsPot, frAluminum * 288, iguFiredClayBucket, true, 20 );
+
 
 
 # Mass Change of Smelting Temps
