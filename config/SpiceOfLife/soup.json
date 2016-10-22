@@ -27,21 +27,21 @@
       "foodLambbarleysoup",		/* Lambbarley */
       "foodLeekbaconsoup",		/* Leekbacon */
       "foodGuacamole",   		/* Guacamole */
-      "foodPeaandhamsoup" , /* Pea and Ham */
-      "foodPotatoandleeksoup"  /* Potato and Leek */
+      "foodPeaandhamsoup",		/* Pea and Ham */
+      "foodPotatoandleeksoup"  		/* Potato and Leek */
     ],
     "items": 
     [
-      "minecraft:mushroom_stew",	/* Mushroom Soup */
-      "arcticmobs:palesoup"  		/* Pale Soup */   
-      "DCsAppleMilk:defeatedcrow.bowlBlock:8", /* Miso Soup */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:7", /* BLT Soup */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:6", /* Pumpkin Soup */
-      "DCsAppleMilk:defeatedcrow.bowlJP:7", /* BLT Soup w/ Jp.Bowl */
-      "DCsAppleMilk:defeatedcrow.bowlJP:6", /* Pumpkin Soup w/ Jp. Bowl */
-      "DCsAppleMilk:defeatedcrow.bowlJP:9", /* Clam Soup w/ Jp. Bowl */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:9", /* Clam Soup */
-      "DCsAppleMilk:defeatedcrow.bowlJP:8" /* Clam Soup w/ Jp. Bowl */
+      "minecraft:mushroom_stew",		/* Mushroom Soup */
+      "arcticmobs:palesoup",  			/* Pale Soup */   
+      "DCsAppleMilk:defeatedcrow.bowlBlock:8", 	/* Miso Soup */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:7", 	/* BLT Soup */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:6", 	/* Pumpkin Soup */
+      "DCsAppleMilk:defeatedcrow.bowlJP:7", 	/* BLT Soup w/ Jp.Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlJP:6", 	/* Pumpkin Soup w/ Jp. Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlJP:9", 	/* Clam Soup w/ Jp. Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:9", 	/* Clam Soup */
+      "DCsAppleMilk:defeatedcrow.bowlJP:8" 	/* Clam Soup w/ Jp. Bowl */
     ]
   },
   "name": "Soup",

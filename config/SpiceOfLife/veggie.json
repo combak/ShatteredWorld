@@ -66,32 +66,32 @@
       "foodSteamedpeas",		/* Steamed Peas */
       "foodSteamedspinach",		/* Steamed Spinach */
       "foodStuffedeggplant",		/* Stuffed Eggplant */
-      "foodSunflowerwheatrolls", /* Sunflower Wheat Rolls */
-      "foodVeggiestrips", /* Veggie Strips */
-      "foodFriedpecanokra", /* Fried Pecan Okra */
-      "foodOkracreole", /* Okra Creole */
-      "foodHushpuppies", /* Hushpuppies */
-      "foodPaneertikkamasala", /* Paneer Tikka Masala */
-      "foodHerbbutterparsnips", /* Herb Butter Parsnips */
-      "foodPotroast", /* Pot Roast */
-      "foodHash", /* Hash */
-      "foodCustard" /* Custard */
+      "foodSunflowerwheatrolls", 	/* Sunflower Wheat Rolls */
+      "foodVeggiestrips", 		/* Veggie Strips */
+      "foodFriedpecanokra", 		/* Fried Pecan Okra */
+      "foodOkracreole", 		/* Okra Creole */
+      "foodHushpuppies", 		/* Hushpuppies */
+      "foodPaneertikkamasala", 		/* Paneer Tikka Masala */
+      "foodHerbbutterparsnips", 	/* Herb Butter Parsnips */
+      "foodPotroast", 			/* Pot Roast */
+      "foodHash",			/* Hash */
+      "foodCustard" 			/* Custard */
     ],
     "items":
     [
-      "minecraft:baked_potato",		/* Baked Potato */
-      "Automagy:foodstuff", /* Vishroom Stew */
-      "harvestcraft:bakedsweetpotatoItem",		/* Baked Sweet Potato */
-      "DCsAppleMilk:defeatedcrow.bowlJP:4", /* Kayakumeshi w/ Jp. Bowl */
-      "DCsAppleMilk:defeatedcrow.bowlJP:1", /* Mushroom Stew w/ Jp. Bowl */
-      "DCsAppleMilk:defeatedcrow.bowlJP", /* Boiled Rice w/ Jp. Bowl */ 
-      "DCsAppleMilk:defeatedcrow.bowlJP:5", /* Tofu-Nabe w/ Jp. Bowl */ 
-      "DCsAppleMilk:defeatedcrow.bowlBlock:5", /* Tofu-Nabe */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:1", /* Mushroom Stew */
-      "DCsAppleMilk:defeatedcrow.bowlBlock", /* Boiled Rice */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:4", /* Kayakumeshi (Variety Mixed Rice ) */
-      "DCsAppleMilk:defeatedcrow.clam:3", /* Black Egg*/
-      "Avaritia:Ultimate_Stew" /* Ultimate Stew */
+      "minecraft:baked_potato",			/* Baked Potato */
+      "Automagy:foodstuff", 			/* Vishroom Stew */
+      "harvestcraft:bakedsweetpotatoItem",	/* Baked Sweet Potato */
+      "DCsAppleMilk:defeatedcrow.bowlJP:4", 	/* Kayakumeshi w/ Jp. Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlJP:1", 	/* Mushroom Stew w/ Jp. Bowl */
+      "DCsAppleMilk:defeatedcrow.bowlJP", 	/* Boiled Rice w/ Jp. Bowl */ 
+      "DCsAppleMilk:defeatedcrow.bowlJP:5", 	/* Tofu-Nabe w/ Jp. Bowl */ 
+      "DCsAppleMilk:defeatedcrow.bowlBlock:5", 	/* Tofu-Nabe */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:1", 	/* Mushroom Stew */
+      "DCsAppleMilk:defeatedcrow.bowlBlock", 	/* Boiled Rice */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:4", 	/* Kayakumeshi (Variety Mixed Rice ) */
+      "DCsAppleMilk:defeatedcrow.clam:3", 	/* Black Egg*/
+      "Avaritia:Ultimate_Stew" 			/* Ultimate Stew */
     ]
   },
   "name": "Veggie",

@@ -17,16 +17,16 @@
       "foodGingerchicken",   		/* Ginger Chicken */
       "foodOrangechicken",   		/* Orange Chicken */
       "foodSundayroast" ,   		/* Sunday Roast*/   
-      "foodDeluxechickencurry", /* Deluxe Chicken Curry */
-      "foodVindaloo", /* Vindaloo */
-      "foodRoastchicken" /* Roast Chicken */
+      "foodDeluxechickencurry", 	/* Deluxe Chicken Curry */
+      "foodVindaloo", 			/* Vindaloo */
+      "foodRoastchicken" 		/* Roast Chicken */
     ],
     "items":
     [
-      "TConstruct:jerky:1"   		/* Chicken Jerky */
-      "DCsAppleMilk:defeatedcrow.foodPlate:2", /* Roasted Chicken Plate */
-      "DCsAppleMilk:defeatedcrow.bowlBlock:3", /* Chcken Zosui (Soup Rice) */
-      "DCsAppleMilk:defeatedcrow.bowlJP:3" /* Chicken Zosui w/ Jp. Bowl */
+      "TConstruct:jerky:1",   			/* Chicken Jerky */
+      "DCsAppleMilk:defeatedcrow.foodPlate:2", 	/* Roasted Chicken Plate */
+      "DCsAppleMilk:defeatedcrow.bowlBlock:3", 	/* Chcken Zosui (Soup Rice) */
+      "DCsAppleMilk:defeatedcrow.bowlJP:3" 	/* Chicken Zosui w/ Jp. Bowl */
     ]
   },
   "name": "Cooked Chicken",

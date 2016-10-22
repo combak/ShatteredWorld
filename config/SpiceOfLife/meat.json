@@ -23,36 +23,36 @@
       "foodSpicymustardpork",    	/* Spicy Mustard Pork */
       "foodBaconwrappeddates",   	/* Bacon Wrapped Dates */
       "foodBatteredsausage",   		/* Battered Sausage */  
-      "foodZombiejerky", /* Zombie Jerky */
-      "foodsausageroll", /* Sausage Roll */
-      "foodPorklomein", /* Pork Lo Mein */
-      "foodDimsum", /* Dim Sum */
-      "foodSausageroll", /* Sausage Roll */
-      "foodToasinthehole" /* Toad in the Hole */      
+      "foodZombiejerky", 		/* Zombie Jerky */
+      "foodsausageroll", 		/* Sausage Roll */
+      "foodPorklomein", 		/* Pork Lo Mein */
+      "foodDimsum", 			/* Dim Sum */
+      "foodSausageroll", 		/* Sausage Roll */
+      "foodToasinthehole" 		/* Toad in the Hole */      
     ],
     "items":
     [
-      "demonmobs:devillasagna",   	/* Devil Lasagna */
-      "lycanitesmobs:explorersrisotto", /* Explorers Risotto */ 
-      "Thaumcraft:TripleMeatTreat",    	/* Triple Meat Treat */
-      "TConstruct:jerky",   		/* Beef Jerky */
-      "harvestcraft:ploughmanslunchItem",  /* Ploughmann´s Lunch */
-      "harvestcraft:suaderoItem", /* Suadero */
-      "TConstruct:jerky:2",   		/* Bacon Jerky */
-      "TConstruct:jerky:3",   		/* Mutton Jerky */
-      "shadowmobs:bloodchili",    	/* Blood Chili */
-      "mountainmobs:peakskebab",    	/* Peaks Kebab */
-      "junglemobs:tropicalcurry",   	/* Tropical Curry */
-      "forestmobs:arisaurmeatraw", /*  Raw Arisaur Meat */
-      "demonmobs:pinkymeatraw", /* Raw Pinky Meat */
-      "desertmobs:joustmeatraw", /* Raw Joust Meat */
-      "plainsmobs:makameatraw", /* Raw Maka Meat */
-      "shadowmobs:chupacabrameatraw", /* Raw Chupacabra Meat */
-      "harvestcraft:beefjerkyItem", /* Beef Jerky */
-      "arcticmobs:yetimeatraw", /* Raw Yeti Meat */
-      "DCsAppleMilk:defeatedcrow.foodPlate", /* Beef Steak Plate */
-      "DCsAppleMilk:defeatedcrow.foodPlate:1", /* Pork Steak Plate */
-      "DCsAppleMilk:defeatedcrow.clam:2" /* Burnt Meat */
+      "demonmobs:devillasagna",   		/* Devil Lasagna */
+      "lycanitesmobs:explorersrisotto", 	/* Explorers Risotto */ 
+      "Thaumcraft:TripleMeatTreat",    		/* Triple Meat Treat */
+      "TConstruct:jerky",   			/* Beef Jerky */
+      "harvestcraft:ploughmanslunchItem",  	/* Ploughmann´s Lunch */
+      "harvestcraft:suaderoItem", 		/* Suadero */
+      "TConstruct:jerky:2",   			/* Bacon Jerky */
+      "TConstruct:jerky:3",   			/* Mutton Jerky */
+      "shadowmobs:bloodchili",    		/* Blood Chili */
+      "mountainmobs:peakskebab",    		/* Peaks Kebab */
+      "junglemobs:tropicalcurry",   		/* Tropical Curry */
+      "forestmobs:arisaurmeatraw", 		/* Raw Arisaur Meat */
+      "demonmobs:pinkymeatraw", 		/* Raw Pinky Meat */
+      "desertmobs:joustmeatraw", 		/* Raw Joust Meat */
+      "plainsmobs:makameatraw", 		/* Raw Maka Meat */
+      "shadowmobs:chupacabrameatraw", 		/* Raw Chupacabra Meat */
+      "harvestcraft:beefjerkyItem", 		/* Beef Jerky */
+      "arcticmobs:yetimeatraw", 		/* Raw Yeti Meat */
+      "DCsAppleMilk:defeatedcrow.foodPlate", 	/* Beef Steak Plate */
+      "DCsAppleMilk:defeatedcrow.foodPlate:1", 	/* Pork Steak Plate */
+      "DCsAppleMilk:defeatedcrow.clam:2" 	/* Burnt Meat */
     ]
   },
   "name": "Dishes with Meat",
