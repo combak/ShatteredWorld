@@ -24,7 +24,17 @@
       "foodBlackberrycobbler",			/* Blackberry Cobbler */
       "foodFruitcrumble",			/* Fruit Crumble */    
       "foodYorkshirepuddiing", /* Yorkshire Pudding */
-      "foodJamroll" /* Jam Roll */
+      "foodJamroll", /* Jam Roll */
+      "foodCarrotcake", /* Carrot Cake */
+      "foodCherrycheesecake", /* Cherrychese Cake */
+      "foodChocolatesprinklecake", /* Chocolate Sprinkle Cake */
+      "foodRedvelvetcake", /* Red Velvet Cake */
+      "foodLamington", /* Lamington */
+      "foodPavlova", /* Pavola */
+      "foodHolidaycake" /* Holidaycake */
+
+
+
     ],
     "items": 
     [
@@ -35,7 +45,8 @@
       "DCsAppleMilk:defeatedcrow.appleTart:1", /* Cassis Tart */
       "DCsAppleMilk:defeatedcrow.appleTart", /* Apple Tart */
       "DCsAppleMilk:defeatedcrow.appleTart:2", /* Yuzzu Mousse Cake */
-      "DCsAppleMilk:defeatedcrow.appleTart" /* Apricot Mousse Cake */
+      "DCsAppleMilk:defeatedcrow.appleTart", /* Apricot Mousse Cake */
+      "harvestcraft:pumpkincheesecakeItem" /* Pumpkincheese Cake */
     ]
   },
   "name": "Piece of Cake",
