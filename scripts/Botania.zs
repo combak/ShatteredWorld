@@ -30,6 +30,7 @@ val botaniaPlanks = [
 
 # Botania
 val botaniaManaCookie = <Botania:manaCookie>;
+val botaniaManaLensBore = <Botania:lens:7>;
 
 # Thaumcraft
 val thaumcraftVisRelay = <Thaumcraft:blockMetalDevice:14>;
@@ -57,6 +58,12 @@ recipes.remove(<Botania:laputaShard:4>);
 recipes.remove(<Botania:laputaShard:9>);
 recipes.remove(<Botania:laputaShard:14>);
 recipes.remove(<Botania:laputaShard:19>);
+
+# Remove Mana Lens: Bore
+recipes.remove( botaniaManaLensBore );
+
+# Remove Rannuncarpus
+mods.botania.Apothecary.removeRecipe( "rannuncarpus" );
 
 # 1 Log = 2 Planks
 for i, log in botaniaLogs
