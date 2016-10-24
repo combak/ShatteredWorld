@@ -2,8 +2,6 @@
 
 # Version 0.7.3
 
-# Version 0.7.2 - Sneak preview 6
-
 # Version 0.7.2 - Sneak preview 5
 
 **Config Changes**
