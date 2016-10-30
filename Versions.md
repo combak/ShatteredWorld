@@ -4,6 +4,7 @@
 ## mods
 - ae2stuff-1.7.10-0.5.0.56.jar
 - agricraft-1.7.10-1.5.0.jar
+- amtweaker-1.7.10-1.0.jar
 - animationapi-1.7.10-1.2.4.jar
 - applecore-1.7.10-1.3.0.jar
 - applemilktea2-1.7.10_2.9m.jar
@@ -43,7 +44,7 @@
 - fastcraft-1.7.10-1.23.jar
 - fluxed-core-1.7.10-1.0.6.jar
 - forbidden-magic-1.7.10-0.573.jar
-- forest-mods-1.7.10-0.4.2-beta.jar
+- forest-mods-1.7.10-0.4.8-beta.jar
 - forestry-1.7.10-4.2.5.53.jar
 - fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
@@ -106,5 +107,5 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.4.6-bbd634d.jar
+- yadm-1.7.10-0.4.6-f3cba1f.jar
 - zz-backpacks-1.7.10-3.0.8.jar

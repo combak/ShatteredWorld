@@ -2,6 +2,18 @@
 
 # Version 0.7.3
 
+**Config Changes**
+- Added Avaritia Tools & Weapons (Iquana Tinkers Tweaks)
+- Disabled Rannuncarpus and Mana Lens: Bore 
+- Balancing Sieve output
+- Add custom drops (LycanitesMobs)
+
+**Mod Additions**
+- AMTweaker 1.0
+
+**Mod Updates**
+- Forest-Mods 0.4.2-beta to 0.4.8-beta
+
 # Version 0.7.2 - Sneak preview 5
 
 **Config Changes**
