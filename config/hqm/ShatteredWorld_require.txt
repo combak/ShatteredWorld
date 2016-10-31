@@ -24,6 +24,7 @@
   1 x Apiarist's Shirt
   1 x Apiarist's Shoes
   1 x Apiary
+  1 x Apple Liquor Bottle_2
   1 x Apprentice Blood Orb
   1 x Aqua Pulse Scepter
   1 x Aquasalus
@@ -56,12 +57,14 @@
   1 x Battlemage Leggings
   1 x Bed
   1 x Beealyzer
+  1 x Black Onyx Sword
   1 x Blank Slate
   1 x Blank Upgrade
   1 x Blizzard Scepter
   1 x Blood Altar
   1 x Bloodleech Scepter
   1 x Botanical Brewery
+  1 x Bottle Case, dmg=14
   1 x Boulder Blast Scepter
   1 x Bound Blade
   1 x Bound Boots
@@ -70,6 +73,8 @@
   1 x Bound Plate
   1 x Bow of the Wyvern
   1 x Bread
+  1 x Brewing Barrel
+  1 x Bricks
   1 x Calculation Processor, dmg=23
   1 x Carrot
   1 x Casting Basin, dmg=2
@@ -80,23 +85,30 @@
   1 x Cerublossom
   1 x Charcoal, dmg=1
   1 x Charger
+  1 x Charger Block
   1 x Charm of Dislocation
   1 x Chestnut, dmg=2
+  1 x Chopsticks Holder_2, dmg=4
+  1 x Citrus Battery, dmg=2
   1 x Clay
   1 x Clay Golem, dmg=3
+  1 x Clay Pan
   1 x Cobblestone
   1 x Cobblestone Fluid Pipe
   1 x Cobblestone Kinesis Pipe
   1 x Cobblestone Transport Pipe
   1 x Compost Bin
   1 x Compression Dynamo, dmg=2
+  1 x Cooking Iron Plate
   1 x Cooling Tower Valve
   1 x Cooling Tower Walls
   1 x Copper Ingot_2, dmg=9
+  1 x Copper Singularity, dmg=5
   1 x Crafting Altar
   1 x Crafting Co-Processing Unit, dmg=1
   1 x Crafting Monitor
   1 x Crafting Unit
+  1 x Creative Energy Cell, nbt{Recv:100000,RSControl:1b,Facing:3b,Energy:-1,SideCache:[1b,1b,1b,1b,1b,1b],Send:100000}
   1 x Crepitous
   1 x Crimson Cult Boots
   1 x Crimson Cult Chestplate
@@ -112,6 +124,8 @@
   1 x Crucible_2
   1 x Crystal Belljar
   1 x Crystal Growth Accelerator
+  1 x Crystal Matrix Ingot, dmg=1
+  1 x Crystal Studded Cosmic Neutronium Wand, dmg=9000, nbt{cap:"matrix",rod:"infinity",aqua:999999900,terra:999999900,ignis:999999900,ordo:999999900,perditio:999999900,aer:999999900}
   1 x Crystal Wrench
   1 x Crystallos
   1 x Cuprosia Seeds
@@ -132,8 +146,10 @@
   1 x Diamond Boots
   1 x Diamond Chestplate
   1 x Diamond Helmet
+  1 x Diamond Lattice
   1 x Diamond Leggings
   1 x Dimensional Transceiver
+  1 x Dire Crafting Table
   1 x Dislocator Pedestal
   1 x Dissipation Charge, dmg=4
   1 x Divination Sigil
@@ -176,6 +192,7 @@
   1 x Elven Gateway Core
   1 x Ember Scepter
   1 x Empty Flicker Jar
+  1 x Empty Tea Cup
   1 x Emzuli Transport Pipe
   1 x Ender Air Bottle, dmg=15
   1 x Ender Crystal, dmg=8
@@ -192,6 +209,7 @@
   1 x Essentia Crystallizer, dmg=7
   1 x Essentia Tube
   1 x Ethereal Slate, dmg=27
+  1 x Evaporator
   1 x Farm Control, dmg=5
   1 x Farm Gearbox, dmg=2
   1 x Farm Hatch, dmg=3
@@ -199,6 +217,7 @@
   1 x Farming Station
   1 x Fermenter, dmg=3
   1 x Filled Socket
+  1 x Fire Starter
   1 x Fired Clay Bucket
   1 x Firm Tofu
   1 x Fishing Rod
@@ -218,6 +237,7 @@
   1 x Flux-Infused Leggings
   1 x Flügel Tiara
   1 x Focal Manipulator, dmg=13
+  1 x Food Processor
   1 x Forest Hive, dmg=1
   1 x Formation Core, dmg=43
   1 x Fractured Bone, dmg=5
@@ -235,6 +255,7 @@
   1 x Goggles of Revealing
   1 x Gold Banded Greatwood Wand, dmg=9, nbt{cap:"gold",rod:"greatwood"}
   1 x Gold Grains, dmg=7
+  1 x Golden Singularity, dmg=1
   1 x Golem Animation Core, dmg=100
   1 x Golem Animation Core_10, dmg=8
   1 x Golem Animation Core_12, dmg=10
@@ -252,6 +273,7 @@
   1 x Golem Upgrade_ Water, dmg=3
   1 x Golemancer's Bell
   1 x Grafter
+  1 x Grater
   1 x Gravel
   1 x Greatwood Sapling
   1 x Hardened Leather Boots
@@ -263,10 +285,19 @@
   1 x Hellfire Scepter
   1 x Honey Drop
   1 x Horn of the Wild
+  1 x Hyper Jaw Crusher
+  1 x Ice Maker_2
   1 x Icefire Scepter
   1 x Imbued Slate
   1 x Incendium
+  1 x Incense Base
   1 x Induction Smelter (Resonant), dmg=3
+  1 x Infinity Boots
+  1 x Infinity Breastplate
+  1 x Infinity Catalyst, dmg=5
+  1 x Infinity Helmet
+  1 x Infinity Ingot, dmg=6
+  1 x Infinity Pants
   1 x Ingot Cast
   1 x Inscriber
   1 x Inscriber Logic Press, dmg=15
@@ -281,15 +312,18 @@
   1 x Iron Helmet
   1 x Iron Ingot
   1 x Iron Leggings
+  1 x Iron Singularity
   1 x Jar Label, dmg=13
   1 x Juicer
   1 x Lamp of Fertility, dmg=13
   1 x Lamp of Growth, dmg=8
+  1 x Lapis Singularity, dmg=2
   1 x Laser
   1 x Lava Clay Bucket
   1 x Lava Coil
   1 x Lava Sigil
   1 x Lazuli Transport Pipe
+  1 x Leaden Singularity, dmg=7
   1 x Leadstone Energy Cell, dmg=1
   1 x Lectern
   1 x Lettuce Seed
@@ -299,6 +333,7 @@
   1 x Livingrock
   1 x Livingwood
   1 x Logic Processor, dmg=22
+  1 x Longbow of the Heavens
   1 x ME Chest
   1 x ME Controller
   1 x ME Crafting Terminal, dmg=360
@@ -351,6 +386,7 @@
   1 x Manasteel Helmet
   1 x Manasteel Ingot
   1 x Manasteel Leggings
+  1 x Manual Charge Generator
   1 x Marshy Hive, dmg=7
   1 x Master Blood Orb
   1 x Master Ritual Stone
@@ -370,8 +406,14 @@
   1 x Mystical White Petal
   1 x Mystical Yellow Flower Seeds
   1 x Natura Pylon, dmg=1
+  1 x Nature's Ruin
   1 x Nether Quartz Dust, dmg=3
   1 x Nether Quartz Seed, dmg=600
+  1 x Nether Quartz Singularity, dmg=4
+  1 x Neutron Collector
+  1 x Neutronium Compressor
+  1 x Neutronium Ingot, dmg=4
+  1 x Nickel Singularity, dmg=9
   1 x Nightshade, nbt{type:"nightshade"}
   1 x Nitor, dmg=1
   1 x Node Stabilizer, dmg=9
@@ -393,6 +435,7 @@
   1 x Petinia Seeds
   1 x Pickaxe of the Wyvern
   1 x Pixie Dust, dmg=8
+  1 x Planet Eater
   1 x Poison Ray Scepter
   1 x Poop Scepter
   1 x Poppy Seeds
@@ -426,6 +469,7 @@
   1 x Red Stringed Spoofer
   1 x Redstodendron Seeds
   1 x Redstone Board
+  1 x Redstone Singularity, dmg=3
   1 x Reductus, dmg=7
   1 x Refinery Plating
   1 x Refinery Valve
@@ -503,9 +547,11 @@
   1 x Sigil of the Whirlwind
   1 x Silk Wisp, dmg=2
   1 x Silken Tofu
+  1 x Silver Singularity, dmg=8
   1 x Silverwood Sapling, dmg=1
   1 x Simple Catalyst
   1 x Skillet
+  1 x Skullfire Sword
   1 x Sky Stone
   1 x Slice'N'Splice
   1 x Smeltery Controller
@@ -540,8 +586,10 @@
   1 x Straw Golem
   1 x Sugarcane Seeds
   1 x Sun Dial
+  1 x Sword of the Cosmos
   1 x Sword of the Wyvern
   1 x Table
+  1 x Tea Maker
   1 x Tenebrae
   1 x Terrae
   1 x Terrasteel Boots
@@ -569,6 +617,7 @@
   1 x The Vat
   1 x Thermionic Fabricator
   1 x Tin Ingot_3, dmg=10
+  1 x Tin Singularity, dmg=6
   1 x Toast
   1 x Tomato Seed
   1 x Tool Forge
@@ -610,6 +659,7 @@
   1 x Weak Blood Orb
   1 x Weak Blood Shard
   1 x Wheat
+  1 x Whiskey Bottle_2, dmg=55
   1 x White Tulip Seeds
   1 x Wireless Charger
   1 x Wizard's Chalk
@@ -625,6 +675,7 @@
   1 x Wooden Water Tank
   1 x Workbench, dmg=1
   1 x Worktable, dmg=2
+  1 x World Breaker, nbt{ench:[0:{lvl:10s,id:35s}]}
   1 x Wrench
   1 x Wyvern Boots
   1 x Wyvern Chestplate
@@ -632,5 +683,7 @@
   1 x Wyvern Helm
   1 x Wyvern Leggings
   1 x Yeta Wrench
+  1 x Young Whiskey Bucket, dmg=1
+  1 x Yuzu Gatling Gun
   1 x Z-Logic Controller, dmg=1
   1 x Zone Planner

@@ -193,7 +193,7 @@ Task_1: Crafting Task
 	Wir sollten eine Kuhfarm haben oder die richtigen Mobs jagen. Genug Leder ist hier das Problem.
 
 2: Der gruene Daumen
-	Hier muss keiner Hunger leiden. Alles was du brauchst, um ein guter Bauer oder Imker zu werden findest du hier.
+	Hier muss keiner Hunger leiden. Alles was du brauchst, um ein guter Bauer, Koch oder Imker zu werden findest du hier.
 
 2.1: Farmland vorbereiten
 	So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.
@@ -223,24 +223,26 @@ Task_1: Crafting Task
 Task_2: Detection Task
 	Den Teig muss man nur in den Ofen schieben und es kommt ofenfrisches Brot raus. Aus dem kann man durch nochmaliges backen dann Toast erzeugen.
 
-2.5: Der Schnellkochtopf
-	Der wahre Chefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.
-Task_1: Detection Task
-	Diese wichtigen Kuechengeraete muessen mit der Schmelze von Tinker Construct in Form gegossen werden.
-Task_2: Crafting Task
-	Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann.
-
-2.6: Milch macht Maenner munter
-	Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.
-Task_1: Detection Task
-	Ich denke eine Kuh sollte hier hilfreich sein. Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer.
-
-2.7: Darwin hatte recht
+2.5: Darwin hatte recht
 	Mit diesen paar Samen, die wir in der Erde gefunden haben, kann man nicht viel anfangen. Aber der versierte Gaertner kennt die Methode der Veredlung und Kreuzung.
 Task_1: Crafting Task
 	Beginnen wir mit einem Tools zur Bestimmung der Qualitaet der gezuechteten Samen. Das Buch informiert dich ueber moegliche Kreuzungen.
 Task_2: Detection Task
 	Anfangen sollten wir mit einfachen Kreuzungen. Diese Samen werden als Basis fuer andere Zuechtungen gebraucht.
+
+2.6: Die eigenen Burgerkette
+	Mit etwas Tomate und Salat wird jedes Gericht viel gesuender aussehen. 
+Task_1: Detection Task
+	Das zuechten dieser Pflanzen wird die Nahrungspalette dramatisch erweitern. Worauf wartest du?
+
+2.7: Vegetarische Kost
+	Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.
+Task_1: Detection Task
+	Die Soyabone ist ideal als Fleischersatz. Nun ruempfe nicht die Nase und koste erst mal.
+Task_2: Crafting Task
+	Roh kann man diese aber nicht geniessen.
+Task_3: Detection Task
+	Und hier haben wir die vegetarischen Basisprodukte. Die schmecken bestimmt genauso gut.
 
 2.8: Sag es mit Blumen
 	Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.
@@ -254,112 +256,165 @@ Task_2: Detection Task Botania
 Task_1: Detection Task
 	Samen, die Metalle und andere Stoffe produzieren, das waere in der realen Welt eine Revolution. Mit diesen hier ist die Produktion von Nuggets besonders einfach.
 
-2.10: Die eigenen Burgerkette
-	Mit etwas Tomate und Salat wird jedes Gericht viel gesuender aussehen. 
-Task_1: Detection Task
-	Das zuechten dieser Pflanzen wird die Nahrungspalette dramatisch erweitern. Worauf wartest du?
-
-2.11: Vegetarische Kost
-	Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.
-Task_1: Detection Task
-	Die Soyabone ist ideal als Fleischersatz. Nun ruempfe nicht die Nase und koste erst mal.
-Task_2: Crafting Task
-	Roh kann man diese aber nicht geniessen.
-Task_3: Detection Task
-	Und hier haben wir die vegetarischen Basisprodukte. Die schmecken bestimmt genauso gut.
-
-2.12: Die Bewaesserung
+2.10: Die Bewaesserung
 	Wir muessen dafuer sorgen, das unsere Anpflanzungen nicht austrocknen. Eine gute Bewaesserung ist die Basis eines guten Ertrags.
 Task_1: Crafting Task
 	Den Tank kann man beliebig gross machen und er kann Regenwasser auffangen. Das Wassertranspportsystem ist einfach aber effektiv.
 
-2.13: Das kleine Autocrafting
+2.11: Der Schnellkochtopf
+	Der wahre Chefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.
+Task_1: Detection Task
+	Diese wichtigen Kuechengeraete muessen mit der Schmelze von Tinker Construct in Form gegossen werden.
+Task_2: Crafting Task
+	Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann.
+
+2.12: Milch macht Maenner munter
+	Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.
+Task_1: Detection Task
+	Ich denke eine Kuh sollte hier hilfreich sein. Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer.
+
+2.13: Hardened Leather
+	Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.
+Task_1: Crafting Task
+	Oh, was fuer eine tolle Lederruestung oder Arbeitsruestung. Ich bin verwirrt.
+
+2.14: Das kleine Autocrafting
 	Gerade am Anfang braucht man mitunter Teile oeffter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.
 Task_1: Crafting Task
 	Mit einem Rechtsklick auf die schon gelernten Rezepte kann man diese einfrieren. Dadurch werden sie nicht bei Ueberfuellung ueberschrieben.
 
-2.14: Gluehkathodenverarbeiter
+2.15: Gluehkathodenverarbeiter
 	In diesem Beruf sind sensible Werkzeuge notwendig. Dies erreicht man mit speziellen Beschichtungen.
 Task_1: Crafting Task
 	Diese Teil ist etwas gemein. Es verbraucht auch dann Energie wenn es nichts zu tun hat.
 
-2.15: Die kleine Farm
+2.16: Die kleine Farm
 	Gerade fuer die Massenproduktion von Holz ist eine automatische Farm genau das Richtige.
 Task_1: Crafting Task
 	Ein Block zur Energiezufuehrung, einer fuer Wasser. Der naechste dient dem Zu- und Abtransport der Items. Mit dem letzten kann man die Farm abschalten. Schalter unten fuer die ganze Farm. Ein Schalter an der Seite schaltet nur den dazu gehoerigen Quadranten ab.
 
-2.16: Der sauber Treibstoff
+2.17: Der sauber Treibstoff
 	Auch in diesem Spiel wird der Umweltschutz gross geschrieben. Ein nachwachsender Rohstoff ist eine saubere und effiziente Energiequelle.
 Task_1: Crafting Task
 	Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschienen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsschritt.
 
-2.17: Der Schwarm
-	Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.
-Task_1: Crafting Task
-	Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen.
-
-2.18: Das echte Gold
-	Bienen die Erze einsammeln. Ein Wunder der Natur.
-Task_1: Detection Task
-	Stelle diese Bienen her. Welche? Natuerlich die Glittering Bee. Diese liefern dir den Golden Comb, den du nur noch schleudern musst.
-
-2.19: Das schwarze Gold
-	Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.
-Task_1: Detection Task
-	Wenn du von dieser Biene genuegend herstellst, sollte dein Energieproblem geloest sein.
-
-2.20: Der Weg zum Baumpfleger
+2.18: Der Weg zum Baumpfleger
 	Baeume dienen nicht nur als Energielieferant. Interessant sind auch die Designmoeglichkeiten der einzelnen Baumarten.
 Task_1: Detection Task
 	Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Gedult haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.
 Task_2: Crafting Task
 	Es ist natuerlich hilfreich zu wissen welche Teile eines Baumes reif fuer die Zuechtung sind. Ausserdem sollte man diese Stellen nicht einfach so ausreissen.
 
-2.21: Der Oelzweig
+2.19: Der Oelzweig
 	Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen. Aber das Seedoil ist fuer andere Dinge wertvoll.
 Task_1: Detection Task
 	Arbeite dich bis zu diesem Baum vor. Viel Spass und nicht den Mut verlieren.
 
-2.22: Der Weg des Imkers
+2.20: Der Wettergott
+	Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.
+Task_1: Crafting Task
+	Mit dem Rainmaker kannst du den Regen ein- und ausschalten.
+
+2.21: Der Weg des Imkers
 	Die Bienenzuechterei ist wichtiger Beruf. Es gibt fuer viele Bereiche nuetzliche Bienen. Beginnen wir mit etwas einfachen.
 Task_1: Detection Task
 	Du musst die einen ausreichenden Vorrat an Seedoil herstellen. Wenn du diesen in ein Barrel leitest und darin ein Artificial Hive einweichst, hast du den halben Weg geschafft.
 Task_2: Crafting Task
 	Jetzt solltest du mit denem Maschienenpark so weit sein, um dir diese speziellen Bienenstoecker herstellen zu koennen.
 
-2.23: Die Bienenkoenigin
+2.22: Die Bienenkoenigin
 	Ein Bienenvolk zu verwalten ist eine Sisyphosarbeit. Aber der wichtigste Teil ist immer die Koenigin.
 Task_1: Detection Task
 	Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeien nur in bestimmten Biomen.
 Task_2: Crafting Task
 	Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig und sieh zu einen vernueftigen Schutz zu finden.
 
-2.24: Schleudern will gelernt sein
+2.23: Der Schwarm
+	Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.
+Task_1: Crafting Task
+	Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen.
+
+2.24: Das echte Gold
+	Bienen die Erze einsammeln. Ein Wunder der Natur.
+Task_1: Detection Task
+	Stelle diese Bienen her. Welche? Natuerlich die Glittering Bee. Diese liefern dir den Golden Comb, den du nur noch schleudern musst.
+
+2.25: Das schwarze Gold
+	Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.
+Task_1: Detection Task
+	Wenn du von dieser Biene genuegend herstellst, sollte dein Energieproblem geloest sein.
+
+2.26: Schleudern will gelernt sein
 	Die Pollen, die die Bienen einsammeln, koennen nicht direkt verarbeitet werden. Man muss die Bestandteile herauspressen.
 Task_1: Crafting Task
 	Die Zentrifuge ist dazu genau das richtige Werkzeug.
 Task_2: Detection Task
 	Jetzt kommst du an den Lebenssaft der Bienen heran, den Honig.
 
-2.25: Der Wettergott
-	Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.
-Task_1: Crafting Task
-	Mit dem Rainmaker kannst du den Regen ein- und ausschalten.
-
-2.26: Der feiner Faden
+2.27: Der feiner Faden
 	Eine Ruestung fuer den Imker kann bei einigen Bienen sehr nuetzlich sein. Aber dazu ist ein sehr dichter Faden notwendig.
 Task_1: Detection Task
 	Auch dafuer gibt es natuerlich eine Biene, die Tropical Bee. Sie liefert zusaetzlich Silky Propolis, das dann weiter geschleudert werden kann.
 
-2.27: Des Imkers Ruestung
+2.28: Des Imkers Ruestung
 	Diese Ruestung besteht zwar aus Stoff, aber einem speziellen. Er kann von keiner Biene durchstochen werden und schuetzt damit zuverlaessig von negativen Effekten.
 Task_1: Crafting Task
 	DIeser Anzug sollte in keiner Imkerwerkstatt fehlen.
 
-2.28: Hardened Leather
-	Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.
+2.29: Der Kuechenhelfer
+	Von Tellerwaescher zum Millionaer. Jeder faengt mal klein an.
 Task_1: Crafting Task
-	Oh, was fuer eine tolle Lederruestung oder Arbeitsruestung. Ich bin verwirrt.
+	Mit diesem Teil kannst du dir schon die ersten Gerichte herstellen. Ausserdem sind auch noch ein paar nicht essbare Rezepte versteckt.
+
+2.30: Der Schnellkochtopf
+	Diese tolle Universalwerkzeug sollte in keiner Kueche fehlen, obwohl es von jedem guten Sternekoch verteufelt wird.
+Task_1: Crafting Task
+	Der einzige Energietraeger fuer dieses Teil sind die Yuzu Fruechte. Aber dann sind der Fantasie des angehenden Kochs fast keine Grenzen gesetzt.
+
+2.31: Das Experiment
+	Jeder kennt das Experiment aus dem Physikunterricht, wie man aus einer Kartoffel Strom erzeugt. Hier wendet man das Wissen in der Realitaet an.
+Task_1: Crafting Task
+	Die Dummen nehmen die Kurbel, die Schlauen bauen sich Batterien.
+
+2.32: Der Zerkleinerer
+	Eine Zerkleinerungsmaschine darf natuerlich auch nicht fehlen.
+Task_1: Crafting Task
+	Dieses Teil kann nicht nur Nahrung zuerkleinern.
+
+2.33: Die Ladestation
+	Was das nit kochen zu tun hat, erschliesst sich mir nicht. Allerdings ist ein bischen Selbstverteidigung auch fuer einen Koch nocht verkehrt.
+Task_1: Crafting Task
+	Wichtig zu wissen ist, das die Kanone Yuzu als Munition braucht. Das Schwert basiert mehr auf Reflexion, kann aber auch ganz normal benutzt werden.
+
+2.34: Die britische Tradition
+	Tee ist viel gesuender als Kaffee und haelt genauso lange wach.
+Task_1: Crafting Task
+	Die Teekanne hat kein Interface. Man muss die einzelnen Inhaltsstoffe mit Rechtsklick rein tuen. Danach kann man mit der Teetasse den fertigen Tee genauso entnehmen.
+
+2.35: Die Frostbeule
+	Der Name dieser Maschiene ist leider falsch gewaehlt. Sie macht kein Eis, sie macht etwas aus Eis.
+Task_1: Crafting Task
+	Der Rohstoff fuer diese Maschien ist Eis. Danach kann man sich fast wie James Bond fuehlen. Man darf nur nicht schuetteln.
+
+2.36: Der Meisterkoch
+	Eine offene Feuerstelle sollte man nicht in seiner Wohnung haben. Aber im Freien spricht nichts dagegen. Hier sprach der Brandschutzbeauftragte.
+Task_1: Crafting Task
+	Die Herdplatte muss ueber Feuer plaziert werden, am besten ueber Lava. Wenn man die Platte noch mit Bricks ummantelt, erhaelt man einen Ofen, indem man andere Sachen backen kann. Die Lehmschale kann auch einfach auf eine normalen Ofen gestellt werden.
+
+2.37: Der Braumeister
+	Ab jetzt wird es illegar. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.
+Task_1: Crafting Task
+	Der Ertrag dieser Maschine ist nicht besonders gut. Die Wirkung der Endprodukte dagegen schon.
+
+2.38: Die Schnapsdrossel
+	Wer A sagt, muss auch B sagen. Jetzt wollen wir auch den Fusel sehen.
+Task_1: Crafting Task
+	Der Alkohol reift nur unterirdisch und auch nur in bestimmten Biomen.
+
+2.39: Der Geist in der Flasche
+	Aladin in der Wunderlampe ist es nicht, aber trotzdem recht Wirkungsvoll.
+Task_1: Crafting Task
+	Die Effekte sind sehr stark, reichen aber nicht sehr weit und auch nicht sehr lange.
 
 3: Der Geist in der Maschine
 	Hurry, die totale Automatisierung kann endlich starten. All die Technologie, die wir so lieben, ohne die wir nicht leben koennen, von der wir ja ueberhaupt nicht abhaengig sind.
@@ -1558,25 +1613,25 @@ Task_1: Detection Task
 Task_1: Detection Task
 	Ein Ritual, das es in sich hat. Du schaffst das schon.
 
-9.17: Der Zinnsoldat
+9.17: Awakend Core
+	Der Kern der Meister. Nach dem letzten Ritual ist das hier schon wieder zu einfach, aber die Muehe hat sich gelohnt.
+Task_1: Crafting Task
+	Stelle diesen Kern her!
+
+9.18: Der Zinnsoldat
 	Ein Meister und seine Waffen. Niemand ist vor ihnen sicher.
 Task_1: Crafting Task
 	Diese Waffen haben besondere Effekte. Setze sie weise ein und ziehe nicht den Zorn der Goetter (OPs) auf dich.
 
-9.18: Der Schwerarbeiter
+9.19: Der Schwerarbeiter
 	Ein erleuchteter Meister wird eher an der freidlichen Nutzung seines Wissens interessiert sein.
 Task_1: Crafting Task
 	Stelle alle diese Werkzeuge her und staune ueber ihre Faehigkeiten. (wird leider hier nicht sauber angezeigt)
 
-9.19: Draconic Armor
+9.20: Draconic Armor
 	Die letzte Ruestung, die du tragen wirst. Die Ruestung eines erleuchteten Meisters.
 Task_1: Crafting Task
 	Die hoechste Ausbaustufe bietet natuerlich auch die meisten Moeglichkeiten.
-
-9.20: Awakend Core
-	Der Kern der Meister. Nach dem letzten Ritual ist das hier schon wieder zu einfach, aber die Muehe hat sich gelohnt.
-Task_1: Crafting Task
-	Stelle diesen Kern her!
 
 10: Die Grosswildjagd
 	Jeder kann einen Loewen jagen. Die Tiere hier sind da ein anderes Kalieber. Sie machen sich nicht nur als Trphaehen an der Wand gut.
@@ -1747,19 +1802,117 @@ Task_1: Detection Task
 	Die kannst du bei der Jagd erbeuten oder selbst herstellen.
 
 11: Das Endspiel
-	Irgendwann ist alles mal vorbei. Wenn du hier angekommen bist, hast du bewiesen, das du wuerdig bist fuer diesen kleinen Abschlusstest. Na dann! Du solltest dir besser Mitstreiter suchen!
+	Irgendwann ist alles mal vorbei. Wenn du hier angekommen bist, hast du bewiesen, das du wuerdig bist fuer diesen kleinen Abschlusstest. Na dann! Du solltest dir besser Mitstreiter suchen! Deine Belohnungen bekommst du vom Schatzmeister.
 
 11.1: Die Trophaee
-	Es wird zwar keine schoene Maid befreit, aber was kuemmert das uns Helden.
+	Es wird zwar keine schoene Maid befreit, aber was kuemmert das unseren Helden.
 Task_1: Location Task
-	Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam.
+	Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.
 
 11.2: Das Bollwerk
 	Nur der Beste der Besten der Besten kann hier bestehen.
 Task_1: Location Task
-	A task where the player has to reach one or more locations.
+	Besiege den Krieger bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.
 
 11.3: Der Streber
 	Dieser Dummkopf hat leider die dunkle Seite gewaehlt und muss dashalb mit allen Mitteln bekaempft werden.
 Task_1: Location Task
-	A task where the player has to reach one or more locations.
+	Mache den Wissenschaftler fertig bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.
+
+12: Die Verrueckten
+	Hier finden alle die was zu tun, die keinen Schlaf finden und auch sonst kein Leben haben.
+
+12.1: Das Glitzerding
+	Wenn du in diesem Questset irgend ein Erfolg haben willst, solltest du zeitig mit den Grundlagen anfangen.
+Task_1: Crafting Task
+	Die Basis sind wie immer Diamanten. Halt nur in einer veredelten Form.
+
+12.2: Goldgepresstes Latinum
+	Auch dieser Mod hat sein eigenes Spezieleisen. Somit muss das dein naechster logischer Schritt sein.
+Task_1: Crafting Task
+	Fuer diesen Barren brauchst du neben den edlen Diamanten auch etwas von einem kleinen, leichen Boss.
+
+12.3: Der Soeldner
+	Ein Waffe, die die Bausteine fuer diesen kleinen Boss leichter droppen laesst, ware soooo nett.
+Task_1: Crafting Task
+	Mit dieser Waffe erhalst du von jedem Skelett einen Witherkopf.
+
+12.4: Der Let's Player
+	Du wirst es frueh genug merken, aber fuer die folgenden Ueberteile, die du hier erhaelst, brauchst du eine groesserer Werkbank.
+Task_1: Crafting Task
+	Ich glaube, diese Werkbank ist nach einem bekannten Let's Player benannt. Oder nicht?
+
+12.5: Das Gottespartikel
+	Jetzt geht es ans Eingemachte! Du musst jetzt Spielzeit kondensieren, sozusagen.
+Task_1: Crafting Task
+	Dieses Teil solltest du fruehzeitig und in rauhen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.
+
+12.6: Dunkle Materie
+	Die Neutronium Dinger sind die Basis aller weiteren Teile.
+Task_1: Crafting Task
+	Du erhaelst aller 6min einen Tropfen. Aus 9 Tropfen wird ein Nugget und wie gehabt aus 9 Nuggets ein Barren.
+
+12.7: Die Schrottpresse
+	Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten enstehen.
+Task_1: Crafting Task
+	Leider kann man in dieser Maschine immer nur ein Metall komprimieren. Das Problem ist dann eher die Dimensionierung. Wenn du so weit gekommen bist, wird das aber kein Problem sein.
+
+12.8: Die Singularitaet
+	Wenn du der unangefochtene Beherrscher des Universum werden willst, musst du alle moeglichen Singularitaeten beherrschen koennen.
+Task_1: Detection Task
+	Jede Singularitaet hat eine andere Dichte. Du wirst das schon schaffen.
+
+12.9: Die Supernova
+	Der unendliche Kristall stellt die naechste entscheidende Stufe auf deiner Entwicklungsleiter dar. Er wuerde sich gut als Schmuck machen. Allerdings waere er dann verschwendet.
+Task_1: Crafting Task
+	Fuer diesen Kristall brauchst du nur noch ein paar leicht zu beschaffende Zutaten. Ab hier koennte der Handel mit anderen Spielern interessant sein.
+
+12.10: Unendlichkeit
+	Wir sind fast am Ziel, Der unendliche Barren. Die Grundlage aller edlen Werkzeuge und Waffen.
+Task_1: Crafting Task
+	Du kennst jetzt alle Zutaten und kannst diesen Barren ganz leicht herstellen. Jetzt nur nicht nachlassen!
+
+12.11: Der Zauberlehrling
+	Die Bruecke zu anderen Mods. Dieser Zauberstab ist einfach nur goettlich.
+Task_1: Crafting Task
+	Mit diesem super druper Zauberstab wirst du niemals mehr Sorgen haben.
+
+12.12: Der Goldschmied
+	Das erste Werkzeug mit fantastische Eigenschaften.
+Task_1: Crafting Task
+	Im normalen Mode kann man damit alle Bloecke unmittelbar abbauen. Mit Shift+Rechtsklick kommt man in den Hammermode. Danach braucht das Abbauen Zeit, aber man baut mit jedem Schlag einen Bereich von 16x16x9 ab.
+
+12.13: Der Bauarbeiter
+	Das zweite Werkzeug mit fantastische Eigenschaften.
+Task_1: Crafting Task
+	Im normalen Mode kann man damit alle Erdbloecke unmittelbar abbauen. Mit Shift+Rechtsklick kommt man in den Zerstoerermode. Danach braucht das Abbauen Zeit, aber man baut mit jedem Schlag einen Bereich von 16x16x9 ab.
+
+12.14: Der Foerster
+	Das dritte Werkzeug mit fantastische Eigenschaften.
+Task_1: Crafting Task
+	Im normalen Mode kann man ganze Baeume unmittelbar abbauen. Mit Shift+Rechtsklick kommt man in den Naturmode. Danach braucht das Abbauen Zeit, aber man baut mit jedem Schlag alles Holz einen Bereich von 26x26 um den Spieler herum ab. Ausserdem wird jeder Grasblock in einen Erdblock umgewandelt. 
+
+12.15: Der Scharftrichter
+	Das erste Waffe mit fantastische Eigenschaften.
+Task_1: Crafting Task
+	Dieses Schwert macht unendlich Schaden und altert nicht. Mit anderen Worten. Es toetet alles sofort und geht nicht kaputt. Aehh, es toeten auch Spieler im kreativ Modus. Oh, je.
+
+12.16: Amors Pfeil
+	Das zweite Waffe mit fantastische Eigenschaften.
+Task_1: Crafting Task
+	Dieser Bogen mach 20 Schaden bei jedem Treffer und keht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.
+
+12.17: Saubere Energie
+	Und noch eine Bruecke zu einem anderen Mod.
+Task_1: Crafting Task
+	Unendliche saubere Energie, der Traum eines jeden Naturfreunds.
+
+12.18: Der Unbesiegbare
+	Die Ruestung eines Gottes. Keine weiteren Worte!!!
+Task_1: Crafting Task
+	Alle Teile nehmen keinen Schaden.
+Kopf: du hast keinen Hunger
+Brust: keine negativen Effekte mehr
+Hose: du kannst nicht mehr brennen
+Schuhe: du springst 4 Bloecke hoch
+komplettes Set: Thaumcraft 20% vis, Botania 25% Manaertrag, schneller kaempfen, immun gegen jeden Schaden auch Voidschaden

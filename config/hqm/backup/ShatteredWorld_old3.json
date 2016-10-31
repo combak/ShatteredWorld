@@ -3,12 +3,12 @@
   "languages": [
     "deDE"
   ],
-  "description": "Diese Pack ist anderes als andere!\n- Alle Arten von Querries sind deaktiviert oder erschwert.\n- Im Boden sind nur ein paar Rohstoffe.\n- Viele Rezepte sind nach Schwierigkeit veraendert und teilweise voneinander abhaengig.\n- Es spawnen mehr und gefaehrlichere Mobs. Die Nacht ist unheimlich. Auch die Naehe zu Fluessigkeiten birgt Gefahren.",
+  "description": "Und wieder ein Pack in dem alles anderes ist!\n- Alle Arten von Querries sind deaktiviert.\n- Im Boden sind nur wenige Rohstoffe.\n- Rezepte sind nach Schwierigkeit sortiert.\n- Rezepte bauen auf mehreren Mods auf.\n- Es spawnen mehr und gefaehrlichere Mobs.\n- Die Nacht ist unheimlich.\n- Die Naehe zu Fluessigkeiten birgt Gefahr.",
   "questSetCatalog": [
     {
       "id": "set000",
       "name": "Aller Anfang ist schwer",
-      "description": "etwas Tinker, Pam, Ernergie, Ex-Nihilo, Ex-Astris",
+      "description": "Der Anfang vom Anfang. Wenn du nicht weiter kommst, solltest du unbedingt diesem Pfad folgen. Hier ist viel Handarbeit gefragt. Man sollte keine Angst haben sich die Haende schmutzig zu machen.",
       "quests": [
         {
           "id": "quest000",
@@ -148,8 +148,8 @@
           "name": "Der beste Ordnungssinn",
           "description": "So langsam haeufen sich ein paar Gegenstaende. Den ganzen Cobblestone, das Holz und ein paar andere Dinge muss man doch besser unterbringen koennen, als in einer Kiste.",
           "uuid": "b4bd488b-f952-4287-81bc-e20bca244f1b",
-          "x": 58,
-          "y": 90,
+          "x": 46,
+          "y": 80,
           "icon": "StorageDrawersForestry:fullDrawers2B size(1) dmg(12)",
           "requirements": [
             "quest000"
@@ -193,12 +193,11 @@
           "name": "Mehr ist immer besser",
           "description": "Mit der Zeit werden die Oak Drawers auch voll. Aber zum Glueck kann man diese aufwerten.",
           "uuid": "860da03b-32ca-4853-8665-dae184e92077",
-          "x": 46,
-          "y": 110,
+          "x": 34,
+          "y": 100,
           "icon": "StorageDrawers:upgrade size(1) dmg(2)",
           "requirements": [
-            "quest003",
-            "quest020"
+            "quest003"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -386,9 +385,9 @@
           "name": "Die Werkbank",
           "description": "Im weiteren Spielverlauf werden viele Zahnraeder benoetigt. Es ist deshalb eine gute Gelegenheit schon jetzt zu wissen, wie man dies herstellt.",
           "uuid": "acd3fca7-a070-4542-b5eb-8b432e0d4c2c",
-          "x": 90,
-          "y": 90,
-          "icon": "ForestDay:wood_base size(1) dmg(1)",
+          "x": 70,
+          "y": 80,
+          "icon": "BiblioCraft:BiblioSeats size(1) dmg(0)",
           "requirements": [
             "quest000"
           ],
@@ -516,8 +515,8 @@
           "name": "Es werde Licht",
           "description": "Verdammt sind die Naechte hier Dunkel. Da wuerde doch ein wenig Licht in unserer eventuell schon bestehenden kleinen Behausung doch alles viel angenehmer machen. Also bauen wir uns doch ein paar Fackeln",
           "uuid": "6a00a636-bcc1-4488-9e5d-964671d0e026",
-          "x": 182,
-          "y": 150,
+          "x": 174,
+          "y": 100,
           "icon": "minecraft:torch size(1) dmg(0)",
           "requirements": [
             "quest017"
@@ -587,8 +586,8 @@
           "name": "Alles kurz und klein schlagen",
           "description": "Jetzt haben wir uns schon ein wenig diese broeckeligen Steine besorgt. Aber da gibt es neben dem Ofen doch sicherlich noch weitere Verwendungen.",
           "uuid": "d0db82f2-b9e1-4b92-9314-a91ce8759ca7",
-          "x": 194,
-          "y": 100,
+          "x": 210,
+          "y": 120,
           "icon": "exnihilo:hammer_stone size(1) dmg(0)",
           "requirements": [
             "quest010"
@@ -646,8 +645,8 @@
           "name": "Toepfers ist so schoen",
           "description": "Wir brauchen nur noch Wasser und etwas mit dem wir Wasser von Punkt A zu Punkt B tragen koennen. ",
           "uuid": "ca854cde-92d7-4e01-b7c8-ecf8fe382b71",
-          "x": 182,
-          "y": 80,
+          "x": 222,
+          "y": 140,
           "icon": "IguanaTweaksTConstruct:clayBucketFired size(1) dmg(0)",
           "requirements": [
             "quest014"
@@ -699,8 +698,8 @@
           "name": "Herrschaft des Feuers",
           "description": "Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.",
           "uuid": "df9c4649-9b90-4b92-9dde-c74098b1b297",
-          "x": 158,
-          "y": 80,
+          "x": 210,
+          "y": 160,
           "icon": "IguanaTweaksTConstruct:clayBucketLava size(1) dmg(0)",
           "requirements": [
             "quest015"
@@ -739,8 +738,8 @@
           "name": "Sieben bis der Arzt kommt",
           "description": "Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?",
           "uuid": "6051e0f8-0845-47e2-b666-ffa1071f273d",
-          "x": 170,
-          "y": 130,
+          "x": 186,
+          "y": 120,
           "icon": "exnihilo:sifting_table size(1) dmg(0)",
           "requirements": [
             "quest014"
@@ -774,11 +773,10 @@
           "name": "Der Metallkoch",
           "description": "Wir haben das eine oder andere Erz (ore) gefunden. Man kann viele davon in einen Ofen werfen und zu Barren brennen, aber dieser Weg ist nicht sehr effektiv.",
           "uuid": "502b98db-74ee-4d8f-85cc-0fbda4a40ddb",
-          "x": 146,
-          "y": 100,
+          "x": 186,
+          "y": 160,
           "icon": "TConstruct:Smeltery size(1) dmg(0)",
           "requirements": [
-            "quest014",
             "quest016"
           ],
           "repeatInfo": {
@@ -836,12 +834,11 @@
           "name": "Die Giesserei",
           "description": "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
           "uuid": "42071856-8461-4054-8612-6c8525715c21",
-          "x": 130,
-          "y": 125,
+          "x": 174,
+          "y": 140,
           "icon": "TConstruct:blankPattern size(1) dmg(1)",
           "requirements": [
             "quest018",
-            "quest009",
             "quest017"
           ],
           "repeatInfo": {
@@ -879,8 +876,8 @@
           "name": "Das neue Zeitalter",
           "description": "Heureka, endlich ist es so weit. Mit den ersten Metallen stossen wir eine komplett neue Welt auf. Die totale Automatisierung ist bestimmt nicht mehr weit.",
           "uuid": "2dfebe4f-cc47-496b-b6af-e0fb60dfa712",
-          "x": 78,
-          "y": 130,
+          "x": 106,
+          "y": 140,
           "icon": "minecraft:iron_ingot size(1) dmg(0)",
           "requirements": [
             "quest019"
@@ -925,8 +922,8 @@
           "name": "Wie passt nur alles da rein",
           "description": "Andauernd habe ich die Taschen voll. Eine weitere Transportmoeglichkeit muss her.",
           "uuid": "4da78ff0-0dec-48bc-9456-7f0d5ff09033",
-          "x": 34,
-          "y": 130,
+          "x": 118,
+          "y": 120,
           "icon": "backpacks16840:backpack size(1) dmg(3)",
           "requirements": [
             "quest020"
@@ -965,8 +962,8 @@
           "name": "Der Wassertank",
           "description": "Da ist mir doch glatt ein kleiner Teich im Weg, aber wohin mit dem ganzen Wasser.",
           "uuid": "951222de-d64d-4f6e-a1ac-f504a763e424",
-          "x": 46,
-          "y": 150,
+          "x": 94,
+          "y": 120,
           "icon": "ThermalExpansion:Tank size(1) dmg(0)",
           "requirements": [
             "quest020"
@@ -1000,8 +997,8 @@
           "name": "Dummheit schafft Freiraum",
           "description": "Die ganze Zeit am Sieb stehen, alles kurz und klein zertruemmern und sich auch noch selber um die Steine zu kuemmern ... das muss doch viel einfacher gehen.",
           "uuid": "a223db1e-e07f-4e2c-9bbe-5a4f42e9f6f4",
-          "x": 82,
-          "y": 170,
+          "x": 118,
+          "y": 160,
           "icon": "exastrisrebirth:blockHammerAutomatic size(1) dmg(0)",
           "requirements": [
             "quest020"
@@ -1040,8 +1037,8 @@
           "name": "Der Held der Automatisierung",
           "description": "Mit Energie geht vieles besser, mit Energie macht man sich die Haende nicht mehr so schmutzig. Was man so alles mit Energie anstellen kann. Man braucht die winzig kleinen Brocken, die beim Sieben rauskommen nicht mehr von Hand zusammen setzen.",
           "uuid": "1d92405d-0af8-4210-a7fe-fa20aa1d7945",
-          "x": 106,
-          "y": 170,
+          "x": 130,
+          "y": 180,
           "icon": "autopackager:packagerBlock size(1) dmg(0)",
           "requirements": [
             "quest023"
@@ -1076,14 +1073,13 @@
           "name": "Wie die Axt im Wald",
           "description": "Baum fuer Baum und Holzblock fuer Holzblock faellen ist sehr anstrengend. Ich habe da was von einer neumodischen Axt gehoert. Die sollte uns dabei helfen.",
           "uuid": "b868b4d3-9bd3-49c0-9f33-19954e7cff26",
-          "x": 118,
-          "y": 150,
+          "x": 94,
+          "y": 160,
           "icon": {
             "item": "TConstruct:lumberaxe size(1) dmg(0)",
             "nbt": "{display:{Name:'Â§fLumberaxe'}}"
           },
           "requirements": [
-            "quest019",
             "quest020"
           ],
           "repeatInfo": {
@@ -1129,8 +1125,8 @@
           "name": "Der Anfang der Ewigkeit",
           "description": "Unsere Haende sind harte Arbeit noch nicht gewoehnt. Deshalb beginnen wir mit etwas Einfachem.",
           "uuid": "517d7b4c-a9dd-4608-b44f-f44ae698d48a",
-          "x": 26,
-          "y": 45,
+          "x": 34,
+          "y": 35,
           "icon": "minecraft:stick size(1) dmg(0)",
           "repeatInfo": {
             "type": "NONE"
@@ -1245,8 +1241,8 @@
           "name": "Der Holzschutz",
           "description": "Mit einer Freizeitkleidung in dieser Umgebung zu ueberleben ist sicher keine gute Idee. Ein bisschen Ruestung kann nicht schaden.",
           "uuid": "68fbf05c-ce28-4f8f-9ad5-982bc7a30434",
-          "x": 38,
-          "y": 70,
+          "x": 34,
+          "y": 60,
           "icon": "TConstruct:helmetWood size(1) dmg(0)",
           "requirements": [
             "quest000"
@@ -1301,8 +1297,8 @@
           "name": "Rostlaube",
           "description": "Mit einer ordentlichen Eisenruestung werden wir zu einem gefaehrlichen Krieger und koennen unsere Festung effektiver verteidigen.",
           "uuid": "4df1484d-37d6-4628-96c0-482492efb7cf",
-          "x": 58,
-          "y": 170,
+          "x": 82,
+          "y": 140,
           "icon": "minecraft:iron_helmet size(1) dmg(0)",
           "requirements": [
             "quest020"
@@ -1357,8 +1353,8 @@
           "name": "Das Glitzerding",
           "description": "Da wir jetzt Zugang zu vielen Materialien haben, ist es Zeit sich eine erste starke Ruestung zu bauen.",
           "uuid": "1ac44808-9b3d-4445-b17c-c6e41de8b77d",
-          "x": 194,
-          "y": 130,
+          "x": 198,
+          "y": 140,
           "icon": "minecraft:diamond_helmet size(1) dmg(0)",
           "requirements": [
             "quest017"
@@ -1414,8 +1410,8 @@
           "name": "Wandern ist des Muellers Lust",
           "description": "Eine starke Ruestung ist ja ganz nett. Aber eine Ausruestung mit nuetzlichen Eigenschaften ist viel besser. Man kann schneller laufen, hoeher springen, schneller schwimmen und weiter sehen.",
           "uuid": "c4f05a9e-3acc-4dea-8441-887f210ecffb",
-          "x": 118,
-          "y": 90,
+          "x": 162,
+          "y": 120,
           "icon": "TConstruct:travelGoggles size(1) dmg(0)",
           "requirements": [
             "quest019"
@@ -1470,14 +1466,14 @@
     {
       "id": "set001",
       "name": "Der gruene Daumen",
-      "description": "alles zu Agricraft, Pam und Forestry",
+      "description": "Hier muss keiner Hunger leiden. Alles was du brauchst, um ein guter Bauer, Koch oder Imker zu werden findest du hier.",
       "quests": [
         {
           "id": "quest028",
           "name": "Farmland vorbereiten",
           "description": "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
           "uuid": "c2e7f818-c193-4aea-bc5c-0f38321bcd11",
-          "x": 26,
+          "x": 42,
           "y": 50,
           "icon": "GardenCore:compost_bin size(1) dmg(0)",
           "requirements": [
@@ -1532,7 +1528,8 @@
           ],
           "reward": [
             "GardenCore:garden_soil size(3) dmg(0)",
-            "minecraft:book size(1) dmg(0)"
+            "minecraft:book size(1) dmg(0)",
+            "harvestcraft:pamappleSapling size(2) dmg(0)"
           ]
         },
         {
@@ -1540,7 +1537,7 @@
           "name": "Kochen will gelernt sein",
           "description": "Fuer eine gesunde Ernaehrung fehlt noch die Abwechslung. Vielleicht sollten wir uns ja an ausgefalleneren Rezepten versuchen. Wir brauchen dafuer nur noch ein paar Kuechenutensilien.",
           "uuid": "7801aa0f-17c7-441d-b660-cef85b1f669f",
-          "x": 42,
+          "x": 58,
           "y": 25,
           "icon": "harvestcraft:mixingbowlItem size(1) dmg(0)",
           "requirements": [
@@ -1578,7 +1575,8 @@
           ],
           "reward": [
             "AgriCraft:handRake size(1) dmg(1)",
-            "harvestcraft:spagettiandmeatballsItem size(4) dmg(0)"
+            "harvestcraft:spagettiandmeatballsItem size(4) dmg(0)",
+            "harvestcraft:pamplumSapling size(2) dmg(0)"
           ]
         },
         {
@@ -1587,7 +1585,7 @@
           "description": "Aus meinem Appetit von vorhin wird langsam ein ausgewachsener Hunger. Jetzt ist es an der Zeit das Feld zu bestellen und etwas anzupflanzen",
           "uuid": "997c049f-fda3-442f-9177-a5a46f1e65e2",
           "x": 26,
-          "y": 80,
+          "y": 75,
           "icon": "minecraft:wheat size(1) dmg(0)",
           "requirements": [
             "quest028"
@@ -1637,7 +1635,8 @@
           ],
           "reward": [
             "harvestcraft:cornseedItem size(4) dmg(0)",
-            "harvestcraft:barleyseedItem size(4) dmg(0)"
+            "harvestcraft:barleyseedItem size(4) dmg(0)",
+            "harvestcraft:pamlimeSapling size(2) dmg(0)"
           ]
         },
         {
@@ -1645,8 +1644,8 @@
           "name": "Brot fuer die Welt",
           "description": "Nachdem Weizen geht es jetzt an die weiter Verarbeitung. Zuerst machen wir uns Mehl und daraus stellen wir Teig her. Das koennen wir zum Schluss zu nahrhaftem Brot backen. Klingt doch nach einem Plan. ",
           "uuid": "fc229007-bcef-417f-b7ba-84f9d0f27418",
-          "x": 26,
-          "y": 110,
+          "x": 42,
+          "y": 100,
           "icon": "minecraft:bread size(1) dmg(0)",
           "requirements": [
             "quest030"
@@ -1695,111 +1694,8 @@
             }
           ],
           "reward": [
-            "harvestcraft:deluxecheeseburgerItem size(4) dmg(0)"
-          ]
-        },
-        {
-          "id": "quest032",
-          "name": "Der Schnellkochtopf",
-          "description": "Der wahre Chefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
-          "uuid": "b086a5cb-4bf9-44db-aa87-74e6e779919d",
-          "x": 110,
-          "y": 80,
-          "icon": "harvestcraft:potItem size(1) dmg(0)",
-          "requirements": [
-            "quest020",
-            "quest034"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Diese wichtigen Kuechengeraete muessen mit der Schmelze von Tinker Construct in Form gegossen werden.",
-              "requirements": [
-                {
-                  "item": "harvestcraft:potItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "harvestcraft:saucepanItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            },
-            {
-              "id": "task001",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann.",
-              "requirements": [
-                {
-                  "item": "harvestcraft:skilletItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "harvestcraft:onionseedItem size(4) dmg(0)"
-          ],
-          "choice": [
-            "harvestcraft:bellpepperseedItem size(4) dmg(0)",
-            "harvestcraft:chilipepperseedItem size(4) dmg(0)"
-          ],
-          "reputations": [
-            {
-              "reputation": "rep002",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "id": "quest033",
-          "name": "Milch macht Maenner munter",
-          "description": "Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.",
-          "uuid": "a3dfb704-4be5-417a-ba80-045715d12abf",
-          "x": 110,
-          "y": 110,
-          "icon": "IguanaTweaksTConstruct:clayBucketMilk size(1) dmg(0)",
-          "requirements": [
-            "quest032"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "NONE",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Ich denke eine Kuh sollte hier hilfreich sein. Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer.",
-              "requirements": [
-                {
-                  "item": "minecraft:milk_bucket size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "harvestcraft:freshmilkItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "harvestcraft:butterItem size(16) dmg(0)"
+            "harvestcraft:deluxecheeseburgerItem size(4) dmg(0)",
+            "harvestcraft:pamapricotSapling size(2) dmg(0)"
           ]
         },
         {
@@ -1807,7 +1703,7 @@
           "name": "Darwin hatte recht",
           "description": "Mit diesen paar Samen, die wir in der Erde gefunden haben, kann man nicht viel anfangen. Aber der versierte Gaertner kennt die Methode der Veredlung und Kreuzung.",
           "uuid": "c25ab813-dcea-442e-9b34-39c763902ad8",
-          "x": 82,
+          "x": 74,
           "y": 50,
           "icon": "AgriCraft:seedAnalyzer size(1) dmg(0)",
           "requirements": [
@@ -1857,7 +1753,8 @@
             }
           ],
           "reward": [
-            "harvestcraft:blueberryseedItem size(4) dmg(0)"
+            "harvestcraft:blueberryseedItem size(4) dmg(0)",
+            "harvestcraft:pamorangeSapling size(2) dmg(0)"
           ],
           "choice": [
             "harvestcraft:coffeeseedItem size(4) dmg(0)",
@@ -1865,129 +1762,12 @@
           ]
         },
         {
-          "id": "quest035",
-          "name": "Sag es mit Blumen",
-          "description": "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
-          "uuid": "2eb68b72-85c4-4f84-a77c-60a6bf7f3b12",
-          "x": 82,
-          "y": 80,
-          "icon": "AgriCraft:seedPoppy size(1) dmg(0)",
-          "requirements": [
-            "quest034"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task Blumen",
-              "description": "Ein paar einfache Blumen und gleich sieht es in deiner Behausung viel freundlicher aus.",
-              "requirements": [
-                {
-                  "item": "AgriCraft:seedPoppy size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "AgriCraft:seedDandelion size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "AgriCraft:seedTulipWhite size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                }
-              ]
-            },
-            {
-              "id": "task001",
-              "type": "DETECT",
-              "name": "Detection Task Botania",
-              "description": "Exotischen Blumen haben besondere Eigenschaften. Ihr nutzen reicht von Medizin bis Magie. Und schoen sehen sie auch noch aus.",
-              "requirements": [
-                {
-                  "item": "AgriCraft:seedBotaniaRed size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "AgriCraft:seedBotaniaYellow size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "AgriCraft:seedBotaniaWhite size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "AgriCraft:seedBotaniaPurple size(4) dmg(0)"
-          ],
-          "choice": [
-            "AgriCraft:seedBotaniaLightGray size(4) dmg(0)",
-            "AgriCraft:seedBotaniaBrown size(4) dmg(0)"
-          ]
-        },
-        {
-          "id": "quest036",
-          "name": "Die Wunder der Genetic",
-          "description": "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
-          "uuid": "d869c2f4-e231-42ad-a4bc-dc59380ed37b",
-          "x": 82,
-          "y": 110,
-          "icon": "AgriCraft:seedRedstodendron size(1) dmg(0)",
-          "requirements": [
-            "quest035"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "NONE",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Samen, die Metalle und andere Stoffe produzieren, das waere in der realen Welt eine Revolution. Mit diesen hier ist die Produktion von Nuggets besonders einfach.",
-              "requirements": [
-                {
-                  "item": "AgriCraft:seedRedstodendron size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "AgriCraft:seedCuprosia size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "AgriCraft:seedPetinia size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "AgriCraft:seedPlombean size(4) dmg(0)"
-          ]
-        },
-        {
           "id": "quest037",
           "name": "Die eigenen Burgerkette",
           "description": "Mit etwas Tomate und Salat wird jedes Gericht viel gesuender aussehen. ",
           "uuid": "6b81eb81-897e-4ce8-9f66-4d17946dc5c4",
-          "x": 54,
-          "y": 80,
+          "x": 58,
+          "y": 75,
           "icon": "harvestcraft:tomatoItem size(1) dmg(0)",
           "requirements": [
             "quest034"
@@ -2018,7 +1798,8 @@
             }
           ],
           "reward": [
-            "harvestcraft:cheeseItem size(8) dmg(0)"
+            "harvestcraft:cheeseItem size(8) dmg(0)",
+            "harvestcraft:pamcherrySapling size(2) dmg(0)"
           ]
         },
         {
@@ -2026,8 +1807,8 @@
           "name": "Vegetarische Kost",
           "description": "Jeder Ernaehrungswissenschaftler wird dir bestaetigen, das eine ueberwiegend pflanzliche Ernaehrung viel gesuender ist.",
           "uuid": "7c93ede5-e13d-49c7-ba48-358a0fc072a7",
-          "x": 54,
-          "y": 110,
+          "x": 74,
+          "y": 100,
           "icon": "harvestcraft:soybeanItem size(1) dmg(0)",
           "requirements": [
             "quest037"
@@ -2089,7 +1870,127 @@
             }
           ],
           "reward": [
-            "ThermalExpansion:Machine size(2) dmg(9)"
+            "ThermalExpansion:Machine size(2) dmg(9)",
+            "harvestcraft:pamcoconutSapling size(2) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest035",
+          "name": "Sag es mit Blumen",
+          "description": "Mit Blumen kann man viel sagen ohne grosse Worte zu verlieren. Ausserdem werden die Pulver aus den gemahlenen Bluetenblaettern gebraucht.",
+          "uuid": "2eb68b72-85c4-4f84-a77c-60a6bf7f3b12",
+          "x": 90,
+          "y": 75,
+          "icon": "AgriCraft:seedPoppy size(1) dmg(0)",
+          "requirements": [
+            "quest034"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task Blumen",
+              "description": "Ein paar einfache Blumen und gleich sieht es in deiner Behausung viel freundlicher aus.",
+              "requirements": [
+                {
+                  "item": "AgriCraft:seedPoppy size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "AgriCraft:seedDandelion size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "AgriCraft:seedTulipWhite size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task Botania",
+              "description": "Exotischen Blumen haben besondere Eigenschaften. Ihr nutzen reicht von Medizin bis Magie. Und schoen sehen sie auch noch aus.",
+              "requirements": [
+                {
+                  "item": "AgriCraft:seedBotaniaRed size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "AgriCraft:seedBotaniaYellow size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "AgriCraft:seedBotaniaWhite size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "AgriCraft:seedBotaniaPurple size(4) dmg(0)",
+            "harvestcraft:pampapayaSapling size(2) dmg(0)"
+          ],
+          "choice": [
+            "AgriCraft:seedBotaniaLightGray size(4) dmg(0)",
+            "AgriCraft:seedBotaniaBrown size(4) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest036",
+          "name": "Die Wunder der Genetic",
+          "description": "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
+          "uuid": "d869c2f4-e231-42ad-a4bc-dc59380ed37b",
+          "x": 106,
+          "y": 100,
+          "icon": "AgriCraft:seedRedstodendron size(1) dmg(0)",
+          "requirements": [
+            "quest035"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Samen, die Metalle und andere Stoffe produzieren, das waere in der realen Welt eine Revolution. Mit diesen hier ist die Produktion von Nuggets besonders einfach.",
+              "requirements": [
+                {
+                  "item": "AgriCraft:seedRedstodendron size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "AgriCraft:seedCuprosia size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "AgriCraft:seedPetinia size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "AgriCraft:seedPlombean size(4) dmg(0)",
+            "harvestcraft:pamchestnutSapling size(2) dmg(0)"
           ]
         },
         {
@@ -2097,8 +1998,8 @@
           "name": "Die Bewaesserung",
           "description": "Wir muessen dafuer sorgen, das unsere Anpflanzungen nicht austrocknen. Eine gute Bewaesserung ist die Basis eines guten Ertrags.",
           "uuid": "821cfdab-d114-4f1f-98ea-49d8bee56188",
-          "x": 122,
-          "y": 50,
+          "x": 90,
+          "y": 25,
           "icon": "AgriCraft:sprinkler size(1) dmg(0)",
           "requirements": [
             "quest034",
@@ -2139,12 +2040,175 @@
           ]
         },
         {
+          "id": "quest032",
+          "name": "Der Schnellkochtopf",
+          "description": "Der wahre Chefkoch arbeitet natuerlich nur mit dem besten Kuechengeraeten. Diese bestehen aus hochwertigen Materialien.",
+          "uuid": "b086a5cb-4bf9-44db-aa87-74e6e779919d",
+          "x": 102,
+          "y": 50,
+          "icon": "harvestcraft:potItem size(1) dmg(0)",
+          "requirements": [
+            "quest020",
+            "quest034"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Diese wichtigen Kuechengeraete muessen mit der Schmelze von Tinker Construct in Form gegossen werden.",
+              "requirements": [
+                {
+                  "item": "harvestcraft:potItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "harvestcraft:saucepanItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Ein wichtiges Kuechengeraet aus Eisen welches man leider nicht als Waffe benutzen kann.",
+              "requirements": [
+                {
+                  "item": "harvestcraft:skilletItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "harvestcraft:onionseedItem size(4) dmg(0)",
+            "harvestcraft:pamlemonSapling size(2) dmg(0)"
+          ],
+          "choice": [
+            "harvestcraft:bellpepperseedItem size(4) dmg(0)",
+            "harvestcraft:chilipepperseedItem size(4) dmg(0)"
+          ],
+          "reputations": [
+            {
+              "reputation": "rep002",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "quest033",
+          "name": "Milch macht Maenner munter",
+          "description": "Eine der wichtigsten Fluessigkeiten, die besonders beim Backen gebraucht wird.",
+          "uuid": "a3dfb704-4be5-417a-ba80-045715d12abf",
+          "x": 122,
+          "y": 75,
+          "icon": "IguanaTweaksTConstruct:clayBucketMilk size(1) dmg(0)",
+          "requirements": [
+            "quest032"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Ich denke eine Kuh sollte hier hilfreich sein. Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer.",
+              "requirements": [
+                {
+                  "item": "minecraft:milk_bucket size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "harvestcraft:freshmilkItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "harvestcraft:butterItem size(16) dmg(0)",
+            "harvestcraft:pamstarfruitSapling size(2) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest318",
+          "name": "Hardened Leather",
+          "description": "Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.",
+          "uuid": "03949d2e-e386-4a98-a2e8-de47f6e0cc1c",
+          "x": 122,
+          "y": 25,
+          "icon": "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
+          "requirements": [
+            "quest032"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Oh, was fuer eine tolle Lederruestung oder Arbeitsruestung. Ich bin verwirrt.",
+              "requirements": [
+                {
+                  "item": "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "harvestcraft:hardenedleatherchestItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "harvestcraft:hardenedleatherleggingsItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                },
+                {
+                  "item": "harvestcraft:hardenedleatherbootsItem size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "TConstruct:heartCanister size(1) dmg(2)",
+            "minecraft:leather size(6) dmg(0)"
+          ],
+          "reputations": [
+            {
+              "reputation": "rep001",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "quest040",
           "name": "Das kleine Autocrafting",
           "description": "Gerade am Anfang braucht man mitunter Teile oeffter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.",
           "uuid": "2ac9a55d-13df-4455-b7ba-b011ed53a72d",
-          "x": 226,
-          "y": 20,
+          "x": 258,
+          "y": 25,
           "icon": "Forestry:factory2 size(1) dmg(2)",
           "requirements": [
             "quest000"
@@ -2179,7 +2243,7 @@
           "name": "Gluehkathodenverarbeiter",
           "description": "In diesem Beruf sind sensible Werkzeuge notwendig. Dies erreicht man mit speziellen Beschichtungen.",
           "uuid": "de5e5b08-ca5d-43bb-adc6-f73a74a790f1",
-          "x": 226,
+          "x": 242,
           "y": 50,
           "icon": "Forestry:factory2 size(1) dmg(0)",
           "requirements": [
@@ -2214,7 +2278,7 @@
           "name": "Die kleine Farm",
           "description": "Gerade fuer die Massenproduktion von Holz ist eine automatische Farm genau das Richtige.",
           "uuid": "3aba4112-4412-4961-bfe7-41ca444ee319",
-          "x": 254,
+          "x": 270,
           "y": 50,
           "icon": "Forestry:ffarm size(1) dmg(0)",
           "requirements": [
@@ -2264,7 +2328,7 @@
           "name": "Der sauber Treibstoff",
           "description": "Auch in diesem Spiel wird der Umweltschutz gross geschrieben. Ein nachwachsender Rohstoff ist eine saubere und effiziente Energiequelle.",
           "uuid": "9887bd7a-b15c-49af-b607-73212bbd846d",
-          "x": 282,
+          "x": 298,
           "y": 50,
           "icon": "Forestry:factory size(1) dmg(6)",
           "requirements": [
@@ -2305,12 +2369,258 @@
           ]
         },
         {
+          "id": "quest047",
+          "name": "Der Weg zum Baumpfleger",
+          "description": "Baeume dienen nicht nur als Energielieferant. Interessant sind auch die Designmoeglichkeiten der einzelnen Baumarten.",
+          "uuid": "8cc1344c-9201-4ae1-b5b8-47bc51a54f20",
+          "x": 286,
+          "y": 75,
+          "icon": "Forestry:treealyzer size(1) dmg(0)",
+          "requirements": [
+            "quest042"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Gedult haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.",
+              "requirements": [
+                {
+                  "item": "Forestry:treealyzer size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Es ist natuerlich hilfreich zu wissen welche Teile eines Baumes reif fuer die Zuechtung sind. Ausserdem sollte man diese Stellen nicht einfach so ausreissen.",
+              "requirements": [
+                {
+                  "item": "Forestry:grafter size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "Forestry:naturalistHelmet size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Forestry:pollenFertile size(4) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest048",
+          "name": "Der Oelzweig",
+          "description": "Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen. Aber das Seedoil ist fuer andere Dinge wertvoll.",
+          "uuid": "a563abe1-ce95-484d-a482-c9ca2d803f6a",
+          "x": 270,
+          "y": 100,
+          "icon": "Forestry:fruits size(1) dmg(2)",
+          "requirements": [
+            "quest047"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Arbeite dich bis zu diesem Baum vor. Viel Spass und nicht den Mut verlieren.",
+              "requirements": [
+                {
+                  "item": "Forestry:fruits size(1) dmg(2)",
+                  "required": 8,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Thaumcraft:ItemLootBag size(1) dmg(2)",
+            "DraconicEvolution:draconiumDust size(4) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest052",
+          "name": "Der Wettergott",
+          "description": "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
+          "uuid": "874f79f1-1cf1-4b88-9eda-65eeed08c1cd",
+          "x": 286,
+          "y": 125,
+          "icon": "Forestry:factory size(1) dmg(7)",
+          "requirements": [
+            "quest048"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Mit dem Rainmaker kannst du den Regen ein- und ausschalten.",
+              "requirements": [
+                {
+                  "item": "Forestry:factory size(1) dmg(7)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Forestry:iodineCapsule size(1) dmg(0)",
+                  "required": 8,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Forestry:craftingMaterial size(1) dmg(4)",
+                  "required": 8,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "minecraft:nether_star size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest049",
+          "name": "Der Weg des Imkers",
+          "description": "Die Bienenzuechterei ist wichtiger Beruf. Es gibt fuer viele Bereiche nuetzliche Bienen. Beginnen wir mit etwas einfachen.",
+          "uuid": "b79bc65f-0ab6-4165-8729-2f6d5c804950",
+          "x": 258,
+          "y": 75,
+          "icon": "exnihilo:bee_trap_treated size(1) dmg(0)",
+          "requirements": [
+            "quest041"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Du musst die einen ausreichenden Vorrat an Seedoil herstellen. Wenn du diesen in ein Barrel leitest und darin ein Artificial Hive einweichst, hast du den halben Weg geschafft.",
+              "requirements": [
+                {
+                  "item": "exnihilo:bee_trap_treated size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Jetzt solltest du mit denem Maschienenpark so weit sein, um dir diese speziellen Bienenstoecker herstellen zu koennen.",
+              "requirements": [
+                {
+                  "item": "Forestry:beehives size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Forestry:beehives size(1) dmg(2)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Forestry:beehives size(1) dmg(7)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Forestry:frameProven size(8) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest050",
+          "name": "Die Bienenkoenigin",
+          "description": "Ein Bienenvolk zu verwalten ist eine Sisyphosarbeit. Aber der wichtigste Teil ist immer die Koenigin.",
+          "uuid": "a585af62-7f3d-42a6-b21d-ef0b4849a650",
+          "x": 242,
+          "y": 100,
+          "icon": "Forestry:beealyzer size(1) dmg(0)",
+          "requirements": [
+            "quest049"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeien nur in bestimmten Biomen.",
+              "requirements": [
+                {
+                  "item": "Forestry:beealyzer size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig und sieh zu einen vernueftigen Schutz zu finden.",
+              "requirements": [
+                {
+                  "item": "Forestry:scoop size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "Forestry:apiculture size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Forestry:habitatLocator size(1) dmg(0)",
+            "Forestry:apiculture size(4) dmg(0)"
+          ]
+        },
+        {
           "id": "quest044",
           "name": "Der Schwarm",
           "description": "Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.",
           "uuid": "bcb39f78-5bd5-471a-b44a-a12c4ce168c4",
-          "x": 246,
-          "y": 145,
+          "x": 258,
+          "y": 125,
           "icon": "Forestry:alveary size(1) dmg(0)",
           "requirements": [
             "quest050"
@@ -2370,8 +2680,8 @@
           "name": "Das echte Gold",
           "description": "Bienen die Erze einsammeln. Ein Wunder der Natur.",
           "uuid": "0d84b10b-8003-478b-9540-bd472835deb7",
-          "x": 262,
-          "y": 175,
+          "x": 270,
+          "y": 150,
           "icon": "ExtraBees:misc size(1) dmg(7)",
           "requirements": [
             "quest044"
@@ -2406,8 +2716,8 @@
           "name": "Das schwarze Gold",
           "description": "Die interessanteste Biene von allen. Sie findet Pollen aus denen man Oel gewinnen kann. Das waere in der realen Welt ein revolutionaerer Fortschritt.",
           "uuid": "4f7a08ce-739e-4710-8838-f704b8b60cea",
-          "x": 234,
-          "y": 175,
+          "x": 238,
+          "y": 150,
           "icon": "ExtraBees:honeyComb size(1) dmg(3)",
           "requirements": [
             "quest044"
@@ -2437,213 +2747,12 @@
           ]
         },
         {
-          "id": "quest047",
-          "name": "Der Weg zum Baumpfleger",
-          "description": "Baeume dienen nicht nur als Energielieferant. Interessant sind auch die Designmoeglichkeiten der einzelnen Baumarten.",
-          "uuid": "8cc1344c-9201-4ae1-b5b8-47bc51a54f20",
-          "x": 282,
-          "y": 80,
-          "icon": "Forestry:treealyzer size(1) dmg(0)",
-          "requirements": [
-            "quest042"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Gedult haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.",
-              "requirements": [
-                {
-                  "item": "Forestry:treealyzer size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                }
-              ]
-            },
-            {
-              "id": "task001",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "Es ist natuerlich hilfreich zu wissen welche Teile eines Baumes reif fuer die Zuechtung sind. Ausserdem sollte man diese Stellen nicht einfach so ausreissen.",
-              "requirements": [
-                {
-                  "item": "Forestry:grafter size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "FUZZY"
-                },
-                {
-                  "item": "Forestry:naturalistHelmet size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "FUZZY"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "Forestry:pollenFertile size(4) dmg(0)"
-          ]
-        },
-        {
-          "id": "quest048",
-          "name": "Der Oelzweig",
-          "description": "Leider ist dieser Quest etwas irrefuehrend. Sorry. Man kann damit kein Oel herstellen. Aber das Seedoil ist fuer andere Dinge wertvoll.",
-          "uuid": "a563abe1-ce95-484d-a482-c9ca2d803f6a",
-          "x": 282,
-          "y": 115,
-          "icon": "Forestry:fruits size(1) dmg(2)",
-          "requirements": [
-            "quest047"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Arbeite dich bis zu diesem Baum vor. Viel Spass und nicht den Mut verlieren.",
-              "requirements": [
-                {
-                  "item": "Forestry:fruits size(1) dmg(2)",
-                  "required": 8,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "Thaumcraft:ItemLootBag size(1) dmg(2)",
-            "DraconicEvolution:draconiumDust size(4) dmg(0)"
-          ]
-        },
-        {
-          "id": "quest049",
-          "name": "Der Weg des Imkers",
-          "description": "Die Bienenzuechterei ist wichtiger Beruf. Es gibt fuer viele Bereiche nuetzliche Bienen. Beginnen wir mit etwas einfachen.",
-          "uuid": "b79bc65f-0ab6-4165-8729-2f6d5c804950",
-          "x": 226,
-          "y": 80,
-          "icon": "exnihilo:bee_trap_treated size(1) dmg(0)",
-          "requirements": [
-            "quest041"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Du musst die einen ausreichenden Vorrat an Seedoil herstellen. Wenn du diesen in ein Barrel leitest und darin ein Artificial Hive einweichst, hast du den halben Weg geschafft.",
-              "requirements": [
-                {
-                  "item": "exnihilo:bee_trap_treated size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            },
-            {
-              "id": "task001",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "Jetzt solltest du mit denem Maschienenpark so weit sein, um dir diese speziellen Bienenstoecker herstellen zu koennen.",
-              "requirements": [
-                {
-                  "item": "Forestry:beehives size(1) dmg(1)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "Forestry:beehives size(1) dmg(2)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "Forestry:beehives size(1) dmg(7)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "Forestry:frameProven size(8) dmg(0)"
-          ]
-        },
-        {
-          "id": "quest050",
-          "name": "Die Bienenkoenigin",
-          "description": "Ein Bienenvolk zu verwalten ist eine Sisyphosarbeit. Aber der wichtigste Teil ist immer die Koenigin.",
-          "uuid": "a585af62-7f3d-42a6-b21d-ef0b4849a650",
-          "x": 226,
-          "y": 115,
-          "icon": "Forestry:beealyzer size(1) dmg(0)",
-          "requirements": [
-            "quest049"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "DETECT",
-              "name": "Detection Task",
-              "description": "Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeien nur in bestimmten Biomen.",
-              "requirements": [
-                {
-                  "item": "Forestry:beealyzer size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                }
-              ]
-            },
-            {
-              "id": "task001",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig und sieh zu einen vernueftigen Schutz zu finden.",
-              "requirements": [
-                {
-                  "item": "Forestry:scoop size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "FUZZY"
-                },
-                {
-                  "item": "Forestry:apiculture size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "Forestry:habitatLocator size(1) dmg(0)",
-            "Forestry:apiculture size(4) dmg(0)"
-          ]
-        },
-        {
           "id": "quest051",
           "name": "Schleudern will gelernt sein",
           "description": "Die Pollen, die die Bienen einsammeln, koennen nicht direkt verarbeitet werden. Man muss die Bestandteile herauspressen.",
           "uuid": "d1a7a86d-09f6-4c15-9c45-490811f66969",
-          "x": 206,
-          "y": 145,
+          "x": 226,
+          "y": 125,
           "icon": "Forestry:factory size(1) dmg(2)",
           "requirements": [
             "quest050"
@@ -2686,57 +2795,12 @@
           ]
         },
         {
-          "id": "quest052",
-          "name": "Der Wettergott",
-          "description": "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
-          "uuid": "874f79f1-1cf1-4b88-9eda-65eeed08c1cd",
-          "x": 282,
-          "y": 145,
-          "icon": "Forestry:factory size(1) dmg(7)",
-          "requirements": [
-            "quest048"
-          ],
-          "repeatInfo": {
-            "type": "NONE"
-          },
-          "triggerType": "ANTI_TRIGGER",
-          "triggerTasks": 0,
-          "tasks": [
-            {
-              "id": "task000",
-              "type": "CRAFT",
-              "name": "Crafting Task",
-              "description": "Mit dem Rainmaker kannst du den Regen ein- und ausschalten.",
-              "requirements": [
-                {
-                  "item": "Forestry:factory size(1) dmg(7)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "Forestry:iodineCapsule size(1) dmg(0)",
-                  "required": 8,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "Forestry:craftingMaterial size(1) dmg(4)",
-                  "required": 8,
-                  "precision": "PRECISE"
-                }
-              ]
-            }
-          ],
-          "reward": [
-            "minecraft:nether_star size(1) dmg(0)"
-          ]
-        },
-        {
           "id": "quest053",
           "name": "Der feiner Faden",
           "description": "Eine Ruestung fuer den Imker kann bei einigen Bienen sehr nuetzlich sein. Aber dazu ist ein sehr dichter Faden notwendig.",
           "uuid": "84012ac6-5e2b-455b-8c6f-c4b4273327a9",
-          "x": 206,
-          "y": 175,
+          "x": 210,
+          "y": 150,
           "icon": "Forestry:craftingMaterial size(1) dmg(3)",
           "requirements": [
             "quest051"
@@ -2771,7 +2835,7 @@
           "name": "Des Imkers Ruestung",
           "description": "Diese Ruestung besteht zwar aus Stoff, aber einem speziellen. Er kann von keiner Biene durchstochen werden und schuetzt damit zuverlaessig von negativen Effekten.",
           "uuid": "c47b9d06-7121-413c-a946-a8ece82fe469",
-          "x": 178,
+          "x": 194,
           "y": 175,
           "icon": "Forestry:apiaristHelmet size(1) dmg(0)",
           "requirements": [
@@ -2824,60 +2888,465 @@
           ]
         },
         {
-          "id": "quest318",
-          "name": "Hardened Leather",
-          "description": "Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.",
-          "uuid": "03949d2e-e386-4a98-a2e8-de47f6e0cc1c",
-          "x": 138,
-          "y": 80,
-          "icon": "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
+          "id": "quest424",
+          "name": "Der Kuechenhelfer",
+          "description": "Von Tellerwaescher zum Millionaer. Jeder faengt mal klein an.",
+          "uuid": "58c63839-eb8e-4c49-a396-165d8413cbd2",
+          "x": 22,
+          "y": 150,
+          "icon": "DCsAppleMilk:defeatedcrow.grater size(1) dmg(0)",
           "requirements": [
-            "quest032"
+            "quest020"
           ],
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
           "tasks": [
             {
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Oh, was fuer eine tolle Lederruestung oder Arbeitsruestung. Ich bin verwirrt.",
+              "description": "Mit diesem Teil kannst du dir schon die ersten Gerichte herstellen. Ausserdem sind auch noch ein paar nicht essbare Rezepte versteckt.",
               "requirements": [
                 {
-                  "item": "harvestcraft:hardenedleatherhelmItem size(1) dmg(0)",
+                  "item": "DCsAppleMilk:defeatedcrow.grater size(1) dmg(0)",
                   "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "harvestcraft:hardenedleatherchestItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "harvestcraft:hardenedleatherleggingsItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
-                },
-                {
-                  "item": "harvestcraft:hardenedleatherbootsItem size(1) dmg(0)",
-                  "required": 1,
-                  "precision": "NBT_FUZZY"
+                  "precision": "PRECISE"
                 }
               ]
             }
           ],
           "reward": [
-            "TConstruct:heartCanister size(1) dmg(2)",
-            "minecraft:leather size(6) dmg(0)"
+            "DCsAppleMilk:defeatedcrow.clam size(2) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.saplingTea size(2) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.saplingYuzu size(2) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest426",
+          "name": "Der Schnellkochtopf",
+          "description": "Diese tolle Universalwerkzeug sollte in keiner Kueche fehlen, obwohl es von jedem guten Sternekoch verteufelt wird.",
+          "uuid": "10fe2486-3ca2-4e34-88f2-4c90b067bc32",
+          "x": 50,
+          "y": 150,
+          "icon": "DCsAppleMilk:defeatedcrow.processor size(1) dmg(0)",
+          "requirements": [
+            "quest424"
           ],
-          "reputations": [
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
             {
-              "reputation": "rep001",
-              "value": 1
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Der einzige Energietraeger fuer dieses Teil sind die Yuzu Fruechte. Aber dann sind der Fantasie des angehenden Kochs fast keine Grenzen gesetzt.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.processor size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
             }
+          ],
+          "reward": [
+            "DCsAppleMilk:defeatedcrow.EHandle size(1) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.saplingTea size(2) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest428",
+          "name": "Das Experiment",
+          "description": "Jeder kennt das Experiment aus dem Physikunterricht, wie man aus einer Kartoffel Strom erzeugt. Hier wendet man das Wissen in der Realitaet an.",
+          "uuid": "775c91a3-b110-4c04-a6f0-6e447faa2eda",
+          "x": 66,
+          "y": 175,
+          "icon": "DCsAppleMilk:defeatedcrow.battery size(1) dmg(2)",
+          "requirements": [
+            "quest426"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Die Dummen nehmen die Kurbel, die Schlauen bauen sich Batterien.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.EHandle size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.battery size(1) dmg(2)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "DCsAppleMilk:defeatedcrow.saplingTea size(2) dmg(2)",
+            "DCsAppleMilk:defeatedcrow.icyToffyApple size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest434",
+          "name": "Der Zerkleinerer",
+          "description": "Eine Zerkleinerungsmaschine darf natuerlich auch nicht fehlen.",
+          "uuid": "be846f7b-d43a-4a74-a9fe-730ace822d35",
+          "x": 94,
+          "y": 175,
+          "icon": "DCsAppleMilk:defeatedcrow.advProcessor size(1) dmg(0)",
+          "requirements": [
+            "quest428"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Dieses Teil kann nicht nur Nahrung zuerkleinern.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.advProcessor size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "DCsAppleMilk:defeatedcrow.milkCandy size(1) dmg(3)",
+            "arsmagica2:rune size(1) dmg(18)"
+          ]
+        },
+        {
+          "id": "quest436",
+          "name": "Die Ladestation",
+          "description": "Was das nit kochen zu tun hat, erschliesst sich mir nicht. Allerdings ist ein bischen Selbstverteidigung auch fuer einen Koch nocht verkehrt.",
+          "uuid": "2ca14290-e5e9-4470-b6d2-206d3694e262",
+          "x": 122,
+          "y": 175,
+          "icon": "DCsAppleMilk:defeatedcrow.batBox size(1) dmg(0)",
+          "requirements": [
+            "quest434"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Wichtig zu wissen ist, das die Kanone Yuzu als Munition braucht. Das Schwert basiert mehr auf Reflexion, kann aber auch ganz normal benutzt werden.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.batBox size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.yuzuGatling size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.onixSword size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "DraconicEvolution:draconiumDust size(4) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.bottleVegiOil size(10) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest430",
+          "name": "Die britische Tradition",
+          "description": "Tee ist viel gesuender als Kaffee und haelt genauso lange wach.",
+          "uuid": "fbf17153-b65e-4e96-b2a9-38581d1956d2",
+          "x": 78,
+          "y": 150,
+          "icon": "DCsAppleMilk:defeatedcrow.teaMakerNext size(1) dmg(0)",
+          "requirements": [
+            "quest426"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Die Teekanne hat kein Interface. Man muss die einzelnen Inhaltsstoffe mit Rechtsklick rein tuen. Danach kann man mit der Teetasse den fertigen Tee genauso entnehmen.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.teaMakerNext size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.emptyCup size(1) dmg(0)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "DCsAppleMilk:defeatedcrow.cropMint size(2) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.alcoholCup size(4) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest432",
+          "name": "Die Frostbeule",
+          "description": "Der Name dieser Maschiene ist leider falsch gewaehlt. Sie macht kein Eis, sie macht etwas aus Eis.",
+          "uuid": "3e4281d3-ee68-4ac1-b209-c7650e08b0d4",
+          "x": 90,
+          "y": 125,
+          "icon": "DCsAppleMilk:defeatedcrow.iceMaker size(1) dmg(0)",
+          "requirements": [
+            "quest430"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Der Rohstoff fuer diese Maschien ist Eis. Danach kann man sich fast wie James Bond fuehlen. Man darf nur nicht schuetteln.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.iceMaker size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.chopsticksBox size(1) dmg(4)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "DCsAppleMilk:defeatedcrow.flowerPot size(2) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.flowerPot size(2) dmg(4)",
+            "DCsAppleMilk:defeatedcrow.bakedApple size(8) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest438",
+          "name": "Der Meisterkoch",
+          "description": "Eine offene Feuerstelle sollte man nicht in seiner Wohnung haben. Aber im Freien spricht nichts dagegen. Hier sprach der Brandschutzbeauftragte.",
+          "uuid": "6e8db53d-55fe-464a-9aca-ebcd20f669dc",
+          "x": 106,
+          "y": 150,
+          "icon": "DCsAppleMilk:defeatedcrow.teppanII size(1) dmg(0)",
+          "requirements": [
+            "quest430"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Die Herdplatte muss ueber Feuer plaziert werden, am besten ueber Lava. Wenn man die Platte noch mit Bricks ummantelt, erhaelt man einen Ofen, indem man andere Sachen backen kann. Die Lehmschale kann auch einfach auf eine normalen Ofen gestellt werden.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.teppanII size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "minecraft:brick_block size(1) dmg(0)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.emptyPanG size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "DCsAppleMilk:defeatedcrow.princessClam size(2) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.fossilScale size(2) dmg(0)",
+            "DCsAppleMilk:defeatedcrow.chalcedonyLamp size(4) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest440",
+          "name": "Der Braumeister",
+          "description": "Ab jetzt wird es illegar. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.",
+          "uuid": "1168e900-0bf8-4467-83c7-618984d41c59",
+          "x": 134,
+          "y": 150,
+          "icon": "DCsAppleMilk:defeatedcrow.evaporator size(1) dmg(0)",
+          "requirements": [
+            "quest438"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Der Ertrag dieser Maschine ist nicht besonders gut. Die Wirkung der Endprodukte dagegen schon.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.evaporator size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.bucketYoungAlcohol size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "TConstruct:heartCanister size(1) dmg(4)",
+            "minecraft:golden_apple size(2) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest442",
+          "name": "Die Schnapsdrossel",
+          "description": "Wer A sagt, muss auch B sagen. Jetzt wollen wir auch den Fusel sehen.",
+          "uuid": "5dfbff50-6928-4585-848c-0a2c8be14433",
+          "x": 150,
+          "y": 125,
+          "icon": "DCsAppleMilk:defeatedcrow.blockBarrel size(1) dmg(0)",
+          "requirements": [
+            "quest440"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Der Alkohol reift nur unterirdisch und auch nur in bestimmten Biomen.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.blockBarrel size(1) dmg(0)",
+                  "required": 3,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.basket size(1) dmg(14)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.itemBottle size(1) dmg(55)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.blockCordial size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "minecraft:nether_star size(1) dmg(0)",
+            {
+              "item": "ThermalExpansion:Cell size(1) dmg(2)",
+              "nbt": "{Recv:800,RSControl:1b,Facing:3b,Energy:2000000,SideCache:[1b,2b,2b,2b,2b,2b],Send:800}"
+            }
+          ]
+        },
+        {
+          "id": "quest444",
+          "name": "Der Geist in der Flasche",
+          "description": "Aladin in der Wunderlampe ist es nicht, aber trotzdem recht Wirkungsvoll.",
+          "uuid": "40e47557-0dbc-44c4-8b97-885bc217dcce",
+          "x": 166,
+          "y": 100,
+          "icon": "DCsAppleMilk:defeatedcrow.incenseBase size(1) dmg(0)",
+          "requirements": [
+            "quest442"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Die Effekte sind sehr stark, reichen aber nicht sehr weit und auch nicht sehr lange.",
+              "requirements": [
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.incenseBase size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "DCsAppleMilk:defeatedcrow.firestarter size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Thaumcraft:ItemLootBag size(1) dmg(2)",
+            "DraconicEvolution:draconium size(1) dmg(0)"
           ]
         }
       ]
@@ -2885,7 +3354,7 @@
     {
       "id": "set002",
       "name": "Der Geist in der Maschine",
-      "description": "alles zu Thermal Expansion, Buildcraft",
+      "description": "Hurry, die totale Automatisierung kann endlich starten. All die Technologie, die wir so lieben, ohne die wir nicht leben koennen, von der wir ja ueberhaupt nicht abhaengig sind.",
       "quests": [
         {
           "id": "quest055",
@@ -3949,7 +4418,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -4236,7 +4705,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -4418,7 +4887,7 @@
     {
       "id": "set003",
       "name": "Das Hologramm",
-      "description": "alles zu AE2",
+      "description": "Wir sind doch alle solche Messies. Das beste was man dagegen tun kann, ist eine grosse Kiste, in die man alles rein schmeissen kann. Was nicht da ist, kann auch nicht rumliegen.",
       "quests": [
         {
           "id": "quest071",
@@ -5416,7 +5885,7 @@
     {
       "id": "set004",
       "name": "Der Zauberlehrling",
-      "description": "alles zu Ars Magica 2",
+      "description": "Du wolltest schon den super druper uebermega hammergeile Zauber haben, mit dem du alles machen kannst. Tja, dann solltest du dich unbedingt mit dem Zeug hier beschaeftigen.",
       "quests": [
         {
           "id": "quest097",
@@ -6664,7 +7133,7 @@
     {
       "id": "set005",
       "name": "Die Geister die ich rief",
-      "description": "alles zu Thaumcraft",
+      "description": "Ist nicht eigentlich alles in dieser Welt Magie. ",
       "quests": [
         {
           "id": "quest126",
@@ -6674,9 +7143,6 @@
           "x": 46,
           "y": 55,
           "icon": "Thaumcraft:WandCasting size(1) dmg(0)",
-          "requirements": [
-            "quest020"
-          ],
           "repeatInfo": {
             "type": "NONE"
           },
@@ -8316,7 +8782,8 @@
             }
           ],
           "reward": [
-            "TConstruct:heartCanister size(1) dmg(2)"
+            "TConstruct:heartCanister size(1) dmg(2)",
+            "Thaumcraft:ItemResource size(8) dmg(2)"
           ],
           "reputations": [
             {
@@ -8531,7 +8998,7 @@
     {
       "id": "set006",
       "name": "Die zauberhafte Blume",
-      "description": "alles zu Botania",
+      "description": "Die richtige Pflanzenkunde haelt so manches Geheimnis bereit. Wer sie lueftet, wird von den Wundern dieser Welt ueberwaeltigt werden.",
       "quests": [
         {
           "id": "quest163",
@@ -10255,7 +10722,7 @@
     {
       "id": "set007",
       "name": "Die Blutbank",
-      "description": "alles zu Blood Magic",
+      "description": "Jeder angehende Vampir muss sich erst einmal mit den eigenheiten von Blut beschaeftigen. Danach kann er in die Tiefen der Blutmanipulation vordringen.",
       "quests": [
         {
           "id": "quest200",
@@ -11867,7 +12334,7 @@
     {
       "id": "set008",
       "name": "Der Drachentoeter",
-      "description": "alles zu Draconic Evolution",
+      "description": "So ein richtiger Held muss mindestens einmal in seinem Leben gegen einen Drachen kaempfen. Und wenn es das letzte ist, das er tut. Man kann sich natuerlich auch gut darauf vorbereiten.",
       "quests": [
         {
           "id": "quest266",
@@ -12707,7 +13174,7 @@
     {
       "id": "set009",
       "name": "Die Grosswildjagd",
-      "description": "alles zu Lycanites Mobs",
+      "description": "Jeder kann einen Loewen jagen. Die Tiere hier sind da ein anderes Kalieber. Sie machen sich nicht nur als Trphaehen an der Wand gut.",
       "quests": [
         {
           "id": "quest233",
@@ -14441,15 +14908,16 @@
     {
       "id": "set010",
       "name": "Das Endspiel",
-      "description": "No description",
+      "description": "Irgendwann ist alles mal vorbei. Wenn du hier angekommen bist, hast du bewiesen, das du wuerdig bist fuer diesen kleinen Abschlusstest. Na dann! Du solltest dir besser Mitstreiter suchen!",
       "quests": [
         {
           "id": "quest288",
           "name": "Die Trophaee",
-          "description": "Es wird zwar keine schoene Mail befreit, aber was kuemmert das uns Helden.",
+          "description": "Es wird zwar keine schoene Maid befreit, aber was kuemmert das uns Helden.",
           "uuid": "5ad6c5b5-efcd-497b-a91a-9c94d7fb5fd0",
-          "x": 70,
-          "y": 45,
+          "x": 58,
+          "y": 40,
+          "big": true,
           "icon": "DraconicEvolution:dragonHeart size(1) dmg(0)",
           "requirements": [
             "quest242",
@@ -14493,9 +14961,9 @@
                   "id": "loc000",
                   "name": "Drachen",
                   "icon": "customnpcs:npcHarp size(1) dmg(0)",
-                  "x": -881,
-                  "y": 66,
-                  "z": 48,
+                  "x": -688,
+                  "y": 83,
+                  "z": 177,
                   "radius": 1,
                   "visible": "LOCATION",
                   "dim": 1000
@@ -14512,8 +14980,9 @@
           "name": "Das Bollwerk",
           "description": "Nur der Beste der Besten der Besten kann hier bestehen.",
           "uuid": "c2c2fbda-5910-4782-aa33-9398e7e3ce1c",
-          "x": 70,
+          "x": 106,
           "y": 90,
+          "big": true,
           "icon": "Thaumcraft:ItemSwordElemental size(1) dmg(0)",
           "requirements": [
             "quest326",
@@ -14540,7 +15009,8 @@
             "quest279",
             "quest284",
             "quest068",
-            "quest306"
+            "quest306",
+            "quest416"
           ],
           "repeatInfo": {
             "type": "NONE"
@@ -14559,9 +15029,9 @@
                   "id": "loc000",
                   "name": "Krieger",
                   "icon": "customnpcs:npcFullDiaShield size(1) dmg(0)",
-                  "x": 592,
-                  "y": 66,
-                  "z": -577,
+                  "x": 591,
+                  "y": 57,
+                  "z": -496,
                   "radius": 1,
                   "visible": "LOCATION",
                   "dim": 1000
@@ -14578,8 +15048,9 @@
           "name": "Der Streber",
           "description": "Dieser Dummkopf hat leider die dunkle Seite gewaehlt und muss dashalb mit allen Mitteln bekaempft werden.",
           "uuid": "b06782f5-0a13-4090-9694-815199832b7d",
-          "x": 70,
-          "y": 135,
+          "x": 58,
+          "y": 140,
+          "big": true,
           "icon": "minecraft:carrot_on_a_stick size(1) dmg(0)",
           "requirements": [
             "quest061",
@@ -14619,9 +15090,9 @@
                   "id": "loc000",
                   "name": "Wissenschaftler",
                   "icon": "customnpcs:npcLetter size(1) dmg(0)",
-                  "x": 560,
-                  "y": 66,
-                  "z": 479,
+                  "x": 382,
+                  "y": 62,
+                  "z": 496,
                   "radius": 1,
                   "visible": "LOCATION",
                   "dim": 1000
@@ -14631,6 +15102,768 @@
           ],
           "reward": [
             "customnpcs:npcAncientScroll size(1) dmg(0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set011",
+      "name": "Die Verrueckten",
+      "description": "Hier finden alle die was zu tun, die keinen Schlaf finden und auch sonst kein Leben haben.",
+      "quests": [
+        {
+          "id": "quest386",
+          "name": "Das Glitzerding",
+          "description": "Wenn du in diesem Questset irgend ein Erfolg haben willst, solltest du zeitig mit den Grundlagen anfangen.",
+          "uuid": "f049010b-cd44-4930-9566-2726f0cfa634",
+          "x": 26,
+          "y": 60,
+          "icon": "Avaritia:Resource size(1) dmg(0)",
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Die Basis sind wie immer Diamanten. Halt nur in einer veredelten Form.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Resource size(1) dmg(0)",
+                  "required": 4,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(20) dmg(0)",
+            "Avaritia:Cosmic_Meatballs size(4) dmg(0)",
+            "Avaritia:Ultimate_Stew size(4) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest388",
+          "name": "Goldgepresstes Latinum",
+          "description": "Auch dieser Mod hat sein eigenes Spezieleisen. Somit muss das dein naechster logischer Schritt sein.",
+          "uuid": "4da0976d-e280-4d06-8f9a-7d0282eda691",
+          "x": 42,
+          "y": 85,
+          "icon": "Avaritia:Resource size(1) dmg(1)",
+          "requirements": [
+            "quest386"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Fuer diesen Barren brauchst du neben den edlen Diamanten auch etwas von einem kleinen, leichen Boss.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Resource size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(8) dmg(1)",
+            "Avaritia:Singularity size(4) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest402",
+          "name": "Der Soeldner",
+          "description": "Ein Waffe, die die Bausteine fuer diesen kleinen Boss leichter droppen laesst, ware soooo nett.",
+          "uuid": "dae153dd-b641-41e9-8c84-b79bb677c446",
+          "x": 58,
+          "y": 110,
+          "icon": "Avaritia:Skull_Sword size(1) dmg(0)",
+          "requirements": [
+            "quest388"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Mit dieser Waffe erhalst du von jedem Skelett einen Witherkopf.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Skull_Sword size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "ForbiddenMagic:StarBlock size(4) dmg(0)",
+            "Avaritia:big_pearl size(2) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest390",
+          "name": "Der Let's Player",
+          "description": "Du wirst es frueh genug merken, aber fuer die folgenden Ueberteile, die du hier erhaelst, brauchst du eine groesserer Werkbank.",
+          "uuid": "ffb63163-1d5a-4c21-baea-d3d957918267",
+          "x": 70,
+          "y": 85,
+          "icon": "Avaritia:Dire_Crafting size(1) dmg(0)",
+          "requirements": [
+            "quest388"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Ich glaube, diese Werkbank ist nach einem bekannten Let's Player benannt. Oder nicht?",
+              "requirements": [
+                {
+                  "item": "Avaritia:Dire_Crafting size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(8) dmg(1)",
+            "Avaritia:Singularity size(4) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest392",
+          "name": "Das Gottespartikel",
+          "description": "Jetzt geht es ans Eingemachte! Du musst jetzt Spielzeit kondensieren, sozusagen.",
+          "uuid": "6befae6a-4e97-4234-b5a0-91889208e854",
+          "x": 98,
+          "y": 85,
+          "icon": "Avaritia:Neutron_Collector size(1) dmg(0)",
+          "requirements": [
+            "quest390"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Dieses Teil solltest du fruehzeitig und in rauhen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Neutron_Collector size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(8) dmg(3)",
+            "Avaritia:Singularity size(4) dmg(5)"
+          ]
+        },
+        {
+          "id": "quest394",
+          "name": "Dunkle Materie",
+          "description": "Die Neutronium Dinger sind die Basis aller weiteren Teile.",
+          "uuid": "a282be87-f0b2-4742-9938-d59c77829ab0",
+          "x": 126,
+          "y": 85,
+          "icon": "Avaritia:Resource size(1) dmg(4)",
+          "requirements": [
+            "quest392"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Du erhaelst aller 6min einen Tropfen. Aus 9 Tropfen wird ein Nugget und wie gehabt aus 9 Nuggets ein Barren.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Resource size(1) dmg(4)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(8) dmg(4)",
+            "Avaritia:Singularity size(4) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest396",
+          "name": "Die Schrottpresse",
+          "description": "Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten enstehen.",
+          "uuid": "a194bde8-f8b0-45e9-987f-0343ec0cef4e",
+          "x": 154,
+          "y": 85,
+          "icon": "Avaritia:Neutronium_Compressor size(1) dmg(0)",
+          "requirements": [
+            "quest394"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Leider kann man in dieser Maschine immer nur ein Metall komprimieren. Das Problem ist dann eher die Dimensionierung. Wenn du so weit gekommen bist, wird das aber kein Problem sein.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Neutronium_Compressor size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Singularity size(4) dmg(9)",
+            "Avaritia:Singularity size(4) dmg(7)",
+            "Avaritia:Singularity size(4) dmg(8)"
+          ]
+        },
+        {
+          "id": "quest420",
+          "name": "Die Singularitaet",
+          "description": "Wenn du der unangefochtene Beherrscher des Universum werden willst, musst du alle moeglichen Singularitaeten beherrschen koennen.",
+          "uuid": "9ea80b7d-42ac-4fe5-aa90-72522735890b",
+          "x": 182,
+          "y": 85,
+          "icon": "Avaritia:Singularity size(1) dmg(0)",
+          "requirements": [
+            "quest396"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jede Singularitaet hat eine andere Dichte. Du wirst das schon schaffen.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(2)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(3)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(4)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(5)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(6)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(7)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(8)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                },
+                {
+                  "item": "Avaritia:Singularity size(1) dmg(9)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Singularity size(4) dmg(2)",
+            "Avaritia:Singularity size(4) dmg(3)",
+            "Avaritia:Singularity size(4) dmg(4)",
+            "arsmagica2:essence size(4) dmg(10)"
+          ]
+        },
+        {
+          "id": "quest400",
+          "name": "Die Supernova",
+          "description": "Der unendliche Kristall stellt die naechste entscheidende Stufe auf deiner Entwicklungsleiter dar. Er wuerde sich gut als Schmuck machen. Allerdings waere er dann verschwendet.",
+          "uuid": "c44d31e2-414d-4bff-8e58-aa7e7083789d",
+          "x": 210,
+          "y": 85,
+          "icon": "Avaritia:Resource size(1) dmg(5)",
+          "requirements": [
+            "quest420"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Fuer diesen Kristall brauchst du nur noch ein paar leicht zu beschaffende Zutaten. Ab hier koennte der Handel mit anderen Spielern interessant sein.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Resource size(1) dmg(5)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(4) dmg(5)"
+          ]
+        },
+        {
+          "id": "quest398",
+          "name": "Unendlichkeit",
+          "description": "Wir sind fast am Ziel, Der unendliche Barren. Die Grundlage aller edlen Werkzeuge und Waffen.",
+          "uuid": "110090cc-b889-4088-8c1d-8798f44a09b1",
+          "x": 238,
+          "y": 85,
+          "icon": "Avaritia:Resource size(1) dmg(6)",
+          "requirements": [
+            "quest400"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Du kennst jetzt alle Zutaten und kannst diesen Barren ganz leicht herstellen. Jetzt nur nicht nachlassen!",
+              "requirements": [
+                {
+                  "item": "Avaritia:Resource size(1) dmg(6)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest404",
+          "name": "Der Zauberlehrling",
+          "description": "Die Bruecke zu anderen Mods. Dieser Zauberstab ist einfach nur goettlich.",
+          "uuid": "fc7928f4-b9ce-4590-a0f5-2de45c4f9eb6",
+          "x": 234,
+          "y": 25,
+          "icon": {
+            "item": "Thaumcraft:WandCasting size(1) dmg(9000)",
+            "nbt": "{cap:'matrix',rod:'infinity'}"
+          },
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Mit diesem super druper Zauberstab wirst du niemals mehr Sorgen haben.",
+              "requirements": [
+                {
+                  "item": "Thaumcraft:WandCasting size(1) dmg(9000)",
+                  "nbt": "{cap:'matrix',rod:'infinity',aqua:999999900,terra:999999900,ignis:999999900,ordo:999999900,perditio:999999900,aer:999999900}",
+                  "required": 1,
+                  "precision": "NBT_FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "AWWayofTime:activationCrystal size(1) dmg(2)",
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest406",
+          "name": "Der Goldschmied",
+          "description": "Das erste Werkzeug mit fantastische Eigenschaften.",
+          "uuid": "0c8805fe-ca70-468a-a2a4-0699f85053e8",
+          "x": 258,
+          "y": 25,
+          "icon": {
+            "item": "Avaritia:Infinity_Pickaxe size(1) dmg(0)",
+            "nbt": "{ench:[0:{lvl:10s,id:35s}]}"
+          },
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Im normalen Mode kann man damit alle Bloecke unmittelbar abbauen. Mit Shift+Rechtsklick kommt man in den Hammermode. Danach braucht das Abbauen Zeit, aber man baut mit jedem Schlag einen Bereich von 16x16x9 ab.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Infinity_Pickaxe size(1) dmg(0)",
+                  "nbt": "{ench:[0:{lvl:10s,id:35s}]}",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "TConstruct:pickaxe size(1) dmg(0)",
+              "nbt": "{InfiTool:{BaseDurability:80000,Head:501,HeadEXP:0l,BaseAttack:51,ToolEXP:0l,Built:1b,HarvestLevel:6,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Pickaxe'}}"
+            },
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest410",
+          "name": "Der Bauarbeiter",
+          "description": "Das zweite Werkzeug mit fantastische Eigenschaften.",
+          "uuid": "cc8e6f1d-2512-475a-80c6-e1e01bc6a3f6",
+          "x": 282,
+          "y": 65,
+          "icon": "Avaritia:Infinity_Shovel size(1) dmg(0)",
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Im normalen Mode kann man damit alle Erdbloecke unmittelbar abbauen. Mit Shift+Rechtsklick kommt man in den Zerstoerermode. Danach braucht das Abbauen Zeit, aber man baut mit jedem Schlag einen Bereich von 16x16x9 ab.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Infinity_Shovel size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "TConstruct:shovel size(1) dmg(0)",
+              "nbt": "{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:52,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Shovel'}}"
+            },
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest408",
+          "name": "Der Foerster",
+          "description": "Das dritte Werkzeug mit fantastische Eigenschaften.",
+          "uuid": "dc03381f-96c9-41d5-9e4c-58186c7cb97f",
+          "x": 270,
+          "y": 45,
+          "icon": "Avaritia:Infinity_Axe size(1) dmg(0)",
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Im normalen Mode kann man ganze Baeume unmittelbar abbauen. Mit Shift+Rechtsklick kommt man in den Naturmode. Danach braucht das Abbauen Zeit, aber man baut mit jedem Schlag alles Holz einen Bereich von 26x26 um den Spieler herum ab. Ausserdem wird jeder Grasblock in einen Erdblock umgewandelt. ",
+              "requirements": [
+                {
+                  "item": "Avaritia:Infinity_Axe size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "TConstruct:hatchet size(1) dmg(0)",
+              "nbt": "{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:53,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:53,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Hatchet'}}"
+            },
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest412",
+          "name": "Der Scharftrichter",
+          "description": "Das erste Waffe mit fantastische Eigenschaften.",
+          "uuid": "2ecfb45a-0a0b-4fb7-a587-99dbb9468d00",
+          "x": 258,
+          "y": 145,
+          "icon": "Avaritia:Infinity_Sword size(1) dmg(0)",
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Dieses Schwert macht unendlich Schaden und altert nicht. Mit anderen Worten. Es toetet alles sofort und geht nicht kaputt. Aehh, es toeten auch Spieler im kreativ Modus. Oh, je.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Infinity_Sword size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "TConstruct:scythe size(1) dmg(0)",
+              "nbt": "{InfiTool:{RenderExtra:501,BaseDurability:480000,Head:501,BaseAttack:54,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:54,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:480000,Modifiers:20},display:{Name:'Â§fInfinity Scythe'}}"
+            },
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest414",
+          "name": "Amors Pfeil",
+          "description": "Das zweite Waffe mit fantastische Eigenschaften.",
+          "uuid": "fd220a1d-2940-41f7-9c8c-cae489edfeaf",
+          "x": 282,
+          "y": 105,
+          "icon": "Avaritia:Infinity_Bow size(1) dmg(0)",
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Dieser Bogen mach 20 Schaden bei jedem Treffer und keht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.",
+              "requirements": [
+                {
+                  "item": "Avaritia:Infinity_Bow size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "TConstruct:ShortBow size(1) dmg(0)",
+              "nbt": "{InfiTool:{BaseDurability:12000,BaseAttack:50,DrawSpeed:27,ToolEXP:0l,Built:1b,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:501,MiningSpeed:6000,Unbreaking:10,Damage:0,HarvestLevel2:7,BonusDurability:0,TotalDurability:12000,MiningSpeed2:6000,BaseDrawSpeed:27,Head:501,Attack:50,Handle:0,Broken:0b,RenderAccessory:501,FlightSpeed:10.0f,ToolLevel:1,Modifiers:10},display:{Name:'Â§fInfinity Shortbow'}}"
+            },
+            "Avaritia:Resource size(8) dmg(6)"
+          ]
+        },
+        {
+          "id": "quest418",
+          "name": "Saubere Energie",
+          "description": "Und noch eine Bruecke zu einem anderen Mod.",
+          "uuid": "5c7f447c-2d33-424a-9ebf-c8ba9fbb4583",
+          "x": 270,
+          "y": 125,
+          "icon": {
+            "item": "ThermalExpansion:Cell size(1) dmg(0)",
+            "nbt": "{Recv:100000,RSControl:1b,Facing:3b,Energy:-1,SideCache:[1b,1b,1b,1b,1b,1b],Send:100000}"
+          },
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Unendliche saubere Energie, der Traum eines jeden Naturfreunds.",
+              "requirements": [
+                {
+                  "item": "ThermalExpansion:Cell size(1) dmg(0)",
+                  "nbt": "{Recv:100000,RSControl:1b,Facing:3b,Energy:-1,SideCache:[1b,1b,1b,1b,1b,1b],Send:100000}",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "simplyjetpacks:jetpacksCommon size(1) dmg(9001)",
+              "nbt": "{Energy:1}"
+            },
+            {
+              "item": "TConstruct:creativeModifier size(1) dmg(0)",
+              "nbt": "{TargetLock:'Pickaxe'}"
+            },
+            {
+              "item": "TConstruct:creativeModifier size(1) dmg(0)",
+              "nbt": "{TargetLock:'Hatchet'}"
+            },
+            {
+              "item": "TConstruct:creativeModifier size(1) dmg(0)",
+              "nbt": "{TargetLock:'Shovel'}"
+            },
+            {
+              "item": "TConstruct:creativeModifier size(1) dmg(0)",
+              "nbt": "{TargetLock:'Shuriken'}"
+            }
+          ]
+        },
+        {
+          "id": "quest416",
+          "name": "Der Unbesiegbare",
+          "description": "Die Ruestung eines Gottes. Keine weiteren Worte!!!",
+          "uuid": "5647f8b2-42e3-4bd9-b7ac-78b16cc740fd",
+          "x": 294,
+          "y": 85,
+          "icon": "Avaritia:Infinity_Chest size(1) dmg(0)",
+          "requirements": [
+            "quest398"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CRAFT",
+              "name": "Crafting Task",
+              "description": "Alle Teile nehmen keinen Schaden.\nKopf: du hast keinen Hunger\nBrust: keine negativen Effekte mehr\nHose: du kannst nicht mehr brennen\nSchuhe: du springst 4 Bloecke hoch\nkomplettes Set: Thaumcraft 20% vis, Botania 25% Manaertrag, schneller kaempfen, immun gegen jeden Schaden auch Voidschaden",
+              "requirements": [
+                {
+                  "item": "Avaritia:Infinity_Helm size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "Avaritia:Infinity_Chest size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "Avaritia:Infinity_Pants size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                },
+                {
+                  "item": "Avaritia:Infinity_Shoes size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "FUZZY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "item": "TConstruct:cleaver size(1) dmg(0)",
+              "nbt": "{InfiTool:{RenderExtra:501,BaseDurability:450000,BaseAttack:56,ToolEXP:0l,Built:1b,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,Unbreaking:10,Damage:0,HarvestLevel2:7,BonusDurability:0,TotalDurability:450000,MiningSpeed2:6000,Head:501,Attack:56,Handle:501,Broken:0b,Extra:501,RenderAccessory:501,ToolLevel:1,Modifiers:20},display:{Name:'Â§fInfinity Cleaver'}}"
+            },
+            "Avaritia:infinitato size(1) dmg(0)"
           ]
         }
       ]
