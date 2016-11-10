@@ -1116,13 +1116,45 @@ recipes.remove(thermExpFluidTransposer);
 recipes.remove(thermExpCyclicAssembler);
 recipes.remove(thermExpPhytogenicInsulator);
 
-
 for i , frame in thermExpFrames
 {
-  recipes.addShaped(thermExpInductionsmelter.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[bcAdditionsCoilLava,frame,bcAdditionsCoilLava],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
-  recipes.addShaped(thermExpMagmaCrucible.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOCapacitorBank,null],[tSteelwBrickScorched,frame,tSteelwBrickScorched],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
-  recipes.addShaped(thermExpFluidTransposer.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOTank,null],[thermExpServo,frame,thermExpServo],[odplateCopper,advGenePowerIO,odplateCopper]]);
-  recipes.addShaped(thermExpCyclicAssembler.withTag({RSControl: 0 , Facing: 3, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,enderIOBufferItem,null],[appEngProcessorLogic,frame,buildCraftChipRedstone],[odplateCopper,advGenePowerIO,odplateCopper]]);
-  recipes.addShaped(thermExpPhytogenicInsulator.withTag({RSControl: 0 , Facing: 3 , Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] , Level: i , Augments: [{Slot: 0, id: 5627 , Count: 1 , Damage: 0 }, {Slot: 1, id: 5627 , Count: 1 , Damage: 32 }, {Slot: 2, id: 5627 , Count: 1 , Damage: 16 }]}),[[null,odGearLumium,null],[gardCoreSoil,frame,gardCoreSoil],[odGearSignalum,advGenePowerIO,odGearSignalum]]);
+  recipes.addShaped( thermExpInductionsmelter.withTag({
+        "RSControl": 0 as byte,
+        "Facing": 3,
+        "Energy": 0,
+        "Level": i as byte,
+        "SideCache": [3, 1, 2, 2, 2, 2] as byte[],
+    }), [[null,enderIOTank,null],[bcAdditionsCoilLava,frame,bcAdditionsCoilLava],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
+  
+  recipes.addShaped( thermExpMagmaCrucible.withTag({
+    "RSControl": 0 as byte,
+    "Facing": 3,
+    "Energy": 0,
+    "Level": i as byte,
+    "SideCache": [1, 1, 2, 2, 2, 2] as byte[]
+  }),[[null,enderIOCapacitorBank,null],[tSteelwBrickScorched,frame,tSteelwBrickScorched],[odPlateInvar,advGenePowerIO,odPlateInvar]]);
+  
+  recipes.addShaped( thermExpFluidTransposer.withTag({
+    "RSControl": 0 as byte,
+    "Facing": 3, 
+    "Energy": 0, 
+    "Level": i as byte,
+    "SideCache": [3, 1, 2, 2, 2, 2] as byte[]
+  }),[[null,enderIOTank,null],[thermExpServo,frame,thermExpServo],[odplateCopper,advGenePowerIO,odplateCopper]]);
+  
+  recipes.addShaped( thermExpCyclicAssembler.withTag({
+    "RSControl": 0 as byte,
+    "Facing": 3,
+    "Energy": 0,
+    "Level": i as byte,
+    "SideCache": [1, 1, 2, 2, 2, 2] as byte[]
+  }),[[null,enderIOBufferItem,null],[appEngProcessorLogic,frame,buildCraftChipRedstone],[odplateCopper,advGenePowerIO,odplateCopper]]);
+  
+  recipes.addShaped( thermExpPhytogenicInsulator.withTag({
+    "RSControl": 0 as byte,
+    "Facing": 3,
+    "Energy": 0,
+    "Level": i as byte,
+    "SideCache": [3, 1, 2, 2, 2, 2] as byte[]
+  }),[[null,odGearLumium,null],[gardCoreSoil,frame,gardCoreSoil],[odGearSignalum,advGenePowerIO,odGearSignalum]]);
 }
-
