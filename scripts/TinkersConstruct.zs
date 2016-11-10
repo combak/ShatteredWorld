@@ -181,6 +181,9 @@ val tConstructIngotCast		= <TConstruct:metalPattern>;
 val tConstructNuggetCast 	= <TConstruct:metalPattern:27>;
 val tConstructGearCast		= <TConstruct:gearCast>;
 
+# Apple Milk Tea
+val amtPanClay    = <DCsAppleMilk:defeatedcrow.emptyPanG>;
+
 # Botania
 val botaniaManasteelIngot	= <Botania:manaResource>;
 val botaniaTerrasteelIngot	= <Botania:manaResource:4>;
@@ -272,7 +275,8 @@ val frArdite		= <liquid:ardite.molten>;
 val frDraconium		= <liquid:molten_draconium>;
 val frMushroom		= <liquid:fluidmushroom>;
 val frDarkSteel		= <liquid:molten_darksteel>;
-
+val frInvar       =  <liquid:invar.molten>;
+val frSteel       =  <liquid:steel.molten>;
 ########################################################################################################################
 # (Mixed) Data Structures - Smeltery - Fuels
 ########################################################################################################################
@@ -469,6 +473,16 @@ val tConstructAddBasinRecipes = [
   <EnderIO:blockIngotStorage:6>			/* 13 - Dark Steel Block */
 ] as IItemStack[];
 
+val tConstructAddBasinPlateRecipes = [
+  <ModularMachines:component.plates:1>,	    /* 0 - Iron Plate */
+  <ModularMachines:component.plates:2>,	    /* 1 - Copper Plate */
+  <ModularMachines:component.plates:3>,	    /* 2 - Tin Plate */
+  <ModularMachines:component.plates:4>,	    /* 3 - Bronze Plate */
+  <ModularMachines:component.plates:5>,	    /* 4 - Steel Plate */
+  <ModularMachines:component.plates:8>,	    /* 5 - Aluminum Plate */
+  <ModularMachines:component.plates:7>      /* 6 - Invar Plate */
+] as IItemStack[];
+
 val tConstructAddTableBasinFluid = [
   frManasteel * 1296,				/*  0 - Manasteel Block */
   frTerrasteel * 1296,				/*  1 - Terrasteel Block */
@@ -483,7 +497,19 @@ val tConstructAddTableBasinFluid = [
   frThaumium * 1296,				/* 10 - Thaumium Block */
   frVoidMetal * 1296,				/* 11 - Void Metal Block */
   frDraconium * 1296,				/* 12 - Draconium Block */
-  frDarkSteel * 1296				/* 13 - Dark Steel Block*/
+  frDarkSteel * 1296,				/* 13 - Dark Steel Block*/
+  
+ 
+] as ILiquidStack[];
+
+val tconstructAddPlateFluid = [
+  frIron * 144 ,		/* 0 - Iron Plate */
+  frCopper * 144,		/* 1 - Copper Plate */
+  frTin * 144,			/* 2 - Tin Plate */
+  frBronze * 144,               /* 3 - Bronze Plate */
+  frSteel*144,                  /* 4 - Steel Plate*/
+  frAluminum*144,               /* 5 - Aluminium Plate*/
+  frInvar*144,                  /* 6- Invar Plate*/
 ] as ILiquidStack[];
 
 ########################################################################################################################
@@ -535,13 +561,21 @@ for i, entry in tConstructAddTableRecipes
   mods.tconstruct.Casting.addTableRecipe( output, fluid, cast, false, 20 );
 }
 
-# Add Table Casting
+# Add Basin Casting
 for i, entry in tConstructAddBasinRecipes
 {
   var output	= entry;
   var fluid	= tConstructAddTableBasinFluid[ i ];
   
   mods.tconstruct.Casting.addBasinRecipe( output, fluid, null, false, 20 );
+}
+
+for i, entry in tConstructAddBasinPlateRecipes
+{
+  var output	= entry;
+  var fluid	= tconstructAddPlateFluid[ i ];
+  
+  mods.tconstruct.Casting.addBasinRecipe( output, fluid, amtPanClay, false, 20 );
 }
 
 #Circiut plates
