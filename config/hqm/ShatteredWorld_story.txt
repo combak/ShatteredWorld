@@ -94,7 +94,7 @@ Task_1: Crafting Task
 Task_2: Detection Task
 	... und wenn man das mehrfach macht, dann entstehen Kies -> Sand -> Staub (dust)
 
-1.16: Toepfers ist so schoen
+1.16: Toepfern ist so schoen
 	Wir brauchen nur noch Wasser und etwas mit dem wir Wasser von Punkt A zu Punkt B tragen koennen. 
 Task_1: Crafting Task
 	Das Barrel kann fuer verschiedene Dinge verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren.
@@ -104,7 +104,7 @@ Task_2: Detection Task
 1.17: Herrschaft des Feuers
 	Ich habe mal gehoert, dass Lava fuer vieles gut sein soll. Und die koennen wir uns sogar aus normalem Stein herstellen. Man braucht dazu nicht viel.
 Task_1: Detection Task
-	Mit einer simplem Fackel und diesem Schmelztiegel (crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingestzt werden.
+	Mit einer simplem Fackel und diesem Schmelztiegel (crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingesetzt werden.
 
 1.18: Sieben bis der Arzt kommt
 	Jetzt haben wir den Stein klein bekommen. Da schimmern in manchen der Brocken ein wenig andere Sachen durch. Wie komme ich da nur ran?
@@ -119,7 +119,7 @@ Task_1: Crafting Task
 1.20: Die Giesserei
 	Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).
 Task_1: Detection Task
-	Die zwei wichtigsten Formen sind Barren und Zahnrad. Um diese zu erhalten muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold darueber giessen. Das Muster wird bei diesem Vorgang zustoert!
+	Die zwei wichtigsten Formen sind Barren und Zahnrad. Um diese zu erhalten muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold darueber giessen. Das Muster wird bei diesem Vorgang zerstoert!
 
 1.21: Das neue Zeitalter
 	Heureka, endlich ist es so weit. Mit den ersten Metallen stossen wir eine komplett neue Welt auf. Die totale Automatisierung ist bestimmt nicht mehr weit.
@@ -163,12 +163,12 @@ Task_1: Detection Task
 1.28: Der Pfadfinder
 	Wir muessen beweisen, das wir in der Wildnis ueberleben koennen. Die erste Pruefung besteht im Feuer machen.
 Task_1: Crafting Task
-	Ein richtiges Feuer besteht aus einem korrekt erstelltem Steinumrandung. Damit ist der Brandschutz gewaehrleistet. Jetzt nur einen Brennstoff plaziert und schon sind wir bereit. (Rechtsklick und Holz in der Mitte unten)
+	Ein richtiges Feuer besteht aus einem korrekt erstelltem Steinumrandung. Damit ist der Brandschutz gewaehrleistet. Jetzt nur einen Brennstoff platziert und schon sind wir bereit. (Rechtsklick und Holz in der Mitte unten)
 Task_2: Detection Task
 	Jetzt sind wir in der Lage unseren rohen Stein zu brennen. Nutze dein Lagerfeuer mit etwas Brennstoff.
 
 1.29: Der rauchende Berg
-	Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwasenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.
+	Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwachsenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.
 Task_1: Detection Task
 	Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einer Fackel an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt.
 
@@ -196,7 +196,7 @@ Task_1: Crafting Task
 	Hier muss keiner Hunger leiden. Alles was du brauchst, um ein guter Bauer, Koch oder Imker zu werden findest du hier.
 
 2.1: Farmland vorbereiten
-	So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.
+	So langsam bekomme ich ein wenig Appetit. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.
 Task_1: Crafting Task
 	Alle Pflanzen brauchen spezielles Farmland, welches nur in einem Komposter hergestellt werden kann. Abfaelle koennen hier kompostiert werden. Besser, als sie in den Muelleimer zu werfen.
 Task_2: Detection Task
@@ -214,7 +214,7 @@ Task_1: Crafting Task
 Task_1: Crafting Task
 	Zuerst die Crops aufs Feld stellen, dann dahinein den Samen setzen. Ernten geht dann mit der leeren rechten Hand. Dabei bleibt die eigentliche Pflanze stehen und kann gleich wieder wachsen.
 Task_2: Detection Task
-	Ich weiss, Gartenarbeit ist oede. Aber mit etwas Gedult wirst auch du dir deinen gruenen Daumen verdienen.
+	Ich weiss, Gartenarbeit ist oede. Aber mit etwas Geduld wirst auch du dir deinen gruenen Daumen verdienen.
 
 2.4: Brot fuer die Welt
 	Nachdem Weizen geht es jetzt an die weiter Verarbeitung. Zuerst machen wir uns Mehl und daraus stellen wir Teig her. Das koennen wir zum Schluss zu nahrhaftem Brot backen. Klingt doch nach einem Plan. 
@@ -251,7 +251,7 @@ Task_1: Detection Task Blumen
 Task_2: Detection Task Botania
 	Exotischen Blumen haben besondere Eigenschaften. Ihr nutzen reicht von Medizin bis Magie. Und schoen sehen sie auch noch aus.
 
-2.9: Die Wunder der Genetic
+2.9: Die Wunder der Genetik
 	Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.
 Task_1: Detection Task
 	Samen, die Metalle und andere Stoffe produzieren, das waere in der realen Welt eine Revolution. Mit diesen hier ist die Produktion von Nuggets besonders einfach.
@@ -273,13 +273,13 @@ Task_2: Crafting Task
 Task_1: Detection Task
 	Ich denke eine Kuh sollte hier hilfreich sein. Frische Milch kann in groesseren Mengen hergestellt werden, ist stapelbar und blockiert keine Eimer.
 
-2.13: Hardened Leather
+2.13: Die Ledermontur
 	Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.
 Task_1: Crafting Task
 	Oh, was fuer eine tolle Lederruestung oder Arbeitsruestung. Ich bin verwirrt.
 
-2.14: Das kleine Autocrafting
-	Gerade am Anfang braucht man mitunter Teile oeffter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.
+2.14: Der kleine Automat
+	Gerade am Anfang braucht man mitunter Teile oefter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.
 Task_1: Crafting Task
 	Mit einem Rechtsklick auf die schon gelernten Rezepte kann man diese einfrieren. Dadurch werden sie nicht bei Ueberfuellung ueberschrieben.
 
@@ -296,12 +296,12 @@ Task_1: Crafting Task
 2.17: Der sauber Treibstoff
 	Auch in diesem Spiel wird der Umweltschutz gross geschrieben. Ein nachwachsender Rohstoff ist eine saubere und effiziente Energiequelle.
 Task_1: Crafting Task
-	Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschienen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsschritt.
+	Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschinen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsschritt.
 
 2.18: Der Weg zum Baumpfleger
 	Baeume dienen nicht nur als Energielieferant. Interessant sind auch die Designmoeglichkeiten der einzelnen Baumarten.
 Task_1: Detection Task
-	Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Gedult haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.
+	Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Geduld haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.
 Task_2: Crafting Task
 	Es ist natuerlich hilfreich zu wissen welche Teile eines Baumes reif fuer die Zuechtung sind. Ausserdem sollte man diese Stellen nicht einfach so ausreissen.
 
@@ -311,7 +311,7 @@ Task_1: Detection Task
 	Arbeite dich bis zu diesem Baum vor. Viel Spass und nicht den Mut verlieren.
 
 2.20: Der Wettergott
-	Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.
+	Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wehwehchen ein Mittel.
 Task_1: Crafting Task
 	Mit dem Rainmaker kannst du den Regen ein- und ausschalten.
 
@@ -320,19 +320,19 @@ Task_1: Crafting Task
 Task_1: Detection Task
 	Du musst die einen ausreichenden Vorrat an Seedoil herstellen. Wenn du diesen in ein Barrel leitest und darin ein Artificial Hive einweichst, hast du den halben Weg geschafft.
 Task_2: Crafting Task
-	Jetzt solltest du mit denem Maschienenpark so weit sein, um dir diese speziellen Bienenstoecker herstellen zu koennen.
+	Jetzt solltest du mit deinem Maschinenpark so weit sein, um dir diese speziellen Bienenstoecke herstellen zu koennen.
 
 2.22: Die Bienenkoenigin
 	Ein Bienenvolk zu verwalten ist eine Sisyphosarbeit. Aber der wichtigste Teil ist immer die Koenigin.
 Task_1: Detection Task
-	Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeien nur in bestimmten Biomen.
+	Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeihen nur in bestimmten Biomen.
 Task_2: Crafting Task
-	Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig und sieh zu einen vernueftigen Schutz zu finden.
+	Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig!
 
 2.23: Der Schwarm
 	Mit etwas mehr Erfahrung in der Bienenzucht sollte auch die Ausbeute steigen. Ausserdem waere es schoen das Verhalten der Bienen bei Nacht und Regen zu steuern.
 Task_1: Crafting Task
-	Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen.
+	Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Ausserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen.
 
 2.24: Das echte Gold
 	Bienen die Erze einsammeln. Ein Wunder der Natur.
@@ -359,10 +359,10 @@ Task_1: Detection Task
 2.28: Des Imkers Ruestung
 	Diese Ruestung besteht zwar aus Stoff, aber einem speziellen. Er kann von keiner Biene durchstochen werden und schuetzt damit zuverlaessig von negativen Effekten.
 Task_1: Crafting Task
-	DIeser Anzug sollte in keiner Imkerwerkstatt fehlen.
+	Dieser Anzug sollte in keiner Imkerwerkstatt fehlen.
 
 2.29: Der Kuechenhelfer
-	Von Tellerwaescher zum Millionaer. Jeder faengt mal klein an.
+	Vom Tellerwaescher zum Millionaer. Jeder faengt mal klein an.
 Task_1: Crafting Task
 	Mit diesem Teil kannst du dir schon die ersten Gerichte herstellen. Ausserdem sind auch noch ein paar nicht essbare Rezepte versteckt.
 
@@ -379,30 +379,30 @@ Task_1: Crafting Task
 2.32: Der Zerkleinerer
 	Eine Zerkleinerungsmaschine darf natuerlich auch nicht fehlen.
 Task_1: Crafting Task
-	Dieses Teil kann nicht nur Nahrung zuerkleinern.
+	Dieses Teil kann nicht nur Nahrung zerkleinern.
 
 2.33: Die Ladestation
-	Was das nit kochen zu tun hat, erschliesst sich mir nicht. Allerdings ist ein bischen Selbstverteidigung auch fuer einen Koch nocht verkehrt.
+	Was das mit kochen zu tun hat, erschliesst sich mir nicht. Allerdings ist ein bisschen Selbstverteidigung auch fuer einen Koch nicht verkehrt.
 Task_1: Crafting Task
 	Wichtig zu wissen ist, das die Kanone Yuzu als Munition braucht. Das Schwert basiert mehr auf Reflexion, kann aber auch ganz normal benutzt werden.
 
 2.34: Die britische Tradition
 	Tee ist viel gesuender als Kaffee und haelt genauso lange wach.
 Task_1: Crafting Task
-	Die Teekanne hat kein Interface. Man muss die einzelnen Inhaltsstoffe mit Rechtsklick rein tuen. Danach kann man mit der Teetasse den fertigen Tee genauso entnehmen.
+	Die Teekanne hat kein Interface. Man muss die einzelnen Inhaltsstoffe mit Rechtsklick rein tun. Danach kann man mit der Teetasse den fertigen Tee genauso entnehmen.
 
 2.35: Die Frostbeule
-	Der Name dieser Maschiene ist leider falsch gewaehlt. Sie macht kein Eis, sie macht etwas aus Eis.
+	Der Name dieser Maschine ist leider falsch gewaehlt. Sie macht kein Eis, sie macht etwas aus Eis.
 Task_1: Crafting Task
 	Der Rohstoff fuer diese Maschien ist Eis. Danach kann man sich fast wie James Bond fuehlen. Man darf nur nicht schuetteln.
 
 2.36: Der Meisterkoch
 	Eine offene Feuerstelle sollte man nicht in seiner Wohnung haben. Aber im Freien spricht nichts dagegen. Hier sprach der Brandschutzbeauftragte.
 Task_1: Crafting Task
-	Die Herdplatte muss ueber Feuer plaziert werden, am besten ueber Lava. Wenn man die Platte noch mit Bricks ummantelt, erhaelt man einen Ofen, indem man andere Sachen backen kann. Die Lehmschale kann auch einfach auf eine normalen Ofen gestellt werden.
+	Die Herdplatte muss ueber Feuer platziert werden, am besten ueber Lava. Wenn man die Platte noch mit Bricks ummantelt, erhaelt man einen Ofen, indem man andere Sachen backen kann. Die Lehmschale kann auch einfach auf eine normalen Ofen gestellt werden.
 
 2.37: Der Braumeister
-	Ab jetzt wird es illegar. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.
+	Ab jetzt wird es illegal. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.
 Task_1: Crafting Task
 	Der Ertrag dieser Maschine ist nicht besonders gut. Die Wirkung der Endprodukte dagegen schon.
 
@@ -417,7 +417,7 @@ Task_1: Crafting Task
 	Die Effekte sind sehr stark, reichen aber nicht sehr weit und auch nicht sehr lange.
 
 3: Der Geist in der Maschine
-	Hurry, die totale Automatisierung kann endlich starten. All die Technologie, die wir so lieben, ohne die wir nicht leben koennen, von der wir ja ueberhaupt nicht abhaengig sind.
+	Hurra, die totale Automatisierung kann endlich starten. All die Technologie, die wir so lieben, ohne die wir nicht leben koennen, von der wir ja ueberhaupt nicht abhaengig sind.
 
 3.1: Die Rohrpost
 	Wollen wir mit einem einfachen Transportsystem anfangen. Je einfacher desto besser.
@@ -441,7 +441,7 @@ Task_1: Crafting Task
 	Diese Maschine stellt wohl eher eine Antiaggressionstherapie dar. Allerdings ist es eine fruehe Moeglichkeit die Ausbeute aus Erzen zu verdoppeln.
 
 3.4: Der Laserstrahl
-	Mit einem Laserstrahl kannst du komplizierte Gegenstaende aus harten Materialien herausfraesen. Desweiteren lassen sich Legierungen herstellen, die sich sonst nicht mischen wuerden.
+	Mit einem Laserstrahl kannst du komplizierte Gegenstaende aus harten Materialien herausfraesen. Des weiteren lassen sich Legierungen herstellen, die sich sonst nicht mischen wuerden.
 Task_1: Crafting Task
 	Mindestens ein Laser muss mit dem Herstellungstisch (assembly table) kombiniert werden. Du solltest aber eine einigermassen gute Energieversorgung haben.
 Task_2: Detection Task
@@ -475,7 +475,7 @@ Task_1: Crafting Task
 	Beim Alloy Smelter ist es wichtig, das der Knopf rechts unten in der GUI richtig eingestellt ist "Furnace only" oder Alloys.
 
 3.10: Die Kneifzange
-	Um Maschinen abzubauen eine Spitzhake verwenden? Das geht nun wirklich nicht.
+	Um Maschinen abzubauen eine Spitzhacke verwenden? Das geht nun wirklich nicht.
 Task_1: Crafting Task
 	Um Maschinen oder Pipes einzustellen oder abzubauen (SHIFT-RechtsKlick), verwendet man einen Maulschluessel (wrench).
 
@@ -489,7 +489,7 @@ Task_1: Crafting Task
 Task_1: Crafting Task
 	Mit dem Bottich (vat) stellt man verschiedene Fluessigkeiten her. Am besten mal in der Maschine dann den Rezept Knopf druecken.
 
-3.13: Dark Armor
+3.13: Der dunkle Ritter
 	Jetzt habe ich doch glatt zu viel Dark Steel in der Tasche. Das verwenden wir sinnvoller fuer eine tolle Ruestung
 Task_1: Crafting Task
 	Die Dark Armor sieht nicht nur duester aus, man kann sie auch durch allerlei Upgrades richtig gut aufpumpen.
@@ -497,16 +497,16 @@ Task_1: Crafting Task
 3.14: Die boese Seele
 	Monster sind extrem laestig. Aber manchmal haben sie ganz nuetzliche Sachen bei sich. Kann man das Farmen dieser Uebeltaeter nicht irgendwie sicherer gestalten?
 Task_1: Crafting Task
-	In dem Soul Binder kombiniert man mit RF, Erfahrungspunkten und Gegenstaende zu seelengebunden Maschienen.
+	In dem Soul Binder kombiniert man mit RF, Erfahrungspunkten und Gegenstaende zu seelengebunden Maschinen.
 Task_2: Detection Task
-	A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.
+	Oder halt seelenlose Gegenstaende.
 
-3.15: Die Resonanze
+3.15: Die Resonanz
 	Einige unsere Gegenstaende muessen geladen werden.
 Task_1: Detection Task
 	Fuer diese Maschine brauchen wir zunaechst mal einen Ender Resonator ...
 Task_2: Crafting Task
-	... den wir dann im Wireless Charger verbauen. Die Reichweiter betraegt 24 Bloecke und hat einen internen Puffer von 200.000 RF.
+	... den wir dann im Wireless Charger verbauen. Die Reichweite betraegt 24 Bloecke und hat einen internen Puffer von 200.000 RF.
 
 3.16: Der gelbe Blitz
 	Eine aufladbare Ruestung, die sehr viel Schaden absorbieren kann.
@@ -514,9 +514,9 @@ Task_1: Crafting Task
 	Der Aufwand ist schon etwas extrem. Ich weiss nicht, ob sich dieser lohnt.
 
 3.17: Ich der Roboter
-	Diestbare Geister helfen dir bei der Automatisierung. Sie lassen sich zum Ernten, Pflanzen oder Einsammeln benutzen.
+	Dienstbare Geister helfen dir bei der Automatisierung. Sie lassen sich zum Ernten, Pflanzen oder Einsammeln benutzen.
 Task_1: Crafting Task
-	Der Roboter stellt die Basiseinheit dar und muss durch Spezialisierungen aufgewertet werden. Jeder hat seine Basisstation, an der er verwaltet wird. Mit dem Bereichsplaner (zone planner) legt man das Einsatzgebiet fest. DIes solltest du immer tun, damit deine Roboter nicht Amok laufen.
+	Der Roboter stellt die Basiseinheit dar und muss durch Spezialisierungen aufgewertet werden. Jeder hat seine Basisstation, an der er verwaltet wird. Mit dem Bereichsplaner (zone planner) legt man das Einsatzgebiet fest. Dies solltest du immer tun, damit deine Roboter nicht Amok laufen.
 
 3.18: Die Hilfskraft
 	Jeder Roboter kann immer nur eine Aktion ausfuehren. Dazu muss er spezialisiert werden.
@@ -534,7 +534,7 @@ Task_1: Crafting Task
 	Fuer eine funktionierende Verbindung brauchen wir natuerlich zwei von diesen Dingern.
 
 3.21: Dynotopia
-	Es gibt verschiendene Arten Dynamos. Jeder hat sein spezielles Einsatzgebiet.
+	Es gibt verschiedene Arten Dynamos. Jeder hat sein spezielles Einsatzgebiet.
 Task_1: Crafting Task
 	Stelle je einen von jedem Typ her und mache dich mit ihnen vertraut.
 
@@ -564,7 +564,7 @@ Task_1: Detection Task
 	Technische Edelsteine sind zwar nicht so wertvoll, lassen sich aber leichter weiter verarbeiten.
 
 3.27: Die 5. Dimension
-	Mitunter moechte man Energie, Fluessigkeiten und Gegenstaende ueber groesser Entfernungen oder in andere Dimensionen transportieren.
+	Mitunter moechte man Energie, Fluessigkeiten und Gegenstaende ueber groessere Entfernungen oder in andere Dimensionen transportieren.
 Task_1: Crafting Task
 	Das Tesserakt (tesseract) ist ein vierdimensionaler Wuerfel. Dadurch lassen sich Verbindungen durch den Hyperraum herstellen. Hat den eigentlich schon jemand gesehen?
 
@@ -580,12 +580,12 @@ Task_3: Crafting Task
 3.29: Gebundene Elektrizitaet
 	Noch so ein Spezialstahl. Die Alchemisten in grauer Vorzeit haben ja ganze Arbeit geleistet.
 Task_1: Detection Task
-	Ein bischen Eisen, Kohle und Ob... aeh Silicon. Der kleine Unteschied macht es. Wie kommt man nur auf solche Kleinigkeiten?
+	Ein bisschen Eisen, Kohle und Ob... aeh Silicon. Der kleine Unterschied macht es. Wie kommt man nur auf solche Kleinigkeiten?
 
 3.30: Das dunkle Omen
-	Dieser dunkle Stahl ist haerter und wiederstandsfaehiger. Allerding ranken sich um die Entdeckungsgeschichte manch selsames Mysterium.
+	Dieser dunkle Stahl ist haerter und wiederstandsfaehiger. Allerdings ranken sich um die Entdeckungsgeschichte manch seltsames Mysterium.
 Task_1: Detection Task
-	Ein bischen Eisen, Kohle und Obsidian und etwas dunkle Magie. Jeder Alchemist haette seine Freude daran.
+	Ein bisschen Eisen, Kohle und Obsidian und etwas dunkle Magie. Jeder Alchemist haette seine Freude daran.
 
 3.31: Gebundene Sonne
 	Die Kraft der Sonne nutzen. Und das auch noch in handlichen Bloecken. Was will man mehr?
@@ -605,12 +605,12 @@ Task_2: Crafting Task
 	... uns einen kontrollierbaren Spawner zu bauen. 
 
 3.34: Die Basis allen Uebels
-	Ein weiterer wichtiger Teil einer Maschiene ist das Gehaeuse in das alle weiteren Komponeneten eingebaut werden.
+	Ein weiterer wichtiger Teil einer Maschine ist das Gehaeuse in das alle weiteren Komponenten eingebaut werden.
 Task_1: Crafting Task
-	Stelle am besten gleich mehrer dieser Gehaeuse her. Du wirst sie brauche. Ganz bestimmt, glaub mir!
+	Stelle am besten gleich mehrere dieser Gehaeuse her. Du wirst sie brauche. Ganz bestimmt, glaub mir!
 
 3.35: Der heisse Kern
-	Hoeherwertige Maschienen brauche bessere Basiskomponenten. Ein heisser Kern kann da sicher nicht schaden.
+	Hoeherwertige Maschinen brauche bessere Basiskomponenten. Ein heisser Kern kann da sicher nicht schaden.
 Task_1: Crafting Task
 	Der Lava Kern ist einfach gestrickt und besteht grundlegend auch aus Gold.
 
@@ -622,7 +622,7 @@ Task_1: Crafting Task
 Task_1: Detection Task
 	Um an Fluixkristalle zu bekommen, muss man geladenen Certusquartz, Netherquartz und Redstone im Verhaeltnis 1:1:1 in Wasser werfen. Diesen kann man danach zerkleinern, um an Fluix Staub zu kommen.
 Task_2: Crafting Task
-	Aus dem Staub kann man spezielles Glass herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist.
+	Aus dem Staub kann man spezielles Glas herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist.
 
 4.2: Der geladene Kristall
 	Fuer manche Rezepte braucht man geladenen Certus Quartz. Dieser ist sehr schwer zu finden. Mit einem Ladegeraet (charger) kann man normalen Certus Quartz aufladen.
@@ -639,7 +639,7 @@ Task_1: Crafting Task
 Task_1: Crafting Task
 	Diese Samen (seeds) muss man einfach nur in Wasser werfen damit sie wachsen. Um das Wachstum zu beschleunigen, sollte man den Crystal Growth Accelerator verwenden.
 Task_2: Detection Task
-	Mit etwas Gedult erhaelt man am Ende formschoene Kristalle.
+	Mit etwas Geduld erhaelt man am Ende formschoene Kristalle.
 
 4.5: Der Graveur
 	Viele folgenden Maschinen und Bauteile basieren auf  Prozessoren. Es ist deshalb eine gute Idee so zeitig als moeglich damit zu beginnen.
@@ -648,7 +648,7 @@ Task_1: Crafting Task
 Task_2: Detection Task
 	Entgegen dem ueblichen Weg, finden von speziellen Meteoren, muessen diese Teile im Lasertisch von Buildcraft hergestellt werden.
 
-4.6: Der Microchip
+4.6: Der Mikrochip
 	Kommen wir zum ersten Prozessor. Dieser ist einfach aufgebaut und fuer den Anfang vollkommen ausreichend.
 Task_1: Detection Task
 	Dieser Prozessor besteht aus drei Teilen, wovon wir zwei vorher schon in der gleichen Maschine herstellen muessen.
@@ -671,27 +671,27 @@ Task_1: Crafting Task
 4.10: Der Kabelbinder
 	Jetzt werden das schon mehr und mehr Geraete. Wir brauchen Kabel.
 Task_1: Crafting Task
-	Die ME Kabel (cable) gibt es in verschienen Arten. Das einfachste ist das Glas Kabel, welches man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen.
+	Die ME Kabel (cable) gibt es in verschiedenen Arten. Das einfachste ist das Glas Kabel, welches man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen.
 
 4.11: Der kleine Speicher
 	Es muss nicht immer Gross sein. Manchmal reicht auch schon was Kleines und Schlichtes.
 Task_1: Crafting Task
-	Das ME Drive ist ein einfacher Speicher, der nur eine Festplatte (storage cell) benutzen kann. Von der Seite erreicht amn die Festplatte selbst. Von Oben sieht man den Inhalt derselben, vorrausgesetzt das ME Drive hat Strom.
+	Das ME Drive ist ein einfacher Speicher, der nur eine Festplatte (storage cell) benutzen kann. Von der Seite erreicht man die Festplatte selbst. Von Oben sieht man den Inhalt derselben, vorausgesetzt das ME Drive hat Strom.
 
 4.12: Klein aber fein
 	Ein paar Maschinen stehen in der Naehe unseres ME Netzwerkes. Kann man die vielleicht daran anschliessen?
 Task_1: Crafting Task
 	Mit dem Speicher Bus (storage bus) sieht man den Inhalt der angeschlossenen Kisten oder Maschinen. Der Export bzw. Import Bus dient zum heraus- bzw. hereinleiten. Das ME-Interface dient komplexeren Aufgaben, wie automatischer Produktion und Pseudoinventar.
 
-4.13: Der Microprocessor
-	Wir errichen das naechste Level der Prozessorherstellung. Damit erweitert sich der Pool des Maschienenparks.
+4.13: Der Mikroprozessor
+	Wir erreichen das naechste Level der Prozessorherstellung. Damit erweitert sich der Pool des Maschinenparks.
 Task_1: Detection Task
 	Die Form fuer diesen Prozessor ist um einiges aufwendiger. Ansonsten ist die Herstellung analog zur einfachen Form.
 
 4.14: Der grosse Speicher
 	Pro Festplatte eine ME Chest, ist nicht sehr Platzsparend. In modernen Rechenzentren benutzt man Speicherschraenke, in die mehrere Festplatten rein passen.
 Task_1: Crafting Task
-	In einen Plattenschrank (ME drive) passen bis zu 10 Festplatten verschiedender Groesse rein.
+	In einen Plattenschrank (ME drive) passen bis zu 10 Festplatten verschiedener Groesse rein.
 
 4.15: Die Steckkarten
 	Viele der Maschinen aus Applied Energistics erscheinen mir noch recht einfach. Kann man die noch verbessern?
@@ -706,15 +706,15 @@ Task_1: Crafting Task
 4.17: Der Erbauer
 	Irgendwie ist das doof, die Gegenstaende heraus zu nehmen und dann in einem normalen Crafting Table zu verwenden.
 Task_1: Crafting Task
-	Das Crafting Terminal beitet uns die Moeglichkeit direkt im ME Netzwerk Gegenstaende herzustellen. Rezepte kann man auch aus NEI uebernehmen.
+	Das Crafting Terminal bietet uns die Moeglichkeit direkt im ME Netzwerk Gegenstaende herzustellen. Rezepte kann man auch aus NEI uebernehmen.
 
 4.18: Die helfende Hand
-	Ein Profi wird nach Perfektion streben. Das heisst auch wiederkehrende Arbeitsschritte zu automatisieren. Dazu braucht Sensoren und Dedektoren.
+	Ein Profi wird nach Perfektion streben. Das heisst auch wiederkehrende Arbeitsschritte zu automatisieren. Dazu braucht Sensoren und Detektoren.
 Task_1: Crafting Task
 	Der ME Level Emitter misst die Menge eines Gegenstandes im Netzwerk und gib bei Ueber- oder Unterschreitung ein Redstonesignal ab.
 
-4.19: Der Microcomputer
-	Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschienen.
+4.19: Der Mikrokomputer
+	Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschinen.
 Task_1: Detection Task
 	Die Form fuer diesen Prozessor ist nicht sehr kompliziert, allerdings schwer zu erreichen. Ansonsten ist die Herstellung analog zur einfachen Form.
 
@@ -731,7 +731,7 @@ Task_1: Crafting Task
 4.22: Der Grossrechner
 	Gehe wir den letzten Schritt vom Taschenrechner zum Grossrechner. Mit jeder Ausbaustufe kann das Monster mehr.
 Task_1: Crafting Task
-	Jeder Crafting Prozessor hat eine maximale Kapazitaet an Arbeitschritten, die er ausfuehren kann. Der Coprozessor kann die Ausfuehrung parallelisieren und damit beschleunigen. Im Monitor sieht man den aktuellen Arbeitschritt.
+	Jeder Crafting Prozessor hat eine maximale Kapazitaet an Arbeitsschritten, die er ausfuehren kann. Der Coprozessor kann die Ausfuehrung parallelisieren und damit beschleunigen. Im Monitor sieht man den aktuellen Arbeitsschritt.
 
 4.23: Der Administrator
 	Jetzt baut das Ding und baut und baut und ich habe keine Ahnung, was es genau gerade tut.
@@ -739,7 +739,7 @@ Task_1: Crafting Task
 	Mit diesen beiden Komponenten sehen wir etwas genauer, wo was wie gerade passiert. Ebenso koennen wir die Rezepte intelligenter verteilen.
 
 4.24: Sternenstaub
-	Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoreinschlaegen koennen weiter verarbeitet werden.
+	Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoriteneinschlaegen koennen weiter verarbeitet werden.
 Task_1: Detection Task
 	Um Sky Stone zu erhalten musst du nur ein Barrel mit Lava fuellen und mit einem Sky Stone Dust darauf rechts klicken. Ist doch ganz einfach.
 
@@ -749,7 +749,7 @@ Task_1: Detection Task
 5.1: Der singende See
 	Ein guter Zauberer braucht auch immer ein geheimnisvolles Zauberbuch. Darin kann er all seine Geheimnisse notieren. Ein solches Buch ist auch mit Magie erfuellt und zeichnet wundersame Dinge auf, die dir nuetzlich sind.
 Task_1: Detection Task
-	Plaziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die fliegenden Noten siehst, bist du fast am Ziel.
+	Platziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die fliegenden Noten siehst, bist du fast am Ziel.
 
 5.2: Das stille Oertchen
 	Der sichere Weg zu neuer Erkenntnis ist die Meditation. Dafuer braucht man einen speziellen Altar. Hier kann man seine Meisterschaft zu neuen Faehigkeiten formen.
@@ -762,27 +762,27 @@ Task_1: Crafting Task
 	Das Zauberbuch ist der Beutel fuer alle Zaubersprueche. Man kann die wichtigsten davon in eine Schnellleiste ziehen.
 
 5.4: Der Basteltisch
-	Wie ein Gedicht muessen alle Zaubersprueche aufgeschrieben werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magisches Papyrus gebannt. Hierbei zeigt sich der ware Meister.
+	Wie ein Gedicht muessen alle Zaubersprueche aufgeschrieben werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magisches Papyrus gebannt. Hierbei zeigt sich der wahre Meister.
 Task_1: Crafting Task
 	Der Beschriftungstisch (Inscription Table) ist der erste Schritt zu maechtigen Zaubern. Alles was du im Occulus gelernt hast, kannst du hier kombinieren.
 
 5.5: Das Rednerpult
-	So ein Zauberbuch kann die Taschen schon ganz schoen ausbeulen. Damit die Zauberruestung immer top aussieht, gibt es ein nettes Pult. Auf diesem kann man alle Buecher und Zauberspruchanleitungen plazieren.
+	So ein Zauberbuch kann die Taschen schon ganz schoen ausbeulen. Damit die Zauberruestung immer top aussieht, gibt es ein nettes Pult. Auf diesem kann man alle Buecher und Zauberspruchanleitungen platzieren.
 Task_1: Crafting Task
-	Dieser simple Buchstand kann einzeln butzt werden. Er wird aber auch fuer den Crafting Altar gebraucht.
+	Dieser simple Buchstand kann einzeln benutzt werden. Er wird aber auch fuer den Crafting Altar gebraucht.
 
 5.6: Der Platz der Wunder
 	Nur zu Wissen wie Zaubersprueche funktionieren genuegt natuerlich nicht. Man moechte sie auch anwenden. Dazu muss man sich diese erst zusammen bauen. Der Magier nutzt dazu ein Crafting Altar.
 Task_1: Crafting Task
-	Die genaue Form dieses Altars ist in deinem Zauberbuch beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchts du ihn spaeter nicht aufzuruesten.
+	Die genaue Form dieses Altars ist in deinem Zauberbuch beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchst du ihn spaeter nicht aufzuruesten.
 
-5.7: Mage Amor
+5.7: Der Papiertieger
 	Wenn man zu einem erlesenen Kreis gehoeren will muss man sich auch dessen Etiketten unterwerfen. Die richtige Kleidung muss bei allen Empfaengen unbedingt getragen werden. Ausserdem dient sie natuerlich als magischer Schutzanzug.
 Task_1: Crafting Task
-	Diese einfachen Ruestungsteile lassen sich aus normalen Grundsstoffen herstellen.
+	Diese einfachen Ruestungsteile lassen sich aus normalen Grundstoffen herstellen.
 
 5.8: Der Ofen der Weisen
-	Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.
+	Die erste rohe Essenz ist die Neutrale Essenz. Dazu wird der Obelisk benutzt.
 Task_1: Crafting Task
 	In dem Obelisk kann man unterschiedliche Materialien oder Fluessigkeiten verbrennen.
 
@@ -793,50 +793,50 @@ Task_1: Crafting Task Chalk
 Task_2: Crafting Task Magitech
 	Mit diesen Dingern kann man sich den Fuellstand der Essenzen anzeigen.
 Task_3: Crafting Task Wrench
-	Das letzte Tool dient dem Umleiten der Essenzestroeme.
+	Das letzte Tool dient dem Umleiten der Essenzstroeme.
 
 5.10: Der magischen Speicher
-	Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuehgung.
+	Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuegung.
 Task_1: Crafting Task
-	Der Speicher kann immer nur eine Art von roher Essenze speichern.
+	Der Speicher kann immer nur eine Art von roher Essenz speichern.
 
 5.11: Die magischen Blumen
-	Was so ein richtiger Magier werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.
+	Was so ein richtiger Magier werden will, muss mit offenen Augen durch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.
 Task_1: Detection Task
 	Finde diese magischen Blumen. Sie sind sehr selten und schwer von anderen zu unterscheiden. Du findest sie unter magischen Baeumen, in Wuesten oder dunklen Stellen.
 
-5.12: Die magischen Essencen
-	Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Man braucht viel rohe Essenzen und natuelich diesen netten Veredler (Refiner).
+5.12: Die magischen Essenzen
+	Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Man braucht viel rohe Essenzen und natuerlich diesen netten Veredler (Refiner).
 Task_1: Crafting Task
-	Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essencen sind doch recht hoch.
+	Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essenzen sind doch recht hoch.
 
 5.13: Der erste Zauber
-	Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erstmal etwas ueben.
+	Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erst mal etwas ueben.
 Task_1: Detection Task
 	Du solltest einen einfachen Zauber aus nur einem Zauberteilbaum erstellen. Diesen kannst du dann so oft anwenden wie moeglich. Mit jeder Benutzung eines Zauber erhoehst du deine Erfahrung und kannst weitere Zauber frei schalten.
 
-5.14: Battlemage Amor
-	Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausreustung genau das richtige.
+5.14: Die Kampfbestie
+	Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausruestung genau das richtige.
 Task_1: Crafting Task
 	Mit den magischen Essenzen aus dem Arcane Refiner kann man jetzt die besseren Ruestungen leicht herstellen.
 
 5.15: Die etwas andere Verzauberung
-	Ein guter Magier ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuegt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.
+	Ein guter Magier ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuegt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Ruestungen durch eine alternative Verzauberung weiter aufwerten.
 Task_1: Crafting Task
-	In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden. Diese sind Endgueltig und koennen nicht erweitert werden.
+	In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzauberungen umgewandelt werden. Diese sind Endgueltig und koennen nicht erweitert werden.
 
 5.16: Der mysterioese Meteor
-	Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Die Gesteine, welche diese Meteore mit sich feuhren, haben besonder magische Eigenschaften. Halte staendig Ausschau nach diesen Dingern.
+	Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Die Gesteine, welche diese Meteore mit sich fuehren, haben besondere magische Eigenschaften. Halte staendig Ausschau nach diesen Dingern.
 Task_1: Detection Task
 	Die Wahrscheinlichkeit fuer Meteore ist sehr gering. Trotzdem werden einige davon gebraucht. Ich habe aber gehoert das es ein Crossmod Ritual geben soll, mit dem man sich diese Dinger herstellen lassen.
 
 5.17: Der Kristall der Weisen
-	Neben der Neutralen Essenze gibt es noch andere rohe Essenze. Die Lichtessenze ist eine davon und kann nur am Tag gewonnen werden. Allerdings braucht sie keinen Rohstoff.
+	Neben der Neutralen Essenz gibt es noch andere rohe Essenz. Die Lichtessenz ist eine davon und kann nur am Tag gewonnen werden. Allerdings braucht sie keinen Rohstoff.
 Task_1: Crafting Task
 	Ein normaler Obelisk wird mit einem speziellen Kreidemuster und verschiedenen Gegenstaenden aufgewertet. Die genaue Beschreibung findest du in deinem Zauberbuch.
 
 5.18: Der Wirbel der Weisen
-	Die letzte rohe Essenze wird aus sterbenden Monstern gewonnen.
+	Die letzte rohe Essenz wird aus sterbenden Monstern gewonnen.
 Task_1: Crafting Task
 	Auch hierfeur sind wieder ein Kreidemuster und verschiedene Gegenstaende noetig. Wie immer alles im Zauberbuch beschrieben.
 
@@ -858,12 +858,12 @@ Task_1: Killing Task
 5.22: Arcane Guardian
 	Der 4. Boss (Level 45) ist nicht fuer schwache Magier.
 Task_1: Killing Task
-	Fuer diesen Boss muss ein spezieller Altar errichtet werden. Ausserdem solltest du eine gute Ruestung mit magischem Wiederstand haben.
+	Fuer diesen Boss muss ein spezieller Altar errichtet werden. Ausserdem solltest du eine gute Ruestung mit magischem Widerstand haben.
 
 5.23: Life Guardian
 	Gegen den 5. Boss (Level 50) sollte man nicht direkt bekaempfen.
 Task_1: Killing Task
-	Diese Bosskampf ist ewas anders, da man nicht gegen den Boss direkt kaempft, sondern gegen seine Minions.
+	Diese Bosskampf ist etwas anders, da man nicht gegen den Boss direkt kaempft, sondern gegen seine Minions.
 
 5.24: Nature Guardian
 	Dieser 6. Boss (Level 60) erscheint, wenn du dich zu sehr an den Dryaden vergreifst, die in der Welt rumlaufen.
@@ -893,7 +893,7 @@ Task_2: Detection Task
 	Ja so einen Flimmern zu fangen ist schon eine knifflige Angelegenheit
 
 5.29: Fang den Mond
-	Um den entspechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.
+	Um den entsprechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.
 Task_1: Crafting Task
 	Der schwierigste Teil der Arbeit war das Einfangen der Flicker. Diese Teil ist dann wieder viel leichter.
 
@@ -920,7 +920,7 @@ Task_1: Detection Task
 Task_1: Detection Task
 	Dieser Zauberstab kann besonders viel Vis speichern.
 
-6.4: Der gedultige Forscher
+6.4: Der geduldige Forscher
 	Mit unserem Zauberstab lassen sich die wichtigen Basisgegenstaende herstellen, die ein Zauberer braucht.
 Task_1: Detection Task
 	Das Zauberbuch haelt alle Informationen bereit, die wir brauchen. Es zeigt uns moegliche neue Zauber an und beschreibt alle Techniken. Stelle ein Bookshelf auf und mache einen Rechtsklick mit deinem Zauberstab darauf.
@@ -962,10 +962,10 @@ Task_1: Detection Task
 Task_1: Detection Task
 	Im Alchemischen Offen liegen die magischen Energien noch in gemischter Form vor. Mit der Alchemical Destillerie koennen diese getrennt werden.
 
-6.12: Tubes
+6.12: Das Ofenrohr
 	Natuerlich brauch man auch ein Transportsystem. Wie ein Gas kann so die magische Energie transportiert werden.
 Task_1: Detection Task
-	Die Essenzeroehre (Tube) transport umkontrolliert die Energie und das Ventil (Valve) regelt den Transport.
+	Die Essenzroehre (Tube) transportiert unkontrolliert die Energie und das Ventil (Valve) regelt den Transport.
 
 6.13: Schleudertrauma
 	Mitunter erhaelt man Vis, welches man nicht braucht. Es waere ein super Sache dieses in seine Bestandteile zu zerlegen.
@@ -988,7 +988,7 @@ Task_1: Detection Task
 	Man baut ein makroskopisches Gefaess um eine Node herum und verwandelt es danach in eine Node in a Bottle um. Ist doch einfach.
 
 6.17: Der schuetzende Schild
-	Diese Nodes sind ganz schoen aggressiv. Sie duerfen nicht zu nahe beieinander aufgestellt werden. Ausser man schirmt sie voneinader ab.
+	Diese Nodes sind ganz schoen aggressiv. Sie duerfen nicht zu nahe beieinander aufgestellt werden. Ausser man schirmt sie voneinander ab.
 Task_1: Detection Task
 	Mit einem Node Stabilizer kann man die Nodes stabilisieren, wie der Name schon sagt. Sie kann nicht von anderen gefressen werden, kann aber auch selbst keine anderen fressen.
 
@@ -1008,14 +1008,14 @@ Task_1: Detection Task
 	Jede Kappe laesst sich bis zu 5 mal aufwerten. Diese koennen nicht zurueck genommen werden. Allerdings lohnt sich der Aufwand.
 
 6.21: Magisches Metall
-	Der wahre Magier braucht natuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzusellen.
+	Der wahre Magier braucht natuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzustellen.
 Task_1: Detection Task
 	Dieses magische Metall wird in einem magischen Schmelzofen hergestellt. Wie sollte es auch anders sein.
 
 6.22: Die Infusion
 	Es gibt maechtige Zauber, die ein besonderes Instrument benoetigen. Dies ist der Infusion Altar. Hier koennen verschiedene Gegenstaende und magische Energien miteinander verschmolzen werden.
 Task_1: Detection Task
-	Der Infusion Altar basiert auf 2 wichtigen Elementen. Den Arcane Pedestal, auf denen Gegenstaende plaziert werden koennen und der Runic Matrix, die die Umwandlung erst moeglich macht. Die Arcane Pedestal muessen immer zentral symmetrisch zur Runic Matrix angeordnet werden.
+	Der Infusion Altar basiert auf 2 wichtigen Elementen. Den Arcane Pedestal, auf denen Gegenstaende platziert werden koennen und der Runic Matrix, die die Umwandlung erst moeglich macht. Die Arcane Pedestal muessen immer zentral symmetrisch zur Runic Matrix angeordnet werden.
 
 6.23: Die Wunderlampen
 	Es ist zwar nicht Aladins Wunderlampe, aber diese Lampen haben es ganz schoen in sich.
@@ -1033,26 +1033,26 @@ Task_1: Detection Task
 	Leider gibt es hier nur drei Teile.
 
 6.26: Minions
-	Da wir noch grosse Weltherrschaftsplaene haben, brauchen wir dringend Helfer fuer unser Resourcenproblem.
+	Da wir noch grosse Weltherrschaftsplaene haben, brauchen wir dringend Helfer fuer unser Ressourcenproblem.
 Task_1: Detection Task
-	Die Basis alle Golems ist dieser Core. Mache dich deshalb dringend mit seiner Herstellung vertraut.
+	Die Basis alle Golems ist dieser Kern. Mache dich deshalb dringend mit seiner Herstellung vertraut.
 
 6.27: Der Gong
 	Um deine Golems dirigieren zu koennen brauchst du ein besonderes Werkzeug. Damit kannst du deine Golems einsammeln, als auch ihnen bestimme Aufgaben zuweisen.
 Task_1: Detection Task
-	Wem die Klocke geschlagen hat, weiss was zu tun ist.
+	Wem die Glocke geschlagen hat, weiss was zu tun ist.
 
 6.28: Die Arbeiterkaste
 	Die einfachsten Spezialisierungen fuer Golems sind das Ernten, Fischen und Holzfaellen.
 Task_1: Detection Task
-	Diese Cores sollten die ersten sein, die du baust.
+	Diese Kerne sollten die ersten sein, die du baust.
 
 6.29: Das fleissige Bienchen
 	Jetzt geht es daran den Golems das Transportieren zwischen Kisten beizubringen.
 Task_1: Detection Task
 	Heraus nehmen und hinein legen sind die zwei Basisfaehigkeiten, die ein fleissiger Golem kennen muss.
 
-6.30: Die intelligente Drone
+6.30: Die intelligente Drohne
 	So, jetzt kommen die Spezialisten.
 Task_1: Detection Task
 	Mit diesen Spezialisierungen kann dein Golem auch Items benutzen, in bestimmte Kisten sortieren oder Fluessigkeiten transportieren.
@@ -1098,9 +1098,9 @@ Task_1: Detection Task
 	Vervollstaendige dieses Set und fuege es deiner Kollektion hinzu. Jetzt bist du bereit deine eigene Boutique zu eroeffnen.
 
 6.39: Magische Ruestung
-	Was liegt naeher, als sich aus diesem magischen Metall ein standesbemaesse Ruestung zu bauen.
+	Was liegt naeher, als sich aus diesem magischen Metall ein standesgemaesse Ruestung zu bauen.
 Task_1: Crafting Task
-	Diese Ruestung sieht zwar aus wie eine dunke Eisenruestung, aber sie verbessert auch deine magischen Faehigkeiten.
+	Diese Ruestung sieht zwar aus wie eine dunkle Eisenruestung, aber sie verbessert deine magischen Faehigkeiten.
 
 6.40: Das kristallisierte Nichts
 	Ein Magier erschafft Dinge aus dem Nichts. Logischer Weise kann er somit das Nichts auch kondensieren und in eine massive Form wandeln.
@@ -1115,7 +1115,7 @@ Task_1: Detection Task
 6.42: Das schwarze Loch
 	Das Outer Land kann man nicht direkt betretet. Diese Muggels reden immer von Wurmloechern und so. Wir wissen es besser, es ist nur eine magische Tuer.
 Task_1: Detection Task
-	Du benoetigst eine ausreichend freie Flaeche. Mit einem Rechtsklick wird das Portal plaziert. Nach kurzer Zeit erscheinen dann die Kultisten.
+	Du benoetigst eine ausreichend freie Flaeche. Mit einem Rechtsklick wird das Portal platziert. Nach kurzer Zeit erscheinen dann die Kultisten.
 
 6.43: Der Hort des Boesen
 	In den Outer Lands muessen wir erst den Schluessel suchen und koennen dann das Tor zu einem der Bosse in dieser Welt oeffnen.
@@ -1134,10 +1134,10 @@ Task_1: Crafting Task
 7.1: Buch der Blumen
 	Ein Meister der Kraeuterkunde braucht natuerlich ein gutes Lexikon.
 Task_1: Detection Task
-	Diese Buch ist super einfach herzustellen. Es enhaellt alle Hinweise, die man braucht.
+	Diese Buch ist super einfach herzustellen. Es enthaellt alle Hinweise, die man braucht.
 
 7.2: Wiesen Power
-	Kraeterkunde ohne Kraeuter ist brotlose Kunst. Deshalb wird es deine Aufgabe sein, erst einmal einige Kraeuter zu sammeln und ihre einfachste Verarbeitung zu lernen.
+	Kraeuterkunde ohne Kraeuter ist brotlose Kunst. Deshalb wird es deine Aufgabe sein, erst einmal einige Kraeuter zu sammeln und ihre einfachste Verarbeitung zu lernen.
 Task_1: Detection Task
 	Die geheimnisvollen Blumen (Mystical Flower) sind die Basis der Forschung in Botania. Der Blumenduenger (Floral Fertilizer) hilft dir, wenn in deiner Umgebung keine Blumen wachsen. Einfach auf die Erde anwenden. Die Farbe ist bei diesem Quest egal.
 Task_2: Crafting Task Petal
@@ -1148,7 +1148,7 @@ Task_3: Crafting Task Powder
 7.3: Der Jungbrunnen
 	Wenn man die Bluetenblaetter unterschiedlicher Kraeuter kombiniert, erhaelt man neue Pflanzen mit interessanten Eigenschaften.
 Task_1: Crafting Task
-	Neben dieser einfachen Aphotheke brauchst du noch eine Wasserquelle. Die Herstellung der Blumen startet mit Wasser und endet mit einem beliebigen Samen (Seed).
+	Neben dieser einfachen Apotheke brauchst du noch eine Wasserquelle. Die Herstellung der Blumen startet mit Wasser und endet mit einem beliebigen Samen (Seed).
 
 7.4: Das pure Weiss
 	Der schlaue Kraeuterkundler weiss das in Holz und Stein auch lebende Eigenschaften stecken. Diese muessen aber erst heraus gearbeitet werden.
@@ -1158,14 +1158,14 @@ Task_2: Detection Task
 	Wenn man eine Pure Daisy mit acht Bloecken Holz oder Stein umgibt, kann sie diese in ihre Lebende (living) Form wandeln.
 
 7.5: Im Sternzeichen der Blume
-	Gerade am Anfang weiss man nie wieviel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.
+	Gerade am Anfang weiss man nie wie viel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.
 Task_1: Detection Task
 	Mit dieser Blume kann man den Verbrauch an Mana besser einschaetzen. Sie leuchtet je nach Verbrauch in verschiedenen Farben.
 
 7.6: Die Feuerblume
 	Eine gute Manaquelle ist die Endoflame. Sie kann Mana aus allem was brennbar ist generieren. Und wenn man genug davon hat, sollte man diese benutzen.
 Task_1: Detection Task
-	Das Problem ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kuntinuierliche Versorgung geben.
+	Das Problem ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kontinuierliche Versorgung geben.
 
 7.7: Das Alpenhorn
 	Das staendige Buecken nach den Blumen geht ganz schoen auf den Ruecken. Koennen diese nicht von allein in den Beutel springen?
@@ -1178,17 +1178,17 @@ Task_1: Crafting Task
 	Der Fluss des Manas muss gesteuert werden. Die Wuenschelrute (Twig) dient als Schraubenschluessel des Kraeuterkundlers. Das Spritzgeraet (Spreader) leitet das Mana weiter und der Pool sammelt es.
 
 7.9: Die Kraft der Blumen
-	Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.
+	Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Ressourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.
 Task_1: Detection Task
-	Man sollte beachten, das gleiche Blumen nicht zu nah beieinander plaziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden.
+	Man sollte beachten, das gleiche Blumen nicht zu nah beieinander platziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden.
 
 7.10: Der Schaltkasten
 	Unser Mananetzwerk wird jetzt immer groesser. Dann wird es Zeit fuer weiter Werkzeuge zum Steuern des Manaflusses.
 Task_1: Crafting Task
-	Der Mana Verteiler (Distributor) verteilt das Mana, welches er erhaelt, gleichmaessig auf alle angeschlossenen Pools auf. Mit dem Mana Tablet kann man Mana transportieren. Die ander werden eher selten gebraucht.
+	Der Mana Verteiler (Distributor) verteilt das Mana, welches er erhaelt, gleichmaessig auf alle angeschlossenen Pools auf. Mit dem Mana Tablet kann man Mana transportieren. Die anderen werden eher selten gebraucht.
 
 7.11: Das blaue Werkzeug
-	Und schon sind wir bei den naechsten aufgewertetet Gegenstaenden, die du als Meister der Kraeuterkunde kennen musst.
+	Und schon sind wir bei den naechsten aufgewerteten Gegenstaenden, die du als Meister der Kraeuterkunde kennen musst.
 Task_1: Detection Task Steel
 	Manasteel ist eine aufgewertete Form des Eisen.
 Task_2: Detection Task Dia Pearl
@@ -1197,7 +1197,7 @@ Task_2: Detection Task Dia Pearl
 7.12: Die blaue Kostuem
 	Was liegt naeher, als ein super Ruestung aus Manasteel herzustellen?
 Task_1: Crafting Task
-	Diese Ruestung haelt viel aus. Wenn man ein gefuelltet Manatablet in seinem Inventar mit sich fuehrt, wird es auch automatisch repariert.
+	Diese Ruestung haelt viel aus. Wenn man ein gefuelltest Manatablet in seinem Inventar mit sich fuehrt, wird es auch automatisch repariert.
 
 7.13: Das Teleskop
 	Mit Manalinsen laesst sich das Verhalten der Manaspreader veraendern. Sie koennen auch fuer schoene Schmuckstuecke benutzt werden.
@@ -1207,7 +1207,7 @@ Task_2: Crafting Task special
 	Stelle von jeder Linse je ein Muster her. Sieh in dein Buch, wenn du wissen willst, was die Funktion der Linsen ist. Muss man dir den alles erklaeren?
 
 7.14: Der grosse Attraktor
-	Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik zu dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgenwann irgendwie sinnvoll.
+	Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik zu dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgendwann irgendwie sinnvoll.
 Task_1: Crafting Task
 	Nie wieder buecken. Der Magnetring sammelt alles, was auf dem Boden liegt, ein. Sehr praktisches, das Teil!
 
@@ -1217,7 +1217,7 @@ Task_1: Crafting Task
 	Der Altar muss jetzt nur noch mit Mana versorgt werden.
 
 7.16: Die fuenf Elemente
-	Die wichtigsten Teile, die mit dem Altar hergestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichigte Zauber.
+	Die wichtigsten Teile, die mit dem Altar hergestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichige Zauber.
 Task_1: Detection Task
 	Die Basisrunen sind den vier Elementen und dem Mana gewidmet.
 
@@ -1227,7 +1227,7 @@ Task_1: Detection Task
 	Das Problem mit den Runen der vier Jahreszeiten ist die geringe Anzahl bei der Herstellung, aber das gleichst du ja durch deinen Fleiss aus.
 
 7.18: Die Basis des Glaubens
-	Die hohe Kunst der Runen. Diese Spezielrunen dienen als Grundlage fuer die maechtigsten Zauber.
+	Die hohe Kunst der Runen. Diese Spezialrunen dienen als Grundlage fuer die maechtigsten Zauber.
 Task_1: Detection Task
 	Ich koennte jetzt aufzaehlen, wo diese Runen ueberall eingesetzt werden koennen. Aber das wuerde dir nur den Spass verderben.
 
@@ -1244,7 +1244,7 @@ Task_1: Crafting Task
 7.21: Das gruene Monster
 	Die naechste Stufe des Kraeuterkundlers. 
 Task_1: Detection Task
-	Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besseren Stahl. Ob der Transformationsprozess startet zeigt dir die Effekteshow.
+	Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besseren Stahl. Ob der Transformationsprozess startet zeigt dir die Effektenshow.
 Task_2: Crafting Task
 	Den genauen Aufbau findest du wieder in deinem Lexikon. Die Versorgung mit Mana erfolgt ueber Sparks. Aber beachte, das der Manaverbrauch gewaltig ist.
 
@@ -1259,9 +1259,9 @@ Task_1: Crafting Task
 	Der Stab stellt ein Upgrade fuer den Rod of the Lands dar.
 
 7.24: Das Tor zum Himmel
-	Das Elven Portal oeffnet uns den Weg zu einzigartigen Zaubern eines Krauterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal handel treiben.
+	Das Elven Portal oeffnet uns den Weg zu einzigartigen Zaubern eines Kraeuterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal Handel treiben.
 Task_1: Crafting Task
-	Diese zwei Bloecke sind die Basis des Elven Portals. Die genaue Anordung findest wie immer in deinem Lexikon.
+	Diese zwei Bloecke sind die Basis des Elven Portals. Die genaue Anordnung findest wie immer in deinem Lexikon.
 
 7.25: Die pinke Zelle
 	Elementium Steel ist das staerkste Metall, das du jetzt herstellen kannst.
@@ -1271,7 +1271,7 @@ Task_1: Detection Task
 7.26: Pink Panther
 	Die letzte Ruestung, versprochen!
 Task_1: Crafting Task
-	So eine rosarote Ruestung ist der Traum eines jeden Spielers. Die Wirkung auf Gegener ist allerding umstritten.
+	So eine rosarote Ruestung ist der Traum eines jeden Spielers. Die Wirkung auf Gegner ist allerdings umstritten.
 
 7.27: Das pinke Werkzeug
 	Mit dem Elvenportal lassen sich neue wichtig Gegenstaende herstellen.
@@ -1291,12 +1291,12 @@ Task_1: Detection Task
 7.30: Die boese Hexe
 	Es wird Zeit fuer einen ordentlichen Bosskampf. Aber dieser hat es in sich. Du solltest eine gute Ruestung und starke Traenke am Start haben.
 Task_1: Crafting Task
-	Neben einem Beacon, den man ja leicht bekommt, brauchst du diese Pylonen. Die Anordnung findest du wieder in deinem Lexicon.
+	Neben einem Beacon, den man ja leicht bekommt, brauchst du diese Pylonen. Die Anordnung findest du wieder in deinem Lexikon.
 Task_2: Detection Task
 	Nach einem kurzen Kampf, der dich sicher nicht ins schwitzen bringen wird, erhaelst du den Geist von Gaia (Gaia Spirit). Das solltest du unbedingt schnell wiederholen.
 
 7.31: Verhexte Dinge
-	Wer haette es gedacht, aus den Gaia Spirit lassen sich noch bessere Gegestaende herstellen.
+	Wer haette es gedacht, aus den Gaia Spirit lassen sich noch bessere Gegenstaende herstellen.
 Task_1: Crafting Task
 	Der Gaia Spreader kann mehr und schneller Mana transportieren. Der Gaia Spirit Ingot hilft dir dabei eine bessere Gaia zu rufen. Wie, das wissen nur die Goetter.
 
@@ -1313,7 +1313,7 @@ Task_1: Detection Task
 7.34: Wie auf Wolke 7
 	Es wird Zeit fuer unsere Flugfaehigkeit.
 Task_1: Crafting Task
-	Diese formschoenen Fluegel lassen sich an den Geschmack des Besitzer anpassen. Denn nichts ist wichtiger als der aessere Schein.
+	Diese formschoenen Fluegel lassen sich an den Geschmack des Besitzer anpassen. Denn nichts ist wichtiger als der aeussere Schein.
 
 7.35: Der rote Faden
 	Rote Faeden, was soll das schon bringen? Die machen bestimmt nur rote Kleidungsstuecke.
@@ -1323,10 +1323,10 @@ Task_1: Crafting Task
 7.36: Die Fernwaffe
 	Doch keine rote Kleidung. Bloecke, die eine magische Fernwirkung haben. Was sich damit alles machen laesst?
 Task_1: Crafting Task
-	Stelle alle diese Bloecke her. Die Namen sagen alles ueber ihre Funktion aus. Allerdings muss man immer im Kopf haben, das sie entgegen ihrer klassischen Zwillinge, auf entferrnte Inventare wirken.
+	Stelle alle diese Bloecke her. Die Namen sagen alles ueber ihre Funktion aus. Allerdings muss man immer im Kopf haben, das sie entgegen ihrer klassischen Zwillinge, auf entfernte Inventare wirken.
 
 8: Die Blutbank
-	Jeder angehende Vampir muss sich erst einmal mit den eigenheiten von Blut beschaeftigen. Danach kann er in die Tiefen der Blutmanipulation vordringen.
+	Jeder angehende Vampir muss sich erst einmal mit den Eigenheiten von Blut beschaeftigen. Danach kann er in die Tiefen der Blutmanipulation vordringen.
 
 8.1: Opfere dich selbst
 	Jeder faengt mal klein an. Auch der Meister des Blutes muss das. Klein bedeutet aber auch das eigene Blut zu benutzen.
@@ -1343,7 +1343,7 @@ Task_1: Detection Task
 8.3: Gib mir die Kugel
 	Die Orbs sind magische Gegenstaende zum Speichern von Blut.
 Task_1: Detection Task
-	Stelle diesen einfachen Orb her. Mit einem Rechstklick bindest du den Orb an dich.
+	Stelle diesen einfachen Orb her. Mit einem Rechtsklick bindest du den Orb an dich.
 
 8.4: Allwissend
 	Damit die Zauber am Altar auch alle auf Anhieb klappen, muss man immer wissen wie viel Blut im Netzwerk ist.
@@ -1358,19 +1358,19 @@ Task_1: Crafting Task
 8.6: Stroh zu Gold
 	Was waere ein Zaubermod ohne Traenke. Auch der Blutmagier hat seinen eigenen Braustand, oder sollte ich besser Giftkueche sagen.
 Task_1: Crafting Task
-	Das Alchemic Chemistry Set vollbringt ware Wunder.
+	Das Alchemic Chemistry Set vollbringt wahre Wunder.
 Task_2: Detection Task
 	Stelle einige Basisessenzen her um dich einzuarbeiten. Vergiss nicht den passenden Orb zu benutzen.
 
 8.7: Die bewehrte Platte
 	Ein besseres Sigil oeffnet den Weg zu besseren Items.
 Task_1: Detection Task
-	Da du jetzt mehr Blut zur Verfuegung hast, kannst du bessere Slates hestellen.
+	Da du jetzt mehr Blut zur Verfuegung hast, kannst du bessere Slates herstellen.
 
 8.8: Die Kugel rollt
 	Das zweite Level der Orbs.
 Task_1: Detection Task
-	Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk vorhalten kann. Ja, ein bischen Grips ist schon notwendig.
+	Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk vorhalten kann. Ja, ein bisschen Grips ist schon notwendig.
 
 8.9: Aufbauen und Zerstoeren
 	Wir legen mit den Sigils richtig los.
@@ -1407,7 +1407,7 @@ Task_3: Crafting Task Lamp
 Task_4: Crafting Task Bridge
 	Sicher das lustigste Sigil. Man erzeugt damit ein Luftbruecke, ueber die man laufen kann.
 Task_5: Crafting Task Holding
-	Das schweizer Taschenmesser unter den Sigils. Es kann bis zu vier andere Sigil aufnehmen und damit Platz im Inventar sparen.
+	Das Schweizer Taschenmesser unter den Sigils. Es kann bis zu vier andere Sigil aufnehmen und damit Platz im Inventar sparen.
 
 8.14: Die Malstifte
 	Eine wichtige Vorarbeit fuer die Rituale. Die Ritualsteine muessen mit bestimmten Runen bemalt werden.
@@ -1437,24 +1437,24 @@ Task_1: Detection Task
 8.19: Der Unzerstoerbare
 	Was haelst du von einer Ruestung, die fast alles absorbieren  und ausserdem mit zusaetzlichen Eigenschaften aufgeruestet werden kann.
 Task_1: Detection Task
-	Diese Ruestung wird nicht normal gecraftet. Die Soul Armor Forge wird nur einmal gebraucht. Darum wird mit den Filled Socket das Ruestungsteil gebaut. Danach koennen die Verbesserungen eingesetzt werden.
+	Diese Ruestung wird nicht normal hergestellt. Die Soul Armor Forge wird nur einmal gebraucht. Darum wird mit den Filled Socket das Ruestungsteil gebaut. Danach koennen die Verbesserungen eingesetzt werden.
 Task_2: Detection Task
 	Diese Ruestung ist eine der staerksten im Spiel.
 
 8.20: Das Spezialwerkzeug
-	Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Demonen herbei zaubern.
+	Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Daemonen herbei zaubern.
 Task_1: Detection Task
 	Stelle auch hiervon je eine Probe her, auch wenn du spaeter mehr davon brauchen wirst.
 
 8.21: Der Debattierzirkel
-	Ein wichtiger Teil des Mods sind aber auch die Begleiter und Demonen, die man beschwoeren kann. Dazu ist ein weiterer spezieller Ritualaufbau notwendig.
+	Ein wichtiger Teil des Mods sind aber auch die Begleiter und Daemonen, die man beschwoeren kann. Dazu ist ein weiterer spezieller Ritualaufbau notwendig.
 Task_1: Crafting Task
 	Das kleinste Ritual besteht aus einem Sockel und 6 Standfuessen. Stelle sie her!
 
 8.22: Der Satansbraten
 	Zur weiteren Ausbildung eines Blutmagiers ist der Demon Blood Shard notwendig. Diesen erhaelst du nur von Elementaren. Jeder dieser Elementare hat aber einen Angriffseffekt, der dir das Leben schwer macht.
 Task_1: Detection Task
-	Es kann sein, das du mehrere Versuche brauchst, bevor ein solcher Splitter dropt.
+	Es kann sein, das du mehrere Versuche brauchst, bevor ein solcher Splitter heraus faellt.
 
 8.23: Die teuflische Platte
 	Und weiter geht es mit den Slates.
@@ -1469,15 +1469,15 @@ Task_1: Detection Task
 8.25: Hin und weg
 	Was, noch mehr Sigil? Wir koennen doch schon alles moegliche.
 Task_1: Crafting Task Compress
-	Ein wohl eher selten genutzes Sigil, der Autopacker im Inventar. Es kann Gegenstaende zu Bloecken wandeln (2x2 oder 3x3).
+	Ein wohl eher selten genutztes Sigil, der Autopacker im Inventar. Es kann Gegenstaende zu Bloecken wandeln (2x2 oder 3x3).
 Task_2: Crafting Task Ender
 	Sicher auch ein sehr spassiges Sigil. Es verhindert, das sich Endermaenner wegporten koennen.
 Task_3: Crafting Task Haste
 	Dieses Sigil macht genau das was uns der Name sagt. Der Spieler bekommt einen Geschwingkeitsbuff.
 Task_4: Crafting Task Whirlwind
-	Diese Sigil ist als Teil der Ruestung gold wert. Es reflektiert alle Projektile und Pfleile.
+	Diese Sigil ist als Teil der Ruestung Gold wert. Es reflektiert alle Projektile und Pfeile.
 Task_5: Crafting Task Supression
-	Auch ein Sigil aus der Kategorie Spass. Es entferrnt alle Fluessigleitsbloecke in einem Radius von 5. Man geht in einer Blase durch Wasser oder Lava.
+	Auch ein Sigil aus der Kategorie Spass. Es entfernt alle Fluessigleitsbloecke in einem Radius von 5. Man geht in einer Blase durch Wasser oder Lava.
 
 8.26: Der Filzstift
 	Einige Rituale sind so komplex, das eine weiter magische Tinte gebraucht wird. Mit deinem neuen Altar ist es jetzt moeglich diese herzustellen.
@@ -1494,7 +1494,7 @@ Task_1: Crafting Task
 8.28: Das Plueschtier
 	Ein Stadt voller Daemonen. Wer denkt sich sowas nur aus. Mit dem Ritual "Convocation of the damned" startest du den Prozess.
 Task_1: Detection Task
-	Es koennen verschieden Arten von Deamonen erscheinen. Jede hat eine andere Faehigkeit der Verteidigung. Und sie hauen verdammt hart zu. Du brauchst natuerlich mehrere dieser Tropfen.
+	Es koennen verschieden Arten von Daemonen erscheinen. Jede hat eine andere Faehigkeit der Verteidigung. Und sie hauen verdammt hart zu. Du brauchst natuerlich mehrere dieser Tropfen.
 
 8.29: Die himmlische Platte
 	Der aktuell staerkste Slate!
@@ -1504,12 +1504,12 @@ Task_1: Detection task
 8.30: Die perfekte Kugel
 	Das fuenfte Level der Orbs. Jetzt benoetigt man schon vier Netherstars fuer den Altar.
 Task_1: Detection Task
-	Ausserdem musst du einen Demon toeten, um an den Demon Blood Shard zu kommen.
+	Ausserdem musst du einen Daemon toeten, um an den Demon Blood Shard zu kommen.
 
 8.31: Wachsen und vergehen
 	Nimmt das den gar kein Ende mit den Sigil.
 Task_1: Crafting Task
-	Ein Unbeding Habe Wollen (Must Have) fuer alle Gaertner unter uns. Mit deisem Siegel wird automatisch geerntet, eingesammlt und geplanzt. Sehr nuetzlich!
+	Ein unbeding haben wollen (Must Have) fuer alle Gaertner unter uns. Mit diesem Siegel wird automatisch geerntet, eingesammelt und gepflanzt. Sehr nuetzlich!
 
 8.32: Der Kreis schliesst sich
 	Der sechste Level der Orbs. Das Problem ist hier wie immer der Altar. Vier Crystal Cluster sind eine harte Nuss.
@@ -1524,7 +1524,7 @@ Task_2: Crafting Task
 	Mit der neuer Tinte hast du dir auch eine neue Wuenschelrute frei geschaltet.
 
 8.34: Der Grenzgaenger
-	Die blutrote (sanguine) Ruestung stellt ein Bindeglied zu einem anderen Mod dar und kann eigenstaendig genutzt werden oder in die Blood Magig Ruestung eingearbeitet werden.
+	Die blutrote (sanguine) Ruestung stellt ein Bindeglied zu einem anderen Mod dar und kann eigenstaendig genutzt werden oder in die Blood Magic Ruestung eingearbeitet werden.
 Task_1: Detection Task
 	Mit dem Ritual of Binding wandelt man Gegenstaende aus dem anderen Mod um und erhaelt neue mit Eigenschaften aus zwei Welten.
 
@@ -1549,17 +1549,17 @@ Task_1: Crafting Task
 	Dieses einfache Teil gibt uns eine Vorahnung auf den Materialbedarf dieses Mods.
 
 9.4: Das Kraftpaket
-	Neue staerkere Waffen und Maschienen brauchen natuerlich auch einen staerkeren Generator.
+	Neue staerkere Waffen und Maschinen brauchen natuerlich auch einen staerkeren Generator.
 Task_1: Crafting Task
 	Dieser Generator kann Kohle viel effizienter verbrennen als andere.
 
 9.5: Der Sonnenanbeter
-	Jetzt zeigt sich die ware Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.
+	Jetzt zeigt sich die wahre Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.
 Task_1: Crafting Task
 	Mit einem Redstone Signal kann die Zeit beschleunigt werden. Aber, die Tickrate des Spiels wird nicht veraendert!
 
 9.6: Der Killer
-	Fuer die automatische Jadg auf Grosswild braucht man eine besonders gefaehrliche Maschine. Diese haellt auch schweren Explosionen stand.
+	Fuer die automatische Jagd auf Grosswild braucht man eine besonders gefaehrliche Maschine. Diese haelt auch schweren Explosionen stand.
 Task_1: Crafting Task
 	Diese nette kleine Maschine eignet sich hervorragend zum Toeten eines Withers.
 
@@ -1579,7 +1579,7 @@ Task_1: Crafting Task
 	Ich hoffe du hast dir in der Zwischenzeit schon einen netten Witherkiller gebaut. Denn ab jetzt brauchst du jede Menge Netherstars.
 
 9.10: Der Blechkamerad
-	Die Waffen eines Wyvern Kriegers sollten in keinem gut gefuerten Kriegerzelt fehlen.
+	Die Waffen eines Wyvern Kriegers sollten in keinem gut gefuehrten Kriegerzelt fehlen.
 Task_1: Crafting Task
 	Diese Waffen haben ein paar nette Zusatzeffekte, die du unbedingt erforschen solltest.
 
@@ -1624,7 +1624,7 @@ Task_1: Crafting Task
 	Diese Waffen haben besondere Effekte. Setze sie weise ein und ziehe nicht den Zorn der Goetter (OPs) auf dich.
 
 9.19: Der Schwerarbeiter
-	Ein erleuchteter Meister wird eher an der freidlichen Nutzung seines Wissens interessiert sein.
+	Ein erleuchteter Meister wird eher an der friedlichen Nutzung seines Wissens interessiert sein.
 Task_1: Crafting Task
 	Stelle alle diese Werkzeuge her und staune ueber ihre Faehigkeiten. (wird leider hier nicht sauber angezeigt)
 
@@ -1634,7 +1634,7 @@ Task_1: Crafting Task
 	Die hoechste Ausbaustufe bietet natuerlich auch die meisten Moeglichkeiten.
 
 10: Die Grosswildjagd
-	Jeder kann einen Loewen jagen. Die Tiere hier sind da ein anderes Kalieber. Sie machen sich nicht nur als Trphaehen an der Wand gut.
+	Jeder kann einen Loewen jagen. Die Tiere hier sind da ein anderes Kaliber. Sie machen sich nicht nur als Trophaeen an der Wand gut.
 
 10.1: Arctic Mobs I
 	Jage alle arktischen Mobs (Teil 1).
@@ -1699,7 +1699,7 @@ Task_1: Detection Task
 10.13: Freshwater Mobs
 	Jage alle Sueswassermobs.
 Task_1: Killing Task
-	Sueswasser findet man nur in Fluessen oder kleinen Seen. Einfache Wasserbehaelter koenten schon genuegen. Die Events helfen dir bei den fliegenden Mobs.
+	Sueswasser findet man nur in Fluessen oder kleinen Seen. Einfache Wasserbehaelter koennten schon genuegen. Die Events helfen dir bei den fliegenden Mobs.
 
 10.14: Freshwater Scepter
 	Sammle alle Sueswasserzepter.
@@ -1827,25 +1827,25 @@ Task_1: Location Task
 Task_1: Crafting Task
 	Die Basis sind wie immer Diamanten. Halt nur in einer veredelten Form.
 
-12.2: Goldgepresstes Latinum
-	Auch dieser Mod hat sein eigenes Spezieleisen. Somit muss das dein naechster logischer Schritt sein.
+12.2: Gold gepresstes Latinum
+	Auch dieser Mod hat sein eigenes Spezialeisen. Somit muss das dein naechster logischer Schritt sein.
 Task_1: Crafting Task
-	Fuer diesen Barren brauchst du neben den edlen Diamanten auch etwas von einem kleinen, leichen Boss.
+	Fuer diesen Barren brauchst du neben den edlen Diamanten auch etwas von einem kleinen, leichten Boss.
 
 12.3: Der Soeldner
-	Ein Waffe, die die Bausteine fuer diesen kleinen Boss leichter droppen laesst, ware soooo nett.
+	Ein Waffe, die die Bausteine fuer diesen kleinen Boss leichter droppen laesst, waere soooo nett.
 Task_1: Crafting Task
-	Mit dieser Waffe erhalst du von jedem Skelett einen Witherkopf.
+	Mit dieser Waffe erhaelst du von jedem Skelett einen Witherkopf.
 
 12.4: Der Let's Player
-	Du wirst es frueh genug merken, aber fuer die folgenden Ueberteile, die du hier erhaelst, brauchst du eine groesserer Werkbank.
+	Du wirst es frueh genug merken, aber fuer die folgenden Ueberteile, die du hier erhaelst, brauchst du eine groessere Werkbank.
 Task_1: Crafting Task
 	Ich glaube, diese Werkbank ist nach einem bekannten Let's Player benannt. Oder nicht?
 
 12.5: Das Gottespartikel
 	Jetzt geht es ans Eingemachte! Du musst jetzt Spielzeit kondensieren, sozusagen.
 Task_1: Crafting Task
-	Dieses Teil solltest du fruehzeitig und in rauhen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.
+	Dieses Teil solltest du fruehzeitig und in rauen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.
 
 12.6: Dunkle Materie
 	Die Neutronium Dinger sind die Basis aller weiteren Teile.
@@ -1853,7 +1853,7 @@ Task_1: Crafting Task
 	Du erhaelst aller 6min einen Tropfen. Aus 9 Tropfen wird ein Nugget und wie gehabt aus 9 Nuggets ein Barren.
 
 12.7: Die Schrottpresse
-	Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten enstehen.
+	Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten entstehen.
 Task_1: Crafting Task
 	Leider kann man in dieser Maschine immer nur ein Metall komprimieren. Das Problem ist dann eher die Dimensionierung. Wenn du so weit gekommen bist, wird das aber kein Problem sein.
 
@@ -1900,7 +1900,7 @@ Task_1: Crafting Task
 12.16: Amors Pfeil
 	Das zweite Waffe mit fantastische Eigenschaften.
 Task_1: Crafting Task
-	Dieser Bogen mach 20 Schaden bei jedem Treffer und keht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.
+	Dieser Bogen mach 20 Schaden bei jedem Treffer und geht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.
 
 12.17: Saubere Energie
 	Und noch eine Bruecke zu einem anderen Mod.

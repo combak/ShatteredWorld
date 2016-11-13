@@ -642,7 +642,7 @@
         },
         {
           "id": "quest015",
-          "name": "Toepfers ist so schoen",
+          "name": "Toepfern ist so schoen",
           "description": "Wir brauchen nur noch Wasser und etwas mit dem wir Wasser von Punkt A zu Punkt B tragen koennen. ",
           "uuid": "ca854cde-92d7-4e01-b7c8-ecf8fe382b71",
           "x": 222,
@@ -714,7 +714,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Mit einer simplem Fackel und diesem Schmelztiegel (crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingestzt werden.",
+              "description": "Mit einer simplem Fackel und diesem Schmelztiegel (crucible) kann man Stein in Lava umwandeln. Der Lehmeimer ist aber sehr empfindlich und kann nur einmal eingesetzt werden.",
               "requirements": [
                 {
                   "item": "exnihilo:crucible size(1) dmg(0)",
@@ -851,7 +851,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Die zwei wichtigsten Formen sind Barren und Zahnrad. Um diese zu erhalten muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold darueber giessen. Das Muster wird bei diesem Vorgang zustoert!",
+              "description": "Die zwei wichtigsten Formen sind Barren und Zahnrad. Um diese zu erhalten muss man ein Positiv auf den Casting Table legen und Aluminium Brass oder Gold darueber giessen. Das Muster wird bei diesem Vorgang zerstoert!",
               "requirements": [
                 {
                   "item": "TConstruct:metalPattern size(1) dmg(0)",
@@ -1174,7 +1174,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Ein richtiges Feuer besteht aus einem korrekt erstelltem Steinumrandung. Damit ist der Brandschutz gewaehrleistet. Jetzt nur einen Brennstoff plaziert und schon sind wir bereit. (Rechtsklick und Holz in der Mitte unten)",
+              "description": "Ein richtiges Feuer besteht aus einem korrekt erstelltem Steinumrandung. Damit ist der Brandschutz gewaehrleistet. Jetzt nur einen Brennstoff platziert und schon sind wir bereit. (Rechtsklick und Holz in der Mitte unten)",
               "requirements": [
                 {
                   "item": "ForestDay:campfire.curb size(1) dmg(0)",
@@ -1204,7 +1204,7 @@
         {
           "id": "quest296",
           "name": "Der rauchende Berg",
-          "description": "Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwasenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.",
+          "description": "Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwachsenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.",
           "uuid": "8242965d-c1cf-4bdf-b232-57607d694ecb",
           "x": 94,
           "y": 15,
@@ -1474,7 +1474,7 @@
         {
           "id": "quest028",
           "name": "Farmland vorbereiten",
-          "description": "So langsam bekomme ich ein wenig Apetitt. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
+          "description": "So langsam bekomme ich ein wenig Appetit. Aber Pflanzen brauchen Zeit zum wachsen. Deswegen sollten wir uns ein Feld vorbereiten, auf dem wir in Kuerze etwas anpflanzen koennen.",
           "uuid": "c2e7f818-c193-4aea-bc5c-0f38321bcd11",
           "x": 42,
           "y": 50,
@@ -1616,7 +1616,7 @@
               "id": "task001",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Ich weiss, Gartenarbeit ist oede. Aber mit etwas Gedult wirst auch du dir deinen gruenen Daumen verdienen.",
+              "description": "Ich weiss, Gartenarbeit ist oede. Aber mit etwas Geduld wirst auch du dir deinen gruenen Daumen verdienen.",
               "requirements": [
                 {
                   "item": "minecraft:wheat size(1) dmg(0)",
@@ -1952,7 +1952,7 @@
         },
         {
           "id": "quest036",
-          "name": "Die Wunder der Genetic",
+          "name": "Die Wunder der Genetik",
           "description": "Genetische Forschung bringt mitunter sonderbare Geschoepfe hervor. Einige davon sind sogar sehr nuetzlich.",
           "uuid": "d869c2f4-e231-42ad-a4bc-dc59380ed37b",
           "x": 106,
@@ -2150,7 +2150,7 @@
         },
         {
           "id": "quest318",
-          "name": "Hardened Leather",
+          "name": "Die Ledermontur",
           "description": "Fuer die Arbeit auf dem Feld gibt es wie in jedem Beruf ein optimale Berufsbekleidung. Ausserdem ist der Dreck nicht so leicht zu sehen.",
           "uuid": "03949d2e-e386-4a98-a2e8-de47f6e0cc1c",
           "x": 122,
@@ -2207,8 +2207,8 @@
         },
         {
           "id": "quest040",
-          "name": "Das kleine Autocrafting",
-          "description": "Gerade am Anfang braucht man mitunter Teile oeffter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.",
+          "name": "Der kleine Automat",
+          "description": "Gerade am Anfang braucht man mitunter Teile oefter. Da ist es gut ein System zu haben, das sich ein paar Rezepte merkt.",
           "uuid": "2ac9a55d-13df-4455-b7ba-b011ed53a72d",
           "x": 258,
           "y": 25,
@@ -2347,7 +2347,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschienen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsschritt.",
+              "description": "Fuer eine kontinuierliche Energieerzeugung sind verschiedene Mengen der einzelnen Maschinen notwendig aber im Prinzip immer mehr mit fortschreitendem Arbeitsschritt.",
               "requirements": [
                 {
                   "item": "Forestry:factory size(1) dmg(5)",
@@ -2392,7 +2392,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Gedult haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.",
+              "description": "Der Prozess der Baumzuechtung ist Aufwendig und Zeitintensive. Du solltest Geduld haben. Spezielle Bienen koennen hilfreich sein. Dieses Geraet hilft dir bei der Bestimmung der Gattung des Baumes.",
               "requirements": [
                 {
                   "item": "Forestry:treealyzer size(1) dmg(0)",
@@ -2463,7 +2463,7 @@
         {
           "id": "quest052",
           "name": "Der Wettergott",
-          "description": "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wewechen ein Mittel.",
+          "description": "Manchmal braucht man den Regen und manchmal nicht. Die moderne Wissenschaft kennt fuer jedes Wehwehchen ein Mittel.",
           "uuid": "874f79f1-1cf1-4b88-9eda-65eeed08c1cd",
           "x": 286,
           "y": 125,
@@ -2539,7 +2539,7 @@
               "id": "task001",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Jetzt solltest du mit denem Maschienenpark so weit sein, um dir diese speziellen Bienenstoecker herstellen zu koennen.",
+              "description": "Jetzt solltest du mit deinem Maschinenpark so weit sein, um dir diese speziellen Bienenstoecke herstellen zu koennen.",
               "requirements": [
                 {
                   "item": "Forestry:beehives size(1) dmg(1)",
@@ -2584,7 +2584,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeien nur in bestimmten Biomen.",
+              "description": "Mit diesem Geraet kannst du die Gattung der einzelnen Bienen untersuchen. Manche Bienen gedeihen nur in bestimmten Biomen.",
               "requirements": [
                 {
                   "item": "Forestry:beealyzer size(1) dmg(0)",
@@ -2597,7 +2597,7 @@
               "id": "task001",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig und sieh zu einen vernueftigen Schutz zu finden.",
+              "description": "Mit dem Kescher faengt man die Insekten und in einem einfachen Bienenstock macht man sie heimisch. Einige Bienen haben haessliche Eigenschaften. Sei vorsichtig!",
               "requirements": [
                 {
                   "item": "Forestry:scoop size(1) dmg(0)",
@@ -2638,7 +2638,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Asserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen.",
+              "description": "Mit diesem speziellen Bienenhaus kannst du das Nacht und Regenverhalten steuern. Ausserdem kannst du einzelne Biome simulieren und so die Zuechtung neuer Arten beschleunigen und vereinfachen.",
               "requirements": [
                 {
                   "item": "Forestry:alveary size(1) dmg(0)",
@@ -2854,7 +2854,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "DIeser Anzug sollte in keiner Imkerwerkstatt fehlen.",
+              "description": "Dieser Anzug sollte in keiner Imkerwerkstatt fehlen.",
               "requirements": [
                 {
                   "item": "Forestry:apiaristHelmet size(1) dmg(0)",
@@ -2893,7 +2893,7 @@
         {
           "id": "quest424",
           "name": "Der Kuechenhelfer",
-          "description": "Von Tellerwaescher zum Millionaer. Jeder faengt mal klein an.",
+          "description": "Vom Tellerwaescher zum Millionaer. Jeder faengt mal klein an.",
           "uuid": "58c63839-eb8e-4c49-a396-165d8413cbd2",
           "x": 22,
           "y": 150,
@@ -3025,7 +3025,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Dieses Teil kann nicht nur Nahrung zuerkleinern.",
+              "description": "Dieses Teil kann nicht nur Nahrung zerkleinern.",
               "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.advProcessor size(1) dmg(0)",
@@ -3043,7 +3043,7 @@
         {
           "id": "quest436",
           "name": "Die Ladestation",
-          "description": "Was das nit kochen zu tun hat, erschliesst sich mir nicht. Allerdings ist ein bischen Selbstverteidigung auch fuer einen Koch nocht verkehrt.",
+          "description": "Was das mit kochen zu tun hat, erschliesst sich mir nicht. Allerdings ist ein bisschen Selbstverteidigung auch fuer einen Koch nicht verkehrt.",
           "uuid": "2ca14290-e5e9-4470-b6d2-206d3694e262",
           "x": 122,
           "y": 175,
@@ -3107,7 +3107,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Die Teekanne hat kein Interface. Man muss die einzelnen Inhaltsstoffe mit Rechtsklick rein tuen. Danach kann man mit der Teetasse den fertigen Tee genauso entnehmen.",
+              "description": "Die Teekanne hat kein Interface. Man muss die einzelnen Inhaltsstoffe mit Rechtsklick rein tun. Danach kann man mit der Teetasse den fertigen Tee genauso entnehmen.",
               "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.teaMakerNext size(1) dmg(0)",
@@ -3130,7 +3130,7 @@
         {
           "id": "quest432",
           "name": "Die Frostbeule",
-          "description": "Der Name dieser Maschiene ist leider falsch gewaehlt. Sie macht kein Eis, sie macht etwas aus Eis.",
+          "description": "Der Name dieser Maschine ist leider falsch gewaehlt. Sie macht kein Eis, sie macht etwas aus Eis.",
           "uuid": "3e4281d3-ee68-4ac1-b209-c7650e08b0d4",
           "x": 90,
           "y": 125,
@@ -3190,7 +3190,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Die Herdplatte muss ueber Feuer plaziert werden, am besten ueber Lava. Wenn man die Platte noch mit Bricks ummantelt, erhaelt man einen Ofen, indem man andere Sachen backen kann. Die Lehmschale kann auch einfach auf eine normalen Ofen gestellt werden.",
+              "description": "Die Herdplatte muss ueber Feuer platziert werden, am besten ueber Lava. Wenn man die Platte noch mit Bricks ummantelt, erhaelt man einen Ofen, indem man andere Sachen backen kann. Die Lehmschale kann auch einfach auf eine normalen Ofen gestellt werden.",
               "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.teppanII size(1) dmg(0)",
@@ -3219,7 +3219,7 @@
         {
           "id": "quest440",
           "name": "Der Braumeister",
-          "description": "Ab jetzt wird es illegar. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.",
+          "description": "Ab jetzt wird es illegal. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.",
           "uuid": "1168e900-0bf8-4467-83c7-618984d41c59",
           "x": 134,
           "y": 150,
@@ -3357,7 +3357,7 @@
     {
       "id": "set002",
       "name": "Der Geist in der Maschine",
-      "description": "Hurry, die totale Automatisierung kann endlich starten. All die Technologie, die wir so lieben, ohne die wir nicht leben koennen, von der wir ja ueberhaupt nicht abhaengig sind.",
+      "description": "Hurra, die totale Automatisierung kann endlich starten. All die Technologie, die wir so lieben, ohne die wir nicht leben koennen, von der wir ja ueberhaupt nicht abhaengig sind.",
       "quests": [
         {
           "id": "quest055",
@@ -3542,7 +3542,7 @@
         {
           "id": "quest058",
           "name": "Der Laserstrahl",
-          "description": "Mit einem Laserstrahl kannst du komplizierte Gegenstaende aus harten Materialien herausfraesen. Desweiteren lassen sich Legierungen herstellen, die sich sonst nicht mischen wuerden.",
+          "description": "Mit einem Laserstrahl kannst du komplizierte Gegenstaende aus harten Materialien herausfraesen. Des weiteren lassen sich Legierungen herstellen, die sich sonst nicht mischen wuerden.",
           "uuid": "568ee9ba-1f52-4671-a794-c61734a8220d",
           "x": 62,
           "y": 120,
@@ -3804,7 +3804,7 @@
         {
           "id": "quest065",
           "name": "Die Kneifzange",
-          "description": "Um Maschinen abzubauen eine Spitzhake verwenden? Das geht nun wirklich nicht.",
+          "description": "Um Maschinen abzubauen eine Spitzhacke verwenden? Das geht nun wirklich nicht.",
           "uuid": "0e7d6108-3282-46db-b24b-abc83c0750b7",
           "x": 190,
           "y": 85,
@@ -3908,7 +3908,7 @@
         },
         {
           "id": "quest068",
-          "name": "Dark Armor",
+          "name": "Der dunkle Ritter",
           "description": "Jetzt habe ich doch glatt zu viel Dark Steel in der Tasche. Das verwenden wir sinnvoller fuer eine tolle Ruestung",
           "uuid": "653d6f3a-c95c-430a-bb6a-20e9c6a6e735",
           "x": 202,
@@ -3978,7 +3978,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "In dem Soul Binder kombiniert man mit RF, Erfahrungspunkten und Gegenstaende zu seelengebunden Maschienen.",
+              "description": "In dem Soul Binder kombiniert man mit RF, Erfahrungspunkten und Gegenstaende zu seelengebunden Maschinen.",
               "requirements": [
                 {
                   "item": "EnderIO:blockSoulBinder size(1) dmg(0)",
@@ -3996,7 +3996,7 @@
               "id": "task001",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough.",
+              "description": "Oder halt seelenlose Gegenstaende.",
               "requirements": [
                 {
                   "item": "EnderIO:itemMaterial size(1) dmg(8)",
@@ -4012,7 +4012,7 @@
         },
         {
           "id": "quest070",
-          "name": "Die Resonanze",
+          "name": "Die Resonanz",
           "description": "Einige unsere Gegenstaende muessen geladen werden.",
           "uuid": "ce58d616-6714-4807-a0fc-befe27902d44",
           "x": 262,
@@ -4044,7 +4044,7 @@
               "id": "task001",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "... den wir dann im Wireless Charger verbauen. Die Reichweiter betraegt 24 Bloecke und hat einen internen Puffer von 200.000 RF.",
+              "description": "... den wir dann im Wireless Charger verbauen. Die Reichweite betraegt 24 Bloecke und hat einen internen Puffer von 200.000 RF.",
               "requirements": [
                 {
                   "item": "EnderIO:blockWirelessCharger size(1) dmg(0)",
@@ -4124,7 +4124,7 @@
         {
           "id": "quest342",
           "name": "Ich der Roboter",
-          "description": "Diestbare Geister helfen dir bei der Automatisierung. Sie lassen sich zum Ernten, Pflanzen oder Einsammeln benutzen.",
+          "description": "Dienstbare Geister helfen dir bei der Automatisierung. Sie lassen sich zum Ernten, Pflanzen oder Einsammeln benutzen.",
           "uuid": "4c083c21-8898-4f62-b747-02732698c31c",
           "x": 38,
           "y": 120,
@@ -4142,7 +4142,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Der Roboter stellt die Basiseinheit dar und muss durch Spezialisierungen aufgewertet werden. Jeder hat seine Basisstation, an der er verwaltet wird. Mit dem Bereichsplaner (zone planner) legt man das Einsatzgebiet fest. DIes solltest du immer tun, damit deine Roboter nicht Amok laufen.",
+              "description": "Der Roboter stellt die Basiseinheit dar und muss durch Spezialisierungen aufgewertet werden. Jeder hat seine Basisstation, an der er verwaltet wird. Mit dem Bereichsplaner (zone planner) legt man das Einsatzgebiet fest. Dies solltest du immer tun, damit deine Roboter nicht Amok laufen.",
               "requirements": [
                 {
                   "item": "BuildCraft|Robotics:robot size(1) dmg(0)",
@@ -4282,7 +4282,7 @@
         {
           "id": "quest354",
           "name": "Dynotopia",
-          "description": "Es gibt verschiendene Arten Dynamos. Jeder hat sein spezielles Einsatzgebiet.",
+          "description": "Es gibt verschiedene Arten Dynamos. Jeder hat sein spezielles Einsatzgebiet.",
           "uuid": "e6b48718-c74a-4a2a-98b8-9a03ff56b72c",
           "x": 114,
           "y": 105,
@@ -4521,7 +4521,7 @@
         {
           "id": "quest366",
           "name": "Die 5. Dimension",
-          "description": "Mitunter moechte man Energie, Fluessigkeiten und Gegenstaende ueber groesser Entfernungen oder in andere Dimensionen transportieren.",
+          "description": "Mitunter moechte man Energie, Fluessigkeiten und Gegenstaende ueber groessere Entfernungen oder in andere Dimensionen transportieren.",
           "uuid": "6be821eb-45ad-4b10-8199-846eed2d4c24",
           "x": 150,
           "y": 155,
@@ -4642,7 +4642,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Ein bischen Eisen, Kohle und Ob... aeh Silicon. Der kleine Unteschied macht es. Wie kommt man nur auf solche Kleinigkeiten?",
+              "description": "Ein bisschen Eisen, Kohle und Ob... aeh Silicon. Der kleine Unterschied macht es. Wie kommt man nur auf solche Kleinigkeiten?",
               "requirements": [
                 {
                   "item": "EnderIO:itemAlloy size(1) dmg(0)",
@@ -4659,7 +4659,7 @@
         {
           "id": "quest374",
           "name": "Das dunkle Omen",
-          "description": "Dieser dunkle Stahl ist haerter und wiederstandsfaehiger. Allerding ranken sich um die Entdeckungsgeschichte manch selsames Mysterium.",
+          "description": "Dieser dunkle Stahl ist haerter und wiederstandsfaehiger. Allerdings ranken sich um die Entdeckungsgeschichte manch seltsames Mysterium.",
           "uuid": "c8a3785e-7e12-4c90-9a3c-70f94970ccbb",
           "x": 178,
           "y": 65,
@@ -4677,7 +4677,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Ein bischen Eisen, Kohle und Obsidian und etwas dunkle Magie. Jeder Alchemist haette seine Freude daran.",
+              "description": "Ein bisschen Eisen, Kohle und Obsidian und etwas dunkle Magie. Jeder Alchemist haette seine Freude daran.",
               "requirements": [
                 {
                   "item": "EnderIO:itemAlloy size(1) dmg(6)",
@@ -4818,7 +4818,7 @@
         {
           "id": "quest382",
           "name": "Die Basis allen Uebels",
-          "description": "Ein weiterer wichtiger Teil einer Maschiene ist das Gehaeuse in das alle weiteren Komponeneten eingebaut werden.",
+          "description": "Ein weiterer wichtiger Teil einer Maschine ist das Gehaeuse in das alle weiteren Komponenten eingebaut werden.",
           "uuid": "45a26b00-d7fd-4099-997b-78876795ea2a",
           "x": 114,
           "y": 135,
@@ -4836,7 +4836,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Stelle am besten gleich mehrer dieser Gehaeuse her. Du wirst sie brauche. Ganz bestimmt, glaub mir!",
+              "description": "Stelle am besten gleich mehrere dieser Gehaeuse her. Du wirst sie brauche. Ganz bestimmt, glaub mir!",
               "requirements": [
                 {
                   "item": "ThermalExpansion:Frame size(1) dmg(0)",
@@ -4853,7 +4853,7 @@
         {
           "id": "quest384",
           "name": "Der heisse Kern",
-          "description": "Hoeherwertige Maschienen brauche bessere Basiskomponenten. Ein heisser Kern kann da sicher nicht schaden.",
+          "description": "Hoeherwertige Maschinen brauche bessere Basiskomponenten. Ein heisser Kern kann da sicher nicht schaden.",
           "uuid": "7dc7d6b5-2287-49dd-a132-7fe43698cd2b",
           "x": 138,
           "y": 85,
@@ -4936,7 +4936,7 @@
               "id": "task001",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Aus dem Staub kann man spezielles Glass herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist.",
+              "description": "Aus dem Staub kann man spezielles Glas herstellen. Dabei ist es unwichtig, ob es Certus oder Nether Quartz Staub ist.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:tile.BlockQuartzGlass size(1) dmg(0)",
@@ -5073,7 +5073,7 @@
               "id": "task001",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Mit etwas Gedult erhaelt man am Ende formschoene Kristalle.",
+              "description": "Mit etwas Geduld erhaelt man am Ende formschoene Kristalle.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:item.ItemMultiMaterial size(1) dmg(10)",
@@ -5153,7 +5153,7 @@
         },
         {
           "id": "quest076",
-          "name": "Der Microchip",
+          "name": "Der Mikrochip",
           "description": "Kommen wir zum ersten Prozessor. Dieser ist einfach aufgebaut und fuer den Anfang vollkommen ausreichend.",
           "uuid": "0ed2d060-a5d8-4d60-888d-542249234a5e",
           "x": 126,
@@ -5324,7 +5324,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Die ME Kabel (cable) gibt es in verschienen Arten. Das einfachste ist das Glas Kabel, welches man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen.",
+              "description": "Die ME Kabel (cable) gibt es in verschiedenen Arten. Das einfachste ist das Glas Kabel, welches man mit Wolle isolieren kann. An diesem Kabel, ob isoliert oder nicht, kann man maximal acht Geraete anschliessen.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:item.ItemMultiPart size(1) dmg(16)",
@@ -5359,7 +5359,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Das ME Drive ist ein einfacher Speicher, der nur eine Festplatte (storage cell) benutzen kann. Von der Seite erreicht amn die Festplatte selbst. Von Oben sieht man den Inhalt derselben, vorrausgesetzt das ME Drive hat Strom.",
+              "description": "Das ME Drive ist ein einfacher Speicher, der nur eine Festplatte (storage cell) benutzen kann. Von der Seite erreicht man die Festplatte selbst. Von Oben sieht man den Inhalt derselben, vorausgesetzt das ME Drive hat Strom.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:tile.BlockChest size(1) dmg(0)",
@@ -5431,8 +5431,8 @@
         },
         {
           "id": "quest083",
-          "name": "Der Microprocessor",
-          "description": "Wir errichen das naechste Level der Prozessorherstellung. Damit erweitert sich der Pool des Maschienenparks.",
+          "name": "Der Mikroprozessor",
+          "description": "Wir erreichen das naechste Level der Prozessorherstellung. Damit erweitert sich der Pool des Maschinenparks.",
           "uuid": "b2e6352a-160e-4aac-9588-80fc9b9ef095",
           "x": 126,
           "y": 125,
@@ -5485,7 +5485,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "In einen Plattenschrank (ME drive) passen bis zu 10 Festplatten verschiedender Groesse rein.",
+              "description": "In einen Plattenschrank (ME drive) passen bis zu 10 Festplatten verschiedener Groesse rein.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:tile.BlockDrive size(1) dmg(0)",
@@ -5595,7 +5595,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Das Crafting Terminal beitet uns die Moeglichkeit direkt im ME Netzwerk Gegenstaende herzustellen. Rezepte kann man auch aus NEI uebernehmen.",
+              "description": "Das Crafting Terminal bietet uns die Moeglichkeit direkt im ME Netzwerk Gegenstaende herzustellen. Rezepte kann man auch aus NEI uebernehmen.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:item.ItemMultiPart size(1) dmg(360)",
@@ -5613,7 +5613,7 @@
         {
           "id": "quest088",
           "name": "Die helfende Hand",
-          "description": "Ein Profi wird nach Perfektion streben. Das heisst auch wiederkehrende Arbeitsschritte zu automatisieren. Dazu braucht Sensoren und Dedektoren.",
+          "description": "Ein Profi wird nach Perfektion streben. Das heisst auch wiederkehrende Arbeitsschritte zu automatisieren. Dazu braucht Sensoren und Detektoren.",
           "uuid": "58888daa-c315-47f2-91f8-a1ebaafc1df3",
           "x": 142,
           "y": 100,
@@ -5647,8 +5647,8 @@
         },
         {
           "id": "quest089",
-          "name": "Der Microcomputer",
-          "description": "Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschienen.",
+          "name": "Der Mikrokomputer",
+          "description": "Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschinen.",
           "uuid": "2142419e-e085-477a-be81-1ff45a990177",
           "x": 230,
           "y": 125,
@@ -5772,7 +5772,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Jeder Crafting Prozessor hat eine maximale Kapazitaet an Arbeitschritten, die er ausfuehren kann. Der Coprozessor kann die Ausfuehrung parallelisieren und damit beschleunigen. Im Monitor sieht man den aktuellen Arbeitschritt.",
+              "description": "Jeder Crafting Prozessor hat eine maximale Kapazitaet an Arbeitsschritten, die er ausfuehren kann. Der Coprozessor kann die Ausfuehrung parallelisieren und damit beschleunigen. Im Monitor sieht man den aktuellen Arbeitsschritt.",
               "requirements": [
                 {
                   "item": "appliedenergistics2:tile.BlockCraftingUnit size(1) dmg(0)",
@@ -5851,7 +5851,7 @@
         {
           "id": "quest290",
           "name": "Sternenstaub",
-          "description": "Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoreinschlaegen koennen weiter verarbeitet werden.",
+          "description": "Wir verraten dir ein grosses Geheimnis. Aber sage es bitte nicht weiter. Die Reste von Meteoriteneinschlaegen koennen weiter verarbeitet werden.",
           "uuid": "d243fc84-e6c8-4f63-b286-20aa85750c4c",
           "x": 214,
           "y": 100,
@@ -5911,7 +5911,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Plaziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die fliegenden Noten siehst, bist du fast am Ziel.",
+              "description": "Platziere ein Buch in einen Rahmen in der Naehe eines magischen See. Wenn du die fliegenden Noten siehst, bist du fast am Ziel.",
               "requirements": [
                 {
                   "item": "arsmagica2:ArcaneCompendium size(1) dmg(0)",
@@ -6001,7 +6001,7 @@
         {
           "id": "quest100",
           "name": "Der Basteltisch",
-          "description": "Wie ein Gedicht muessen alle Zaubersprueche aufgeschrieben werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magisches Papyrus gebannt. Hierbei zeigt sich der ware Meister.",
+          "description": "Wie ein Gedicht muessen alle Zaubersprueche aufgeschrieben werden. Dafuer ist ein besondere Tisch noetig. Auf diesem werden die Zauber in magisches Papyrus gebannt. Hierbei zeigt sich der wahre Meister.",
           "uuid": "5e12e19b-7f1a-4a06-a116-9495050a4c92",
           "x": 126,
           "y": 20,
@@ -6037,7 +6037,7 @@
         {
           "id": "quest101",
           "name": "Das Rednerpult",
-          "description": "So ein Zauberbuch kann die Taschen schon ganz schoen ausbeulen. Damit die Zauberruestung immer top aussieht, gibt es ein nettes Pult. Auf diesem kann man alle Buecher und Zauberspruchanleitungen plazieren.",
+          "description": "So ein Zauberbuch kann die Taschen schon ganz schoen ausbeulen. Damit die Zauberruestung immer top aussieht, gibt es ein nettes Pult. Auf diesem kann man alle Buecher und Zauberspruchanleitungen platzieren.",
           "uuid": "414de2d5-2dbf-4040-a8a9-deeeb65ec1d7",
           "x": 158,
           "y": 20,
@@ -6055,7 +6055,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Dieser simple Buchstand kann einzeln butzt werden. Er wird aber auch fuer den Crafting Altar gebraucht.",
+              "description": "Dieser simple Buchstand kann einzeln benutzt werden. Er wird aber auch fuer den Crafting Altar gebraucht.",
               "requirements": [
                 {
                   "item": "arsmagica2:blockLectern size(1) dmg(0)",
@@ -6091,7 +6091,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Die genaue Form dieses Altars ist in deinem Zauberbuch beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchts du ihn spaeter nicht aufzuruesten.",
+              "description": "Die genaue Form dieses Altars ist in deinem Zauberbuch beschrieben. Du solltest gleich die besten Materialien benutzen, dann brauchst du ihn spaeter nicht aufzuruesten.",
               "requirements": [
                 {
                   "item": "arsmagica2:magicWall size(1) dmg(0)",
@@ -6113,7 +6113,7 @@
         },
         {
           "id": "quest103",
-          "name": "Mage Amor",
+          "name": "Der Papiertieger",
           "description": "Wenn man zu einem erlesenen Kreis gehoeren will muss man sich auch dessen Etiketten unterwerfen. Die richtige Kleidung muss bei allen Empfaengen unbedingt getragen werden. Ausserdem dient sie natuerlich als magischer Schutzanzug.",
           "uuid": "4ddfce5d-1262-42b9-9e9a-01a9d8c63da1",
           "x": 26,
@@ -6133,7 +6133,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Diese einfachen Ruestungsteile lassen sich aus normalen Grundsstoffen herstellen.",
+              "description": "Diese einfachen Ruestungsteile lassen sich aus normalen Grundstoffen herstellen.",
               "requirements": [
                 {
                   "item": "arsmagica2:mageHood size(1) dmg(0)",
@@ -6172,7 +6172,7 @@
         {
           "id": "quest104",
           "name": "Der Ofen der Weisen",
-          "description": "Die erste rohe Essenze ist die Neutrale Essenze. Dazu wird der Obelisk benutzt.",
+          "description": "Die erste rohe Essenz ist die Neutrale Essenz. Dazu wird der Obelisk benutzt.",
           "uuid": "0c44ff75-60aa-497b-8acf-f623e53e7aae",
           "x": 134,
           "y": 60,
@@ -6257,7 +6257,7 @@
               "id": "task002",
               "type": "CRAFT",
               "name": "Crafting Task Wrench",
-              "description": "Das letzte Tool dient dem Umleiten der Essenzestroeme.",
+              "description": "Das letzte Tool dient dem Umleiten der Essenzstroeme.",
               "requirements": [
                 {
                   "item": "arsmagica2:crystal_wrench size(1) dmg(0)",
@@ -6275,7 +6275,7 @@
         {
           "id": "quest106",
           "name": "Der magischen Speicher",
-          "description": "Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuehgung.",
+          "description": "Ein Speicher fuer magische Essenzen kann nicht schaden. Dann hat man immer genuegend Essenze zur Verfuegung.",
           "uuid": "8cb0df42-c394-48fb-b29d-4953cf782bff",
           "x": 110,
           "y": 80,
@@ -6293,7 +6293,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Der Speicher kann immer nur eine Art von roher Essenze speichern.",
+              "description": "Der Speicher kann immer nur eine Art von roher Essenz speichern.",
               "requirements": [
                 {
                   "item": "arsmagica2:manaBattery size(1) dmg(0)",
@@ -6311,7 +6311,7 @@
         {
           "id": "quest107",
           "name": "Die magischen Blumen",
-          "description": "Was so ein richtiger Magier werden will, muss mit offenen Augen duch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
+          "description": "Was so ein richtiger Magier werden will, muss mit offenen Augen durch die Welt gehen. Die Kenntnisse aller Kraeuter und deren Eigenschaften macht den Unterschied.",
           "uuid": "d2bda094-1017-4a96-b086-93c44dd94142",
           "x": 70,
           "y": 50,
@@ -6356,8 +6356,8 @@
         },
         {
           "id": "quest108",
-          "name": "Die magischen Essencen",
-          "description": "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Man braucht viel rohe Essenzen und natuelich diesen netten Veredler (Refiner).",
+          "name": "Die magischen Essenzen",
+          "description": "Es gibt spezielle magische Gegenstaende, die man braucht. Diese werden aus Arcane Ash hergestellt. Man braucht viel rohe Essenzen und natuerlich diesen netten Veredler (Refiner).",
           "uuid": "6a22f06d-d954-4f56-a1ba-03ccfc7d535a",
           "x": 62,
           "y": 80,
@@ -6375,7 +6375,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essencen sind doch recht hoch.",
+              "description": "Der Essence Refiner laesst sich zwar relativ leicht herstellen, aber die Voraussetzungen fuer die Herstellung der magischen Essenzen sind doch recht hoch.",
               "requirements": [
                 {
                   "item": "arsmagica2:essenceRefiner size(1) dmg(0)",
@@ -6393,7 +6393,7 @@
         {
           "id": "quest109",
           "name": "Der erste Zauber",
-          "description": "Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erstmal etwas ueben.",
+          "description": "Jetzt wird es aber Zeit. Die ganze Vorarbeit muss sich endlich lohnen. Der erste Zauber sollte aber ein leichter sein. Man muss ja erst mal etwas ueben.",
           "uuid": "a6b07966-8d74-42ab-8cd9-2dfa31ad7259",
           "x": 82,
           "y": 105,
@@ -6429,8 +6429,8 @@
         },
         {
           "id": "quest110",
-          "name": "Battlemage Amor",
-          "description": "Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausreustung genau das richtige.",
+          "name": "Die Kampfbestie",
+          "description": "Fuer die Kaempfe gegen Monster braucht man eine bessere Ruestung. Da ist die Kampfmagier Ausruestung genau das richtige.",
           "uuid": "a9f9c36c-1a00-4c62-b46f-696ff0de1b53",
           "x": 42,
           "y": 105,
@@ -6487,7 +6487,7 @@
         {
           "id": "quest111",
           "name": "Die etwas andere Verzauberung",
-          "description": "Ein guter Magier ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuegt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Rstungen durch eine alternative Verzauberung weiter aufwerten.",
+          "description": "Ein guter Magier ist auf all diese weltlichen Spielereien nicht angewiesen. Er hat seine eigenen Ruestungsverbesserungen. Immer wenn du zauberst wird deiner Ruestung ein Erfahrungslevel hinzu gefuegt. Das gilt fuer alle Ruestungen. Dadurch kannst du deine Ruestungen durch eine alternative Verzauberung weiter aufwerten.",
           "uuid": "85584c3c-4f05-438c-a5c9-86e17f49863a",
           "x": 166,
           "y": 90,
@@ -6505,7 +6505,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzeuberungen umgewandelt werden. Diese sind Endgueltig und koennen nicht erweitert werden.",
+              "description": "In diesem speziellen Verzaubertisch koennen die aufgesparten Erfahrungslevel in zusaetzlicher Verzauberungen umgewandelt werden. Diese sind Endgueltig und koennen nicht erweitert werden.",
               "requirements": [
                 {
                   "item": "arsmagica2:armorInfuser size(1) dmg(0)",
@@ -6523,7 +6523,7 @@
         {
           "id": "quest112",
           "name": "Der mysterioese Meteor",
-          "description": "Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Die Gesteine, welche diese Meteore mit sich feuhren, haben besonder magische Eigenschaften. Halte staendig Ausschau nach diesen Dingern.",
+          "description": "Ab einem Erfahrungslevel von 10 beginnen diese seltsamen Meteore vom Himmel zu fallen. Die Gesteine, welche diese Meteore mit sich fuehren, haben besondere magische Eigenschaften. Halte staendig Ausschau nach diesen Dingern.",
           "uuid": "1c5b32f0-a1cd-465f-b7b5-0d1a82a6909c",
           "x": 194,
           "y": 75,
@@ -6559,7 +6559,7 @@
         {
           "id": "quest113",
           "name": "Der Kristall der Weisen",
-          "description": "Neben der Neutralen Essenze gibt es noch andere rohe Essenze. Die Lichtessenze ist eine davon und kann nur am Tag gewonnen werden. Allerdings braucht sie keinen Rohstoff.",
+          "description": "Neben der Neutralen Essenz gibt es noch andere rohe Essenz. Die Lichtessenz ist eine davon und kann nur am Tag gewonnen werden. Allerdings braucht sie keinen Rohstoff.",
           "uuid": "715b6e77-7247-49ad-b004-441c0acfdd1a",
           "x": 210,
           "y": 100,
@@ -6600,7 +6600,7 @@
         {
           "id": "quest114",
           "name": "Der Wirbel der Weisen",
-          "description": "Die letzte rohe Essenze wird aus sterbenden Monstern gewonnen.",
+          "description": "Die letzte rohe Essenz wird aus sterbenden Monstern gewonnen.",
           "uuid": "54c44d47-cfc8-48d1-aa25-2f7dc4f8d5d2",
           "x": 238,
           "y": 100,
@@ -6777,7 +6777,7 @@
               "id": "task000",
               "type": "KILL",
               "name": "Killing Task",
-              "description": "Fuer diesen Boss muss ein spezieller Altar errichtet werden. Ausserdem solltest du eine gute Ruestung mit magischem Wiederstand haben.",
+              "description": "Fuer diesen Boss muss ein spezieller Altar errichtet werden. Ausserdem solltest du eine gute Ruestung mit magischem Widerstand haben.",
               "mobs": [
                 {
                   "id": "mob000",
@@ -6817,7 +6817,7 @@
               "id": "task000",
               "type": "KILL",
               "name": "Killing Task",
-              "description": "Diese Bosskampf ist ewas anders, da man nicht gegen den Boss direkt kaempft, sondern gegen seine Minions.",
+              "description": "Diese Bosskampf ist etwas anders, da man nicht gegen den Boss direkt kaempft, sondern gegen seine Minions.",
               "mobs": [
                 {
                   "id": "mob000",
@@ -7048,7 +7048,7 @@
         {
           "id": "quest125",
           "name": "Fang den Mond",
-          "description": "Um den entspechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.",
+          "description": "Um den entsprechend Flaecheneffekt zu erreichen brauch man  einen Focus und einen Block, der diesen Focus aufnehmen kann.",
           "uuid": "92c47c62-1e0c-426a-867e-d285d94aeb28",
           "x": 238,
           "y": 50,
@@ -7249,7 +7249,7 @@
         },
         {
           "id": "quest129",
-          "name": "Der gedultige Forscher",
+          "name": "Der geduldige Forscher",
           "description": "Mit unserem Zauberstab lassen sich die wichtigen Basisgegenstaende herstellen, die ein Zauberer braucht.",
           "uuid": "505a9234-74f0-4266-96a8-83ed2fa2bd6c",
           "x": 78,
@@ -7577,7 +7577,7 @@
         },
         {
           "id": "quest139",
-          "name": "Tubes",
+          "name": "Das Ofenrohr",
           "description": "Natuerlich brauch man auch ein Transportsystem. Wie ein Gas kann so die magische Energie transportiert werden.",
           "uuid": "8ef545f9-95f0-4ee2-b68f-4dd5e2f15598",
           "x": 254,
@@ -7596,7 +7596,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Die Essenzeroehre (Tube) transport umkontrolliert die Energie und das Ventil (Valve) regelt den Transport.",
+              "description": "Die Essenzroehre (Tube) transportiert unkontrolliert die Energie und das Ventil (Valve) regelt den Transport.",
               "requirements": [
                 {
                   "item": "Thaumcraft:blockTube size(1) dmg(0)",
@@ -7763,7 +7763,7 @@
         {
           "id": "quest144",
           "name": "Der schuetzende Schild",
-          "description": "Diese Nodes sind ganz schoen aggressiv. Sie duerfen nicht zu nahe beieinander aufgestellt werden. Ausser man schirmt sie voneinader ab.",
+          "description": "Diese Nodes sind ganz schoen aggressiv. Sie duerfen nicht zu nahe beieinander aufgestellt werden. Ausser man schirmt sie voneinander ab.",
           "uuid": "6d860aa7-f6b2-4ea5-84e8-243526669df1",
           "x": 278,
           "y": 105,
@@ -7922,7 +7922,7 @@
         {
           "id": "quest148",
           "name": "Magisches Metall",
-          "description": "Der wahre Magier braucht natuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzusellen.",
+          "description": "Der wahre Magier braucht natuerlich fuer seine Werkzeuge und Waffen magisches Metall. Deshalb ist es die erste Pflicht solches herzustellen.",
           "uuid": "3d1927a2-3d62-42d2-b815-200d80995461",
           "x": 114,
           "y": 40,
@@ -7975,7 +7975,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Der Infusion Altar basiert auf 2 wichtigen Elementen. Den Arcane Pedestal, auf denen Gegenstaende plaziert werden koennen und der Runic Matrix, die die Umwandlung erst moeglich macht. Die Arcane Pedestal muessen immer zentral symmetrisch zur Runic Matrix angeordnet werden.",
+              "description": "Der Infusion Altar basiert auf 2 wichtigen Elementen. Den Arcane Pedestal, auf denen Gegenstaende platziert werden koennen und der Runic Matrix, die die Umwandlung erst moeglich macht. Die Arcane Pedestal muessen immer zentral symmetrisch zur Runic Matrix angeordnet werden.",
               "requirements": [
                 {
                   "item": "Thaumcraft:blockStoneDevice size(1) dmg(2)",
@@ -8128,7 +8128,7 @@
         {
           "id": "quest154",
           "name": "Minions",
-          "description": "Da wir noch grosse Weltherrschaftsplaene haben, brauchen wir dringend Helfer fuer unser Resourcenproblem.",
+          "description": "Da wir noch grosse Weltherrschaftsplaene haben, brauchen wir dringend Helfer fuer unser Ressourcenproblem.",
           "uuid": "189c7f1b-4715-4a3a-97f7-fbe0cedce917",
           "x": 114,
           "y": 140,
@@ -8146,7 +8146,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Die Basis alle Golems ist dieser Core. Mache dich deshalb dringend mit seiner Herstellung vertraut.",
+              "description": "Die Basis alle Golems ist dieser Kern. Mache dich deshalb dringend mit seiner Herstellung vertraut.",
               "requirements": [
                 {
                   "item": "Thaumcraft:ItemGolemCore size(1) dmg(100)",
@@ -8181,7 +8181,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Wem die Klocke geschlagen hat, weiss was zu tun ist.",
+              "description": "Wem die Glocke geschlagen hat, weiss was zu tun ist.",
               "requirements": [
                 {
                   "item": "Thaumcraft:GolemBell size(1) dmg(0)",
@@ -8216,7 +8216,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Diese Cores sollten die ersten sein, die du baust.",
+              "description": "Diese Kerne sollten die ersten sein, die du baust.",
               "requirements": [
                 {
                   "item": "Thaumcraft:ItemGolemCore size(1) dmg(3)",
@@ -8285,7 +8285,7 @@
         },
         {
           "id": "quest158",
-          "name": "Die intelligente Drone",
+          "name": "Die intelligente Drohne",
           "description": "So, jetzt kommen die Spezialisten.",
           "uuid": "6e22fcb3-101e-4fad-8323-eb1ef1bfe9c4",
           "x": 138,
@@ -8746,7 +8746,7 @@
         {
           "id": "quest322",
           "name": "Magische Ruestung",
-          "description": "Was liegt naeher, als sich aus diesem magischen Metall ein standesbemaesse Ruestung zu bauen.",
+          "description": "Was liegt naeher, als sich aus diesem magischen Metall ein standesgemaesse Ruestung zu bauen.",
           "uuid": "f3bf571e-bcaf-46ba-9a02-2ecbe1464e1a",
           "x": 126,
           "y": 20,
@@ -8764,7 +8764,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Diese Ruestung sieht zwar aus wie eine dunke Eisenruestung, aber sie verbessert auch deine magischen Faehigkeiten.",
+              "description": "Diese Ruestung sieht zwar aus wie eine dunkle Eisenruestung, aber sie verbessert deine magischen Faehigkeiten.",
               "requirements": [
                 {
                   "item": "Thaumcraft:ItemHelmetThaumium size(1) dmg(0)",
@@ -8896,7 +8896,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Du benoetigst eine ausreichend freie Flaeche. Mit einem Rechtsklick wird das Portal plaziert. Nach kurzer Zeit erscheinen dann die Kultisten.",
+              "description": "Du benoetigst eine ausreichend freie Flaeche. Mit einem Rechtsklick wird das Portal platziert. Nach kurzer Zeit erscheinen dann die Kultisten.",
               "requirements": [
                 {
                   "item": "exastrisrebirth:itemEldritchPortalSpawner size(1) dmg(0)",
@@ -9029,7 +9029,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Diese Buch ist super einfach herzustellen. Es enhaellt alle Hinweise, die man braucht.",
+              "description": "Diese Buch ist super einfach herzustellen. Es enthaellt alle Hinweise, die man braucht.",
               "requirements": [
                 {
                   "item": "Botania:lexicon size(1) dmg(0)",
@@ -9046,7 +9046,7 @@
         {
           "id": "quest164",
           "name": "Wiesen Power",
-          "description": "Kraeterkunde ohne Kraeuter ist brotlose Kunst. Deshalb wird es deine Aufgabe sein, erst einmal einige Kraeuter zu sammeln und ihre einfachste Verarbeitung zu lernen.",
+          "description": "Kraeuterkunde ohne Kraeuter ist brotlose Kunst. Deshalb wird es deine Aufgabe sein, erst einmal einige Kraeuter zu sammeln und ihre einfachste Verarbeitung zu lernen.",
           "uuid": "74e87c16-5b58-419a-aaa1-965a11e4946b",
           "x": 42,
           "y": 60,
@@ -9131,7 +9131,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Neben dieser einfachen Aphotheke brauchst du noch eine Wasserquelle. Die Herstellung der Blumen startet mit Wasser und endet mit einem beliebigen Samen (Seed).",
+              "description": "Neben dieser einfachen Apotheke brauchst du noch eine Wasserquelle. Die Herstellung der Blumen startet mit Wasser und endet mit einem beliebigen Samen (Seed).",
               "requirements": [
                 {
                   "item": "Botania:altar size(1) dmg(0)",
@@ -9207,7 +9207,7 @@
         {
           "id": "quest167",
           "name": "Im Sternzeichen der Blume",
-          "description": "Gerade am Anfang weiss man nie wieviel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.",
+          "description": "Gerade am Anfang weiss man nie wie viel in seinem Manapool drin ist. Hier wuerde eine besserer Verbrauchsanzeige hilfreich sein.",
           "uuid": "14b10c8d-336f-4c0a-a255-e70cc8a969ba",
           "x": 30,
           "y": 80,
@@ -9267,7 +9267,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Das Problem ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kuntinuierliche Versorgung geben.",
+              "description": "Das Problem ist die Brennstoffproduktion. Mit einer guten Baumfarm sollte es aber keine Probleme fuer eine kontinuierliche Versorgung geben.",
               "requirements": [
                 {
                   "item": "Botania:specialFlower size(1) dmg(0)",
@@ -9368,7 +9368,7 @@
         {
           "id": "quest171",
           "name": "Die Kraft der Blumen",
-          "description": "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Resourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
+          "description": "Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Ressourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.",
           "uuid": "7de9ec01-bbff-4c19-8c3a-8c7edfd2ecc3",
           "x": 102,
           "y": 40,
@@ -9389,7 +9389,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Man sollte beachten, das gleiche Blumen nicht zu nah beieinander plaziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden.",
+              "description": "Man sollte beachten, das gleiche Blumen nicht zu nah beieinander platziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden.",
               "requirements": [
                 {
                   "item": "Botania:specialFlower size(1) dmg(0)",
@@ -9438,7 +9438,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Der Mana Verteiler (Distributor) verteilt das Mana, welches er erhaelt, gleichmaessig auf alle angeschlossenen Pools auf. Mit dem Mana Tablet kann man Mana transportieren. Die ander werden eher selten gebraucht.",
+              "description": "Der Mana Verteiler (Distributor) verteilt das Mana, welches er erhaelt, gleichmaessig auf alle angeschlossenen Pools auf. Mit dem Mana Tablet kann man Mana transportieren. Die anderen werden eher selten gebraucht.",
               "requirements": [
                 {
                   "item": "Botania:distributor size(1) dmg(0)",
@@ -9475,7 +9475,7 @@
         {
           "id": "quest174",
           "name": "Das blaue Werkzeug",
-          "description": "Und schon sind wir bei den naechsten aufgewertetet Gegenstaenden, die du als Meister der Kraeuterkunde kennen musst.",
+          "description": "Und schon sind wir bei den naechsten aufgewerteten Gegenstaenden, die du als Meister der Kraeuterkunde kennen musst.",
           "uuid": "1e35affb-741a-4dd0-a732-18b5f156449b",
           "x": 154,
           "y": 40,
@@ -9550,7 +9550,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Diese Ruestung haelt viel aus. Wenn man ein gefuelltet Manatablet in seinem Inventar mit sich fuehrt, wird es auch automatisch repariert.",
+              "description": "Diese Ruestung haelt viel aus. Wenn man ein gefuelltest Manatablet in seinem Inventar mit sich fuehrt, wird es auch automatisch repariert.",
               "requirements": [
                 {
                   "item": "Botania:manasteelHelm size(1) dmg(0)",
@@ -9666,7 +9666,7 @@
         {
           "id": "quest177",
           "name": "Der grosse Attraktor",
-          "description": "Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik zu dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgenwann irgendwie sinnvoll.",
+          "description": "Solche Schmuckstuecke scheinen auf den ersten Blick nur der Optik zu dienen. Aber dem ist nicht so. Schaue dir die besonderen Eigenschaften genau an. Alle sind irgendwann irgendwie sinnvoll.",
           "uuid": "d4e9ded4-2277-4697-b572-0810deccf966",
           "x": 178,
           "y": 80,
@@ -9742,7 +9742,7 @@
         {
           "id": "quest179",
           "name": "Die fuenf Elemente",
-          "description": "Die wichtigsten Teile, die mit dem Altar hergestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichigte Zauber.",
+          "description": "Die wichtigsten Teile, die mit dem Altar hergestellt werden koennen, sind die Runen. Sie sind die Basis fuer weitere wichige Zauber.",
           "uuid": "a37fa3f3-057b-4f5d-803f-6008a22accab",
           "x": 202,
           "y": 40,
@@ -9849,7 +9849,7 @@
         {
           "id": "quest181",
           "name": "Die Basis des Glaubens",
-          "description": "Die hohe Kunst der Runen. Diese Spezielrunen dienen als Grundlage fuer die maechtigsten Zauber.",
+          "description": "Die hohe Kunst der Runen. Diese Spezialrunen dienen als Grundlage fuer die maechtigsten Zauber.",
           "uuid": "0cac9196-3915-41e3-9b2f-7c239c9cd4b5",
           "x": 226,
           "y": 80,
@@ -10046,7 +10046,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besseren Stahl. Ob der Transformationsprozess startet zeigt dir die Effekteshow.",
+              "description": "Aus Manasteel, Manaperle und Manadiamond erhaelst du diesen besseren Stahl. Ob der Transformationsprozess startet zeigt dir die Effektenshow.",
               "requirements": [
                 {
                   "item": "Botania:manaResource size(1) dmg(4)",
@@ -10168,7 +10168,7 @@
         {
           "id": "quest187",
           "name": "Das Tor zum Himmel",
-          "description": "Das Elven Portal oeffnet uns den Weg zu einzigartigen Zaubern eines Krauterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal handel treiben.",
+          "description": "Das Elven Portal oeffnet uns den Weg zu einzigartigen Zaubern eines Kraeuterkundlers. Wir koennen zwar nicht direkt mit den Elven kommunizieren aber ueber das Portal Handel treiben.",
           "uuid": "b92d8bef-bfac-472e-8830-0a62d612adb7",
           "x": 138,
           "y": 120,
@@ -10186,7 +10186,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Diese zwei Bloecke sind die Basis des Elven Portals. Die genaue Anordung findest wie immer in deinem Lexikon.",
+              "description": "Diese zwei Bloecke sind die Basis des Elven Portals. Die genaue Anordnung findest wie immer in deinem Lexikon.",
               "requirements": [
                 {
                   "item": "Botania:alfheimPortal size(1) dmg(0)",
@@ -10261,7 +10261,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "So eine rosarote Ruestung ist der Traum eines jeden Spielers. Die Wirkung auf Gegener ist allerding umstritten.",
+              "description": "So eine rosarote Ruestung ist der Traum eines jeden Spielers. Die Wirkung auf Gegner ist allerdings umstritten.",
               "requirements": [
                 {
                   "item": "Botania:elementiumHelm size(1) dmg(0)",
@@ -10467,7 +10467,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Neben einem Beacon, den man ja leicht bekommt, brauchst du diese Pylonen. Die Anordnung findest du wieder in deinem Lexicon.",
+              "description": "Neben einem Beacon, den man ja leicht bekommt, brauchst du diese Pylonen. Die Anordnung findest du wieder in deinem Lexikon.",
               "requirements": [
                 {
                   "item": "Botania:pylon size(1) dmg(2)",
@@ -10497,7 +10497,7 @@
         {
           "id": "quest194",
           "name": "Verhexte Dinge",
-          "description": "Wer haette es gedacht, aus den Gaia Spirit lassen sich noch bessere Gegestaende herstellen.",
+          "description": "Wer haette es gedacht, aus den Gaia Spirit lassen sich noch bessere Gegenstaende herstellen.",
           "uuid": "f8930440-4e05-4ee6-b746-8ed54cc30826",
           "x": 162,
           "y": 120,
@@ -10623,7 +10623,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Diese formschoenen Fluegel lassen sich an den Geschmack des Besitzer anpassen. Denn nichts ist wichtiger als der aessere Schein.",
+              "description": "Diese formschoenen Fluegel lassen sich an den Geschmack des Besitzer anpassen. Denn nichts ist wichtiger als der aeussere Schein.",
               "requirements": [
                 {
                   "item": "Botania:flightTiara size(1) dmg(0)",
@@ -10693,7 +10693,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Stelle alle diese Bloecke her. Die Namen sagen alles ueber ihre Funktion aus. Allerdings muss man immer im Kopf haben, das sie entgegen ihrer klassischen Zwillinge, auf entferrnte Inventare wirken.",
+              "description": "Stelle alle diese Bloecke her. Die Namen sagen alles ueber ihre Funktion aus. Allerdings muss man immer im Kopf haben, das sie entgegen ihrer klassischen Zwillinge, auf entfernte Inventare wirken.",
               "requirements": [
                 {
                   "item": "Botania:redStringContainer size(1) dmg(0)",
@@ -10733,7 +10733,7 @@
     {
       "id": "set007",
       "name": "Die Blutbank",
-      "description": "Jeder angehende Vampir muss sich erst einmal mit den eigenheiten von Blut beschaeftigen. Danach kann er in die Tiefen der Blutmanipulation vordringen.",
+      "description": "Jeder angehende Vampir muss sich erst einmal mit den Eigenheiten von Blut beschaeftigen. Danach kann er in die Tiefen der Blutmanipulation vordringen.",
       "quests": [
         {
           "id": "quest200",
@@ -10841,7 +10841,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Stelle diesen einfachen Orb her. Mit einem Rechstklick bindest du den Orb an dich.",
+              "description": "Stelle diesen einfachen Orb her. Mit einem Rechtsklick bindest du den Orb an dich.",
               "requirements": [
                 {
                   "item": "AWWayofTime:weakBloodOrb size(1) dmg(0)",
@@ -10954,7 +10954,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Das Alchemic Chemistry Set vollbringt ware Wunder.",
+              "description": "Das Alchemic Chemistry Set vollbringt wahre Wunder.",
               "requirements": [
                 {
                   "item": "AWWayofTime:blockWritingTable size(1) dmg(0)",
@@ -11008,7 +11008,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Da du jetzt mehr Blut zur Verfuegung hast, kannst du bessere Slates hestellen.",
+              "description": "Da du jetzt mehr Blut zur Verfuegung hast, kannst du bessere Slates herstellen.",
               "requirements": [
                 {
                   "item": "AWWayofTime:reinforcedSlate size(1) dmg(0)",
@@ -11044,7 +11044,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk vorhalten kann. Ja, ein bischen Grips ist schon notwendig.",
+              "description": "Dieser Orb ist schwerer herzustellen, da mehr Blut benoetigt wird, als das Netzwerk vorhalten kann. Ja, ein bisschen Grips ist schon notwendig.",
               "requirements": [
                 {
                   "item": "AWWayofTime:apprenticeBloodOrb size(1) dmg(0)",
@@ -11351,7 +11351,7 @@
               "id": "task004",
               "type": "CRAFT",
               "name": "Crafting Task Holding",
-              "description": "Das schweizer Taschenmesser unter den Sigils. Es kann bis zu vier andere Sigil aufnehmen und damit Platz im Inventar sparen.",
+              "description": "Das Schweizer Taschenmesser unter den Sigils. Es kann bis zu vier andere Sigil aufnehmen und damit Platz im Inventar sparen.",
               "requirements": [
                 {
                   "item": "AWWayofTime:sigilOfHolding size(1) dmg(0)",
@@ -11584,7 +11584,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Diese Ruestung wird nicht normal gecraftet. Die Soul Armor Forge wird nur einmal gebraucht. Darum wird mit den Filled Socket das Ruestungsteil gebaut. Danach koennen die Verbesserungen eingesetzt werden.",
+              "description": "Diese Ruestung wird nicht normal hergestellt. Die Soul Armor Forge wird nur einmal gebraucht. Darum wird mit den Filled Socket das Ruestungsteil gebaut. Danach koennen die Verbesserungen eingesetzt werden.",
               "requirements": [
                 {
                   "item": "AWWayofTime:bloodSocket size(1) dmg(0)",
@@ -11641,7 +11641,7 @@
         {
           "id": "quest219",
           "name": "Das Spezialwerkzeug",
-          "description": "Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Demonen herbei zaubern.",
+          "description": "Auch bei den Essenzen gibt es ein hoeheres Level. Damit lassen sich staerker Daemonen herbei zaubern.",
           "uuid": "e01c1cac-8e2a-4a11-8631-7771ef01829b",
           "x": 78,
           "y": 115,
@@ -11702,7 +11702,7 @@
         {
           "id": "quest220",
           "name": "Der Debattierzirkel",
-          "description": "Ein wichtiger Teil des Mods sind aber auch die Begleiter und Demonen, die man beschwoeren kann. Dazu ist ein weiterer spezieller Ritualaufbau notwendig.",
+          "description": "Ein wichtiger Teil des Mods sind aber auch die Begleiter und Daemonen, die man beschwoeren kann. Dazu ist ein weiterer spezieller Ritualaufbau notwendig.",
           "uuid": "a7c12dad-c067-4277-b3c1-ebf6260d18ba",
           "x": 190,
           "y": 160,
@@ -11760,7 +11760,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Es kann sein, das du mehrere Versuche brauchst, bevor ein solcher Splitter dropt.",
+              "description": "Es kann sein, das du mehrere Versuche brauchst, bevor ein solcher Splitter heraus faellt.",
               "requirements": [
                 {
                   "item": "AWWayofTime:demonBloodShard size(1) dmg(0)",
@@ -11873,7 +11873,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task Compress",
-              "description": "Ein wohl eher selten genutzes Sigil, der Autopacker im Inventar. Es kann Gegenstaende zu Bloecken wandeln (2x2 oder 3x3).",
+              "description": "Ein wohl eher selten genutztes Sigil, der Autopacker im Inventar. Es kann Gegenstaende zu Bloecken wandeln (2x2 oder 3x3).",
               "requirements": [
                 {
                   "item": "AWWayofTime:itemCompressionSigil size(1) dmg(0)",
@@ -11912,7 +11912,7 @@
               "id": "task003",
               "type": "CRAFT",
               "name": "Crafting Task Whirlwind",
-              "description": "Diese Sigil ist als Teil der Ruestung gold wert. Es reflektiert alle Projektile und Pfleile.",
+              "description": "Diese Sigil ist als Teil der Ruestung Gold wert. Es reflektiert alle Projektile und Pfeile.",
               "requirements": [
                 {
                   "item": "AWWayofTime:sigilOfWind size(1) dmg(0)",
@@ -11925,7 +11925,7 @@
               "id": "task004",
               "type": "CRAFT",
               "name": "Crafting Task Supression",
-              "description": "Auch ein Sigil aus der Kategorie Spass. Es entferrnt alle Fluessigleitsbloecke in einem Radius von 5. Man geht in einer Blase durch Wasser oder Lava.",
+              "description": "Auch ein Sigil aus der Kategorie Spass. Es entfernt alle Fluessigleitsbloecke in einem Radius von 5. Man geht in einer Blase durch Wasser oder Lava.",
               "requirements": [
                 {
                   "item": "AWWayofTime:sigilOfSupression size(1) dmg(0)",
@@ -12068,7 +12068,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Es koennen verschieden Arten von Deamonen erscheinen. Jede hat eine andere Faehigkeit der Verteidigung. Und sie hauen verdammt hart zu. Du brauchst natuerlich mehrere dieser Tropfen.",
+              "description": "Es koennen verschieden Arten von Daemonen erscheinen. Jede hat eine andere Faehigkeit der Verteidigung. Und sie hauen verdammt hart zu. Du brauchst natuerlich mehrere dieser Tropfen.",
               "requirements": [
                 {
                   "item": "AWWayofTime:bloodMagicBaseItems size(1) dmg(28)",
@@ -12144,7 +12144,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Ausserdem musst du einen Demon toeten, um an den Demon Blood Shard zu kommen.",
+              "description": "Ausserdem musst du einen Daemon toeten, um an den Demon Blood Shard zu kommen.",
               "requirements": [
                 {
                   "item": "AWWayofTime:archmageBloodOrb size(1) dmg(0)",
@@ -12180,7 +12180,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Ein Unbeding Habe Wollen (Must Have) fuer alle Gaertner unter uns. Mit deisem Siegel wird automatisch geerntet, eingesammlt und geplanzt. Sehr nuetzlich!",
+              "description": "Ein unbeding haben wollen (Must Have) fuer alle Gaertner unter uns. Mit diesem Siegel wird automatisch geerntet, eingesammelt und gepflanzt. Sehr nuetzlich!",
               "requirements": [
                 {
                   "item": "AWWayofTime:itemHarvestSigil size(1) dmg(0)",
@@ -12286,7 +12286,7 @@
         {
           "id": "quest320",
           "name": "Der Grenzgaenger",
-          "description": "Die blutrote (sanguine) Ruestung stellt ein Bindeglied zu einem anderen Mod dar und kann eigenstaendig genutzt werden oder in die Blood Magig Ruestung eingearbeitet werden.",
+          "description": "Die blutrote (sanguine) Ruestung stellt ein Bindeglied zu einem anderen Mod dar und kann eigenstaendig genutzt werden oder in die Blood Magic Ruestung eingearbeitet werden.",
           "uuid": "a01ddbd8-7d73-48ed-b2aa-a222f07bd859",
           "x": 142,
           "y": 180,
@@ -12480,7 +12480,7 @@
         {
           "id": "quest269",
           "name": "Das Kraftpaket",
-          "description": "Neue staerkere Waffen und Maschienen brauchen natuerlich auch einen staerkeren Generator.",
+          "description": "Neue staerkere Waffen und Maschinen brauchen natuerlich auch einen staerkeren Generator.",
           "uuid": "5fb2e3b9-fcc9-42b1-b71e-6c8737e8060a",
           "x": 50,
           "y": 85,
@@ -12515,7 +12515,7 @@
         {
           "id": "quest270",
           "name": "Der Sonnenanbeter",
-          "description": "Jetzt zeigt sich die ware Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.",
+          "description": "Jetzt zeigt sich die wahre Macht des Meisters. Er beherrscht die Zeit selbst. Kontrolliere den Lauf der Sonne.",
           "uuid": "fb660098-d5d2-47aa-993d-dbdcc055361b",
           "x": 234,
           "y": 100,
@@ -12550,7 +12550,7 @@
         {
           "id": "quest271",
           "name": "Der Killer",
-          "description": "Fuer die automatische Jadg auf Grosswild braucht man eine besonders gefaehrliche Maschine. Diese haellt auch schweren Explosionen stand.",
+          "description": "Fuer die automatische Jagd auf Grosswild braucht man eine besonders gefaehrliche Maschine. Diese haelt auch schweren Explosionen stand.",
           "uuid": "664e07f0-17a0-457b-8eb8-ab774e350f18",
           "x": 38,
           "y": 105,
@@ -12690,7 +12690,7 @@
         {
           "id": "quest275",
           "name": "Der Blechkamerad",
-          "description": "Die Waffen eines Wyvern Kriegers sollten in keinem gut gefuerten Kriegerzelt fehlen.",
+          "description": "Die Waffen eines Wyvern Kriegers sollten in keinem gut gefuehrten Kriegerzelt fehlen.",
           "uuid": "f271da68-9bb6-4eb5-b2bd-270b3b9f6aa9",
           "x": 102,
           "y": 60,
@@ -13077,7 +13077,7 @@
         {
           "id": "quest283",
           "name": "Der Schwerarbeiter",
-          "description": "Ein erleuchteter Meister wird eher an der freidlichen Nutzung seines Wissens interessiert sein.",
+          "description": "Ein erleuchteter Meister wird eher an der friedlichen Nutzung seines Wissens interessiert sein.",
           "uuid": "e5e8c58c-3cc6-42b3-bd42-778482da4811",
           "x": 266,
           "y": 140,
@@ -13192,7 +13192,7 @@
     {
       "id": "set009",
       "name": "Die Grosswildjagd",
-      "description": "Jeder kann einen Loewen jagen. Die Tiere hier sind da ein anderes Kalieber. Sie machen sich nicht nur als Trphaehen an der Wand gut.",
+      "description": "Jeder kann einen Loewen jagen. Die Tiere hier sind da ein anderes Kaliber. Sie machen sich nicht nur als Trophaeen an der Wand gut.",
       "quests": [
         {
           "id": "quest233",
@@ -13860,7 +13860,7 @@
               "id": "task000",
               "type": "KILL",
               "name": "Killing Task",
-              "description": "Sueswasser findet man nur in Fluessen oder kleinen Seen. Einfache Wasserbehaelter koenten schon genuegen. Die Events helfen dir bei den fliegenden Mobs.",
+              "description": "Sueswasser findet man nur in Fluessen oder kleinen Seen. Einfache Wasserbehaelter koennten schon genuegen. Die Events helfen dir bei den fliegenden Mobs.",
               "mobs": [
                 {
                   "id": "mob000",
@@ -14926,12 +14926,12 @@
     {
       "id": "set010",
       "name": "Das Endspiel",
-      "description": "Irgendwann ist alles mal vorbei. Wenn du hier angekommen bist, hast du bewiesen, das du wuerdig bist fuer diesen kleinen Abschlusstest. Na dann! Du solltest dir besser Mitstreiter suchen!",
+      "description": "Irgendwann ist alles mal vorbei. Wenn du hier angekommen bist, hast du bewiesen, das du wuerdig bist fuer diesen kleinen Abschlusstest. Na dann! Du solltest dir besser Mitstreiter suchen! Deine Belohnungen bekommst du vom Schatzmeister.",
       "quests": [
         {
           "id": "quest288",
           "name": "Die Trophaee",
-          "description": "Es wird zwar keine schoene Maid befreit, aber was kuemmert das uns Helden.",
+          "description": "Es wird zwar keine schoene Maid befreit, aber was kuemmert das unseren Helden.",
           "uuid": "5ad6c5b5-efcd-497b-a91a-9c94d7fb5fd0",
           "x": 58,
           "y": 40,
@@ -14973,7 +14973,7 @@
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam.",
+              "description": "Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15041,7 +15041,7 @@
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "A task where the player has to reach one or more locations.",
+              "description": "Besiege den Krieger bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15102,7 +15102,7 @@
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "A task where the player has to reach one or more locations.",
+              "description": "Mache den Wissenschaftler fertig bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15165,8 +15165,8 @@
         },
         {
           "id": "quest388",
-          "name": "Goldgepresstes Latinum",
-          "description": "Auch dieser Mod hat sein eigenes Spezieleisen. Somit muss das dein naechster logischer Schritt sein.",
+          "name": "Gold gepresstes Latinum",
+          "description": "Auch dieser Mod hat sein eigenes Spezialeisen. Somit muss das dein naechster logischer Schritt sein.",
           "uuid": "4da0976d-e280-4d06-8f9a-7d0282eda691",
           "x": 42,
           "y": 85,
@@ -15184,7 +15184,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Fuer diesen Barren brauchst du neben den edlen Diamanten auch etwas von einem kleinen, leichen Boss.",
+              "description": "Fuer diesen Barren brauchst du neben den edlen Diamanten auch etwas von einem kleinen, leichten Boss.",
               "requirements": [
                 {
                   "item": "Avaritia:Resource size(1) dmg(1)",
@@ -15202,7 +15202,7 @@
         {
           "id": "quest402",
           "name": "Der Soeldner",
-          "description": "Ein Waffe, die die Bausteine fuer diesen kleinen Boss leichter droppen laesst, ware soooo nett.",
+          "description": "Ein Waffe, die die Bausteine fuer diesen kleinen Boss leichter droppen laesst, waere soooo nett.",
           "uuid": "dae153dd-b641-41e9-8c84-b79bb677c446",
           "x": 58,
           "y": 110,
@@ -15220,7 +15220,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Mit dieser Waffe erhalst du von jedem Skelett einen Witherkopf.",
+              "description": "Mit dieser Waffe erhaelst du von jedem Skelett einen Witherkopf.",
               "requirements": [
                 {
                   "item": "Avaritia:Skull_Sword size(1) dmg(0)",
@@ -15238,7 +15238,7 @@
         {
           "id": "quest390",
           "name": "Der Let's Player",
-          "description": "Du wirst es frueh genug merken, aber fuer die folgenden Ueberteile, die du hier erhaelst, brauchst du eine groesserer Werkbank.",
+          "description": "Du wirst es frueh genug merken, aber fuer die folgenden Ueberteile, die du hier erhaelst, brauchst du eine groessere Werkbank.",
           "uuid": "ffb63163-1d5a-4c21-baea-d3d957918267",
           "x": 70,
           "y": 85,
@@ -15292,7 +15292,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Dieses Teil solltest du fruehzeitig und in rauhen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.",
+              "description": "Dieses Teil solltest du fruehzeitig und in rauen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.",
               "requirements": [
                 {
                   "item": "Avaritia:Neutron_Collector size(1) dmg(0)",
@@ -15346,7 +15346,7 @@
         {
           "id": "quest396",
           "name": "Die Schrottpresse",
-          "description": "Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten enstehen.",
+          "description": "Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten entstehen.",
           "uuid": "a194bde8-f8b0-45e9-987f-0343ec0cef4e",
           "x": 154,
           "y": 85,
