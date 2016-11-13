@@ -173,6 +173,9 @@ val oreDictRemoveGears = [
 # Remove EnderIO Quite Clear Glass from glass OreDict
 <ore:glass>.remove( <EnderIO:blockFusedQuartz:1> );
 
+# Add BCA Enderium Dust
+<ore:dustEnderium>.add( <bcadditions:dust:73> );
+
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
