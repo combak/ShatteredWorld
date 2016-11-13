@@ -408,6 +408,7 @@ val tConstructAddTableRecipes = [
   [ <ThermalFoundation:material:128>,			tConstructGearCast ],		/* 30 - Copper Gear */
   [ <ThermalFoundation:material:129>,			tConstructGearCast ],		/* 31 - Tin Gear */
   [ <ThermalFoundation:material:137>,			tConstructGearCast ],		/* 32 - Bronze Gear */
+  [ <Botania:manaResource:18>,				tConstructNuggetCast ],		/* 33 - Terrasteel Nugget */
 ] as IItemStack[][];
 
 # Fluid * mb
@@ -445,6 +446,7 @@ val tConstructAddTableRecipesFluid = [
   frCopper * 576,									/* 30 - Copper Gear */
   frTin * 576,										/* 31 - Tin Gear */
   frBronze * 576,									/* 32 - Bronze Gear */
+  frTerrasteel * 16,									/* 33 - Terrasteel Nugget */
 ] as ILiquidStack[];
 
 ########################################################################################################################
@@ -583,6 +585,7 @@ for i, entry in tConstructAddBasinPlateRecipes
 mods.tconstruct.Casting.addTableRecipe( projredCircuitPlate, frCopper * 16, vanillaClay, true, 20 );
 
 # Terrasteel
+mods.tconstruct.Smeltery.addMelting( <Botania:manaResource:18>, frTerrasteel * 16, 500, botaniaTerrasteelBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, frTerrasteel * 144, 500, botaniaTerrasteelBlock );
 mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelBlock, frTerrasteel * 1296, 500, botaniaTerrasteelBlock );
 
