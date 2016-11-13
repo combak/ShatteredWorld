@@ -87,7 +87,8 @@ val oreDictRemoveCraftingNuggets = [
   <ore:nuggetVibrantAlloy>,
   <exastrisrebirth:itemNuggetElectricalSteel>,		/* Electrical Steel */
   <ore:nuggetTantalum>,
-  <ore:nuggetNiobium>
+  <ore:nuggetNiobium>,
+  <ore:nuggetTerrasteel>
 ] as IIngredient[];
 
 val oreDictRemoveCraftingIngots = [
