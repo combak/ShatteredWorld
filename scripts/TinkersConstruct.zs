@@ -475,12 +475,12 @@ val tConstructAddBasinRecipes = [
 
 val tConstructAddBasinPlateRecipes = [
   <ModularMachines:component.plates:1>,	    /* 0 - Iron Plate */
-  <ModularMachines:component.plates:2>,	    /* 1 - Copper Plate */
-  <ModularMachines:component.plates:3>,	    /* 2 - Tin Plate */
+  <ModularMachines:component.plates:2>,	    /* 1 - Tin Plate */
+  <ModularMachines:component.plates:3>,	    /* 2 - Copper Plate */
   <ModularMachines:component.plates:4>,	    /* 3 - Bronze Plate */
   <ModularMachines:component.plates:5>,	    /* 4 - Steel Plate */
-  <ModularMachines:component.plates:8>,	    /* 5 - Aluminum Plate */
-  <ModularMachines:component.plates:7>      /* 6 - Invar Plate */
+  <ModularMachines:component.plates:7>,      /* 5 - Invar Plate */
+  <ModularMachines:component.plates:8>	    /* 6 - Aluminum Plate */
 ] as IItemStack[];
 
 val tConstructAddTableBasinFluid = [
@@ -504,12 +504,13 @@ val tConstructAddTableBasinFluid = [
 
 val tconstructAddPlateFluid = [
   frIron * 144 ,		/* 0 - Iron Plate */
-  frCopper * 144,		/* 1 - Copper Plate */
-  frTin * 144,			/* 2 - Tin Plate */
+  frTin * 144,			/* 1 - Tin Plate */  
+  frCopper * 144,		/* 2 - Copper Plate */
   frBronze * 144,               /* 3 - Bronze Plate */
   frSteel*144,                  /* 4 - Steel Plate*/
-  frAluminum*144,               /* 5 - Aluminium Plate*/
-  frInvar*144,                  /* 6- Invar Plate*/
+  frInvar*144,                  /* 5 - Invar Plate*/
+  frAluminum*144                /* 6 - Aluminium Plate*/
+  
 ] as ILiquidStack[];
 
 ########################################################################################################################
