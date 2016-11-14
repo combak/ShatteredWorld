@@ -3,28 +3,19 @@
     {
       "name": "nether",
       "settings": [
-        {
-          "type": "worldProvider",
-          "name": "nether"
-        }
+        { "type": "worldProvider", "name": "nether" }
       ]
     },
     {
       "name": "end",
       "settings": [
-        {
-          "type": "worldProvider",
-          "name": "end"
-        }
+        { "type": "worldProvider", "name": "end" }
       ]
     },
     {
       "name": "overworld",
       "settings": [
-        {
-          "type": "worldProvider",
-          "name": "overworld"
-        }
+        { "type": "worldProvider", "name": "overworld" }
       ]
     }
   ]
