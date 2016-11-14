@@ -2,6 +2,28 @@
 
 # Version 0.7.4
 
+**Config Changes**
+- Adding Heat Conducting Plating to furnace 
+- Enabled barrel recipes for End Stone, Netherrack and Soul Sand
+- Fixes https://github.com/combak/ShatteredWorld/issues/195
+- Added plates to Tinkers Smeltery
+- Automatic Sieves limit increased ( 3 to 6 )
+- Balancing Automatic Sieves energy consumption
+- Ore Processing stuff :)
+
+**Mod Additions**
+- Veinminer 1-1.7.10r473+4d066f1
+
+**Mod Updates**
+- CoFHCore 3.1.2-325 to 3.1.3-327
+- Forest Mods 0.4.8-beta to 0.4.10-beta
+- Limited Resources 1.1.0 to 1.1.1-ae71faa
+- MineTweaker3 3.0.10-customized-sorting to 3.0.10-cf534ea-customized
+- ModTweaker2 0.9.5 to 0.9.6
+- Thermal Expansion 4.1.2-240 to 4.1.4-247
+- Thermal Foundation 1.2.3-112 to 1.2.5-115
+- YADM 0.4.6-f3cba1f to 0.5.0-3db8cb0
+
 # Version 0.7.3
 
 **Config Changes**

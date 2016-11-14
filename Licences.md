@@ -209,16 +209,6 @@
 - Files: http://minecraft.curseforge.com/mc-mods/222908-cookiecore/files
 - Permission: https://github.com/Ephys/CookieCore/blob/1.7/README.md
 
-**CraftTweaker**
-> You may modify and redistribute your own customized version of MineTweaker as long as you mark your own version 
-> of MineTweaker as CUSTOMIZED (that is, put CUSTOMIZED in both the jar and mod name) and as long as you make the 
-> modified source code publicly available. Obviously, I cannot offer support for customized builds. Just be so 
-> kind to mention the original source and author (me) ;)
-
-- Authors: StanH ( Original MineTweaker ), jaredlll08, lanse505, SnowShock35
-- Files: https://minecraft.curseforge.com/projects/crafttweaker/files
-- Permission: https://github.com/stanhebben/MineTweaker3#customized-builds
-
 **Custom Main Menu**
 > Please notify me when you use this mod in a modpack, you don't have to wait for an answer (There won't actually be an answer unless you ask me something) just send me the name of your pack. 
 
@@ -480,6 +470,16 @@ minecraft original sources.
 
 - Files:http://files.minecraftforge.net/#Downloads
 - Licence: https://github.com/MinecraftForge/MinecraftForge/blob/master/MinecraftForge-License.txt
+
+**MineTweaker3 - Customized**
+> You may modify and redistribute your own customized version of MineTweaker as long as you mark your own version 
+> of MineTweaker as CUSTOMIZED (that is, put CUSTOMIZED in both the jar and mod name) and as long as you make the 
+> modified source code publicly available. Obviously, I cannot offer support for customized builds. Just be so 
+> kind to mention the original source and author (me) ;)
+
+- Authors: StanH ( Original MineTweaker ), DerOli82
+- Files: https://github.com/DerOli82/MineTweaker3/releases
+- Permission: https://github.com/stanhebben/MineTweaker3#customized-builds
 
 **MobiusCore**
 > Creative Commons Attribution 4.0 International License.
