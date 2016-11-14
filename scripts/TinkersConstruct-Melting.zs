@@ -243,7 +243,7 @@ val tConstructAddSmelteryMeltingTemp = [
     500,                                                            /* 28 - Pulsating Iron */
     500,                                                            /* 29 - Dark Steel */
     500,                                                            /* 30 - Soularium */
-    3000,                                                           /* 31 - Redstone */
+    1300,                                                           /* 31 - Redstone */
     4000,                                                           /* 32 - Draconium */
     
     /**********************************************************************
@@ -294,7 +294,7 @@ val tConstructAddSmelteryMeltingTemp = [
     2100,                                                           /* 10 - Void Metal */
     4000,                                                           /* 31 - Draconium */
     4000,                                                           /* 12 - Dark Steel */
-    3000,                                                           /* 13 - Redstone */
+    1300,                                                           /* 13 - Redstone */
     4000,                                                           /* 14 - Awakened Draconium */
     
     /**********************************************************************
