@@ -46,7 +46,8 @@ val oreDictRemoveCraftingBlocks = [
   <ore:blockRedstone>,
   <DraconicEvolution:draconium>,
   <ore:glowstone>,
-  <ExtraUtilities:block_bedrockium>
+  <ExtraUtilities:block_bedrockium>,
+  <ore:blockDraconiumAwakened>
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -88,7 +89,8 @@ val oreDictRemoveCraftingNuggets = [
   <exastrisrebirth:itemNuggetElectricalSteel>,		/* Electrical Steel */
   <ore:nuggetTantalum>,
   <ore:nuggetNiobium>,
-  <ore:nuggetTerrasteel>
+  <ore:nuggetTerrasteel>,
+  <ore:nuggetDraconiumAwakened>
 ] as IIngredient[];
 
 val oreDictRemoveCraftingIngots = [
@@ -133,7 +135,8 @@ val oreDictRemoveCraftingIngots = [
   <ore:ingotTantalum>,
   <ore:ingotNiobium>,
   <ore:ingotDraconium>,
-  <ExtraUtilities:bedrockiumIngot>
+  <ExtraUtilities:bedrockiumIngot>,
+  <ore:ingotDraconiumAwakened>
 ] as IIngredient[];
 
 val oreDictRemoveGears = [
@@ -175,6 +178,21 @@ val oreDictRemoveGears = [
 
 # Add BCA Enderium Dust
 <ore:dustEnderium>.add( <bcadditions:dust:73> );
+
+# Add Terrasteel Block
+<ore:blockTerrasteel>.add( <Botania:storage:1> );
+
+# Add Elementium Block
+<ore:blockElvenElementium>.add( <Botania:storage:2> );
+
+# Add Manasteel Block
+<ore:blockManasteel>.add( <Botania:storage> );
+
+# Add Electrical Steel Nugget
+<ore:nuggetElectricalSteel>.add( <exastrisrebirth:itemNuggetElectricalSteel> );
+
+# Add Thaumium Block
+<ore:blockThaumium>.add( <Thaumcraft:blockCosmeticSolid:4> );
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped

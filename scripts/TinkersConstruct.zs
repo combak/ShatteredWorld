@@ -136,7 +136,8 @@ val tConstructArditeItems = [
   <TConstruct:MetalBlock:1>, 
 ] as IItemStack[];
 
-val tConstructItemMeltingAmount = [ 72, 
+val tConstructItemMeltingAmount = [ 
+  72, 
   288, 
   72, 
   720, 
@@ -275,28 +276,9 @@ val frArdite		= <liquid:ardite.molten>;
 val frDraconium		= <liquid:molten_draconium>;
 val frMushroom		= <liquid:fluidmushroom>;
 val frDarkSteel		= <liquid:molten_darksteel>;
-val frInvar       =  <liquid:invar.molten>;
-val frSteel       =  <liquid:steel.molten>;
-
-########################################################################################################################
-# (Mixed) Data Structures - Smeltery - Remove Melting
-########################################################################################################################
-
-val tConstructRemoveSmelteryMelting = [
-  <minecraft:bucket>,		/*  0 - Bucket (Vanilla) */
-] as IIngredient[];
-
-########################################################################################################################
-# (Mixed) Data Structures - Smeltery - Add Melting
-########################################################################################################################
-
-# @TODO
-val tConstructAddSmelteryMelting = [];
-
-# Manasteel
-mods.tconstruct.Smeltery.addMelting( forbMagicManasteelNugget, frManasteel * 16, 500, botaniaManasteelBlock );
-mods.tconstruct.Smeltery.addMelting( <ore:ingotManasteel>, frManasteel * 144, 500, botaniaManasteelBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaManasteelBlock, frManasteel * 1296, 500, botaniaManasteelBlock );
+val frInvar             =  <liquid:invar.molten>;
+val frSteel             =  <liquid:steel.molten>;
+val frDraconiumAwakened = <liquid:molten_draconiumawakened>;
 
 ########################################################################################################################
 # (Mixed) Data Structures - Smeltery - Remove Table Recipe
@@ -334,7 +316,7 @@ val tConstructAddTableRecipes = [
   [ <ThermalFoundation:material:98>,			tConstructNuggetCast ],		/*  4 - Silver Nugget */
   [ <ThermalFoundation:material:99>,			tConstructNuggetCast ],		/*  5 - Lead Nugget */
   [ <ThermalFoundation:material:70>,			tConstructIngotCast ],		/*  6 - Mana Infused Ingot */
-  [ <ForbiddenMagic:FMResource:2>,			tConstructNuggetCast ],		/*  7 - Manasteel Nugget */
+  [ <Botania:manaResource:17>,			        tConstructNuggetCast ],		/*  7 - Manasteel Nugget */
   [ <Botania:manaResource>,				tConstructIngotCast ],		/*  8 - Manasteel Ingot */
   [ <Botania:manaResource:4>,				tConstructIngotCast ],		/*  9 - Terrasteel Ingot */  
   [ <ForbiddenMagic:FMResource:4>,			tConstructNuggetCast ],		/* 10 - Elementium Nugget */
@@ -361,6 +343,9 @@ val tConstructAddTableRecipes = [
   [ <ThermalFoundation:material:129>,			tConstructGearCast ],		/* 31 - Tin Gear */
   [ <ThermalFoundation:material:137>,			tConstructGearCast ],		/* 32 - Bronze Gear */
   [ <Botania:manaResource:18>,				tConstructNuggetCast ],		/* 33 - Terrasteel Nugget */
+  [ <DraconicEvolution:nugget>,				tConstructNuggetCast ],		/* 34 - Draconium Nugget */
+  [ <DraconicEvolution:nugget:1>,			tConstructNuggetCast ],		/* 35 - Draconium Awakened Nugget */
+  [ <DraconicEvolution:draconicIngot>,			tConstructIngotCast ],		/* 36 - Draconium Awakened Ingot */
 ] as IItemStack[][];
 
 # Fluid * mb
@@ -399,6 +384,10 @@ val tConstructAddTableRecipesFluid = [
   frTin * 576,										/* 31 - Tin Gear */
   frBronze * 576,									/* 32 - Bronze Gear */
   frTerrasteel * 16,									/* 33 - Terrasteel Nugget */
+  frDraconium * 16,									/* 34 - Draconium Ingot */
+  frDraconiumAwakened * 16,	                                                	/* 35 - Draconium Awakened Nugget */
+  frDraconiumAwakened * 144,	                                                   	/* 36 - Draconium Awakened Ingot */
+  
 ] as ILiquidStack[];
 
 ########################################################################################################################
@@ -424,7 +413,8 @@ val tConstructAddBasinRecipes = [
   <Thaumcraft:blockCosmeticSolid:4>,		/* 10 - Thaumium Block */
   <WitchingGadgets:WG_MetalDevice:7>,		/* 11 - Void Metal Block */
   <DraconicEvolution:draconium>,		/* 12 - Draconium Block */	
-  <EnderIO:blockIngotStorage:6>			/* 13 - Dark Steel Block */
+  <EnderIO:blockIngotStorage:6>,		/* 13 - Dark Steel Block */
+  <DraconicEvolution:draconicBlock>,            /* 14 - Draconium Awakened */     
 ] as IItemStack[];
 
 val tConstructAddBasinPlateRecipes = [
@@ -452,7 +442,7 @@ val tConstructAddTableBasinFluid = [
   frVoidMetal * 1296,				/* 11 - Void Metal Block */
   frDraconium * 1296,				/* 12 - Draconium Block */
   frDarkSteel * 1296,				/* 13 - Dark Steel Block*/
-  
+  frDraconiumAwakened * 1296,                 	/* 34 - Draconium Awakened Ingot */ 
  
 ] as ILiquidStack[];
 
@@ -485,21 +475,6 @@ recipes.addShaped( tConstructFurnace, [ [ odSlabStone, odSlabStone, odSlabStone 
 # Machine -  Smeltery
 ########################################################################################################################
 
-# Remove Melting
-for entry in tConstructRemoveSmelteryMelting
-{
-  mods.tconstruct.Smeltery.removeMelting( entry );
-}
-
-# Add Melting @TODO
-/*
-for entry in tConstructAddSmelteryMelting
-{
-  var blockToLookLike 	= entry[ 0 ];
-  var itemsToSmelt	= entry[ 1 ] as IIngredient[];
-  
-}
-*/
 # Remove Table Casting
 for entry in tConstructRemoveTableRecipes
 {
@@ -536,69 +511,9 @@ for i, entry in tConstructAddBasinPlateRecipes
 #Circiut plates
 mods.tconstruct.Casting.addTableRecipe( projredCircuitPlate, frCopper * 16, vanillaClay, true, 20 );
 
-# Terrasteel
-mods.tconstruct.Smeltery.addMelting( <Botania:manaResource:18>, frTerrasteel * 16, 500, botaniaTerrasteelBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelIngot, frTerrasteel * 144, 500, botaniaTerrasteelBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaTerrasteelBlock, frTerrasteel * 1296, 500, botaniaTerrasteelBlock );
-
-# Elementium
-mods.tconstruct.Smeltery.addMelting( forbMagicElementiumNugget, frElementium * 16, 500, botaniaElementiumBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaElementiumIngot, frElementium * 144, 500, botaniaElementiumBlock );
-mods.tconstruct.Smeltery.addMelting( botaniaElementiumBlock, frElementium * 1296, 500, botaniaElementiumBlock );
-
-# Wrought Iron
-mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronNugget, frWroughtIron * 16, 500, gardStuffWroughtIronBlock );
-mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronIngot, frWroughtIron * 144, 500, gardStuffWroughtIronBlock );
-mods.tconstruct.Smeltery.addMelting( gardStuffWroughtIronBlock, frWroughtIron * 1296, 500, gardStuffWroughtIronBlock );
-
-# Fluxed Electrum
-mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumNugget, frFluxedElectrum * 16, 500, rsArsenalFluxedElectrumBlock );
-mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumIngot, frFluxedElectrum * 144, 500, rsArsenalFluxedElectrumBlock );
-mods.tconstruct.Smeltery.addMelting( rsArsenalFluxedElectrumBlock, frFluxedElectrum * 1296, 500, rsArsenalFluxedElectrumBlock );
-
-# Redstone Melting -> Destabilized Redstone & Redstone Block
-
-mods.tconstruct.Smeltery.addMelting( vanillaRedstone, frRedstone * 100, 1300, vanillaRedstoneBlock );
-mods.tconstruct.Smeltery.addMelting( vanillaRedstoneBlock, frRedstone * 900, 1300, vanillaRedstoneBlock );
-
-# Pulsating Iron
-mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronNugget, frPulsatingIron * 16, 500, enderioPulsatingIronBlock );
-mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronIngot, frPulsatingIron * 144, 500, enderioPulsatingIronBlock );
-mods.tconstruct.Smeltery.addMelting( enderioPulsatingIronBlock, frPulsatingIron * 1296, 500, enderioPulsatingIronBlock );
-
-# Vibrant Alloy
-mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyNugget, frVibrantAlloy * 16, 500, enderioVibrantAlloyBlock );
-mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyIngot, frVibrantAlloy * 144, 500, enderioVibrantAlloyBlock );
-mods.tconstruct.Smeltery.addMelting( enderioVibrantAlloyBlock, frVibrantAlloy * 1296, 500, enderioVibrantAlloyBlock );
-
-#Electrical Steel
-mods.tconstruct.Smeltery.addMelting( exAstrisElectricalSteelNugget, frElectricalSteel * 16, 500, enderioElectricalSteelBlock );
-mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelIngot, frElectricalSteel * 144, 500, enderioElectricalSteelBlock );
-mods.tconstruct.Smeltery.addMelting( enderioElectricalSteelBlock, frElectricalSteel * 1296, 500, enderioElectricalSteelBlock );
-
-#Dark Steel
-mods.tconstruct.Smeltery.addMelting( enderioDarkSteelIngot, frDarkSteel * 144, 500, enderioDarkSteelBlock );
-mods.tconstruct.Smeltery.addMelting( enderioDarkSteelBlock, frDarkSteel * 1296, 500, enderioDarkSteelBlock );
-
 # Nugget Cast with Diamond Nugget
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frAluminumBrass * 144, agriCraftDiamondNugget, true, 20 );
 mods.tconstruct.Casting.addTableRecipe( tConstructNuggetCast, frGold * 288, agriCraftDiamondNugget, true, 20 );
-
-# Thaumium
-mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumNugget, frThaumium * 16, 500, thaumcraftThaumiumBlock );
-mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumIngot, frThaumium * 144, 500, thaumcraftThaumiumBlock );
-mods.tconstruct.Smeltery.addMelting( thaumcraftThaumiumBlock, frThaumium * 1296, 500, thaumcraftThaumiumBlock );
-
-# Void Metal
-mods.tconstruct.Smeltery.addMelting( thaumcraftVoidMetalNugget, frVoidMetal * 16, 500, witchGadVoidMetalBlock );
-mods.tconstruct.Smeltery.addMelting( thaumcraftVoidMetalIngot, frVoidMetal * 144, 500, witchGadVoidMetalBlock );
-mods.tconstruct.Smeltery.addMelting( witchGadVoidMetalBlock, frVoidMetal * 1296, 500, witchGadVoidMetalBlock );
-
-# Draconium
-mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumDust, frDraconium * 144, 500, dracEvoDraconiumBlock );
-mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumIngot, frDraconium * 144, 500, dracEvoDraconiumBlock );
-mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumBlock, frDraconium * 1296, 500, dracEvoDraconiumBlock );
-mods.tconstruct.Smeltery.addMelting( dracEvoDraconiumOre, frDraconium * 288, 500, dracEvoDraconiumBlock );
 
 # Pams Harvestcraft
 recipes.remove( pamsSaucePan );
