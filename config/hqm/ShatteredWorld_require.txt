@@ -11,6 +11,7 @@
   1 x Alchemic Segmenter
   1 x Alchemical Centrifuge, dmg=2
   1 x Alchemical Furnace
+  1 x Ale Yeast
   1 x Alloy Smelter
   1 x Alumentum
   1 x Alveary
@@ -24,7 +25,6 @@
   1 x Apiarist's Shirt
   1 x Apiarist's Shoes
   1 x Apiary
-  1 x Apple Liquor Bottle_2
   1 x Apprentice Blood Orb
   1 x Aqua Pulse Scepter
   1 x Aquasalus
@@ -93,6 +93,7 @@
   1 x Clay
   1 x Clay Golem, dmg=3
   1 x Clay Pan
+  1 x Clipper
   1 x Cobblestone
   1 x Cobblestone Fluid Pipe
   1 x Cobblestone Kinesis Pipe
@@ -683,7 +684,6 @@
   1 x Wyvern Helm
   1 x Wyvern Leggings
   1 x Yeta Wrench
-  1 x Young Whiskey Bucket, dmg=1
   1 x Yuzu Gatling Gun
   1 x Z-Logic Controller, dmg=1
   1 x Zone Planner

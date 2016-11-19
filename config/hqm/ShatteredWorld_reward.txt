@@ -318,7 +318,7 @@
  16 x Torch_2
   4 x Ultimate Stew
   1 x Uncommon Treasure, dmg=1
- 10 x Vegetable Oil Bottle
+  3 x Vegetable Oil Bottle
   1 x Vibrant Capacitor Bank_2, dmg=3, nbt{type:"VIBRANT",storedEnergyRF:25000000}
   1 x View Cell
  16 x Vinteum Dust

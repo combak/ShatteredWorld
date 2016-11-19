@@ -3,7 +3,7 @@
   "languages": [
     "deDE"
   ],
-  "description": "Und wieder ein Pack in dem alles anderes ist!\n- Alle Arten von Querries sind deaktiviert.\n- Im Boden sind nur wenige Rohstoffe.\n- Rezepte sind nach Schwierigkeit sortiert.\n- Rezepte bauen auf mehreren Mods auf.\n- Es spawnen mehr und gefaehrlichere Mobs.\n- Die Nacht ist unheimlich.\n- Die Naehe zu Fluessigkeiten birgt Gefahr.",
+  "description": "Und wieder ein Pack in dem alles anderes ist!\n- Alle Arten von Querries sind deaktiviert.\n- Wenn wir was vergessen haben, melden!\n- Im Boden sind nur wenige Rohstoffe.\n- Rezepte sind nach Schwierigkeit sortiert.\n- Rezepte bauen auf mehreren Mods auf.\n- Es gibt mehr und gefaehrlichere Mobs.\n- Die Nacht ist unheimlich.\n- Die Naehe zu Fluessigkeiten birgt Gefahr.\n- Bloecke muss man giessen.\n- Nuggets muss man giessen (meistens).\n- Extreme Waffen sind deaktiviert.\n- Abartige Werkzeuge sind deaktiviert.\n- Einige Maschinen sind limitiert.\n\nSeid hoefflich zu einander. Grieven ist natuerlich verboten. Cheaten wird hart bestraft.",
   "questSetCatalog": [
     {
       "id": "set000",
@@ -3083,7 +3083,7 @@
           ],
           "reward": [
             "DraconicEvolution:draconiumDust size(4) dmg(0)",
-            "DCsAppleMilk:defeatedcrow.bottleVegiOil size(10) dmg(0)"
+            "DCsAppleMilk:defeatedcrow.bottleVegiOil size(3) dmg(0)"
           ]
         },
         {
@@ -3245,7 +3245,7 @@
                   "precision": "PRECISE"
                 },
                 {
-                  "item": "DCsAppleMilk:defeatedcrow.bucketYoungAlcohol size(1) dmg(1)",
+                  "item": "DCsAppleMilk:defeatedcrow.yeast size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -3292,11 +3292,6 @@
                 },
                 {
                   "item": "DCsAppleMilk:defeatedcrow.itemBottle size(1) dmg(55)",
-                  "required": 1,
-                  "precision": "FUZZY"
-                },
-                {
-                  "item": "DCsAppleMilk:defeatedcrow.blockCordial size(1) dmg(0)",
                   "required": 1,
                   "precision": "FUZZY"
                 }
@@ -15754,7 +15749,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Dieser Bogen mach 20 Schaden bei jedem Treffer und keht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.",
+              "description": "Dieser Bogen mach 20 Schaden bei jedem Treffer und geht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.",
               "requirements": [
                 {
                   "item": "Avaritia:Infinity_Bow size(1) dmg(0)",

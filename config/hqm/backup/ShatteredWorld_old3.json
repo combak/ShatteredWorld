@@ -3083,7 +3083,7 @@
           ],
           "reward": [
             "DraconicEvolution:draconiumDust size(4) dmg(0)",
-            "DCsAppleMilk:defeatedcrow.bottleVegiOil size(10) dmg(0)"
+            "DCsAppleMilk:defeatedcrow.bottleVegiOil size(3) dmg(0)"
           ]
         },
         {
@@ -3245,7 +3245,7 @@
                   "precision": "PRECISE"
                 },
                 {
-                  "item": "DCsAppleMilk:defeatedcrow.bucketYoungAlcohol size(1) dmg(1)",
+                  "item": "DCsAppleMilk:defeatedcrow.yeast size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -3292,11 +3292,6 @@
                 },
                 {
                   "item": "DCsAppleMilk:defeatedcrow.itemBottle size(1) dmg(55)",
-                  "required": 1,
-                  "precision": "FUZZY"
-                },
-                {
-                  "item": "DCsAppleMilk:defeatedcrow.blockCordial size(1) dmg(0)",
                   "required": 1,
                   "precision": "FUZZY"
                 }
@@ -15292,7 +15287,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Dieses Teil solltest du fruehzeitig und in rauhen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.",
+              "description": "Dieses Teil solltest du fruehzeitig und in rauen Mengen herstellen. Das Neutronium kann nur mit dieser Maschinen eingefangen werden.",
               "requirements": [
                 {
                   "item": "Avaritia:Neutron_Collector size(1) dmg(0)",
@@ -15346,7 +15341,7 @@
         {
           "id": "quest396",
           "name": "Die Schrottpresse",
-          "description": "Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten enstehen.",
+          "description": "Mit dieser Maschine wird es endlich ernst. Die einzelnen Materialien muessen so lange komprimiert werden, bis diese Singularitaeten entstehen.",
           "uuid": "a194bde8-f8b0-45e9-987f-0343ec0cef4e",
           "x": 154,
           "y": 85,
@@ -15754,7 +15749,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Dieser Bogen mach 20 Schaden bei jedem Treffer und keht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.",
+              "description": "Dieser Bogen mach 20 Schaden bei jedem Treffer und geht nicht kaputt. Du brauchst auch nur einen Pfeil in deinem Inventar. Wenn du gerade keinen Treffer machst, keine Angst. In diesem Fall gehen zur Sicherheit gleich 10 Pfeile in dem Bereich nieder. Dass sollte dann reichen.",
               "requirements": [
                 {
                   "item": "Avaritia:Infinity_Bow size(1) dmg(0)",
