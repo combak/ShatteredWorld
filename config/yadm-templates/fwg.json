@@ -34,6 +34,7 @@
         { "type": "generatorOptions", "value": "SKYLAND#0" },
         { "type": "spawn", "x": 0, "y": 150, "z": 0, "mode": "topdown" },
         { "type": "seed", "value": "*" },
+        { "type": "whitelist", "users": [], "editable": true },
         { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 16,  "actions":[
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
             { "type": "knockback", "side":"all" }
@@ -48,6 +49,7 @@
         { "type": "generatorOptions", "value": "SKYLAND#1" },
         { "type": "spawn", "x": 0, "y": 150, "z": 0, "mode": "topdown" },
         { "type": "seed", "value": "*" },
+        { "type": "whitelist", "users": [], "editable": true },
         { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 16,  "actions":[
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
             { "type": "knockback", "side":"all" }
@@ -62,6 +64,7 @@
         { "type": "generatorOptions", "value": "SKYLAND#2" },
         { "type": "spawn", "x": 0, "y": 150, "z": 0, "mode": "topdown" },
         { "type": "seed", "value": "*" },
+        { "type": "whitelist", "users": [], "editable": true },
         { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 16,  "actions":[
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
             { "type": "knockback", "side":"all" }
