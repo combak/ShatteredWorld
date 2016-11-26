@@ -1190,7 +1190,7 @@ Task_1: Crafting Task
 7.9: Die Kraft der Blumen
 	Die erste und einfachsten Blumen sind Daybloom, Nightshade und Hydroengeas. Allerdings sind sie alles passive Blumen, die weiter keine Ressourcen zum Funktionieren brauchen. Deshalb haben sie nur eine begrenzte Lebensdauer von einer Minecraftwoche.
 Task_1: Detection Task
-	Man sollte beachten, das gleiche Blumen nicht zu nah beieinander platziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden.
+	Man sollte beachten, das gleiche Blumen nicht zu nah beieinander platziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden. Uebrigens mit Overgrowth Seeds, die ihr aber nur in Dungeon Kisten findet, koennt ihr verhindern das diese Blumen verbluehen. 
 
 7.10: Der Schaltkasten
 	Unser Mananetzwerk wird jetzt immer groesser. Dann wird es Zeit fuer weiter Werkzeuge zum Steuern des Manaflusses.

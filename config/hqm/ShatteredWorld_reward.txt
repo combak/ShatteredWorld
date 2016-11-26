@@ -227,6 +227,7 @@
   4 x Onion Seed
   2 x Orange Sapling_2
   4 x Orchard Apple Pollen
+  4 x Overgrowth Seed
   2 x P2P Tunnel - ME, dmg=460
  32 x Paint Ball - White
   2 x Papaya Sapling_2
@@ -256,7 +257,7 @@
   8 x Rare Treasure, dmg=2
   8 x Raw Fish
   2 x Red Flower Pot
- 10 x Red Heart Canister, dmg=2
+  9 x Red Heart Canister, dmg=2
   3 x Red String, dmg=12
 104 x Redstone
   4 x Redstone Alloy, dmg=3
