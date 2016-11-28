@@ -14,7 +14,8 @@
         { "type": "worldProvider", "name": "overworld" },
         { "type": "worldType", "name": "FWG" },
         { "type": "generatorOptions", "value": "SKYDIM#1" },
-        { "type": "seed", "value": 7308741327247404037 }
+        { "type": "seed", "value": 7308741327247404037 },
+        { "type": "worldGuard", "interactionAllowed": true }
       ]
     },
     {
