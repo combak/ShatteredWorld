@@ -12,6 +12,10 @@ val appEngQuartzGlass		= <appliedenergistics2:tile.BlockQuartzGlass>;
 
 # Vanilla
 val vanillaCraftingTable = <minecraft:crafting_table>;
+val vanillaDirt = <minecraft:dirt>;
+
+#Forest Day
+val forDayLoam =  <ForestDay:gravel>;
 
 ########################################################################################################################
 # Items
@@ -47,7 +51,9 @@ val appEngGrinder = [
 ########################################################################################################################
 # Custom Crafting Recipes - Shaped
 ########################################################################################################################
+# Skystone Dust zu Loam
 
+recipes.addShaped( forDayLoam*8,[ [ appEngSkyStoneDust,appEngSkyStoneDust,appEngSkyStoneDust], [appEngSkyStoneDust, vanillaDirt, appEngSkyStoneDust], [appEngSkyStoneDust, appEngSkyStoneDust, appEngSkyStoneDust ] ] ) ;
 # ME Drive
 recipes.remove( appEngDrive );
 recipes.addShaped( appEngDrive, [ [ vanillaIronIngot, appEngCalculationProcessor, vanillaIronIngot ], [ appEngCableFluix, null, appEngCableFluix ], [ vanillaIronIngot, appEngCalculationProcessor, vanillaIronIngot ] ] );
