@@ -4,6 +4,8 @@ import minetweaker.item.IIngredient;
 ########################################################################################################################
 # Block
 ########################################################################################################################
+#Forest Day
+val forDayLoam =  <ForestDay:gravel>;
 
 # Applied Energistics
 val appEngSkyStoneBlock	= <appliedenergistics2:tile.BlockSkyStone>;
@@ -61,6 +63,11 @@ val odGlass                     = <ore:blockGlass>;
 ########################################################################################################################
 # Item
 ########################################################################################################################
+#Vanilla
+val vanillaCharcoal                 = <minecraft:coal:1>;
+
+#Content Tweaker
+val conTweakLogpile = <contenttweaker:pileOfWoodLogs>;
 
 # Applied Energistics
 val appEngSkyStoneDust = <appliedenergistics2:item.ItemMultiMaterial:45>;
@@ -1018,6 +1025,9 @@ for i, entry in removeInduction
 
 # Producing Sky Stone form Sky Stone Dust
 mods.thermalexpansion.Smelter.addRecipe(4000, appEngSkyStoneDust * 4, vanillaSand, appEngSkyStoneBlock, null, 20 );
+
+# Charcoal in Smelter
+mods.thermalexpansion.Smelter.addRecipe(5000, forDayLoam*2, conTweakLogpile , vanillaCharcoal*6, null, 20);
 
 # Smelter add
 for i, entry in thermExpSmelterAddInput
