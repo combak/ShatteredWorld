@@ -49,3 +49,6 @@ tile.molten_draconiumawakened.name=Geschmolzenes erwachtes drakonisches Metall
 
 fluid.molten_draconium=Geschmolzenes drakonisches Metall
 fluid.molten_draconiumawakened=Geschmolzenes erwachtes drakonisches Metall
+
+#Pile of Wood Logs
+item.pileOfWoodLogs.name=Gestapelte Baumstämme
