@@ -37,8 +37,9 @@
         { "type": "seed", "value": "*" },
         { "type": "whitelist", "users": [], "editable": true },
         { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 16,  "actions":[
+            { "type": "travel", "side": "south", "editable" : false, "targetId": 0 },
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
-            { "type": "knockback", "side":"all" }
+            { "type": "knockback", "multiplier": 0.1, "side":"all" }
         ]}
       ]
     },
@@ -52,8 +53,9 @@
         { "type": "seed", "value": "*" },
         { "type": "whitelist", "users": [], "editable": true },
         { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 16,  "actions":[
+            { "type": "travel", "side": "south", "editable" : false, "targetId": 0 },
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
-            { "type": "knockback", "side":"all" }
+            { "type": "knockback", "multiplier": 0.1, "side":"all" }
         ]}
       ]
     },
@@ -67,8 +69,9 @@
         { "type": "seed", "value": "*" },
         { "type": "whitelist", "users": [], "editable": true },
         { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 16,  "actions":[
+            { "type": "travel", "side": "south", "editable" : false, "targetId": 0 },
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
-            { "type": "knockback", "side":"all" }
+            { "type": "knockback", "multiplier": 0.1, "side":"all" }
         ]}
       ]
     }
