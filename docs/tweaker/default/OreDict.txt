@@ -911,24 +911,24 @@ Ore entries for <ore:dustGlass> :
 Ore entries for <ore:nuggetIron> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:7>
     <Thaumcraft:ItemNugget>
-    <ThermalFoundation:material:8> (default)
+    <ThermalFoundation:material:8>
     <TConstruct:oreBerries>
-    <TConstruct:materials:19>
+    <TConstruct:materials:19> (default)
     <ForestDay:nugget:5>
     <GardenStuff:iron_nugget>
 Ore entries for <ore:nuggetTin> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:8>
     <Thaumcraft:ItemNugget:2>
-    <ThermalFoundation:material:97> (default)
+    <ThermalFoundation:material:97>
     <TConstruct:oreBerries:3>
-    <TConstruct:materials:21>
+    <TConstruct:materials:21> (default)
     <ForestDay:nugget:1>
 Ore entries for <ore:nuggetCopper> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:9>
     <Thaumcraft:ItemNugget:1>
-    <ThermalFoundation:material:96> (default)
+    <ThermalFoundation:material:96>
     <TConstruct:oreBerries:2>
-    <TConstruct:materials:20>
+    <TConstruct:materials:20> (default)
     <ForestDay:nugget>
 Ore entries for <ore:nuggetSilver> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:10>
@@ -940,13 +940,13 @@ Ore entries for <ore:nuggetSteel> :
     <TConstruct:materials:33> (default)
 Ore entries for <ore:nuggetLead> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:12>
-    <Thaumcraft:ItemNugget:4> (default)
-    <ThermalFoundation:material:99>
+    <Thaumcraft:ItemNugget:4>
+    <ThermalFoundation:material:99> (default)
     <ForestDay:nugget:3>
 Ore entries for <ore:nuggetBronze> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:13>
-    <ThermalFoundation:material:105> (default)
-    <TConstruct:materials:31>
+    <ThermalFoundation:material:105>
+    <TConstruct:materials:31> (default)
     <ModularMachines:ingotAlloy>
 Ore entries for <ore:nuggetFlint> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:14>
@@ -1522,20 +1522,20 @@ Ore entries for <ore:gemApatite> :
     <Forestry:apatite>
 Ore entries for <ore:ingotCopper> :
     <Forestry:ingotCopper>
-    <ThermalFoundation:material:64> (default)
-    <TConstruct:materials:9>
+    <ThermalFoundation:material:64>
+    <TConstruct:materials:9> (default)
     <ForestDay:ingot>
     <exnihilo:exnihilo.copper_ingot>
 Ore entries for <ore:ingotTin> :
     <Forestry:ingotTin>
-    <ThermalFoundation:material:65> (default)
-    <TConstruct:materials:10>
+    <ThermalFoundation:material:65>
+    <TConstruct:materials:10> (default)
     <ForestDay:ingot:1>
     <exnihilo:exnihilo.tin_ingot>
 Ore entries for <ore:ingotBronze> :
     <Forestry:ingotBronze>
-    <ThermalFoundation:material:73> (default)
-    <TConstruct:materials:13>
+    <ThermalFoundation:material:73>
+    <TConstruct:materials:13> (default)
     <customnpcs:npcBronzeIngot>
     <ModularMachines:ingotAlloy>
 Ore entries for <ore:brickPeat> :
@@ -1589,18 +1589,18 @@ Ore entries for <ore:blockApatite> :
     <Forestry:resourceStorage> (default)
 Ore entries for <ore:blockCopper> :
     <Forestry:resourceStorage:1>
-    <ThermalFoundation:Storage> (default)
-    <TConstruct:MetalBlock:3>
+    <ThermalFoundation:Storage>
+    <TConstruct:MetalBlock:3> (default)
     <ModularMachines:component.metal_block:1>
 Ore entries for <ore:blockTin> :
     <Forestry:resourceStorage:2>
-    <ThermalFoundation:Storage:1> (default)
-    <TConstruct:MetalBlock:5>
+    <ThermalFoundation:Storage:1>
+    <TConstruct:MetalBlock:5> (default)
     <ModularMachines:component.metal_block>
 Ore entries for <ore:blockBronze> :
     <Forestry:resourceStorage:3>
-    <ThermalFoundation:Storage:9> (default)
-    <TConstruct:MetalBlock:4>
+    <ThermalFoundation:Storage:9>
+    <TConstruct:MetalBlock:4> (default)
     <ModularMachines:component.metal_block:2>
 Ore entries for <ore:dropHoney> :
     <Forestry:honeyDrop>
@@ -2697,8 +2697,8 @@ Ore entries for <ore:blockDraconium> :
     <DraconicEvolution:draconium> (default)
 Ore entries for <ore:blockDraconiumAwakened> :
     <DraconicEvolution:draconicBlock> (default)
-Ore entries for <ore:ingotDraconium> : (default)
-    <DraconicEvolution:draconiumIngot>
+Ore entries for <ore:ingotDraconium> :
+    <DraconicEvolution:draconiumIngot> (default)
 Ore entries for <ore:dustDraconium> :
     <DraconicEvolution:draconiumDust> (default)
 Ore entries for <ore:ingotDraconiumAwakened> :
@@ -2800,7 +2800,7 @@ Ore entries for <ore:scribingTools> :
 Ore entries for <ore:blockVoid> :
     <WitchingGadgets:WG_MetalDevice:7>  (default)
 Ore entries for <ore:nuggetEmerald> :
-    <ForbiddenMagic:FMResource>
+    <ForbiddenMagic:FMResource> (default)
 Ore entries for <ore:blockNetherStar> :
     <ForbiddenMagic:StarBlock>
 Ore entries for <ore:toolFile> :
@@ -3101,11 +3101,11 @@ Ore entries for <ore:toolMixingbowl> :
 Ore entries for <ore:foodFlour> :
     <harvestcraft:flourItem>
 Ore entries for <ore:foodSalt> :
-    <harvestcraft:saltItem>
+    <harvestcraft:saltItem> (default)
 Ore entries for <ore:dustSalt> :
-    <harvestcraft:saltItem>
+    <harvestcraft:saltItem> (default)
 Ore entries for <ore:itemSalt> :
-    <harvestcraft:saltItem>
+    <harvestcraft:saltItem> (default)
 Ore entries for <ore:foodDough> :
     <harvestcraft:doughItem>
 Ore entries for <ore:foodButter> :
@@ -4952,11 +4952,11 @@ Ore entries for <ore:blockMoonstone> :
 Ore entries for <ore:blockSunstone> :
     <arsmagica2:vinteumOre:8>
 Ore entries for <ore:blockCrystalMatrix> :
-    <Avaritia:Crystal_Matrix>
+    <Avaritia:Crystal_Matrix> (default)
 Ore entries for <ore:blockCosmicNeutronium> :
-    <Avaritia:Resource_Block>
+    <Avaritia:Resource_Block> (default)
 Ore entries for <ore:blockInfinity> :
-    <Avaritia:Resource_Block:1>
+    <Avaritia:Resource_Block:1> (default)
 Ore entries for <ore:ingotCrystalMatrix> :
     <Avaritia:Resource:1> (default)
 Ore entries for <ore:ingotCosmicNeutronium> :
@@ -5331,7 +5331,7 @@ Ore entries for <ore:cropEmeryllis> :
 Ore entries for <ore:seedEmeryllis> :
     <AgriCraft:seedEmeryllis>
 Ore entries for <ore:cropRedstodendron> :
-    <minecraft:redstone>
+    <minecraft:redstone> (default)
 Ore entries for <ore:seedRedstodendron> :
     <AgriCraft:seedRedstodendron>
 Ore entries for <ore:cropNitorWart> :
