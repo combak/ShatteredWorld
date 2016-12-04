@@ -285,18 +285,7 @@ val frDraconiumAwakened = <liquid:molten_draconiumawakened>;
 ########################################################################################################################
 
 val tConstructRemoveTableRecipes = [
-  <ore:nuggetIron>,
-  <ore:nuggetCopper>,
-  <ore:nuggetTin>,
-  <ore:nuggetSilver>,
-  <ore:nuggetLead>,
-  <ore:ingotMithril>,
-  <ore:ingotRedAlloy>,
-  <ore:gearChalcedony>,
-  <ore:gearGold>,
-  <ore:gearCopper>,
-  <ore:gearTin>,
-  <ore:gearBronze>
+    <ore:gearSteel>
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -309,85 +298,58 @@ val tConstructRemoveTableRecipes = [
 # Items
 val tConstructAddTableRecipes = [
   /*	Output							Cast						*/
-  [ <TConstruct:materials:19>,				tConstructNuggetCast ],		/*  0 - Iron Nugget */
-  [ <TConstruct:materials:20>,				tConstructNuggetCast ],		/*  1 - Copper Nugget */
-  [ <TConstruct:materials:21>,				tConstructNuggetCast ],		/*  2 - Tin Nugget */
-  [ <TConstruct:materials:31>, 				tConstructNuggetCast ],		/*  3 - Bronze Nugget */
-  [ <ThermalFoundation:material:98>,			tConstructNuggetCast ],		/*  4 - Silver Nugget */
-  [ <ThermalFoundation:material:99>,			tConstructNuggetCast ],		/*  5 - Lead Nugget */
-  [ <ThermalFoundation:material:70>,			tConstructIngotCast ],		/*  6 - Mana Infused Ingot */
-  [ <Botania:manaResource:17>,			        tConstructNuggetCast ],		/*  7 - Manasteel Nugget */
-  [ <Botania:manaResource>,				tConstructIngotCast ],		/*  8 - Manasteel Ingot */
-  [ <Botania:manaResource:4>,				tConstructIngotCast ],		/*  9 - Terrasteel Ingot */  
-  [ <ForbiddenMagic:FMResource:4>,			tConstructNuggetCast ],		/* 10 - Elementium Nugget */
-  [ <Botania:manaResource:7>,				tConstructIngotCast ],		/* 11 - Elementium Ingot */
-  [ <GardenStuff:wrought_iron_nugget>,			tConstructNuggetCast ],		/* 12 - Wrought Iron Nugget */
-  [ <GardenStuff:wrought_iron_ingot>,			tConstructIngotCast ],		/* 13 - Wrought Iron Ingot */
-  [ <RedstoneArsenal:material:64>,			tConstructNuggetCast ],		/* 14 - Fluxed Electrum Nugget */
-  [ <RedstoneArsenal:material:32>,			tConstructIngotCast ],		/* 15 - Fluxed Electrum Ingot */
-  [ <EnderIO:itemMaterial:3>,				tConstructNuggetCast ],		/* 16 - Pulsating Iron Nugget */
-  [ <EnderIO:itemAlloy:5>,				tConstructIngotCast ],		/* 17 - Pulsating Iron Ingot */
-  [ <EnderIO:itemMaterial:4>,				tConstructNuggetCast ],		/* 18 - Vibrant Alloy Nugget */
-  [ <EnderIO:itemAlloy:2>,				tConstructIngotCast ],		/* 19 - Vibrant Alloy Ingot */
-  [ <exastrisrebirth:itemNuggetElectricalSteel>,	tConstructNuggetCast ],		/* 20 - Electrical Steel Nugget */
-  [ <EnderIO:itemAlloy>,				tConstructIngotCast ],		/* 21 - Electrical Steel Ingot */
-  [ <Thaumcraft:ItemNugget:6>,				tConstructNuggetCast ],		/* 22 - Thaumium Nugget */
-  [ <Thaumcraft:ItemResource:2>,			tConstructIngotCast ],		/* 23 - Thaumium Ingot */
-  [ <Thaumcraft:ItemNugget:7>,				tConstructNuggetCast ],		/* 24 - Void Metal Nugget */
-  [ <Thaumcraft:ItemResource:16>,			tConstructIngotCast ],		/* 25 - Void Metal Ingot */
-  [ <DraconicEvolution:draconiumIngot>,			tConstructIngotCast ],		/* 26 - Draconium Ingot */
-  [ enderioDarkSteelIngot,				tConstructIngotCast ],		/* 27 - Dark Steel Ingot */
-  [ <ThermalFoundation:material:12>,			tConstructGearCast ],		/* 28 - Iron Gear */
-  [ <ThermalFoundation:material:13>,			tConstructGearCast ],		/* 29 - Gold Gear */
-  [ <ThermalFoundation:material:128>,			tConstructGearCast ],		/* 30 - Copper Gear */
-  [ <ThermalFoundation:material:129>,			tConstructGearCast ],		/* 31 - Tin Gear */
-  [ <ThermalFoundation:material:137>,			tConstructGearCast ],		/* 32 - Bronze Gear */
-  [ <Botania:manaResource:18>,				tConstructNuggetCast ],		/* 33 - Terrasteel Nugget */
-  [ <DraconicEvolution:nugget>,				tConstructNuggetCast ],		/* 34 - Draconium Nugget */
-  [ <DraconicEvolution:nugget:1>,			tConstructNuggetCast ],		/* 35 - Draconium Awakened Nugget */
-  [ <DraconicEvolution:draconicIngot>,			tConstructIngotCast ],		/* 36 - Draconium Awakened Ingot */
+  [ <Botania:manaResource:17>,			        tConstructNuggetCast ],		/*  1 - Manasteel Nugget */
+  [ <Botania:manaResource>,				tConstructIngotCast ],		/*  2 - Manasteel Ingot */
+  [ <Botania:manaResource:4>,				tConstructIngotCast ],		/*  3 - Terrasteel Ingot */  
+  [ <Botania:manaResource:7>,				tConstructIngotCast ],		/*  4 - Elementium Ingot */
+  [ <GardenStuff:wrought_iron_nugget>,			tConstructNuggetCast ],		/*  5 - Wrought Iron Nugget */
+  [ <GardenStuff:wrought_iron_ingot>,			tConstructIngotCast ],		/*  6 - Wrought Iron Ingot */
+  [ <RedstoneArsenal:material:64>,			tConstructNuggetCast ],		/*  7 - Fluxed Electrum Nugget */
+  [ <RedstoneArsenal:material:32>,			tConstructIngotCast ],		/*  8 - Fluxed Electrum Ingot */
+  [ <EnderIO:itemMaterial:3>,				tConstructNuggetCast ],		/*  9 - Pulsating Iron Nugget */
+  [ <EnderIO:itemAlloy:5>,				tConstructIngotCast ],		/* 10 - Pulsating Iron Ingot */
+  [ <EnderIO:itemMaterial:4>,				tConstructNuggetCast ],		/* 11 - Vibrant Alloy Nugget */
+  [ <EnderIO:itemAlloy:2>,				tConstructIngotCast ],		/* 12 - Vibrant Alloy Ingot */
+  [ <exastrisrebirth:itemNuggetElectricalSteel>,	tConstructNuggetCast ],		/* 13 - Electrical Steel Nugget */
+  [ <EnderIO:itemAlloy>,				tConstructIngotCast ],		/* 14 - Electrical Steel Ingot */
+  [ <Thaumcraft:ItemNugget:6>,				tConstructNuggetCast ],		/* 15 - Thaumium Nugget */
+  [ <Thaumcraft:ItemResource:2>,			tConstructIngotCast ],		/* 16 - Thaumium Ingot */
+  [ <Thaumcraft:ItemNugget:7>,				tConstructNuggetCast ],		/* 17 - Void Metal Nugget */
+  [ <Thaumcraft:ItemResource:16>,			tConstructIngotCast ],		/* 18 - Void Metal Ingot */
+  [ <DraconicEvolution:draconiumIngot>,			tConstructIngotCast ],		/* 19 - Draconium Ingot */
+  [ enderioDarkSteelIngot,				tConstructIngotCast ],		/* 20 - Dark Steel Ingot */
+  [ <Botania:manaResource:18>,				tConstructNuggetCast ],		/* 21 - Terrasteel Nugget */
+  [ <DraconicEvolution:nugget>,				tConstructNuggetCast ],		/* 22 - Draconium Nugget */
+  [ <DraconicEvolution:nugget:1>,			tConstructNuggetCast ],		/* 23 - Draconium Awakened Nugget */
+  [ <DraconicEvolution:draconicIngot>,			tConstructIngotCast ],		/* 24 - Draconium Awakened Ingot */
 ] as IItemStack[][];
 
 # Fluid * mb
 val tConstructAddTableRecipesFluid = [
-  frIron * 16,										/*  0 -Iron Nugget */
-  frCopper * 16,									/*  1 -Copper Nugget */
-  frTin * 16,										/*  2 - Tin Nugget */
-  frBronze * 16,									/*  3 - Bronze Nugget */
-  frSilver * 16,									/*  4 - Silver Nugget */
-  frLead * 16,										/*  5 - Lead Nugget */
-  frManaInfusedMetal * 144,								/*  6 - Mana Infused Ingot */
-  frManasteel * 16,									/*  7 - Manasteel */
-  frManasteel * 144,									/*  8 - Manasteel Ingot */
-  frTerrasteel * 144,									/*  9 - Terrasteel Ingot */
-  frElementium * 16,									/* 10 - Elementium Nugget */
-  frElementium * 144,									/* 11 - Elementium Ingot */  
-  frWroughtIron * 16,									/* 12 - Wrought Iron Nugget */
-  frWroughtIron * 144,									/* 13 - Wrought Iron Ingot */
-  frFluxedElectrum * 16,								/* 14 - Fluxed Electrum Nugget */
-  frFluxedElectrum * 144,								/* 15 - Fluxed Electrum Ingot */
-  frPulsatingIron * 16,									/* 16 - Pulsating Iron Nugget */
-  frPulsatingIron * 144,								/* 17 - Pulsating Iron Ingot */
-  frVibrantAlloy * 16,									/* 18 - Vibrant Alloy Nugget */
-  frVibrantAlloy * 144,									/* 19 - Vibrant Alloy Ingot */
-  frElectricalSteel * 16,								/* 20 - Electrical Steel Nugget */
-  frElectricalSteel * 144,								/* 21 - Electrical Steel Ingot */
-  frThaumium * 16,									/* 22 - Thaumium Nugget */
-  frThaumium * 144,									/* 23 - Thaumium Ingot */
-  frVoidMetal * 16,									/* 24 - Void Metal Nugget */
-  frVoidMetal * 144,									/* 25 - Void Metal Ingot */
-  frDraconium * 144,									/* 26 - Draconium Ingot */
-  frDarkSteel * 144,									/* 27 - Dark Steel Ingot */
-  frIron * 576,										/* 28 - Iron Gear */
-  frGold * 576,										/* 29 - Gold Gear */
-  frCopper * 576,									/* 30 - Copper Gear */
-  frTin * 576,										/* 31 - Tin Gear */
-  frBronze * 576,									/* 32 - Bronze Gear */
-  frTerrasteel * 16,									/* 33 - Terrasteel Nugget */
-  frDraconium * 16,									/* 34 - Draconium Ingot */
-  frDraconiumAwakened * 16,	                                                	/* 35 - Draconium Awakened Nugget */
-  frDraconiumAwakened * 144,	                                                   	/* 36 - Draconium Awakened Ingot */
-  
+  frManasteel * 16,									/*  1 - Manasteel */
+  frManasteel * 144,									/*  2 - Manasteel Ingot */
+  frTerrasteel * 144,									/*  3 - Terrasteel Ingot */
+  frElementium * 144,									/*  4 - Elementium Ingot */  
+  frWroughtIron * 16,									/*  5 - Wrought Iron Nugget */
+  frWroughtIron * 144,									/*  6 - Wrought Iron Ingot */
+  frFluxedElectrum * 16,								/*  7 - Fluxed Electrum Nugget */
+  frFluxedElectrum * 144,								/*  8 - Fluxed Electrum Ingot */
+  frPulsatingIron * 16,									/*  9 - Pulsating Iron Nugget */
+  frPulsatingIron * 144,								/* 10 - Pulsating Iron Ingot */
+  frVibrantAlloy * 16,									/* 11 - Vibrant Alloy Nugget */
+  frVibrantAlloy * 144,									/* 12 - Vibrant Alloy Ingot */
+  frElectricalSteel * 16,								/* 13 - Electrical Steel Nugget */
+  frElectricalSteel * 144,								/* 14 - Electrical Steel Ingot */
+  frThaumium * 16,									/* 15 - Thaumium Nugget */
+  frThaumium * 144,									/* 16 - Thaumium Ingot */
+  frVoidMetal * 16,									/* 17 - Void Metal Nugget */
+  frVoidMetal * 144,									/* 18 - Void Metal Ingot */
+  frDraconium * 144,									/* 19 - Draconium Ingot */
+  frDarkSteel * 144,									/* 20 - Dark Steel Ingot */
+  frTerrasteel * 16,									/* 21 - Terrasteel Nugget */
+  frDraconium * 16,									/* 22 - Draconium Ingot */
+  frDraconiumAwakened * 16,	                                                	/* 23 - Draconium Awakened Nugget */
+  frDraconiumAwakened * 144,	                                                   	/* 24 - Draconium Awakened Ingot */
 ] as ILiquidStack[];
 
 ########################################################################################################################
