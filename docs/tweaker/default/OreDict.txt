@@ -893,7 +893,7 @@ Ore entries for <ore:blockProsessor> :
 Ore entries for <ore:gearIron> :
     <DCsAppleMilk:defeatedcrow.condensedMilk:3>
     <BuildCraft|Core:ironGearItem>
-    <ThermalFoundation:material:12>
+    <ThermalFoundation:material:12> (default)
     <thaumicenergistics:material:2>
     <ModularMachines:component.gears:1>
 Ore entries for <ore:gearChalcedony> :
@@ -1542,15 +1542,15 @@ Ore entries for <ore:brickPeat> :
     <Forestry:peat>
 Ore entries for <ore:gearBronze> :
     <Forestry:gearBronze>
-    <ThermalFoundation:material:137>
+    <ThermalFoundation:material:137> (default)
     <ModularMachines:component.gears:4>
 Ore entries for <ore:gearCopper> :
     <Forestry:gearCopper>
-    <ThermalFoundation:material:128>
+    <ThermalFoundation:material:128> (default)
     <ModularMachines:component.gears:3>
 Ore entries for <ore:gearTin> :
     <Forestry:gearTin>
-    <ThermalFoundation:material:129>
+    <ThermalFoundation:material:129> (default)
     <ModularMachines:component.gears:2>
 Ore entries for <ore:pulpWood> :
     <Forestry:woodPulp>
@@ -1626,7 +1626,7 @@ Ore entries for <ore:gearStone> :
     <ModularMachines:component.gears>
 Ore entries for <ore:gearGold> :
     <BuildCraft|Core:goldGearItem>
-    <ThermalFoundation:material:13>
+    <ThermalFoundation:material:13> (default)
 Ore entries for <ore:gearDiamond> :
     <BuildCraft|Core:diamondGearItem>
 Ore entries for <ore:chipsetRed> :
@@ -1780,25 +1780,25 @@ Ore entries for <ore:nuggetLumium> :
 Ore entries for <ore:nuggetEnderium> :
     <ThermalFoundation:material:108> (default)
 Ore entries for <ore:gearSilver> :
-    <ThermalFoundation:material:130>
+    <ThermalFoundation:material:130> (default)
 Ore entries for <ore:gearLead> :
-    <ThermalFoundation:material:131>
+    <ThermalFoundation:material:131> (default)
 Ore entries for <ore:gearNickel> :
-    <ThermalFoundation:material:132>
+    <ThermalFoundation:material:132> (default)
 Ore entries for <ore:gearPlatinum> :
-    <ThermalFoundation:material:133>
+    <ThermalFoundation:material:133> (default)
 Ore entries for <ore:gearMithril> :
-    <ThermalFoundation:material:134>
+    <ThermalFoundation:material:134> (default)
 Ore entries for <ore:gearElectrum> :
-    <ThermalFoundation:material:135>
+    <ThermalFoundation:material:135> (default)
 Ore entries for <ore:gearInvar> :
-    <ThermalFoundation:material:136>
+    <ThermalFoundation:material:136> (default)
 Ore entries for <ore:gearSignalum> :
-    <ThermalFoundation:material:138>
+    <ThermalFoundation:material:138> (default)
 Ore entries for <ore:gearLumium> :
-    <ThermalFoundation:material:139>
+    <ThermalFoundation:material:139> (default)
 Ore entries for <ore:gearEnderium> :
-    <ThermalFoundation:material:140>
+    <ThermalFoundation:material:140> (default)
 Ore entries for <ore:dustPyrotheum> :
     <ThermalFoundation:material:512>
     <bcadditions:dust:89> (default)
@@ -3103,9 +3103,9 @@ Ore entries for <ore:foodFlour> :
 Ore entries for <ore:foodSalt> :
     <harvestcraft:saltItem> (default)
 Ore entries for <ore:dustSalt> :
-    <harvestcraft:saltItem> (default)
+    <harvestcraft:saltItem>
 Ore entries for <ore:itemSalt> :
-    <harvestcraft:saltItem> (default)
+    <harvestcraft:saltItem>
 Ore entries for <ore:foodDough> :
     <harvestcraft:doughItem>
 Ore entries for <ore:foodButter> :
