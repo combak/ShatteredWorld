@@ -1,5 +1,10 @@
 # Changelog
 
+# Version 0.8.1
+
+**Mod Updates**
+- YADM 0.6.1-a50a3fb to 0.6.2-8045cc9
+
 # Version 0.8.0
 
 **Config Changes**
