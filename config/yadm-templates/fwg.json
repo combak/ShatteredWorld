@@ -15,7 +15,11 @@
         { "type": "worldType", "name": "FWG" },
         { "type": "generatorOptions", "value": "SKYDIM#1" },
         { "type": "seed", "value": 7308741327247404037 },
-        { "type": "worldGuard", "interactionAllowed": true }
+        { "type": "worldGuard", "interactionAllowed": true },
+        { "type": "border", "center":{ "x": 0, "z": 0 }, "radius": 45,  "actions":[
+            { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
+            { "type": "knockback", "multiplier": 0.1, "side":"all" }
+        ]}
       ]
     },
     {
