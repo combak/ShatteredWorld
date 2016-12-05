@@ -47,7 +47,10 @@ val oreDictRemoveCraftingBlocks = [
   <DraconicEvolution:draconium>,
   <ore:glowstone>,
   <ExtraUtilities:block_bedrockium>,
-  <ore:blockDraconiumAwakened>
+  <ore:blockDraconiumAwakened>,
+  <ore:blockHeeEndium>,
+  <ore:blockInfinity>,
+  <ore:blockCosmicNeutronium>
 ] as IIngredient[];
 
 ########################################################################################################################
@@ -78,8 +81,8 @@ val oreDictRemoveCraftingNuggets = [
   <ore:nuggetLumium>,
   <ore:nuggetEnderium>,
   <ore:nuggetSignalum>,
-  <ForbiddenMagic:FMResource:2>,			/* Manasteel */
-  <ForbiddenMagic:FMResource:4>,			/* Elementium */
+  <ore:nuggetManasteel>,
+  <ore:nuggetElvenElementium>,
   <ore:nuggetWroughtIron>,
   <ore:nuggetThaumium>,
   <ore:nuggetVoid>,
@@ -90,7 +93,10 @@ val oreDictRemoveCraftingNuggets = [
   <ore:nuggetTantalum>,
   <ore:nuggetNiobium>,
   <ore:nuggetTerrasteel>,
-  <ore:nuggetDraconiumAwakened>
+  <ore:nuggetDraconium>,
+  <ore:nuggetDraconiumAwakened>,
+  <Avaritia:Resource:2>,
+  <Avaritia:Resource:3>
 ] as IIngredient[];
 
 val oreDictRemoveCraftingIngots = [
@@ -136,7 +142,10 @@ val oreDictRemoveCraftingIngots = [
   <ore:ingotNiobium>,
   <ore:ingotDraconium>,
   <ExtraUtilities:bedrockiumIngot>,
-  <ore:ingotDraconiumAwakened>
+  <ore:ingotDraconiumAwakened>,
+  <ore:ingotHeeEndium>,
+  <ore:ingotInfinity>,
+  <ore:ingotCosmicNeutronium>
 ] as IIngredient[];
 
 val oreDictRemoveGears = [

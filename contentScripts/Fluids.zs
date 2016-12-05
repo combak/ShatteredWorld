@@ -28,3 +28,10 @@ mods.content.Fluid.registerFluid( "molten_fluxedelectrum", 2000, false, 5, 200, 
 # Thaumcraft 
 mods.content.Fluid.registerFluid( "molten_thaumium", 2000, false, 5, 200, 6000, 3914239, true, 50, "molten_thaumium_still", "molten_thaumium_flow" );
 mods.content.Fluid.registerFluid( "molten_voidmetal", 2000, false, 5, 200, 6000, 3914239, true, 50, "molten_voidmetal_still", "molten_voidmetal_flow" );
+
+# Hardcore Ender Expansion
+mods.content.Fluid.registerFluid( "molten_endium", 2000, false, 5, 200, 6000, 3914239, true, 50, "molten_endium_still", "molten_endium_flow" );
+
+# Avaritia
+mods.content.Fluid.registerFluid( "molten_neutronium", 2000, false, 5, 200, 6000, 3914239, true, 50, "molten_neutronium_still", "molten_neutronium_flow" );
+mods.content.Fluid.registerFluid( "molten_infinity", 2000, false, 5, 200, 6000, 3914239, true, 50, "molten_infinity_still", "molten_infinity_flow" );

@@ -7,13 +7,6 @@ import minetweaker.item.IItemStack;
 
 # Vanilla
 val vanillaIronBlock 	= <minecraft:iron_block>;
-val vanillaLapisOre	= <minecraft:lapis_ore>;
-val vanillaDiamondOre	= <minecraft:diamond_ore>;
-val vanillaGoldOre	= <minecraft:gold_ore>;
-val vanillaEmeraldOre	= <minecraft:emerald_ore>;
-val vanillaIronOre	= <minecraft:iron_ore>;
-val vanillaRedstoneOre	= <minecraft:redstone_ore>;
-val vanillaStone	= <minecraft:stone>;
 val vanillaOakLog	= <minecraft:log>;
 
 # BuildCraft
@@ -28,18 +21,7 @@ val buildCraftMiningWell	= <BuildCraft|Factory:miningWellBlock>;
 # Extra Utilities
 val extUtilObsiGlass	= <ExtraUtilities:decorativeBlock2:5>;
 
-# Thermal Foundation
-val thermFoundLeadOre		= <ThermalFoundation:Ore:3>;
-val thermFoundNickelOre		= <ThermalFoundation:Ore:4>;
-val thermFoundPlatinumOre	= <ThermalFoundation:Ore:5>;
-val thermFoundSilverOre		= <ThermalFoundation:Ore:2>;
-
-# Forestry
-val forestryCopperOre	= <Forestry:resources:1>;
-val forestryTinOre	= <Forestry:resources:2>;
-
 # Tinkers 
-val tConstructAluminumOre = <TConstruct:SearedBrick:5>;
 val tConstructGlassPane   = <TConstruct:GlassPane>;
 
 # EnderIO
@@ -61,11 +43,9 @@ val enderioSilicon		= <EnderIO:itemMaterial>;
 # Vanilla
 val vanillaGold			= <minecraft:gold_ingot>;
 val vanillaNetherstar		= <minecraft:nether_star>;
-val vanillaLapis		= <minecraft:dye:4>;
 val vanillaDiamond		= <minecraft:diamond>;
 val vanillaGoldIngot		= <minecraft:gold_ingot>;
 val vanillaEmerald		= <minecraft:emerald>;
-val vanillaIronIngot		= <minecraft:iron_ingot>;
 val vanillaRedstone		= <minecraft:redstone>;
 val vanillaEnderPearl		= <minecraft:ender_pearl>;
 val vanillaQuartz		= <minecraft:quartz>;
@@ -75,10 +55,6 @@ val vanillaPotionHealing	= <minecraft:potion:8229>;
 
 # Thermal Foundation
 val thermFoundEnderium		= <ThermalFoundation:material:76>;
-val thermFoundLeadIngot		= <ThermalFoundation:material:67>;
-val thermFoundNickelIngot	= <ThermalFoundation:material:68>;
-val thermFoundPlatinumIngot	= <ThermalFoundation:material:69>;
-val thermFoundSilverIngot	= <ThermalFoundation:material:66>;
 
 # BuildCraft
 val buildCraftRedstoneCrystal	= <BuildCraft|Silicon:redstoneCrystal>;
@@ -86,21 +62,11 @@ val buildCraftPipePowerIron	= <BuildCraft|Transport:item.buildcraftPipe.pipepowe
 val buildCraftPipePowerGold	= <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>;
 val buildCraftPipePowerDiamond	= <BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>;
 
-# BuildCraft Additions
-val bcAdditionPyrotheumDust	= <bcadditions:dust:89>;
-
 # Thermal Expansion
 val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
 
 # Draconic Evolution
 val dracEvoDraconiumIngot = <DraconicEvolution:draconiumIngot>;
-
-
-
-# Tinkers
-val tConstructCopperIngot	= <TConstruct:materials:9>;
-val tConstructTinIngot		= <TConstruct:materials:10>;
-val tConstructAluminumIngot	= <TConstruct:materials:11>;
 
 # Extra Utilities
 val extUtilBedrockiumIngot		= <ExtraUtilities:bedrockiumIngot>;
@@ -153,21 +119,6 @@ AssemblyTable.addRecipe( appEngInscriberSilicon, 50000, [ vanillaIronBlock, ende
 AssemblyTable.addRecipe( appEngInscriberLogic, 100000, [ vanillaIronBlock, enderioSilicon * 2, vanillaGold * 4 ] );
 AssemblyTable.addRecipe( appEngInscriberCalculation, 200000, [ vanillaIronBlock, buildCraftRedstoneCrystal * 2, thermFoundEnderium * 4 ] );
 AssemblyTable.addRecipe( appEngInscriberEnginering, 400000, [ vanillaIronBlock, vanillaNetherstar * 2, dracEvoDraconiumIngot * 4 ] );
-
-# Ore Block Recipe 
-AssemblyTable.addRecipe( vanillaLapisOre, 250000, [ vanillaLapis*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaDiamondOre, 250000, [ vanillaDiamond*64, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaGoldOre , 250000, [ vanillaGoldIngot*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaEmeraldOre , 250000, [ vanillaEmerald*64, bcAdditionPyrotheumDust*8,vanillaStone ] );
-AssemblyTable.addRecipe( vanillaIronOre, 250000, [ vanillaIronIngot, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( vanillaRedstoneOre, 250000, [ vanillaRedstone*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundLeadOre, 250000, [ thermFoundLeadIngot*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundNickelOre, 250000, [ thermFoundNickelIngot*128, bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundPlatinumOre, 250000, [ thermFoundPlatinumIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( thermFoundSilverOre, 250000, [ thermFoundSilverIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( forestryCopperOre, 250000, [ tConstructCopperIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( forestryTinOre, 250000, [ tConstructTinIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
-AssemblyTable.addRecipe( tConstructAluminumOre, 250000, [ tConstructAluminumIngot*128 , bcAdditionPyrotheumDust*8, vanillaStone ] );
 
 # QED Recipes
 AssemblyTable.addRecipe( extUtilRetrievalNodeItem, 100000, [ extUtilTransferNodeItem * 2 , vanillaEnderPearl * 2, vanillaEmerald ] );

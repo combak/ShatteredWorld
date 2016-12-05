@@ -276,9 +276,16 @@ val frArdite		= <liquid:ardite.molten>;
 val frDraconium		= <liquid:molten_draconium>;
 val frMushroom		= <liquid:fluidmushroom>;
 val frDarkSteel		= <liquid:molten_darksteel>;
-val frInvar             =  <liquid:invar.molten>;
-val frSteel             =  <liquid:steel.molten>;
+val frInvar             = <liquid:invar.molten>;
+val frSteel             = <liquid:steel.molten>;
 val frDraconiumAwakened = <liquid:molten_draconiumawakened>;
+val frEnergeticAlloy    = <liquid:molten_energeticalloy>;
+val frRedstoneAlloy     = <liquid:molten_redstonealloy>;
+val frConductiveIron    = <liquid:molten_conductiveiron>;
+val frSoularium         = <liquid:molten_soularium>;
+val frEndium            = <liquid:molten_endium>;
+val frInfinity          = <liquid:molten_infinity>;
+val frNeutronium        = <liquid:molten_neutronium>;
 
 ########################################################################################################################
 # (Mixed) Data Structures - Smeltery - Remove Table Recipe
@@ -322,6 +329,15 @@ val tConstructAddTableRecipes = [
   [ <DraconicEvolution:nugget>,				tConstructNuggetCast ],		/* 22 - Draconium Nugget */
   [ <DraconicEvolution:nugget:1>,			tConstructNuggetCast ],		/* 23 - Draconium Awakened Nugget */
   [ <DraconicEvolution:draconicIngot>,			tConstructIngotCast ],		/* 24 - Draconium Awakened Ingot */
+  [ <EnderIO:itemAlloy:1>,				tConstructIngotCast ],		/* 25 - Energetic Alloy Ingot */
+  [ <EnderIO:itemAlloy:3>,				tConstructIngotCast ],		/* 26 - Redstone Alloy Ingot */
+  [ <EnderIO:itemAlloy:4>,				tConstructIngotCast ],		/* 27 - Conductive Iron Ingot */
+  [ <EnderIO:itemAlloy:7>,				tConstructIngotCast ],		/* 28 - Soularium Ingot */
+  [ <Botania:manaResource:19>,				tConstructNuggetCast ],		/* 29 - Elementium Nugget */  
+  [ <HardcoreEnderExpansion:endium_ingot>,		tConstructIngotCast ],		/* 30 - Endium Ingot */
+  [ <Avaritia:Resource:6>,              		tConstructIngotCast ],		/* 31 - Infinity Ingot */
+  [ <Avaritia:Resource:3>,              		tConstructNuggetCast ],		/* 32 - Neutronium Nugget */
+  [ <Avaritia:Resource:4>,              		tConstructIngotCast ],		/* 33 - Neutronium Ingot */
 ] as IItemStack[][];
 
 # Fluid * mb
@@ -350,6 +366,15 @@ val tConstructAddTableRecipesFluid = [
   frDraconium * 16,									/* 22 - Draconium Ingot */
   frDraconiumAwakened * 16,	                                                	/* 23 - Draconium Awakened Nugget */
   frDraconiumAwakened * 144,	                                                   	/* 24 - Draconium Awakened Ingot */
+  frEnergeticAlloy * 144,                                                               /* 25 - Energetic Alloy Ingot */
+  frRedstoneAlloy * 144,                                                                /* 26 - Redstone Alloy Ingot */
+  frConductiveIron * 144,                                                               /* 27 - Conductive Iron Ingot */
+  frSoularium * 144,                                                                    /* 28 - Soularium Ingot */
+  frElementium * 16,									/* 29 - Elementium Nugget */
+  frEndium * 144,                                                                       /* 30 - Endium Ingot */
+  frInfinity * 144,                                                                     /* 31 - Infinity Ingot */
+  frNeutronium * 16,                                                                    /* 32 - Neutronium Nugget */
+  frNeutronium * 144,                                                                   /* 33 - Neutronium Ingot */
 ] as ILiquidStack[];
 
 ########################################################################################################################
@@ -376,7 +401,14 @@ val tConstructAddBasinRecipes = [
   <WitchingGadgets:WG_MetalDevice:7>,		/* 11 - Void Metal Block */
   <DraconicEvolution:draconium>,		/* 12 - Draconium Block */	
   <EnderIO:blockIngotStorage:6>,		/* 13 - Dark Steel Block */
-  <DraconicEvolution:draconicBlock>,            /* 14 - Draconium Awakened */     
+  <DraconicEvolution:draconicBlock>,            /* 14 - Draconium Awakened Block */    
+  <EnderIO:blockIngotStorage:1>,                /* 15 - Energetic Alloy Block */
+  <EnderIO:blockIngotStorage:3>,                /* 16 - Redstone Alloy Block */
+  <EnderIO:blockIngotStorage:4>,                /* 17 - Conductive Iron Block */
+  <EnderIO:blockIngotStorage:7>,                /* 18 - Soularium Block */
+  <HardcoreEnderExpansion:endium_block>,        /* 19 - Endium Block */
+  <Avaritia:Resource_Block:1>,                  /* 20 - Infinity Block */
+  <Avaritia:Resource_Block>,                    /* 21 - Neutronium Block */
 ] as IItemStack[];
 
 val tConstructAddBasinPlateRecipes = [
@@ -404,8 +436,14 @@ val tConstructAddTableBasinFluid = [
   frVoidMetal * 1296,				/* 11 - Void Metal Block */
   frDraconium * 1296,				/* 12 - Draconium Block */
   frDarkSteel * 1296,				/* 13 - Dark Steel Block*/
-  frDraconiumAwakened * 1296,                 	/* 34 - Draconium Awakened Ingot */ 
- 
+  frDraconiumAwakened * 1296,                 	/* 14 - Draconium Awakened Block */ 
+  frEnergeticAlloy * 1296,                      /* 15 - Energetic Alloy Block*/
+  frRedstoneAlloy * 1296,                       /* 16 - Redstone Alloy Block*/
+  frConductiveIron * 1296,                      /* 17 - Conductive Iron Block*/
+  frSoularium * 1296,                           /* 18 - Soularium Block */
+  frEndium * 1296,                              /* 19 - Endium Block */
+  frInfinity * 1296,                            /* 20 - Infinity Block */
+  frNeutronium * 1296,                          /* 21 - Neutronium Block */
 ] as ILiquidStack[];
 
 val tconstructAddPlateFluid = [

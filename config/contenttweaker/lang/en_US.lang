@@ -52,3 +52,14 @@ fluid.molten_draconiumawakened=Molten Awakened Draconium
 
 #Pile of Wood Logs
 item.pileOfWoodLogs.name=Pile of Wood Logs
+
+# Hardcore Ender Expansion
+tile.molten_endium.name=Molten Endium
+fluid.molten_endium=Molten Endium
+
+# Avaritia
+tile.molten_neutronium.name=Molten Neutronium
+tile.molten_infinity.name=Molten Infinity Alloy
+
+fluid.molten_neutronium=Molten Neutronium
+fluid.molten_infinity=Molten Infinity Alloy

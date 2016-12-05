@@ -1,3 +1,4 @@
+import mods.nei.NEI;
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -24,3 +25,10 @@ recipes.remove( projredSilicon );
 # Red & glowing silicon compound
 recipes.addShaped( projredRedSiliconCompound, [ [ vanillaRedstone, vanillaRedstone, vanillaRedstone ], [ vanillaRedstone, enderioSilicon, vanillaRedstone ], [ vanillaRedstone, vanillaRedstone, vanillaRedstone ] ] );
 recipes.addShaped( projredGlowingSiliconCompound, [ [ vanillaGlowstone, vanillaGlowstone, vanillaGlowstone ], [ vanillaGlowstone, enderioSilicon, vanillaGlowstone ], [ vanillaGlowstone, vanillaGlowstone, vanillaGlowstone ] ] );
+
+##################################################################################################################
+# NEI 
+##################################################################################################################
+
+# ModularMachines hide not required items
+NEI.hide( <ProjRed|Core:projectred.core.part:10> );

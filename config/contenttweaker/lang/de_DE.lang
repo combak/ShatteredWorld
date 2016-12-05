@@ -52,3 +52,15 @@ fluid.molten_draconiumawakened=Geschmolzenes erwachtes drakonisches Metall
 
 #Pile of Wood Logs
 item.pileOfWoodLogs.name=Gestapelte Baumstämme
+
+
+# Hardcore Ender Expansion
+tile.molten_endium.name=Geschmolzenes Endium
+fluid.molten_endium=Geschmolzenes Endium
+
+# Avaritia
+tile.molten_neutronium.name=Geschmolzenes Neutronium
+tile.molten_infinity.name=Geschmolzene Infinity Legierung
+
+fluid.molten_neutronium=Geschmolzenes Neutronium
+fluid.molten_infinity=Geschmolzene Infinity Legierung

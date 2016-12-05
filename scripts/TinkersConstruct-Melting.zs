@@ -72,6 +72,7 @@ val tConstructAddSmelteryMelting = [
     <ore:nuggetVoid>,                                               /* 10 - Void Metal */
     <ore:nuggetDraconium>,                                          /* 11 - Draconium */
     <ore:nuggetDraconiumAwakened>,                                  /* 12 - Awakened Draconium */
+    <Avaritia:Resource:3>,                                          /* 13 - Neutronium */
     
     /**********************************************************************
      * Ingot
@@ -89,6 +90,13 @@ val tConstructAddSmelteryMelting = [
     <ore:ingotDraconium>,                                          /* 11 - Draconium */
     <ore:ingotDarkSteel>,                                          /* 12 - Dark Steel */
     <ore:ingotDraconiumAwakened>,                                  /* 13 - Awakened Draconium */
+    <ore:ingotEnergeticAlloy>,                                     /* 14 - Energetic Alloy */ 
+    <ore:ingotRedstoneAlloy>,                                      /* 15 - Redstone Alloy */
+    <ore:ingotConductiveIron>,                                     /* 16 - Conductive Iron */
+    <ore:ingotSoularium>,                                          /* 17 - Soularium */
+    <ore:ingotHeeEndium>,                                          /* 18 - Endium */
+    <ore:ingotInfinity>,                                           /* 19 - Infinity */
+    <ore:ingotCosmicNeutronium>,                                   /* 20 - Neutronium */
     
     /**********************************************************************
      * Block
@@ -107,11 +115,19 @@ val tConstructAddSmelteryMelting = [
     <ore:blockDarkSteel>,                                          /* 12 - Dark Steel */
     <ore:blockRedstone>,                                           /* 13 - Redstone */
     <ore:blockDraconiumAwakened>,                                  /* 14 - Awakened Draconium */
+    <ore:blockEnergeticAlloy>,                                     /* 15 - Energetic Alloy */ 
+    <ore:blockRedstoneAlloy>,                                      /* 16 - Redstone Alloy */
+    <ore:blockConductiveIron>,                                     /* 17 - Conductive Iron */
+    <ore:blockSoularium>,                                          /* 18 - Soularium */
+    <ore:blockHeeEndium>,                                          /* 19 - Endium */
+    <ore:blockInfinity>,                                           /* 20 - Infinity */
+    <ore:blockCosmicNeutronium>,                                   /* 21 - Neutronium */
     
     /**********************************************************************
      * Other
      **********************************************************************/     
-     
+    <Avaritia:Resource:2>,                                          /*  1 - Pile of Neutrons */
+    
 ] as IIngredient[];
 
 val tConstructAddSmelteryMeltingTexture = [
@@ -167,7 +183,8 @@ val tConstructAddSmelteryMeltingTexture = [
     <WitchingGadgets:WG_MetalDevice:7>,                             /* 10 - Void Metal */
     <DraconicEvolution:draconium>,                                  /* 11 - Draconium */
     <DraconicEvolution:draconicBlock>,                              /* 12 - Awakened Draconium */
-
+    <Avaritia:Resource_Block>,                                      /* 13 - Neutronium */
+    
     /**********************************************************************
      * Ingot
      **********************************************************************/
@@ -184,6 +201,13 @@ val tConstructAddSmelteryMeltingTexture = [
     <DraconicEvolution:draconium>,                                  /* 11 - Draconium */
     <EnderIO:blockIngotStorage:6>,                                  /* 12 - Dark Steel */
     <DraconicEvolution:draconicBlock>,                              /* 13 - Awakened Draconium */
+    <EnderIO:blockIngotStorage:1>,                                  /* 14 - Energetic Alloy */
+    <EnderIO:blockIngotStorage:3>,                                  /* 15 - Redstone Alloy */
+    <EnderIO:blockIngotStorage:4>,                                  /* 16 - Conductive Iron */
+    <EnderIO:blockIngotStorage:7>,                                  /* 17 - Soularium */
+    <HardcoreEnderExpansion:endium_block>,                          /* 18 - Endium */
+    <Avaritia:Resource_Block:1>,                                    /* 19 - Infinity */
+    <Avaritia:Resource_Block>,                                      /* 20 - Neutronium */
     
     /**********************************************************************
      * Block
@@ -202,10 +226,18 @@ val tConstructAddSmelteryMeltingTexture = [
     <EnderIO:blockIngotStorage:6>,                                  /* 12 - Dark Steel */
     <minecraft:redstone_block>,                                     /* 13 - Redstone */
     <DraconicEvolution:draconicBlock>,                              /* 14 - Awakened Draconium */
+    <EnderIO:blockIngotStorage:1>,                                  /* 15 - Energetic Alloy */
+    <EnderIO:blockIngotStorage:3>,                                  /* 16 - Redstone Alloy */
+    <EnderIO:blockIngotStorage:4>,                                  /* 17 - Conductive Iron */
+    <EnderIO:blockIngotStorage:7>,                                  /* 18 - Soularium */
+    <HardcoreEnderExpansion:endium_block>,                          /* 19 - Endium */
+    <Avaritia:Resource_Block:1>,                                    /* 20 - Infinity */
+    <Avaritia:Resource_Block>,                                      /* 21 - Neutronium */
     
     /**********************************************************************
      * Other
      **********************************************************************/     
+    <Avaritia:Resource_Block>,                                      /*  1 - Pile of Neutrons */
 ] as IItemStack[];
 
 val tConstructAddSmelteryMeltingTemp = [
@@ -235,14 +267,14 @@ val tConstructAddSmelteryMeltingTemp = [
     400,                                                            /* 20 - Signalum */
     950,                                                            /* 21 - Enderium */
     350,                                                            /* 22 - Invar */
-    500,                                                            /* 23 - Electrical Steel */
-    500,                                                            /* 24 - Energetic Alloy */
-    500,                                                            /* 25 - Vibrant Alloy */
-    500,                                                            /* 26 - Redstone Alloy */
-    500,                                                            /* 27 - Conductive Iron */
+    600,                                                            /* 23 - Electrical Steel */
+    800,                                                            /* 24 - Energetic Alloy */
+    2100,                                                           /* 25 - Vibrant Alloy */
+    400,                                                            /* 26 - Redstone Alloy */
+    600,                                                            /* 27 - Conductive Iron */
     500,                                                            /* 28 - Pulsating Iron */
     500,                                                            /* 29 - Dark Steel */
-    500,                                                            /* 30 - Soularium */
+    2100,                                                           /* 30 - Soularium */
     1300,                                                           /* 31 - Redstone */
     4000,                                                           /* 32 - Draconium */
     
@@ -261,6 +293,7 @@ val tConstructAddSmelteryMeltingTemp = [
     2100,                                                           /* 10 - Void Metal */
     4000,                                                           /* 11 - Draconium */
     4000,                                                           /* 12 - Awakened Draconium */
+    4000,                                                           /* 13 - Neutronium */
     
     /**********************************************************************
      * Ingot
@@ -278,6 +311,13 @@ val tConstructAddSmelteryMeltingTemp = [
     4000,                                                           /* 11 - Draconium */
     4000,                                                           /* 12 - Dark Steel */
     4000,                                                           /* 13 - Awakened Draconium */
+    800,                                                            /* 14 - Energetic Alloy */
+    400,                                                            /* 15 - Redstone Alloy */
+    600,                                                            /* 16 - Conductive Iron */
+    2100,                                                           /* 17 - Soularium */
+    2100,                                                           /* 18 - Endium */
+    4000,                                                           /* 19 - Infinity */
+    4000,                                                           /* 20 - Neutronium */
     
     /**********************************************************************
      * Block
@@ -296,10 +336,18 @@ val tConstructAddSmelteryMeltingTemp = [
     4000,                                                           /* 12 - Dark Steel */
     1300,                                                           /* 13 - Redstone */
     4000,                                                           /* 14 - Awakened Draconium */
+    800,                                                            /* 15 - Energetic Alloy */
+    400,                                                            /* 16 - Redstone Alloy */
+    600,                                                            /* 17 - Conductive Iron */
+    2100,                                                           /* 18 - Soularium */
+    2100,                                                           /* 19 - Endium */
+    4000,                                                           /* 20 - Infinity */
+    4000,                                                           /* 21 - Neutronium */
     
     /**********************************************************************
      * Other
      **********************************************************************/     
+    4000,                                                           /*  1 - Pile of Neutrons */
 ] as int[];
 
 val tConstructAddSmelteryMeltingFluid = [
@@ -355,6 +403,7 @@ val tConstructAddSmelteryMeltingFluid = [
     <liquid:molten_voidmetal> * 16,                                 /* 10 - Void Metal */
     <liquid:molten_draconium> * 16,                                 /* 11 - Draconium */
     <liquid:molten_draconiumawakened> * 16,                         /* 12 - Awakened Draconium */
+    <liquid:molten_neutronium> * 16,                                /* 13 - Neutronium */
     
     /**********************************************************************
      * Ingot
@@ -372,6 +421,13 @@ val tConstructAddSmelteryMeltingFluid = [
     <liquid:molten_draconium> * 144,                                /* 11 - Draconium */
     <liquid:molten_darksteel> * 144,                                /* 12 - Dark Steel */
     <liquid:molten_draconiumawakened> * 144,                        /* 13 - Awakened Draconium */
+    <liquid:molten_energeticalloy> * 144,                           /* 14 - Energetic Alloy */
+    <liquid:molten_redstonealloy> * 144,                            /* 15 - Redstone Alloy */
+    <liquid:molten_conductiveiron> * 144,                           /* 16 - Conductive Iron */
+    <liquid:molten_soularium> * 144,                                /* 17 - Soularium */
+    <liquid:molten_endium> * 144,                                   /* 18 - Endium */
+    <liquid:molten_infinity> * 144,                                 /* 19 - Infinity */
+    <liquid:molten_neutronium> * 144,                               /* 20 - Neutronium */
     
     /**********************************************************************
      * Block
@@ -390,12 +446,19 @@ val tConstructAddSmelteryMeltingFluid = [
     <liquid:molten_darksteel> * 1296,                               /* 12 - Dark Steel */
     <liquid:redstone> * 900,                                        /* 13 - Redstone */
     <liquid:molten_draconiumawakened> * 1296,                       /* 14 - Awakened Draconium */
+    <liquid:molten_energeticalloy> * 1296,                          /* 15 - Energetic Alloy */
+    <liquid:molten_redstonealloy> * 1296,                           /* 16 - Redstone Alloy */
+    <liquid:molten_conductiveiron> * 1296,                          /* 17 - Conductive Iron */
+    <liquid:molten_soularium> * 1296,                               /* 18 - Soularium */
+    <liquid:molten_endium> * 1296,                                  /* 19 - Endium */
+    <liquid:molten_infinity> * 1296,                                /* 20 - Infinity */
+    <liquid:molten_neutronium> * 1296,                              /* 21 - Neutronium */
     
     /**********************************************************************
      * Other
      **********************************************************************/     
+    <liquid:molten_neutronium> * 2,                                 /*  1 - Pile of Neutrons */
 ] as ILiquidStack[];
-
 
 for entry in tConstructRemoveSmelteryMelting
 {
