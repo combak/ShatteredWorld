@@ -1,6 +1,20 @@
 # Changelog
 
-# Version 0.7.5
+# Version 0.8.0
+
+**Config Changes**
+- Finished Questbook
+- Finished Ore Processing
+- Some balancing
+
+**Mod Additions**
+- UniDict 2.9.2
+
+**Mod Updates**
+- YADM 0.5.0-3db8cb0 to 0.6.1-a50a3fb
+
+**Mod Removed**
+- AMTweaker
 
 # Version 0.7.4
 

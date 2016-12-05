@@ -1,6 +1,6 @@
 # Used Mods, their Licences and Permissions
 
-[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#l), [M](#m), [N](#n), [O](#o), [P](#p), Q, [R](#r), [S](#s), [T](#t), U, [V](#v), [W](#w), X, Y, Z
+[A](#a), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), K, [L](#l), [M](#m), [N](#n), [O](#o), [P](#p), Q, [R](#r), [S](#s), [T](#t), [U](#u), [V](#v), [W](#w), X, Y, Z
 
 
 ## A
@@ -25,13 +25,6 @@
 - Authors: InfinityRaider, nimODota
 - Files: http://minecraft.curseforge.com/mc-mods/225635-agricraft/files
 - Licence: https://github.com/InfinityRaider/AgriCraft/blob/master/LICENSE
-
-**AMTweaker**
-> The MIT License (MIT)
-
-- Author: Belgabor
-- Files: https://minecraft.curseforge.com/projects/amtweaker/files
-- Licence: https://github.com/Belgabor/AMTweaker/blob/master/LICENSE
 
 **Animation API**
 > GNU Affero General Public License
@@ -734,6 +727,15 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 - Required for: Waila Plugins
 - Files: http://minecraft.curseforge.com/mc-mods/226082-ttcore/files
 - Licence: https://github.com/tterrag1098/ttCore/blob/master/LICENSE
+
+## U
+
+**UniDict*
+> Mozilla Public License 2.0
+
+- Author: WanionCane
+- Files: https://minecraft.curseforge.com/projects/unidict/files
+- Licence: https://github.com/WanionCane/UniDict/blob/1.10.2/LICENSE
 
 ## V
 

@@ -4,7 +4,6 @@
 ## mods
 - ae2stuff-1.7.10-0.5.0.56.jar
 - agricraft-1.7.10-1.5.0.jar
-- amtweaker-1.7.10-1.0.jar
 - animationapi-1.7.10-1.2.4.jar
 - applecore-1.7.10-1.3.0.jar
 - applemilktea2-1.7.10_2.9m.jar
@@ -103,10 +102,11 @@
 - travellersgear-1.7.10-1.16.6.jar
 - tsteelworks-1.7.10-1.1.2-20.jar
 - ttcore-1.7.10-0.1.0-67.jar
-- veinminer-0.34.1-1.7.10r473+4d066f1.jar
+- UniDict-1.7.10-2.9.2.jar
+- veinminer-1.7.10-0.34.1r473+4d066f1.jar
 - waila-1.7.10-1.5.10.jar
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.5.0-3db8cb0.jar
+- yadm-1.7.10-0.6.1-a50a3fb.jar
 - zz-backpacks-1.7.10-3.0.8.jar

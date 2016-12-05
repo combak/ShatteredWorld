@@ -31,5 +31,6 @@ This Modpack is made from the community for the community!
 - Grambosch
 - Hellamie
 - Krakel / Grayal
+- Krushak / Unrat81
 - Nedelosk / Alheimerjung
-
+- Zeraphina / Meckerkopf
