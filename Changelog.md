@@ -1,5 +1,11 @@
 # Changelog
 
+# Version 0.8.2
+
+**Mod Updates**
+- Forest Mods 0.4.10-beta to 0.4.11-beta
+- YADM 0.6.2-8045cc9 to 0.6.3-4dc3c96
+
 # Version 0.8.1
 
 **Mod Updates**

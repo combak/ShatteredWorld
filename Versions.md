@@ -43,7 +43,7 @@
 - fastcraft-1.7.10-1.23.jar
 - fluxed-core-1.7.10-1.0.6.jar
 - forbidden-magic-1.7.10-0.573.jar
-- forest-mods-1.7.10-0.4.10-beta.jar
+- forest-mods-1.7.10-0.4.11-beta.jar
 - forestry-1.7.10-4.2.5.53.jar
 - fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
@@ -108,5 +108,5 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.6.2-8045cc9.jar
+- yadm-1.7.10-0.6.3-4dc3c96.jar
 - zz-backpacks-1.7.10-3.0.8.jar
