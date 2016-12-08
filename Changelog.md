@@ -1,5 +1,15 @@
 # Changelog
 
+# Version 0.8.3
+
+**Config Changes**
+- Questbook fixes
+- Prevent using Quantum Chest and Restorer Backpack
+
+**Mod Updates**
+- Forest Mods 0.4.11-beta to 0.4.13-beta
+- YADM 0.6.3-4dc3c96 to 0.6.5-ece6828
+
 # Version 0.8.2
 
 **Mod Updates**
