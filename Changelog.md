@@ -1,5 +1,10 @@
 # Changelog
 
+# Version 0.8.4
+
+**Config Changes**
+- Restore custom AlloySmelter recipes
+
 # Version 0.8.3
 
 **Config Changes**
