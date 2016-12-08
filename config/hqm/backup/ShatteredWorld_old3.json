@@ -9397,7 +9397,7 @@
               "id": "task000",
               "type": "DETECT",
               "name": "Detection Task",
-              "description": "Man sollte beachten, das gleiche Blumen nicht zu nah beieinander platziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden.",
+              "description": "Man sollte beachten, das gleiche Blumen nicht zu nah beieinander platziert werden duerfen. Aber die Dayblooms und Nightshades koennen problemlos gemischt werden. Uebrigens mit Overgrowth Seeds, die ihr aber nur in Dungeon Kisten findet, koennt ihr verhindern das diese Blumen verbluehen. ",
               "requirements": [
                 {
                   "item": "Botania:specialFlower size(1) dmg(0)",

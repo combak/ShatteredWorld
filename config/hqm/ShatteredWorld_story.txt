@@ -105,7 +105,7 @@ Task_2: Detection Task
 1.16: Toepfern ist so schoen
 	Wir brauchen nur noch Wasser und etwas mit dem wir Wasser von Punkt A zu Punkt B tragen koennen. 
 Task_1: Crafting Task
-	Das Barrel kann fuer verschiedene Dinge verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren.
+	Das Barrel kann fuer verschiedene Dinge verwendet werden. Wenn diese unter freiem Himmel steht und es regnet, dann fuellt sie sich langsam mit Wasser. Man kann sie auch mit einem Eimer befuellen und leeren. Fuer unsere Anfaenger. Dieses Teil wird aus 6 Holzbloecken mit einer Holzplatte, angeordnet in U-Form, hergestellt.
 Task_2: Detection Task
 	Wenn das Barrel mit Wasser gefuellt ist, kann man Staub darin einweichen. Heraus kommt nach kurzer Zeit Lehm (clay). Aus dem Lehm stellt man den Eimer her. Dieser muss nur noch im Ofen gebrannt werden.
 
@@ -177,8 +177,10 @@ Task_2: Detection Task
 
 1.29: Der rauchende Berg
 	Fuer eine erste einfache Energieproduktion braucht man auch einen einfachen Brennstoff. Dieser basiert zwar auf nachwachsenden Rohstoffen, produziert aber auch jede Menge Schadstoffen. Man muss halt Kompromisse machen.
-Task_1: Detection Task
-	Ordne 18 Holzbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einer Fackel an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt.
+Task_1: Crafting Task
+	Mit einfachen Holz kommst du hier nicht weiter. Du musst schon etwas mehr Aufwand betreiben. Die Holzkohle braucht diese Kiln Bloecke!
+Task_2: Detection Task
+	Ordne 18 Kilnbloecke in einem 3x3x2 Stapel an und zuende den oberen mittleren Holzblock mit einer Fackel an. Nach einiger Zeit ist der Holzstapel in Holzkohle umgewandelt.
 
 1.30: Der Holzschutz
 	Mit einer Freizeitkleidung in dieser Umgebung zu ueberleben ist sicher keine gute Idee. Ein bisschen Ruestung kann nicht schaden.

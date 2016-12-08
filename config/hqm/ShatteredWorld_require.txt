@@ -84,6 +84,7 @@
   1 x Certus Quartz Seed
   1 x Cerublossom
   1 x Charcoal, dmg=1
+  1 x Charcoal Kiln, nbt{WoodType:"birch"}
   1 x Charger
   1 x Charger Block
   1 x Charm of Dislocation
