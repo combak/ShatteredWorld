@@ -158,5 +158,7 @@ for i, flower in flowerSeeds
 for i, seed in ressourceseeds 
 {
   Soil.set(seed, gardStuffTilledSoil);
+  BaseBlock.clear(seed);
+  BaseBlock.set(seed, ForblockApatite, 1);
 }
 
