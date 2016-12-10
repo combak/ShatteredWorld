@@ -6328,7 +6328,8 @@
             "quest097"
           ],
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 72
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13211,7 +13212,8 @@
           "y": 110,
           "icon": "arcticmobs:arcticegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13269,7 +13271,8 @@
           "y": 110,
           "icon": "arcticmobs:arcticegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13327,7 +13330,8 @@
           "y": 110,
           "icon": "arcticmobs:frostboltscepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13379,7 +13383,8 @@
           "y": 90,
           "icon": "demonmobs:demonegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13445,7 +13450,8 @@
           "y": 75,
           "icon": "demonmobs:demonegg size(1) dmg(4)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13503,7 +13509,8 @@
           "y": 60,
           "icon": "demonmobs:doomfirescepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13550,7 +13557,8 @@
           "y": 70,
           "icon": "desertmobs:desertegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13616,7 +13624,8 @@
           "y": 50,
           "icon": "desertmobs:desertegg size(1) dmg(4)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13674,7 +13683,8 @@
           "y": 30,
           "icon": "desertmobs:scythescepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13711,7 +13721,8 @@
           "y": 70,
           "icon": "forestmobs:forestegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13769,7 +13780,8 @@
           "y": 45,
           "icon": "forestmobs:forestegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13827,7 +13839,8 @@
           "y": 20,
           "icon": "forestmobs:lifedrainscepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13859,7 +13872,8 @@
           "y": 150,
           "icon": "freshwatermobs:freshwateregg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13925,7 +13939,8 @@
           "y": 170,
           "icon": "freshwatermobs:aquapulsescepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -13957,7 +13972,8 @@
           "y": 90,
           "icon": "infernomobs:infernoegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14015,7 +14031,8 @@
           "y": 75,
           "icon": "infernomobs:infernoegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14065,7 +14082,8 @@
           "y": 60,
           "icon": "infernomobs:magmascepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14107,7 +14125,8 @@
           "y": 110,
           "icon": "junglemobs:jungleegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14165,7 +14184,8 @@
           "y": 110,
           "icon": "junglemobs:jungleegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14223,7 +14243,8 @@
           "y": 110,
           "icon": "junglemobs:poopscepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14255,7 +14276,8 @@
           "y": 130,
           "icon": "mountainmobs:mountainegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14313,7 +14335,8 @@
           "y": 145,
           "icon": "mountainmobs:mountainegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14371,7 +14394,8 @@
           "y": 160,
           "icon": "mountainmobs:boulderblastscepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14408,7 +14432,8 @@
           "y": 150,
           "icon": "plainsmobs:plainsegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14466,7 +14491,8 @@
           "y": 170,
           "icon": "plainsmobs:plainsegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14516,7 +14542,8 @@
           "y": 150,
           "icon": "saltwatermobs:saltwateregg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14574,7 +14601,8 @@
           "y": 175,
           "icon": "saltwatermobs:saltwateregg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14624,7 +14652,8 @@
           "y": 70,
           "icon": "shadowmobs:shadowegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14682,7 +14711,8 @@
           "y": 50,
           "icon": "shadowmobs:shadowegg size(1) dmg(3)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14740,7 +14770,8 @@
           "y": 30,
           "icon": "shadowmobs:spectralboltscepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14777,7 +14808,8 @@
           "y": 130,
           "icon": "swampmobs:swampegg size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14843,7 +14875,8 @@
           "y": 145,
           "icon": "swampmobs:swampegg size(1) dmg(4)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -14901,7 +14934,8 @@
           "y": 160,
           "icon": "swampmobs:poisonrayscepter size(1) dmg(0)",
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 24
           },
           "triggerType": "NONE",
           "triggerTasks": 0,

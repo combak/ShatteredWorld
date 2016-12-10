@@ -1397,7 +1397,7 @@
             }
           ],
           "reward": [
-            "TConstruct:heartCanister size(1) dmg(2)",
+            "Botania:overgrowthSeed size(4) dmg(0)",
             "minecraft:diamond size(8) dmg(0)"
           ],
           "reputations": [
