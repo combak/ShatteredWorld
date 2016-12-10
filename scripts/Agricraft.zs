@@ -14,6 +14,8 @@ import mods.agricraft.growing.Brightness;
 val gardStuffTilledSoil	= <GardenCore:garden_farmland>;
 val gardStuffSoil	= <GardenCore:garden_soil>;
 
+val odBlockApatite          = <ore:blockApatite>;
+
 ########################################################################################################################
 # Items
 ########################################################################################################################
@@ -157,8 +159,8 @@ for i, flower in flowerSeeds
 }
 for i, seed in ressourceseeds 
 {
-  Soil.set(seed, gardStuffTilledSoil);
-  BaseBlock.clear(seed);
-  BaseBlock.set(seed, ForblockApatite, 1);
+  Soil.set( seed, gardStuffTilledSoil );
+  BaseBlock.clear( seed );
+  BaseBlock.set( seed, odBlockApatite, 1 );
 }
 
