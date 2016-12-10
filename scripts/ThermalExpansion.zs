@@ -76,12 +76,6 @@ val appEngProcessorLogic        = <appliedenergistics2:item.ItemMultiMaterial:22
 # Draconic Evolution
 val dracoEvoCoreBasic           = <DraconicEvolution:draconicCore>;
 
-# Thermal Foundation
-val thermFoundGearSilver	= <ThermalFoundation:material:130>;
-val thermFoundGearInvar		= <ThermalFoundation:material:136>;
-val thermFoundGearFerrous	= <ThermalFoundation:material:132>;
-val thermFoundGearElectrum	= <ThermalFoundation:material:135>;
-
 # Project Red
 val projectRedConductivePlate       = <ProjRed|Core:projectred.core.part:1>;
 
@@ -93,7 +87,6 @@ val thermExpAugmentFrame        = <ThermalExpansion:augment:16>;
 val thermExpServo               = <ThermalExpansion:material>;
 
 # BuildCraft
-val buildcraftGearGold              = <BuildCraft|Core:goldGearItem>;
 val buildCraftChipRedstone      = <BuildCraft|Silicon:redstoneChipset>;
 val buildCraftChipGold          = <BuildCraft|Silicon:redstoneChipset:2>;
 val buildCraftChipDiamond       = <BuildCraft|Silicon:redstoneChipset:3>;
@@ -105,6 +98,12 @@ val bcAdditionsCoilLava		= <bcadditions:blockCoilLava>;
 val advGenePowerIO                  = <advgenerators:PowerIO>;
 val advGeneControlCircuit       = <advgenerators:Controller>;
 val advGeneFrameIron		    = <advgenerators:IronFrame>;
+
+val odGearSilver    = <ore:gearSilver>;
+val odGearInvar     = <ore:gearInvar>;
+val odGearNickel    = <ore:gearNickel>;
+val odGearElectrum  = <ore:gearElectrum>;
+val odGearGold      = <ore:gearGold>;
 
 ########################################################################################################################
 # Ore Dictionary
@@ -266,31 +265,31 @@ recipes.remove(thermExpDynamoCompression);
 recipes.addShaped
                  (thermExpDynamoCompression,[
 				    [null, advGenePowerIO , null],
-					[buildcraftGearGold, bcAdditionCoilLava, buildcraftGearGold], 
+					[odGearGold, bcAdditionCoilLava, odGearGold], 
 					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 recipes.remove(thermExpDynamoSteam);
 recipes.addShaped
                  (thermExpDynamoSteam,[
 				    [null, advGenePowerIO , null],
-					[thermFoundGearSilver, bcAdditionCoilLava, thermFoundGearSilver], 
+					[odGearSilver, bcAdditionCoilLava, odGearSilver], 
 					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 recipes.remove(thermExpDynamoReactant);
 recipes.addShaped
                  (thermExpDynamoReactant,[
 				    [null, advGenePowerIO , null],
-					[thermFoundGearFerrous, bcAdditionCoilLava, thermFoundGearFerrous], 
+					[odGearNickel, bcAdditionCoilLava, odGearNickel], 
 					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 recipes.remove(thermExpDynamoEnervation);
 recipes.addShaped
                  (thermExpDynamoEnervation,[
 				    [null, advGenePowerIO , null],
-					[thermFoundGearElectrum, bcAdditionCoilLava, thermFoundGearElectrum], 
+					[odGearElectrum, bcAdditionCoilLava, odGearElectrum], 
 					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 recipes.remove(thermExpDynamoMagmatic);
 recipes.addShaped
                  (thermExpDynamoMagmatic,[
 				    [null, advGenePowerIO , null],
-					[thermFoundGearInvar, bcAdditionCoilLava, thermFoundGearInvar], 
+					[odGearInvar, bcAdditionCoilLava, odGearInvar], 
 					[projectRedConductivePlate, thermExpFrameBasic, projectRedConductivePlate]]);
 					
 # Machines
