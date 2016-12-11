@@ -3270,7 +3270,15 @@
                   "item": "DCsAppleMilk:defeatedcrow.evaporator size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
-                },
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jetzt kann die Brauerei richtig losgehen.",
+              "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.yeast size(1) dmg(0)",
                   "required": 1,
@@ -3316,11 +3324,19 @@
                   "item": "DCsAppleMilk:defeatedcrow.basket size(1) dmg(14)",
                   "required": 1,
                   "precision": "FUZZY"
-                },
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jetzt kann die Party abgehen. Der Fusel ist schon da.",
+              "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.itemBottle size(1) dmg(55)",
                   "required": 1,
-                  "precision": "FUZZY"
+                  "precision": "PRECISE"
                 }
               ]
             }
@@ -4010,7 +4026,7 @@
                 {
                   "item": "EnderIO:itemSoulVessel size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "NBT_FUZZY"
                 }
               ]
             },
@@ -4112,22 +4128,22 @@
                 {
                   "item": "RedstoneArsenal:armor.helmetFlux size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "NBT_FUZZY"
                 },
                 {
                   "item": "RedstoneArsenal:armor.plateFlux size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "NBT_FUZZY"
                 },
                 {
                   "item": "RedstoneArsenal:armor.legsFlux size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "NBT_FUZZY"
                 },
                 {
                   "item": "RedstoneArsenal:armor.bootsFlux size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "NBT_FUZZY"
                 }
               ]
             }
@@ -5669,7 +5685,7 @@
         },
         {
           "id": "quest089",
-          "name": "Der Mikrokomputer",
+          "name": "Der Mikrocomputer",
           "description": "Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschinen.",
           "uuid": "d2120ebd-6e10-4c95-9aae-fd9744c0546b",
           "x": 230,

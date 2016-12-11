@@ -417,11 +417,15 @@ Task_1: Crafting Task
 	Ab jetzt wird es illegal. Eine nicht genehmigte Destillerie zu betreiben ist strafbar. Damit will ich nichts zu tun haben.
 Task_1: Crafting Task
 	Der Ertrag dieser Maschine ist nicht besonders gut. Die Wirkung der Endprodukte dagegen schon.
+Task_2: Detection Task
+	Jetzt kann die Brauerei richtig losgehen.
 
 2.38: Die Schnapsdrossel
 	Wer A sagt, muss auch B sagen. Jetzt wollen wir auch den Fusel sehen.
 Task_1: Crafting Task
 	Der Alkohol reift nur unterirdisch und auch nur in bestimmten Biomen.
+Task_2: Detection Task
+	Jetzt kann die Party abgehen. Der Fusel ist schon da.
 
 2.39: Der Geist in der Flasche
 	Aladin in der Wunderlampe ist es nicht, aber trotzdem recht Wirkungsvoll.
@@ -725,7 +729,7 @@ Task_1: Crafting Task
 Task_1: Crafting Task
 	Der ME Level Emitter misst die Menge eines Gegenstandes im Netzwerk und gib bei Ueber- oder Unterschreitung ein Redstonesignal ab.
 
-4.19: Der Mikrokomputer
+4.19: Der Mikrocomputer
 	Zu guter Letzt kommen wir zur hohen Schule der Prozessorherstellung. Damit oeffnet sich der Weg zu allen Maschinen.
 Task_1: Detection Task
 	Die Form fuer diesen Prozessor ist nicht sehr kompliziert, allerdings schwer zu erreichen. Ansonsten ist die Herstellung analog zur einfachen Form.
