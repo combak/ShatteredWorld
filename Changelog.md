@@ -1,5 +1,16 @@
 # Changelog
 
+# Version 0.8.5
+
+**Config Changes**
+- Ore Dict gearIron for charge generatior recipe (AppleMilk&Tea)
+- Questbook AppleMilk&Tea and Flux Armor fixes
+- Apatite as Ore Seed catalysator
+- Thermal Dynamos recipes with ore dict gears
+
+**Mod Updates**
+- YADM 0.6.5-ece6828 to 0.6.6-6cb611a
+
 # Version 0.8.4
 
 **Config Changes**
