@@ -16,6 +16,7 @@
       "plainsmobs:makameatcooked",    		/* Cooked Maka Meat */    
       "demonmobs:pinkymeatcooked",    		/* Cooked Pinky Meat */
       "mountainmobs:yalemeatcooked",    	/* Cooked Yale Meat */
+      "exnihilo:silkworm_cooked", /* Cooked Silkworm */
       "arcticmobs:yetimeatcooked"   		/* Cooked Yeti Meat */      
     ]
   },
