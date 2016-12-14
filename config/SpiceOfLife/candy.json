@@ -29,6 +29,7 @@
     "items":
     [
       "harvestcraft:popcornItem",	/* Popcorn */
+      "ForbiddenMagic:GluttonyShard", /* Gluttony Shard */
       "DCsAppleMilk:defeatedcrow.icyToffyApple:3", /* Green Toffee Apple */
       "DCsAppleMilk:defeatedcrow.ToffyApple",  /* Toffee Apple */
       "DCsAppleMilk:defeatedcrow.icyToffyApple", /* Icy Toffee Apple */
