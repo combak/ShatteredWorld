@@ -37,6 +37,7 @@
       "DCsAppleMilk:defeatedcrow.clam", 	/* Clam */
       "DCsAppleMilk:defeatedcrow.clam:1", 	/* Cooked Clam */
       "DCsAppleMilk:defeatedcrow.bowlBlock:2", 	/* Salmon Stew */
+      "Thaumcraft:ItemNuggetFish", /* Fish Nugget */
       "DCsAppleMilk:defeatedcrow.bowlJP:2" 	/* Salmon Stew w/ Jp. Bowl */
     ]
   },
