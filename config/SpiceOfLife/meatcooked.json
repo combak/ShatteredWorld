@@ -17,6 +17,9 @@
       "demonmobs:pinkymeatcooked",    		/* Cooked Pinky Meat */
       "mountainmobs:yalemeatcooked",    	/* Cooked Yale Meat */
       "exnihilo:silkworm_cooked", /* Cooked Silkworm */
+      "Thaumcraft:ItemNuggetPork", /* Pork Nugget */
+      "Thaumcraft:ItemNuggetBeef", /* Beef Nugget */
+      "Thaumcraft:ItemNuggetChicken", /* Chicken Nugget */
       "arcticmobs:yetimeatcooked"   		/* Cooked Yeti Meat */      
     ]
   },
