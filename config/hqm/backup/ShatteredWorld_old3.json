@@ -3270,7 +3270,15 @@
                   "item": "DCsAppleMilk:defeatedcrow.evaporator size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
-                },
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jetzt kann die Brauerei richtig losgehen.",
+              "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.yeast size(1) dmg(0)",
                   "required": 1,

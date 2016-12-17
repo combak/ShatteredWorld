@@ -3324,11 +3324,19 @@
                   "item": "DCsAppleMilk:defeatedcrow.basket size(1) dmg(14)",
                   "required": 1,
                   "precision": "FUZZY"
-                },
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jetzt kann die Party abgehen. Der Fusel ist schon da.",
+              "requirements": [
                 {
                   "item": "DCsAppleMilk:defeatedcrow.itemBottle size(1) dmg(55)",
                   "required": 1,
-                  "precision": "FUZZY"
+                  "precision": "PRECISE"
                 }
               ]
             }
