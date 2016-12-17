@@ -1,7 +1,0 @@
-Obsidiana,TConstruct:materials:27,GardenCore:garden_farmland,Forestry:resourceStorage,3,1,Homegrown Obsidian.
-Flintolea,DCsAppleMilk:defeatedcrow.condensedMilk:14,GardenCore:garden_farmland,Forestry:resourceStorage,2,1,Flintstones! Meet the Flintstones!
-Escobalt,TConstruct:materials:28,GardenCore:garden_farmland,Forestry:resourceStorage,3,1,Escobalt! Not Escargots!
-Marmardite,TConstruct:materials:29,GardenCore:garden_farmland,Forestry:resourceStorage,3,1,Do not use for Food!
-Dragonata,DraconicEvolution:nugget,GardenCore:garden_farmland,Forestry:resourceStorage,3,1,Not actually a Dragon
-Neutronille,Avaritia:Resource:3,GardenCore:garden_farmland,Avaritia:Crystal_Matrix,3,1,Cosmically Enhanced!
-Endrilla,minecraft:ender_pearl,,GardenCore:garden_farmland,minecraft:end_stone,4,1,Eye see what you did there!
