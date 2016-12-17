@@ -1,5 +1,14 @@
 # Changelog
 
+# Version 1.0.0 - It's the final countdown!
+
+**Config Changes**
+- Updated food groups
+- Added endgame seeds
+
+**Mod Updates**
+- YADM 0.6.6-6cb611a to 0.7.0-8064034
+
 # Version 0.8.5
 
 **Config Changes**
