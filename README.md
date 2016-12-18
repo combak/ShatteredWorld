@@ -1,8 +1,6 @@
 # Shattered World - Modpack for Minecraft 1.7.10 
-**Work in progress.**
 
 ## Information
-TODO
 
 ## Licences & Permissions
 - Mod Licences & Permissions: https://github.com/combak/ShatteredWorld/blob/master/Licences.md
