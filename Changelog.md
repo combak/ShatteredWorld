@@ -1,5 +1,11 @@
 # Changelog
 
+# Version 1.0.1
+
+**Config Changes**
+- Endgame seeds doesn't drop
+- Questbook fix
+
 # Version 1.0.0 - It's the final countdown!
 
 **Config Changes**
