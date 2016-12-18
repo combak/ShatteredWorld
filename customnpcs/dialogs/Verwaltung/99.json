@@ -1,0 +1,94 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "/yadm tp 1002 100 68 -9989 @dp",
+                "Dialog": -1,
+                "Title": "Zum nördlichen Lager",
+                "DialogColor": 14737632,
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "/yadm tp 1002 9933 53 32 @dp",
+                "Dialog": -1,
+                "Title": "Zum östlichen Lager",
+                "DialogColor": 14737632,
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogCommand": "/yadm tp 1002 8 89 10003 @dp",
+                "Dialog": -1,
+                "Title": "Zum südlichen Lager",
+                "DialogColor": 14737632,
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 3,
+            "Option": {
+                "DialogCommand": "/yadm tp 1002 -10028 66 -4 @dp",
+                "Dialog": -1,
+                "Title": "Zum westlichen Lager",
+                "DialogColor": 14737632,
+                "OptionType": 4
+            }
+        }
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "5.3-Expeditionen",
+    "AvailabilityDialog": 1,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": 97,
+    "OptionFaction2Points": 100,
+    "DialogText": "Die Lager sind in alle Himmelsrichtungen verteilt, wo möchtest Du hin?",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1481825165962L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}
