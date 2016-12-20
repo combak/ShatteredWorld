@@ -34,12 +34,10 @@ val appEngSkyStoneDust		= <appliedenergistics2:item.ItemMultiMaterial:45>;
 # Vanilla
 val vanillaIronIngot = <minecraft:iron_ingot>;
 
-######################################################################################################################
-# Oredict
-######################################################################################################################
+# Pams
+val harvCraftCorn = <harvestcraft:cornItem>;
+val forestDayStarch = <ForestDay:nature:9>;
 
-#val odStone = <ore:stone>;
- 		
 ########################################################################################################################
 # Custom Crafting Recipes - Shaped
 ########################################################################################################################
@@ -73,3 +71,6 @@ mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
 
 # Remove ruby
 mods.appeng.Grinder.removeRecipe( <ore:dustRuby> );
+
+# Add Starch
+mods.appeng.Grinder.addRecipe( harvCraftCorn, forestDayStarch, 8, null, 0.0, null, 0.0);
