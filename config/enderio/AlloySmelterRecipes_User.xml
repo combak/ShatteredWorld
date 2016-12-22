@@ -179,10 +179,10 @@ ore dictionary.
    </recipe>  
    <recipe name="HardenedStarch" energyCost="1600">
      <input>
-	<itemStack modID="ForestDay" itemName="item.nature" itemMeta="10" />
+	<itemStack modID="ForestDay" itemName="nature" itemMeta="10" />
      </input>
      <output>
-	<itemStack modID="ForestDay" itemName="item.nature" itemMeta="11" />
+	<itemStack modID="ForestDay" itemName="nature" itemMeta="11" />
      </output>
    </recipe>  
  </recipeGroup>  
