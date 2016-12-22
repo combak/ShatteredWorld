@@ -22,7 +22,13 @@ recipes.addShaped(<bcadditions:grindingWheel>,
   [<minecraft:flint>, <EnderIO:itemMachinePart:1>, <minecraft:flint>],
   [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
 
-
-  
-  
-
+# Remove Dusts
+recipes.removeShapeless( <bcadditions:dust:4> );
+recipes.removeShapeless( <bcadditions:dust:69> );
+recipes.removeShapeless( <bcadditions:dust:70> );
+recipes.removeShapeless( <bcadditions:dust:71> );
+recipes.removeShapeless( <bcadditions:dust:72> );
+recipes.removeShapeless( <bcadditions:dust:73> );
+recipes.removeShapeless( <bcadditions:dust:89> );
+recipes.removeShapeless( <bcadditions:dust:90> );
+recipes.removeShapeless( <bcadditions:dust:91> );
