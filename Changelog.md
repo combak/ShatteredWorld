@@ -1,5 +1,18 @@
 # Changelog
 
+# Version 1.0.2
+
+**Config Changes**
+- Fix Stirling Generator (EnderIO) with OreDict gearIron
+- Disabled generic death message and item (on ground) stacking
+- Removed old dust scripts (before UniDict)
+- Fix Citrus Battery recipe
+- Removed mixed metals which are similar to ThermalFoundation
+- Fix hardened starch recipe
+- Disabled internal and oredict names
+- [Server only] disabeld kobold, reduced spawning and changed despawn behavior (LycanitesMobs)
+- Fix duplicate enchantment id
+
 # Version 1.0.1
 
 **Config Changes**
