@@ -1,28 +1,8 @@
 ########################################################################################################################
-# Item
-########################################################################################################################
-
-# BuildCraft Additions
-val bcAdditionElectrumDust	= <bcadditions:dust:44>;
-val bcAdditionInvarDust		= <bcadditions:dust:69>;
-val bcAdditionLumiumDust	= <bcadditions:dust:69>;
-
-# Thermal Foundation
-val thermFoundGlowstoneBucket	= <ThermalFoundation:bucket:1>;
-val thermFoundElectrumDust	= <ThermalFoundation:material:39>;
-val thermFoundInvarDust		= <ThermalFoundation:material:40>;
-val thermFoundLumiumDust	= <ThermalFoundation:material:43>;
-
-########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
 
 val odSlime		= <ore:slimeball>;
-val odGold		= <ore:dustGold>;
-val odSilver		= <ore:dustSilver>;
-val odIron		= <ore:dustIron>;
-val odNickel		= <ore:dustNickel>;
-val odTin		= <ore:dustTin>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -41,22 +21,7 @@ recipes.addShaped(<bcadditions:grindingWheel>,
  [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
   [<minecraft:flint>, <EnderIO:itemMachinePart:1>, <minecraft:flint>],
   [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
-  
-########################################################################################################################
-# Custom Crafting Recipies - Shapeless
-########################################################################################################################
-  
-# Change Electrum Blend
-recipes.remove( thermFoundElectrumDust );  
-recipes.addShapeless( bcAdditionElectrumDust * 2, [ odGold, odSilver] );
 
-# Change Invar Blend
-recipes.remove( thermFoundInvarDust );  
-recipes.addShapeless( bcAdditionInvarDust * 3, [ odIron*2, odNickel] );
-
-# Change Lumium Blend
-#recipes.remove( thermFoundLumiumDust );  
-#recipes.addShapeless( bcAdditionLumiumDust * 4, [ odTin*3, odSilver, thermFoundGlowstoneBucket] );
 
   
   
