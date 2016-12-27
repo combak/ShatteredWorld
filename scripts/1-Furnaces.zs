@@ -226,7 +226,8 @@ val furnacesSmelting = [
   [ <ForestDay:corn>, <harvestcraft:popcornItem> ],
   
   [ <bcadditions:wireIronUnhardened>, <bcadditions:wireIron> ],
-  [ <bcadditions:heatPlatingRaw>, <bcadditions:heatPlating> ]
+  [ <bcadditions:heatPlatingRaw>, <bcadditions:heatPlating> ],
+  [ <DCsAppleMilk:defeatedcrow.flintBlock>, <DCsAppleMilk:defeatedcrow.chalcedony> ]
 ] as IItemStack[][];
 
 ########################################################################################################################
