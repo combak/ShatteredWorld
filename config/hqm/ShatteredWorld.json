@@ -2594,8 +2594,8 @@
             },
             {
               "id": "task001",
-              "type": "DETECT",
-              "name": "Detection Task",
+              "type": "CRAFT",
+              "name": "Crafting Task",
               "description": "Jetzt solltest du mit deinem Maschinenpark so weit sein, um dir diese speziellen Bienenstoecke herstellen zu koennen.",
               "requirements": [
                 {

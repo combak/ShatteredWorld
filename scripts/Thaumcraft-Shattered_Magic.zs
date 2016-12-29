@@ -22,7 +22,7 @@ game.setLocalization("en_US", "tc.research_category.SHATTERED_MAGIC", "Shattered
 
 # Moonstone
 mods.thaumcraft.Infusion.addRecipe("Moonstone", (arsMagicaOreSunstone), [thaumCraftFocusTrade, arsMagicaOreVinteum, arsMagicaOreVinteum, arsMagicaOreChimerite, arsMagicaOreChimerite, arsMagicaOreTopaz, arsMagicaOreTopaz, bloodMagicSlateblank], "permutatio 32, praecantatio 16, tenebrae 32", arsMagicaOreMoonstone , 16);
-mods.thaumcraft.Research.addResearch("Moonstone","SHATTERED_MAGIC", "alienis 32, vitreum 16",0, 0, 0, <arsmagica2:itemOre:7>);
+mods.thaumcraft.Research.addResearch("Moonstone","SHATTERED_MAGIC", "alienis 32, vitreus 16",0, 0, 0, <arsmagica2:itemOre:7>);
 game.setLocalization("en_US", "tc.research_name.Moonstone", "Moonstone");
 game.setLocalization("en_US", "tc.research_text.Moonstone", "[SM]Howl at the Moon");
 mods.thaumcraft.Research.addInfusionPage("Moonstone", arsMagicaOreMoonstone );

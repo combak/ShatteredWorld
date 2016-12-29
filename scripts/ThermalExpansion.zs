@@ -232,6 +232,7 @@ for i, entry in thermExpSmelterAddInput
   
   mods.thermalexpansion.Smelter.addRecipe( energy, input1, input2, output1, output2, chance );
 }
+
 ########################################################################################################################
 # Machine - Pulverizer
 ########################################################################################################################
@@ -252,6 +253,21 @@ for i, replace in thermExpPulverizerAdd
 
   mods.thermalexpansion.Pulverizer.addRecipe( energy, replace, output1, output2, chance );
 }
+
+########################################################################################################################
+# Machine - Crucible
+########################################################################################################################
+
+# Increase lava production costs
+mods.thermalexpansion.Crucible.removeRecipe( <minecraft:cobblestone> );
+mods.thermalexpansion.Crucible.removeRecipe( <minecraft:stone> );
+mods.thermalexpansion.Crucible.removeRecipe( <minecraft:obsidian> );
+mods.thermalexpansion.Crucible.removeRecipe( <minecraft:netherrack> );
+
+mods.thermalexpansion.Crucible.addRecipe( 320000, <minecraft:cobblestone>, <liquid:lava> * 250 );
+mods.thermalexpansion.Crucible.addRecipe( 300000, <minecraft:stone>, <liquid:lava> * 250 );
+mods.thermalexpansion.Crucible.addRecipe( 240000, <minecraft:obsidian>, <liquid:lava> * 250 );
+mods.thermalexpansion.Crucible.addRecipe( 230000, <minecraft:netherrack>, <liquid:lava> * 250 );
 
 ########################################################################################################################
 # Custom Recipes Shaped

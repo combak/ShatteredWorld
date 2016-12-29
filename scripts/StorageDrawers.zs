@@ -104,6 +104,7 @@ val exNihiloDust = [
 # Machine - Compacting Storage
 #########################################################################################################################
 
+mods.storagedrawers.Compaction.add( <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, 1 );
 mods.storagedrawers.Compaction.add( compressedSand,vanillaSand, 9 );
 
 for i, toCompact in exNihiloBroken

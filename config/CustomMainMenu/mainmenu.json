@@ -9,16 +9,7 @@
       "width" : 236,
       "height" : 80,
       "alignment" : "center"
-    }/*,
-    "blackbackground":
-    {
-      "image" : "shatteredworld:menu-background.png",
-      "posX" : -360,
-      "posY" : 0,
-      "width" : 720,
-      "height" : 48,
-      "alignment" : "center"
-    }  */  
+    }
   },
   
   "buttons":
@@ -31,9 +22,6 @@
       "width" : 70,
       "height" : 20,
       "alignment" : "center",
-      /*"texture" : "projectretv8:btn.png",
-      "normalTextColor" : 12303291,
-      "hoverTextColor" : 16711680,*/
       "shadow" : false,
       "action" :
       {
@@ -50,9 +38,6 @@
       "width" : 70,
       "height" : 20,
       "alignment" : "center",
-      /*"texture" : "projectretv8:btn.png",
-      "normalTextColor" : 12303291,
-      "hoverTextColor" : 16711680,*/
       "shadow" : false,
       "action" :
       {
@@ -69,9 +54,6 @@
       "width" : 70,
       "height" : 20,
       "alignment" : "center",
-      /*"texture" : "projectretv8:btn.png",
-      "normalTextColor" : 12303291,
-      "hoverTextColor" : 16711680,*/
       "shadow" : false,
       "action" :
       {
@@ -88,9 +70,6 @@
       "width" : 70,
       "height" : 20,
       "alignment" : "center",
-      /*"texture" : "projectretv8:btn.png",
-      "normalTextColor" : 12303291,
-      "hoverTextColor" : 16711680,*/
       "shadow" : false,
       "action" :
       {
@@ -107,29 +86,13 @@
       "width" : 70,
       "height" : 20,
       "alignment" : "center",
-      /*"texture" : "projectretv8:btn.png",
-      "normalTextColor" : 12303291,
-      "hoverTextColor" : 16711680,*/
+
       "shadow" : false,
       "action" :
       {
 	  "type" : "quit"
       }
-    }/*,
-    "refresh":
-    {
-      "text" : "",
-      "posX" : 0,
-      "posY" : 0,
-      "width" : 20,
-      "height" : 20,
-      "texture" : "custommainmenu:textures/gui/buttons.png", 
-      "alignment" : "top_left",
-      "action" : 
-      {
-	  "type" : "refresh"
-      }
-    }*/
+    }
   },
   
   "texts":
@@ -152,7 +115,7 @@
     },
     "version":
     {
-      "text": "Shattered World - Version 1.0.0",
+      "text": "Shattered World - Version 1.0.2",
       "posX" : -200,
       "posY" : -20,
       "color" : -1,

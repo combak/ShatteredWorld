@@ -42,7 +42,6 @@ val projectRedChipEnergized         = <ProjRed|Core:projectred.core.part:8>;
 val projectRedChipSilicon           = <ProjRed|Core:projectred.core.part:7>;
 
 # Buildcraft
-val buildcraftGearIron              = <BuildCraft|Core:ironGearItem>;
 val buildcraftFluidPipeIron         = <BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron>;
 val buildCraftChipPulsating         = <BuildCraft|Silicon:redstoneChipset:4>;
 val buildCraftChipComp              = <BuildCraft|Silicon:redstoneChipset:6>;
@@ -58,6 +57,7 @@ val odCobblestone	= <ore:cobblestone>;
 val odAluminumIngot	= <ore:ingotAluminum>;
 val odGearWood		= <ore:gearWood>;
 val odGlassBlue		= <ore:blockGlassBlue>;
+val odGearIron          = <ore:gearIron>;
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
@@ -73,7 +73,7 @@ recipes.addShaped( enderioChassis, [ [ vanillaIronBar, odAluminumIngot,vanillaIr
 
 # RF Generators
 recipes.remove(enderioGeneratorStirling);
-recipes.addShaped( enderioGeneratorStirling, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftGearIron, projectRedConductivePlate ], [ enderioChassis, vanillaFurnace, enderioChassis ] ]);				 
+recipes.addShaped( enderioGeneratorStirling, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, odGearIron, projectRedConductivePlate ], [ enderioChassis, vanillaFurnace, enderioChassis ] ]);				 
 
 recipes.remove(enderioGeneratorCombustion);				 
 recipes.addShaped( enderioGeneratorCombustion, [ [ bcAdditionCoilBasic, advGenePowerIO , bcAdditionCoilBasic ], [ projectRedConductivePlate, buildcraftFluidPipeIron, projectRedConductivePlate ], [ enderioTank, vanillaFurnace, enderioTank ] ]);

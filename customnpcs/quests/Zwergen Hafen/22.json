@@ -1,0 +1,94 @@
+{
+    "CompleterNpc": "Tyltran",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Meister des DN",
+    "Text": "Tyltran hat dich darum gebeten ein paar Gegenstände für ihn aufzutreiben.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 6,
+    "QuestCommand": "",
+    "ModRev": 16,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1480704184495L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "Count": 3b,
+                "Damage": 24s
+            },
+            {
+                "Slot": 1b,
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "Count": 1b,
+                "Damage": 27s
+            },
+            {
+                "Slot": 2b,
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "Count": 2b,
+                "Damage": 25s
+            },
+            {
+                "Slot": 3b,
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "Count": 1b,
+                "Damage": 1s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "Count": 8b,
+                "Damage": 16s
+            },
+            {
+                "Slot": 1b,
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "Count": 8b,
+                "Damage": 22s
+            },
+            {
+                "Slot": 2b,
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "Count": 8b,
+                "Damage": 140s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Du hast Tyltran geholfen. Dadurch hast du ruf bei den Zwergen dazu gewonnen.",
+    "NextQuestTitle": ""
+}
