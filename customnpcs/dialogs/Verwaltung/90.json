@@ -50,7 +50,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Der Teleport Befehl bringt Dich zur Insel eines Mitspielers <Spielername>, sofern er Dich auf die Whitelist hinzugefügt hat.(ChatBefehl) /yadm tptp <Spielername>",
+    "DialogText": "Der Teleport Befehl bringt Dich zur Insel eines Mitspielers <Spielername>, sofern er Dich auf die Whitelist hinzugefügt hat.(ChatBefehl) /yadm tpto <Spielername>",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -67,7 +67,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1481825165114L,
+        "TimePast": 1482162678174L,
         "Time": 0L,
         "Subject": ""
     }

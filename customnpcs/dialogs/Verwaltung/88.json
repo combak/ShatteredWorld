@@ -70,7 +70,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Der Besitzer der Insel muss Dir den Zutritt erlauben.(ChatBefehl) /yadm manage whitelist add <SpielerName>(ChatBefehl) /yadm manage whitelist remove <SpielerName>Dann kannst  Du Dich entweder zu ihm teleportieren(ChatBefehl) /yadm tpto <SpielerName>oder ein Reiseziel über die Grenzen Deiner Insel definieren.(ChatBefehl) /yadm manage travel <north|east|west> players:<SpielerNameZiel> <north|east|south|west>",
+    "DialogText": "Der Besitzer der Insel muss Dir den Zutritt erlauben.(ChatBefehl) /yadm manage whitelist add <SpielerName>(ChatBefehl) /yadm manage whitelist remove <SpielerName>Dann kannst  Du Dich entweder zu ihm teleportieren(ChatBefehl) /yadm tpto <SpielerName>oder ein Reiseziel über die Grenzen Deiner Insel definieren.(ChatBefehl) /yadm manage travel set <north|east|west> players:<SpielerNameZiel> <north|east|south|west>",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -87,7 +87,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1481049713734L,
+        "TimePast": 1482162650322L,
         "Time": 0L,
         "Subject": ""
     }

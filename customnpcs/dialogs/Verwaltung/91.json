@@ -50,7 +50,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Jede Insel hat eine Grenze, die bei +/- 256 Blöcke liegt. Diesen Grenzen kannst Du Reiseziele zu anderen Mitspielern zuweisen, wobei die südliche Grenze immer hier her zurück führt./yadm manage travel <GrenzeAbreise> players:<BesitzerZielInsel> <GrenzeAnkunft><GrenzeAbreise> ist die Grenze über die Du abreist, die erlaubten Werte sind north, east und west.<BesitzerZielInsel> ist der Name des Besitzers zu desen Insel Du reisen möchtest. Achtung! Groß-/Kleinschreibung ist zu beachten.<GrenzeAnkunft> ist die Grenze über die Die ankommen möchtest, die erlaubten werde sind north, east, south und west.",
+    "DialogText": "Jede Insel hat eine Grenze, die bei +/- 256 Blöcke liegt. Diesen Grenzen kannst Du Reiseziele zu anderen Mitspielern zuweisen, wobei die südliche Grenze immer hier her zurück führt./yadm manage travel set <GrenzeAbreise> players:<BesitzerZielInsel> <GrenzeAnkunft><GrenzeAbreise> ist die Grenze über die Du abreist, die erlaubten Werte sind north, east und west.<BesitzerZielInsel> ist der Name des Besitzers zu desen Insel Du reisen möchtest. Achtung! Groß-/Kleinschreibung ist zu beachten.<GrenzeAnkunft> ist die Grenze über die Die ankommen möchtest, die erlaubten werde sind north, east, south und west.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -67,7 +67,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1481820754608L,
+        "TimePast": 1482162665020L,
         "Time": 0L,
         "Subject": ""
     }
