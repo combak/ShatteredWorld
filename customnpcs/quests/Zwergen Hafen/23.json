@@ -1,5 +1,5 @@
 {
-    "CompleterNpc": "Raven",
+    "CompleterNpc": "Lanosch",
     "NextQuestId": -1,
     "RandomReward": 0b,
     "QuestRepeat": 0,
@@ -27,7 +27,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1480705303048L,
+        "TimePast": 1483121271153L,
         "Time": 0L,
         "Subject": ""
     },

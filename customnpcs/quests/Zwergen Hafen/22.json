@@ -1,5 +1,5 @@
 {
-    "CompleterNpc": "Tyltran",
+    "CompleterNpc": "Dirin Kristallherr",
     "NextQuestId": -1,
     "RandomReward": 0b,
     "QuestRepeat": 0,
@@ -27,7 +27,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1480704184495L,
+        "TimePast": 1483121307916L,
         "Time": 0L,
         "Subject": ""
     },
