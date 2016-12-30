@@ -65,6 +65,7 @@ val odGlass                     = <ore:blockGlass>;
 ########################################################################################################################
 #Vanilla
 val vanillaCharcoal                 = <minecraft:coal:1>;
+val vanillaRedstone                 = <minecraft:redstone>;
 
 #Content Tweaker
 val conTweakLogpile = <contenttweaker:pileOfWoodLogs>;
@@ -326,6 +327,8 @@ recipes.addShaped(thermExpFrameTesseract,[[odingotEnderium,odGlassHard,odingotEn
 
 recipes.remove(thermExpFrameEnergyCell);
 recipes.addShaped(thermExpFrameEnergyCell,[[odingotElectrum,odGlassHard,odingotElectrum],[odGlassHard,enderIOCapacitorOctadic,odGlassHard],[odingotElectrum,odGlassHard,odingotElectrum]]);
+
+recipes.addShaped(thermExpServo ,[[null,odingotAluminium,null],[odBlockGlass,vanillaRedstone,odBlockGlass],[null,odingotAluminium,null]]);
 
 recipes.remove(thermExpInductionsmelter);
 recipes.remove(thermExpMagmaCrucible);
