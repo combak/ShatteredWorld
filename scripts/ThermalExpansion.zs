@@ -4,7 +4,8 @@ import minetweaker.item.IIngredient;
 ########################################################################################################################
 # Block
 ########################################################################################################################
-#Forest Day
+
+# Forest Day
 val forDayLoam =  <ForestDay:gravel>;
 
 # Applied Energistics
@@ -56,18 +57,15 @@ val bcAdditionCoilLava		= <bcadditions:blockCoilLava>;
 
 val tSteelwBrickScorched        = <TSteelworks:HighOven:2>;
 
-# Oredict
-val odGlassHard                 = <ore:blockGlassHardened>;
-val odGlass                     = <ore:blockGlass>;
-
 ########################################################################################################################
 # Item
 ########################################################################################################################
-#Vanilla
+
+# Vanilla
 val vanillaCharcoal                 = <minecraft:coal:1>;
 val vanillaRedstone                 = <minecraft:redstone>;
 
-#Content Tweaker
+# Content Tweaker
 val conTweakLogpile = <contenttweaker:pileOfWoodLogs>;
 
 # Applied Energistics
@@ -100,12 +98,6 @@ val advGenePowerIO                  = <advgenerators:PowerIO>;
 val advGeneControlCircuit       = <advgenerators:Controller>;
 val advGeneFrameIron		    = <advgenerators:IronFrame>;
 
-val odGearSilver    = <ore:gearSilver>;
-val odGearInvar     = <ore:gearInvar>;
-val odGearNickel    = <ore:gearNickel>;
-val odGearElectrum  = <ore:gearElectrum>;
-val odGearGold      = <ore:gearGold>;
-
 ########################################################################################################################
 # Ore Dictionary
 ########################################################################################################################
@@ -113,6 +105,7 @@ val odGearGold      = <ore:gearGold>;
 val odingotEnderium	= <ore:ingotEnderium>;
 val odingotSignalum	= <ore:ingotSignalum>;
 val odingotElectrum	= <ore:ingotElectrum>;
+val odIngotAluminium    = <ore:ingotAluminium>;
 
 val odPlateAluminium	= <ore:plateAluminium>;
 val odplateCopper	= <ore:plateCopper>;
@@ -121,6 +114,15 @@ val odPlatePlastic	= <ore:platePlastic>;
 
 val odGearLumium	= <ore:gearLumium>;
 val odGearSignalum	= <ore:gearSignalum>;
+
+val odGearSilver    = <ore:gearSilver>;
+val odGearInvar     = <ore:gearInvar>;
+val odGearNickel    = <ore:gearNickel>;
+val odGearElectrum  = <ore:gearElectrum>;
+val odGearGold      = <ore:gearGold>;
+
+val odGlassHard                 = <ore:blockGlassHardened>;
+val odGlass                     = <ore:blockGlass>;
 
 ########################################################################################################################
 # (Mixed) Data Structures - Pulverizer - Remove 
@@ -328,7 +330,7 @@ recipes.addShaped(thermExpFrameTesseract,[[odingotEnderium,odGlassHard,odingotEn
 recipes.remove(thermExpFrameEnergyCell);
 recipes.addShaped(thermExpFrameEnergyCell,[[odingotElectrum,odGlassHard,odingotElectrum],[odGlassHard,enderIOCapacitorOctadic,odGlassHard],[odingotElectrum,odGlassHard,odingotElectrum]]);
 
-recipes.addShaped(thermExpServo ,[[null,odingotAluminium,null],[odBlockGlass,vanillaRedstone,odBlockGlass],[null,odingotAluminium,null]]);
+recipes.addShaped(thermExpServo ,[[null,odIngotAluminium,null],[odGlass,vanillaRedstone,odGlass],[null,odIngotAluminium,null]]);
 
 recipes.remove(thermExpInductionsmelter);
 recipes.remove(thermExpMagmaCrucible);
