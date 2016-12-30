@@ -8,6 +8,9 @@ import minetweaker.item.IItemStack;
 # Vanilla
 val vanillaIronBlock 	= <minecraft:iron_block>;
 val vanillaOakLog	= <minecraft:log>;
+val vanillaOreQuartz      = <minecraft:quartz_ore>;
+val vanillaBlockQuartz    = <minecraft:quartz_block>;
+val vanillaNetherrack     = <minecraft:netherrack>;
 
 # BuildCraft
 val buildCraftLaser 		= <BuildCraft|Silicon:laserBlock>;
@@ -55,12 +58,16 @@ val vanillaPotionHealing	= <minecraft:potion:8229>;
 
 # Thermal Foundation
 val thermFoundEnderium		= <ThermalFoundation:material:76>;
+val thermFoundDustPyrotheum = <ThermalFoundation:material:512>;
 
 # BuildCraft
 val buildCraftRedstoneCrystal	= <BuildCraft|Silicon:redstoneCrystal>;
 val buildCraftPipePowerIron	= <BuildCraft|Transport:item.buildcraftPipe.pipepoweriron>;
 val buildCraftPipePowerGold	= <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>;
 val buildCraftPipePowerDiamond	= <BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>;
+
+# Buildcraft Additions
+val bcAdditionsDustPyrotheum = <bcadditions:dust:89>;
 
 # Thermal Expansion
 val thermExpTransmissionCoil        = <ThermalExpansion:material:2>;
@@ -128,3 +135,7 @@ AssemblyTable.addRecipe( extUtilTransferNodeHyperEnergy, 100000, [ extUtilTransf
 AssemblyTable.addRecipe( extUtilEnderTransmitter, 100000, [ vanillaEnderPearl * 5 , vanillaQuartz * 2, vanillaRedstoneTorch *2 ] );
 AssemblyTable.addRecipe( extUtilEnderReceiver, 100000, [ vanillaEnderPearl * 5 , vanillaQuartz * 3, vanillaRedstone ] );
 AssemblyTable.addRecipe( extUtilMagnumTorch, 100000, [ extUtilChandelier * 5 , vanillaOakLog * 2, vanillaPotionRegeneration, vanillaPotionHealing ] );
+
+# Ore (Doppelt da Minetweaker kein Od nimmt in den Rezepten)
+AssemblyTable.addRecipe( vanillaOreQuartz , 150000, [vanillaBlockQuartz * 4 ,vanillaNetherrack * 8,bcAdditionsDustPyrotheum * 2  ] );
+AssemblyTable.addRecipe( vanillaOreQuartz , 150000, [vanillaBlockQuartz * 4 ,vanillaNetherrack * 8,thermFoundDustPyrotheum * 2  ] );
