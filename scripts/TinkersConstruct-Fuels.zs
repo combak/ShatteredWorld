@@ -66,3 +66,11 @@ for i, fuel in tConstructSmelteryFuels
   block.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( temperatureString ) + format.red( "°" ) );
   bucket.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( temperatureString ) + format.red( "°" ) );
 }
+
+# Tooltips Lava
+<minecraft:flowing_lava>.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( "1300°" ) );
+<minecraft:lava_bucket>.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( "1300°" ) );
+
+# Tooltips Pyrotheum
+<ThermalFoundation:FluidPyrotheum>.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( "4000°" ) );
+<ThermalFoundation:bucket:3>.addTooltip( format.gray( "Smeltery Temperature: ") + format.red( "4000°" ) );
