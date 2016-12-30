@@ -3,6 +3,34 @@
 # Version 1.0.2
 
 **Config Changes**
+- Disable Terrain Smasher
+- [Server only] Disable mob events
+- Fix texture names (custom seeds)
+- Fix fire heat source (Ex Nihilo Crucible)
+- Fix Shattered Magic research
+- Fix Chalcedony block issue
+- Disallow compacting glowstone 
+- Disable robots, filler, builder etc. 
+- Increase lava production costs (Thermal Expansion Magma Crucible)
+- Fix Questbook Hive and neutronium detection
+- Tooltipp for lava and pyrotheum
+- Add crafting recipe for netherquartz ore
+- Add alternative crafting recipe for TE servo
+- Reduce packet sending (AppleCore)
+- Merge LycanitesMobs server config to client config
+
+**Mod Additions**
+- PerfectSpawn 1.1
+
+**Mod Updates**
+- AppleCore 1.3.0 to 1.3.2+221.cfd42
+- Draconic Evolution 1.0.2-RC2 to 1.0.2h
+- Forest Mods 0.4.13-beta to 0.4.15-beta
+- LycanitesMobs 1.13.0.5 to 1.13.0.5-optimized
+
+# Version 1.0.2
+
+**Config Changes**
 - Fix Stirling Generator (EnderIO) with OreDict gearIron
 - Disabled generic death message and item (on ground) stacking
 - Removed old dust scripts (before UniDict)

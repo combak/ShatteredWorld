@@ -438,11 +438,11 @@
 
 
 **Lycanite's Mobs**
-> Feel free to include this mod in your public/private mod pack! I strongly believe that all mods should be allowed in public packs as sharing should be in the spirit of the Minecraft community! Please provide credit to me (Lycanite) and a link to the mod website.
+> Lycanites Mob Public License
 
-- Author: Lycanite
-- Files: http://minecraft.curseforge.com/mc-mods/224770-lycanites-mobs/files
-- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291613-lycanites-mobs-environmental-mobs-aggressive
+- Author: Lycanite ( Original MineTweaker ), Krakel/Grayal ( optimizations )
+- Files: https://minecraft.curseforge.com/projects/lycanites-mobs/files
+- Licence: https://github.com/Lycanite/LycanitesMobs/blob/master/LICENSE
 
 ## M
 
@@ -470,7 +470,7 @@ minecraft original sources.
 > modified source code publicly available. Obviously, I cannot offer support for customized builds. Just be so 
 > kind to mention the original source and author (me) ;)
 
-- Authors: StanH ( Original MineTweaker ), DerOli82
+- Authors: StanH ( Original MineTweaker ), DerOli82 ( Backport/Customized )
 - Files: https://github.com/DerOli82/MineTweaker3/releases
 - Permission: https://github.com/stanhebben/MineTweaker3#customized-builds
 
@@ -550,6 +550,13 @@ minecraft original sources.
 - Author: MatrexsVigil
 - Files: http://minecraft.curseforge.com/mc-mods/221857-pams-harvestcraft/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294413-pams-mods-april-8th-harvestcraft-1-7-10h-random#entry29809669
+
+**Perfect Spawn**
+> GNU Lesser General Public License v3
+
+- Author: Lumien231
+<!-- - Files: https://minecraft.curseforge.com/projects/perfect-spawn/files -->
+- Licence: https://github.com/lumien231/Perfect-Spawn/blob/master/LICENSE
 
 **ProjectRed**
 > By default this Mod may only be distributed on its own by the Developers. It may be included in a mod pack with other mods, as long as it is (a)non-profit and (b)legal. URL shorteners or other attempts to make money is strictly forbidden without advance written permission.

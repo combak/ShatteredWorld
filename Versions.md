@@ -5,7 +5,7 @@
 - ae2stuff-1.7.10-0.5.0.56.jar
 - agricraft-1.7.10-1.5.0.jar
 - animationapi-1.7.10-1.2.4.jar
-- applecore-1.7.10-1.3.0.jar
+- applecore-1.7.10-1.3.2+221.cfd42.jar
 - applemilktea2-1.7.10_2.9m.jar
 - appliedenergistics2-1.7.10-rv2-stable-10.jar
 - arsmagica2-1.7.10-1.4.0.009.jar
@@ -31,7 +31,7 @@
 - custommainmenu-1.7.10-1.9.2.jar
 - customnpcs-1.7.10-d-2016-02.jar
 - decocraft-1.7.10-2.3.3.jar
-- draconic-evolution-1.7.10-1.0.2-RC2.jar
+- draconic-evolution-1.7.10-1.0.2h.jar
 - enchiridion-1.7.10-1.2b.jar
 - enderio-1.7.10-2.2.8.381.jar
 - endertech-1.7.10-0.3.2.405.jar
@@ -43,7 +43,7 @@
 - fastcraft-1.7.10-1.23.jar
 - fluxed-core-1.7.10-1.0.6.jar
 - forbidden-magic-1.7.10-0.573.jar
-- forest-mods-1.7.10-0.4.13-beta.jar
+- forest-mods-1.7.10-0.4.15-beta.jar
 - forestry-1.7.10-4.2.5.53.jar
 - fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
@@ -60,7 +60,7 @@
 - ironchest-1.7.10-6.0.62.742.jar
 - launchgui-client-1.7.10-2.0-18.jar
 - limitedresources-1.7.10-1.1.1-ae71faa.jar
-- lycanitesmobscomplete-1.7.10-1.13.0.5.jar
+- lycanitesmobscomplete-1.7.10-1.13.0.5-optimized.jar
 - magistics-1.7.10-0.7.6.jar
 - mantle-1.7.10-0.3.2b.jar
 - minetweaker3-1.7.10-3.0.10-cf534ea-customized.jar
@@ -77,6 +77,7 @@
 - openmodslib-1.7.10-0.9.1.jar
 - opis-1.7.10-1.2.5.jar
 - pams-harvestcraft-1.7.10-lb.jar
+- perfectspawn-1.7.10-1.1.jar
 - projectred-base-1.7.10-4.6.2.82.jar
 - projectred-compat-1.7.10-4.6.2.82.jar
 - projectred-integration-1.7.10-4.6.2.82.jar
