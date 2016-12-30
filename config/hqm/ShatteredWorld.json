@@ -15362,8 +15362,8 @@
           "tasks": [
             {
               "id": "task000",
-              "type": "CRAFT",
-              "name": "Crafting Task",
+              "type": "DETECT",
+              "name": "Detection Task",
               "description": "Du erhaelst aller 6min einen Tropfen. Aus 9 Tropfen wird ein Nugget und wie gehabt aus 9 Nuggets ein Barren.",
               "requirements": [
                 {
