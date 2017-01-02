@@ -1,6 +1,16 @@
 # Changelog
 
-# Version 1.0.2
+# Version 1.0.4
+
+**Config Changes**
+- Reactivate some BC robots ( Picker, Lumberjack, Planter, Butcher, Knight, Farmer, Leaf Cutter, Harvester )
+- Add engineering diary to allowed bookcase books
+- Fix Charm of Disslocation disconnect issue - https://github.com/combak/ShatteredWorld/issues/245 (BrandonsCore update) 
+
+**Mod Updates**
+- BrandonsCore 1.0.0.11 to 1.0.0.12
+
+# Version 1.0.3
 
 **Config Changes**
 - Disable Terrain Smasher

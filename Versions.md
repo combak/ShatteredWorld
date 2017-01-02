@@ -18,7 +18,7 @@
 - binnie-patcher-1.7.10-1.6.jar
 - bloodmagic-1.7.10-1.3.3-17.jar
 - botania-1.7.10-r1.8-249.jar
-- brandonscore-1.7.10-1.0.0.11.jar
+- brandonscore-1.7.10-1.0.0.12.jar
 - buildcraft-1.7.10-7.1.15.jar
 - buildcraft-additions-1.7.10-2.2.5.jar
 - buildcraft-compat-1.7.10-7.1.3.jar
