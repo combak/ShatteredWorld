@@ -6,7 +6,12 @@
 val amtChargeGen        = <DCsAppleMilk:defeatedcrow.EHandle>;
 val amtRedstGel         = <DCsAppleMilk:defeatedcrow.redGel>;
 val amtCitrusBattery    = <DCsAppleMilk:defeatedcrow.battery:2>;
+########################################################################################################
+# Block
+########################################################################################################
 
+#AMT
+val amtContainerCoal   =  <DCsAppleMilk:defeatedcrow.Charcoalcontainer>;
 ########################################################################################################
 # Oredict
 ########################################################################################################
@@ -33,7 +38,7 @@ recipes.addShaped( amtChargeGen,[[null, odIngotIron, null ],[null, odGearIron, n
 ########################################################################################################
 # Recipes Shapeless
 ########################################################################################################
-
+recipes.removeShapeless( amtContainerCoal );
 recipes.removeShapeless( amtCitrusBattery );
 
 recipes.addShapeless( amtCitrusBattery, [ odCitrus, odNuggetGold, odNuggetIron ] );
