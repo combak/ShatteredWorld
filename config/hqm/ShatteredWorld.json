@@ -15507,7 +15507,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Mit dieser Waffe erhaelst du von jedem Skelett einen Witherkopf.",
+              "description": "Mit dieser Waffe erhaelst du von jedem Skelett einen Witherkopf. Theoretisch. Leider nicht mehr in 1.7.10!!!",
               "requirements": [
                 {
                   "item": "Avaritia:Skull_Sword size(1) dmg(0)",
