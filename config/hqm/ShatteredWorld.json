@@ -15039,7 +15039,7 @@
           },
           "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
-          "parentRequirementCount": 20,
+          "parentRequirementCount": 16,
           "tasks": [
             {
               "id": "task000",
@@ -15107,7 +15107,7 @@
           },
           "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
-          "parentRequirementCount": 17,
+          "parentRequirementCount": 16,
           "tasks": [
             {
               "id": "task000",
@@ -15168,7 +15168,7 @@
           },
           "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
-          "parentRequirementCount": 14,
+          "parentRequirementCount": 13,
           "tasks": [
             {
               "id": "task000",
