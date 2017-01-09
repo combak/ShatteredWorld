@@ -1,14 +1,6 @@
 {
   "fwg": [
     {
-      "name": "skydim",
-      "settings": [
-        { "type": "worldProvider", "name": "overworld" },
-        { "type": "worldType", "name": "FWG" },
-        { "type": "generatorOptions", "value": "SKYDIM#1" }
-      ]
-    },
-    {
       "name": "innerlands",
       "settings": [
         { "type": "worldProvider", "name": "overworld" },
@@ -44,7 +36,24 @@
             { "type": "travel", "side": "south", "editable" : false, "targetId": 0 },
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
             { "type": "knockback", "multiplier": 0.1, "side":"all" }
-        ]}
+        ]},
+        { "type": "entityspawn", "typeLimit": {
+            "monster": 30
+          },
+          "entityLimit": {
+            "Item": 300,
+            "Bat": 5,
+            "Chicken": 5,
+            "Cow": 5,
+            "MushroomCow": 5,
+            "Pig": 5,
+            "Sheep": 5,
+            "Squid": 5,
+            "EntityHorse" : 5,
+            "Wolf" : 5,
+            "Ozelot": 5
+          }
+        }
       ]
     },
     {
@@ -60,7 +69,24 @@
             { "type": "travel", "side": "south", "editable" : false, "targetId": 0 },
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
             { "type": "knockback", "multiplier": 0.1, "side":"all" }
-        ]}
+        ]},
+        { "type": "entityspawn", "typeLimit": {
+            "monster": 30
+          },
+          "entityLimit": {
+            "Item": 300,
+            "Bat": 5,
+            "Chicken": 5,
+            "Cow": 5,
+            "MushroomCow": 5,
+            "Pig": 5,
+            "Sheep": 5,
+            "Squid": 5,
+            "EntityHorse" : 5,
+            "Wolf" : 5,
+            "Ozelot": 5
+          }
+        }
       ]
     },
     {
@@ -76,7 +102,24 @@
             { "type": "travel", "side": "south", "editable" : false, "targetId": 0 },
             { "type": "message", "side":"all", "message":"Ohne konkretes Ziel solltest Du nicht durch die Leere reisen!" },
             { "type": "knockback", "multiplier": 0.1, "side":"all" }
-        ]}
+        ]},
+        { "type": "entityspawn", "typeLimit": {
+            "monster": 30
+          },
+          "entityLimit": {
+            "Item": 300,
+            "Bat": 5,
+            "Chicken": 5,
+            "Cow": 5,
+            "MushroomCow": 5,
+            "Pig": 5,
+            "Sheep": 5,
+            "Squid": 5,
+            "EntityHorse" : 5,
+            "Wolf" : 5,
+            "Ozelot": 5
+          }
+        }
       ]
     }
   ]
