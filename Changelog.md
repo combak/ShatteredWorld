@@ -1,5 +1,20 @@
 # Changelog
 
+# Version 1.0.5
+
+**Config Changes**
+- Allow Netherrack large plate
+- Disabled Charcoal Container (AppleMilk&Tea)
+- Questbook fixes
+- Disable fallback recipies (Storage Drawers)
+- Skull Sword Tooltip (see https://github.com/combak/ShatteredWorld/issues/241)
+
+**Mod Updates**
+- Forbidden Magic 0.573 to 0.574-customized
+- Forest Mods 0.4.15-beta to 0.4.16-beta
+- Storage Drawers 1.9.5 to 1.10.8
+- YADM 0.7.0-8064034 to 0.8.0-4f9e0c7
+
 # Version 1.0.4
 
 **Config Changes**

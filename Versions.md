@@ -42,8 +42,8 @@
 - extrautilities-1.7.10-1.2.12.jar
 - fastcraft-1.7.10-1.23.jar
 - fluxed-core-1.7.10-1.0.6.jar
-- forbidden-magic-1.7.10-0.573.jar
-- forest-mods-1.7.10-0.4.15-beta.jar
+- forbidden magic-1.7.10-0.574-customized.jar
+- forest-mods-1.7.10-0.4.16-beta.jar
 - forestry-1.7.10-4.2.5.53.jar
 - fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
@@ -87,7 +87,7 @@
 - sanguimancy-1.7.10-1.1.9-35.jar
 - simplyjetpacks-1.7.10-1.5.3.jar
 - spiceoflife-1.7.10-1.3.1.jar
-- storagedrawers-1.7.10-1.9.5.jar
+- storagedrawers-1.7.10-1.10.8.jar
 - storagedrawers-forestry-1.7.10-1.1.2.jar
 - tconstruct-1.7.10-1.8.8.jar
 - thaumcraft-1.7.10-4.2.3.5.jar
@@ -109,5 +109,5 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.7.0-8064034.jar
+- yadm-1.7.10-0.8.0-4f9e0c7.jar
 - zz-backpacks-1.7.10-3.0.8.jar
