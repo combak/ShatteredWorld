@@ -6849,7 +6849,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -6966,7 +6966,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -7026,7 +7026,7 @@
             }
           ],
           "reward": [
-            "DraconicEvolution:dragonHeart size(1) dmg(0)",
+            "Avaritia:Resource size(2) dmg(5)",
             "arsmagica2:rune size(1) dmg(19)"
           ]
         },
@@ -7143,7 +7143,8 @@
             "quest122"
           ],
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 72
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -7166,8 +7167,8 @@
             }
           ],
           "reward": [
-            "DraconicEvolution:draconicIngot size(8) dmg(0)",
-            "arsmagica2:rune size(1) dmg(19)"
+            "DraconicEvolution:draconicIngot size(5) dmg(0)",
+            "DraconicEvolution:dragonHeart size(1) dmg(0)"
           ]
         }
       ]
@@ -15037,7 +15038,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
           "parentRequirementCount": 16,
           "tasks": [
@@ -15045,7 +15046,7 @@
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
+              "description": "Toete den Drachen bevor er dich toetet, oder willst du etwa nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15105,7 +15106,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
           "parentRequirementCount": 16,
           "tasks": [
@@ -15113,7 +15114,7 @@
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Besiege den Krieger bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
+              "description": "Besiege den Krieger bevor er dich toetet, oder willst du etwa nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15166,7 +15167,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
           "parentRequirementCount": 13,
           "tasks": [
@@ -15174,7 +15175,7 @@
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Mache den Wissenschaftler fertig bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
+              "description": "Mache den Wissenschaftler fertig bevor er dich toetet, oder willst du etwa nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15448,7 +15449,7 @@
             }
           ],
           "reward": [
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15483,7 +15484,7 @@
             }
           ],
           "reward": [
-            "Avaritia:Resource size(4) dmg(5)"
+            "Avaritia:Resource size(3) dmg(5)"
           ]
         },
         {
@@ -15559,7 +15560,7 @@
           ],
           "reward": [
             "AWWayofTime:activationCrystal size(1) dmg(2)",
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15602,7 +15603,7 @@
               "item": "TConstruct:pickaxe size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:80000,Head:501,HeadEXP:0l,BaseAttack:51,ToolEXP:0l,Built:1b,HarvestLevel:6,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Pickaxe'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15641,7 +15642,7 @@
               "item": "TConstruct:hatchet size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:53,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:53,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Hatchet'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15680,7 +15681,7 @@
               "item": "TConstruct:shovel size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:52,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Shovel'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15719,7 +15720,7 @@
               "item": "TConstruct:scythe size(1) dmg(0)",
               "nbt": "{InfiTool:{RenderExtra:501,BaseDurability:480000,Head:501,BaseAttack:54,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:54,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:480000,Modifiers:20},display:{Name:'Â§fInfinity Scythe'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15758,7 +15759,7 @@
               "item": "TConstruct:ShortBow size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:12000,BaseAttack:50,DrawSpeed:27,ToolEXP:0l,Built:1b,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:501,MiningSpeed:6000,Unbreaking:10,Damage:0,HarvestLevel2:7,BonusDurability:0,TotalDurability:12000,MiningSpeed2:6000,BaseDrawSpeed:27,Head:501,Attack:50,Handle:0,Broken:0b,RenderAccessory:501,FlightSpeed:10.0f,ToolLevel:1,Modifiers:10},display:{Name:'Â§fInfinity Shortbow'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
