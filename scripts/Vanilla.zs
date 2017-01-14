@@ -26,7 +26,7 @@ val vanillaPlanks = [
   <minecraft:planks:5>		/* 5 - Dark Oak */
 ] as IItemStack[];
 
-val vanillaChest = <minecraft:chest>;
+val vanillaChest            = <minecraft:chest>;
 
 # Botania
 val botaniaLivingRock	= <Botania:livingrock:1>;
@@ -103,6 +103,10 @@ recipes.addShaped( vanillaBucket , [ [ odAluminum, null, odAluminum ], [ null, o
 
 # Remove simple bread recipes
 recipes.remove( vanillaBread );
+
+# Fix Quartz
+recipes.remove( <minecraft:quartz_block:*> );
+recipes.addShaped(<minecraft:quartz_block>, [[<minecraft:quartz>, <minecraft:quartz>], [<minecraft:quartz>, <minecraft:quartz>]]);
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
