@@ -162,14 +162,14 @@ val thermExpPulverizerOutput1 = [
   <Thaumcraft:ItemResource:14>,		/*  1 - Salis Mundis (Thaumcraft) */
   <ForestDay:nature:9>,			/*  2 - Starch (Forest Day) */
   <ForestDay:nature:9>,			/*  3 - Starch (Forest Day) */
-  <TConstruct:materials:40>     /*  4 - Alumimundust (Tinkers Construct) */
+  <TConstruct:materials:40> * 2         /*  4 - Alumimundust (Tinkers Construct) */
 ] as IItemStack[];
 
 val thermExpPulverizerOutput2 = [
   null,					/*  1 - Nothing */ 
   null,					/*  2 - Nothing */ 
   null,					/*  3 - Nothing */
-  <TConstruct:materials:40>     /*  4 - Alumimundust (Tinkers Construct) */
+  null,                                 /*  4 - Nothing */
 ] as IItemStack[];
 
 ########################################################################################################################
