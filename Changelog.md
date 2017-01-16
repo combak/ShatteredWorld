@@ -1,5 +1,22 @@
 # Changelog
 
+# Version 1.0.6
+
+**Config Changes**
+- Questbook fixes
+- Fix duplicated recipe with quartz slabs (see https://github.com/combak/ShatteredWorld/issues/272)
+- Enable demon mobs in custon nether dimensions
+- Ex Nihilo Aluminum dust via Thermal Expansion Pulverizer ( see https://github.com/combak/ShatteredWorld/issues/269 )
+- Fix ExtraTree recipe problem aka pink menace ( see https://github.com/combak/ShatteredWorld/issues/260 )
+- Reduce power consumption for Wireless Connector 100 + 0.05 * distance^2 AE/t ( see https://github.com/combak/ShatteredWorld/issues/274 )
+- Enable two lycanites mob events
+- Adjust mob limits
+
+**Mod Updates**
+- Backpacks 3.0.8 to 3.1.3
+- Fluxed Core 1.0.6 to 1.0.9
+- YADM 0.8.0-4f9e0c7 to 0.8.2-cba8745
+
 # Version 1.0.5
 
 **Config Changes**

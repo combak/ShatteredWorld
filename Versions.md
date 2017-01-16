@@ -41,7 +41,7 @@
 - extracells-1.7.10-2.3.9b188.jar
 - extrautilities-1.7.10-1.2.12.jar
 - fastcraft-1.7.10-1.23.jar
-- fluxed-core-1.7.10-1.0.6.jar
+- fluxed-core-1.7.10-1.0.9.jar
 - forbidden magic-1.7.10-0.574-customized.jar
 - forest-mods-1.7.10-0.4.16-beta.jar
 - forestry-1.7.10-4.2.5.53.jar
@@ -109,5 +109,5 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.8.0-4f9e0c7.jar
-- zz-backpacks-1.7.10-3.0.8.jar
+- yadm-1.7.10-0.8.2-cba8745.jar
+- zz-backpacks 1.7.10 - 3.1.3.jar
