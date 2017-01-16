@@ -38,7 +38,7 @@
             { "type": "knockback", "multiplier": 0.1, "side":"all" }
         ]},
         { "type": "entityspawn", "typeLimit": {
-            "monster": 30
+            "monster": 50
           },
           "entityLimit": {
             "Item": 300,
@@ -51,7 +51,22 @@
             "Squid": 5,
             "EntityHorse" : 5,
             "Wolf" : 5,
-            "Ozelot": 5
+            "Ozelot": 5,
+            "Villager": 5,
+            "arsmagica2.MobDryad": 2,
+            "TConstruct.EdibleSlime": 5,
+            "TConstruct.KingSlime": 2,
+            "WitherBoss" : -1,
+            "arsmagica2.BossEnderGuardian": -1,
+            "arsmagica2.BossWaterGuardian": -1,
+            "arsmagica2.BossArcaneGuardian": -1,
+            "arsmagica2.BossNatureGuardian": -1,
+            "arsmagica2.BossEarthGuardian": -1,
+            "arsmagica2.BossFireGuardian": -1,
+            "arsmagica2.BossAirGuardian": -1,
+            "arsmagica2.BossLightningGuardian": -1,
+            "arsmagica2.BossLifeGuardian": -1,
+            "arsmagica2.BossWinterGuardian": -1
           }
         }
       ]
@@ -71,7 +86,7 @@
             { "type": "knockback", "multiplier": 0.1, "side":"all" }
         ]},
         { "type": "entityspawn", "typeLimit": {
-            "monster": 30
+            "monster": 50
           },
           "entityLimit": {
             "Item": 300,
@@ -84,7 +99,22 @@
             "Squid": 5,
             "EntityHorse" : 5,
             "Wolf" : 5,
-            "Ozelot": 5
+            "Ozelot": 5,
+            "Villager": 5,
+            "arsmagica2.MobDryad": 2,
+            "TConstruct.EdibleSlime": 5,
+            "TConstruct.KingSlime": 2,
+            "WitherBoss" : -1,
+            "arsmagica2.BossEnderGuardian": -1,
+            "arsmagica2.BossWaterGuardian": -1,
+            "arsmagica2.BossArcaneGuardian": -1,
+            "arsmagica2.BossNatureGuardian": -1,
+            "arsmagica2.BossEarthGuardian": -1,
+            "arsmagica2.BossFireGuardian": -1,
+            "arsmagica2.BossAirGuardian": -1,
+            "arsmagica2.BossLightningGuardian": -1,
+            "arsmagica2.BossLifeGuardian": -1,
+            "arsmagica2.BossWinterGuardian": -1
           }
         }
       ]
@@ -104,7 +134,7 @@
             { "type": "knockback", "multiplier": 0.1, "side":"all" }
         ]},
         { "type": "entityspawn", "typeLimit": {
-            "monster": 30
+            "monster": 50
           },
           "entityLimit": {
             "Item": 300,
@@ -117,7 +147,22 @@
             "Squid": 5,
             "EntityHorse" : 5,
             "Wolf" : 5,
-            "Ozelot": 5
+            "Ozelot": 5,
+            "Villager": 5,
+            "arsmagica2.MobDryad": 2,
+            "TConstruct.EdibleSlime": 5,
+            "TConstruct.KingSlime": 2,
+            "WitherBoss" : -1,
+            "arsmagica2.BossEnderGuardian": -1,
+            "arsmagica2.BossWaterGuardian": -1,
+            "arsmagica2.BossArcaneGuardian": -1,
+            "arsmagica2.BossNatureGuardian": -1,
+            "arsmagica2.BossEarthGuardian": -1,
+            "arsmagica2.BossFireGuardian": -1,
+            "arsmagica2.BossAirGuardian": -1,
+            "arsmagica2.BossLightningGuardian": -1,
+            "arsmagica2.BossLifeGuardian": -1,
+            "arsmagica2.BossWinterGuardian": -1
           }
         }
       ]
