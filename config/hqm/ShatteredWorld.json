@@ -3740,8 +3740,8 @@
           "tasks": [
             {
               "id": "task000",
-              "type": "CRAFT",
-              "name": "Crafting Task",
+              "type": "DETECT",
+              "name": "Detection Task",
               "description": "Der Kuehlturm (cooling tower) dient zum abkuehlen heisser Fluessigkeiten, was sonst!",
               "requirements": [
                 {
@@ -14476,14 +14476,6 @@
               "description": "Die wirst du sicher nur in einem Flachlandbiom finden.",
               "mobs": [
                 {
-                  "id": "mob000",
-                  "name": "Kobold",
-                  "icon": "plainsmobs:plainsegg size(1) dmg(0)",
-                  "mob": "plainsmobs.kobold",
-                  "count": 1,
-                  "exact": false
-                },
-                {
                   "id": "mob001",
                   "name": "Ventoraptor",
                   "icon": "plainsmobs:plainsegg size(1) dmg(1)",
@@ -14539,14 +14531,6 @@
                   "name": "Zoataur",
                   "icon": "plainsmobs:plainsegg size(1) dmg(4)",
                   "mob": "plainsmobs.zoataur",
-                  "count": 1,
-                  "exact": false
-                },
-                {
-                  "id": "mob001",
-                  "name": "Roc",
-                  "icon": "plainsmobs:plainsegg size(1) dmg(5)",
-                  "mob": "plainsmobs.roc",
                   "count": 1,
                   "exact": false
                 }
