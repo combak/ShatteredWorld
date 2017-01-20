@@ -411,7 +411,7 @@ val tConstructAddBasinRecipes = [
   <Avaritia:Resource_Block>,                    /* 21 - Neutronium Block */
 ] as IItemStack[];
 
-val tConstructAddBasinPlateRecipes = [
+val tConstructAddTablePlateRecipes = [
   <ModularMachines:component.plates:1>,	    /* 0 - Iron Plate */
   <ModularMachines:component.plates:2>,	    /* 1 - Tin Plate */
   <ModularMachines:component.plates:3>,	    /* 2 - Copper Plate */
@@ -491,6 +491,14 @@ for i, entry in tConstructAddTableRecipes
   mods.tconstruct.Casting.addTableRecipe( output, fluid, cast, false, 20 );
 }
 
+for i, entry in tConstructAddTablePlateRecipes
+{
+  var output	= entry;
+  var fluid	= tconstructAddPlateFluid[ i ];
+  
+  mods.tconstruct.Casting.addTableRecipe( output, fluid, amtPanClay, false, 20 );
+}
+
 # Add Basin Casting
 for i, entry in tConstructAddBasinRecipes
 {
@@ -500,13 +508,6 @@ for i, entry in tConstructAddBasinRecipes
   mods.tconstruct.Casting.addBasinRecipe( output, fluid, null, false, 20 );
 }
 
-for i, entry in tConstructAddBasinPlateRecipes
-{
-  var output	= entry;
-  var fluid	= tconstructAddPlateFluid[ i ];
-  
-  mods.tconstruct.Casting.addBasinRecipe( output, fluid, amtPanClay, false, 20 );
-}
 
 #Circiut plates
 mods.tconstruct.Casting.addTableRecipe( projredCircuitPlate, frCopper * 16, vanillaClay, true, 20 );
