@@ -1,21 +1,24 @@
+import minetweaker.item.IItemStack;
 ########################################################################################################################
-# Blocks
-########################################################################################################################
-
-val backpackQuantumChest = <backpacks16840:quantum_chest>;
-
-########################################################################################################################
-# Items
+# Items/Blocks
 ########################################################################################################################
 
-val backpackRestorer = <backpacks16840:backpack_restorer>;
+val backpackItems = [
+    <backpacks16840:backpack:*>,
+    <backpacks16840:backpack_restorer>,
+    <backpacks16840:quantum_chest>,
+    <backpacks16840:backpack_pouch>,
+    <backpacks16840:backpack_resizer>,
+    <backpacks16840:quantum_backpack>
+] as IItemStack[];
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shaped
 ########################################################################################################################
 
-# Remove Quantum Chest
-recipes.remove( backpackQuantumChest );
-
-# Remove Backpack Restorer 
-recipes.remove( backpackRestorer );
+# Remove Items
+for item in backpackItems
+{
+    recipes.remove( item );
+    item.addTooltip( format.red( "ACHTUNG! Die Backpack Mod wird mit Version 1.2.0 entfernt!" ) );
+}
