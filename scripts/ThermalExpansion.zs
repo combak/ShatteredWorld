@@ -125,6 +125,48 @@ val odGlassHard                 = <ore:blockGlassHardened>;
 val odGlass                     = <ore:blockGlass>;
 
 ########################################################################################################################
+# (Mixed) Data Structures - Sawmill - Remove
+########################################################################################################################
+val thermExpSawmillRemove = [
+	<harvestcraft:pamMaple>,    /* 2 Maple Wood (Pams HarvestCraft) */
+	<harvestcraft:pamPaperbark> /* 3 Paper Wood (Pams HarvestCraft) */
+] as IIngredient[];
+
+########################################################################################################################
+# (Mixed) Data Structures - Sawmill -Add
+########################################################################################################################
+val thermExpSawmillAdd    = [
+    <Forestry:logs:22>,         /* 1 Maple Wood (Forestry)          */
+	<harvestcraft:pamMaple>,    /* 2 Maple Wood (Pams HarvestCraft) */
+	<harvestcraft:pamPaperbark> /* 3 Paper Wood (Pams HarvestCraft) */
+] as IItemStack[];
+
+val thermExpSawmillEnergy = [
+800,                            /* 1 Maple Wood (Forestry)          */
+800,                            /* 2 Maple Wood (Pams HarvestCraft) */
+800,                            /* 3 Paper Wood (Pams HarvestCraft) */
+]  as int[];
+
+val thermExpSawmillChance =[
+10,                             /* 1 Maple Wood (Forestry)          */
+10,                             /* 2 Maple Wood (Pams HarvestCraft) */
+5,                              /* 3 Paper Wood (Pams HarvestCraft) */
+] as int[];
+
+val thermExpSawmillOutput1 = [
+<Forestry:planks:22>*6,        /* 1 Maple Planks (Forestry)         */
+<minecraft:planks:1>*6,        /* 2 Spruce Planks (Minecraft)       */
+<minecraft:planks:3>*6         /* 3 Jungle Planks (Minecraft)       */
+] as IItemStack[];
+
+val thermExpSawmillOutput2 =[
+<harvestcraft:maplesyrupItem>,  /*1 MapleSyrup (Pams HarvestCraft)  */
+<harvestcraft:maplesyrupItem>,  /*2 MapleSyrup (Pams HarvestCraft)  */
+<minecraft:paper>,              /*3 Paper      (Minecraft)          */
+] as IItemStack[];
+  
+
+########################################################################################################################
 # (Mixed) Data Structures - Pulverizer - Remove 
 ########################################################################################################################
 
@@ -276,6 +318,23 @@ mods.thermalexpansion.Crucible.addRecipe( 320000, <minecraft:cobblestone>, <liqu
 mods.thermalexpansion.Crucible.addRecipe( 300000, <minecraft:stone>, <liquid:lava> * 250 );
 mods.thermalexpansion.Crucible.addRecipe( 240000, <minecraft:obsidian>, <liquid:lava> * 250 );
 mods.thermalexpansion.Crucible.addRecipe( 230000, <minecraft:netherrack>, <liquid:lava> * 250 );
+
+########################################################################################################################
+# Machine - Sawmill
+########################################################################################################################
+for remove in thermExpSawmillRemove
+{
+    mods.thermalexpansion.Sawmill.removeRecipe( remove );
+}
+for i, replace in thermExpSawmillAdd
+{
+  var energy	= thermExpSawmillEnergy[ i ];
+  var chance	= thermExpSawmillChance[ i ];
+  var output1	= thermExpSawmillOutput1[ i ];
+  var output2	= thermExpSawmillOutput2[ i ];
+
+  mods.thermalexpansion.Sawmill.addRecipe( energy, replace, output1, output2, chance );
+}
 
 ########################################################################################################################
 # Custom Recipes Shaped
