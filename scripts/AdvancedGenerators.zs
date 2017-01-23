@@ -5,6 +5,9 @@ import minetweaker.item.IItemStack;
 # Blocks
 ########################################################################################################
 
+# Buildcraft
+val buildCraftPump              =  <BuildCraft|Factory:pumpBlock>;
+
 # Buildcraft Additions
 val bcAdditionCoilLava              = <bcadditions:blockCoilLava>;
 val bcAdditionCoilKinetic           = <bcadditions:blockCoilKinetic>;
@@ -27,6 +30,8 @@ val advGeneValveItemIn			= <advgenerators:ItemInput>;
 val advGeneValveItemOut			= <advgenerators:ItemOutput>;
 val advGeneFuelMixer            = <advgenerators:EfficiencyUpgradeTier1>;
 val advGeneCompressor           = <advgenerators:EfficiencyUpgradeTier2>;
+val advGeneValveFluidInPow      = <advgenerators:PressureInput>;
+val advGeneValveFluidOutPow     = <advgenerators:PressureOutputSelect>;
 
 val advGenTurbines = [
   <advgenerators:TurbineIron>,		/* 0 - Iron Turbine */
@@ -53,11 +58,9 @@ val advGeneControllerHeatExchanger	= <advgenerators:HeatExchangerController>;
 val advGeneControllerSteamTurbine	= <advgenerators:SteamTurbineController>;
 val advGeneControllerSyngasProducer	= <advgenerators:SyngasController>;
 
-# Ender Tech
-val enderTechTankValve              = <EnderTech:endertech.enderTankPart:6>;
-val enderTechTankFrame              = <EnderTech:endertech.enderTankPart>;
-
-
+# Pressure Pipes
+val pressPipesTankOutPow              = <pressure:TankFluidAutoOutput>;
+val pressPipesTankBlock               = <pressure:TankBlock>;
 
 ########################################################################################################
 # Items
@@ -146,6 +149,16 @@ val modMachinesPlateIron            = <ModularMachines:component.plates:1>;
 # Vanilla
 
 val vanillaredstoneDust             = <minecraft:redstone>;
+
+# Pressure Pipes
+
+val pressPipesInterfaceSystem    = <pressure:Interface>;
+
+########################################################################################################
+# Oredict
+########################################################################################################
+val odPlateSteel                  = <ore:plateSteel>;
+
 ########################################################################################################
 # Custom Crafting Recipes - Shaped
 ########################################################################################################
@@ -165,7 +178,7 @@ recipes.remove( advGeneFrameIron );
 recipes.addShaped ( advGeneFrameIron, [ [ buildCraftWireRed, modMachinesPlateIron, buildCraftWireBlue], [ modMachinesPlateIron, null, modMachinesPlateIron],[ buildCraftWireGreen, modMachinesPlateIron, buildCraftWireYellow] ]);
 
 recipes.remove( advGeneFluxGenerator );
-recipes.addShaped( advGeneFluxGenerator, [ [ advGeneFrameIron, advGenePowerIO , advGeneFrameIron ], [ projectRedChipSilicon, enderioChassis, buildCraftChipEmerald ],  [ advGeneFrameIron, bcAdditionCoilKinetic, advGeneFrameIron] ]);
+recipes.addShaped( advGeneFluxGenerator, [ [ odPlateSteel, advGenePowerIO , odPlateSteel ], [ projectRedChipSilicon, enderioChassis, buildCraftChipEmerald ],  [ odPlateSteel, bcAdditionCoilKinetic, odPlateSteel] ]);
 
 recipes.remove( advGeneValveFuidIn );
 recipes.addShaped( advGeneValveFuidIn,[ [ null, null , null ], [ buildcraftFluidPipeEmerald, thermFoundGearInvar, buildcraftFluidPipeGold ], [ null, enderioChassis, null ] ]);
@@ -179,21 +192,29 @@ recipes.addShaped( advGeneValveItemIn, [ [ null, null , null ], [ thermDynaPipeI
 recipes.remove(advGeneValveItemOut);
 recipes.addShaped( advGeneValveItemOut, [ [ null, null , null ], [ thermDynaPipeItemImpulse, bcAdditionUpgradeEject, thermDynaPipeItemImpulse ], [ null, enderioChassis, null ] ]);
 
+recipes.remove (advGeneValveFluidInPow);
+recipes.addShaped (advGeneValveFluidInPow,[[odPlateSteel,advGeneValveAdv,odPlateSteel],[odPlateSteel,buildCraftPump,odPlateSteel],[odPlateSteel,pressPipesInterfaceSystem,odPlateSteel]]);
+recipes.addShapeless (advGeneValveFluidInPow,[advGeneValveFluidOutPow]);
+
+recipes.remove (advGeneValveFluidOutPow);
+recipes.addShaped (advGeneValveFluidOutPow,[[odPlateSteel,pressPipesInterfaceSystem,odPlateSteel],[odPlateSteel,buildCraftPump,odPlateSteel],[odPlateSteel,advGeneValveAdv,odPlateSteel]]);
+recipes.addShapeless (advGeneValveFluidOutPow,[advGeneValveFluidInPow]);
+
 
 recipes.remove( advGeneFuelTank );
-recipes.addShaped( advGeneFuelTank, [ [ advGeneFrameIron, tConstructGlassPane , advGeneFrameIron ], [ tConstructGlassPane, enderioTank, tConstructGlassPane ], [ advGeneFrameIron, buildcraftFluidPipeEmerald, advGeneFrameIron ] ]);
+recipes.addShaped( advGeneFuelTank, [ [ pressPipesTankBlock, tConstructGlassPane , pressPipesTankBlock ], [ tConstructGlassPane, enderioTank, tConstructGlassPane ], [ pressPipesTankBlock, buildcraftFluidPipeEmerald, pressPipesTankBlock ] ]);
 
 recipes.remove( advGeneHeatingChamber );
-recipes.addShaped( advGeneHeatingChamber, [ [ sJetpacksDarkSteelPlating, bcAdditionCoilKinetic , sJetpacksDarkSteelPlating ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ sJetpacksDarkSteelPlating, bcAdditionCoilKinetic, sJetpacksDarkSteelPlating ] ]);
+recipes.addShaped( advGeneHeatingChamber, [ [ odPlateSteel, bcAdditionCoilKinetic , odPlateSteel ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ odPlateSteel, bcAdditionCoilKinetic, odPlateSteel ] ]);
 
 recipes.remove( advGeneHeatExchanger );
-recipes.addShaped( advGeneHeatExchanger, [ [ advGeneFrameIron, enderTechTankValve , advGeneFrameIron ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ advGeneFrameIron, buildCraftChipDiamond, advGeneFrameIron ] ]);
+recipes.addShaped( advGeneHeatExchanger, [ [ odPlateSteel, pressPipesTankOutPow , advGeneFrameIron ], [ bcAdditionCoilLava, enderioChassis, bcAdditionCoilLava ], [ advGeneFrameIron, buildCraftChipDiamond, odPlateSteel ] ]);
 
 recipes.remove( advGeneSensorModule );
-recipes.addShaped( advGeneSensorModule, [ [ advGeneFrameIron, buildCraftChipDiamond , advGeneFrameIron ], [ buildCraftChipGold, projectRedChipEnergized, buildCraftChipQuarz ], [ advGeneFrameIron, buildCraftChipEmerald, advGeneFrameIron] ]);
+recipes.addShaped( advGeneSensorModule, [ [ odPlateSteel, buildCraftChipDiamond , odPlateSteel ], [ buildCraftChipGold, projectRedChipEnergized, buildCraftChipQuarz ], [ odPlateSteel, buildCraftChipEmerald, odPlateSteel] ]);
 
 recipes.remove( advGeneMixingChamber );
-recipes.addShaped( advGeneMixingChamber, [ [ advGeneFrameIron, projectRedChipSilicon , advGeneFrameIron ], [ advGeneValve, bcAdditionGrindingWheel, advGeneValve ], [ advGeneFrameIron, projectRedConductivePlate, advGeneFrameIron ] ]);
+recipes.addShaped( advGeneMixingChamber, [ [ odPlateSteel, projectRedChipSilicon , advGeneFrameIron ], [ advGeneValve, bcAdditionGrindingWheel, advGeneValve ], [ advGeneFrameIron, projectRedConductivePlate,odPlateSteel ] ]);
 
 recipes.remove( advGenePowerCapacitorRedstone );
 recipes.addShaped( advGenePowerCapacitorRedstone, [ [ null, advGenePowerIO , null ], [ projectRedConductivePlate, thermExpCellRedstone, advGeneControlCircuit ], [ bcAdditionCoilKinetic, enderioChassis, bcAdditionCoilKinetic ] ]);
@@ -205,22 +226,22 @@ recipes.remove( advGenePowerCapacitorDense );
 recipes.addShaped( advGenePowerCapacitorDense, [ [ buildCraftChipPulsating, advGenePowerIO , buildCraftChipPulsating ], [ bcAdditionCoilKinetic, advGenePowerCapacitorAdvanced, bcAdditionCoilKinetic ], [ buildCraftChipComp, advGeneControlCircuit, buildCraftChipComp ] ]);
 
 recipes.remove( advGeneControllerGasTurbine );
-recipes.addShaped( advGeneControllerGasTurbine, [ [ enderTechTankFrame, bcAdditionCoilKinetic , enderTechTankFrame ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ enderTechTankFrame, buildCraftChipQuarz, enderTechTankFrame ] ]);
+recipes.addShaped( advGeneControllerGasTurbine, [ [ pressPipesTankBlock, bcAdditionCoilKinetic , pressPipesTankBlock ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ pressPipesTankBlock, buildCraftChipQuarz, pressPipesTankBlock ] ]);
 
 recipes.remove( advGeneControllerHeatExchanger );
-recipes.addShaped( advGeneControllerHeatExchanger, [ [ enderTechTankFrame, bcAdditionCoilKinetic , enderTechTankFrame ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ enderTechTankFrame, buildCraftChipGold, enderTechTankFrame ] ]);
+recipes.addShaped( advGeneControllerHeatExchanger, [ [ pressPipesTankBlock, bcAdditionCoilKinetic , pressPipesTankBlock ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ pressPipesTankBlock, buildCraftChipGold, pressPipesTankBlock] ]);
 
 recipes.remove( advGeneControllerSteamTurbine );
-recipes.addShaped( advGeneControllerSteamTurbine, [ [ enderTechTankFrame, bcAdditionCoilKinetic , enderTechTankFrame ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ enderTechTankFrame, buildCraftChipDiamond, enderTechTankFrame ] ]);
+recipes.addShaped( advGeneControllerSteamTurbine, [ [ pressPipesTankBlock, bcAdditionCoilKinetic , pressPipesTankBlock ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ pressPipesTankBlock, buildCraftChipDiamond, pressPipesTankBlock ] ]);
 
 recipes.remove( advGeneControllerSyngasProducer );
-recipes.addShaped( advGeneControllerSyngasProducer, [ [ enderTechTankFrame, bcAdditionCoilKinetic , enderTechTankFrame ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ enderTechTankFrame, buildCraftChipEmerald, enderTechTankFrame ] ]);
+recipes.addShaped( advGeneControllerSyngasProducer, [ [ pressPipesTankBlock, bcAdditionCoilKinetic , pressPipesTankBlock ], [ thermDynaPipeFluidHard, dracEvoCoreDraconic, thermDynaPipeFluidHard ], [ pressPipesTankBlock, buildCraftChipEmerald, pressPipesTankBlock ] ]);
 
 recipes.remove( advGeneFuelMixer);
-recipes.addShaped(advGeneFuelMixer, [[advGeneFrameIron, thermExpServo, advGeneFrameIron], [advGeneValve, forestryWovenSilk, advGeneTubingIron],[advGeneFrameIron, thermExpServo, advGeneFrameIron]]);
+recipes.addShaped(advGeneFuelMixer, [[odPlateSteel, thermExpServo, odPlateSteel], [advGeneValve, forestryWovenSilk, advGeneTubingIron],[odPlateSteel, thermExpServo, odPlateSteel]]);
 
 recipes.remove( advGeneCompressor);
-recipes.addShaped (advGeneCompressor, [[advGeneFrameIron, thermExpServo, advGeneFrameIron], [advGeneValveAdv, null, advGeneValveAdv], [advGeneFrameIron, advGeneTubingIron, advGeneFrameIron]]);
+recipes.addShaped (advGeneCompressor, [[odPlateSteel, thermExpServo, odPlateSteel], [advGeneValveAdv, null, advGeneValveAdv], [odPlateSteel, advGeneTubingIron, odPlateSteel]]);
 
 recipes.remove (advGeneValve);
 recipes.addShaped (advGeneValve, [[null, advGeneTubingIron, null],[null, modMachinesPlateIron, null], [null,thermDynPipeFluid, null]]);
