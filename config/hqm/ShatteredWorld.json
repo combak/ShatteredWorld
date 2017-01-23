@@ -832,7 +832,7 @@
         {
           "id": "quest019",
           "name": "Die Giesserei",
-          "description": "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
+          "description": "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch die richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
           "uuid": "66d54891-5c7e-4d71-952f-36031a326597",
           "x": 174,
           "y": 140,
@@ -938,15 +938,10 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, fehlt fast nichts zu unserem Glueck. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!\nEs gibt auch eine Schnelltaste, um den ersten Rucksack im Inventar zu oeffnen.",
+              "description": "Ein Rucksack ist genau das Richtige, was wir brauchen.",
               "requirements": [
                 {
-                  "item": "backpacks16840:backpack size(1) dmg(3)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "backpacks16840:backpack_pouch size(1) dmg(0)",
+                  "item": "ExtraUtilities:golden_bag size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -954,7 +949,7 @@
             }
           ],
           "reward": [
-            "backpacks16840:backpack_pouch size(3) dmg(0)"
+            "minecraft:gold_block size(2) dmg(0)"
           ]
         },
         {
@@ -2749,7 +2744,15 @@
                   "item": "Forestry:factory size(1) dmg(7)",
                   "required": 1,
                   "precision": "PRECISE"
-                },
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jetzt nur noch die richtigen Stoffe, um die Wolken zu impfen und schon kann die Wettermanipulation los gehen.",
+              "requirements": [
                 {
                   "item": "Forestry:iodineCapsule size(1) dmg(0)",
                   "required": 8,
