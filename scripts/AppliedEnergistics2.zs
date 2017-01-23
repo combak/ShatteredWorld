@@ -30,13 +30,19 @@ val appEngCableFluix		= <appliedenergistics2:item.ItemMultiPart:16>;
 val appEngCalculationProcessor	= <appliedenergistics2:item.ItemMultiMaterial:23>;
 val appEngEngineerongProcessor	= <appliedenergistics2:item.ItemMultiMaterial:24>;
 val appEngSkyStoneDust		= <appliedenergistics2:item.ItemMultiMaterial:45>;
+val appEngPatternSilicon    = <appliedenergistics2:item.ItemMultiMaterial:19>;
 
 # Vanilla
 val vanillaIronIngot = <minecraft:iron_ingot>;
 
 # Pams
 val harvCraftCorn = <harvestcraft:cornItem>;
+# Forest Day
 val forestDayStarch = <ForestDay:nature:9>;
+val forDayStarchHardened = <ForestDay:nature:11>;
+
+# Modular Maschines
+val modMachinesPlatePlastic  = <ModularMachines:component.plates:6>;
 
 ########################################################################################################################
 # Custom Crafting Recipes - Shaped
@@ -64,6 +70,8 @@ mods.appeng.Inscriber.removeRecipe( appEngInscriberSilicon );
 mods.appeng.Inscriber.removeRecipe( appEngInscriberLogic );
 mods.appeng.Inscriber.removeRecipe( appEngInscriberCalculation );
 mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
+mods.appeng.Inscriber.addRecipe ([forDayStarchHardened],appEngPatternSilicon,null,modMachinesPlatePlastic,"Press");
+
 
 ########################################################################################################################
 # Machine - Grinder
