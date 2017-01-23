@@ -489,7 +489,7 @@ for i, entry in tConstructAddTableRecipes
   var fluid	= tConstructAddTableRecipesFluid[ i ];
   
   mods.tconstruct.Casting.addTableRecipe( output, fluid, cast, false, 20 );
-}
+} 
 
 for i, entry in tConstructAddTablePlateRecipes
 {
@@ -497,8 +497,7 @@ for i, entry in tConstructAddTablePlateRecipes
   var fluid	= tconstructAddPlateFluid[ i ];
   
   mods.tconstruct.Casting.addTableRecipe( output, fluid, amtPanClay, false, 20 );
-}
-
+} 
 # Add Basin Casting
 for i, entry in tConstructAddBasinRecipes
 {
@@ -507,6 +506,7 @@ for i, entry in tConstructAddBasinRecipes
   
   mods.tconstruct.Casting.addBasinRecipe( output, fluid, null, false, 20 );
 }
+
 
 
 #Circiut plates
