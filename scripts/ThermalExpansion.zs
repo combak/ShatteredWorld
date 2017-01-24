@@ -136,33 +136,96 @@ val thermExpSawmillRemove = [
 # (Mixed) Data Structures - Sawmill -Add
 ########################################################################################################################
 val thermExpSawmillAdd    = [
-    <Forestry:logs:22>,         /* 1 Maple Wood (Forestry)          */
-	<harvestcraft:pamMaple>,    /* 2 Maple Wood (Pams HarvestCraft) */
-	<harvestcraft:pamPaperbark> /* 3 Paper Wood (Pams HarvestCraft) */
+    <Forestry:logs:22>,          /* 1 Maple Wood (Forestry)          */
+	<harvestcraft:pamMaple>,     /* 2 Maple Wood (Pams HarvestCraft) */
+	<harvestcraft:pamPaperbark>, /* 3 Paper Wood (Pams HarvestCraft) */
+	<Forestry:logs:16>,          /* 4 Mahoe Wood (Forestry)          */
+	<Forestry:logs:17>,          /* 5 Poplar Wood(Forestry)          */
+	<Forestry:logs:18>,          /* 6 Palm Wood  (Foresty)           */
+	<Forestry:logs:19>,          /* 7 Papaya Wood(Forestry)          */
+	<Forestry:logs:20>,          /* 8 Pine Wood (Forestry)           */
+	<Forestry:logs:21>,          /* 9 Plum Wood (Forestry)           */
+	<Forestry:logs:23>,          /*10 Citrus Wood (Forestry)         */
+	<Forestry:logs:24>,          /*11 Sequioa Wood (Forestry)        */
+	<Forestry:logs:25>,          /*12 Ipe Wood (Forestry)            */
+	<Forestry:logs:26>,          /*13Padauk Wood (Forestry)          */
+	<Forestry:logs:27>,          /*14Cocobolo Wood (Forestry)        */
+	<Forestry:logs:28>           /*15Zebra Wood (Forestry)           */	
 ] as IItemStack[];
 
 val thermExpSawmillEnergy = [
-800,                            /* 1 Maple Wood (Forestry)          */
-800,                            /* 2 Maple Wood (Pams HarvestCraft) */
-800,                            /* 3 Paper Wood (Pams HarvestCraft) */
+800,                             /* 1 Maple Wood (Forestry)          */
+800,                             /* 2 Maple Wood (Pams HarvestCraft) */
+800,                             /* 3 Paper Wood (Pams HarvestCraft) */
+800,                             /* 4 Mahoe Wood (Forestry)          */
+800,	                         /* 5 Poplar Wood(Forestry)          */
+800,	                         /* 6 Palm Wood  (Foresty)           */
+800,	                         /* 7 Papaya Wood(Forestry)          */
+800,	                         /* 8 Pine Wood (Forestry)           */
+800,                             /* 9 Plum Wood (Forestry)           */
+800,	                         /*10 Citrus Wood (Forestry)         */
+800,                             /*11 Sequioa Wood (Forestry)        */
+800,	                         /*12 Ipe Wood (Forestry)            */
+800,	                         /*13Padauk Wood (Forestry)          */
+800,	                         /*14Cocobolo Wood (Forestry)        */
+800,	                         /*15Zebra Wood (Forestry)           */       
 ]  as int[];
 
 val thermExpSawmillChance =[
-10,                             /* 1 Maple Wood (Forestry)          */
-10,                             /* 2 Maple Wood (Pams HarvestCraft) */
-5,                              /* 3 Paper Wood (Pams HarvestCraft) */
+val thermExpSawmillChance =[
+10,                              /* 1 Maple Wood (Forestry)          */
+10,                              /* 2 Maple Wood (Pams HarvestCraft) */
+5,                               /* 3 Paper Wood (Pams HarvestCraft) */
+100,                             /* 4 Mahoe Wood (Forestry)          */
+100,	                         /* 5 Poplar Wood(Forestry)          */
+100,	                         /* 6 Palm Wood  (Foresty)           */
+100,	                         /* 7 Papaya Wood(Forestry)          */
+100,	                         /* 8 Pine Wood (Forestry)           */
+100,                             /* 9 Plum Wood (Forestry)           */
+100,	                         /*10 Citrus Wood (Forestry)         */
+100,                             /*11 Sequioa Wood (Forestry)        */
+100,	                         /*12 Ipe Wood (Forestry)            */
+100,	                         /*13Padauk Wood (Forestry)          */
+100,	                         /*14Cocobolo Wood (Forestry)        */
+100,	                         /*15Zebra Wood (Forestry)           */
 ] as int[];
 
 val thermExpSawmillOutput1 = [
-<Forestry:planks:22>*6,        /* 1 Maple Planks (Forestry)         */
-<minecraft:planks:1>*6,        /* 2 Spruce Planks (Minecraft)       */
-<minecraft:planks:3>*6         /* 3 Jungle Planks (Minecraft)       */
+val thermExpSawmillOutput1 = [
+<Forestry:planks:22>*6,         /* 1 Maple Planks (Forestry)         */
+<minecraft:planks:1>*6,         /* 2 Spruce Planks (Minecraft)       */
+<minecraft:planks:3>*6,         /* 3 Jungle Planks (Minecraft)       */
+<Forestry:planks:16>*6,         /* 4 Mahoe Planks (Forestry)         */
+<Forestry:planks:17>*6,         /* 5 Poplar Planks (Forestry)        */
+<Forestry:planks:18>*6,         /* 6 Palm Planks (Forestry)          */
+<Forestry:planks:19>*6,         /* 7 Papaya Planks (Forestry)        */
+<Forestry:planks:20>*6,         /* 8 Pine Planks (Forestry)          */
+<Forestry:planks:21>*6,         /* 9 Plum Planks(Forestry)           */
+<Forestry:planks:23>*6,         /*10 Citrus Planks (Forestry)        */
+<Forestry:planks:24>*6,         /*11 Giant Sequioa (Forestry)        */
+<Forestry:planks:25>*6,         /*12 Ipe Planks (Forestry)           */
+<Forestry:planks:26>*6,         /*13 Padauk (Forestry)               */
+<Forestry:planks:27>*6,         /*14 Cocobolo (Forestry)             */
+<Forestry:planks:28>*6          /*15 Zebra Planks                    */
 ] as IItemStack[];
 
 val thermExpSawmillOutput2 =[
-<harvestcraft:maplesyrupItem>,  /*1 MapleSyrup (Pams HarvestCraft)  */
-<harvestcraft:maplesyrupItem>,  /*2 MapleSyrup (Pams HarvestCraft)  */
-<minecraft:paper>,              /*3 Paper      (Minecraft)          */
+val thermExpSawmillOutput2 =[
+<harvestcraft:maplesyrupItem>,   /*1 MapleSyrup (Pams HarvestCraft)  */
+<harvestcraft:maplesyrupItem>,   /*2 MapleSyrup (Pams HarvestCraft)  */
+<minecraft:paper>,               /*3 Paper      (Minecraft)          */
+<ThermalExpansion:material:512>, /*4 Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*5 Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*6 Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*7 Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*8 Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*9 Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*10Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*11Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*12Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*13Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*14Sawdust    (Thermal Expansion)  */
+<ThermalExpansion:material:512>, /*15Sawdust    (Thermal Expansion)  */
 ] as IItemStack[];
   
 
