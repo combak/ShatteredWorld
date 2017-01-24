@@ -44,7 +44,7 @@
 - fluxed-core-1.7.10-1.0.9.jar
 - forbidden magic-1.7.10-0.574-customized.jar
 - forest-mods-1.7.10-0.4.16-beta.jar
-- forestry-1.7.10-4.2.5.53.jar
+- forestry_1.7.10-4.2.16.64.jar
 - fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
 - gardenstuff-1.7.10-1.7.0.jar
@@ -78,6 +78,7 @@
 - opis-1.7.10-1.2.5.jar
 - pams-harvestcraft-1.7.10-lb.jar
 - perfectspawn-1.7.10-1.1.jar
+- pressure-1.7.10-1.3.0.130.jar
 - projectred-base-1.7.10-4.6.2.82.jar
 - projectred-compat-1.7.10-4.6.2.82.jar
 - projectred-integration-1.7.10-4.6.2.82.jar
@@ -91,6 +92,7 @@
 - storagedrawers-forestry-1.7.10-1.1.2.jar
 - tconstruct-1.7.10-1.8.8.jar
 - thaumcraft-1.7.10-4.2.3.5.jar
+- thaumcraft-inventoryscan-1.7.10-1.0.11.jar
 - thaumcraftmobaspects-1.7.10-1.7.2-2A.jar
 - thaumcraftneiplugin-1.7.10-1.7a.jar
 - thaumcraft-nodetracker-1.7.10-1.1.2.jar
@@ -99,6 +101,7 @@
 - thermalexpansion-1.7.10-4.1.4-247.jar
 - thermalfoundation-1.7.10-1.2.5-115.jar
 - tictooltips-1.7.10-1.2.4.jar
+- tinkerio-1.7.10-1.5.0.jar
 - tmechworks-1.7.10-0.2.15.106.jar
 - travellersgear-1.7.10-1.16.6.jar
 - tsteelworks-1.7.10-1.1.2-20.jar

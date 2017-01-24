@@ -558,6 +558,13 @@ minecraft original sources.
 <!-- - Files: https://minecraft.curseforge.com/projects/perfect-spawn/files -->
 - Licence: https://github.com/lumien231/Perfect-Spawn/blob/master/LICENSE
 
+**Pressure Pipes**
+> Minecraft Mod Public License
+
+- Author: bdew
+- Files: https://bdew.net/pressure/
+- Licence: https://github.com/bdew/pressure/blob/mc1.10.2/MMPL-1.0.txt
+
 **ProjectRed**
 > By default this Mod may only be distributed on its own by the Developers. It may be included in a mod pack with other mods, as long as it is (a)non-profit and (b)legal. URL shorteners or other attempts to make money is strictly forbidden without advance written permission.
 
@@ -640,6 +647,13 @@ minecraft original sources.
 - Files: http://minecraft.curseforge.com/mc-mods/224237-forbidden-magic/files
 - Permission: http://minecraft.curseforge.com/mc-mods/224237-forbidden-magic
 
+**Thaumcraft - Inventory Scanning**
+> The MIT License (MIT)
+
+- Author: BlayTheNinth
+- Files: https://minecraft.curseforge.com/projects/thaumcraft-inventory-scanning/files
+- Licence: https://github.com/blay09/TCInventoryScanning/blob/master/LICENSE
+
 **Thaumcraft - Magistics**
 >  The GNU General Public License
 
@@ -711,6 +725,13 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 - Authors: mDiyo, boni, jadedcat
 - Files: http://minecraft.curseforge.com/mc-mods/74072-tinkers-construct/files
 - Licence: https://github.com/SlimeKnights/TinkersConstruct/blob/master/README.md
+
+**Tinker IO**
+>  Creative Commons 3.0 License.
+
+- Author: GKB, frank89722, tokomikea
+- Files: https://minecraft.curseforge.com/projects/tinker-i-o/files
+- Licence: https://github.com/gkbm2013/tinker-IO/blob/master/README.md#about-modpack-and-license
 
 **Tinker's Mechworks**
 > Creative Commons Attribution 3.0 Unported License.

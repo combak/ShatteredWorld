@@ -1,5 +1,23 @@
 # Changelog
 
+# Version 1.1.0
+
+**Config Changes**
+- Questbook fixes
+- Prepare recipes for mod deletitions in Version 1.2.0
+- Change lycanites mob event
+- Don't spawn lycanite mobs in "The Outer Lands" (Thaumcraft) -42 ( see https://github.com/combak/ShatteredWorld/issues/290 )
+- Add Sawmill recipes for Maple and Paperbark ( see https://github.com/combak/ShatteredWorld/issues/249 )
+- Added Hardened Starch Plate to Inscriber
+
+**Mod Additions**
+- Pressure Pipes 1.3.0
+- Thaumcraft - Inventory Scanning 1.0.11
+- Tinker IO 1.5.0
+
+**Mod Updates**
+- Forestry 4.2.5.53 to 4.2.16.64
+
 # Version 1.0.6
 
 **Config Changes**
