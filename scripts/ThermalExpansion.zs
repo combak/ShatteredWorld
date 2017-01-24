@@ -172,7 +172,6 @@ val thermExpSawmillEnergy = [
 ]  as int[];
 
 val thermExpSawmillChance =[
-val thermExpSawmillChance =[
 10,                              /* 1 Maple Wood (Forestry)          */
 10,                              /* 2 Maple Wood (Pams HarvestCraft) */
 5,                               /* 3 Paper Wood (Pams HarvestCraft) */
@@ -191,7 +190,6 @@ val thermExpSawmillChance =[
 ] as int[];
 
 val thermExpSawmillOutput1 = [
-val thermExpSawmillOutput1 = [
 <Forestry:planks:22>*6,         /* 1 Maple Planks (Forestry)         */
 <minecraft:planks:1>*6,         /* 2 Spruce Planks (Minecraft)       */
 <minecraft:planks:3>*6,         /* 3 Jungle Planks (Minecraft)       */
@@ -209,7 +207,6 @@ val thermExpSawmillOutput1 = [
 <Forestry:planks:28>*6          /*15 Zebra Planks                    */
 ] as IItemStack[];
 
-val thermExpSawmillOutput2 =[
 val thermExpSawmillOutput2 =[
 <harvestcraft:maplesyrupItem>,   /*1 MapleSyrup (Pams HarvestCraft)  */
 <harvestcraft:maplesyrupItem>,   /*2 MapleSyrup (Pams HarvestCraft)  */
