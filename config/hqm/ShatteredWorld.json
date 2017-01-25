@@ -6982,7 +6982,7 @@
                   "id": "mob000",
                   "name": "Lightning Guardian",
                   "icon": "arsmagica2:AMSpawnEgg size(1) dmg(21)",
-                  "mob": "arsmagica2.BossAirGuardian",
+                  "mob": "arsmagica2.BossLightningGuardian",
                   "count": 1,
                   "exact": false
                 }
