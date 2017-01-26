@@ -253,7 +253,7 @@ recipes.remove (advGeneControlCircuit);
 AssemblyTable.addRecipe( advGeneControlCircuit, 5000, [ projectRedWireRedAlloy*4, forestryCircuitboardEnh, buildCraftGateBasic*2 ] );
 
 recipes.remove (advGeneTubingIron);
-recipes.addShaped (advGeneTubingIron, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
+recipes.addShaped (advGeneTubingIron*4, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
 
 recipes.remove (advGeneTubingRedstone);
-recipes.addShaped (advGeneTubingRedstone, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickRedstone, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
+recipes.addShaped (advGeneTubingRedstone*4, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickRedstone, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
