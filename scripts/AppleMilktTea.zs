@@ -31,14 +31,13 @@ val odStickCarbon   = <ore:stickCarbon>;
 ########################################################################################################
 # Recipes Shaped
 ########################################################################################################
-
+recipes.remove( amtContainerCoal );
 recipes.remove( amtChargeGen );
 recipes.addShaped( amtChargeGen,[[null, odIngotIron, null ],[null, odGearIron, null],[odIngotIron, amtRedstGel, odIngotIron]]);
 
 ########################################################################################################
 # Recipes Shapeless
 ########################################################################################################
-recipes.removeShapeless( amtContainerCoal );
 recipes.removeShapeless( amtCitrusBattery );
 
 recipes.addShapeless( amtCitrusBattery, [ odCitrus, odNuggetGold, odNuggetIron ] );
