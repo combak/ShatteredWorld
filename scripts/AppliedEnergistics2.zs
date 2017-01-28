@@ -70,7 +70,7 @@ mods.appeng.Inscriber.removeRecipe( appEngInscriberSilicon );
 mods.appeng.Inscriber.removeRecipe( appEngInscriberLogic );
 mods.appeng.Inscriber.removeRecipe( appEngInscriberCalculation );
 mods.appeng.Inscriber.removeRecipe( appEngInscriberEnginering );
-mods.appeng.Inscriber.addRecipe ([forDayStarchHardened],appEngPatternSilicon,null,modMachinesPlatePlastic,"Press");
+mods.appeng.Inscriber.addRecipe ([forDayStarchHardened],appEngPatternSilicon,null,modMachinesPlatePlastic,"Inscribe");
 
 
 ########################################################################################################################
