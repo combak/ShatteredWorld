@@ -17,6 +17,14 @@
       "settings": [
         { "type": "worldProvider", "name": "overworld" }
       ]
+    },
+    {
+      "name": "void",
+      "settings": [
+        { "type": "worldProvider", "name": "overworld" },
+        { "type":"worldType", "name" : "flat" },
+        { "type": "generatorOptions", "value": "255x0" }
+      ]
     }
   ]
 }
