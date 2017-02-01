@@ -93,6 +93,7 @@
       "name": "Hammer",
       "icon": "exnihilo:hammer_stone",
       "toollist": [
+        "exastrisrebirth:itemHammerRF",
         "exnihilo:hammer_diamond",
         "exnihilo:hammer_gold",
         "exnihilo:hammer_iron",
