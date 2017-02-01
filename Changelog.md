@@ -1,5 +1,27 @@
 # Changelog
 
+# Version 1.1.1
+
+**Config Changes**
+- Questbook fixes
+- Add void world template
+- Ex Nihilo Aluminum gravel and sand via Thermal Expansion Pulverizer ( see https://github.com/combak/ShatteredWorld/issues/269 )
+- Add limited blocks to drawbridges blacklist ( see https://github.com/combak/ShatteredWorld/issues/299 )
+- Add Flux-Infused Hammer to Veinminer ( see https://github.com/combak/ShatteredWorld/issues/298 )
+- Allow Vilager in Powered Spawner ( see https://github.com/combak/ShatteredWorld/issues/296 )
+- Fix AE2 Problem ( see https://github.com/combak/ShatteredWorld/issues/283 )
+
+**Mod Updates**
+- AE2Stuff 0.5.0.56 to rv3-0.5.1.9
+- Applied Energistics 2 rv2-stable-10 to rv3-beta-6
+- Thaumic Energistics 0.8.10.10 to 1.0.0.5
+- YADM 0.8.2-cba8745 to 0.8.3-ab34b78
+
+# Version 1.1.0a
+
+**Mod Updates**
+- Ars Magica 2 1.4.0.009 to 1.4.0.009-customized
+
 # Version 1.1.0
 
 **Config Changes**

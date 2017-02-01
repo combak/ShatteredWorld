@@ -2,13 +2,13 @@
 - forge-1.7.10-10.13.4.1614-1.7.10
 
 ## mods
-- ae2stuff-1.7.10-0.5.0.56.jar
+- ae2stuff-1.7.10-rv3-0.5.1.9.jar
 - agricraft-1.7.10-1.5.0.jar
 - animationapi-1.7.10-1.2.4.jar
 - applecore-1.7.10-1.3.2+221.cfd42.jar
 - applemilktea2-1.7.10_2.9m.jar
-- appliedenergistics2-1.7.10-rv2-stable-10.jar
-- arsmagica2-1.7.10-1.4.0.009.jar
+- appliedenergistics2-1.7.10-rv3-beta-6.jar
+- arsmagica2-1.7.10-1.4.0.009-customized.jar
 - automagy-1.7.10-0.28.2.jar
 - autopackager-1.7.10-1.5.9.jar
 - avaritia-1.7.10-1.11.jar
@@ -96,7 +96,7 @@
 - thaumcraftmobaspects-1.7.10-1.7.2-2A.jar
 - thaumcraftneiplugin-1.7.10-1.7a.jar
 - thaumcraft-nodetracker-1.7.10-1.1.2.jar
-- thaumicenergistics-1.7.10-0.8.10.10.jar
+- thaumicenergistics-1.7.10-1.0.0.5.jar
 - thermaldynamics-1.7.10-1.1.0-161.jar
 - thermalexpansion-1.7.10-4.1.4-247.jar
 - thermalfoundation-1.7.10-1.2.5-115.jar
@@ -112,5 +112,5 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.8.2-cba8745.jar
+- yadm-1.7.10-0.8.3-ab34b78.jar
 - zz-backpacks 1.7.10 - 3.1.3.jar
