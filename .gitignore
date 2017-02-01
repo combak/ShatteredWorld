@@ -33,6 +33,8 @@ backup/
 
 # Config
 /config/AppliedEnergistics2/recipes/generated/
+/config/AppliedEnergistics2/recipes/README.html
+/config/AppliedEnergistics2/recipes/items.csv
 /config/draconicevolution/resources/
 /config/MapWriterBlockColours.txt
 /config/MapWriterBlockColourOverrides.txt
