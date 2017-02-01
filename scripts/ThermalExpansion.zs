@@ -242,14 +242,18 @@ val thermExpPulverizerAdd = [
   <Thaumcraft:ItemShard:6>,		/*  1 - Balanced Shard (Thaumcraft) */
   <ForestDay:corn>,			/*  2 - Corn (Forest Day) */
   <harvestcraft:cornItem>,		/*  3 - Corn (HarvestCraft) */
-  <exnihilo:aluminum_dust>  /*4 - Aluminumdust (Ex Nihilo) */
+  <exnihilo:aluminum_dust>,             /*  4 - Aluminumdust (Ex Nihilo) */
+  <exnihilo:aluminum_sand>,             /*  5 - Aluminumsand (Ex Nihilo) */
+  <exnihilo:aluminum_gravel>            /*  6 - Aluminumgravel (Ex Nihilo) */
 ] as IItemStack[];
 
 val thermExpPulverizerEnergy = [
   1600,					/*  1 - Balanced Shard (Thaumcraft) */
   1600,					/*  2 - Corn (Forest Day) */
   1600,					/*  3 - Corn (HarvestCraft) */
-  3200,                 /*  4 - Aluminumdust (Ex Nihilo) */
+  3200,                                 /*  4 - Aluminumdust (Ex Nihilo) */
+  3200,                                 /*  5 - Aluminumsand (Ex Nihilo) */
+  3200                                  /*  6 - Aluminumgravel (Ex Nihilo) */
 
 ] as int[];
 
@@ -257,21 +261,29 @@ val thermExpPulverizerChance = [
   0,					/*  1 - Balanced Shard (Thaumcraft) */
   0,					/*  2 - Corn (Forest Day) */
   0,					/*  3 - Corn (HarvestCraft) */
-  100,                    /*  4 - Aluminumdust (Ex Nihilo) */
+  0,                                    /*  4 - Aluminumdust (Ex Nihilo) */
+  0,                                    /*  5 - Aluminumsand (Ex Nihilo) */
+  0                                     /*  6 - Aluminumgravel (Ex Nihilo) */
 ] as int[];
 
 val thermExpPulverizerOutput1 = [
   <Thaumcraft:ItemResource:14>,		/*  1 - Salis Mundis (Thaumcraft) */
   <ForestDay:nature:9>,			/*  2 - Starch (Forest Day) */
   <ForestDay:nature:9>,			/*  3 - Starch (Forest Day) */
-  <TConstruct:materials:40> * 2         /*  4 - Alumimundust (Tinkers Construct) */
+  <TConstruct:materials:40> * 2,        /*  4 - Alumimundust (Tinkers Construct) */
+  <TConstruct:materials:40> * 2,        /*  5 - Alumimundust (Tinkers Construct) */
+  <TConstruct:materials:40> * 2         /*  6 - Alumimundust (Tinkers Construct) */
 ] as IItemStack[];
 
 val thermExpPulverizerOutput2 = [
   null,					/*  1 - Nothing */ 
   null,					/*  2 - Nothing */ 
   null,					/*  3 - Nothing */
-  null,                                 /*  4 - Nothing */
+  null,					/*  4 - Nothing */
+  null,					/*  5 - Nothing */
+  null				        /*  6 - Nothing */
+ 
+ 
 ] as IItemStack[];
 
 ########################################################################################################################
