@@ -1,5 +1,18 @@
 # Changelog
 
+# Version 1.2.0
+
+**Config Changes**
+- Use remommend server speed setting for Draconic Evolution
+
+**Mod Updates**
+- BiblioCraft 1.11.4 to 1.11.5
+- ExtraCells 2.3.9b188 to 2.3.14b197
+
+**Mod Removed**
+- EnderTech
+- Backpacks
+
 # Version 1.1.1
 
 **Config Changes**

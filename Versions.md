@@ -13,7 +13,7 @@
 - autopackager-1.7.10-1.5.9.jar
 - avaritia-1.7.10-1.11.jar
 - bdlib-1.7.10-1.9.4.109.jar
-- bibliocraft-1.7.10-1.11.4.jar
+- bibliocraft-1.7.10-1.11.5.jar
 - binnie-mods-1.7.10-2.0-pre14.jar
 - binnie-patcher-1.7.10-1.6.jar
 - bloodmagic-1.7.10-1.3.3-17.jar
@@ -34,11 +34,10 @@
 - draconic-evolution-1.7.10-1.0.2h.jar
 - enchiridion-1.7.10-1.2b.jar
 - enderio-1.7.10-2.2.8.381.jar
-- endertech-1.7.10-0.3.2.405.jar
 - eureka-1.7.10-3.0.2.jar
 - ex-astris-rebirth-1.7.10-1.01-45.jar
 - ex-nihilo-1.7.10-1.38-49.jar
-- extracells-1.7.10-2.3.9b188.jar
+- extracells-1.7.10-2.3.14b197.jar
 - extrautilities-1.7.10-1.2.12.jar
 - fastcraft-1.7.10-1.23.jar
 - fluxed-core-1.7.10-1.0.9.jar
@@ -113,4 +112,3 @@
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
 - yadm-1.7.10-0.8.3-ab34b78.jar
-- zz-backpacks 1.7.10 - 3.1.3.jar
