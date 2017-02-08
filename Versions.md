@@ -111,4 +111,4 @@
 - wailaharvestability-1.7.10-1.1.6.jar
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
-- yadm-1.7.10-0.8.3-ab34b78.jar
+- yadm-1.7.10-0.9.1-beta-70a8193.jar

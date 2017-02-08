@@ -1,5 +1,10 @@
 # Changelog
 
+# Version 1.2.1 - Thermos Update
+
+**Mod Updates**
+- YADM 0.8.3-ab34b78 to 0.9.1-beta-70a8193
+
 # Version 1.2.0
 
 **Config Changes**
