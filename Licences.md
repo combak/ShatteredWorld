@@ -606,6 +606,13 @@ minecraft original sources.
 
 ## T
 
+**TabbyChat**
+> Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+
+- Author: killjoy1221
+- Files: https://github.com/killjoy1221/tabbychat/releases
+- Licence: https://github.com/killjoy1221/tabbychat/blob/master/README.md
+
 **Team CoFH Mods**
 > CoFH "Don't Be a Jerk" License
 

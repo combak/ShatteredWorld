@@ -1,5 +1,16 @@
 # Changelog
 
+# Version 1.2.2
+
+**Config Changes**
+- Change mob events
+- Some lycanite balancing stuff
+
+# Version 1.2.1a
+
+**Mod Additions**
+- TabbyChat 1.11.2.2
+
 # Version 1.2.1 - Thermos Update
 
 **Mod Updates**

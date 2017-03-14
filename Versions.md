@@ -65,7 +65,6 @@
 - minetweaker3-1.7.10-3.0.10-cf534ea-customized.jar
 - mobiuscore-1.7.10-1.2.5.jar
 - modtweaker2-1.7.10-0.9.6.jar
-- MrTJPCore-1.0.8.16-universal.jar
 - neiaddons-1.7.10-1.12.14.40.jar
 - neiintegration-1.7.10-1.1.2.jar
 - netherores-1.7.10-2.3.1-22.jar
@@ -89,6 +88,7 @@
 - spiceoflife-1.7.10-1.3.1.jar
 - storagedrawers-1.7.10-1.10.8.jar
 - storagedrawers-forestry-1.7.10-1.1.2.jar
+- tabbychat-1.7.10-1.11.2.2.jar
 - tconstruct-1.7.10-1.8.8.jar
 - thaumcraft-1.7.10-4.2.3.5.jar
 - thaumcraft-inventoryscan-1.7.10-1.0.11.jar
