@@ -1,5 +1,11 @@
 # Changelog
 
+# Version 1.2.3
+
+**Config Changes**
+- Change mob events and reduce spawnrate
+- Recipes stone and sandstone slabs for ex nihilo
+
 # Version 1.2.2
 
 **Config Changes**
