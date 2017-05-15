@@ -27,6 +27,11 @@ val vanillaPlanks = [
 ] as IItemStack[];
 
 val vanillaChest            = <minecraft:chest>;
+val vanillaStone            = <minecraft:stone>;
+val vanillaSandstone        = <minecraft:sandstone>;
+val vanillaSand             = <minecraft:sand>;
+val vanillaSlabStone        = <minecraft:stone_slab:0>;
+val vanillaSlabSandStone    = <minecraft:stone_slab:1>;
 
 # Botania
 val botaniaLivingRock	= <Botania:livingrock:1>;
@@ -107,6 +112,19 @@ recipes.remove( vanillaBread );
 # Fix Quartz
 recipes.remove( <minecraft:quartz_block:*> );
 recipes.addShaped(<minecraft:quartz_block>, [[<minecraft:quartz>, <minecraft:quartz>], [<minecraft:quartz>, <minecraft:quartz>]]);
+
+# Fix Stone recipe collision
+recipes.remove( vanillaStone );
+recipes.addShaped( vanillaStone, [[ vanillaSlabStone, vanillaSlabStone ]]);
+
+# Fix Sandstone recipe collision
+recipes.remove( vanillaSandstone );
+recipes.addShaped( vanillaSandstone, [[ vanillaSand, vanillaSand ], [ vanillaSand, vanillaSand ]]);
+recipes.addShaped( vanillaSandstone, [[ vanillaSlabSandStone, vanillaSlabSandStone ]]);
+
+# Add Double-Slab recipes
+recipes.addShaped(<minecraft:double_stone_slab:0>, [[ vanillaSlabStone, null ], [ null, vanillaSlabStone ]]);         /* Stone */
+recipes.addShaped(<minecraft:double_stone_slab:1>, [[ vanillaSlabSandStone, null ], [ null, vanillaSlabSandStone ]]);    /* Sandstone */
 
 ########################################################################################################################
 # Custom Crafting Recipies - Shapeless
