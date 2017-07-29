@@ -1,5 +1,22 @@
 # Changelog
 
+# Version 1.2.4
+
+**Mod Updates**
+- AE2Stuff rv3-5.1.9 to rv3-5.1-DEV (rv2 patches port to rv3
+- AppleCore 1.3.2+221.cfd42 to 1.3.9
+- BiblioCraft 1.11.5 to 1.11.7
+- Buildcraft 7.1.15 to 7.1.22
+- BuildCraft Compat 7.1.3 to 7.1.6
+- CoFHCore 3.1.3-327 to 3.1.4-329
+- Ex Nihilo 1.38.49 to 1.38.53
+- Advanced Generators 0.9.19-120 to 0.9.20-123
+- Harcore Ender Expansion 1.8.5 to 1.8.6
+- Iguana Tinker Tweaks 2.1.5 to 2.1.6
+- Thermal Dynamics 1.1.0-161 to 1.2.1-172
+- Thermal Expansion 4.1.4-247 to 4.1.5-248
+- Thermal Foundation 1.2.5-115 to 1.2.6-118
+
 # Version 1.2.3
 
 **Config Changes**
