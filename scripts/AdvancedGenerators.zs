@@ -250,7 +250,7 @@ recipes.remove (advGenePowerIO);
 recipes.addShaped (advGenePowerIO, [[modMachinesPlateIron, thermExpServo, modMachinesPlateIron],[modMachinesPlateIron, vanillaredstoneDust, modMachinesPlateIron], [modMachinesPlateIron, thermExpServo, modMachinesPlateIron ]]);
 
 recipes.remove (advGeneControlCircuit);
-AssemblyTable.addRecipe( advGeneControlCircuit, 5000, [ projectRedWireRedAlloy*4, forestryCircuitboardEnh, buildCraftGateBasic*2 ] );
+AssemblyTable.addRecipe( advGeneControlCircuit, 5000, [ projectRedWireRedAlloy*4, forestryCircuitboardEnh, buildCraftGateBasic.withTag({mat:0 as byte, logic: 0 as byte })*2 ] );
 
 recipes.remove (advGeneTubingIron);
 recipes.addShaped (advGeneTubingIron*4, [[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionStickIron, bcAdditionCableIron],[bcAdditionCableIron, bcAdditionCableIron, bcAdditionCableIron]]);
