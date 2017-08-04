@@ -1,5 +1,10 @@
 # Changelog
 
+# Version 1.2.5
+
+**Bugfix**
+- Fixes controll circuit assembly table recipe 
+
 # Version 1.2.4
 
 **Mod Updates**
