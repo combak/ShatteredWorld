@@ -3,7 +3,7 @@
   "languages": [
     "deDE"
   ],
-  "description": "Und wieder ein Pack in dem alles anderes ist!\n- Alle Arten von Querries sind deaktiviert.\n- Wenn wir was vergessen haben, melden!\n- Im Boden sind nur wenige Rohstoffe.\n- Rezepte sind nach Schwierigkeit sortiert.\n- Rezepte bauen auf mehreren Mods auf.\n- Es gibt mehr und gefaehrlichere Mobs.\n- Die Nacht ist unheimlich.\n- Die Naehe zu Fluessigkeiten birgt Gefahr.\n- Bloecke muss man giessen.\n- Nuggets muss man giessen (meistens).\n- Extreme Waffen sind deaktiviert.\n- Abartige Werkzeuge sind deaktiviert.\n- Einige Maschinen sind limitiert.\n\nSeid hoefflich zu einander. Grieven ist natuerlich verboten. Cheaten wird hart bestraft.",
+  "description": "Und wieder ein Pack in dem alles anderes ist!\n- Alle Arten von Quarries sind deaktiviert.\n- Wenn wir was vergessen haben, melden!\n- Im Boden sind nur wenige Rohstoffe.\n- Rezepte sind nach Schwierigkeit sortiert.\n- Rezepte bauen auf mehreren Mods auf.\n- Es gibt mehr und gefaehrlichere Mobs.\n- Die Nacht ist unheimlich.\n- Die Naehe zu Fluessigkeiten birgt Gefahr.\n- Bloecke muss man giessen.\n- Nuggets muss man giessen (meistens).\n- Extreme Waffen sind deaktiviert.\n- Abartige Werkzeuge sind deaktiviert.\n- Einige Maschinen sind limitiert.\n\nSeid hoefflich zu einander. Grieven ist natuerlich verboten. Cheaten wird hart bestraft.",
   "questSetCatalog": [
     {
       "id": "set000",
@@ -832,7 +832,7 @@
         {
           "id": "quest019",
           "name": "Die Giesserei",
-          "description": "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch in der richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
+          "description": "Jetzt haben wir das Metall in fluessiger Form. Aber irgendwie wollen wir das ja auch die richtigen Einzelteile herstellen. Dafuer brauchen wir Negativformen (casts).",
           "uuid": "66d54891-5c7e-4d71-952f-36031a326597",
           "x": 174,
           "y": 140,
@@ -924,7 +924,7 @@
           "uuid": "b0fdd531-2daf-4914-8b36-df3b6e9069b5",
           "x": 118,
           "y": 120,
-          "icon": "backpacks16840:backpack size(1) dmg(3)",
+          "icon": "ExtraUtilities:golden_bag size(1) dmg(0)",
           "requirements": [
             "quest020"
           ],
@@ -938,15 +938,10 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Ein Rucksack ist genau das Richtige, was wir brauchen. Wenn wir diesen auch noch leicht vergroessern koennen, fehlt fast nichts zu unserem Glueck. \nEinfach das Upgrade in den Rucksack legen und dann darauf rechts klicken. Fertig!\nEs gibt auch eine Schnelltaste, um den ersten Rucksack im Inventar zu oeffnen.",
+              "description": "Ein Rucksack ist genau das Richtige, was wir brauchen.",
               "requirements": [
                 {
-                  "item": "backpacks16840:backpack size(1) dmg(3)",
-                  "required": 1,
-                  "precision": "PRECISE"
-                },
-                {
-                  "item": "backpacks16840:backpack_pouch size(1) dmg(0)",
+                  "item": "ExtraUtilities:golden_bag size(1) dmg(0)",
                   "required": 1,
                   "precision": "PRECISE"
                 }
@@ -954,7 +949,7 @@
             }
           ],
           "reward": [
-            "backpacks16840:backpack_pouch size(3) dmg(0)"
+            "minecraft:gold_block size(2) dmg(0)"
           ]
         },
         {
@@ -2523,7 +2518,7 @@
             }
           ],
           "reward": [
-            "Forestry:pollenFertile size(4) dmg(0)"
+            "Forestry:grafterProven size(4) dmg(0)"
           ]
         },
         {
@@ -2594,8 +2589,8 @@
             },
             {
               "id": "task001",
-              "type": "CRAFT",
-              "name": "Crafting Task",
+              "type": "DETECT",
+              "name": "Detection Task",
               "description": "Jetzt solltest du mit deinem Maschinenpark so weit sein, um dir diese speziellen Bienenstoecke herstellen zu koennen.",
               "requirements": [
                 {
@@ -2749,7 +2744,15 @@
                   "item": "Forestry:factory size(1) dmg(7)",
                   "required": 1,
                   "precision": "PRECISE"
-                },
+                }
+              ]
+            },
+            {
+              "id": "task001",
+              "type": "DETECT",
+              "name": "Detection Task",
+              "description": "Jetzt nur noch die richtigen Stoffe, um die Wolken zu impfen und schon kann die Wettermanipulation los gehen.",
+              "requirements": [
                 {
                   "item": "Forestry:iodineCapsule size(1) dmg(0)",
                   "required": 8,
@@ -3740,8 +3743,8 @@
           "tasks": [
             {
               "id": "task000",
-              "type": "CRAFT",
-              "name": "Crafting Task",
+              "type": "DETECT",
+              "name": "Detection Task",
               "description": "Der Kuehlturm (cooling tower) dient zum abkuehlen heisser Fluessigkeiten, was sonst!",
               "requirements": [
                 {
@@ -6849,7 +6852,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -6966,7 +6969,7 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "NONE",
+          "triggerType": "ANTI_TRIGGER",
           "triggerTasks": 0,
           "tasks": [
             {
@@ -6979,7 +6982,7 @@
                   "id": "mob000",
                   "name": "Lightning Guardian",
                   "icon": "arsmagica2:AMSpawnEgg size(1) dmg(21)",
-                  "mob": "arsmagica2.BossAirGuardian",
+                  "mob": "arsmagica2.BossLightningGuardian",
                   "count": 1,
                   "exact": false
                 }
@@ -7026,7 +7029,7 @@
             }
           ],
           "reward": [
-            "DraconicEvolution:dragonHeart size(1) dmg(0)",
+            "Avaritia:Resource size(2) dmg(5)",
             "arsmagica2:rune size(1) dmg(19)"
           ]
         },
@@ -7143,7 +7146,8 @@
             "quest122"
           ],
           "repeatInfo": {
-            "type": "NONE"
+            "type": "TIME",
+            "total": 72
           },
           "triggerType": "NONE",
           "triggerTasks": 0,
@@ -7166,8 +7170,8 @@
             }
           ],
           "reward": [
-            "DraconicEvolution:draconicIngot size(8) dmg(0)",
-            "arsmagica2:rune size(1) dmg(19)"
+            "DraconicEvolution:draconicIngot size(5) dmg(0)",
+            "DraconicEvolution:dragonHeart size(1) dmg(0)"
           ]
         }
       ]
@@ -11431,22 +11435,22 @@
                 {
                   "item": "AWWayofTime:waterScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 },
                 {
                   "item": "AWWayofTime:fireScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 },
                 {
                   "item": "AWWayofTime:earthScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 },
                 {
                   "item": "AWWayofTime:airScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 }
               ]
             }
@@ -14475,14 +14479,6 @@
               "description": "Die wirst du sicher nur in einem Flachlandbiom finden.",
               "mobs": [
                 {
-                  "id": "mob000",
-                  "name": "Kobold",
-                  "icon": "plainsmobs:plainsegg size(1) dmg(0)",
-                  "mob": "plainsmobs.kobold",
-                  "count": 1,
-                  "exact": false
-                },
-                {
                   "id": "mob001",
                   "name": "Ventoraptor",
                   "icon": "plainsmobs:plainsegg size(1) dmg(1)",
@@ -14538,14 +14534,6 @@
                   "name": "Zoataur",
                   "icon": "plainsmobs:plainsegg size(1) dmg(4)",
                   "mob": "plainsmobs.zoataur",
-                  "count": 1,
-                  "exact": false
-                },
-                {
-                  "id": "mob001",
-                  "name": "Roc",
-                  "icon": "plainsmobs:plainsegg size(1) dmg(5)",
-                  "mob": "plainsmobs.roc",
                   "count": 1,
                   "exact": false
                 }
@@ -15037,15 +15025,15 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
-          "parentRequirementCount": 20,
+          "parentRequirementCount": 16,
           "tasks": [
             {
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Toete den Drachen bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
+              "description": "Toete den Drachen bevor er dich toetet, oder willst du etwa nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15105,15 +15093,15 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
-          "parentRequirementCount": 17,
+          "parentRequirementCount": 16,
           "tasks": [
             {
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Besiege den Krieger bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
+              "description": "Besiege den Krieger bevor er dich toetet, oder willst du etwa nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
@@ -15166,21 +15154,21 @@
           "repeatInfo": {
             "type": "NONE"
           },
-          "triggerType": "ANTI_TRIGGER",
+          "triggerType": "NONE",
           "triggerTasks": 0,
-          "parentRequirementCount": 14,
+          "parentRequirementCount": 13,
           "tasks": [
             {
               "id": "task000",
               "type": "LOCATION",
               "name": "Location Task",
-              "description": "Mache den Wissenschaftler fertig bevor er dich toetet, oder willst du etwas nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
+              "description": "Mache den Wissenschaftler fertig bevor er dich toetet, oder willst du etwa nicht weiter leben. Diese Aufgabe wirst du aber nicht allein bewaeltigen koennen. Suche dir tapfere Krieger und dann kaempft gemeinsam. Deine Belohnung bekommst du vom Schatzmeister.",
               "locations": [
                 {
                   "id": "loc000",
                   "name": "Wissenschaftler",
                   "icon": "customnpcs:npcLetter size(1) dmg(0)",
-                  "x": 382,
+                  "x": 368,
                   "y": 62,
                   "z": 496,
                   "radius": 1,
@@ -15362,8 +15350,8 @@
           "tasks": [
             {
               "id": "task000",
-              "type": "CRAFT",
-              "name": "Crafting Task",
+              "type": "DETECT",
+              "name": "Detection Task",
               "description": "Du erhaelst aller 6min einen Tropfen. Aus 9 Tropfen wird ein Nugget und wie gehabt aus 9 Nuggets ein Barren.",
               "requirements": [
                 {
@@ -15448,7 +15436,7 @@
             }
           ],
           "reward": [
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15483,7 +15471,7 @@
             }
           ],
           "reward": [
-            "Avaritia:Resource size(4) dmg(5)"
+            "Avaritia:Resource size(3) dmg(5)"
           ]
         },
         {
@@ -15507,7 +15495,7 @@
               "id": "task000",
               "type": "CRAFT",
               "name": "Crafting Task",
-              "description": "Mit dieser Waffe erhaelst du von jedem Skelett einen Witherkopf.",
+              "description": "Mit dieser Waffe erhaelst du von jedem Skelett einen Witherkopf. Theoretisch. Leider nicht mehr in 1.7.10!!!",
               "requirements": [
                 {
                   "item": "Avaritia:Skull_Sword size(1) dmg(0)",
@@ -15559,7 +15547,7 @@
           ],
           "reward": [
             "AWWayofTime:activationCrystal size(1) dmg(2)",
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15602,7 +15590,7 @@
               "item": "TConstruct:pickaxe size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:80000,Head:501,HeadEXP:0l,BaseAttack:51,ToolEXP:0l,Built:1b,HarvestLevel:6,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Pickaxe'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15641,7 +15629,7 @@
               "item": "TConstruct:hatchet size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:53,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:53,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Hatchet'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15680,7 +15668,7 @@
               "item": "TConstruct:shovel size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:52,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:'Â§fInfinity Shovel'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15719,7 +15707,7 @@
               "item": "TConstruct:scythe size(1) dmg(0)",
               "nbt": "{InfiTool:{RenderExtra:501,BaseDurability:480000,Head:501,BaseAttack:54,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:54,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:480000,Modifiers:20},display:{Name:'Â§fInfinity Scythe'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {
@@ -15758,7 +15746,7 @@
               "item": "TConstruct:ShortBow size(1) dmg(0)",
               "nbt": "{InfiTool:{BaseDurability:12000,BaseAttack:50,DrawSpeed:27,ToolEXP:0l,Built:1b,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:501,MiningSpeed:6000,Unbreaking:10,Damage:0,HarvestLevel2:7,BonusDurability:0,TotalDurability:12000,MiningSpeed2:6000,BaseDrawSpeed:27,Head:501,Attack:50,Handle:0,Broken:0b,RenderAccessory:501,FlightSpeed:10.0f,ToolLevel:1,Modifiers:10},display:{Name:'Â§fInfinity Shortbow'}}"
             },
-            "Avaritia:Resource size(8) dmg(6)"
+            "Avaritia:Resource size(3) dmg(6)"
           ]
         },
         {

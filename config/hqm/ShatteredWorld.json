@@ -11435,22 +11435,22 @@
                 {
                   "item": "AWWayofTime:waterScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 },
                 {
                   "item": "AWWayofTime:fireScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 },
                 {
                   "item": "AWWayofTime:earthScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 },
                 {
                   "item": "AWWayofTime:airScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 }
               ]
             }
@@ -12010,7 +12010,7 @@
                 {
                   "item": "AWWayofTime:duskScribeTool size(1) dmg(0)",
                   "required": 1,
-                  "precision": "PRECISE"
+                  "precision": "FUZZY"
                 }
               ]
             },
