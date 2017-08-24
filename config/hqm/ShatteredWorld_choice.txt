@@ -1,8 +1,0 @@
-  4 x Bellpepper Seed
-  4 x Chili Pepper Seed
-  4 x Coffee Seed
-  4 x Mana Diamond, dmg=2
-  4 x Mana Pearl, dmg=1
-  4 x Mystical Brown Flower Seeds
-  4 x Mystical Light Gray Flower Seeds
-  4 x Tea Seed
