@@ -1,7 +1,7 @@
-## Forge
-- forge-1.7.10-10.13.4.1614-1.7.10
+# Mod-Versions
 
-## mods
+## Common
+- MrTJPCore-1.0.8.16-universal.jar
 - ae2stuff-1.7.10-rv3-0.5.1-DEV.jar
 - agricraft-1.7.10-1.5.0.jar
 - animationapi-1.7.10-1.2.4.jar
@@ -28,7 +28,6 @@
 - cofhcore-1.7.10-3.1.4-329.jar
 - contenttweaker-1.7.10-1.0.5.jar
 - cookiecore-1.7.10-1.4.0-11.jar
-- custommainmenu-1.7.10-1.9.2.jar
 - customnpcs-1.7.10-d-2016-02.jar
 - decocraft-1.7.10-2.3.3.jar
 - draconic-evolution-1.7.10-1.0.2h.jar
@@ -44,7 +43,6 @@
 - forbidden magic-1.7.10-0.574-customized.jar
 - forest-mods-1.7.10-0.4.16-beta.jar
 - forestry_1.7.10-4.2.16.64.jar
-- fullscreenwindowed-1.7.10-1.3.0b.jar
 - fwg-1.7.10-1.0.3.jar
 - gardenstuff-1.7.10-1.7.0.jar
 - generators-1.7.10-0.9.20.123.jar
@@ -57,7 +55,6 @@
 - inpurecore-1.7.10-1.0.0B9-62-fixed-libs.jar
 - inventorytweaks-1.7.10-1.58-147.jar
 - ironchest-1.7.10-6.0.62.742.jar
-- launchgui-client-1.7.10-2.0-18.jar
 - limitedresources-1.7.10-1.1.1-ae71faa.jar
 - lycanitesmobscomplete-1.7.10-1.13.0.5-optimized.jar
 - magistics-1.7.10-0.7.6.jar
@@ -65,7 +62,6 @@
 - minetweaker3-1.7.10-3.0.10-cf534ea-customized.jar
 - mobiuscore-1.7.10-1.2.5.jar
 - modtweaker2-1.7.10-0.9.6.jar
-- MrTJPCore-1.0.8.16-universal.jar
 - neiaddons-1.7.10-1.12.14.40.jar
 - neiintegration-1.7.10-1.1.2.jar
 - netherores-1.7.10-2.3.1-22.jar
@@ -83,19 +79,17 @@
 - projectred-integration-1.7.10-4.6.2.82.jar
 - projectred-lighting-1.7.10-4.6.2.82.jar
 - redstonearsenal-1.7.10-1.1.2-92.jar
-- resourceloader-1.7.10-1.2.jar
 - sanguimancy-1.7.10-1.1.9-35.jar
 - simplyjetpacks-1.7.10-1.5.3.jar
 - spiceoflife-1.7.10-1.3.1.jar
 - storagedrawers-1.7.10-1.10.8.jar
 - storagedrawers-forestry-1.7.10-1.1.2.jar
-- tabbychat-1.7.10-1.11.2.2.jar
 - tconstruct-1.7.10-1.8.8.jar
 - thaumcraft-1.7.10-4.2.3.5.jar
 - thaumcraft-inventoryscan-1.7.10-1.0.11.jar
+- thaumcraft-nodetracker-1.7.10-1.1.2.jar
 - thaumcraftmobaspects-1.7.10-1.7.2-2A.jar
 - thaumcraftneiplugin-1.7.10-1.7a.jar
-- thaumcraft-nodetracker-1.7.10-1.1.2.jar
 - thaumicenergistics-1.7.10-1.0.0.5.jar
 - thermaldynamics-1.7.10-2.1-172.jar
 - thermalexpansion-1.7.10-4.1.5-248.jar
@@ -113,3 +107,13 @@
 - wailaplugins-1.7.10-0.0.1-14.jar
 - witchinggadgets-1.7.10-1.1.10.jar
 - yadm-1.7.10-0.9.1-beta-70a8193.jar
+
+## Client
+- custommainmenu-1.7.10-1.9.2.jar
+- fullscreenwindowed-1.7.10-1.3.0b.jar
+- launchgui-client-1.7.10-2.0-18.jar
+- resourceloader-1.7.10-1.2.jar
+- tabbychat-1.7.10-1.11.2.2.jar
+
+## Server
+- journeymap-1.7.10-5.1.4p1-unlimited.jar

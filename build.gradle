@@ -27,6 +27,32 @@ file "modpack.json" withReader {
     ext.modpack = new groovy.json.JsonSlurper().parseText( it.text )
 }
 
+task versions {
+    group "modpack"
+    description "List Mod-Versions and create VERSIONS.md"
+    
+    def commonMods = fileTree( dir: "common/mods/", include: "*.jar" ).sort()
+    def clientMods = fileTree( dir: "client/mods/", include: "*.jar" ).sort()
+    def serverMods = fileTree( dir: "server/mods/", include: "*.jar" ).sort()
+    
+    def versions = new File( "VERSIONS.md" )
+    
+    doLast {
+        versions.createNewFile()
+        versions.text = ""
+        versions.append "# Mod-Versions\n"
+        
+        versions.append "\n## Common\n"
+        commonMods.each { File file -> versions.append "- ${file.name}\n" }
+        
+        versions.append "\n## Client\n"
+        clientMods.each { File file -> versions.append "- ${file.name}\n" }
+        
+        versions.append "\n## Server\n"
+        serverMods.each { File file -> versions.append "- ${file.name}\n" }
+    }
+}
+
 task sync( dependsOn: [ "syncCommon", "syncClient", "syncServer" ] ) {
     group "modpack"
     description "Sync files from development client and server folder to common, client and server folder"
@@ -61,4 +87,41 @@ task syncServer( type : Sync ) {
     into "server/"
     
     includes = modpack.server.includes
+}
+
+task dev( dependsOn: [ "devClient", "devServer" ] ) {
+    group "modpack"
+    description "Create development client and server"
+}
+
+task devClient( dependsOn: [ "devClientCommon" ], type: Copy ) {
+    group "modpack"
+    description "Copy common and client files to development client"
+    
+    from "client/"
+    into "development/client/"
+}
+
+task devClientCommon( type: Copy) {
+    group "modpack"
+    description "Copy client files to development client"
+    
+    from "common/"
+    into "development/client/"
+}
+
+task devServer( dependsOn: [ "devServerCommon" ], type: Copy ) {
+    group "modpack"
+    description "Copy common and server files to development server"
+    
+    from "server/"
+    into "development/server/"
+}
+
+task devServerCommon( type: Copy) {
+    group "modpack"
+    description "Copy common files to development server"
+    
+    from "common/"
+    into "development/server/"
 }
