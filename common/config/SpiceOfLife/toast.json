@@ -1,0 +1,20 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodBbqpulledpork",		/* BBQ Pulled Pork */
+      "foodBreadedporkchop",		/* Breaded Porkchop */
+      "foodFootlong",			/* Footlong */
+      "foodFrenchtoast",		/* French Toast */
+      "foodVegemiteontoast",		/* Vegemite on Toast */
+      "foodToast",			/* Toast */
+      "foodCheeseontoast" /* Chees on Toast */
+    ]
+  },
+  "name": "Toast",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

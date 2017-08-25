@@ -1,0 +1,17 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodSushi",   		/* Sushi */
+      "foodCaliforniaroll",    	/* California Roll */
+      "foodFutomaki",    	/* Futo Maki */
+      "saltwatermobs:seashellmaki"  /* Seashell Maki */
+    ]
+  },
+  "name": "Sushi",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

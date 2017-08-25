@@ -1,0 +1,41 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodMelonsmoothie",		/* Melon */
+      "foodStrawberrysmoothie",		/* Strawberry */
+      "foodLemonsmoothie",		/* Lemon */
+      "foodBlueberrysmoothie",		/* Blueberry */
+      "foodCherrysmoothie",		/* Cherry */
+      "foodPapayasmoothie",		/* Papaya */
+      "foodStarfruitsmoothie",		/* Starfruit */
+      "foodBananasmoothie",		/* Banana */
+      "foodOrangesmoothie",		/* Orange */
+      "foodPeachsmoothie",		/* Peach */
+      "foodLimesmoothie",		/* Lime */
+      "foodMangosmoothie",		/* Mango */
+      "foodPomegranatesmoothie",	/* Pomegranate */
+      "foodBlackberrysmoothie",		/* Blackberry */
+      "foodRaspberrysmoothie",		/* Raspberry */
+      "foodKiwismoothie",		/* Kiwi */
+      "foodApricotsmoothie",		/* Apricot */
+      "foodFigsmoothie",		/* Fig */
+      "foodGrapefruitjellysmoothie",	/* Grapefruit */
+      "foodPersimmonsmoothie",		/* Persimmon */
+      "foodGoosberrysmoothie", /* Gooseberry */
+      "foodApplesmoothie", /* Apple*/
+      "foodCoconutsmoothie", /* Coconut */
+      "foodCranberrysmoothie", /* Cranberry */
+      "foodGrapesmoothie", /* Grape */
+      "foodPearsmoothie", /* Pear */
+      "foodPlumsmoothie" /* Plum*/
+
+    ]
+  },
+  "name": "Smoothie",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

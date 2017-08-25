@@ -1,0 +1,98 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodFruitpunch",			/* Fruit Punch */
+      "foodRootbeersoda",		/* Root Beer */
+      "foodApplecider",			/* Apple Cider */
+      "foodGingersnaps",		/* Ginger Snaps */
+      "foodPinacolada",			/* Pinacolada */
+      "foodSesamesnaps" /*Sesame Snaps*/
+    ],
+    "items": 
+    [
+      "arsmagica2:manaMartini",		/* Mana Martini */      
+"BinnieCore:containerGlass:407", /* Corn Beer Bottle */
+"BinnieCore:containerGlass:406", /* Rye Beer Bottle */
+"BinnieCore:containerGlass:405", /* Wheat Beer Bottle */                      
+"BinnieCore:containerGlass:384", /* Cider Bottle */
+"BinnieCore:containerGlass:389", /* Peach Cider Bottle */
+"BinnieCore:containerGlass:390", /* Pear Cider Bottle */
+"BinnieCore:containerGlass:522", /* Brandy Bottle */
+"BinnieCore:containerGlass:524", /* Pear Brandy Bottle */
+"BinnieCore:containerGlass:529", /* Citrus Brandy Bottle */
+"BinnieCore:containerGlass:528", /* Elderberry Brandy Bottle */
+"BinnieCore:containerGlass:527", /* Cherry Brandy Bottle */
+"BinnieCore:containerGlass:523", /* Apple Brandy Bottle */
+"BinnieCore:containerGlass:526", /* Plum Brandy Bottle */
+"BinnieCore:containerGlass:530", /* Fruit Brandy Bottle */
+"BinnieCore:containerGlass:525", /* Apricot Brandy Bottle */
+"BinnieCore:containerGlass:644", /* Mint Liqueur Bottle */
+"BinnieCore:containerGlass:643", /* Chocolate Liqueur Bottle */
+"BinnieCore:containerGlass:655", /* Blackberry Liqueur Bottle */
+"BinnieCore:containerGlass:656", /* Rasperry Liqueur Bottle */
+"BinnieCore:containerGlass:647", /* Coffee Liqueur Bottle */
+"BinnieCore:containerGlass:648", /* Melon Liqueur Bottle */
+"BinnieCore:containerGlass:649", /* Anise Liqueur Bottle */
+"BinnieCore:containerGlass:650", /* Peach Liqueur Bottle */
+"BinnieCore:containerGlass:654", /* Blackcurrant Liqueur Bottle */
+"BinnieCore:containerGlass:653", /* Cherry Liqueur Bottle */
+"BinnieCore:containerGlass:652", /* Herbal Liqueur Bottle */
+"BinnieCore:containerGlass:651", /* Lemon Liqueur Bottle */
+"BinnieCore:containerGlass:646", /* Cinnamon Liqueur Bottle */
+"BinnieCore:containerGlass:645", /* Hazelnut Liqueur Bottle */
+"BinnieCore:containerGlass:642", /* Banana Liqueur Bottle */
+"BinnieCore:containerGlass:641", /* Orange Liqueur Bottle */
+"BinnieCore:containerGlass:640", /* Almond Liqueur Bottle */
+"BinnieCore:containerGlass:536", /* Elderberry Liquor Bottle */
+"BinnieCore:containerGlass:538", /* Fruit Liquor Bottle */
+"BinnieCore:containerGlass:537", /* Apricot Liquor Bottle */
+"BinnieCore:containerGlass:535", /* Cherry Liquor Bottle */
+"BinnieCore:containerGlass:534", /* Pear Liquor Bottle */
+"BinnieCore:containerGlass:533", /* Apple Liquor Bottle */
+"BinnieCore:containerGlass:515", /* Dark Rum Bottle */
+"BinnieCore:containerGlass:514", /* White Rum Bottle */
+"BinnieCore:containerGlass:516", /* Whiskey Bottle */
+"BinnieCore:containerGlass:518", /* Rye Whiskey Bottle */
+"BinnieCore:containerGlass:519", /* Wheat Whiskey Bottle */
+"BinnieCore:containerGlass:392", /* Carrot Wine Bottle */
+"BinnieCore:containerGlass:398", /* Citrus Wine Bottle */
+"BinnieCore:containerGlass:520", /* Fortified Wine Bottle */
+"BinnieCore:containerGlass:396", /* Agave Wine Bottle */
+"BinnieCore:containerGlass:395", /* Sparkling Wine Bottle */     
+"BinnieCore:containerGlass:394", /* Red Wine Bottle */
+"BinnieCore:containerGlass:393", /* White Wine Bottle */
+"BinnieCore:containerGlass:399", /* Cranberry Wine Bottle */
+"BinnieCore:containerGlass:400", /* Pineapple Wine Bottle */
+"BinnieCore:containerGlass:401", /* Tomato Wine Bottle */
+"BinnieCore:containerGlass:402", /*Fruit Wine Bottle */
+"BinnieCore:containerGlass:388", /* Elderberry Wine Bottle */
+ "BinnieCore:containerGlass:387", /* Cherry Wine Bottle */     
+"BinnieCore:containerGlass:391", /* Plum Wine Bottle */
+"BinnieCore:containerGlass:385", /* Apricot Wine Bottle */
+"BinnieCore:containerGlass:386", /* Banana Wine Bottle */
+"BinnieCore:containerGlass:512", /* Neutral Spirit Bottle */
+"BinnieCore:containerGlass:531", /* Cachaca Bottle */
+"BinnieCore:containerGlass:532", /* Gin Bottle */
+"BinnieCore:containerGlass:521", /* Tequila Bottle */
+"BinnieCore:containerGlass:513", /* Vodka Bottle */
+"BinnieCore:containerGlass:517", /* Bourbon Bottle */
+"BinnieCore:containerGlass:408", /* Stout Bottle */
+"BinnieCore:containerGlass:404", /* Lager Bottle */
+"BinnieCore:containerGlass:403", /* Ale Bottle */
+"BinnieCore:containerGlass:410", /* Fermented Wheat Mash Bottle */
+"BinnieCore:containerGlass:411", /* Fermented Rye Mash Bottle */
+"BinnieCore:containerGlass:412", /* Fermented Corn Mash Bottle */
+"BinnieCore:containerGlass:397", /* Fermented Potato Mash Bottle */
+"BinnieCore:containerGlass:409", /* Fermented Grain Mash Bottle */
+ "Forestry:beverage", /* Short Mead */
+      "Forestry:beverage:1" /* Curative Mead */
+   ]
+  },
+  "name": "Alcoholic Drink",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

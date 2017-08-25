@@ -1,0 +1,52 @@
+{
+    "CompleterNpc": "AtomSponge",
+    "NextQuestId": 31,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Hol die Geisel ab.",
+    "Text": "AtomSponge wir dir eine \"Geisel\" ausliefern.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 16,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1481828700486L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 4b,
+                "id": "props:props",
+                "Count": 1b,
+                "Damage": 802s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Hier hast du deine \"Geisel\".",
+    "NextQuestTitle": "Gib die Geisel ab."
+}

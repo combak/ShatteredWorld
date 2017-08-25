@@ -1,0 +1,17 @@
+{
+  "food": {
+    "oredict": [ 
+      "foodChaitea",			/* Chai Tea */
+      "foodCoffeeconleche",		/* Coffee con Leche */
+      "foodCoffee",			/* Cup of Coffee */
+      "foodTea",			/* Cup of Tea */
+      "foodEspresso",			/* Espresso */
+      "foodHotchocolate"		/* Hot Chocolate */
+    ]
+  },
+  "name": "Hot Drink",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

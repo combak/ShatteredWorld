@@ -1,0 +1,57 @@
+{
+    "CompleterNpc": "Borim",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 4,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Borims Einlass",
+    "Text": "Borim die Wache der Zwergen Stadt gewährt dir einlass. Wenn du ihm eine Liste von dem Largermeister der Zwerge der auf dem Berg vor dem Eingang ist hollst.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 6,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 3,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 16,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1480766254960L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Name": "Larger Liste von Grasem"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Borim die Wache ist zufrieden mit dir und du er hält dich für würdig in die Stadt der Zwerge zu gehen.",
+    "NextQuestTitle": ""
+}

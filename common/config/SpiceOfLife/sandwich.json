@@ -1,0 +1,55 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodApplejellysandwich",			/* Applejelly */
+      "foodBlackberryjellysandwich",		/* Blackberryjelly */
+      "foodBlueberryjellysandwich",		/* Blueberryjelly */
+      "foodCherryjellysandwich",		/* Cherryjelly */
+      "foodCranberryjellysandwich",		/* Cranberryjelly */
+      "foodKiwijellysandwich",			/* Kiwijelly */
+      "foodLemonjellysandwich",			/* Lemonjelly */
+      "foodLimejellysandwich",			/* Limejelly */
+      "foodMangojellysandwich",			/* Mangojelly */
+      "foodOrangejellysandwich",		/* Orangejelly */
+      "foodPapayajellysandwich",		/* Papayajelly */
+      "foodPeachjellysandwich",			/* Peachjelly */
+      "foodPomegranatejellysandwich",		/* Pomegranatejelly */
+      "foodRaspberryjellysandwich",		/* Raspberryjelly */
+      "foodStarfruitjellysandwich",		/* Starfruitjelly */
+      "foodStrawberryjellysandwich",		/* Strawberryjelly */
+      "foodWatermelonjellysandwich",		/* Watermelonjelly */
+      "foodApricotjellysandwich",		/* Apricotjelly */
+      "foodFigjellysandwich",			/* Figjelly */
+      "foodGrapefruitjellysandwich",		/* Grapefruitjelly */
+      "foodPersimmonjellysanwich",		/* Persimmonjelly */
+      "foodPbandj",				/* Pbandj */
+      "foodChickensandwich",    		/* Chicken Sandwich */
+      "foodFishsandwich",   			/* Fish Sandwich */
+      "foodLeafychickensandwich",		/* Leafy Chicken Sandwich */
+      "foodToastsandwich",			/* Toast Sandwich  */
+      "foodLeafyfishsandwich",		/* Leafy Fish Sandwich */       
+      "foodGooseberryfruitjellysandwich", /* Gooseberryfruitjelly */
+      "foodHamandsweetpicklesandwich", /* Ham & Sweet Pickle */
+      "foodPearjellysandwich", /* Pear */
+      "foodPlumjellysandwich", /* Plum */
+      "foodHoneysandwich" /* Honey */
+
+
+
+    ],
+   "items": 
+    [
+    "DCsAppleMilk:defeatedcrow.appleSandwich", /* Apple Sandwich */
+    "DCsAppleMilk:defeatedcrow.appleSandwich:1", /* Egg Sandwich */
+    "DCsAppleMilk:defeatedcrow.appleSandwich:2", /* Cassis Sandwich */
+    "DCsAppleMilk:defeatedcrow.appleSandwich:3" /* Yuzu Sandwich */
+]
+  },
+  "name": "Sandwich",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

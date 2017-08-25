@@ -1,0 +1,217 @@
+{
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 5b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "TraderIgnoreDamage": 0b,
+    "TraderIgnoreNBT": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "TConstruct:broadsword",
+                "Count": 1b,
+                "tag": {
+                    "InfiTool": {
+                        "BaseDurability": 72,
+                        "Head": 3,
+                        "BaseAttack": 6,
+                        "ToolEXP": 0L,
+                        "Built": 1b,
+                        "HarvestLevel": 1,
+                        "Attack": 6,
+                        "RenderHead": 3,
+                        "ModDurability": 0.0f,
+                        "Handle": 3,
+                        "Broken": 0b,
+                        "Shoddy": 0.0f,
+                        "RenderHandle": 3,
+                        "Accessory": 3,
+                        "MiningSpeed": 400,
+                        "RenderAccessory": 3,
+                        "ToolLevel": 1,
+                        "Unbreaking": 0,
+                        "Damage": 0,
+                        "BonusDurability": 0,
+                        "TotalDurability": 72,
+                        "Modifiers": 0
+                    },
+                    "display": {
+                        "Name": "§fFlint Broadsword"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "TConstruct:longsword",
+                "Count": 1b,
+                "tag": {
+                    "InfiTool": {
+                        "BaseDurability": 60,
+                        "Head": 3,
+                        "BaseAttack": 6,
+                        "ToolEXP": 0L,
+                        "Built": 1b,
+                        "HarvestLevel": 1,
+                        "Attack": 6,
+                        "RenderHead": 3,
+                        "ModDurability": 0.0f,
+                        "Handle": 3,
+                        "Broken": 0b,
+                        "Shoddy": 0.0f,
+                        "RenderHandle": 3,
+                        "Accessory": 3,
+                        "MiningSpeed": 400,
+                        "RenderAccessory": 3,
+                        "ToolLevel": 1,
+                        "Unbreaking": 0,
+                        "Damage": 0,
+                        "BonusDurability": 0,
+                        "TotalDurability": 60,
+                        "Modifiers": 0
+                    },
+                    "display": {
+                        "Name": "§fFlint Longsword"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "TConstruct:rapier",
+                "Count": 1b,
+                "tag": {
+                    "InfiTool": {
+                        "BaseDurability": 42,
+                        "Head": 3,
+                        "BaseAttack": 4,
+                        "ToolEXP": 0L,
+                        "Built": 1b,
+                        "HarvestLevel": 1,
+                        "Attack": 4,
+                        "RenderHead": 3,
+                        "ModDurability": 0.0f,
+                        "Handle": 3,
+                        "Broken": 0b,
+                        "Shoddy": 0.0f,
+                        "RenderHandle": 3,
+                        "Accessory": 3,
+                        "MiningSpeed": 400,
+                        "RenderAccessory": 3,
+                        "ToolLevel": 1,
+                        "Unbreaking": 0,
+                        "Damage": 0,
+                        "BonusDurability": 0,
+                        "TotalDurability": 42,
+                        "Modifiers": 0
+                    },
+                    "display": {
+                        "Name": "§fFlint Rapier"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "TConstruct:cutlass",
+                "Count": 1b,
+                "tag": {
+                    "InfiTool": {
+                        "BaseDurability": 90,
+                        "Head": 3,
+                        "BaseAttack": 6,
+                        "ToolEXP": 0L,
+                        "Built": 1b,
+                        "HarvestLevel": 1,
+                        "Attack": 6,
+                        "RenderHead": 3,
+                        "ModDurability": 0.0f,
+                        "Handle": 3,
+                        "Broken": 0b,
+                        "Shoddy": 0.0f,
+                        "RenderHandle": 3,
+                        "Accessory": 3,
+                        "MiningSpeed": 400,
+                        "RenderAccessory": 3,
+                        "ToolLevel": 1,
+                        "Unbreaking": 0,
+                        "Damage": 0,
+                        "BonusDurability": 0,
+                        "TotalDurability": 90,
+                        "Modifiers": 0
+                    },
+                    "display": {
+                        "Name": "§fFlint Cutlass"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "id": "TConstruct:dagger",
+                "Count": 1b,
+                "tag": {
+                    "InfiTool": {
+                        "BaseDurability": 60,
+                        "Head": 3,
+                        "BaseAttack": 3,
+                        "ToolEXP": 0L,
+                        "Built": 1b,
+                        "HarvestLevel": 1,
+                        "Attack": 3,
+                        "RenderHead": 3,
+                        "ModDurability": 0.0f,
+                        "Handle": 3,
+                        "Broken": 0b,
+                        "Shoddy": 0.0f,
+                        "RenderHandle": 3,
+                        "Accessory": 3,
+                        "MiningSpeed": 400,
+                        "RenderAccessory": 3,
+                        "ToolLevel": 1,
+                        "Unbreaking": 0,
+                        "Damage": 0,
+                        "BonusDurability": 0,
+                        "TotalDurability": 60,
+                        "Modifiers": 0
+                    },
+                    "display": {
+                        "Name": "§fFlint Dagger"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    }
+}

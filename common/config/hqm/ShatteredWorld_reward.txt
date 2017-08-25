@@ -1,0 +1,341 @@
+  3 x 1k ME Storage Cell
+  1 x 4k ME Storage Cell
+  2 x Acceleration Card, dmg=30
+  2 x Admin Dislocator, dmg=1
+  8 x Air Shard
+  4 x Alfglass Flask, dmg=1
+  4 x Alumentum
+  4 x Aluminum Ingot, dmg=11
+  1 x Ancient Scroll
+  4 x Apiary
+ 10 x Apple
+  2 x Apple Sapling
+  2 x Apricot Sapling_2
+  4 x Arcane Ash, dmg=2
+  1 x Artifact
+  8 x Aum
+ 10 x Aura Node
+  2 x Average Lengthening Catalyst
+  2 x Average Power Catalyst
+  7 x Awakened Draconium Block
+ 12 x Awakened Draconium Ingot
+  3 x Backpack Pouch
+  8 x Baked Apple
+  6 x Balanced Shard, dmg=6
+  4 x Banana Chocolate, dmg=6
+  8 x Banana Smoothie
+  1 x Band of Mana, dmg=10000
+  4 x Barley Seed
+  1 x Basic Capacitor Bank_2, dmg=1, nbt{type:"SIMPLE",storedEnergyRF:1000000}
+  2 x Basic Item Filter
+  8 x Blank Pattern_2, dmg=52
+  8 x Blaze Powder
+  8 x Blaze Rod
+  8 x Blue Topaz, dmg=5
+  4 x Blueberry Seed
+  1 x Book
+ 16 x Bread
+  1 x Bucket
+  1 x Bucket of Life
+  2 x Bucket of Liquid Etherium
+ 16 x Butter
+  4 x Cake
+  2 x Camellia Sapling, dmg=2
+  2 x Capacity Card, dmg=27
+  2 x Cassis Sapling, dmg=1
+  8 x Cerublossom
+ 48 x Charcoal, dmg=1
+ 16 x Charged Quartz Fixture
+  8 x Cheese
+  2 x Cherry Sapling
+  2 x Chestnut Sapling
+  8 x Chimerite, dmg=4
+  2 x Clam
+  8 x Clay_2
+  2 x Coconut Sapling_2
+  1 x Color Applicator - Empty
+  2 x Comparator, dmg=26
+  4 x Concentrated Catalyst, dmg=4
+  5 x Copper Dust_3, dmg=49
+  2 x Copper Gear_2, dmg=128
+  4 x Copper Singularity, dmg=5
+  4 x Corn Seed
+  4 x Cosmic Meatballs
+  4 x Cracked Runic Plate, dmg=15
+  1 x Creative Activation Crystal, dmg=2
+  1 x Creative Jetpack, dmg=9001, nbt{Energy:1}
+  1 x Creative Tool Modifier_2, nbt{TargetLock:"Pickaxe"}
+  1 x Creative Tool Modifier_20, nbt{TargetLock:"Shuriken"}
+  1 x Creative Tool Modifier_4, nbt{TargetLock:"Hatchet"}
+  1 x Creative Tool Modifier_5, nbt{TargetLock:"Shovel"}
+  4 x Crystal Belljar
+ 16 x Crystal Matrix Ingot, dmg=1
+  2 x Cyclic Assembler (Resonant), dmg=9
+  4 x Dark Oak Drawers 2x2, dmg=5
+ 14 x Dark Steel, dmg=6
+  3 x Daybloom, nbt{type:"daybloom"}
+  4 x Deluxe Cheeseburger
+  8 x Desert Nova
+ 47 x Diamond
+  4 x Diamond Chest, dmg=2
+  2 x Diamond Gear
+ 20 x Diamond Lattice
+  1 x Diamond Sword
+  3 x Draconic Core
+ 10 x Draconium Block
+160 x Draconium Dust
+  1 x Dragon Egg
+  2 x Dragon Heart
+  4 x Dragonstone, dmg=9
+  1 x Drum of the Wild
+  8 x Earth Shard, dmg=3
+  2 x Eldritch Eye
+ 18 x Elementium Ingot, dmg=7
+ 13 x Emerald
+  4 x Empty Core, dmg=1
+  4 x Empty Socket
+  4 x Ender Energy Conduit, dmg=2
+ 24 x Ender Pearl
+  8 x Enderium Blend, dmg=44
+  1 x Enderman Head
+  8 x Entropy Shard, dmg=5
+  1 x Essentia Crystallizer, dmg=7
+  4 x Ethereal Bloom, dmg=4
+  2 x Extremely Primordial Pearl
+ 24 x Feather
+  8 x Fire Shard, dmg=1
+  4 x Fish and Chips
+ 12 x Flint
+ 48 x Floral Fertilizer
+  2 x Fluix Pearl, dmg=9
+  6 x Fluxed Electrum Ingot, dmg=32
+  2 x Fossil Scale
+  1 x Frank'N'Zombie, dmg=2
+  8 x Gaia Spirit, dmg=5
+  3 x Garden Soil
+  8 x Ghast Tear
+  4 x Glowstone
+ 16 x Glowstone Dust
+  2 x Gold Gear_2, dmg=13
+ 36 x Gold Ingot
+  2 x Gold Inlay
+ 16 x Gold Nugget
+  4 x Golden Apple
+  2 x Golden Apple_2, dmg=1
+  4 x Golden Singularity, dmg=1
+  2 x Greater Lengthening Catalyst
+  2 x Greater Power Catalyst
+  8 x Greatwood Log
+  9 x Green Heart Canister, dmg=6
+ 48 x Gunpowder
+  1 x Habitat Locator
+  4 x Hamburger
+  2 x Hardened Energy Cell_2, dmg=2, nbt{Recv:800,RSControl:1b,Facing:3b,Energy:2000000,SideCache:[1b,2b,2b,2b,2b,2b],Send:800}
+ 10 x Hardened Glass
+  4 x Honey Comb
+  2 x Hopper
+  2 x Hopperhock, nbt{type:"hopperhock"}
+  1 x Hovering Hourglass
+  4 x Ice
+  4 x Imbued Runic Plate, dmg=17
+  4 x Imbued Slate
+  3 x Inert Thaumium Cap, dmg=6
+  1 x Infinitato
+  4 x Infinity Catalyst, dmg=5
+  1 x Infinity Cleaver, nbt{InfiTool:{RenderExtra:501,BaseDurability:450000,BaseAttack:56,ToolEXP:0l,Built:1b,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,Unbreaking:10,Damage:0,HarvestLevel2:7,BonusDurability:0,TotalDurability:450000,MiningSpeed2:6000,Head:501,Attack:56,Handle:501,Broken:0b,Extra:501,RenderAccessory:501,ToolLevel:1,Modifiers:20},display:{Name:"Â§fInfinity Cleaver"}}
+  1 x Infinity Hatchet, nbt{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:53,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:53,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:"Â§fInfinity Hatchet"}}
+ 56 x Infinity Ingot, dmg=6
+ 20 x Infinity Orb, dmg=17
+ 10 x Infinity Orb_2, dmg=18
+  8 x Infinity Orb_3, dmg=19
+  1 x Infinity Pickaxe, nbt{InfiTool:{BaseDurability:80000,Head:501,HeadEXP:0l,BaseAttack:51,ToolEXP:0l,Built:1b,HarvestLevel:6,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:"Â§fInfinity Pickaxe"}}
+  1 x Infinity Scythe, nbt{InfiTool:{RenderExtra:501,BaseDurability:480000,Head:501,BaseAttack:54,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:54,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:480000,Modifiers:20},display:{Name:"Â§fInfinity Scythe"}}
+  1 x Infinity Shortbow, nbt{InfiTool:{BaseDurability:12000,BaseAttack:50,DrawSpeed:27,ToolEXP:0l,Built:1b,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:501,MiningSpeed:6000,Unbreaking:10,Damage:0,HarvestLevel2:7,BonusDurability:0,TotalDurability:12000,MiningSpeed2:6000,BaseDrawSpeed:27,Head:501,Attack:50,Handle:0,Broken:0b,RenderAccessory:501,FlightSpeed:10.0f,ToolLevel:1,Modifiers:10},display:{Name:"Â§fInfinity Shortbow"}}
+  1 x Infinity Shovel, nbt{InfiTool:{BaseDurability:80000,Head:501,BaseAttack:52,ToolEXP:0l,Built:1b,HarvestLevel:7,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,ToolLevel:1,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Modifiers:15},display:{Name:"Â§fInfinity Shovel"}}
+ 16 x Ink Sac
+  5 x Iron Dust_3, dmg=1
+  2 x Iron Gear_2, dmg=12
+  1 x Iron Hand Rake, dmg=1
+  8 x Iron Ingot
+ 24 x Iron Nugget_4, dmg=19
+  1 x Iron Pan, dmg=2
+  4 x Iron Singularity
+  6 x Knowledge Fragment, dmg=9
+  1 x Lamp of Growth, dmg=8
+ 32 x Lapis Lazuli, dmg=4
+  4 x Lapis Singularity, dmg=2
+  4 x Leaden Singularity, dmg=7
+ 50 x Leather
+  2 x Lemon Sapling_2
+  8 x Lesser Mana Potion
+  1 x Life Imbuer
+  8 x Life Shard, dmg=28
+  2 x Lime Sapling_2
+  2 x Living Brace, dmg=31
+  4 x Livingrock
+  4 x Livingwood
+  1 x ME 1k Fluid Storage
+  4 x ME Dense Cable - Fluix, dmg=76
+  1 x ME Fluid Terminal, dmg=3
+  8 x ME Glass Cable - Fluix, dmg=16
+  2 x ME Interface
+  3 x ME Interface_2, dmg=440
+  4 x ME Smart Cable - Fluix, dmg=56
+  4 x Machine Frame (Basic)
+  2 x Machine Frame (Hardened), dmg=1
+  4 x Machine Frame (Reinforced), dmg=2
+  2 x Machine Frame (Resonant), dmg=3
+  4 x Machine Upgrade_ Efficiency I, dmg=1
+  4 x Machine Upgrade_ Speed I, dmg=4
+  4 x Magma Cream
+  1 x Mana Battery
+  8 x Mana Diamond, dmg=2
+  1 x Mana Lens_ Warp, dmg=18
+  2 x Mana Pool
+  1 x Mana Pump
+  1 x Mana Tablet, nbt{}
+  8 x Managlass Vial
+ 14 x Manasteel Ingot
+  1 x Master Corporea Spark, dmg=1
+  2 x Master Ritual Stone
+  8 x Melon Seeds
+  2 x Mint Crops
+  8 x Mixed Crystal Cluster, dmg=6
+  4 x Moonstone, dmg=7
+  2 x Mundane Lengthening Catalyst
+  2 x Mundane Power Catalyst
+ 12 x Mushroom
+  8 x Mushroom_2
+  4 x Mystical Purple Flower Seeds
+  1 x Negate Soul Corruption, dmg=2
+  4 x Nether Quartz Singularity, dmg=4
+  5 x Nether Star
+  4 x Nether Star Block
+ 12 x Nether Wart
+  8 x Neutronium Ingot, dmg=4
+  8 x Neutronium Nugget, dmg=3
+  4 x Nickel Singularity, dmg=9
+  3 x Nightshade, nbt{type:"nightshade"}
+  8 x Nitor, dmg=1
+  1 x Node Stabilizer, dmg=9
+  1 x Node in a Jar, nbt{nodetype:0,Aspects:[0:{amount:10,key:"aer"},1:{amount:10,key:"terra"},2:{amount:10,key:"ignis"},3:{amount:10,key:"aqua"},4:{amount:10,key:"ordo"},5:{amount:10,key:"perditio"}]}
+  8 x Oak Wood
+ 18 x Obsidian
+  2 x Obsidian Brace, dmg=25
+  6 x Octadic Capacitor, dmg=2
+  4 x Oil Bucket
+  4 x Onion Seed
+  2 x Orange Sapling_2
+  4 x Orchard Apple Pollen
+  4 x Overgrowth Seed
+  2 x P2P Tunnel - ME, dmg=460
+ 32 x Paint Ball - White
+  2 x Papaya Sapling_2
+  1 x Particle Emitter
+  2 x Phial of Essentia_25, dmg=1, nbt{Aspects:[0:{amount:8,key:"praecantatio"}]}
+  1 x Phial of Essentia_5, dmg=1, nbt{Aspects:[0:{amount:8,key:"ordo"}]}
+  2 x Pig Fat, dmg=8
+  2 x Pipette
+  6 x Piston
+  4 x Pixie Dust, dmg=8
+  1 x Player Detector
+  4 x Plombean Seeds
+  2 x Plum Sapling_2
+  1 x Portable Cell
+  2 x Power IO Module
+  4 x Primal Charm, dmg=15
+  2 x Princess Clam
+  8 x Proven Frame
+  4 x Pulsating Crystal, dmg=5
+  4 x Pulsating Iron, dmg=5
+  8 x Pumpkin Seeds
+  4 x Pure Essence, dmg=10
+  4 x Purified Vinteum Dust, dmg=3
+  4 x Quartz Fiber, dmg=140
+ 16 x Quicksilver Drop, dmg=5
+  1 x Rain Sensor
+  8 x Rare Treasure, dmg=2
+  8 x Raw Fish
+  2 x Red Flower Pot
+  9 x Red Heart Canister, dmg=2
+  3 x Red String, dmg=12
+104 x Redstone
+  4 x Redstone Alloy, dmg=3
+  4 x Redstone Comparator
+  2 x Redstone Inlay
+  4 x Redstone Singularity, dmg=3
+  2 x Reinforced Portable Tank, dmg=3
+  4 x Reservoir
+ 16 x Ritual Stone
+  4 x Rune of Augmented Capacity, dmg=1
+  4 x Rune of Sacrifice
+  4 x Rune of Self-Sacrifice
+  2 x Rune of Superior Capacity, dmg=4
+  4 x Rune of the Orb, dmg=3
+  4 x Sake
+  8 x Sandstone
+  8 x Sanitizing Soap
+ 12 x Seared Bricks, dmg=2
+  8 x Seeds
+ 16 x Silicon
+  8 x Silky Propolis, dmg=3
+  5 x Silver Dust_3, dmg=53
+  4 x Silver Ingot_2, dmg=66
+  4 x Silver Singularity, dmg=8
+  4 x Silverwood Log, dmg=1
+ 32 x Simple Catalyst
+  1 x Skull
+ 10 x Slime Crystal, dmg=1
+  4 x Slimeball
+  8 x Snowball
+  8 x Soul Shard, dmg=29
+  4 x Soularium, dmg=7
+  4 x Spagetti and Meatballs
+  4 x Spark
+  2 x Speed Rune
+  8 x Spider Eye
+ 10 x Standard Binding Agent
+  2 x Starfruit Sapling_2
+  4 x Stone Brace, dmg=4
+  4 x Storage Upgrade (III), dmg=3
+ 12 x Strengthened Catalyst, dmg=3
+ 50 x String
+  4 x Sunstone, dmg=6
+  1 x Tainted Blood Pendant
+  2 x Tank_2
+  2 x Tea Sapling
+ 10 x Terrasteel Ingot, dmg=4
+  1 x Tesseract Frame (Empty), dmg=10
+  1 x Thaumium Block, dmg=4
+  1 x Thaumium Bossed Tainted Wand, dmg=72
+ 25 x Thaumium Ingot, dmg=2
+  1 x Thorn Chakram
+  5 x Tin Dust_3, dmg=54
+  6 x Tin Gear_2, dmg=129
+  8 x Tin Nugget_3, dmg=21
+  4 x Tin Singularity, dmg=6
+  4 x Tiny TNT
+ 16 x Torch
+ 16 x Torch_2
+  4 x Ultimate Stew
+  1 x Uncommon Treasure, dmg=1
+  3 x Vegetable Oil Bottle
+  1 x Vibrant Capacitor Bank_2, dmg=3, nbt{type:"VIBRANT",storedEnergyRF:25000000}
+  1 x View Cell
+ 16 x Vinteum Dust
+  4 x Vis Filter, dmg=8
+  2 x Vis Relay, dmg=14
+ 14 x Void metal Ingot, dmg=16
+  8 x Water Shard, dmg=2
+  4 x Weak Binding Agent
+ 10 x Weak Blood Shard
+  4 x White Chalcedony Glass Lamp, dmg=6
+  4 x World Seed
+  4 x Woven Silk, dmg=3
+  1 x Wyvern Core
+  2 x Wyvern Energy Core
+  2 x Yellow Flower Pot, dmg=4
+  6 x Yellow Heart Canister, dmg=4
+  8 x Yuzu Candy, dmg=6
+  1 x Yuzu Marmalade, dmg=3
+  2 x Yuzu Sapling

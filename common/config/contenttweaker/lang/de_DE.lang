@@ -1,0 +1,66 @@
+# Botania
+tile.molten_manasteel.name=Geschmolzener Manastahl
+tile.molten_terrasteel.name=Geschmolzener Terrastahl
+tile.molten_elementium.name=Geschmolzenes Elementium
+
+fluid.molten_manasteel=Geschmolzener Manastahl
+fluid.molten_terrasteel=Geschmolzener Terrastahl
+fluid.molten_elementium=Geschmolzenes Elementium
+
+# EnderIO
+tile.molten_electricalsteel.name=Geschmolzener elektrischer Stahl
+tile.molten_pulsatingiron.name=Geschmolzenes pulsierendes Eisen
+tile.molten_vibrantalloy.name=Geschmolzene dynamische Legierung
+tile.molten_darksteel.name=Geschmolzener Dunkelstahl
+tile.molten_redstonealloy.name=Geschmolzene Redstone Legierung
+tile.molten_conductiveiron.name=Geschmolzenes leitendes Eisen
+tile.molten_energeticalloy.name=Geschmolzene energetisierte Legierung
+tile.molten_soularium.name=Geschmolzenes Soularium
+
+fluid.molten_electricalsteel=Geschmolzener elektrischer Stahl
+fluid.molten_pulsatingiron=Geschmolzenes pulsierendes Eisen
+fluid.molten_vibrantalloy=Geschmolzene dynamische Legierung
+fluid.molten_darksteel=Geschmolzener Dunkelstahl
+fluid.molten_redstonealloy=Geschmolzene Redstone Legierung
+fluid.molten_conductiveiron=Geschmolzenes leitendes Eisen
+fluid.molten_energeticalloy=Geschmolzene energetisierte Legierung
+fluid.molten_soularium=Geschmolzenes Soularium
+
+# GardenStuff
+tile.molten_wroughtiron.name=Geschmolzenes Schmiedeeisen
+
+fluid.molten_wroughtiron=Geschmolzenes Schmiedeeisen
+
+# Redstone Arsenal
+tile.molten_fluxedelectrum.name=Geschmolzenes fluxierendes Elektrum
+
+fluid.molten_fluxedelectrum=Geschmolzenes fluxierendes Elektrum
+
+# Thaumcraft
+tile.molten_thaumium.name=Geschmolzenes Thaumium
+tile.molten_voidmetal.name=Geschmolzenes Leermetall
+
+fluid.molten_thaumium=Geschmolzenes Thaumium
+fluid.molten_voidmetal=Geschmolzenes Leermetall
+
+# Dragonic Evolution
+tile.molten_draconium.name=Geschmolzenes drakonisches Metall
+tile.molten_draconiumawakened.name=Geschmolzenes erwachtes drakonisches Metall
+
+fluid.molten_draconium=Geschmolzenes drakonisches Metall
+fluid.molten_draconiumawakened=Geschmolzenes erwachtes drakonisches Metall
+
+#Pile of Wood Logs
+item.pileOfWoodLogs.name=Gestapelte Baumstämme
+
+
+# Hardcore Ender Expansion
+tile.molten_endium.name=Geschmolzenes Endium
+fluid.molten_endium=Geschmolzenes Endium
+
+# Avaritia
+tile.molten_neutronium.name=Geschmolzenes Neutronium
+tile.molten_infinity.name=Geschmolzene Infinity Legierung
+
+fluid.molten_neutronium=Geschmolzenes Neutronium
+fluid.molten_infinity=Geschmolzene Infinity Legierung

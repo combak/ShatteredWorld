@@ -1,0 +1,64 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/repositories/releases/"
+        }  
+    }    
+    dependencies {
+        classpath "org.ajoberstar:gradle-git:1.6.0"
+    }
+}
+apply plugin: "org.ajoberstar.grgit"
+
+//Get Github commit hash
+task tagRelease {
+  description = "Tags the current head with the project\"s version."
+  doLast {
+    grgit.tag.add {
+      name = version
+      message = "Release of ${version}"
+    }
+  }
+}
+
+file "modpack.json" withReader {    
+    ext.modpack = new groovy.json.JsonSlurper().parseText( it.text )
+}
+
+task sync( dependsOn: [ "syncCommon", "syncClient", "syncServer" ] ) {
+    group "modpack"
+    description "Sync files from development client and server folder to common, client and server folder"
+}
+
+task syncCommon( type : Sync ) {
+    group "modpack"
+    description "Sync files from development client folder to common folder"
+
+    from "development/client/"
+    into "common/"
+    
+    includes = modpack.common.includes
+    excludes = modpack.client.includes
+}
+
+task syncClient( type : Sync ) {
+    group "modpack"
+    description "Sync files from development client folder to client folder"
+
+    from "development/client/"
+    into "client/"
+    
+    includes = modpack.client.includes
+}
+
+task syncServer( type : Sync ) {
+    group "modpack"
+    description "Sync files from development server folder to server folder"
+
+    from "development/server/"
+    into "server/"
+    
+    includes = modpack.server.includes
+}

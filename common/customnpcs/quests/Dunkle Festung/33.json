@@ -1,0 +1,52 @@
+{
+    "CompleterNpc": "Rashgur ",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 4,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Bring Rashgur Runen.",
+    "Text": "Wicht bring mir gefälligst eine Blank Slate!",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 11,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 16,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1482054823225L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "AWWayofTime:blankSlate",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Her damit !",
+    "NextQuestTitle": ""
+}

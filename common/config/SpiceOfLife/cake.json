@@ -1,0 +1,58 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodApplepie",				/* Apple Pie */
+      "foodBlueberrypie",			/* Blueberry Pie */
+      "foodCheesecake",				/* Cheese Cake */
+      "foodCherrycheesecake",			/* Cherry Cheese Cake */
+      "foodCherrypie",				/* Cherry Pie */
+      "foodChocolatesprinklecake",		/* Chocolate Spinkles Cake */
+      "foodGingeredrhubarbtart",		/* Gingered Rhubarb Tart*/
+      "foodHolidaycake",			/* Holiday Cake */
+      "foodKeylimepie",				/* Keylime Pie */
+      "foodLemonmeringue",   			/* Lemon Meringue */
+      "foodPavlova",   				/* Pavlova */
+      "foodPineappleupsidedowncake",   		/* Pineapple Upsidedown Cake */
+      "foodRaspberrypie",    			/* Raspberry Pie */
+      "foodRedvelvetcake",   			/* Red Velvet Cake */
+      "foodSpicebun",    			/* Spice Bun */
+      "foodStrawberrypie",   			/* Strawberry Pie */
+      "foodLamington",				/* Lamington */
+      "foodPeachcobbler",			/* Peach Cobbler */
+      "foodBlackberrycobbler",			/* Blackberry Cobbler */
+      "foodFruitcrumble",			/* Fruit Crumble */    
+      "foodYorkshirepuddiing", /* Yorkshire Pudding */
+      "foodJamroll", /* Jam Roll */
+      "foodCarrotcake", /* Carrot Cake */
+      "foodCherrycheesecake", /* Cherrychese Cake */
+      "foodChocolatesprinklecake", /* Chocolate Sprinkle Cake */
+      "foodRedvelvetcake", /* Red Velvet Cake */
+      "foodPineappleupsidedowncake", /* Pineapple Upsidedown Cake */
+      "foodLamington", /* Lamington */
+      "foodPavlova", /* Pavola */
+      "foodHolidaycake" /* Holidaycake */
+
+
+
+    ],
+    "items": 
+    [
+      "harvestcraft:pumpkincheesecakeItem", 	/* Pumpkin Cheese Cake */
+      "minecraft:cake",   			/* Cake */
+      "arsmagica2:manaCake",    		/* Mana Cake */
+      "WitchingGadgets:item.WG_MagicFood:1",  	/* Nethercake */
+      "DCsAppleMilk:defeatedcrow.appleTart:1", /* Cassis Tart */
+      "DCsAppleMilk:defeatedcrow.appleTart", /* Apple Tart */
+      "DCsAppleMilk:defeatedcrow.appleTart:2", /* Yuzzu Mousse Cake */
+      "DCsAppleMilk:defeatedcrow.appleTart", /* Apricot Mousse Cake */
+      "harvestcraft:pumpkincheesecakeItem" /* Pumpkincheese Cake */
+    ]
+  },
+  "name": "Piece of Cake",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

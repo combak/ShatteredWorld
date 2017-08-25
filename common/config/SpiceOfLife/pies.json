@@ -1,0 +1,31 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodSweetpotatopie",		/* Sweet Potato Pie */
+      "foodAsparagusquiche",		/* Asparagus Quiche */
+      "foodPecanpie",			/* Pecan Pie */
+      "foodCarrotcake",			/* Carrot Cake */
+      "foodMeatpie",			/* Meat Pie */
+      "foodSpinachpie",			/* Spinach Pie */
+      "foodMincepie",			/* Mince Pie */
+      "foodChickenpotpie",   		/* Chicken Pot Pie */
+      "foodShepherdspie",   		/* Shepherd´s Pie */
+      "foodCornishpasty", /* Cornisch Pasty */
+      "foodCottagepie", /* Cottage Pie */
+      "foodGooseberrypie" /* Gooseberry Pie */
+    ],
+    "items":
+    [
+      "desertmobs:ambercake",		/* Amber Cake */
+      "minecraft:pumpkin_pie",		/* Pumkin Pie */
+      "swampmobs:mosspie"		/* Mosspie */
+    ]
+  },
+  "name": "Savory Pie",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

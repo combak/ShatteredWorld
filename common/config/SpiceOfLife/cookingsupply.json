@@ -1,0 +1,52 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      
+      "listAllnutbutter",
+      
+      "foodApplesauce",			/* Apple Sauce */
+      "foodCheese",			/* Cheese */
+      "foodCranberrysauce",		/* Cranberry Sauce */
+      "cropMaplesyrup",			/* Maple Syrup */
+      "foodPorksausage",		/* Pork Sausage */
+      "foodSilkentofu",			/* Silken Tofu */
+      "foodFirmtofu",			/* Firm Tofu */
+      "cropMustard",			/* Mustard */
+      "foodPeanutbutter",		/* Peanut Butter */      
+      "foodStock",			/* Stock */
+      "foodTortilla",			/* Tortillia */
+      "foodVegemite",			/* Vegemite */
+      "foodKimchi", /* Kimchi */
+      "foodGravy",  /* Gravy */
+      "foodSausage", /* Sausage */
+      "foodPaneer", /* Paneer */
+      "foodPepperoni", /* Pepperoni */
+      "foodCoconutcream", /* Coconut Cream */
+      "foodMaplesausage", /* Maple Sausage */
+      "foodMangochutney" /* Mango Chutney */
+    ],
+    "items": 
+    [
+      "TConstruct:strangeFood",		/* Bacon */
+      "DCsAppleMilk:defeatedcrow.gratedApple", /* Grated Apple */
+      "DCsAppleMilk:defeatedcrow.gratedApple:1", /* Grated Fruit */
+      "DCsAppleMilk:defeatedcrow.gratedApple:6", /* Grated Tomate */
+      "DCsAppleMilk:defeatedcrow.gratedApple:8", /* Grated Grape */
+      "DCsAppleMilk:defeatedcrow.gratedApple:5", /* Grated Lime */
+      "DCsAppleMilk:defeatedcrow.gratedApple:7",  /* Grated Berry */
+      "DCsAppleMilk:defeatedcrow.gratedApple:2", /* Honey Lemon Slices */
+      "DCsAppleMilk:defeatedcrow.gratedApple:9", /* Orange Slices */
+      "DCsAppleMilk:defeatedcrow.gratedApple:3", /* Coffee Powder */
+      "DCsAppleMilk:defeatedcrow.gratedApple:4", /* Ganache */
+      "DCsAppleMilk:defeatedcrow.basesoupitem:2", /* Oil Bowl */
+      "DCsAppleMilk:defeatedcrow.basesoupitem:8" /* Cheese Bowl */
+    ]
+  },
+  "name": "Cooking Supply",
+  "enabled": true,
+  "priority": 10,
+  "blacklist": false,
+  "hidden": false
+}

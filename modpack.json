@@ -1,0 +1,36 @@
+{
+    "version" : "1.2.6",
+    "common": {
+        "includes": [ 
+            "config/", 
+            "contentScripts/", 
+            "customnpcs/", 
+            "mods/", 
+            "permissions/", 
+            "scripts/"
+        ]
+    },
+    "client": {
+        "includes": [ 
+                "config/CustomMainMenu/", 
+                "config/LaunchGui.cfg", 
+                "mods/custommainmenu-*",
+                "mods/resourceloader-*",
+                "mods/tabbychat-*",
+                "mods/launchgui-client-*",
+                "mods/fullscreenwindowed-*",
+                "resources/"
+            ]
+    },
+    "server": {
+        "includes": [
+            "config/JourneyMapServer/",
+            "mods/journeymap-*",
+            "libraries/",
+            "mc.config",
+            "minecraft_server.1.7.10.jar",
+            "server.jar",
+            "simple-server-launcher.sh"
+        ]
+    }
+}

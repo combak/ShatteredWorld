@@ -1,0 +1,15 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [   
+      "foodSpagetti",			/* Spagetti */
+      "foodSpagettiandmeatballs"	/* Spagetti and Meatballs */
+    ]
+  },
+  "name": "Spagetti",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

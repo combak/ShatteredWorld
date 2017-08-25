@@ -1,0 +1,34 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [ 
+      "foodBeanburrito",			/* Bean Burrito */
+      "foodFishlettucewrap",			/* Fish Lettuce Wrap */
+      "foodFriedonions",			/* Fried Onions */
+      "foodFries",				/* Fries */
+      "foodHotdog",				/* Hotdog */
+      "foodPorklettucewrap",			/* Pork Lettuce Wrap */
+      "foodRandomtaco",				/* Random Taco */
+      "foodSausageinbread",			/* Sausage in Bread */
+      "foodSteakandchips",			/* Steak and Chips */
+      "foodTaco",				/* Taco */
+      "foodFishTaco", /* Fish Taco */
+      "foodVegetarianlettucewrap",		/* Vegetarian Lettuce Wrap */
+      "foodZucchinifries",			/* Zucchini Fries */
+      "foodFishtaco"				/* Fish Taco */  
+    ],
+    "items": 
+    [
+      "lycanitesmobs:battleburrito",		/* Battle Burrito */
+      "infernomobs:searingtaco",		/* Searing Taco */
+      "freshwatermobs:lapisfishandchips",	/* Lapis Fish and Chips */
+      "harvestcraft:randomtacoItem" /* Random Taco */
+    ]
+  },
+  "name": "Fastfood",
+  "enabled": true,
+  "priority": 5,
+  "blacklist": false,
+  "hidden": false
+}

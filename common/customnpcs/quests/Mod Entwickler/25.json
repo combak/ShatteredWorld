@@ -1,0 +1,77 @@
+{
+    "CompleterNpc": "Vorbran",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 4,
+    "QuestCompletion": 0,
+    "Title": "Forestry",
+    "Text": "Du sollst für einen Kopfgeldjäger der Zwerge einige Komische gestallten töten. Sie betreiben Forstwirtschaft und sollen sich irgendwo bei den Zwergen und bei einem Bauenhof rumtreiben.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 6,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 25,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 2,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "Nedelosk"
+        },
+        {
+            "Value": 1,
+            "Slot": "SirSengir"
+        },
+        {
+            "Value": 1,
+            "Slot": "Mezz"
+        }
+    ],
+    "ModRev": 16,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1480768799865L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "Forestry:honeyDrop",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "Forestry:honeyDrop",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "Forestry:beeCombs",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "Forestry:beeCombs",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "Du hast  einen Auftrag für einen Kopfgeldjäger der Zwerge  abgeschlossen. Dein Ansehen bei den Zwergen ist dadurch gestiegen.",
+    "NextQuestTitle": ""
+}

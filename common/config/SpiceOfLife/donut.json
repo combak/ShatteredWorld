@@ -1,0 +1,17 @@
+{
+  "food": {
+    "oredict": [ 
+        "foodDonut",
+        "foodChocolatedonut",
+        "foodPowdereddonut",
+        "foodJellydonut",
+        "foodFrosteddonut",
+        "foodCinnamonsugardonut"
+    ]
+  },
+  "name": "Donut",
+  "enabled": true,
+  "priority": 8,
+  "blacklist": false,
+  "hidden": false
+}

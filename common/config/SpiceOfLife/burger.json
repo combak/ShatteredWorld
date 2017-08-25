@@ -1,0 +1,29 @@
+{
+  "food": 
+  {
+    "oredict": 
+    [
+      "foodHamburger",			/* Hamburger */
+      "foodCheeseburger",		/* Cheeseburger */
+      "foodBaconcheeseburger",		/* Baconcheeseburger */
+      "foodDeluxecheeseburger",		/* Deluxecheeseburger */
+      "foodDelightedmeal",		/* Delightedmeal */
+      "foodBaconmushroomburger",	/* Baconmushroomburger */
+      "foodBeetburger",			/* Beet Burger */
+      "foodColeslawburger",		/* Colesaw Burger */
+      "foodMcpam",			/* McPam */
+      "foodOnionhamburger",		/* Onion Burger */
+      "foodBlt",			/* BLT */
+      "foodGrilledcheese"    		/* Grilled Cheese */    
+    ],
+    "items": 
+    [
+      "plainsmobs:bulwarkburger"	 /* Bulwark Burger */
+    ]
+  },
+  "name": "Burger",
+  "enabled": true,
+  "priority": 10,
+  "blacklist": false,
+  "hidden": false
+}
