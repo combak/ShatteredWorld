@@ -32,5 +32,8 @@
             "server.jar",
             "simple-server-launcher.sh"
         ]
+    },
+    "publish": {
+        "includes": [ "*.md" ]
     }
 }

@@ -27,6 +27,8 @@ file "modpack.json" withReader {
     ext.modpack = new groovy.json.JsonSlurper().parseText( it.text )
 }
 
+def version = "${modpack.version}-${grgit.head().abbreviatedId}"
+
 task versions {
     group "modpack"
     description "List Mod-Versions and create VERSIONS.md"
@@ -96,7 +98,7 @@ task dev( dependsOn: [ "devClient", "devServer" ] ) {
 
 task devClient( dependsOn: [ "devClientCommon" ], type: Copy ) {
     group "modpack"
-    description "Copy common and client files to development client"
+    description "Create development client"
     
     from "client/"
     into "development/client/"
@@ -104,7 +106,7 @@ task devClient( dependsOn: [ "devClientCommon" ], type: Copy ) {
 
 task devClientCommon( type: Copy) {
     group "modpack"
-    description "Copy client files to development client"
+    description "Copy common files to development client"
     
     from "common/"
     into "development/client/"
@@ -112,7 +114,7 @@ task devClientCommon( type: Copy) {
 
 task devServer( dependsOn: [ "devServerCommon" ], type: Copy ) {
     group "modpack"
-    description "Copy common and server files to development server"
+    description "Create development server"
     
     from "server/"
     into "development/server/"
@@ -124,4 +126,59 @@ task devServerCommon( type: Copy) {
     
     from "common/"
     into "development/server/"
+}
+
+task pub( dependsOn: [ "pubClient", "pubServer" ] ) {
+    group "modpack"
+    description "Publish client and server"
+}
+
+task pubClient( dependsOn: [ "versions", "pubClientCommon" ], type: Copy ) {
+    group "modpack"
+    description "Publish client"
+    
+    from "client/"
+    into "publish/${version}/client/"
+    
+    doLast{
+        copy {
+            from "./"
+            into "publish/${version}/client/"
+            
+            includes = modpack.publish.includes
+        }
+    }
+}
+
+task pubClientCommon( type: Copy) {
+    group "modpack"
+    description "Copy client files to pubelopment client"
+    
+    from "common/"
+    into "publish/${version}/client/"
+}
+
+task pubServer( dependsOn: [ "versions", "pubServerCommon" ], type: Copy ) {
+    group "modpack"
+    description "Copy common and server files to pubelopment server"
+    
+    from "server/"
+    into "publish/${version}/server/"
+    
+    doLast{
+        copy {
+            from "./"
+            into "publish/${version}/server/"
+            
+            includes = modpack.publish.includes
+        }
+    }    
+}
+
+task pubServerCommon( type: Copy) {
+    group "modpack"
+    description "Copy common files to pubelopment server"
+    
+    from "common/"
+    into "publish/${version}/server/"
 }
