@@ -15,15 +15,15 @@
 **AE2 Stuff**
 > Minecraft Mod Public License
 
-- Author: bdew
-- Files: http://minecraft.curseforge.com/mc-mods/225194-ae2-stuff/files
+- Author: bdew (Original Author), DerOli82 (Port rv2 changes to rv3)
+- Files: https://minecraft.curseforge.com/projects/ae2-stuff/files
 - Licence: https://github.com/bdew/ae2stuff/blob/master/MMPL-1.0.txt
 
 **AgriCraft**
 > The MIT License (MIT)
 
 - Authors: InfinityRaider, nimODota
-- Files: http://minecraft.curseforge.com/mc-mods/225635-agricraft/files
+- Files: https://minecraft.curseforge.com/projects/agricraft/files
 - Licence: https://github.com/InfinityRaider/AgriCraft/blob/master/LICENSE
 
 **Animation API**
@@ -31,15 +31,15 @@
 
 - Author: thehippomaster21
 - Required for: Ars Magica 2
-- Files: http://minecraft.curseforge.com/mc-mods/77191-animationapi/files
-- Licence: http://minecraft.curseforge.com/mc-mods/77191-animationapi/license
+- Files: https://minecraft.curseforge.com/projects/animationapi/files
+- Licence: https://minecraft.curseforge.com/projects/animationapi/license
 
 **AppleCore**
 > Public Domain
 
 - Author: squeek502
 - Required for: The Spice of Life
-- Files: http://minecraft.curseforge.com/mc-mods/224472-applecore/files
+- Files: https://minecraft.curseforge.com/projects/applecore/files
 - Licence: https://github.com/squeek502/AppleCore/blob/master/LICENSE
 
 **Apple&Milk&Tea 2**
@@ -70,31 +70,24 @@
 > Apache License version 2.0
 
 - Author: smbarbour
-- Files: http://minecraft.curseforge.com/mc-mods/221457-autopackager/files
-- Licence: http://minecraft.curseforge.com/mc-mods/221457-autopackager/license
+- Files: https://minecraft.curseforge.com/projects/autopackager/files
+- Licence: https://minecraft.curseforge.com/projects/autopackager/license
 
 **Avaritia**
 > The MIT License (MIT)
 
 - Authors: SpitefulFox, TTFTCUTS
 - Files: https://minecraft.curseforge.com/projects/avaritia/files
-- Licence: https://minecraft.curseforge.com/projects/avaritia
+- Licence: https://minecraft.curseforge.com/projects/avaritia/license
 
 ## B
-
-**Backpacks**
-> Feel free to include this mod in modpacks.
-
-- Author: Brad16840
-- Files: http://minecraft.curseforge.com/mc-mods/223957-backpacks/files
-- Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291844-backpacks-by-brad16840
 
 **BdLib**
 > Minecraft Mod Public License
 
 - Author: bdew
 - Required for: AE2 Stuff
-- Files: http://minecraft.curseforge.com/mc-mods/70496-bdlib/files
+- Files: https://minecraft.curseforge.com/projects/bdlib/files
 - Licence: https://github.com/bdew/bdlib/blob/mc1710/MMPL-1.0.txt
 
 
@@ -102,15 +95,15 @@
 > As long as you provide proper credit to me for my work(s) and have a link back to www.bibliocraftmod.com,  you can use my mod(s) in your mod pack.
 
 - Author: Nuchaz
-- Files: http://www.bibliocraftmod.com/?page_id=48#MC1710
-- Permission: http://www.bibliocraftmod.com/?page_id=57#modpacks
+- Files: http://www.bibliocraftmod.com/downloads/
+- Permission: http://www.bibliocraftmod.com/copyright/#modpacks
 
 **Binnie's Mods**
 > You do not need to seek explicit permission to use this mod under the sole condition that you have permission to use the Forestry mod (which is required), in regards to what the current license for Forestry is.
 
-- Author: Binnie567
-- Files: http://minecraft.curseforge.com/mc-mods/223525-binnies-mods/files
-- Permission: http://minecraft.curseforge.com/mc-mods/223525-binnies-mods
+- Author: Binnie567, mezz
+- Files: https://minecraft.curseforge.com/projects/binnies-mods/files
+- Permission: https://minecraft.curseforge.com/projects/binnies-mods
 
 **Binnie Patcher**
 > If it's a public pack, saying you're using it in the thread is nice so I can get an idea of where it's being used, but you don't have to explicitly ask my permission to use it. 
@@ -123,7 +116,7 @@
 >  Creative Commons Attribution 4.0 International License.
 
 - Author: WayofTime
-- Files: http://minecraft.curseforge.com/mc-mods/224791-blood-magic/files
+- Files: https://minecraft.curseforge.com/projects/blood-magic/files
 - Licence: https://github.com/WayofTime/BloodMagic/blob/master/LICENSE
 
 **Blood Magic - Sanguimancy**
@@ -153,7 +146,7 @@
 > The GNU General Public License 
 
 - Author: AEnterprise
-- Files: http://minecraft.curseforge.com/mc-mods/221014-buildcraft-additions/files
+- Files: https://minecraft.curseforge.com/projects/buildcraft-additions/files
 - Licence: https://github.com/AEnterprise/Buildcraft-Additions/blob/multiblockRefinery/LICENCE
 
 **BuildCraft Team Mods**
@@ -184,8 +177,8 @@
 > GNU General Public License
 
 - Authors: TheCricket26, Drullkus, tterrag1098, warlordjones
-- Files: http://minecraft.curseforge.com/mc-mods/225236-chisel-2/files
-- Licence: https://github.com/TheCricket/Chisel-2/blob/master/LICENSE
+- Files: https://minecraft.curseforge.com/projects/chisel/files
+- Licence: https://github.com/Chisel-Team/Chisel/blob/1.10/dev/LICENSE
 
 **Content Tweaker**
 > I don't really care if people use my mod, like sending me a message would be nice, but I will very rarely say no
@@ -199,21 +192,21 @@
 
 - Author: ephys
 - Required for: Tinker's Steelworks
-- Files: http://minecraft.curseforge.com/mc-mods/222908-cookiecore/files
+- Files: https://minecraft.curseforge.com/projects/cookiecore/files
 - Permission: https://github.com/Ephys/CookieCore/blob/1.7/README.md
 
 **Custom Main Menu**
-> Please notify me when you use this mod in a modpack, you don't have to wait for an answer (There won't actually be an answer unless you ask me something) just send me the name of your pack. 
+> Feel free to use this mod in any modpack :). You don't have to send me anything.
 
 - Author: Lumien231
-- Files: http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu/files
-- Permission: http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu
+- Files: https://minecraft.curseforge.com/projects/custom-main-menu/files
+- Permission: https://minecraft.curseforge.com/projects/custom-main-menu
 
 **Custom NPCs**
 > If you want to use it for a modpack, include a link to this thread
 
 - Author: Noppes
-- Files: http://minecraft.curseforge.com/mc-mods/221826-custom-npcs/files
+- Files: https://minecraft.curseforge.com/projects/custom-npcs/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278956-custom-npcs
 
 ## D
@@ -235,7 +228,7 @@
 >  -Redistribute this mod on other websites
 
 - Authors: brandon3055, GreatOrator 
-- Files: http://minecraft.curseforge.com/mc-mods/223565-draconic-evolution/files
+- Files: https://minecraft.curseforge.com/projects/draconic-evolution/files
 - Permission: http://www.tolkiencraft.com/draconic-evolution/
 
 ## E
@@ -244,29 +237,22 @@
 > The MIT License (MIT)
 
 - Author: joshiejack
-- Files: http://minecraft.curseforge.com/mc-mods/76612-enchiridion-2/files
+- Files: https://minecraft.curseforge.com/projects/enchiridion/files
 - Licence: https://github.com/joshiejack/Enchiridion/blob/master/LICENSE
 
 **EnderIO**
 > Public Domain
 
 - Authors: CrazyPants, tterrag1098
-- Files: http://minecraft.curseforge.com/mc-mods/64578-ender-io/files
+- Files: https://minecraft.curseforge.com/projects/ender-io/files
 - Licence: https://github.com/SleepyTrousers/EnderIO/blob/master/LICENSE
-
-**EnderTech**
-> Yes, provided you meet the requirements listed in the README. Also, I request (but don't require) that you tell me you're including it in a modpack! Understand that I do my best to keep Promoted builds stable, but there might be issues while the mod is relatively new.
-
-- Authors: Drayshak, Arkember, RWTema
-- Files: http://minecraft.curseforge.com/mc-mods/223428-endertech/files
-- Permission: https://github.com/voxelcarrot/EnderTech/wiki#can-i-include-this-mod-in-a-modpack
 
 **Eureka**
 > The GNU Lesser General Public License
 
 - Author: AEnterprise
 - Required for: BuildCraft Additions
-- Files: http://minecraft.curseforge.com/mc-mods/222995-eureka/files
+- Files: https://minecraft.curseforge.com/projects/eureka/files
 - Licence: https://github.com/AEnterprise/Eureka/blob/master/LICENCE
 
 **Ex Astris Rebirth**
@@ -280,21 +266,21 @@
 > GNU General Public License
 
 - Author: Erasmus_Crowley, insaneau
-- Files: http://minecraft.curseforge.com/mc-mods/221696-ex-nihilo/files
+- Files: https://minecraft.curseforge.com/projects/ex-nihilo/files
 - Licence: http://minecraft.curseforge.com/mc-mods/221696-ex-nihilo/license
 
 **ExtraCells2**
 > The MIT License (MIT)
 
 - Authors: Leonelf/M3gafr3ak, DrummerMC
-- Files: http://minecraft.curseforge.com/mc-mods/229218-extracells2/files
+- Files: https://minecraft.curseforge.com/projects/extracells2/files
 - Licence: https://github.com/ExtraCells/ExtraCells2/blob/rv2/License.txt
 
 **Extra Utilities**
 > You have my permission to use include this mod in any modpack, public or private, provided that credit is given, the source code is not modified and the overall mod pack is distributed free of charge.
 
 - Authors: RWTema
-- Files: http://minecraft.curseforge.com/mc-mods/225561-extra-utilities/files
+- Files: https://minecraft.curseforge.com/projects/extra-utilities/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k
 
 ## F
@@ -317,14 +303,14 @@
 > The MIT License (MIT)
 
 - Author: Nedelosk
-- Files: http://minecraft.curseforge.com/mc-mods/226149-forest-day-work-in-progress/files
-- Licence: https://github.com/Nedelosk/Forest-Mods/blob/1.7.10/License.txt
+- Files: https://github.com/Nedelosk/Modular-Machines/releases
+- Licence: https://github.com/Nedelosk/Modular-Machines/blob/1.7.10/License.txt
 
 **Forestry**
 > GNU Lesser General Public License
 
 - Author: SirSengir
-- Files: http://minecraft.curseforge.com/mc-mods/59751-forestry/files
+- Files: https://minecraft.curseforge.com/projects/forestry/files
 - Licence: https://github.com/ForestryMC/ForestryMC/blob/dev/LICENSE.txt
 
 **Fullscreen Windowed (Borderless) for Minecraft**
@@ -347,14 +333,14 @@
 > The MIT License (MIT)
 
 - Author: Jaquadro
-- Files: http://minecraft.curseforge.com/mc-mods/225903-garden-stuff/files
+- Files: https://minecraft.curseforge.com/projects/garden-stuff/files
 - Licence: https://github.com/jaquadro/GardenCollection/blob/master/LICENSE
 
 **Guide API**
 > > Minecraft Mod Public License
 
 - Author: TehNut, Tombenpotter
-- Files: http://minecraft.curseforge.com/mc-mods/228832-guide-api/files
+- Files: https://minecraft.curseforge.com/projects/guide-api/files
 - Licence: https://github.com/TeamAmeriFrance/Guide-API/blob/1.7.10/LICENSE.md
 
 ## H
@@ -363,8 +349,8 @@
 > Feel free to use this mod in a modpack
 
 - Author: Lumien231
-- Files: http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness/files
-- Permission: http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness
+- Files: https://minecraft.curseforge.com/projects/hardcore-darkness/files
+- Permission: https://minecraft.curseforge.com/projects/hardcore-darkness
 
 **Hardcore Ender Expansion**
 > To get permission to redistribute the mod in your modpack, send me a private message on CurseForge or MinecraftForum; 
@@ -372,16 +358,16 @@
 > full mod list and a link to the modpack website, download or forum post; I will respond ok if the permission is given
 
 - Author: chylex
-- Files: http://minecraft.curseforge.com/mc-mods/228015-hardcore-ender-expansion/files
+- Files: https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files
 - Permission: https://github.com/combak/ShatteredWorld/blob/master/permissions/Hardcore-Ender-Expansion.png
 
 
 **Hardcore Questing Mode**
-> Just give us a headsup, whether we reply or not, it's cool.
+> GNU Lesser General Public License
 
 - Authors: Vswe, LordDusk, Newcastlegeek
-- Files: http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode/files
-- Permission: http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode
+- Files: https://minecraft.curseforge.com/projects/hardcore-questing-mode/files
+- Permission: https://github.com/lorddusk/HQM/blob/master/LICENSE.md
 
 ## I
 
@@ -396,15 +382,15 @@
 > Creative Commons Attribution 4.0 International License.
 
 - Author: Boni
-- Files: http://minecraft.curseforge.com/mc-mods/223248-iguanas-tinker-tweaks/files
-- Licence: http://minecraft.curseforge.com/mc-mods/223248-iguanas-tinker-tweaks/license
+- Files: https://minecraft.curseforge.com/projects/iguanas-tinker-tweaks/files
+- Licence: https://minecraft.curseforge.com/projects/iguanas-tinker-tweaks/license
 
 **INpureCore**
 > The IDGAF License
 
 - Author: Valaelea
-- Files: http://minecraft.curseforge.com/mc-mods/223792-inpurecore/files
-- Licence: http://minecraft.curseforge.com/mc-mods/223792-inpurecore/license
+- Files: https://minecraft.curseforge.com/projects/inpurecore/files
+- Licence: https://minecraft.curseforge.com/projects/inpurecore/license
 
 **Inventory Tweaks**
 > The MIT License (MIT)
@@ -417,7 +403,7 @@
 > GNU General Public License v3
 
 - Author: progwml6
-- Files: http://minecraft.curseforge.com/mc-mods/228756-iron-chests/files
+- Files: https://minecraft.curseforge.com/projects/iron-chests/files
 - Licence: https://github.com/progwml6/ironchest/blob/master/README.md
 
 ## L
@@ -428,14 +414,6 @@
 - Author: TehNut
 - Files: https://minecraft.curseforge.com/projects/launchgui/files
 - Licence: https://github.com/TehNut/LaunchGui/blob/1.9/LICENSE.md
-
-**Limited Resources**
-> GNU Lesser General Public License v3
-
-- Author: DerOli82
-- Files: http://minecraft.curseforge.com/mc-mods/231186-limited-resources/files
-- Licence: https://github.com/DerOli82/LimitedResources/blob/master/Licence.md
-
 
 **Lycanite's Mobs**
 > Lycanites Mob Public License
@@ -450,7 +428,7 @@
 > The MIT License
 
 - Author: mDiyo, Boni, Progwml6
-- Files: http://minecraft.curseforge.com/mc-mods/74924-mantle/files
+- Files: https://minecraft.curseforge.com/projects/mantle/files
 - Licence: https://github.com/SlimeKnights/Mantle/blob/master/README.md
 
 **Minecraft Forge**
@@ -470,7 +448,7 @@ minecraft original sources.
 > modified source code publicly available. Obviously, I cannot offer support for customized builds. Just be so 
 > kind to mention the original source and author (me) ;)
 
-- Authors: StanH ( Original MineTweaker ), DerOli82 ( Backport/Customized )
+- Authors: StanH ( Original Author ), DerOli82 ( Backport/Customized )
 - Files: https://github.com/DerOli82/MineTweaker3/releases
 - Permission: https://github.com/stanhebben/MineTweaker3#customized-builds
 
@@ -479,14 +457,14 @@ minecraft original sources.
 
 - Author: ProfMobius
 - Required for: Opis
-- Files: http://minecraft.curseforge.com/mc-mods/76734-mobiuscore/files
-- Licence: http://minecraft.curseforge.com/mc-mods/76734-mobiuscore/license
+- Files: https://minecraft.curseforge.com/projects/mobiuscore/files
+- Licence: https://minecraft.curseforge.com/projects/mobiuscore/license
 
 **ModTweaker2**
 > The MIT License (MIT)
 
 - Authors: jaredlll08, joshiejack, SpitefulFox
-- Files: http://minecraft.curseforge.com/mc-mods/220954-modtweaker/files
+- Files: https://minecraft.curseforge.com/projects/modtweaker/files
 - Licence: https://github.com/jaredlll08/ModTweaker2/blob/master/LICENSE
 
 ## N
@@ -495,28 +473,28 @@ minecraft original sources.
 > Minecraft Mod Public License
 
 - Author: bdew
-- Files: http://minecraft.curseforge.com/mc-mods/63352-nei-addons/files
+- Files: https://minecraft.curseforge.com/projects/nei-addons/files
 - Licence: https://github.com/bdew/neiaddons/blob/mc1710/MMPL-1.0.txt
 
 **NEI Integration**
 > The MIT License (MIT)
 
 - Author: Tonius
-- Files: http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files
+- Files: https://minecraft.curseforge.com/projects/nei-integration/files
 - Licence: https://github.com/Tonius/NEI-Integration/blob/master/LICENSE
 
 **Not Enough Keys**
 > Yes, yes, a thousand times YES, you can use this in your public/private modpack, just don't forget to let me know you've done it with a comment/tweet and don't fall behind on version updates :)
 
 - Author: dmodoomsirius, Country_Gamer, Parker8283
-- Files: http://minecraft.curseforge.com/mc-mods/224614-notenoughkeys/files
+- Files: https://minecraft.curseforge.com/projects/notenoughkeys/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292963-not-enough-keys-making-pressing-buttons-easier
 
 **NEI Not Enough Resources**
 > “Don’t Be a Jerk” non-commercial care-free license.
 
 - Authors: Way2muchnoise, hilburn
-- Files: http://minecraft.curseforge.com/mc-mods/225815-notenoughresources/files
+- Files: https://minecraft.curseforge.com/projects/notenoughresources/files
 - Licence: https://github.com/hilburn/NotEnoughResources/blob/master/LICENSE.md
 
 ## O
@@ -525,22 +503,22 @@ minecraft original sources.
 > The MIT License (MIT)
 
 - Author: OpenMods Team
-- Files: http://minecraft.curseforge.com/mc-mods/228816-openblocks/files
+- Files: https://minecraft.curseforge.com/projects/openblocks/files
 - Licence: https://github.com/OpenMods/OpenBlocks/blob/master/LICENSE
 
 **OpenModsLib**
 > The MIT License (MIT)
 
 - Author: OpenMods Team
-- Files: http://minecraft.curseforge.com/mc-mods/228815-openmodslib/files
+- Files: https://minecraft.curseforge.com/projects/openmodslib/files
 - Licence: https://github.com/OpenMods/OpenModsLib/blob/master/LICENSE
 
 **Opis**
 > Creative Commons Attribution 4.0 International License.
 
 - Author: ProfMobius
-- Files: http://minecraft.curseforge.com/mc-mods/73832-opis/files
-- Licence: http://minecraft.curseforge.com/mc-mods/73832-opis/license
+- Files: https://minecraft.curseforge.com/projects/opis/files
+- Licence: https://minecraft.curseforge.com/projects/opis/license
 
 ## P
 
@@ -548,14 +526,14 @@ minecraft original sources.
 > Can I include one of your mods in my modpack? YES! Just make sure to credit myself (Pam) and Rhodox of the Painterly Pack. Thanks!
 
 - Author: MatrexsVigil
-- Files: http://minecraft.curseforge.com/mc-mods/221857-pams-harvestcraft/files
+- Files: https://minecraft.curseforge.com/projects/pams-harvestcraft/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294413-pams-mods-april-8th-harvestcraft-1-7-10h-random#entry29809669
 
 **Perfect Spawn**
 > GNU Lesser General Public License v3
 
 - Author: Lumien231
-<!-- - Files: https://minecraft.curseforge.com/projects/perfect-spawn/files -->
+- Files: https://minecraft.curseforge.com/projects/perfect-spawn/files
 - Licence: https://github.com/lumien231/Perfect-Spawn/blob/master/LICENSE
 
 **Pressure Pipes**
@@ -578,8 +556,8 @@ minecraft original sources.
 > You can use this mod in any modpack without asking first
 
 - Author: Lumien
-- Files: http://minecraft.curseforge.com/mc-mods/226447-resource-loader/files
-- Permission: http://minecraft.curseforge.com/mc-mods/226447-resource-loader
+- Files: https://minecraft.curseforge.com/projects/resource-loader/files
+- Permission: https://minecraft.curseforge.com/projects/resource-loader
 
 ## S
 
@@ -587,21 +565,21 @@ minecraft original sources.
 > The MIT License (MIT)
 
 - Author: Tonius
-- Files: http://minecraft.curseforge.com/mc-mods/79325-simply-jetpacks/files
+- Files: https://minecraft.curseforge.com/projects/simply-jetpacks/files
 - Licence: https://github.com/Tonius/SimplyJetpacks/blob/master/LICENSE
 
 **Storage Drawers**
 > The MIT License (MIT)
 
 - Author: jaquadro
-- Files: http://minecraft.curseforge.com/mc-mods/223852-storage-drawers/files
+- Files: https://minecraft.curseforge.com/projects/storage-drawers/files
 - Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
 
 **Storage Drawers - Forestry Addon Pack**
 > The MIT License (MIT)
 
 - Author: jaquadro
-- Files: http://minecraft.curseforge.com/mc-mods/231147-storage-drawers-forestry-pack/files
+- Files: https://minecraft.curseforge.com/projects/storage-drawers-forestry-pack/files
 - Licence: https://github.com/jaquadro/StorageDrawers/blob/master/LICENSE
 
 ## T
@@ -629,8 +607,8 @@ minecraft original sources.
 > - Handle any queries and bug reports internally first. This is one of the main reasons I had such a strict anti-modpack policy for such a long time - people using modpacks would come here posting errors that have nothing to do with my mod or that have been fixed ages ago, but still occurs in the modpack because it is using an older 
 
 - Author: Azanor
-- Files: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft/files
-- Permission: http://minecraft.curseforge.com/mc-mods/223628-thaumcraft
+- Files: https://minecraft.curseforge.com/projects/thaumcraft/files
+- Permission: https://minecraft.curseforge.com/projects/thaumcraft
 
 **Thaumcraft - Automagy**
 > Want to include Automagy in your mod pack? Then the following conditions must be met, most of which are based on Thaumcraft's own:
@@ -643,16 +621,16 @@ minecraft original sources.
 > I reserve the right to alter, remove, or add any conditions at any time and for any reason.
 
 - Authors: Tuhljin, Draanor, Lorc
-- Files: http://minecraft.curseforge.com/mc-mods/222153-automagy/files
+- Files: https://minecraft.curseforge.com/projects/automagy/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2125369-tc4-addon-automagy-automation-and-logistics-v0-22
 - Public Permission: https://github.com/combak/ShatteredWorld/blob/master/permissions/Thaumcraft-Automagy.png
 
 **Thaumcraft - Forbidden Magic**
-> I like modpacks. A lot. Like, I can't even remember the last time I played a single mod by itself. I grant blanket permission to use my mod in any modpack, but reserve the right to change my mind.
+> DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 
 - Author: SpitefulFox
-- Files: http://minecraft.curseforge.com/mc-mods/224237-forbidden-magic/files
-- Permission: http://minecraft.curseforge.com/mc-mods/224237-forbidden-magic
+- Files: https://minecraft.curseforge.com/projects/forbidden-magic/files
+- Permission: https://minecraft.curseforge.com/projects/forbidden-magic/license
 
 **Thaumcraft - Inventory Scanning**
 > The MIT License (MIT)
@@ -665,21 +643,21 @@ minecraft original sources.
 >  The GNU General Public License
 
 - Author: T145, HuggableCreep, Tuiren, wiiv
-- Files: http://minecraft.curseforge.com/mc-mods/222182-magistics/files
+- Files: https://minecraft.curseforge.com/projects/magistics/files
 - Licence: https://github.com/T145/magistics/blob/master/LICENSE.txt
 
 **Thaumcraft - Mob Aspects**
 > Public Domain
 
 - Author: Parker8283
-- Files: http://minecraft.curseforge.com/mc-mods/221389-thaumcraft-mob-aspects/files
+- Files: https://minecraft.curseforge.com/projects/thaumcraft-mob-aspects/files
 - Licence: https://github.com/Parker8283/ThaumcraftMobAspects/blob/master/LICENSE
 
 **Thaumcraft - NEI Plugin**
 > You have my permission to include "Thaumcraft NEI Plugin" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.
 
 - Author: DjGiannuzz
-- Files: http://minecraft.curseforge.com/mc-mods/225095-thaumcraft-nei-plugin/files
+- Files: https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin/files
 - Permission: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2237271-1-6-4-1-7-10-thaumcraft-nei-plugin-nei
 
 **Thaumcraft - Node Tracker**
@@ -690,11 +668,11 @@ minecraft original sources.
 - Licence: https://github.com/Dyonovan/TCNodeTracker/blob/master/README.md
 
 **Thaumcraft - Travellers Gear**
-> Public Domain
+> The Ask-me-before-you-do License
 
 - Author: BluSunrize
-- Files: http://minecraft.curseforge.com/mc-mods/224440-travellers-gear/files
-- Licence: http://minecraft.curseforge.com/mc-mods/224440-travellers-gear/license
+- Files: https://minecraft.curseforge.com/projects/travellers-gear/files
+- Licence: https://minecraft.curseforge.com/projects/travellers-gear/license
 
 
 **Thaumcraft - Witching Gadgets**
@@ -702,35 +680,35 @@ minecraft original sources.
 Feel free to look at my code, and even take parts of it, but please follow Wheaton's Law and "Don't be a douche". If you use my code, be so kind and tell people where you got it.
 
 - Author: BluSunrize
-- Files: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/files
-- Licence: http://minecraft.curseforge.com/mc-mods/228268-witching-gadgets/license
+- Files: https://minecraft.curseforge.com/projects/witching-gadgets/files
+- Licence: https://minecraft.curseforge.com/projects/witching-gadgets/license
 
 **ThaumicEnergistics**
 > The MIT License (MIT)
 
 - Author: Nividica
-- Files: http://minecraft.curseforge.com/mc-mods/223666-thaumic-energistics/files
+- Files: https://minecraft.curseforge.com/projects/thaumic-energistics/files
 - Licence: https://github.com/Nividica/ThaumicEnergistics/blob/master/LICENSE
 
 **The Spice of Life**
 > Public Domain
 
 - Author: squeek502
-- Files: http://minecraft.curseforge.com/mc-mods/220811-the-spice-of-life/files
+- Files: https://minecraft.curseforge.com/projects/the-spice-of-life/files
 - Licence: https://github.com/squeek502/SpiceOfLife/blob/1.7.10/LICENSE
 
 **TiC Tooltips**
 > Public Domain
 
 - Author: squeek502
-- Files: http://minecraft.curseforge.com/mc-mods/76845-tic-tooltips/files
+- Files: https://minecraft.curseforge.com/projects/tic-tooltips/files
 - Licence: https://github.com/squeek502/TiC-Tooltips/blob/1.7.10/LICENSE
 
 **Tinker's Construct**
 > Creative Commons Attribution 3.0 Unported License.
 
 - Authors: mDiyo, boni, jadedcat
-- Files: http://minecraft.curseforge.com/mc-mods/74072-tinkers-construct/files
+- Files: https://minecraft.curseforge.com/projects/tinkers-construct/files
 - Licence: https://github.com/SlimeKnights/TinkersConstruct/blob/master/README.md
 
 **Tinker IO**
@@ -744,7 +722,7 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 > Creative Commons Attribution 3.0 Unported License.
 
 - Author: mDiyo, boni, JeanGlassmaker
-- Files: http://minecraft.curseforge.com/mc-mods/78057-tinkers-mechworks/files
+- Files: https://minecraft.curseforge.com/projects/tinkers-mechworks/files
 - Licence: https://github.com/SlimeKnights/TinkersMechworks/blob/master/README.md
 
 **Tinker's Steelworks**
@@ -760,12 +738,12 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 
 - Author: tterrag1098
 - Required for: Waila Plugins
-- Files: http://minecraft.curseforge.com/mc-mods/226082-ttcore/files
+- Files: https://minecraft.curseforge.com/projects/ttcore/files
 - Licence: https://github.com/tterrag1098/ttCore/blob/master/LICENSE
 
 ## U
 
-**UniDict*
+**UniDict**
 > Mozilla Public License 2.0
 
 - Author: WanionCane
@@ -787,21 +765,21 @@ Feel free to look at my code, and even take parts of it, but please follow Wheat
 > Creative Commons Attribution 4.0 International License.
 
 - Author: ProfMobius
-- Files: http://minecraft.curseforge.com/mc-mods/73488-waila/files
-- Licence: http://minecraft.curseforge.com/mc-mods/73488-waila/license
+- Files: https://minecraft.curseforge.com/projects/waila/files
+- Licence: https://minecraft.curseforge.com/projects/waila/license
 
 **Waila Harvestability**
 > Public Domain
 
 - Author: Squeek502
-- Files: http://minecraft.curseforge.com/mc-mods/79287-waila-harvestability/files
+- Files: https://minecraft.curseforge.com/projects/waila-harvestability/files
 - Licence: https://github.com/squeek502/WailaHarvestability/blob/1.7.x/LICENSE
 
 **Waila Plugins**
 > Creative Commons Attribution 4.0 International License.
 
 - Author: tterrag1098
-- Files: http://minecraft.curseforge.com/mc-mods/226119-waila-plugins/files
+- Files: https://minecraft.curseforge.com/projects/waila-plugins/files
 - Licence: https://github.com/tterrag1098/WAILAPlugins/blob/master/LICENSE
 
 **YADM - Yes Another Dimension Manager**
