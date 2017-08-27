@@ -2,6 +2,9 @@
 
 # Version 1.2.6
 
+**Bugfix**
+- HQM - "Die Malstifte" Blood Magic Quest gefixt ( see: https://github.com/combak/ShatteredWorld/issues/322 )
+
 **Mod Updates**
 - AppleMilk&Tea 2.9m to 2.9n
 - AutoPackager 1.5.9 to 1.5.9a
