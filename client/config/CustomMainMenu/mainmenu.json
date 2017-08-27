@@ -1,0 +1,145 @@
+{
+  "images":
+  {
+    "logo":
+    {
+      "image" : "shatteredworld:logo.png",
+      "posX" : -118,
+      "posY" : -100,
+      "width" : 236,
+      "height" : 80,
+      "alignment" : "center"
+    }
+  },
+  
+  "buttons":
+  {
+    "singleplayer":
+    {
+      "text" : "menu.singleplayer",
+      "posX" : -175,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      "shadow" : false,
+      "action" :
+      {
+	  "type" : "openGui",
+	  "gui" : "singleplayer"
+      }
+    },
+    
+    "multiplayer":
+    {
+      "text" : "menu.multiplayer",
+      "posX" : -105,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      "shadow" : false,
+      "action" :
+      {
+	  "type" : "openGui",
+	  "gui" : "multiplayer"
+      }
+    },
+    
+    "mods":
+    {
+      "text" : "Mods",
+      "posX" : -35,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      "shadow" : false,
+      "action" :
+      {
+	  "type" : "openGui",
+	  "gui" : "mods"
+      }
+    },
+	
+    "options":
+    {
+      "text" : "menu.options",
+      "posX" : 35,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+      "shadow" : false,
+      "action" :
+      {
+	  "type" : "openGui",
+	  "gui" : "options"
+      }
+    },
+    
+    "quit":
+    {
+      "text" : "menu.quit",
+      "posX" : 105,
+      "posY" : 0,
+      "width" : 70,
+      "height" : 20,
+      "alignment" : "center",
+
+      "shadow" : false,
+      "action" :
+      {
+	  "type" : "quit"
+      }
+    }
+  },
+  
+  "texts":
+  {
+    "mcversion":
+    {
+      "text": "#mcversion# - #forgeversion#",
+      "posX" : 5,
+      "posY" : -10,
+      "color" : -1,
+      "alignment" : "bottom_left"
+    },
+    "mods":
+    {
+      "text": "#modsactive# active Mods ",
+      "posX" : 5,
+      "posY" : -20,
+      "color" : -1,
+      "alignment" : "bottom_left"
+    },
+    "version":
+    {
+      "text": "Shattered World - Version 1.2.6",
+      "posX" : -200,
+      "posY" : -20,
+      "color" : -1,
+      "alignment" : "bottom_right"
+    },
+    "mojang":
+    {
+      "text" : "Copyright Mojang AB. Do not distribute!",
+      "posX" : -200,
+      "posY" : -10,
+      "color" : -1,
+      "alignment" : "bottom_right"
+    }
+  },
+  
+  "other":
+  { 
+    "panorama":
+    {
+      "images" : "shatteredworld:/background/panorama_%c.png",
+      "animate" : true,
+      "animationSpeed" : 1,
+      "blur" : true,
+      "gradient" : true
+    }
+  }
+}

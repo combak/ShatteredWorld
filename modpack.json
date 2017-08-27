@@ -1,0 +1,65 @@
+{
+    "version" : "1.2.6",
+    "paths":{
+        "development": {
+            "client": "development/client/",
+            "server": "development/server/"
+        }
+    },
+    "common": {
+        "includes": [ 
+            "config/", 
+            "contentScripts/", 
+            "customnpcs/", 
+            "mods/", 
+            "permissions/", 
+            "scripts/"
+        ],
+        "excludes": [
+            "config/AppliedEnergistics2/recipes/generated/",
+            "config/AppliedEnergistics2/recipes/README.html",
+            "config/AppliedEnergistics2/recipes/items.csv",
+            "config/draconicevolution/resources/",
+            "config/MapWriter*",
+            "config/NEI/",
+            "config/HardcoreEnderExpansion.clientsave.cfg",
+            "config/INpureProjects/logs/",
+            "config/cofh/core/friends.cfg",
+            "config/contenttweaker/ContentTweaker-Resourcepack/",
+            "config/contenttweaker/resourcepack/",
+            "config/tabbychat/",
+            
+            "/customnpcs/playerdata/",
+            "/customnpcs/assets/customnpcs/textures/cache/",
+            
+            "mods/carpentersblocks/",
+            "mods/*.jar.disabled"
+        ]
+    },
+    "client": {
+        "includes": [ 
+                "config/CustomMainMenu/", 
+                "config/LaunchGui.cfg", 
+                "mods/custommainmenu-*",
+                "mods/resourceloader-*",
+                "mods/tabbychat-*",
+                "mods/launchgui-client-*",
+                "mods/fullscreenwindowed-*",
+                "resources/"
+            ]
+    },
+    "server": {
+        "includes": [
+            "config/JourneyMapServer/",
+            "mods/journeymap-*",
+            "libraries/",
+            "mc.config",
+            "minecraft_server.1.7.10.jar",
+            "server.jar",
+            "simple-server-launcher.sh"
+        ]
+    },
+    "publish": {
+        "includes": [ "*.md" ]
+    }
+}
