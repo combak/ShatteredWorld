@@ -1,5 +1,25 @@
 # Changelog
 
+# Version 1.2.6
+
+**Mod Updates**
+- AppleMilk&Tea 2.9m to 2.9n
+- AutoPackager 1.5.9 to 1.5.9a
+- Binnie Mods 2.0-pre14 to 2.0.22.7
+- Carpenter Blocks 3.3.7 to 3.3.8.1
+- Chisel 2.5.1.44 to 2.9.5.11
+- CustomNPCs d-2016-02 to d 2017-06
+- DecoCraft 2.3.3 to 2.4.2
+- OpenBlocks 1.5.1 to 1.6
+- OpenModsLib 0.9.1 to 0.10
+- Spice of life 1.3.1 to 1.3.8
+- TiCTooltips 1.2.4 to 1.2.5
+- Veinminer 0.34.1r473+4d066f1 to 0.36.0.496+28a7f13
+
+**Mod Removed**
+- Binnie Patcher
+- Limited Resources
+
 # Version 1.2.5
 
 **Bugfix**

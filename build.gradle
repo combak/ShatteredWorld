@@ -68,7 +68,7 @@ task syncCommon( type : Sync ) {
     into "common/"
     
     includes = modpack.common.includes
-    excludes = modpack.client.includes
+    excludes = modpack.common.excludes.plus( modpack.client.includes )
 }
 
 task syncClient( type : Sync ) {
