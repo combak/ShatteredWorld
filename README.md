@@ -3,11 +3,11 @@
 ## Information
 
 ## Licences & Permissions
-- Mod Licences & Permissions: https://github.com/combak/ShatteredWorld/blob/master/Licences.md
-- Licence for our Artworks: https://github.com/combak/ShatteredWorld/blob/master/Licence-Artwork.md
+- Mod Licences & Permissions: https://github.com/combak/ShatteredWorld/blob/master/LICENCES.md
+- Licence for our Artworks: https://github.com/combak/ShatteredWorld/blob/master/LICENCE-ARTWORK.md
 
 ## Used Mods & Versions
-https://github.com/combak/ShatteredWorld/blob/master/Versions.md
+https://github.com/combak/ShatteredWorld/blob/master/VERSIONS.md
 
 ## Special thanks...
 ### ... to all mod authors
