@@ -5,7 +5,7 @@
         {
             "OptionSlot": 0,
             "Option": {
-                "DialogCommand": "/yadm tp world:InnerCore 0 120 -10000 @dp",
+                "DialogCommand": "/yadm tp -1 0 120 -10000 @dp",
                 "Dialog": -1,
                 "Title": "Ich möchte zur nördlichen Expedition.",
                 "DialogColor": 14737632,
@@ -15,7 +15,7 @@
         {
             "OptionSlot": 1,
             "Option": {
-                "DialogCommand": "/yadm tp world:InnerCore 10000 120 0 @dp",
+                "DialogCommand": "/yadm tp -1 10000 120 0 @dp",
                 "Dialog": -1,
                 "Title": "Ich möchte zur östlichen Expedition.",
                 "DialogColor": 14737632,
@@ -25,7 +25,7 @@
         {
             "OptionSlot": 2,
             "Option": {
-                "DialogCommand": "/yadm tp world:InnerCore 0 120 10000 @dp",
+                "DialogCommand": "/yadm tp -1 0 120 10000 @dp",
                 "Dialog": -1,
                 "Title": "Ich möchte zur südlichen Expedition",
                 "DialogColor": 14737632,
@@ -35,7 +35,7 @@
         {
             "OptionSlot": 3,
             "Option": {
-                "DialogCommand": "/yadm tp world:InnerCore -10000 120 0 @dp",
+                "DialogCommand": "/yadm tp -1 -10000 120 0 @dp",
                 "Dialog": -1,
                 "Title": "Ich möchte zur westlichen Expedition",
                 "DialogColor": 14737632,
@@ -87,7 +87,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1481222156095L,
+        "TimePast": 1491906739817L,
         "Time": 0L,
         "Subject": ""
     }

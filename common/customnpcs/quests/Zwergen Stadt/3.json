@@ -6,7 +6,7 @@
     "QuestCompletion": 0,
     "IgnoreNBT": 0b,
     "Title": "Borims Einlass",
-    "Text": "Borim die Wache der Zwergen Stadt gewährt dir einlass. Wenn du ihm eine Liste von dem Largermeister der Zwerge der auf dem Berg vor dem Eingang ist hollst.",
+    "Text": "Borim die Wache der Zwergen Stadt gewährt dir Einlass. Wenn du ihm eine Liste von dem Lagermeister der Zwerge der auf dem Berg vor dem Eingang ist holst.",
     "QuestFactionPoints": {
         "DecreaseFaction1Points": 0b,
         "OptionFaction2Points": 100,
@@ -27,7 +27,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1480766254960L,
+        "TimePast": 1501356245037L,
         "Time": 0L,
         "Subject": ""
     },
@@ -45,7 +45,10 @@
                 "tag": {
                     "display": {
                         "Name": "Larger Liste von Grasem"
-                    }
+                    },
+                    "id": 5460s,
+                    "Count": 1b,
+                    "Damage": 0s
                 },
                 "Damage": 0s
             }

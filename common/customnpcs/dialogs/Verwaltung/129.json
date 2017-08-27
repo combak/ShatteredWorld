@@ -5,11 +5,21 @@
         {
             "OptionSlot": 0,
             "Option": {
-                "DialogCommand": "",
-                "Dialog": 42,
-                "Title": "Verrat mit doch was über die Letsplayer.",
+                "DialogCommand": "/yadm tp 1 -16 89 174 @dp",
+                "Dialog": -1,
+                "Title": "Bring mich zu diesem Ort.",
                 "DialogColor": 14737632,
-                "OptionType": 1
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": -1,
+                "Title": "Ich muss mich vorbereiten.",
+                "DialogColor": 14737632,
+                "OptionType": 0
             }
         }
     ],
@@ -32,7 +42,7 @@
     "OptionFaction1Points": 100,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Regeln 2",
+    "DialogTitle": "9-The End",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
@@ -40,7 +50,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "4) Es ist den Anweisungen von GM´s folge zu leisten.5) Jegliche rassistischen und feindlichen Äußerungen und Bildnisse werden mit sofortigem Serverbann bestraft.6)Alles außerhalb deiner Dimension werde ich persönlich weder ahnden noch verfolgen , und in deine Dimension hast du hoffentlich nur vertrauenswürdige Leute erlaubt. Das mit den eigenen Dimensionen ist tatsächlich zum Teil genau diesem Aspekt geschuldet. In einem vergangenen Projekt hat das so viel Zeit in Anspruch genommen das man zu gar nix mehr kam.Ansonsten habe viel Spaß auf dem Server.",
+    "DialogText": "Einst der Nordpol dieser Welt, nun in ewige Dunkelheit gehüllt und von mächtigen magischen Wesen bewohnt.Nur wenige gingen an diesen Ort und kamen lebend oder bei Verstand zurück, willst du wirklich diese Reise antreten?",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -57,7 +67,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1484314459355L,
+        "TimePast": 1490031700766L,
         "Time": 0L,
         "Subject": ""
     }
